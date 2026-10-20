@@ -1,0 +1,252 @@
+{
+ "post_id": "TEST_POST_01",
+ "date": "2026-10-21",
+ "topic": "انسجام: هویت به‌مثابه‌ی سیستم (نمونه‌ی آزمون)",
+ "pillar": "brand_visual_strategy",
+ "selection": {
+  "score_total": 0,
+  "score_breakdown": {},
+  "confidence": "low",
+  "topic_kind": "evergreen",
+  "trend_verified": false
+ },
+ "slides": [
+  {
+   "post_id": "TEST_POST_01",
+   "slide_number": 1,
+   "role": "hook",
+   "layout": "cover",
+   "headline": "برند شما لوگو نیست؛ سیستمی از تصمیم‌هاست.",
+   "body": "",
+   "central_claim": "برند مجموعه‌ای از تصمیم‌های هماهنگ است، نه یک نشانه.",
+   "claim_type": "interpretation",
+   "background": {
+    "mode": "primary"
+   },
+   "visual_metaphor": "تایپوگرافی‌محور؛ در این نمونه تصویر مفهومی تولید نشده است",
+   "art_direction": {
+    "thesis": "برند مجموعه‌ای از تصمیم‌های هماهنگ است، نه یک نشانه.",
+    "subject": "فقط تایپوگرافی و فضای خالی",
+    "framing": "قاب بسته، بدون سوژه",
+    "composition": "بلوک متن در ناحیه‌ی تعیین‌شده، فضای منفی آزاد",
+    "lighting": "تخت",
+    "contrast": "بالا",
+    "negative_space": "حداقل ۴۰٪ قاب",
+    "typography_zone": "center",
+    "why_this_image": "نمونه‌ی آزمون رندرر؛ بدون تصویر",
+    "forbidden_cliche": "لامپ، دست‌دادن، نمودار صعودی"
+   },
+   "evidence": [],
+   "qa_status": "DRAFT"
+  },
+  {
+   "post_id": "TEST_POST_01",
+   "slide_number": 2,
+   "role": "question",
+   "layout": "question",
+   "headline": "چرا برندهایی با لوگوی زیبا هنوز مبهم‌اند؟",
+   "body": "",
+   "central_claim": "زیبایی نشانه برابر با وضوح معنا نیست.",
+   "claim_type": "question",
+   "background": {
+    "mode": "paper"
+   },
+   "visual_metaphor": "تایپوگرافی‌محور؛ در این نمونه تصویر مفهومی تولید نشده است",
+   "art_direction": {
+    "thesis": "زیبایی نشانه برابر با وضوح معنا نیست.",
+    "subject": "فقط تایپوگرافی و فضای خالی",
+    "framing": "قاب بسته، بدون سوژه",
+    "composition": "بلوک متن در ناحیه‌ی تعیین‌شده، فضای منفی آزاد",
+    "lighting": "تخت",
+    "contrast": "بالا",
+    "negative_space": "حداقل ۴۰٪ قاب",
+    "typography_zone": "center",
+    "why_this_image": "نمونه‌ی آزمون رندرر؛ بدون تصویر",
+    "forbidden_cliche": "لامپ، دست‌دادن، نمودار صعودی"
+   },
+   "evidence": [],
+   "qa_status": "DRAFT"
+  },
+  {
+   "post_id": "TEST_POST_01",
+   "slide_number": 3,
+   "role": "context",
+   "layout": "body",
+   "headline": "مشتری لوگو را تنها نمی‌بیند.",
+   "body": "او رنگ، لحن، قیمت، سرعت پاسخ و تجربه‌ی تحویل را کنار هم می‌خواند.",
+   "central_claim": "مخاطب نشانه‌ها را در کنار هم تفسیر می‌کند.",
+   "claim_type": "interpretation",
+   "background": {
+    "mode": "primary"
+   },
+   "visual_metaphor": "تایپوگرافی‌محور؛ در این نمونه تصویر مفهومی تولید نشده است",
+   "art_direction": {
+    "thesis": "مخاطب نشانه‌ها را در کنار هم تفسیر می‌کند.",
+    "subject": "فقط تایپوگرافی و فضای خالی",
+    "framing": "قاب بسته، بدون سوژه",
+    "composition": "بلوک متن در ناحیه‌ی تعیین‌شده، فضای منفی آزاد",
+    "lighting": "تخت",
+    "contrast": "بالا",
+    "negative_space": "حداقل ۴۰٪ قاب",
+    "typography_zone": "bottom",
+    "why_this_image": "نمونه‌ی آزمون رندرر؛ بدون تصویر",
+    "forbidden_cliche": "لامپ، دست‌دادن، نمودار صعودی"
+   },
+   "evidence": [],
+   "qa_status": "DRAFT"
+  },
+  {
+   "post_id": "TEST_POST_01",
+   "slide_number": 4,
+   "role": "insight",
+   "layout": "body",
+   "headline": "معنا را گیرنده می‌سازد.",
+   "body": "فرستنده فقط نشانه می‌فرستد؛ رمزگشایی در ذهن مخاطب رخ می‌دهد.",
+   "central_claim": "در مدل ارتباط، معنا در رمزگشایی ساخته می‌شود.",
+   "claim_type": "interpretation",
+   "background": {
+    "mode": "paper"
+   },
+   "visual_metaphor": "تایپوگرافی‌محور؛ در این نمونه تصویر مفهومی تولید نشده است",
+   "art_direction": {
+    "thesis": "در مدل ارتباط، معنا در رمزگشایی ساخته می‌شود.",
+    "subject": "فقط تایپوگرافی و فضای خالی",
+    "framing": "قاب بسته، بدون سوژه",
+    "composition": "بلوک متن در ناحیه‌ی تعیین‌شده، فضای منفی آزاد",
+    "lighting": "تخت",
+    "contrast": "بالا",
+    "negative_space": "حداقل ۴۰٪ قاب",
+    "typography_zone": "bottom",
+    "why_this_image": "نمونه‌ی آزمون رندرر؛ بدون تصویر",
+    "forbidden_cliche": "لامپ، دست‌دادن، نمودار صعودی"
+   },
+   "evidence": [],
+   "qa_status": "DRAFT"
+  },
+  {
+   "post_id": "TEST_POST_01",
+   "slide_number": 5,
+   "role": "tension",
+   "layout": "body",
+   "headline": "هر ناهم‌خوانی کوچک، نویز است.",
+   "body": "رنگی که با لحن نمی‌خواند، وعده‌ای که با تحویل نمی‌خواند.",
+   "central_claim": "ناهم‌خوانی را می‌توان نویز در کانال ارتباط دید.",
+   "claim_type": "metaphor",
+   "background": {
+    "mode": "graphite"
+   },
+   "visual_metaphor": "تایپوگرافی‌محور؛ در این نمونه تصویر مفهومی تولید نشده است",
+   "art_direction": {
+    "thesis": "ناهم‌خوانی را می‌توان نویز در کانال ارتباط دید.",
+    "subject": "فقط تایپوگرافی و فضای خالی",
+    "framing": "قاب بسته، بدون سوژه",
+    "composition": "بلوک متن در ناحیه‌ی تعیین‌شده، فضای منفی آزاد",
+    "lighting": "تخت",
+    "contrast": "بالا",
+    "negative_space": "حداقل ۴۰٪ قاب",
+    "typography_zone": "bottom",
+    "why_this_image": "نمونه‌ی آزمون رندرر؛ بدون تصویر",
+    "forbidden_cliche": "لامپ، دست‌دادن، نمودار صعودی"
+   },
+   "evidence": [],
+   "qa_status": "DRAFT"
+  },
+  {
+   "post_id": "TEST_POST_01",
+   "slide_number": 6,
+   "role": "practice",
+   "layout": "body",
+   "headline": "یک آزمون ساده.",
+   "body": "سه نقطه‌ی تماس برندتان را کنار هم بگذارید. اگر بدون لوگو هم بشود فهمید که از یک برندند، سیستم دارید.",
+   "central_claim": "آزمون تشخیص بدون لوگو معیار انسجام است.",
+   "claim_type": "interpretation",
+   "background": {
+    "mode": "primary"
+   },
+   "visual_metaphor": "تایپوگرافی‌محور؛ در این نمونه تصویر مفهومی تولید نشده است",
+   "art_direction": {
+    "thesis": "آزمون تشخیص بدون لوگو معیار انسجام است.",
+    "subject": "فقط تایپوگرافی و فضای خالی",
+    "framing": "قاب بسته، بدون سوژه",
+    "composition": "بلوک متن در ناحیه‌ی تعیین‌شده، فضای منفی آزاد",
+    "lighting": "تخت",
+    "contrast": "بالا",
+    "negative_space": "حداقل ۴۰٪ قاب",
+    "typography_zone": "bottom",
+    "why_this_image": "نمونه‌ی آزمون رندرر؛ بدون تصویر",
+    "forbidden_cliche": "لامپ، دست‌دادن، نمودار صعودی"
+   },
+   "evidence": [],
+   "qa_status": "DRAFT"
+  },
+  {
+   "post_id": "TEST_POST_01",
+   "slide_number": 7,
+   "role": "conclusion",
+   "layout": "statement",
+   "headline": "انسجام یعنی معنا، فرم و کاربرد یک حرف بزنند.",
+   "body": "",
+   "central_claim": "انسجام = هم‌راستایی معنا، فرم و کاربرد.",
+   "claim_type": "interpretation",
+   "background": {
+    "mode": "paper"
+   },
+   "visual_metaphor": "تایپوگرافی‌محور؛ در این نمونه تصویر مفهومی تولید نشده است",
+   "art_direction": {
+    "thesis": "انسجام = هم‌راستایی معنا، فرم و کاربرد.",
+    "subject": "فقط تایپوگرافی و فضای خالی",
+    "framing": "قاب بسته، بدون سوژه",
+    "composition": "بلوک متن در ناحیه‌ی تعیین‌شده، فضای منفی آزاد",
+    "lighting": "تخت",
+    "contrast": "بالا",
+    "negative_space": "حداقل ۴۰٪ قاب",
+    "typography_zone": "center",
+    "why_this_image": "نمونه‌ی آزمون رندرر؛ بدون تصویر",
+    "forbidden_cliche": "لامپ، دست‌دادن، نمودار صعودی"
+   },
+   "evidence": [],
+   "qa_status": "DRAFT"
+  },
+  {
+   "post_id": "TEST_POST_01",
+   "slide_number": 8,
+   "role": "prompt",
+   "layout": "closing",
+   "headline": "کدام نقطه‌ی تماس برند شما بیشترین نویز را دارد؟",
+   "body": "برای ما بنویسید.",
+   "central_claim": "پرسش گفت‌وگوآفرین.",
+   "claim_type": "question",
+   "background": {
+    "mode": "primary"
+   },
+   "visual_metaphor": "تایپوگرافی‌محور؛ در این نمونه تصویر مفهومی تولید نشده است",
+   "art_direction": {
+    "thesis": "پرسش گفت‌وگوآفرین.",
+    "subject": "فقط تایپوگرافی و فضای خالی",
+    "framing": "قاب بسته، بدون سوژه",
+    "composition": "بلوک متن در ناحیه‌ی تعیین‌شده، فضای منفی آزاد",
+    "lighting": "تخت",
+    "contrast": "بالا",
+    "negative_space": "حداقل ۴۰٪ قاب",
+    "typography_zone": "center",
+    "why_this_image": "نمونه‌ی آزمون رندرر؛ بدون تصویر",
+    "forbidden_cliche": "لامپ، دست‌دادن، نمودار صعودی"
+   },
+   "evidence": [],
+   "qa_status": "DRAFT"
+  }
+ ],
+ "caption": "نمونه‌ی آزمون رندرر؛ متن واقعی نیست.",
+ "cta": "کدام نقطه‌ی تماس برند شما بیشترین نویز را دارد؟",
+ "alt_text": [
+  "اسلاید 1",
+  "اسلاید 2",
+  "اسلاید 3",
+  "اسلاید 4",
+  "اسلاید 5",
+  "اسلاید 6",
+  "اسلاید 7",
+  "اسلاید 8"
+ ],
+ "status": "DRAFT"
+}

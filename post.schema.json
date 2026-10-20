@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CarouselPost",
+  "type": "object",
+  "required": ["post_id", "date", "topic", "pillar", "selection", "slides", "caption", "alt_text", "status"],
+  "properties": {
+    "post_id": {"type": "string"},
+    "date": {"type": "string", "format": "date"},
+    "topic": {"type": "string"},
+    "pillar": {"enum": ["human_psychology_philosophy", "brand_visual_strategy", "bridge"]},
+    "selection": {
+      "type": "object",
+      "required": ["score_total", "score_breakdown", "confidence", "topic_kind"],
+      "properties": {
+        "score_total": {"type": "number", "minimum": 0, "maximum": 100},
+        "score_breakdown": {"type": "object"},
+        "confidence": {"enum": ["high", "medium", "low"]},
+        "topic_kind": {"enum": ["breaking", "emerging", "hidden_gem", "evergreen", "commercial"]},
+        "trend_verified": {"type": "boolean"}
+      }
+    },
+    "slides": {"type": "array", "minItems": 8, "maxItems": 8, "items": {"$ref": "slide_brief.schema.json"}},
+    "caption": {"type": "string"},
+    "cta": {"type": "string"},
+    "alt_text": {"type": "array", "minItems": 8, "maxItems": 8, "items": {"type": "string"}},
+    "status": {"enum": ["DRAFT", "READY_FOR_REVIEW", "BLOCKED_QA"]}
+  }
+}

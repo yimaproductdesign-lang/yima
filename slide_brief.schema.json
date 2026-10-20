@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EditorialSlideBrief",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["post_id", "slide_number", "role", "layout", "headline", "central_claim", "claim_type", "background", "visual_metaphor", "art_direction", "evidence", "qa_status"],
+  "properties": {
+    "post_id": {"type": "string"},
+    "slide_number": {"type": "integer", "minimum": 1, "maximum": 8},
+    "role": {"enum": ["hook", "question", "context", "insight", "tension", "practice", "conclusion", "prompt"]},
+    "layout": {"enum": ["cover", "statement", "question", "body", "closing"]},
+    "headline": {"type": "string", "minLength": 1, "maxLength": 90},
+    "body": {"type": "string", "maxLength": 260},
+    "central_claim": {"type": "string"},
+    "claim_type": {"enum": ["fact", "interpretation", "metaphor", "question"]},
+    "background": {
+      "type": "object",
+      "required": ["mode"],
+      "properties": {
+        "mode": {"enum": ["primary", "paper", "graphite", "image"]},
+        "image_path": {"type": "string"},
+        "scrim_opacity": {"type": "number", "minimum": 0, "maximum": 0.85}
+      }
+    },
+    "visual_metaphor": {"type": "string"},
+    "art_direction": {
+      "type": "object",
+      "required": ["thesis", "subject", "framing", "composition", "lighting", "contrast", "negative_space", "typography_zone", "why_this_image", "forbidden_cliche"],
+      "additionalProperties": false,
+      "properties": {
+        "thesis": {"type": "string"},
+        "subject": {"type": "string"},
+        "framing": {"type": "string"},
+        "composition": {"type": "string"},
+        "lighting": {"type": "string"},
+        "contrast": {"type": "string"},
+        "negative_space": {"type": "string"},
+        "typography_zone": {"enum": ["top", "center", "bottom", "left", "right"]},
+        "why_this_image": {"type": "string"},
+        "forbidden_cliche": {"type": "string"}
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["url", "publisher", "event_date", "retrieved_at", "claim"],
+        "properties": {
+          "url": {"type": "string", "format": "uri"},
+          "publisher": {"type": "string"},
+          "event_date": {"type": "string"},
+          "retrieved_at": {"type": "string", "format": "date-time"},
+          "claim": {"type": "string"}
+        }
+      }
+    },
+    "qa_status": {"enum": ["DRAFT", "NEEDS_REVISION", "APPROVED", "BLOCKED_QA"]}
+  },
+  "allOf": [
+    {"if": {"properties": {"claim_type": {"const": "fact"}}, "required": ["claim_type"]},
+     "then": {"properties": {"evidence": {"minItems": 1}}}},
+    {"if": {"properties": {"background": {"properties": {"mode": {"const": "image"}}, "required": ["mode"]}}, "required": ["background"]},
+     "then": {"properties": {"background": {"required": ["mode", "image_path", "scrim_opacity"]}}}}
+  ]
+}

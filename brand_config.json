@@ -1,0 +1,158 @@
+{
+  "version": "2.1",
+  "project": "BEHNOOD KAVIAN AI EDITORIAL STUDIO",
+  "timezone": "Asia/Dubai",
+  "delivery_local_time": "08:00",
+  "daily_carousels": 2,
+  "slides_per_carousel": 8,
+  "canvas": {
+    "width": 1080,
+    "height": 1350,
+    "format": "PNG",
+    "color_space": "sRGB",
+    "safe_margin_px": 72
+  },
+  "design_direction": "Extra-Minimal Conceptual Editorial",
+  "palette": {
+    "primary": "#152C37",
+    "paper": "#F3F0E9",
+    "graphite": "#292E32",
+    "slate": "#788B8D",
+    "teal": "#356C7C"
+  },
+  "allowed_text_pairs": {
+    "_note": "Measured WCAG contrast. Body text needs >= 4.5; large text (>= 40px or >= 28px bold) needs >= 3.0. Pairs not listed are forbidden for text.",
+    "paper_on_primary": {
+      "fg": "paper",
+      "bg": "primary",
+      "ratio": 12.75,
+      "use": "all text"
+    },
+    "graphite_on_paper": {
+      "fg": "graphite",
+      "bg": "paper",
+      "ratio": 12.05,
+      "use": "all text"
+    },
+    "teal_on_paper": {
+      "fg": "teal",
+      "bg": "paper",
+      "ratio": 5.14,
+      "use": "all text"
+    },
+    "slate_on_primary": {
+      "fg": "slate",
+      "bg": "primary",
+      "ratio": 4.06,
+      "use": "large text and annotations only (>= 28px)"
+    },
+    "slate_on_graphite": {
+      "fg": "slate",
+      "bg": "graphite",
+      "ratio": 3.84,
+      "use": "large text only"
+    },
+    "slate_on_paper": {
+      "fg": "slate",
+      "bg": "paper",
+      "ratio": 3.14,
+      "use": "large decorative text only (>= 40px); never body"
+    }
+  },
+  "forbidden_text_pairs": [
+    "teal_on_primary (2.48)",
+    "teal_on_graphite (2.34)",
+    "graphite_on_primary (1.06)",
+    "slate_on_teal (1.64)"
+  ],
+  "fonts": {
+    "family": "DoranFaNum",
+    "files": {
+      "Light": "assets/fonts/DoranFaNum-Light.ttf",
+      "Regular": "assets/fonts/DoranFaNum-Regular.ttf",
+      "Medium": "assets/fonts/DoranFaNum-Medium.ttf",
+      "Bold": "assets/fonts/DoranFaNum-Bold.ttf",
+      "ExtraBold": "assets/fonts/DoranFaNum-ExtraBold.ttf"
+    },
+    "weights": {
+      "headline": "ExtraBold",
+      "subhead": "Medium",
+      "body": "Regular",
+      "annotation": "Light"
+    },
+    "css_weight": {
+      "Light": 300,
+      "Regular": 400,
+      "Medium": 500,
+      "Bold": 700,
+      "ExtraBold": 800
+    },
+    "license_status": "CONFIRMED by owner 2026-10-20",
+    "min_size_px": {
+      "headline": 64,
+      "subhead": 40,
+      "body": 38,
+      "annotation": 28
+    }
+  },
+  "logo": {
+    "files": {
+      "on_dark": {
+        "path": "assets/logo/logo_paper_400x877.png",
+        "sha256": "35352b38a9645e07c4a235f6c4a03ee85f56668e0f031209b0444b013ef48443",
+        "size": [
+          400,
+          877
+        ]
+      },
+      "on_light": {
+        "path": "assets/logo/logo_teal_400x877.png",
+        "sha256": "ca4b82459d4a04679daf47d31a6c12492eebb3ddf79453b0e3265bc4d3caf904",
+        "size": [
+          400,
+          877
+        ]
+      }
+    },
+    "unused_candidates": {
+      "path": "assets/logo/logo_teal_201x364.png (+ white)",
+      "reason": "Horizontally stretched about 21% versus the 400x877 master (dots measure 1.22-1.27 wide:high instead of 1.0). Not used."
+    },
+    "confirmed_by_owner": true,
+    "render_height_px": 110,
+    "max_render_height_px": 877,
+    "clear_space_px": 36,
+    "position": "bottom-left",
+    "rules": [
+      "never alter the shape; only flat palette fills of the master",
+      "never rescale non-uniformly",
+      "never upscale above native size",
+      "never redraw"
+    ],
+    "master": {
+      "path": "assets/logo/logo_black_400x877.png",
+      "sha256": "d8cee776ae2683515ea392a8f56ba7d1f37dae3a42fe721af6b077257027f2e6",
+      "size": [
+        400,
+        877
+      ]
+    },
+    "derivation": "on_dark/on_light are flat-colour fills of the master alpha channel (shape pixels untouched)."
+  },
+  "text_language": "fa-IR",
+  "direction": "rtl",
+  "persian_numbers": true,
+  "orthography_reference": "رسم‌الخط مجله‌ی پشت‌بام (تیر ۱۴۰۵)",
+  "prose_reference": "دکتر داریوش آشوری، چند نکته برای بهبودِ شیوه‌ی نگارشِ فارسی",
+  "qa": {
+    "mandatory_threshold": 85,
+    "critical_failures_block_delivery": true,
+    "max_reworks": 2,
+    "status_labels": [
+      "READY_FOR_REVIEW",
+      "BLOCKED_QA"
+    ]
+  },
+  "review_before_publication": true,
+  "publish_automatically": false
+}
