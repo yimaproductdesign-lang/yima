@@ -69,6 +69,25 @@ def schedule(reel):
         t = 0.0
         for s, d, m in zip(scenes, durs, mins):
             s["start"] = round(t, 3); t += m + f * (d - m); s["end"] = round(t, 3)
+    mood = (reel.get("audio") or {}).get("mood")
+    if mood:  # snap every cut onto the beat of the music bed
+        import math, reel_music
+        beat = 60 / reel_music.MOODS[mood]["bpm"]; t = 0.0
+        for s in scenes:
+            d = s["end"] - s["start"]; d = max(1, math.ceil(d / beat - 0.2)) * beat
+            s["start"] = round(t, 4); t += d; s["end"] = round(t, 4)
+        def need(s):
+            last = max([w["t"] for l in s["lines"] for w in l["words"]] or [0])
+            nw = sum(len(l["words"]) for l in s["lines"])
+            return max(last + 0.42 + 0.8 if s["lines"] else 0, nw / 3.0, 2.2, 3.0 if s["logo"] else 0)
+        durs = [s["end"] - s["start"] for s in scenes]
+        while sum(durs) > tmax:
+            i = max(range(len(scenes)), key=lambda k: durs[k] - need(scenes[k]))
+            if durs[i] - beat < need(scenes[i]): break
+            durs[i] -= beat
+        t = 0.0
+        for s, d in zip(scenes, durs):
+            s["start"] = round(t, 4); t += d; s["end"] = round(t, 4)
     gstart = None
     for i, sc in enumerate(scenes):
         m = sc["motif"] or {}; g = m.get("group")
@@ -199,7 +218,7 @@ function build(si){
   const g=s.motif&&s.motif.group||null;
   if(!(g&&g===curGroup&&M)){svg.innerHTML='';M=null;curGroup=null;
     if(s.motif){M=Object.create(MOTIFS[s.motif.type]);M.init(s.motif.params||{},C);curGroup=g;}}
-  logo.style.display=s.logo?'block':'none';if(s.logo)logo.src=s.theme.logo_url;
+  logo.style.display=s.logo?'block':'none';if(s.logo)logo.src=s.theme.logo_url;const sg=document.getElementById('sig');sg.style.display=s.logo?'block':'none';sg.textContent=SIG;sg.style.color=C.fg;
   if(s.image){imgwrap.style.display='block';bgimg.src=s.image.url;tint.style.background=C.bg;}else{imgwrap.style.display='none';}
 }
 function render(t){
@@ -215,12 +234,12 @@ function render(t){
   txt.style.opacity=fade;svg.style.opacity=mf;logo.style.opacity=fade;imgwrap.style.opacity=fade;
   if(s.image){bgimg.style.transform=`scale(${1+.08*u/dur})`;}
   if(M)M.update(t-s.mstart,dur);
-  if(s.logo){const p=ease(clamp(u/.8));logo.style.transform=`translate(-50%,-50%) scale(${.94+.06*p})`;}
+  if(s.logo){const p=ease(clamp(u/.8));logo.style.transform=`translate(-50%,-50%) scale(${.94+.06*p})`;const q=ease(clamp((u-.6)/.6)),sg=document.getElementById('sig');sg.style.opacity=q*fade;sg.style.transform=`translateY(${(1-q)*20}px)`;}
 }
 window.render=render;
 window.measure=function(){return {fit:window.__fit,words:words.map(e=>{const b=e.getBoundingClientRect();return {w:e.textContent,l:b.left,r:b.right,t:b.top,b:b.bottom,fs:parseFloat(e.style.fontSize),tt:parseFloat(e.dataset.t),li:parseInt(e.dataset.li)};}),
   fonts:[...new Set(words.map(e=>getComputedStyle(e).fontFamily))],font_ok:document.fonts.check('800 40px DoranFaNum'),
-  logo:document.getElementById('logo').style.display==='block'?(()=>{const b=document.getElementById('logo').getBoundingClientRect();return {l:b.left,r:b.right,t:b.top,b:b.bottom,nw:document.getElementById('logo').naturalWidth,nh:document.getElementById('logo').naturalHeight}})():null};};
+  sig:(()=>{const e=document.getElementById('sig');if(e.style.display!=='block')return null;const b=e.getBoundingClientRect();return {text:e.textContent,t:b.top,b:b.bottom,font:getComputedStyle(e).fontFamily};})(),logo:document.getElementById('logo').style.display==='block'?(()=>{const b=document.getElementById('logo').getBoundingClientRect();return {l:b.left,r:b.right,t:b.top,b:b.bottom,nw:document.getElementById('logo').naturalWidth,nh:document.getElementById('logo').naturalHeight}})():null};};
 """
 
 
@@ -243,8 +262,9 @@ html,body{{width:{W}px;height:{H}px;overflow:hidden;background:#000}}
 .w{{display:inline-block;position:relative;will-change:transform,opacity,filter}}
 .em::after{{content:'';position:absolute;right:0;left:0;bottom:-2px;height:7px;border-radius:4px;background:var(--ac);transform:scaleX(var(--u,0));transform-origin:right}}
 #logo{{position:absolute;left:50%;top:760px;height:420px;width:auto;transform:translate(-50%,-50%);display:none}}
-</style></head><body><div id="stage"><div id="imgwrap"><img id="bgimg"><div id="tint"></div></div><svg id="motif" viewBox="0 0 {W} {H}"></svg><div id="txt"></div><img id="logo"></div>
-<script>const SC={json.dumps(scenes, ensure_ascii=False)};const SAFE_TXT_H={txt_h};{JS}</script></body></html>"""
+#sig{{position:absolute;left:0;right:0;top:1380px;text-align:center;font-weight:500;font-size:56px;letter-spacing:.02em;display:none;direction:rtl}}
+</style></head><body><div id="stage"><div id="imgwrap"><img id="bgimg"><div id="tint"></div></div><svg id="motif" viewBox="0 0 {W} {H}"></svg><div id="txt"></div><img id="logo"><div id="sig"></div></div>
+<script>const SC={json.dumps(scenes, ensure_ascii=False)};const SAFE_TXT_H={txt_h};const SIG={json.dumps(CFG['signature']['text'], ensure_ascii=False)};{JS}</script></body></html>"""
 
 
 def main(reel_path, out_dir):
@@ -272,7 +292,7 @@ def main(reel_path, out_dir):
         page.evaluate(f"render({scenes[0]['end'] - 0.2})"); page.screenshot(path=str(out / "cover.png"), clip={"x": 0, "y": 0, "width": W, "height": H})
         br.close()
     (out / "reel_metrics.json").write_text(json.dumps(metrics, indent=1), encoding="utf8")
-    reel_audio.synth(scenes, total, out / "audio.wav")
+    reel_audio.synth(scenes, total, out / "audio.wav", reel.get("audio") or {})
     mp4 = out / f"{reel['reel_id']}.mp4"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-framerate", str(FPS), "-i", str(out / "frames" / "%05d.jpg"), "-i", str(out / "audio.wav"),
                     "-c:v", "libx264", "-preset", "medium", "-crf", "17", "-pix_fmt", "yuv420p", "-r", str(FPS), "-c:a", "aac", "-b:a", "192k",

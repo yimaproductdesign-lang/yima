@@ -1,0 +1,523 @@
+{
+ "reel_id": "TEST_REEL_dark",
+ "date": "2026-10-21",
+ "topic": "درآمد و تغییر شخصیت: فراتحلیلی با اثرهای کوچک",
+ "pillar": "human_psychology_philosophy",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "پول آدم را *عوض* می‌کند.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "یک نقطه‌ی برجسته میان نقطه‌های هم‌شکل: «یک نفر» در میان جمع",
+   "evidence": [],
+   "motif": {
+    "type": "grid",
+    "group": "g1",
+    "params": {
+     "path": [
+      5,
+      6,
+      10
+     ],
+     "hop_t": 3.0
+    }
+   }
+  },
+  {
+   "id": "S2",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "اما نه آن‌طور که فکر می‌کنید.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "همان نقطه جابه‌جا می‌شود، ولی آرام؛ ایده‌ی «تغییر» پیش از «اندازه‌ی تغییر»",
+   "evidence": [],
+   "motif": {
+    "type": "grid",
+    "group": "g1"
+   }
+  },
+  {
+   "id": "S3",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "در فیلم‌ها، پول آدم را *یک‌شبه* عوض می‌کند.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "metaphor",
+   "motion_rationale": "دوپاره‌شدن ناگهانی = تغییر یک‌شبه‌ی افسانه‌ای",
+   "evidence": [],
+   "motif": {
+    "type": "split",
+    "params": {}
+   }
+  },
+  {
+   "id": "S4",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "واقعیت چیز دیگری است.",
+     "kind": "h",
+     "dim": true
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "حلقه‌ها جمع می‌شوند؛ نگاه از افسانه به داده",
+   "evidence": [],
+   "motif": {
+    "type": "focus",
+    "params": {}
+   }
+  },
+  {
+   "id": "S5",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "یازده پژوهش.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "پنج کشور.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "تا ۱۳۴ هزار شاغل.",
+     "kind": "h",
+     "dim": true
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "ابر نقطه‌ها = مقیاس نمونه؛ یک نقطه‌ی برجسته = یک آدم",
+   "evidence": [
+    {
+     "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+     "publisher": "PsyPost (گزارش ثانویه از فراتحلیل در Psychological Bulletin)",
+     "event_date": "2026-10-20",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "فراتحلیل پیش‌ثبت‌شده‌ی ۱۱ مطالعه‌ی پانلی از آمریکا، آلمان، هلند، نروژ و استرالیا؛ حداکثر ۱۳۴٬۵۱۵ بزرگسال شاغل؛ ۴ تا ۲۰ سال پیگیری"
+    },
+    {
+     "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+     "publisher": "PsyPost (گزارش ثانویه از فراتحلیل در Psychological Bulletin)",
+     "event_date": "2026-10-20",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "افزایش درآمد با افزایش وظیفه‌شناسی و ثبات هیجانی و کاهش سازگاری و برونگرایی همراه بود؛ گشودگی رابطه‌ی معنادار نداشت"
+    },
+    {
+     "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+     "publisher": "PsyPost (گزارش ثانویه از فراتحلیل در Psychological Bulletin)",
+     "event_date": "2026-10-20",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "بزرگ‌ترین اثر استاندارد ≈۰٫۰۶ (درآمد→وظیفه‌شناسی)؛ داده‌ها مشاهده‌ای است و علیت قابل اثبات نیست"
+    },
+    {
+     "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+     "publisher": "PsyPost (گزارش ثانویه از فراتحلیل در Psychological Bulletin)",
+     "event_date": "2026-10-20",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "نمونه‌ها از پنج کشور ثروتمند غربی؛ شخصیت با خودگزارشی سنجیده شده است"
+    }
+   ],
+   "motif": {
+    "type": "cloud",
+    "params": {
+     "n": 420
+    }
+   }
+  },
+  {
+   "id": "S6",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "وقتی درآمد بالا می‌رود،",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "آدم چه می‌شود؟",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "question",
+   "motion_rationale": "نقطه‌ای که روی منحنی بالا می‌رود = رشد درآمد؛ مقصد = پرسش",
+   "evidence": [],
+   "motif": {
+    "type": "journey",
+    "params": {}
+   }
+  },
+  {
+   "id": "S7",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "*منظم‌تر* شدیم.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "*آرام‌تر* هم.",
+     "kind": "h",
+     "dim": true
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "نقطه‌های پراکنده به شبکه‌ی منظم می‌رسند = نظم",
+   "evidence": [
+    {
+     "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+     "publisher": "PsyPost (گزارش ثانویه از فراتحلیل در Psychological Bulletin)",
+     "event_date": "2026-10-20",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "فراتحلیل پیش‌ثبت‌شده‌ی ۱۱ مطالعه‌ی پانلی از آمریکا، آلمان، هلند، نروژ و استرالیا؛ حداکثر ۱۳۴٬۵۱۵ بزرگسال شاغل؛ ۴ تا ۲۰ سال پیگیری"
+    },
+    {
+     "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+     "publisher": "PsyPost (گزارش ثانویه از فراتحلیل در Psychological Bulletin)",
+     "event_date": "2026-10-20",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "افزایش درآمد با افزایش وظیفه‌شناسی و ثبات هیجانی و کاهش سازگاری و برونگرایی همراه بود؛ گشودگی رابطه‌ی معنادار نداشت"
+    },
+    {
+     "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+     "publisher": "PsyPost (گزارش ثانویه از فراتحلیل در Psychological Bulletin)",
+     "event_date": "2026-10-20",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "بزرگ‌ترین اثر استاندارد ≈۰٫۰۶ (درآمد→وظیفه‌شناسی)؛ داده‌ها مشاهده‌ای است و علیت قابل اثبات نیست"
+    },
+    {
+     "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+     "publisher": "PsyPost (گزارش ثانویه از فراتحلیل در Psychological Bulletin)",
+     "event_date": "2026-10-20",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "نمونه‌ها از پنج کشور ثروتمند غربی؛ شخصیت با خودگزارشی سنجیده شده است"
+    }
+   ],
+   "motif": {
+    "type": "converge",
+    "params": {}
+   }
+  },
+  {
+   "id": "S8",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "در عوض، کمی کمتر اجتماعی.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "کمی کمتر سازگار.",
+     "kind": "h",
+     "dim": true
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "پیوندها کم‌رنگ و گره‌ها دورتر می‌شوند",
+   "evidence": [
+    {
+     "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+     "publisher": "PsyPost (گزارش ثانویه از فراتحلیل در Psychological Bulletin)",
+     "event_date": "2026-10-20",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "فراتحلیل پیش‌ثبت‌شده‌ی ۱۱ مطالعه‌ی پانلی از آمریکا، آلمان، هلند، نروژ و استرالیا؛ حداکثر ۱۳۴٬۵۱۵ بزرگسال شاغل؛ ۴ تا ۲۰ سال پیگیری"
+    },
+    {
+     "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+     "publisher": "PsyPost (گزارش ثانویه از فراتحلیل در Psychological Bulletin)",
+     "event_date": "2026-10-20",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "افزایش درآمد با افزایش وظیفه‌شناسی و ثبات هیجانی و کاهش سازگاری و برونگرایی همراه بود؛ گشودگی رابطه‌ی معنادار نداشت"
+    },
+    {
+     "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+     "publisher": "PsyPost (گزارش ثانویه از فراتحلیل در Psychological Bulletin)",
+     "event_date": "2026-10-20",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "بزرگ‌ترین اثر استاندارد ≈۰٫۰۶ (درآمد→وظیفه‌شناسی)؛ داده‌ها مشاهده‌ای است و علیت قابل اثبات نیست"
+    },
+    {
+     "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+     "publisher": "PsyPost (گزارش ثانویه از فراتحلیل در Psychological Bulletin)",
+     "event_date": "2026-10-20",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "نمونه‌ها از پنج کشور ثروتمند غربی؛ شخصیت با خودگزارشی سنجیده شده است"
+    }
+   ],
+   "motif": {
+    "type": "network",
+    "params": {}
+   }
+  },
+  {
+   "id": "S9",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "این دگرگونی نیست؛ *نجواست.*",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "بزرگ‌ترین اثر حدود شش صدم بود.",
+     "kind": "b",
+     "dim": true
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "منحنی بزرگ نقطه‌چین (انتظار ما) در برابر برآمدگی کوچک (واقعیت)",
+   "evidence": [
+    {
+     "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+     "publisher": "PsyPost (گزارش ثانویه از فراتحلیل در Psychological Bulletin)",
+     "event_date": "2026-10-20",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "فراتحلیل پیش‌ثبت‌شده‌ی ۱۱ مطالعه‌ی پانلی از آمریکا، آلمان، هلند، نروژ و استرالیا؛ حداکثر ۱۳۴٬۵۱۵ بزرگسال شاغل؛ ۴ تا ۲۰ سال پیگیری"
+    },
+    {
+     "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+     "publisher": "PsyPost (گزارش ثانویه از فراتحلیل در Psychological Bulletin)",
+     "event_date": "2026-10-20",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "افزایش درآمد با افزایش وظیفه‌شناسی و ثبات هیجانی و کاهش سازگاری و برونگرایی همراه بود؛ گشودگی رابطه‌ی معنادار نداشت"
+    },
+    {
+     "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+     "publisher": "PsyPost (گزارش ثانویه از فراتحلیل در Psychological Bulletin)",
+     "event_date": "2026-10-20",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "بزرگ‌ترین اثر استاندارد ≈۰٫۰۶ (درآمد→وظیفه‌شناسی)؛ داده‌ها مشاهده‌ای است و علیت قابل اثبات نیست"
+    },
+    {
+     "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+     "publisher": "PsyPost (گزارش ثانویه از فراتحلیل در Psychological Bulletin)",
+     "event_date": "2026-10-20",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "نمونه‌ها از پنج کشور ثروتمند غربی؛ شخصیت با خودگزارشی سنجیده شده است"
+    }
+   ],
+   "motif": {
+    "type": "whisper",
+    "params": {}
+   }
+  },
+  {
+   "id": "S10",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "و یک چیز را هیچ‌کس نمی‌داند:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "پول ما را عوض کرده، یا آدم‌های منظم‌تر پول بیشتری درمی‌آورند؟",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "دو نقطه که یکدیگر را دنبال می‌کنند = علت و معلولِ دورانی",
+   "evidence": [],
+   "motif": {
+    "type": "loop",
+    "params": {}
+   }
+  },
+  {
+   "id": "S11",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "پول آدم را وارونه نمی‌کند.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "فقط *بی‌صدا* جابه‌جایش می‌کند.",
+     "kind": "h",
+     "dim": true
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "نقطه‌ی درونی کمی جابه‌جا می‌شود؛ جای قبلی نقطه‌چین می‌ماند",
+   "evidence": [],
+   "motif": {
+    "type": "shift",
+    "params": {}
+   }
+  },
+  {
+   "id": "S12",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "نمونه‌ها فقط از چند کشور ثروتمند غربی‌اند.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "پس این داستان هنوز *تمام* نشده.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "سیگنال آشفته که آرام می‌شود = حدِ دانسته‌ها را صادقانه گفتن",
+   "evidence": [
+    {
+     "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+     "publisher": "PsyPost (گزارش ثانویه از فراتحلیل در Psychological Bulletin)",
+     "event_date": "2026-10-20",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "فراتحلیل پیش‌ثبت‌شده‌ی ۱۱ مطالعه‌ی پانلی از آمریکا، آلمان، هلند، نروژ و استرالیا؛ حداکثر ۱۳۴٬۵۱۵ بزرگسال شاغل؛ ۴ تا ۲۰ سال پیگیری"
+    },
+    {
+     "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+     "publisher": "PsyPost (گزارش ثانویه از فراتحلیل در Psychological Bulletin)",
+     "event_date": "2026-10-20",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "افزایش درآمد با افزایش وظیفه‌شناسی و ثبات هیجانی و کاهش سازگاری و برونگرایی همراه بود؛ گشودگی رابطه‌ی معنادار نداشت"
+    },
+    {
+     "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+     "publisher": "PsyPost (گزارش ثانویه از فراتحلیل در Psychological Bulletin)",
+     "event_date": "2026-10-20",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "بزرگ‌ترین اثر استاندارد ≈۰٫۰۶ (درآمد→وظیفه‌شناسی)؛ داده‌ها مشاهده‌ای است و علیت قابل اثبات نیست"
+    },
+    {
+     "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+     "publisher": "PsyPost (گزارش ثانویه از فراتحلیل در Psychological Bulletin)",
+     "event_date": "2026-10-20",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "نمونه‌ها از پنج کشور ثروتمند غربی؛ شخصیت با خودگزارشی سنجیده شده است"
+    }
+   ],
+   "motif": {
+    "type": "noise",
+    "params": {}
+   }
+  },
+  {
+   "id": "S13",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "سه ماه بعد از هر افزایش حقوق،",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "از خودتان بپرسید:",
+     "kind": "h",
+     "dim": true
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "یک‌چهارم ساعت = سه ماه",
+   "evidence": [],
+   "motif": {
+    "type": "clock",
+    "params": {}
+   }
+  },
+  {
+   "id": "S14",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "کدام عادت‌تان *محکم‌تر* شد؟",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "کدام رابطه *کم‌رنگ‌تر؟*",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "question",
+   "motion_rationale": "ترازو: دو کفه‌ی «به‌دست‌آمده» و «از‌دست‌رفته»",
+   "evidence": [],
+   "motif": {
+    "type": "balance",
+    "params": {}
+   }
+  },
+  {
+   "id": "S15",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "اگر درآمدتان دو برابر شود،",
+     "kind": "b",
+     "dim": true
+    },
+    {
+     "text": "کدام ویژگی‌تان را به *هیچ* قیمتی نمی‌دهید؟",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "question",
+   "motion_rationale": "پله‌های رشد؛ آخرین پله = دو برابر شدن درآمد",
+   "evidence": [],
+   "motif": {
+    "type": "steps",
+    "params": {}
+   }
+  },
+  {
+   "id": "S16",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "برای من بنویسید.",
+     "kind": "b",
+     "dim": false
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "کارت پایانی",
+   "evidence": [],
+   "logo": true,
+   "txt_top": 1080
+  }
+ ],
+ "caption": "پول آدم را عوض می‌کند؟ تا حدی. اما نه به شکلی که در فیلم‌ها می‌بینیم.\n\nیازده پژوهش بلندمدت از پنج کشور، تا ۱۳۴ هزار شاغل، میان چهار تا بیست سال پیگیری. با بالا رفتن درآمد، مسئولیت‌پذیری و آرامش هیجانی کمی بیشتر شد و سازگاری و برونگرایی کمی کمتر. اثرها کوچک‌اند و داده‌ها نمی‌گویند پول علت است یا نتیجه. نمونه‌ها فقط از چند کشور ثروتمند غربی است.\n\nاگر درآمدتان دو برابر شود، کدام ویژگی‌تان را به هیچ قیمتی نمی‌دهید؟ برای من بنویسید.\n\nمنبع: PsyPost (۲۰ اکتبر ۲۰۲۶) از مقاله‌ی Li و همکاران، Psychological Bulletin؛ متن اصلی مقاله مستقیم خوانده نشده.\n\n— بهنود کاویان\n\n#روانشناسی #شخصیت #درآمد",
+ "cta": "اگر درآمدتان دو برابر شود، کدام ویژگی‌تان را می‌خواهید نگه دارید؟ برای ما بنویسید.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S11",
+  "note": "Generated bed; replace with trending audio in-app for reach."
+ },
+ "status": "DRAFT"
+}

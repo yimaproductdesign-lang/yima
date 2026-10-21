@@ -88,9 +88,17 @@ def main(reel_path, out_dir):
         a, b, c = mot[i - 2], mot[i - 1], mot[i]
         if a and b and c and a.get("type") == b.get("type") == c.get("type") and not (a.get("group") and a.get("group") == b.get("group") == c.get("group")):
             warn.append(f"{reel['scenes'][i]['id']}: same motif three scenes in a row")
+    for it in lint(reel.get("caption", "")):
+        if "امارات" in it["message"]: crit.append(f"caption: {it['message']}")
     for k, v in CFG["logo"]["files"].items():
         if hashlib.sha256((ROOT / v["path"]).read_bytes()).hexdigest() != v["sha256"]: crit.append(f"logo[{k}] hash mismatch")
-    if not any(s.get("logo") for s in reel["scenes"]): warn.append("no logo end card")
+    if not any(s.get("logo") for s in reel["scenes"]): crit.append("no logo end card")
+    for sc, m in zip(reel["scenes"], met["scenes"]):
+        if sc.get("logo"):
+            sg = m.get("sig")
+            if not sg or sg["text"] != CFG["signature"]["text"]: crit.append(f"{sc['id']}: signature «{CFG['signature']['text']}» missing on end card")
+            elif sg["b"] > S["y1"] or "DoranFaNum" not in sg["font"]: crit.append(f"{sc['id']}: signature outside safe area or wrong font")
+            if not any("برای من بنویسید" in l["text"] for l in sc.get("lines", [])): warn.append(f"{sc['id']}: end card CTA should be «برای من بنویسید.»")
     score = max(0, 100 - 15 * len(crit) - 2 * len(warn))
     status = "READY_FOR_REVIEW" if not crit and score >= CFG["qa"]["mandatory_threshold"] else "BLOCKED_QA"
     rep = {"reel_id": rid, "status": status, "score": score, "critical": crit, "warnings": warn,

@@ -23,7 +23,8 @@ def _lp(x, k):
     return np.concatenate([np.zeros(k - 1), y])
 
 
-def synth(scenes, total, path):
+def synth(scenes, total, path, audio=None):
+    audio = audio or {}
     rng = np.random.default_rng(7)
     n = int((total + 0.4) * SR)
     t = np.arange(n) / SR
@@ -38,6 +39,12 @@ def synth(scenes, total, path):
         f = int(0.35 * SR); env = np.ones(b - a); env[:f] = np.linspace(0, 1, f); env[-f:] = np.linspace(1, 0, f)
         pad[a:b] += seg * env
     pad *= 0.045
+    music = None
+    if audio.get("mood"):
+        import reel_music
+        drop = next((s["start"] for s in scenes if s["id"] == audio.get("drop_scene")), None)
+        music, _ = reel_music.compose(total, audio["mood"], drop)
+        pad = np.zeros(n)
     fx = np.zeros(n)
     for si, s in enumerate(scenes):
         for ln in s["lines"]:
@@ -48,17 +55,21 @@ def synth(scenes, total, path):
                 m = int(0.25 * SR); tt = np.arange(m) / SR
                 blip = np.sin(2 * np.pi * f0 * tt) * _env(m, .002, .05) * 0.5
                 click = (rng.standard_normal(m) * _env(m, .0005, .006)) * 0.25
-                _add(fx, blip + click, t0, 0.16 if w.get("em") else 0.10)
+                _add(fx, blip + click, t0, (0.07 if music is not None else 0.16) if w.get("em") else (0.0 if music is not None else 0.10))
         if si > 0:  # cut: low thump + short whoosh
             m = int(0.9 * SR); tt = np.arange(m) / SR
             thump = np.sin(2 * np.pi * (60 - 20 * tt) * tt) * _env(m, .005, .22)
-            _add(fx, thump, s["start"], 0.30)
+            _add(fx, thump, s["start"], 0.0 if music is not None else 0.30)
             m2 = int(0.4 * SR); noise = _lp(rng.standard_normal(m2), 40)
             sw = noise * np.sin(np.pi * np.arange(m2) / m2) ** 2
             _add(fx, sw / (np.abs(sw).max() + 1e-9), s["start"] - 0.28, 0.16)
     # simple echo on fx for space
     d = int(0.21 * SR); echo = np.zeros(n); echo[d:] = fx[:-d] * 0.32
     mix = pad + fx + echo
+    if music is not None:
+        import reel_music
+        m = reel_music.master(music)[:n]; mm = np.zeros(n); mm[:len(m)] = m
+        mix = mm * 0.9 + (fx + echo) * 0.6
     fade = int(1.0 * SR); mix[-fade:] *= np.linspace(1, 0, fade); mix[: int(0.05 * SR)] *= np.linspace(0, 1, int(0.05 * SR))
     mix = mix / (np.abs(mix).max() + 1e-9) * 0.7   # peak about -3 dBFS
     pcm = (np.clip(mix, -1, 1) * 32767).astype("<i2")

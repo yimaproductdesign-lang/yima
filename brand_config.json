@@ -154,5 +154,14 @@
     ]
   },
   "review_before_publication": true,
-  "publish_automatically": false
+  "publish_automatically": false,
+  "signature": {
+    "text": "بهنود کاویان",
+    "where": "end card, bottom",
+    "weight": "Medium"
+  },
+  "copy_rules": [
+    "Never name the UAE, Dubai or any emirate in on-screen copy or captions.",
+    "End card CTA is first-person singular: «برای من بنویسید.»"
+  ]
 }
