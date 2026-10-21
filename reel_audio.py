@@ -42,12 +42,13 @@ def synth(scenes, total, path):
     for si, s in enumerate(scenes):
         for ln in s["lines"]:
             for k, w in enumerate(ln["words"]):
+                if not (k == 0 or w.get("em")): continue  # tick on line starts and emphasised words only
                 t0 = s["start"] + w["t"]
                 f0 = [660, 740, 880, 990][(k + si) % 4]
                 m = int(0.25 * SR); tt = np.arange(m) / SR
                 blip = np.sin(2 * np.pi * f0 * tt) * _env(m, .002, .05) * 0.5
                 click = (rng.standard_normal(m) * _env(m, .0005, .006)) * 0.25
-                _add(fx, blip + click, t0, 0.10)
+                _add(fx, blip + click, t0, 0.16 if w.get("em") else 0.10)
         if si > 0:  # cut: low thump + short whoosh
             m = int(0.9 * SR); tt = np.arange(m) / SR
             thump = np.sin(2 * np.pi * (60 - 20 * tt) * tt) * _env(m, .005, .22)

@@ -17,22 +17,65 @@ THEME = {
     "graphite": dict(bg=P["graphite"], fg=P["paper"],    dim=P["slate"], acc=P["paper"], logo="on_dark"),
     "paper":    dict(bg=P["paper"],    dim=P["teal"],    fg=P["graphite"], acc=P["teal"], logo="on_light"),
 }
-STYLE = {"h": (116, 800), "b": (60, 400), "s": (44, 300)}  # size px, css weight
-WORD_GAP = 0.22
+STYLE = {"h": (116, 800), "b": (68, 500), "s": (48, 300)}  # size px, css weight
+MOTIF_MIN = {"grid": 2.2, "cloud": 2.6, "ring": 2.0, "shift": 3.0, "whisper": 3.0, "steps": 2.4, "converge": 3.4, "network": 3.4,
+             "loop": 3.0, "balance": 3.2, "journey": 3.0, "focus": 2.8, "split": 2.4, "clock": 3.2, "noise": 3.2}
+
+
+def word_gap(w):
+    return 0.15 + 0.009 * len(w.replace("\u200c", ""))
+
+
+def pause_after(w):
+    c = w.strip("*")[-1:]
+    return 0.30 if c in ".؟?!" else 0.15 if c in "،؛:" else 0.0
 
 
 def schedule(reel):
-    scenes = []
+    """Content-driven timing: reveal pace follows word length and punctuation, hold follows word count, motif has a minimum run."""
+    scenes, prev_end = [], 0.0
     for sc in reel["scenes"]:
-        lines = []
+        start = sc.get("start", prev_end)
+        cursor, last_in, nwords, lines = sc.get("lead", 0.25), 0.0, 0, []
         for ln in sc.get("lines", []):
             size, wt = STYLE[ln.get("kind", "h")]
-            words = normalize(ln["text"]).split(" ")
-            gap = ln.get("gap", WORD_GAP)
-            lines.append({"size": ln.get("size", size), "weight": wt, "dim": ln.get("dim", False),
-                          "words": [{"w": w, "t": round(ln["t"] + k * gap, 3)} for k, w in enumerate(words)]})
-        scenes.append({"id": sc["id"], "start": sc["start"], "end": sc["end"], "theme": THEME[sc["bg"]], "bg": sc["bg"],
-                       "lines": lines, "txt_top": sc.get("txt_top", 330), "motif": sc.get("motif"), "logo": sc.get("logo", False), "image": sc.get("image")})
+            toks = normalize(ln["text"]).split(" ")
+            t = ln["t"] if "t" in ln else cursor
+            ws = []
+            for k, tok in enumerate(toks):
+                clean = tok.replace("*", "")
+                ws.append({"w": clean, "t": round(t, 3), "em": "*" in tok})
+                last_in = max(last_in, t); nwords += 1
+                t += ln.get("gap", word_gap(clean)) + pause_after(tok)
+            cursor = max(cursor, t) + 0.12
+            lines.append({"size": ln.get("size", size), "weight": wt, "dim": ln.get("dim", False), "words": ws})
+        hold = sc.get("hold", max(0.9, 0.6 + 0.06 * nwords))
+        mm = MOTIF_MIN.get((sc.get("motif") or {}).get("type"), 0) if sc.get("motif") else 0
+        dur = sc.get("dur") or max((last_in + 0.42 + hold) if nwords else 0, mm, 3.0 if sc.get("logo") else 2.4)
+        end = sc.get("end", round(start + dur, 3))
+        scenes.append({"id": sc["id"], "start": start, "end": end, "theme": THEME[sc["bg"]], "bg": sc["bg"], "lines": lines,
+                       "txt_top": sc.get("txt_top", 330), "motif": sc.get("motif"), "logo": sc.get("logo", False), "image": sc.get("image")})
+        prev_end = end
+    tmax = (reel.get("target_s") or [40, 60])[1]
+    total = scenes[-1]["end"] if scenes else 0
+    if total > tmax and not any("start" in s or "end" in s for s in reel["scenes"]):
+        mins = []
+        for s in scenes:
+            last = max([w["t"] for l in s["lines"] for w in l["words"]] or [0])
+            mins.append(max(last + 0.42 + 0.8 if s["lines"] else 0, 2.2, 3.0 if s["logo"] else 0))
+        durs = [s["end"] - s["start"] for s in scenes]
+        slack = sum(d - m for d, m in zip(durs, mins))
+        f = max(0.0, (tmax - 0.5 - sum(mins)) / slack) if slack > 0 else 0
+        t = 0.0
+        for s, d, m in zip(scenes, durs, mins):
+            s["start"] = round(t, 3); t += m + f * (d - m); s["end"] = round(t, 3)
+    gstart = None
+    for i, sc in enumerate(scenes):
+        m = sc["motif"] or {}; g = m.get("group")
+        prev_same = i > 0 and g and (scenes[i - 1]["motif"] or {}).get("group") == g
+        next_same = i + 1 < len(scenes) and g and (scenes[i + 1]["motif"] or {}).get("group") == g
+        if not prev_same: gstart = sc["start"]
+        sc["mstart"], sc["m_in"], sc["m_out"] = gstart, not prev_same, not next_same
     return scenes
 
 
@@ -56,9 +99,9 @@ const MOTIFS={
    const pos=[];this.cs=[];
    for(let j=0;j<rows;j++)for(let i=0;i<cols;i++){const x=cx+(i-(cols-1)/2)*gap,y=cy+(j-(rows-1)/2)*gap;pos.push([x,y]);
      this.cs.push(el('circle',{cx:x,cy:y,r:r,fill:'none',stroke:C.fg,'stroke-width':5,opacity:0}));}
-   this.pos=pos;this.path=P.path||[5];this.hl=el('circle',{r:r,fill:C.acc,opacity:0});this.r=r;},
+   this.pos=pos;this.hopT=P.hop_t||0.8;this.path=P.path||[5];this.hl=el('circle',{r:r,fill:C.acc,opacity:0});this.r=r;},
   update(u){this.cs.forEach((c,i)=>c.setAttribute('opacity',.75*ease(clamp((u-.04*i)/.5))));
-   const hop=0.9,t0=0.8,n=this.path.length;let k=clamp((u-t0)/hop,0,n-1+0.0001),i=Math.floor(k),f=easeIO(k-i);
+   const hop=0.9,t0=this.hopT,n=this.path.length;let k=clamp((u-t0)/hop,0,n-1+0.0001),i=Math.floor(k),f=easeIO(k-i);
    const a=this.pos[this.path[Math.min(i,n-1)]],b=this.pos[this.path[Math.min(i+1,n-1)]];
    this.hl.setAttribute('cx',a[0]+(b[0]-a[0])*f);this.hl.setAttribute('cy',a[1]+(b[1]-a[1])*f);
    this.hl.setAttribute('opacity',ease(clamp((u-.5)/.4)));}},
@@ -81,29 +124,81 @@ const MOTIFS={
    this.big=el('path',{d:bump(A),fill:'none',stroke:C.dim,'stroke-width':5,'stroke-dasharray':'2 14','stroke-linecap':'round',opacity:0});
    this.base=el('path',{d:bump(a),fill:'none',stroke:C.acc,'stroke-width':8,'stroke-linecap':'round',pathLength:1,'stroke-dasharray':'1 1','stroke-dashoffset':1});},
   update(u){this.big.setAttribute('opacity',.9*ease(clamp(u/.8)));this.base.setAttribute('stroke-dashoffset',1-easeIO(clamp((u-1.0)/1.6)));}},
+
+ converge:{init(P,C){const n=P.n||36,cols=6,gap=P.gap||64,cy=P.cy||1250;let sd=P.seed||7;
+   const rnd=()=>{sd|=0;sd=sd+0x6D2B79F5|0;let t=Math.imul(sd^sd>>>15,1|sd);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};
+   this.d=[];for(let i=0;i<n;i++){const gx=540+((i%cols)-(cols-1)/2)*gap,gy=cy+(Math.floor(i/cols)-(n/cols-1)/2)*gap;
+     const sx=540+(rnd()-.5)*720,sy=cy+(rnd()-.5)*520;this.d.push([el('circle',{cx:sx,cy:sy,r:9,fill:i==n-1?C.acc:C.fg,opacity:0}),sx,sy,gx,gy]);}},
+  update(u){const p=easeIO(clamp((u-.9)/2.4));this.d.forEach(([c,sx,sy,gx,gy],i)=>{c.setAttribute('cx',sx+(gx-sx)*p);c.setAttribute('cy',sy+(gy-sy)*p);c.setAttribute('opacity',.9*ease(clamp((u-.03*i)/.4)));});}},
+ network:{init(P,C){const cy=P.cy||1250,n=9;this.cy=cy;this.n=[];for(let i=0;i<n;i++){const a=i/n*2*Math.PI-1.2,r=i%2?170:240;this.n.push([540+r*Math.cos(a),cy+r*Math.sin(a)]);}
+   const pairs=[];for(let i=0;i<n;i++){pairs.push([i,(i+1)%n]);pairs.push([i,(i+3)%n]);}
+   this.e=pairs.map(([a,b],k)=>[el('line',{x1:0,y1:0,x2:0,y2:0,stroke:C.fg,'stroke-width':3,opacity:0}),a,b,k]);
+   this.c=this.n.map((_,i)=>el('circle',{r:16,fill:i==0?C.acc:C.fg,opacity:0}));},
+  update(u){const dr=easeIO(clamp((u-2.2)/1.4)),drift=1+.14*dr;const pos=this.n.map(([x,y])=>[540+(x-540)*drift,this.cy+(y-this.cy)*drift]);
+   this.c.forEach((c,i)=>{c.setAttribute('cx',pos[i][0]);c.setAttribute('cy',pos[i][1]);c.setAttribute('opacity',ease(clamp((u-.07*i)/.4)));});
+   this.e.forEach(([l,a,b,k])=>{const p=ease(clamp((u-.5-.06*k)/.5));l.setAttribute('x1',pos[a][0]);l.setAttribute('y1',pos[a][1]);
+     l.setAttribute('x2',pos[a][0]+(pos[b][0]-pos[a][0])*p);l.setAttribute('y2',pos[a][1]+(pos[b][1]-pos[a][1])*p);
+     const weak=k%3==0?(1-.75*dr):1;l.setAttribute('opacity',p>0?.55*weak:0);});}},
+ loop:{init(P,C){this.cy=P.cy||1250;this.R=P.R||150;
+   this.ring=el('circle',{cx:540,cy:this.cy,r:this.R,fill:'none',stroke:C.dim,'stroke-width':3,'stroke-dasharray':'4 12',opacity:0});
+   this.l=el('line',{stroke:C.dim,'stroke-width':3,opacity:0});this.a=el('circle',{r:26,fill:C.acc,opacity:0});this.b=el('circle',{r:26,fill:'none',stroke:C.fg,'stroke-width':6,opacity:0});},
+  update(u){const f=ease(clamp(u/.6));this.ring.setAttribute('opacity',f);this.a.setAttribute('opacity',f);this.b.setAttribute('opacity',f);this.l.setAttribute('opacity',.6*f);
+   const th=-Math.PI/2+u*1.25,R=this.R,ax=540+R*Math.cos(th),ay=this.cy+R*Math.sin(th),bx=540-R*Math.cos(th),by=this.cy-R*Math.sin(th);
+   this.a.setAttribute('cx',ax);this.a.setAttribute('cy',ay);this.b.setAttribute('cx',bx);this.b.setAttribute('cy',by);
+   this.l.setAttribute('x1',ax);this.l.setAttribute('y1',ay);this.l.setAttribute('x2',bx);this.l.setAttribute('y2',by);}},
+ balance:{init(P,C){this.cy=P.cy||1250;this.L=P.L||260;const c=this.cy;
+   this.base=el('path',{d:`M540 ${c+20} L495 ${c+170} L585 ${c+170} Z`,fill:'none',stroke:C.fg,'stroke-width':6,'stroke-linejoin':'round',opacity:0});
+   this.beam=el('line',{stroke:C.fg,'stroke-width':8,'stroke-linecap':'round',opacity:0});
+   this.sl=el('line',{stroke:C.dim,'stroke-width':3,opacity:0});this.sr=el('line',{stroke:C.dim,'stroke-width':3,opacity:0});
+   this.pl=el('circle',{r:44,fill:'none',stroke:C.fg,'stroke-width':6,opacity:0});this.pr=el('circle',{r:44,fill:C.acc,opacity:0});this.piv=el('circle',{cx:540,cy:c+20,r:12,fill:C.fg,opacity:0});},
+  update(u){const f=ease(clamp(u/.6));[this.base,this.beam,this.pl,this.pr,this.piv].forEach(e=>e.setAttribute('opacity',f));[this.sl,this.sr].forEach(e=>e.setAttribute('opacity',.7*f));
+   const v=Math.max(0,u-.6),ang=(15*Math.exp(-1.1*v)*Math.cos(v*4.2)+5*(1-Math.exp(-v)))*Math.PI/180,c=this.cy+20,L=this.L;
+   const lx=540-L*Math.cos(ang),ly=c+L*Math.sin(ang),rx=540+L*Math.cos(ang),ry=c-L*Math.sin(ang);
+   this.beam.setAttribute('x1',lx);this.beam.setAttribute('y1',ly);this.beam.setAttribute('x2',rx);this.beam.setAttribute('y2',ry);
+   this.sl.setAttribute('x1',lx);this.sl.setAttribute('y1',ly);this.sl.setAttribute('x2',lx);this.sl.setAttribute('y2',ly+90);
+   this.sr.setAttribute('x1',rx);this.sr.setAttribute('y1',ry);this.sr.setAttribute('x2',rx);this.sr.setAttribute('y2',ry+90);
+   this.pl.setAttribute('cx',lx);this.pl.setAttribute('cy',ly+134);this.pr.setAttribute('cx',rx);this.pr.setAttribute('cy',ry+134);}},
+ journey:{init(P,C){const cy=P.cy||1250;this.path=el('path',{d:`M180 ${cy+200} C 380 ${cy+200}, 420 ${cy-60}, 620 ${cy-40} S 840 ${cy-200}, 900 ${cy-220}`,fill:'none',stroke:C.dim,'stroke-width':5,'stroke-linecap':'round',pathLength:1,'stroke-dasharray':'1 1','stroke-dashoffset':1});
+   this.tgt=el('circle',{cx:900,cy:cy-220,r:36,fill:'none',stroke:C.fg,'stroke-width':5,opacity:0});this.dot=el('circle',{r:22,fill:C.acc,opacity:0});},
+  update(u){const p=easeIO(clamp((u-.3)/2.6)),len=this.path.getTotalLength(),pt=this.path.getPointAtLength(len*p);this.path.setAttribute('stroke-dashoffset',1-p);
+   this.dot.setAttribute('cx',pt.x);this.dot.setAttribute('cy',pt.y);this.dot.setAttribute('opacity',ease(clamp(u/.4)));this.tgt.setAttribute('opacity',ease(clamp((u-.2)/.6)));}},
+ focus:{init(P,C){this.cy=P.cy||1250;this.rs=[];for(let i=0;i<5;i++)this.rs.push(el('circle',{cx:540,cy:this.cy,r:320,fill:'none',stroke:i==4?C.acc:C.fg,'stroke-width':i==4?8:4,opacity:0}));},
+  update(u){const p=easeIO(clamp((u-.2)/2.4));this.rs.forEach((c,i)=>{const r0=320-i*45,r1=108-i*18;c.setAttribute('r',r0+(r1-r0)*p);c.setAttribute('opacity',(i==4?1:.7)*ease(clamp((u-.08*i)/.5)));});}},
+ split:{init(P,C){this.cy=P.cy||1250;this.a=el('circle',{cx:540,cy:this.cy,r:120,fill:C.acc,opacity:0});this.b=el('circle',{cx:540,cy:this.cy,r:120,fill:'none',stroke:C.fg,'stroke-width':8,opacity:0});},
+  update(u){const f=ease(clamp(u/.5));this.a.setAttribute('opacity',f);this.b.setAttribute('opacity',u>.8?1:0);const s=easeIO(clamp((u-.8)/1.2));
+   this.a.setAttribute('cx',540-170*s);this.b.setAttribute('cx',540+170*s);this.a.setAttribute('r',120-34*s);this.b.setAttribute('r',120-34*s);}},
+ clock:{init(P,C){this.cy=P.cy||1250;this.R=190;this.ring=el('circle',{cx:540,cy:this.cy,r:this.R,fill:'none',stroke:C.fg,'stroke-width':6,opacity:0});this.t=[];
+   for(let i=0;i<12;i++){const a=i/12*2*Math.PI-Math.PI/2,R=this.R;this.t.push(el('line',{x1:540+(R-26)*Math.cos(a),y1:this.cy+(R-26)*Math.sin(a),x2:540+(R-6)*Math.cos(a),y2:this.cy+(R-6)*Math.sin(a),stroke:C.fg,'stroke-width':4,opacity:0}));}
+   this.arc=el('path',{fill:C.acc,opacity:0});this.hand=el('line',{x1:540,y1:this.cy,stroke:C.fg,'stroke-width':8,'stroke-linecap':'round',opacity:0});},
+  update(u){const f=ease(clamp(u/.5)),r=this.R-30,cy=this.cy;this.ring.setAttribute('opacity',f);this.t.forEach(l=>l.setAttribute('opacity',.8*f));this.hand.setAttribute('opacity',f);
+   const p=easeIO(clamp((u-.5)/2.6)),a=-Math.PI/2+p*Math.PI/2,x=540+r*Math.cos(a),y=cy+r*Math.sin(a);
+   this.hand.setAttribute('x2',x);this.hand.setAttribute('y2',y);this.arc.setAttribute('d',`M540 ${cy} L540 ${cy-r} A${r} ${r} 0 0 1 ${x} ${y} Z`);this.arc.setAttribute('opacity',.4*f);}},
+ noise:{init(P,C){this.cy=P.cy||1250;this.p=el('polyline',{fill:'none',stroke:C.fg,'stroke-width':6,'stroke-linejoin':'round','stroke-linecap':'round',opacity:0});},
+  update(u){const A=130*(1-easeIO(clamp((u-1.6)/1.6))),fr=Math.floor(u*10);let pts='';
+   for(let i=0;i<=48;i++){const x=120+840*i/48,h=Math.sin(i*12.9898+fr*78.233)*43758.5453,r=(h-Math.floor(h))*2-1;pts+=x.toFixed(1)+','+(this.cy+A*r).toFixed(1)+' ';}
+   this.p.setAttribute('points',pts);this.p.setAttribute('opacity',ease(clamp(u/.4)));}},
  steps:{init(P,C){const n=P.n||5,w=96,g=34,base=P.base||1440;this.bs=[];const x0=540-(n*w+(n-1)*g)/2;
    for(let i=0;i<n;i++){const h=90+i*(P.dh||62);this.bs.push([el('rect',{x:x0+i*(w+g),y:base,width:w,height:0,rx:6,fill:i==n-1?C.acc:C.dim,opacity:i==n-1?1:.85}),h,base]);}},
   update(u){this.bs.forEach(([r,h,base],i)=>{const p=ease(clamp((u-.15*i)/.7));r.setAttribute('height',h*p);r.setAttribute('y',base-h*p);});}}
 };
 
+let curGroup=null;
 function build(si){
   const s=SC[si];cur=si;const C=s.theme;
-  stage.style.background=C.bg;
+  stage.style.background=C.bg;stage.style.setProperty('--ac',C.acc);
   txt.innerHTML='';words=[];txt.style.top=(s.txt_top||330)+'px';
   s.lines.forEach((l,li)=>{const row=document.createElement('div');row.className='ln';
-    l.words.forEach(w=>{const sp=document.createElement('span');sp.className='w';sp.textContent=w.w;sp.dataset.t=w.t;sp.dataset.li=li;
+    l.words.forEach(w=>{const sp=document.createElement('span');sp.className='w'+(w.em?' em':'');sp.textContent=w.w;sp.dataset.t=w.t;sp.dataset.li=li;sp.dataset.em=w.em?1:0;
       sp.style.fontSize=l.size+'px';sp.style.fontWeight=l.weight;sp.style.color=l.dim?C.dim:C.fg;sp.style.opacity=0;row.appendChild(sp);words.push(sp);});
     txt.appendChild(row);});
-  // fit: shrink all lines until the text block fits its zone
   let k=1;while(txt.getBoundingClientRect().height>SAFE_TXT_H && k>.55){k-=.04;s.lines.forEach((l,li)=>{txt.children[li].querySelectorAll('.w').forEach(e=>e.style.fontSize=(l.size*k)+'px');});}
-
-  // balance wrapped lines: narrowest width that keeps the same row count -> no single-word orphan rows
   const rowsOf=row=>new Set([...row.children].map(c=>Math.round(c.getBoundingClientRect().top))).size;
   [...txt.children].forEach(row=>{const full=row.getBoundingClientRect().width,n0=rowsOf(row);if(n0<2)return;
     let lo=full*.35,hi=full;for(let i=0;i<14;i++){const mid=(lo+hi)/2;row.style.maxWidth=mid+'px';if(rowsOf(row)>n0)lo=mid;else hi=mid;}row.style.maxWidth=hi+'px';});
   window.__fit=k;
-  svg.innerHTML='';M=null;
-  if(s.motif){M=Object.create(MOTIFS[s.motif.type]);M.init(s.motif.params||{},C);}
+  const g=s.motif&&s.motif.group||null;
+  if(!(g&&g===curGroup&&M)){svg.innerHTML='';M=null;curGroup=null;
+    if(s.motif){M=Object.create(MOTIFS[s.motif.type]);M.init(s.motif.params||{},C);curGroup=g;}}
   logo.style.display=s.logo?'block':'none';if(s.logo)logo.src=s.theme.logo_url;
   if(s.image){imgwrap.style.display='block';bgimg.src=s.image.url;tint.style.background=C.bg;}else{imgwrap.style.display='none';}
 }
@@ -111,11 +206,15 @@ function render(t){
   let si=SC.findIndex(s=>t>=s.start&&t<s.end);if(si<0)si=SC.length-1;
   if(si!==cur)build(si);
   const s=SC[si],u=t-s.start,dur=s.end-s.start;
-  words.forEach(e=>{const p=ease(clamp((u-parseFloat(e.dataset.t))/.42));e.style.opacity=p;e.style.transform=`translateY(${(1-p)*30}px)`;e.style.filter=`blur(${(1-p)*10}px)`;});
+  words.forEach(e=>{const tw=parseFloat(e.dataset.t),p=ease(clamp((u-tw)/.42)),em=e.dataset.em==='1';
+    const pop=em?1+.10*Math.sin(Math.PI*clamp((u-tw)/.5)):1;
+    e.style.opacity=p;e.style.transform=`translateY(${(1-p)*30}px) scale(${pop})`;e.style.filter=`blur(${(1-p)*10}px)`;
+    if(em)e.style.setProperty('--u',ease(clamp((u-tw-.3)/.4)));});
   const fade=Math.min(1,u/.14)*Math.min(1,(s.end-t)/.14);
-  txt.style.opacity=fade;svg.style.opacity=fade;logo.style.opacity=fade;imgwrap.style.opacity=fade;
+  const mf=Math.min(s.m_in?Math.min(1,u/.14):1,s.m_out?Math.min(1,(s.end-t)/.14):1);
+  txt.style.opacity=fade;svg.style.opacity=mf;logo.style.opacity=fade;imgwrap.style.opacity=fade;
   if(s.image){bgimg.style.transform=`scale(${1+.08*u/dur})`;}
-  if(M)M.update(u,dur);
+  if(M)M.update(t-s.mstart,dur);
   if(s.logo){const p=ease(clamp(u/.8));logo.style.transform=`translate(-50%,-50%) scale(${.94+.06*p})`;}
 }
 window.render=render;
@@ -141,7 +240,8 @@ html,body{{width:{W}px;height:{H}px;overflow:hidden;background:#000}}
 #motif{{position:absolute;inset:0;width:{W}px;height:{H}px}}
 #txt{{position:absolute;left:{SAFE['x0']}px;right:{W - SAFE['x1']}px;top:330px;display:flex;flex-direction:column;align-items:center;gap:34px;direction:rtl;text-align:center}}
 .ln{{display:flex;flex-wrap:wrap;justify-content:center;gap:0 .36em;line-height:1.4}}
-.w{{display:inline-block;will-change:transform,opacity,filter}}
+.w{{display:inline-block;position:relative;will-change:transform,opacity,filter}}
+.em::after{{content:'';position:absolute;right:0;left:0;bottom:-2px;height:7px;border-radius:4px;background:var(--ac);transform:scaleX(var(--u,0));transform-origin:right}}
 #logo{{position:absolute;left:50%;top:760px;height:420px;width:auto;transform:translate(-50%,-50%);display:none}}
 </style></head><body><div id="stage"><div id="imgwrap"><img id="bgimg"><div id="tint"></div></div><svg id="motif" viewBox="0 0 {W} {H}"></svg><div id="txt"></div><img id="logo"></div>
 <script>const SC={json.dumps(scenes, ensure_ascii=False)};const SAFE_TXT_H={txt_h};{JS}</script></body></html>"""

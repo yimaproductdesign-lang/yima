@@ -1,20 +1,32 @@
-"""Builds samples/sample_reel.json from the calibrated money-and-personality copy (typography + vector motifs only)."""
+"""Builds samples/sample_reel.json: content-timed reel (no hand-set times) with meaning-matched motion."""
 import json, pathlib
 post = json.loads(pathlib.Path("drafts/2026-10-21/post_01.json").read_text(encoding="utf8"))
 ev = [e for s in post["slides"] for e in s.get("evidence", [])]
-L = lambda text, t, kind="h", dim=False: {"text": text, "t": t, "kind": kind, "dim": dim}
-scenes = [
- {"id": "S1", "start": 0.0,  "end": 3.0,  "bg": "primary", "lines": [L("پول آدم را عوض می‌کند.", .3)], "motif": {"type": "grid", "params": {"path": [5]}}},
- {"id": "S2", "start": 3.0,  "end": 6.6,  "bg": "primary", "lines": [L("اما نه آن‌طور که فکر می‌کنید.", .2)], "motif": {"type": "grid", "params": {"path": [5, 6, 10]}}},
- {"id": "S3", "start": 6.6,  "end": 10.8, "bg": "paper",   "lines": [L("یازده پژوهش.", .2), L("پنج کشور.", .9), L("تا ۱۳۴ هزار شاغل.", 1.6, dim=True)], "motif": {"type": "cloud", "params": {"n": 420}}, "claim_type": "fact"},
- {"id": "S4", "start": 10.8, "end": 14.8, "bg": "primary", "lines": [L("منظم‌تر شدیم.", .2), L("آرام‌تر هم.", 1.3, dim=True)], "motif": {"type": "ring", "params": {}}, "claim_type": "fact"},
- {"id": "S5", "start": 14.8, "end": 19.4, "bg": "paper",   "lines": [L("این دگرگونی نیست؛ نجواست.", .2), L("بزرگ‌ترین اثر حدود شش صدم بود.", 1.8, "b", dim=True)], "motif": {"type": "whisper", "params": {}}, "claim_type": "fact"},
- {"id": "S6", "start": 19.4, "end": 23.8, "bg": "primary", "lines": [L("پول آدم را وارونه نمی‌کند.", .2), L("فقط بی‌صدا", 1.5, dim=True), L("جابه‌جایش می‌کند.", 2.2, dim=True)], "motif": {"type": "shift", "params": {}}, "claim_type": "interpretation"},
- {"id": "S7", "start": 23.8, "end": 29.0, "bg": "paper",   "lines": [{**L("اگر درآمدتان دو برابر شود،", .2, dim=True), "size": 84}, L("کدام ویژگی‌تان را به هیچ قیمتی نمی‌دهید؟", 1.5)], "motif": {"type": "steps", "params": {}}, "claim_type": "question"},
- {"id": "S8", "start": 29.0, "end": 32.0, "bg": "primary", "lines": [L("برای ما بنویسید.", .9, "b")], "logo": True, "txt_top": 1080}]
-for s in scenes: s.setdefault("claim_type", "interpretation"); s["evidence"] = ev if s["claim_type"] == "fact" else []
+L = lambda text, kind="h", dim=False, **k: {"text": text, "kind": kind, "dim": dim, **k}
+S = [  # id, bg, lines, motif, claim_type, why this motion
+ ("S1", "primary", [L("پول آدم را *عوض* می‌کند.")], {"type": "grid", "group": "g1", "params": {"path": [5, 6, 10], "hop_t": 3.0}}, "interpretation", "یک نقطه‌ی برجسته میان نقطه‌های هم‌شکل: «یک نفر» در میان جمع"),
+ ("S2", "primary", [L("اما نه آن‌طور که فکر می‌کنید.")], {"type": "grid", "group": "g1"}, "interpretation", "همان نقطه جابه‌جا می‌شود، ولی آرام؛ ایده‌ی «تغییر» پیش از «اندازه‌ی تغییر»"),
+ ("S3", "paper", [L("در فیلم‌ها، پول آدم را *یک‌شبه* عوض می‌کند.")], {"type": "split", "params": {}}, "metaphor", "دوپاره‌شدن ناگهانی = تغییر یک‌شبه‌ی افسانه‌ای"),
+ ("S4", "paper", [L("واقعیت چیز دیگری است.", dim=True)], {"type": "focus", "params": {}}, "interpretation", "حلقه‌ها جمع می‌شوند؛ نگاه از افسانه به داده"),
+ ("S5", "primary", [L("یازده پژوهش.", ), L("پنج کشور."), L("تا ۱۳۴ هزار شاغل.", dim=True)], {"type": "cloud", "params": {"n": 420}}, "fact", "ابر نقطه‌ها = مقیاس نمونه؛ یک نقطه‌ی برجسته = یک آدم"),
+ ("S6", "paper", [L("وقتی درآمد بالا می‌رود،", "b"), L("آدم چه می‌شود؟")], {"type": "journey", "params": {}}, "question", "نقطه‌ای که روی منحنی بالا می‌رود = رشد درآمد؛ مقصد = پرسش"),
+ ("S7", "primary", [L("*منظم‌تر* شدیم."), L("*آرام‌تر* هم.", dim=True)], {"type": "converge", "params": {}}, "fact", "نقطه‌های پراکنده به شبکه‌ی منظم می‌رسند = نظم"),
+ ("S8", "paper", [L("در عوض، کمی کمتر اجتماعی."), L("کمی کمتر سازگار.", dim=True)], {"type": "network", "params": {}}, "fact", "پیوندها کم‌رنگ و گره‌ها دورتر می‌شوند"),
+ ("S9", "primary", [L("این دگرگونی نیست؛ *نجواست.*"), L("بزرگ‌ترین اثر حدود شش صدم بود.", "b", dim=True)], {"type": "whisper", "params": {}}, "fact", "منحنی بزرگ نقطه‌چین (انتظار ما) در برابر برآمدگی کوچک (واقعیت)"),
+ ("S10", "paper", [L("و یک چیز را هیچ‌کس نمی‌داند:", "b"), L("پول ما را عوض کرده، یا آدم‌های منظم‌تر پول بیشتری درمی‌آورند؟")], {"type": "loop", "params": {}}, "interpretation", "دو نقطه که یکدیگر را دنبال می‌کنند = علت و معلولِ دورانی"),
+ ("S11", "primary", [L("پول آدم را وارونه نمی‌کند."), L("فقط *بی‌صدا* جابه‌جایش می‌کند.", dim=True)], {"type": "shift", "params": {}}, "interpretation", "نقطه‌ی درونی کمی جابه‌جا می‌شود؛ جای قبلی نقطه‌چین می‌ماند"),
+ ("S12", "paper", [L("نمونه‌ها از کشورهای ثروتمند غربی‌اند.", "b"), L("درباره‌ی امارات هنوز چیزی نمی‌دانیم.")], {"type": "noise", "params": {}}, "fact", "سیگنال آشفته که آرام می‌شود = حدِ دانسته‌ها را صادقانه گفتن"),
+ ("S13", "primary", [L("سه ماه بعد از هر افزایش حقوق،"), L("از خودتان بپرسید:", dim=True)], {"type": "clock", "params": {}}, "interpretation", "یک‌چهارم ساعت = سه ماه"),
+ ("S14", "paper", [L("کدام عادت‌تان *محکم‌تر* شد؟"), L("کدام رابطه *کم‌رنگ‌تر؟*")], {"type": "balance", "params": {}}, "question", "ترازو: دو کفه‌ی «به‌دست‌آمده» و «از‌دست‌رفته»"),
+ ("S15", "primary", [L("اگر درآمدتان دو برابر شود،", "b", dim=True), L("کدام ویژگی‌تان را به *هیچ* قیمتی نمی‌دهید؟")], {"type": "steps", "params": {}}, "question", "پله‌های رشد؛ آخرین پله = دو برابر شدن درآمد"),
+ ("S16", "primary", [L("برای ما بنویسید.", "b")], None, "interpretation", "کارت پایانی")]
+scenes = []
+for id_, bg, lines, motif, ct, why in S:
+    sc = {"id": id_, "bg": bg, "lines": lines, "claim_type": ct, "motion_rationale": why, "evidence": ev if ct == "fact" else []}
+    if motif: sc["motif"] = motif
+    if id_ == "S16": sc.update(logo=True, txt_top=1080)
+    scenes.append(sc)
 reel = {"reel_id": "TEST_REEL_01", "date": "2026-10-21", "topic": post["topic"], "pillar": post["pillar"], "format": {"w": 1080, "h": 1920, "fps": 30},
         "scenes": scenes, "caption": post["caption"], "cta": post["cta"], "audio": {"mode": "synth_sfx", "note": "Add licensed or trending music in Instagram."}, "status": "DRAFT"}
-pathlib.Path("samples").mkdir(exist_ok=True)
 pathlib.Path("samples/sample_reel.json").write_text(json.dumps(reel, ensure_ascii=False, indent=1), encoding="utf8")
 print("ok", len(scenes))
