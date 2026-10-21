@@ -1,0 +1,398 @@
+{
+ "date": "2026-10-22",
+ "generated_at": "2026-10-21T17:00:00Z",
+ "method": "WebSearch + WebFetch of each page marked page_read=true. Scores: subjective components are estimates by the research lead; no engagement or growth data were measured.",
+ "scoring_weights": {
+  "freshness": 10,
+  "growth": 15,
+  "reach": 15,
+  "qualified_follower_potential": 15,
+  "regional_business_relevance": 15,
+  "audience_psychology": 10,
+  "commercial_utility": 10,
+  "originality": 5,
+  "verifiability": 5
+ },
+ "scores_are_estimates": true,
+ "previous_day_topics": [
+  "درآمد و تغییر شخصیت",
+  "یکدستی یا تمایز؟ (Coca-Cola, HalaPop)"
+ ],
+ "candidates": [
+  {
+   "id": "C01",
+   "title": "Adaptive aging hypothesis: brain trades episodic detail for meaning",
+   "url": "https://www.sciencedaily.com/releases/2026/10/261019093357.htm",
+   "publisher": "ScienceDaily (Association for Psychological Science release; University of Arizona)",
+   "event_date": "2026-10-20",
+   "claim": "Theory paper (Fernandez, Burke, Nadel, Perspectives on Psychological Science, DOI 10.1177/17456916261469175) proposes age-related shift from hippocampal detail to frontal 'gist/meaning' may be developmental adaptation, not only decline; disrupted in Alzheimer's.",
+   "classification": "emerging",
+   "retrieved_at": "2026-10-21T16:50:00Z",
+   "page_read": true,
+   "scores": {
+    "freshness": 9,
+    "growth": 10,
+    "reach": 11,
+    "qualified_follower_potential": 12,
+    "regional_business_relevance": 9,
+    "audience_psychology": 9,
+    "commercial_utility": 5,
+    "originality": 4,
+    "verifiability": 3
+   },
+   "total": 72,
+   "lenses": {
+    "verification": "Hypothesis/framework paper, not a new experiment; press-release level summary read, original paper not read. Must be framed as a proposal, not a finding.",
+    "audience_psychology": "Strong: everyone has an ageing parent; reframes fear of forgetting into meaning. Identity and legacy themes.",
+    "brand_fit": "Fits philosophy/psychology pillar; bridges to 'what to keep vs what to drop' thinking strategists like."
+   },
+   "brand_fit_gate": "pass",
+   "note": "SELECTED R1 (paired with C02 as converging evidence)"
+  },
+  {
+   "id": "C02",
+   "title": "Older adults tell life stories with more general knowledge",
+   "url": "https://www.psypost.org/older-adults-tell-the-story-of-their-lives-differently-and-it-may-not-be-a-sign-of-decline-new-psychology-study-suggests/",
+   "publisher": "PsyPost",
+   "event_date": "2026-10-21",
+   "claim": "Psychology and Aging (Melega ... Renoult, UEA): 37 older vs 37 younger adults; older adults' memories had more semantic/general detail (e.g. 40-42% vs 15-24% in categoric memories), rated specific memories more vivid; senior author argues style may be adaptive. Small, not preregistered, mostly female.",
+   "classification": "emerging",
+   "retrieved_at": "2026-10-21T16:50:00Z",
+   "page_read": true,
+   "scores": {
+    "freshness": 10,
+    "growth": 8,
+    "reach": 9,
+    "qualified_follower_potential": 11,
+    "regional_business_relevance": 9,
+    "audience_psychology": 9,
+    "commercial_utility": 5,
+    "originality": 4,
+    "verifiability": 4
+   },
+   "total": 69,
+   "lenses": {
+    "verification": "Secondary report read in full; original paper not read. Small sample, not preregistered; use as illustration, not proof.",
+    "audience_psychology": "Concrete: 'older people talk longer and add context' is recognisable daily experience.",
+    "brand_fit": "Same as C01; supports R1."
+   },
+   "brand_fit_gate": "pass",
+   "note": "SELECTED R1 supporting source"
+  },
+  {
+   "id": "C03",
+   "title": "Apple Music new identity 'made by sound'",
+   "url": "https://www.wallpaper.com/art/music/apple-musics-new-visual-identity-turns-sound-into-liquid-with-help-from-fred-again",
+   "publisher": "Wallpaper*",
+   "event_date": "2026-10-21",
+   "claim": "Apple Music identity built from music played into a shallow bath of mineral oil and filmed; new wordmark (Apple symbol + customised SF Pro, bold lowercase), reworked note icon; sonic signature composed with Fred again.. and Nest Acoustics.",
+   "classification": "breaking",
+   "retrieved_at": "2026-10-21T16:50:00Z",
+   "page_read": true,
+   "scores": {
+    "freshness": 10,
+    "growth": 13,
+    "reach": 14,
+    "qualified_follower_potential": 12,
+    "regional_business_relevance": 9,
+    "audience_psychology": 7,
+    "commercial_utility": 8,
+    "originality": 5,
+    "verifiability": 5
+   },
+   "total": 83,
+   "lenses": {
+    "verification": "Three independent outlets read (Wallpaper*, MacRumors, AppleInsider) agree on process; colour shift to black/white reported only by MacRumors -> attribute it. Apple newsroom page not located.",
+    "audience_psychology": "Curiosity gap: a logo 'made by sound'. Tension between brand as fixed mark vs brand as behaviour.",
+    "brand_fit": "Strong for brand/visual strategy pillar; lesson transferable to small brands: derive identity from what you actually make."
+   },
+   "brand_fit_gate": "pass",
+   "note": "SELECTED R2"
+  },
+  {
+   "id": "C04",
+   "title": "MacRumors: Apple Music brand identity officially announced",
+   "url": "https://www.macrumors.com/2026/10/21/apple-music-new-look-announced/",
+   "publisher": "MacRumors",
+   "event_date": "2026-10-21",
+   "claim": "Apple introduced the identity on 21 Oct after new logo (6 Oct) and icon (13 Oct); visuals black-and-white instead of red; rollout with iOS 27.2/macOS 27.2.",
+   "classification": "breaking",
+   "retrieved_at": "2026-10-21T16:50:00Z",
+   "page_read": true,
+   "scores": {
+    "freshness": 10,
+    "growth": 13,
+    "reach": 14,
+    "qualified_follower_potential": 10,
+    "regional_business_relevance": 8,
+    "audience_psychology": 6,
+    "commercial_utility": 7,
+    "originality": 3,
+    "verifiability": 5
+   },
+   "total": 76,
+   "lenses": {
+    "verification": "Corroborates C03.",
+    "audience_psychology": "-",
+    "brand_fit": "supporting"
+   },
+   "brand_fit_gate": "pass",
+   "note": "R2 supporting source"
+  },
+  {
+   "id": "C05",
+   "title": "AppleInsider: rebrand leans on Liquid Glass, in-camera practical effect",
+   "url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass",
+   "publisher": "AppleInsider",
+   "event_date": "2026-10-21",
+   "claim": "Logo etched into glass floor of a mineral-oil tank; transducer played chosen tones; filmed in-camera, not CGI; used as sting before Apple Music videos; debuted at Apple Music Hall, Battersea.",
+   "classification": "breaking",
+   "retrieved_at": "2026-10-21T16:50:00Z",
+   "page_read": true,
+   "scores": {
+    "freshness": 10,
+    "growth": 13,
+    "reach": 14,
+    "qualified_follower_potential": 10,
+    "regional_business_relevance": 8,
+    "audience_psychology": 6,
+    "commercial_utility": 7,
+    "originality": 3,
+    "verifiability": 5
+   },
+   "total": 76,
+   "lenses": {
+    "verification": "Corroborates C03; adds concrete process detail.",
+    "audience_psychology": "Concrete physical image (oil, tank, ripple).",
+    "brand_fit": "supporting"
+   },
+   "brand_fit_gate": "pass",
+   "note": "R2 supporting source"
+  },
+  {
+   "id": "C06",
+   "title": "Design Doha Biennial 2026 identity by Pentagram (bilingual Arabic/English)",
+   "url": "https://www.creativeboom.com/news/pentagrams-festival-identity-finds-a-clever-way-to-give-arabic-and-english-equal-billing/",
+   "publisher": "Creative Boom",
+   "event_date": "2026-10-19",
+   "claim": "Samar Maakaroun/Pentagram: flexible typographic system weaving Arabic and Latin with equal presence; network-like extended strokes; biennial opens 5 Nov 2026.",
+   "classification": "emerging",
+   "retrieved_at": "2026-10-21T16:50:00Z",
+   "page_read": true,
+   "scores": {
+    "freshness": 9,
+    "growth": 8,
+    "reach": 9,
+    "qualified_follower_potential": 13,
+    "regional_business_relevance": 14,
+    "audience_psychology": 6,
+    "commercial_utility": 9,
+    "originality": 4,
+    "verifiability": 5
+   },
+   "total": 77,
+   "lenses": {
+    "verification": "Creative Boom and Pentagram's own page read; consistent.",
+    "audience_psychology": "Moderate; relevant to bilingual business owners.",
+    "brand_fit": "High regional relevance, but overlaps with yesterday's R2 (HalaPop multilingual logo). Hold for later this week."
+   },
+   "brand_fit_gate": "pass",
+   "note": "not selected: overlap with 2026-10-21 bilingual-logo angle; strong backup"
+  },
+  {
+   "id": "C07",
+   "title": "Moral framing of meat-shaming increases defensiveness",
+   "url": "https://www.psypost.org/online-meat-shaming-may-do-little-to-change-minds-new-research-suggests/",
+   "publisher": "PsyPost",
+   "event_date": "2026-10-20",
+   "claim": "PSPB, two preregistered UK experiments (n=307, n=316): moral critiques triggered more defensiveness than competence critiques; private DMs more defensive than public comments; no critique increased intention to cut meat.",
+   "classification": "emerging",
+   "retrieved_at": "2026-10-21T16:50:00Z",
+   "page_read": true,
+   "scores": {
+    "freshness": 9,
+    "growth": 8,
+    "reach": 9,
+    "qualified_follower_potential": 11,
+    "regional_business_relevance": 8,
+    "audience_psychology": 9,
+    "commercial_utility": 7,
+    "originality": 4,
+    "verifiability": 4
+   },
+   "total": 69,
+   "lenses": {
+    "verification": "Hypothetical scenarios, self-report, UK only.",
+    "audience_psychology": "Good persuasion lesson (moral judgement backfires).",
+    "brand_fit": "Bridge to brand messaging possible; topic (meat) is polarising and weak concrete image for the brand."
+   },
+   "brand_fit_gate": "pass",
+   "note": "not selected; possible future persuasion piece"
+  },
+  {
+   "id": "C08",
+   "title": "Loneliness and isolation linked to fewer healthy years",
+   "url": "https://www.sciencedaily.com/releases/2026/10/261006234514.htm",
+   "publisher": "ScienceDaily (Tulane University)",
+   "event_date": "2026-10-10",
+   "claim": "Nature Communications, 277,489 adults 40-69: loneliness+isolation linked to ~5.8 fewer mental-disorder-free years in men, ~3.7 in women; observational.",
+   "classification": "emerging",
+   "retrieved_at": "2026-10-21T16:50:00Z",
+   "page_read": true,
+   "scores": {
+    "freshness": 6,
+    "growth": 9,
+    "reach": 11,
+    "qualified_follower_potential": 9,
+    "regional_business_relevance": 7,
+    "audience_psychology": 8,
+    "commercial_utility": 3,
+    "originality": 2,
+    "verifiability": 5
+   },
+   "total": 60,
+   "lenses": {
+    "verification": "Observational; large sample; read release only.",
+    "audience_psychology": "Strong but heavy; risk of fear-based content.",
+    "brand_fit": "Weak commercial bridge; loneliness theme well-worn."
+   },
+   "brand_fit_gate": "pass",
+   "note": "not selected: less original, older"
+  },
+  {
+   "id": "C09",
+   "title": "Teen boys and Andrew Tate following",
+   "url": "https://www.psypost.org/one-in-three-teen-boys-follows-andrew-tate-at-least-a-little-and-those-who-do-hold-more-rigid-views-of-manhood/",
+   "publisher": "PsyPost",
+   "event_date": "2026-10-21",
+   "claim": "Headline only: one in three teen boys follows Andrew Tate at least a little; followers hold more rigid views of manhood.",
+   "classification": "emerging",
+   "retrieved_at": "2026-10-21T16:50:00Z",
+   "page_read": false,
+   "scores": {
+    "freshness": 10,
+    "growth": 10,
+    "reach": 12,
+    "qualified_follower_potential": 6,
+    "regional_business_relevance": 4,
+    "audience_psychology": 7,
+    "commercial_utility": 2,
+    "originality": 3,
+    "verifiability": 2
+   },
+   "total": 56,
+   "lenses": {
+    "verification": "Article not read; headline only; cannot be used.",
+    "audience_psychology": "High arousal, polarising.",
+    "brand_fit": "Fails: names a real controversial public figure; off-brand; minors involved."
+   },
+   "brand_fit_gate": "fail",
+   "note": "rejected at brand-fit gate"
+  },
+  {
+   "id": "C10",
+   "title": "McLaren evolved identity",
+   "url": "https://www.planetf1.com/news/mclaren-new-logo-2026",
+   "publisher": "PlanetF1",
+   "event_date": "2026-09-22",
+   "claim": "Refreshed logo, underlined lowercase 'c' honouring Bruce McLaren, wordmark inspired by family service-station sign in Auckland; papaya retained.",
+   "classification": "evergreen",
+   "retrieved_at": "2026-10-21T16:50:00Z",
+   "page_read": true,
+   "scores": {
+    "freshness": 4,
+    "growth": 7,
+    "reach": 11,
+    "qualified_follower_potential": 9,
+    "regional_business_relevance": 7,
+    "audience_psychology": 6,
+    "commercial_utility": 7,
+    "originality": 3,
+    "verifiability": 4
+   },
+   "total": 58,
+   "lenses": {
+    "verification": "Single sports-news source read; official McLaren release not read.",
+    "audience_psychology": "Heritage story is nice, but a month old.",
+    "brand_fit": "Good heritage-vs-future lesson; lower freshness."
+   },
+   "brand_fit_gate": "pass",
+   "note": "not selected; backup heritage angle"
+  },
+  {
+   "id": "C11",
+   "title": "REX identity by Hunt (Brand New)",
+   "url": "https://www.underconsideration.com/brandnew/archives/new_logo_system_and_identity_for_rex_by_hunt.php",
+   "publisher": "UnderConsideration Brand New",
+   "event_date": "2026-10-21",
+   "claim": "Headline only: new logo system and identity for REX by Hunt.",
+   "classification": "emerging",
+   "retrieved_at": "2026-10-21T16:50:00Z",
+   "page_read": false,
+   "scores": {
+    "freshness": 10,
+    "growth": 3,
+    "reach": 4,
+    "qualified_follower_potential": 5,
+    "regional_business_relevance": 4,
+    "audience_psychology": 3,
+    "commercial_utility": 4,
+    "originality": 3,
+    "verifiability": 1
+   },
+   "total": 37,
+   "lenses": {
+    "verification": "Not read; content unknown.",
+    "audience_psychology": "Unknown.",
+    "brand_fit": "Unknown; low recognisability."
+   },
+   "brand_fit_gate": "not_evaluated",
+   "note": "not selected: not read"
+  },
+  {
+   "id": "C12",
+   "title": "Hard Rock Bet Casino identity",
+   "url": "https://www.underconsideration.com/brandnew/archives/new_identity_for_hard_rock_bet_casino_by_72andsunny_buck_and_in_house.php",
+   "publisher": "UnderConsideration Brand New",
+   "event_date": "2026-10-19",
+   "claim": "Headline only: new identity for an online gambling brand.",
+   "classification": "commercial",
+   "retrieved_at": "2026-10-21T16:50:00Z",
+   "page_read": false,
+   "scores": {
+    "freshness": 9,
+    "growth": 4,
+    "reach": 6,
+    "qualified_follower_potential": 3,
+    "regional_business_relevance": 1,
+    "audience_psychology": 3,
+    "commercial_utility": 3,
+    "originality": 2,
+    "verifiability": 1
+   },
+   "total": 32,
+   "lenses": {
+    "verification": "Not read.",
+    "audience_psychology": "-",
+    "brand_fit": "Fails: gambling category off-brand for audience."
+   },
+   "brand_fit_gate": "fail",
+   "note": "rejected at brand-fit gate"
+  }
+ ],
+ "story_gate": {
+  "R1": "C01+C02: tension 'we call it forgetting; it may be distilling'; image: an elder who forgets the date but remembers the lesson. Beats C07 (persuasion) and C08 (loneliness) on originality and concreteness.",
+  "R2": "C03-C05: tension 'a logo is something you draw vs. something your product makes'; image: music rippling a tank of oil until the logo appears. Beats C06 (overlaps yesterday) and C10 (stale)."
+ },
+ "selected": {
+  "R1": [
+   "C01",
+   "C02"
+  ],
+  "R2": [
+   "C03",
+   "C04",
+   "C05"
+  ]
+ }
+}

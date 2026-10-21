@@ -1,0 +1,69 @@
+{
+ "date": "2026-10-22",
+ "R1": {
+  "topic": "پیری و حافظه: از جزئیات به معنا",
+  "pillar": "human_psychology_philosophy",
+  "central_tension": "همه فکر می‌کنیم با پیری حافظه فقط فرسوده می‌شود؛ ولی شاید ذهن جزئیات را رها می‌کند تا معنا را نگه دارد.",
+  "working_hook": "مادربزرگ تاریخ را یادش نیست. ولی یادش است آن سال چه چیزی یاد گرفت.",
+  "framing_note": "C01 is a hypothesis paper, C02 a small unpreregistered study (n=74). Say 'یک فرضیه‌ی تازه' once; do not present as proven. Not about Alzheimer's; mention that disease is a different path only if needed.",
+  "key_sources": [
+   {
+    "url": "https://www.sciencedaily.com/releases/2026/10/261019093357.htm",
+    "publisher": "ScienceDaily (Association for Psychological Science release; University of Arizona)",
+    "date": "2026-10-20",
+    "claim": "Theory paper (Fernandez, Burke, Nadel, Perspectives on Psychological Science, DOI 10.1177/17456916261469175) proposes age-related shift from hippocampal detail to frontal 'gist/meaning' may be developmental adaptation, not only decline; disrupted in Alzheimer's."
+   },
+   {
+    "url": "https://www.psypost.org/older-adults-tell-the-story-of-their-lives-differently-and-it-may-not-be-a-sign-of-decline-new-psychology-study-suggests/",
+    "publisher": "PsyPost",
+    "date": "2026-10-21",
+    "claim": "Psychology and Aging (Melega ... Renoult, UEA): 37 older vs 37 younger adults; older adults' memories had more semantic/general detail (e.g. 40-42% vs 15-24% in categoric memories), rated specific memories more vivid; senior author argues style may be adaptive. Small, not preregistered, mostly female."
+   }
+  ],
+  "music_mood": "reflective",
+  "image_requests": [],
+  "image_note": "No source image needed: abstract idea; no product/place/artwork. Never use photos of private individuals. Vector motion (shift, focus, noise->clarity) serves better."
+ },
+ "R2": {
+  "topic": "لوگویی که صدا ساخت: هویت تازه‌ی اپل موزیک",
+  "pillar": "brand_visual_strategy",
+  "central_tension": "ما لوگو را چیزی می‌دانیم که طراح می‌کشد؛ اپل موزیک لوگویش را از خودِ محصولش، یعنی صدا، بیرون کشید.",
+  "working_hook": "این لوگو را کسی نکشید. یک نُت موسیقی آن را ساخت.",
+  "framing_note": "Process facts from Wallpaper*/AppleInsider (oil tank, transducer, in-camera). Black-and-white instead of red: attribute to MacRumors only. Takeaway for small brands: find the identity in what you actually make, not in decoration. Do not claim results/metrics.",
+  "key_sources": [
+   {
+    "url": "https://www.wallpaper.com/art/music/apple-musics-new-visual-identity-turns-sound-into-liquid-with-help-from-fred-again",
+    "publisher": "Wallpaper*",
+    "date": "2026-10-21",
+    "claim": "Apple Music identity built from music played into a shallow bath of mineral oil and filmed; new wordmark (Apple symbol + customised SF Pro, bold lowercase), reworked note icon; sonic signature composed with Fred again.. and Nest Acoustics."
+   },
+   {
+    "url": "https://www.macrumors.com/2026/10/21/apple-music-new-look-announced/",
+    "publisher": "MacRumors",
+    "date": "2026-10-21",
+    "claim": "Apple introduced the identity on 21 Oct after new logo (6 Oct) and icon (13 Oct); visuals black-and-white instead of red; rollout with iOS 27.2/macOS 27.2."
+   },
+   {
+    "url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass",
+    "publisher": "AppleInsider",
+    "date": "2026-10-21",
+    "claim": "Logo etched into glass floor of a mineral-oil tank; transducer played chosen tones; filmed in-camera, not CGI; used as sting before Apple Music videos; debuted at Apple Music Hall, Battersea."
+   }
+  ],
+  "music_mood": "dark",
+  "image_requests": [
+   {
+    "id": "R2-a",
+    "description": "تصویر لوگوی تازه‌ی اپل موزیک (نماد اپل + کلمه‌ی Music) که در متن مقاله آمده است",
+    "page_url": "https://www.wallpaper.com/art/music/apple-musics-new-visual-identity-turns-sound-into-liquid-with-help-from-fred-again",
+    "scene_idea": "صحنه‌ی پایانی تنش: «و این نتیجه است» — لوگوی نهایی پس از موج‌ها، روی پس‌زمینه‌ی primary با حرکت focus"
+   },
+   {
+    "id": "R2-b",
+    "description": "تصویر اصلی بالای مقاله: فریم موج‌دار روغن/مایع از ویدیوی اپل (Credit: Apple)",
+    "page_url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass",
+    "scene_idea": "صحنه‌ی «صدا تصویر می‌سازد»: فریم موج‌ها کنار موتیف noise→وضوح، لحظه‌ای که لوگو از دل لرزش پیدا می‌شود"
+   }
+  ]
+ }
+}
