@@ -20,7 +20,7 @@ THEME = {  # bg, headline, body, counter, logo-key, rule
     "image":    (P["primary"],  P["paper"],    P["paper"],    P["paper"], "on_dark",  P["paper"]),
 }
 SIZES = {  # start, min  (px)
-    "cover": (132, 80), "statement": (112, 72), "question": (104, 72),
+    "cover": (120, 80), "statement": (112, 72), "question": (104, 72),
     "body": (88, 64), "closing": (96, 64)}
 TOP = {"cover": 330, "statement": 330, "question": 330, "closing": 330, "body": 330}
 ZONE_JUSTIFY = {"top": "flex-start", "center": "center", "bottom": "flex-end"}
@@ -63,7 +63,7 @@ body{{font-family:'DoranFaNum';font-feature-settings:'kern','liga','calt';text-r
 #zone{{position:absolute;top:{M}px;right:{M}px;left:{M}px;bottom:{M + FOOT}px;display:flex;flex-direction:column;justify-content:flex-start;padding-top:{TOP[s['layout']]}px;align-items:stretch}}
 #rule{{width:96px;height:6px;background:{rule};margin-bottom:56px}}
 h1{{font-weight:800;color:{hc};line-height:1.32;font-size:{h_start}px;text-align:right;text-wrap:balance}}
-p{{font-weight:400;color:{bc};line-height:1.85;font-size:44px;margin-top:44px;text-align:right;max-width:880px;text-wrap:pretty}}
+p{{font-weight:400;color:{bc};line-height:1.85;font-size:44px;margin-top:44px;text-align:right;max-width:880px;text-wrap:balance}}
 #ctr{{position:absolute;right:{M}px;bottom:{M}px;font-weight:400;font-size:32px;color:{cc};letter-spacing:.02em}}
 #logo{{position:absolute;left:{M}px;bottom:{M}px;height:{LOGO['render_height_px']}px;width:auto;display:block}}
 </style></head><body>{bgimg}
@@ -73,7 +73,7 @@ p{{font-weight:400;color:{bc};line-height:1.85;font-size:44px;margin-top:44px;te
 <script>
 const z=document.getElementById('zone'),h=document.getElementById('h');
 let s={h_start};
-while(z.scrollHeight>z.clientHeight+1 && s>{h_min}){{s-=4;h.style.fontSize=s+'px';}}
+const last=z.lastElementChild;while(last.getBoundingClientRect().bottom>z.getBoundingClientRect().bottom-16 && s>{h_min}){{s-=4;h.style.fontSize=s+'px';}}
 </script></body></html>"""
 
 

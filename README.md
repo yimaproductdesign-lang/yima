@@ -13,3 +13,6 @@ no image generation / research / scheduling yet, QA cannot judge prose, orthogra
 ## Daily run
 `python3 render.py <post.json> out && python3 qa.py <post.json> out/<post_id>` for each post, then
 `python3 package.py YYYY-MM-DD post1.json post2.json`. Posts are written to `drafts/YYYY-MM-DD/` following `post.schema.json`.
+
+## Copy
+All Persian copy follows `copywriting.md` (voice, hooks, rhythm, banned phrases, self-review). Ashouri's prose guide is no longer used; Posht-e-Bam stays for orthography.
