@@ -90,6 +90,24 @@ def main(reel_path, out_dir):
             warn.append(f"{reel['scenes'][i]['id']}: same motif three scenes in a row")
     for it in lint(reel.get("caption", "")):
         if "امارات" in it["message"]: crit.append(f"caption: {it['message']}")
+    # sourced images (owner-supplied): provenance, dark scene, resolution
+    from PIL import Image as _I
+    for sc in reel["scenes"]:
+        im = sc.get("image")
+        if not im: continue
+        p = pathlib.Path(im.get("path", ""))
+        if not p.exists(): crit.append(f"{sc['id']}: image file missing {p}"); continue
+        if not im.get("source_url") or not im.get("credit"): crit.append(f"{sc['id']}: image needs source_url and credit")
+        if sc["bg"] not in ("primary", "graphite"): crit.append(f"{sc['id']}: image scenes must use a dark background for text contrast")
+        w_, h_ = _I.open(p).size
+        if min(w_, h_) < 1000: warn.append(f"{sc['id']}: image only {w_}x{h_}; may look soft")
+    # caption package: 4 hashtags, sources, signature, no UAE names
+    tags = reel.get("hashtags", [])
+    if len(tags) != 4 or any(not t.startswith("#") or " " in t for t in tags): crit.append(f"need exactly 4 hashtags like #برندینگ, got {tags}")
+    if any(s.get("claim_type") == "fact" for s in reel["scenes"]) and not reel.get("sources"): crit.append("facts on screen but no sources list")
+    if not reel.get("caption", "").rstrip().endswith("بهنود کاویان"): crit.append("caption must end with «— بهنود کاویان»")
+    for it in lint(" ".join(tags)):
+        if "امارات" in it["message"]: crit.append(f"hashtags: {it['message']}")
     mood = (reel.get("audio") or {}).get("mood")
     if mood not in CFG["reels"]["music_moods_allowed"]: crit.append(f"music mood {mood!r} not approved; use one of {CFG['reels']['music_moods_allowed']}")
     for k, v in CFG["logo"]["files"].items():

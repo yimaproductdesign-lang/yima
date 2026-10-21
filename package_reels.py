@@ -12,7 +12,11 @@ for i, rp in enumerate(paths, 1):
     shutil.copy(src / f"{rid}.mp4", d / f"Reel_{i:02d}.mp4"); shutil.copy(src / "cover.png", d / "cover.png")
     rep = json.loads((src / "qa_report.json").read_text(encoding="utf8")); qa[rid] = rep; ok &= rep["status"] == "READY_FOR_REVIEW"
     refs[rid] = [e for s in r["scenes"] for e in s.get("evidence", [])]
-    caps.append(f"# Reel {i:02d} — {r['topic']}\n\n{r['caption']}\n\n(music: {(r.get('audio') or {}).get('mood')})")
+    src_lines = [f"- {x.get('publisher', '')}: {x.get('title') or x.get('claim', '')} ({x.get('date', '')}) {x.get('url', '')}" for x in r.get("sources", [])]
+    src_lines += [f"- تصویر: {s['image'].get('credit', '')} {s['image'].get('source_url', '')}" for s in r["scenes"] if s.get("image")]
+    post = r["caption"].rstrip() + "\n\n" + " ".join(r.get("hashtags", []))
+    (d / "caption.txt").write_text(post + "\n", encoding="utf8")
+    caps.append(f"# Reel {i:02d} — {r['topic']}\n\n{post}\n\n**منابع**\n" + "\n".join(src_lines) + f"\n\n(music: {(r.get('audio') or {}).get('mood')})")
     with zipfile.ZipFile(dest / f"Reel_{i:02d}.zip", "w", zipfile.ZIP_DEFLATED) as z:
         for f in sorted(d.iterdir()): z.write(f, f"Reel_{i:02d}/{f.name}")
 (dest / "captions.md").write_text("\n\n---\n\n".join(caps), encoding="utf8")

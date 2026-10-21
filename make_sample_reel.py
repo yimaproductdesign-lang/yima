@@ -29,8 +29,8 @@ for id_, bg, lines, motif, ct, why in S:
 CAPTION = ("پول آدم را عوض می‌کند؟ تا حدی. اما نه به شکلی که در فیلم‌ها می‌بینیم.\n\n"
  "یازده پژوهش بلندمدت از پنج کشور، تا ۱۳۴ هزار شاغل، میان چهار تا بیست سال پیگیری. با بالا رفتن درآمد، مسئولیت‌پذیری و آرامش هیجانی کمی بیشتر شد و سازگاری و برونگرایی کمی کمتر. اثرها کوچک‌اند و داده‌ها نمی‌گویند پول علت است یا نتیجه. نمونه‌ها فقط از چند کشور ثروتمند غربی است.\n\n"
  "اگر درآمدتان دو برابر شود، کدام ویژگی‌تان را به هیچ قیمتی نمی‌دهید؟ برای من بنویسید.\n\n"
- "منبع: PsyPost (۲۰ اکتبر ۲۰۲۶) از مقاله‌ی Li و همکاران، Psychological Bulletin؛ متن اصلی مقاله مستقیم خوانده نشده.\n\n— بهنود کاویان\n\n#روانشناسی #شخصیت #درآمد")
+ "منبع: PsyPost (۲۰ اکتبر ۲۰۲۶) از مقاله‌ی Li و همکاران، Psychological Bulletin؛ متن اصلی مقاله مستقیم خوانده نشده.\n\n— بهنود کاویان")
 reel = {"reel_id": "TEST_REEL_01", "date": "2026-10-21", "topic": post["topic"], "pillar": post["pillar"], "format": {"w": 1080, "h": 1920, "fps": 30},
-        "scenes": scenes, "caption": CAPTION, "cta": post["cta"], "audio": {"mode": "generative", "mood": "reflective", "drop_scene": "S11"}, "status": "DRAFT"}
+        "scenes": scenes, "caption": CAPTION, "hashtags": ["#روانشناسی", "#شخصیت", "#پول", "#رشد_فردی"], "sources": [{"publisher": "PsyPost", "title": "Rising income and personality change (meta-analysis, Li et al., Psychological Bulletin)", "date": "2026-10-20", "url": (ev[0]["url"] if ev else "")}], "cta": post["cta"], "audio": {"mode": "generative", "mood": "reflective", "drop_scene": "S11"}, "status": "DRAFT"}
 pathlib.Path("samples/sample_reel.json").write_text(json.dumps(reel, ensure_ascii=False, indent=1), encoding="utf8")
 print("ok", len(scenes))

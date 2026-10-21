@@ -219,7 +219,7 @@ function build(si){
   if(!(g&&g===curGroup&&M)){svg.innerHTML='';M=null;curGroup=null;
     if(s.motif){M=Object.create(MOTIFS[s.motif.type]);M.init(s.motif.params||{},C);curGroup=g;}}
   logo.style.display=s.logo?'block':'none';if(s.logo)logo.src=s.theme.logo_url;const sg=document.getElementById('sig');sg.style.display=s.logo?'block':'none';sg.textContent=SIG;sg.style.color=C.fg;
-  if(s.image){imgwrap.style.display='block';bgimg.src=s.image.url;tint.style.background=C.bg;}else{imgwrap.style.display='none';}
+  if(s.image){imgwrap.style.display='block';bgimg.src=s.image.url;const h=C.bg,r=parseInt(h.slice(1,3),16),g=parseInt(h.slice(3,5),16),b=parseInt(h.slice(5,7),16),c=a=>`rgba(${r},${g},${b},${a})`;tint.style.background=`linear-gradient(180deg,${c(.9)} 0%,${c(.8)} 45%,${c(.6)} 70%,${c(.85)} 100%)`;}else{imgwrap.style.display='none';}
 }
 function render(t){
   let si=SC.findIndex(s=>t>=s.start&&t<s.end);if(si<0)si=SC.length-1;
@@ -255,7 +255,7 @@ html,body{{width:{W}px;height:{H}px;overflow:hidden;background:#000}}
 #stage{{position:relative;width:{W}px;height:{H}px;overflow:hidden;font-family:'DoranFaNum';text-rendering:geometricPrecision;-webkit-font-smoothing:antialiased}}
 #imgwrap{{position:absolute;inset:0;display:none;overflow:hidden}}
 #bgimg{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.05)}}
-#tint{{position:absolute;inset:0;opacity:.58;mix-blend-mode:multiply}}
+#tint{{position:absolute;inset:0}}
 #motif{{position:absolute;inset:0;width:{W}px;height:{H}px}}
 #txt{{position:absolute;left:{SAFE['x0']}px;right:{W - SAFE['x1']}px;top:330px;display:flex;flex-direction:column;align-items:center;gap:34px;direction:rtl;text-align:center}}
 .ln{{display:flex;flex-wrap:wrap;justify-content:center;gap:0 .36em;line-height:1.4}}
