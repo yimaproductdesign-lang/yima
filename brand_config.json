@@ -163,5 +163,27 @@
   "copy_rules": [
     "Never name the UAE, Dubai or any emirate in on-screen copy or captions.",
     "End card CTA is first-person singular: «برای من بنویسید.»"
-  ]
+  ],
+  "reels": {
+    "daily": 2,
+    "size": [
+      1080,
+      1920
+    ],
+    "fps": 30,
+    "target_s": [
+      40,
+      60
+    ],
+    "music_moods_allowed": [
+      "reflective",
+      "dark"
+    ],
+    "music_mood_guidance": {
+      "reflective": "psychology, philosophy, human topics; calm and intimate",
+      "dark": "brand strategy, tension, warnings, high-stakes ideas"
+    },
+    "imagery": "vector motion only (motion.md); no third-party photos or logos",
+    "end_card": "logo + «برای من بنویسید.» + signature"
+  }
 }

@@ -90,6 +90,8 @@ def main(reel_path, out_dir):
             warn.append(f"{reel['scenes'][i]['id']}: same motif three scenes in a row")
     for it in lint(reel.get("caption", "")):
         if "امارات" in it["message"]: crit.append(f"caption: {it['message']}")
+    mood = (reel.get("audio") or {}).get("mood")
+    if mood not in CFG["reels"]["music_moods_allowed"]: crit.append(f"music mood {mood!r} not approved; use one of {CFG['reels']['music_moods_allowed']}")
     for k, v in CFG["logo"]["files"].items():
         if hashlib.sha256((ROOT / v["path"]).read_bytes()).hexdigest() != v["sha256"]: crit.append(f"logo[{k}] hash mismatch")
     if not any(s.get("logo") for s in reel["scenes"]): crit.append("no logo end card")
