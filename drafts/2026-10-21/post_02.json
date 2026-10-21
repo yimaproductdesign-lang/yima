@@ -1,0 +1,287 @@
+{
+ "post_id": "2026-10-21_P2",
+ "date": "2026-10-21",
+ "topic": "یکدستی یا تمایز؟ دو مثال از بازطراحی برند",
+ "pillar": "brand_visual_strategy",
+ "selection": {
+  "score_total": 64,
+  "score_breakdown": {
+   "freshness": 9,
+   "growth_signals": 6,
+   "reach": 9,
+   "qualified_follower_potential": 12,
+   "uae_relevance": 9,
+   "audience_psychology": 8,
+   "commercial_utility": 9,
+   "originality": 4,
+   "verifiability": 5,
+   "_note": "همه‌ی امتیازها برآورد ذهنی هستند؛ هر مثال تنها یک منبع دارد"
+  },
+  "confidence": "medium",
+  "topic_kind": "emerging",
+  "trend_verified": false
+ },
+ "slides": [
+  {
+   "post_id": "2026-10-21_P2",
+   "slide_number": 1,
+   "role": "hook",
+   "layout": "cover",
+   "headline": "یکدست بودن برند کافی نیست؛ باید خوانا هم باشد.",
+   "body": "",
+   "central_claim": "یکدستی بدون تمایز و خوانایی کافی نیست.",
+   "claim_type": "interpretation",
+   "background": {
+    "mode": "primary"
+   },
+   "visual_metaphor": "تایپوگرافی‌محور",
+   "art_direction": {
+    "thesis": "یکدستی بدون تمایز و خوانایی کافی نیست.",
+    "subject": "فقط تایپوگرافی و فضای خالی؛ تصویری تولید نشده است",
+    "framing": "قاب بسته، بدون سوژه",
+    "composition": "بلوک متن در ناحیه‌ی «center»، پس‌زمینه‌ی primary، فضای منفی آزاد",
+    "lighting": "تخت",
+    "contrast": "بالا",
+    "negative_space": "بیش از ۴۰٪ قاب",
+    "typography_zone": "center",
+    "why_this_image": "این اسلاید عمداً تایپوگرافی‌محور است؛ تصویر مفهومی هنوز تولید نمی‌شود",
+    "forbidden_cliche": "سکه، اسکناس، لامپ، دست‌دادن، نمودار صعودی"
+   },
+   "evidence": [],
+   "qa_status": "DRAFT"
+  },
+  {
+   "post_id": "2026-10-21_P2",
+   "slide_number": 2,
+   "role": "question",
+   "layout": "question",
+   "headline": "مشتری باید در یک نگاه چه چیزی را تشخیص بدهد؟",
+   "body": "",
+   "central_claim": "پرسش محوری پست.",
+   "claim_type": "question",
+   "background": {
+    "mode": "paper"
+   },
+   "visual_metaphor": "تایپوگرافی‌محور",
+   "art_direction": {
+    "thesis": "پرسش محوری پست.",
+    "subject": "فقط تایپوگرافی و فضای خالی؛ تصویری تولید نشده است",
+    "framing": "قاب بسته، بدون سوژه",
+    "composition": "بلوک متن در ناحیه‌ی «center»، پس‌زمینه‌ی paper، فضای منفی آزاد",
+    "lighting": "تخت",
+    "contrast": "بالا",
+    "negative_space": "بیش از ۴۰٪ قاب",
+    "typography_zone": "center",
+    "why_this_image": "این اسلاید عمداً تایپوگرافی‌محور است؛ تصویر مفهومی هنوز تولید نمی‌شود",
+    "forbidden_cliche": "سکه، اسکناس، لامپ، دست‌دادن، نمودار صعودی"
+   },
+   "evidence": [],
+   "qa_status": "DRAFT"
+  },
+  {
+   "post_id": "2026-10-21_P2",
+   "slide_number": 3,
+   "role": "context",
+   "layout": "body",
+   "headline": "کوکاکولا ظاهر محصولاتش را یکدست کرد.",
+   "body": "شرکت از «یک هویت بصری یکپارچه» گفت. حدود سه ماه بعد، کریتیو بلاگ نوشت که بسته‌ی نوشابه‌ی معمولی و زیرو هنوز مشتری را گیج می‌کند.",
+   "central_claim": "کوکاکولا در جولای ۲۰۲۶ هویت بصری را یکدست کرد؛ Creative Bloq (۱۱ اکتبر) از گیج‌شدن مشتریان خبر داد.",
+   "claim_type": "fact",
+   "background": {
+    "mode": "graphite"
+   },
+   "visual_metaphor": "تایپوگرافی‌محور",
+   "art_direction": {
+    "thesis": "کوکاکولا در جولای ۲۰۲۶ هویت بصری را یکدست کرد؛ Creative Bloq (۱۱ اکتبر) از گیج‌شدن مشتریان خبر داد.",
+    "subject": "فقط تایپوگرافی و فضای خالی؛ تصویری تولید نشده است",
+    "framing": "قاب بسته، بدون سوژه",
+    "composition": "بلوک متن در ناحیه‌ی «bottom»، پس‌زمینه‌ی graphite، فضای منفی آزاد",
+    "lighting": "تخت",
+    "contrast": "بالا",
+    "negative_space": "بیش از ۴۰٪ قاب",
+    "typography_zone": "bottom",
+    "why_this_image": "این اسلاید عمداً تایپوگرافی‌محور است؛ تصویر مفهومی هنوز تولید نمی‌شود",
+    "forbidden_cliche": "سکه، اسکناس، لامپ، دست‌دادن، نمودار صعودی"
+   },
+   "evidence": [
+    {
+     "url": "https://www.creativebloq.com/news/the-coca-cola-rebrand-is-still-causing-confusion-three-months-on",
+     "publisher": "Creative Bloq",
+     "event_date": "2026-10-11",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "کوکاکولا در جولای ۲۰۲۶ هویت بصری را تازه کرد و از «یک هویت بصری یکپارچه» گفت؛ نزدیک سه ماه بعد بازطراحی هنوز باعث سردرگمی گزارش شده است"
+    }
+   ],
+   "qa_status": "DRAFT"
+  },
+  {
+   "post_id": "2026-10-21_P2",
+   "slide_number": 4,
+   "role": "insight",
+   "layout": "body",
+   "headline": "یکدستی، فرق را کم کرد.",
+   "body": "به گزارش همان نشریه، فقط یک نوار مشکی زیرو را از معمولی جدا می‌کند. چند کاربر نوشته‌اند برای دیابت یا حساسیت به همین تفاوت تکیه دارند.",
+   "central_claim": "تمایز بسته‌ی زیرو و معمولی به یک نوار مشکی رسیده؛ کاربران از نگرانی سلامت نوشته‌اند.",
+   "claim_type": "fact",
+   "background": {
+    "mode": "paper"
+   },
+   "visual_metaphor": "تایپوگرافی‌محور",
+   "art_direction": {
+    "thesis": "تمایز بسته‌ی زیرو و معمولی به یک نوار مشکی رسیده؛ کاربران از نگرانی سلامت نوشته‌اند.",
+    "subject": "فقط تایپوگرافی و فضای خالی؛ تصویری تولید نشده است",
+    "framing": "قاب بسته، بدون سوژه",
+    "composition": "بلوک متن در ناحیه‌ی «bottom»، پس‌زمینه‌ی paper، فضای منفی آزاد",
+    "lighting": "تخت",
+    "contrast": "بالا",
+    "negative_space": "بیش از ۴۰٪ قاب",
+    "typography_zone": "bottom",
+    "why_this_image": "این اسلاید عمداً تایپوگرافی‌محور است؛ تصویر مفهومی هنوز تولید نمی‌شود",
+    "forbidden_cliche": "سکه، اسکناس، لامپ، دست‌دادن، نمودار صعودی"
+   },
+   "evidence": [
+    {
+     "url": "https://www.creativebloq.com/news/the-coca-cola-rebrand-is-still-causing-confusion-three-months-on",
+     "publisher": "Creative Bloq",
+     "event_date": "2026-10-11",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "پس از بازطراحی، تنها یک نوار مشکی کوکاکولا زیرو شوگر را از کوکای معمولی جدا می‌کند؛ کاربران شبکه‌های اجتماعی از دیابت و حساسیت نوشته‌اند. شرکت‌ تغییر را برای یکپارچگی توضیح داده است"
+    }
+   ],
+   "qa_status": "DRAFT"
+  },
+  {
+   "post_id": "2026-10-21_P2",
+   "slide_number": 5,
+   "role": "tension",
+   "layout": "body",
+   "headline": "در امارات، مشکل شکل دیگری داشت.",
+   "body": "به گزارش کریتیو برندز مگ، بسیاری از غیرعرب‌زبان‌ها نام یک نوشابه‌ی اماراتی را فقط «پاپ» می‌خواندند. برند «هلا» را به انگلیسی هم افزود.",
+   "central_claim": "برند اماراتی هلاپاپ برای خوانایی نام، «Hala» لاتین را کنار نام عربی افزود.",
+   "claim_type": "fact",
+   "background": {
+    "mode": "primary"
+   },
+   "visual_metaphor": "تایپوگرافی‌محور",
+   "art_direction": {
+    "thesis": "برند اماراتی هلاپاپ برای خوانایی نام، «Hala» لاتین را کنار نام عربی افزود.",
+    "subject": "فقط تایپوگرافی و فضای خالی؛ تصویری تولید نشده است",
+    "framing": "قاب بسته، بدون سوژه",
+    "composition": "بلوک متن در ناحیه‌ی «bottom»، پس‌زمینه‌ی primary، فضای منفی آزاد",
+    "lighting": "تخت",
+    "contrast": "بالا",
+    "negative_space": "بیش از ۴۰٪ قاب",
+    "typography_zone": "bottom",
+    "why_this_image": "این اسلاید عمداً تایپوگرافی‌محور است؛ تصویر مفهومی هنوز تولید نمی‌شود",
+    "forbidden_cliche": "سکه، اسکناس، لامپ، دست‌دادن، نمودار صعودی"
+   },
+   "evidence": [
+    {
+     "url": "https://creativebrandsmag.com/halapop-refreshes-logo-to-strengthen-multilingual-identity/",
+     "publisher": "Creative Brands Mag",
+     "event_date": "2026-10-12",
+     "retrieved_at": "2026-10-21T01:27:07Z",
+     "claim": "غیرعربی‌زبان‌ها لوگوی هلاپاپ را فقط «Pop» می‌خواندند؛ برند نوشتار عربی «هلا» را نگه داشت و «Hala» انگلیسی را افزود (سخن هم‌بنیان‌گذار کریم جلول)"
+    }
+   ],
+   "qa_status": "DRAFT"
+  },
+  {
+   "post_id": "2026-10-21_P2",
+   "slide_number": 6,
+   "role": "practice",
+   "layout": "body",
+   "headline": "آزمون سه‌ثانیه‌ای.",
+   "body": "بسته یا صفحه‌ی برندتان را سه ثانیه به کسی نشان دهید که آن را نمی‌شناسد. بپرسید: این چیست و با محصول کناری چه فرقی دارد؟ اگر جواب نداد، خوانایی یا تمایز کم است.",
+   "central_claim": "پیشنهاد عملی برای سنجش خوانایی و تمایز؛ ادعای پژوهشی نیست.",
+   "claim_type": "interpretation",
+   "background": {
+    "mode": "paper"
+   },
+   "visual_metaphor": "تایپوگرافی‌محور",
+   "art_direction": {
+    "thesis": "پیشنهاد عملی برای سنجش خوانایی و تمایز؛ ادعای پژوهشی نیست.",
+    "subject": "فقط تایپوگرافی و فضای خالی؛ تصویری تولید نشده است",
+    "framing": "قاب بسته، بدون سوژه",
+    "composition": "بلوک متن در ناحیه‌ی «center»، پس‌زمینه‌ی paper، فضای منفی آزاد",
+    "lighting": "تخت",
+    "contrast": "بالا",
+    "negative_space": "بیش از ۴۰٪ قاب",
+    "typography_zone": "center",
+    "why_this_image": "این اسلاید عمداً تایپوگرافی‌محور است؛ تصویر مفهومی هنوز تولید نمی‌شود",
+    "forbidden_cliche": "سکه، اسکناس، لامپ، دست‌دادن، نمودار صعودی"
+   },
+   "evidence": [],
+   "qa_status": "DRAFT"
+  },
+  {
+   "post_id": "2026-10-21_P2",
+   "slide_number": 7,
+   "role": "conclusion",
+   "layout": "statement",
+   "headline": "یکدستی برای خودتان است؛ تمایز برای مشتری.",
+   "body": "",
+   "central_claim": "جمع‌بندی تفسیری، نه ادعای تجربی.",
+   "claim_type": "interpretation",
+   "background": {
+    "mode": "graphite"
+   },
+   "visual_metaphor": "تایپوگرافی‌محور",
+   "art_direction": {
+    "thesis": "جمع‌بندی تفسیری، نه ادعای تجربی.",
+    "subject": "فقط تایپوگرافی و فضای خالی؛ تصویری تولید نشده است",
+    "framing": "قاب بسته، بدون سوژه",
+    "composition": "بلوک متن در ناحیه‌ی «center»، پس‌زمینه‌ی graphite، فضای منفی آزاد",
+    "lighting": "تخت",
+    "contrast": "بالا",
+    "negative_space": "بیش از ۴۰٪ قاب",
+    "typography_zone": "center",
+    "why_this_image": "این اسلاید عمداً تایپوگرافی‌محور است؛ تصویر مفهومی هنوز تولید نمی‌شود",
+    "forbidden_cliche": "سکه، اسکناس، لامپ، دست‌دادن، نمودار صعودی"
+   },
+   "evidence": [],
+   "qa_status": "DRAFT"
+  },
+  {
+   "post_id": "2026-10-21_P2",
+   "slide_number": 8,
+   "role": "prompt",
+   "layout": "closing",
+   "headline": "اگر نام و لوگو را بپوشانید، مشتری هنوز محصول شما را تشخیص می‌دهد؟",
+   "body": "تجربه‌تان را برای ما بنویسید.",
+   "central_claim": "پرسش گفت‌وگوآفرین.",
+   "claim_type": "question",
+   "background": {
+    "mode": "primary"
+   },
+   "visual_metaphor": "تایپوگرافی‌محور",
+   "art_direction": {
+    "thesis": "پرسش گفت‌وگوآفرین.",
+    "subject": "فقط تایپوگرافی و فضای خالی؛ تصویری تولید نشده است",
+    "framing": "قاب بسته، بدون سوژه",
+    "composition": "بلوک متن در ناحیه‌ی «center»، پس‌زمینه‌ی primary، فضای منفی آزاد",
+    "lighting": "تخت",
+    "contrast": "بالا",
+    "negative_space": "بیش از ۴۰٪ قاب",
+    "typography_zone": "center",
+    "why_this_image": "این اسلاید عمداً تایپوگرافی‌محور است؛ تصویر مفهومی هنوز تولید نمی‌شود",
+    "forbidden_cliche": "سکه، اسکناس، لامپ، دست‌دادن، نمودار صعودی"
+   },
+   "evidence": [],
+   "qa_status": "DRAFT"
+  }
+ ],
+ "caption": "یکدست کردن هویت بصری برند کار درستی به نظر می‌رسد، تا وقتی که مشتری دو محصول را اشتباه بگیرد.\n\nکوکاکولا در جولای ۲۰۲۶ ظاهر محصولاتش را یکدست کرد. به گزارش Creative Bloq (۱۱ اکتبر)، حدود سه ماه بعد هنوز سردرگمی گزارش می‌شود: نوشابه‌ی زیرو و معمولی را فقط یک نوار مشکی از هم جدا می‌کند. اطلاعات این گزارش از پست‌های شبکه‌های اجتماعی است و آمار فروش یا میزان اشتباه ندارد.\n\nدر امارات، به گزارش Creative Brands Mag (۱۲ اکتبر)، برند HalaPop دید که غیرعربی‌زبان‌ها نامش را «پاپ» می‌خوانند و «Hala» را به انگلیسی هم افزود. این مورد فقط یک منبع دارد.\n\nدو مثال کافی نیست تا قاعده بسازیم؛ اما برای پرسیدن کافی است.\n\n#برندینگ #هویت_بصری #طراحی_برند #دبی",
+ "cta": "اگر نام و لوگو را بپوشانید، مشتری هنوز محصول شما را تشخیص می‌دهد؟ تجربه‌تان را برای ما بنویسید.",
+ "alt_text": [
+  "اسلاید ۱: متن «یکدست بودن برند کافی نیست؛ باید خوانا هم باشد.» روی زمینه‌ی سرمه‌ای",
+  "اسلاید ۲: پرسش درباره‌ی آنچه مشتری باید در یک نگاه تشخیص بدهد",
+  "اسلاید ۳: بازطراحی یکدست کوکاکولا و گزارش سردرگمی",
+  "اسلاید ۴: تنها یک نوار مشکی زیرو را از معمولی جدا می‌کند",
+  "اسلاید ۵: مثال برند اماراتی که نام خود را به انگلیسی هم افزود",
+  "اسلاید ۶: آزمون سه‌ثانیه‌ای برای سنجش خوانایی و تمایز",
+  "اسلاید ۷: جمع‌بندی: یکدستی برای خودتان، تمایز برای مشتری",
+  "اسلاید ۸: پرسش پایانی برای مخاطب"
+ ],
+ "status": "DRAFT"
+}

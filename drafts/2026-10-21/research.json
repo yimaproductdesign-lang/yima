@@ -1,0 +1,133 @@
+{
+ "date": "2026-10-21",
+ "candidates": [
+  {
+   "title": "Income↔personality meta-analysis",
+   "url": "https://www.psypost.org/a-bigger-paycheck-tends-to-come-with-personality-changes-according-to-a-large-scale-analysis-of-psychology-research/",
+   "publisher": "PsyPost",
+   "event_date": "2026-10-20",
+   "claim": "11 longitudinal studies, up to 134,515 adults; small bidirectional income-personality effects",
+   "retrieved_at": "2026-10-21T01:40:00Z",
+   "class": "emerging",
+   "page_read": true,
+   "note": "SELECTED P1. Original paper not located/read; secondary report only"
+  },
+  {
+   "title": "Coca-Cola rebrand still causing confusion",
+   "url": "https://www.creativebloq.com/news/the-coca-cola-rebrand-is-still-causing-confusion-three-months-on",
+   "publisher": "Creative Bloq",
+   "event_date": "2026-10-11",
+   "claim": "Regular and Zero Sugar packs look alike after July 2026 refresh; anecdotal social posts, no data",
+   "retrieved_at": "2026-10-21T01:40:00Z",
+   "class": "emerging",
+   "page_read": true,
+   "note": "SELECTED P2"
+  },
+  {
+   "title": "HalaPop adds English 'Hala' to logo",
+   "url": "https://creativebrandsmag.com/halapop-refreshes-logo-to-strengthen-multilingual-identity/",
+   "publisher": "Creative Brands Mag",
+   "event_date": "2026-10-12",
+   "claim": "UAE brand: non-Arabic readers read 'Pop' only; English Hala added",
+   "retrieved_at": "2026-10-21T01:40:00Z",
+   "class": "hidden_gem",
+   "page_read": true,
+   "note": "SELECTED P2; single source"
+  },
+  {
+   "title": "Sun Life becomes Sunlife",
+   "url": "https://kalkinemedia.com/ca/stocks/bluechip/sun-life-tsxslf-becomes-sunlife-what-the-rebrand-changes",
+   "publisher": "Kalkine Media",
+   "event_date": "2026-10-15",
+   "claim": "Global one-word rebrand, new tagline",
+   "retrieved_at": "2026-10-21T01:40:00Z",
+   "class": "breaking",
+   "page_read": true,
+   "note": "not used; secondary source; date inferred"
+  },
+  {
+   "title": "AI intimacy discourse on YouTube (mixed methods)",
+   "url": "https://www.frontiersin.org/journals/sociology/articles/10.3389/fsoc.2026.1846117/full",
+   "publisher": "Frontiers in Sociology",
+   "event_date": "2026-08-05",
+   "claim": "8,757 comments on one video; split sentiment; Honneth/Zuboff framing; not representative",
+   "retrieved_at": "2026-10-21T01:40:00Z",
+   "class": "evergreen",
+   "page_read": true,
+   "note": "shortlisted; not used (one-video sample, weak UAE link, same-week freshness lower)"
+  },
+  {
+   "title": "Social mindfulness and self-bias",
+   "url": "https://www.psypost.org/people-who-are-more-considerate-of-others-show-less-me-first-bias-in-quick-decisions/",
+   "publisher": "PsyPost",
+   "event_date": "2026-10-19",
+   "claim": "N=91, correlational, pens/pencils task",
+   "retrieved_at": "2026-10-21T01:40:00Z",
+   "class": "emerging",
+   "page_read": true,
+   "note": "rejected: weak, trivial stimuli, small effect"
+  },
+  {
+   "title": "Dogs, touch and stress buffering",
+   "url": "https://www.psypost.org/new-study-suggests-touch-is-a-key-ingredient-in-dogs-stress-buffering-power/",
+   "publisher": "PsyPost",
+   "event_date": "2026-10-20",
+   "claim": "headline only",
+   "retrieved_at": "2026-10-21T01:40:00Z",
+   "class": "emerging",
+   "page_read": false,
+   "note": "rejected: brand fit"
+  },
+  {
+   "title": "Robot baby and testosterone",
+   "url": "https://www.psypost.org/they-took-a-robot-baby-home-for-the-weekend-by-monday-their-testosterone-responded-differently/",
+   "publisher": "PsyPost",
+   "event_date": "2026-10-20",
+   "claim": "headline only",
+   "retrieved_at": "2026-10-21T01:40:00Z",
+   "class": "emerging",
+   "page_read": false,
+   "note": "rejected: brand fit, unread"
+  },
+  {
+   "title": "Online meat-shaming doesn't change minds",
+   "url": "https://www.psypost.org/online-meat-shaming-may-do-little-to-change-minds-new-research-suggests/",
+   "publisher": "PsyPost",
+   "event_date": "2026-10-20",
+   "claim": "headline only",
+   "retrieved_at": "2026-10-21T01:40:00Z",
+   "class": "emerging",
+   "page_read": false,
+   "note": "rejected: unread, polarising"
+  },
+  {
+   "title": "UAE wellness real estate $14.6bn",
+   "url": "https://www.travelsdubai.com/14-May-2026/uae-wellness-real-estate-market-surges-dollar-14-6bn",
+   "publisher": "Travels Dubai",
+   "event_date": "2026-05-14",
+   "claim": "search snippet only",
+   "retrieved_at": "2026-10-21T01:40:00Z",
+   "class": "commercial",
+   "page_read": false,
+   "note": "rejected: commercial, unread, not fresh"
+  },
+  {
+   "title": "McLaren rebrand 2026",
+   "url": "https://cardboard-spaceship.com/blog/mclaren-rebrand-2026/",
+   "publisher": "Cardboard Spaceship (agency blog)",
+   "event_date": "unknown",
+   "claim": "search snippet only",
+   "retrieved_at": "2026-10-21T01:40:00Z",
+   "class": "commercial",
+   "page_read": false,
+   "note": "rejected: unread, agency blog"
+  }
+ ],
+ "lenses": {
+  "note": "Reasoning lenses, not real experts.",
+  "verification": "Both picks rest on one secondary/trade source each; claims are hedged ('according to'); original paper for P1 unread.",
+  "audience_psychology": "P1 counters money-changes-you hype with small effect sizes; P2 gives a 3-second practical test.",
+  "brand_fit": "Typography-only, no stock imagery; P1 UAE relevance low and stated; P2 has UAE example."
+ },
+ "scores_are_estimates": true
+}
