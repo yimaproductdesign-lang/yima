@@ -1,0 +1,371 @@
+{
+ "date": "2026-10-23",
+ "stage": "1_evening",
+ "run_at": "2026-10-22T16:45:00Z",
+ "scope": "branding, brand strategy, marketing only (owner rule from 2026-10-23)",
+ "searches": [
+  "rebrand new logo October 2026",
+  "brand identity redesign packaging October 2026",
+  "marketing campaign backlash brand October 2026",
+  "consumer behaviour pricing 2026",
+  "Jif rebrand packaging snack",
+  "Marketing Week/Ad Age news Oct 21 2026",
+  "brand renaming October 2026",
+  "shrinkflation price communication",
+  "Creative Review/Dezeen branding October 2026",
+  "Oatly brand voice",
+  "Just Eat VCCP",
+  "packaging norms",
+  "Ehrenberg-Bass category entry points",
+  "Kuda Barkas",
+  "greenwashing EU 2026"
+ ],
+ "pages_read": [
+  "https://www.prnewswire.com/news-releases/jif-unveils-first-major-brand-refresh-in-more-than-30-years-as-peanut-butter-moves-beyond-the-pbj-302846092.html",
+  "https://www.omnisend.com/latest-news/85-of-americans-think-brands-are-using-inflation-as-an-excuse-to-overcharge-and-its-costing-them-customers/",
+  "https://www.grocerygazette.co.uk/2026/10/15/just-eat-launches-new-global-brand-platform/",
+  "https://foodnavigator.com/Article/2026/08/19/jm-smucker-refreshes-jif-peanut-butter-branding/",
+  "https://www.dezeen.com/2026/08/14/instagram-rebrand-wordmark-script-2026/",
+  "https://www.republicworld.com/initiatives/rebranding-why-do-companies-shed-their-names-2026-10-09-138594",
+  "https://columbianewsservice.com/2026/10/21/as-ai-dominates-advertising-week-marketers-face-questions-about-its-limits",
+  "https://www.epda-design.com/news/how-brands-are-reinventing-the-most-familiar-packaging-conventions",
+  "https://www.underconsideration.com/brandnew/",
+  "https://packagingeurope.com/news/refreshed-jif-branding-mirrors-modern-consumption-habits-for-peanut-butter/14657.article",
+  "https://theshelbyreport.com/2026/08/12/updated-jif-packaging-to-begin-arriving-on-shelves-this-fall/",
+  "https://marketingscience.info/news-and-insights/category-entry-points-dissected-how-they-really-contribute-to-growth"
+ ],
+ "excluded_recent_topics": [
+  "Apple Music sound-made identity (2026-10-22)",
+  "ageing memory (2026-10-22)",
+  "income-personality (2026-10-21)"
+ ],
+ "scoring_note": "Weights: freshness 10, growth 15, reach 15, qualified followers 15, regional business relevance 15, audience psychology 10, commercial utility 10, originality 5, verifiability 5. Growth, reach, follower potential, psychology, utility and originality are subjective ESTIMATES, not measured. No item here is a verified trend.",
+ "candidates": [
+  {
+   "id": "C01",
+   "title": "Jif's first major refresh in 30+ years: from PB&J ingredient to all-day snack",
+   "url": "https://www.prnewswire.com/news-releases/jif-unveils-first-major-brand-refresh-in-more-than-30-years-as-peanut-butter-moves-beyond-the-pbj-302846092.html",
+   "publisher": "PR Newswire (J.M. Smucker Co. release)",
+   "event_date": "2026-08-10",
+   "claim": "Revived tri-colour banner, drop shadow removed; packs show snack uses (apple, celery, rice cake, cracker); Jif To Go renamed Jif Dippers; squeezable formats; new-look packs ship from October 2026 in waves through fall/winter; core product unchanged; quote Shelly Kowal 'first major design update in more than 30 years'.",
+   "retrieved_at": "2026-10-22T16:45:00Z",
+   "class": "evergreen",
+   "page_read": true,
+   "scores": {
+    "freshness": 7,
+    "growth": 10,
+    "reach": 13,
+    "qualified_followers": 14,
+    "regional_business_relevance": 13,
+    "audience_psychology": 9,
+    "commercial_utility": 10,
+    "originality": 4,
+    "verifiability": 5
+   },
+   "total": 85,
+   "note": "SELECTED as spark. News is 10 weeks old, but packs reach shelves this month; the post is about the evergreen idea under it (grow by new usage moments / category entry points), not the news.",
+   "lenses": {
+    "verification": "Primary company release read; corroborated by FoodNavigator (19 Aug) and Packaging Europe (26 Aug). Snacking stats are third-party (Spins 56%, Circana 'fourth meal') as cited by FoodNavigator, original reports not read: use at most one, attributed in caption, or none. No sales results of the refresh exist yet: never claim it worked.",
+    "audience_psychology": "Everyone has eaten something 'only at breakfast' or 'only with X'. Seeing a familiar product move to a new moment is an instant 'aha' and transferable to the viewer's own business.",
+    "brand_fit": "Core strategy+packaging topic; concrete object (jar, spoon, bread) fits monochrome object style; strong for SME owners in both audiences."
+   }
+  },
+  {
+   "id": "C07",
+   "title": "85% of US consumers think brands use inflation as an excuse to overcharge (Omnisend/Cint)",
+   "url": "https://www.omnisend.com/latest-news/85-of-americans-think-brands-are-using-inflation-as-an-excuse-to-overcharge-and-its-costing-them-customers/",
+   "publisher": "Omnisend",
+   "event_date": "2026-08-10",
+   "claim": "n=1,075 US, June 2026, ±3%; 67% feel differently about brands after price rises, 56% stopped buying; accepted reasons: quality 19%, wages 16%, costs 15%.",
+   "retrieved_at": "2026-10-22T16:45:00Z",
+   "class": "evergreen",
+   "page_read": true,
+   "scores": {
+    "freshness": 5,
+    "growth": 9,
+    "reach": 12,
+    "qualified_followers": 13,
+    "regional_business_relevance": 13,
+    "audience_psychology": 9,
+    "commercial_utility": 9,
+    "originality": 3,
+    "verifiability": 4
+   },
+   "total": 77,
+   "note": "Strong runner-up (pricing communication). Vendor-commissioned survey; US-only sample; would need careful framing. Keep for a later day."
+  },
+  {
+   "id": "C03",
+   "title": "Just Eat 'Stay Just Where You Are' global platform (VCCP), refreshed identity, away from celebrity-led marketing",
+   "url": "https://www.grocerygazette.co.uk/2026/10/15/just-eat-launches-new-global-brand-platform/",
+   "publisher": "Grocery Gazette",
+   "event_date": "2026-10-15",
+   "claim": "New global platform briefed as a 20-year platform; keeps distinctive assets, moves to 'more meaningful and emotional space'; 8 films, 11 social, 6 OOH; quote CMO Ralph Rijks.",
+   "retrieved_at": "2026-10-22T16:45:00Z",
+   "class": "emerging",
+   "page_read": true,
+   "scores": {
+    "freshness": 9,
+    "growth": 9,
+    "reach": 11,
+    "qualified_followers": 11,
+    "regional_business_relevance": 10,
+    "audience_psychology": 7,
+    "commercial_utility": 8,
+    "originality": 3,
+    "verifiability": 5
+   },
+   "total": 73,
+   "note": "Good positioning story (selling the time saved, not the food) but tension weaker and less visual; 72% stat is brand-commissioned."
+  },
+  {
+   "id": "C02",
+   "title": "FoodNavigator: Smucker expands Jif beyond sandwiches",
+   "url": "https://foodnavigator.com/Article/2026/08/19/jm-smucker-refreshes-jif-peanut-butter-branding/",
+   "publisher": "FoodNavigator",
+   "event_date": "2026-08-19",
+   "claim": "Same refresh; cites Spins (56% of Americans replacing meals with snacks/smaller meals) and Circana (snacking 3+ times a day, 'fourth meal'); peanut butter market $1.7bn.",
+   "retrieved_at": "2026-10-22T16:45:00Z",
+   "class": "evergreen",
+   "page_read": true,
+   "scores": {
+    "freshness": 6,
+    "growth": 8,
+    "reach": 10,
+    "qualified_followers": 12,
+    "regional_business_relevance": 11,
+    "audience_psychology": 8,
+    "commercial_utility": 9,
+    "originality": 3,
+    "verifiability": 4
+   },
+   "total": 71,
+   "note": "Supporting source for C01; secondary citations of third-party data."
+  },
+  {
+   "id": "C06",
+   "title": "Instagram wordmark redesign (first since 2016), in-house",
+   "url": "https://www.dezeen.com/2026/08/14/instagram-rebrand-wordmark-script-2026/",
+   "publisher": "Dezeen",
+   "event_date": "2026-08-14",
+   "claim": "Script kept, serifs flattened/detached; new type, subtle gradient, motion/UI; quotes Jasmine Probst, May Hartono.",
+   "retrieved_at": "2026-10-22T16:45:00Z",
+   "class": "evergreen",
+   "page_read": true,
+   "scores": {
+    "freshness": 4,
+    "growth": 8,
+    "reach": 14,
+    "qualified_followers": 11,
+    "regional_business_relevance": 9,
+    "audience_psychology": 7,
+    "commercial_utility": 6,
+    "originality": 2,
+    "verifiability": 5
+   },
+   "total": 66,
+   "note": "Big reach but old, and a platform-logo topic would repeat yesterday's Apple Music logo angle."
+  },
+  {
+   "id": "C08",
+   "title": "Rebranding: why do companies shed their names? (India)",
+   "url": "https://www.republicworld.com/initiatives/rebranding-why-do-companies-shed-their-names-2026-10-09-138594",
+   "publisher": "Republic World",
+   "event_date": "2026-10-09",
+   "claim": "99 listed Indian companies changed names/tickers in 2025; triggers: parent rebrand, turnaround, reputation, ownership; Interbrand's Ashish Mishra: say-do gap is the real risk.",
+   "retrieved_at": "2026-10-22T16:45:00Z",
+   "class": "evergreen",
+   "page_read": true,
+   "scores": {
+    "freshness": 7,
+    "growth": 6,
+    "reach": 9,
+    "qualified_followers": 11,
+    "regional_business_relevance": 11,
+    "audience_psychology": 7,
+    "commercial_utility": 8,
+    "originality": 3,
+    "verifiability": 3
+   },
+   "total": 65,
+   "note": "Interesting naming angle; 99 figure unsourced in article."
+  },
+  {
+   "id": "C04",
+   "title": "Kuda digital bank rebrand by Barkas ('More Life', drops 'Bank of the Free')",
+   "url": "https://www.creativereview.co.uk/landing-page/branding-news/",
+   "publisher": "Creative Review (listing); It's Nice That",
+   "event_date": "2026-10-20",
+   "claim": "Rebrand celebrating young Nigerians' ambitions; earlier tagline dropped.",
+   "retrieved_at": "2026-10-22T16:45:00Z",
+   "class": "breaking",
+   "page_read": false,
+   "scores": {
+    "freshness": 10,
+    "growth": 7,
+    "reach": 8,
+    "qualified_followers": 10,
+    "regional_business_relevance": 9,
+    "audience_psychology": 6,
+    "commercial_utility": 7,
+    "originality": 4,
+    "verifiability": 3
+   },
+   "total": 64,
+   "note": "Only listing/snippets read; needs primary read before use."
+  },
+  {
+   "id": "C11",
+   "title": "How creativity can counter greenwashing as EU tightens green claims (The Conversation, via Creative Review)",
+   "url": "https://www.creativereview.co.uk/landing-page/branding-news/",
+   "publisher": "Creative Review (listing)",
+   "event_date": "2026-10-21",
+   "claim": "Experts argue for more imaginative sustainability messaging under stricter EU rules.",
+   "retrieved_at": "2026-10-22T16:45:00Z",
+   "class": "emerging",
+   "page_read": false,
+   "scores": {
+    "freshness": 9,
+    "growth": 7,
+    "reach": 8,
+    "qualified_followers": 9,
+    "regional_business_relevance": 8,
+    "audience_psychology": 6,
+    "commercial_utility": 7,
+    "originality": 3,
+    "verifiability": 2
+   },
+   "total": 59,
+   "note": "Listing only; regulatory frame is EU-specific."
+  },
+  {
+   "id": "C09",
+   "title": "AI dominates Advertising Week NY; marketers question its limits",
+   "url": "https://columbianewsservice.com/2026/10/21/as-ai-dominates-advertising-week-marketers-face-questions-about-its-limits",
+   "publisher": "Columbia News Service",
+   "event_date": "2026-10-21",
+   "claim": "Speakers from Admazing, Swayable call for human oversight; ~20,000 attendees (unattributed).",
+   "retrieved_at": "2026-10-22T16:45:00Z",
+   "class": "emerging",
+   "page_read": true,
+   "scores": {
+    "freshness": 9,
+    "growth": 8,
+    "reach": 10,
+    "qualified_followers": 8,
+    "regional_business_relevance": 7,
+    "audience_psychology": 6,
+    "commercial_utility": 5,
+    "originality": 2,
+    "verifiability": 3
+   },
+   "total": 58,
+   "note": "Student-news report, thin evidence; AI-in-ads is overexposed; no concrete image."
+  },
+  {
+   "id": "C12",
+   "title": "Why the future of branding is multisensory (Russell Jones, Bentley example)",
+   "url": "https://www.creativereview.co.uk/landing-page/branding-news/",
+   "publisher": "Creative Review (listing)",
+   "event_date": "2026-10-15",
+   "claim": "Neuroscience shaping brand design; Bentley example.",
+   "retrieved_at": "2026-10-22T16:45:00Z",
+   "class": "evergreen",
+   "page_read": false,
+   "scores": {
+    "freshness": 7,
+    "growth": 6,
+    "reach": 8,
+    "qualified_followers": 10,
+    "regional_business_relevance": 8,
+    "audience_psychology": 8,
+    "commercial_utility": 6,
+    "originality": 3,
+    "verifiability": 2
+   },
+   "total": 58,
+   "note": "Overlaps with yesterday's sound/logo topic; source not read in full."
+  },
+  {
+   "id": "C10",
+   "title": "Reinventing familiar packaging conventions (seaweed shoe pouch, oat-milk sheets, detergent sheets)",
+   "url": "https://www.epda-design.com/news/how-brands-are-reinventing-the-most-familiar-packaging-conventions",
+   "publisher": "EPDA",
+   "event_date": "2026 (date not shown)",
+   "claim": "Ales Grey x Sway seaweed pouch replaces shoebox; Mililk oat sheets; Persil detergent sheets trial.",
+   "retrieved_at": "2026-10-22T16:45:00Z",
+   "class": "hidden_gem",
+   "page_read": true,
+   "scores": {
+    "freshness": 4,
+    "growth": 6,
+    "reach": 8,
+    "qualified_followers": 10,
+    "regional_business_relevance": 8,
+    "audience_psychology": 7,
+    "commercial_utility": 7,
+    "originality": 4,
+    "verifiability": 3
+   },
+   "total": 57,
+   "note": "Visual but date unverified; examples may be older."
+  },
+  {
+   "id": "C05",
+   "title": "CrazyGames rebrand by DixonBaxi",
+   "url": "https://www.creativereview.co.uk/landing-page/branding-news/",
+   "publisher": "Creative Review (listing)",
+   "event_date": "2026-10-20",
+   "claim": "Positions browser gaming platform for the 'web rush'.",
+   "retrieved_at": "2026-10-22T16:45:00Z",
+   "class": "breaking",
+   "page_read": false,
+   "scores": {
+    "freshness": 10,
+    "growth": 6,
+    "reach": 8,
+    "qualified_followers": 7,
+    "regional_business_relevance": 6,
+    "audience_psychology": 5,
+    "commercial_utility": 5,
+    "originality": 3,
+    "verifiability": 3
+   },
+   "total": 53,
+   "note": "Listing only; niche for target audience."
+  }
+ ],
+ "lenses_summary": {
+  "verification_red_team": "C01 rests on a primary company release plus two trade reports; outcome of the refresh is unknown (packs only now arriving) so the reel must be about the strategic move, not results. Category-entry-point concept attributed to Ehrenberg-Bass/Jenni Romaniuk only in caption; their own caveat: more CEPs do not automatically mean more growth.",
+  "audience_psychology": "'Same product, new moment' gives a self-test the viewer can run on their own business today; strong save/share potential among owners. C07 has stronger emotion (anger at prices) but weaker for a creative studio's positioning.",
+  "brand_fit": "C01 sits squarely in positioning+packaging, gives concrete objects for every line, and does not repeat yesterday's logo angle."
+ },
+ "gates": {
+  "brand_fit": {
+   "pass": [
+    "C01",
+    "C03",
+    "C07",
+    "C08",
+    "C10"
+   ],
+   "fail_or_weak": [
+    "C05 niche",
+    "C09 overexposed AI",
+    "C06/C12 repeat yesterday's angle"
+   ]
+  },
+  "story": {
+   "winner": "C01",
+   "why": "Sharpest central tension (nothing in the jar changed, only the hour you open it) and the most concrete image (a spoon leaving the sandwich for the jar)."
+  }
+ },
+ "decision": {
+  "selected": "C01",
+  "supporting": [
+   "C02",
+   "https://marketingscience.info/news-and-insights/category-entry-points-dissected-how-they-really-contribute-to-growth"
+  ],
+  "runner_up": "C07 (pricing communication) for a future day"
+ }
+}
