@@ -1,0 +1,417 @@
+{
+ "reel_id": "2026-10-22_R2",
+ "date": "2026-10-22",
+ "topic": "لوگویی که صدا ساخت: هویت تازه‌ی اپل موزیک",
+ "pillar": "brand_visual_strategy",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "این هویت را کسی *نکشید*.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "تمایز: یک نقطه‌ی متفاوت میان نشانه‌های همسانِ کشیده‌شده = هویتی که از راه دیگری آمده",
+   "evidence": [],
+   "motif": {
+    "type": "grid",
+    "params": {
+     "path": [
+      5,
+      9
+     ],
+     "hop_t": 1.2
+    }
+   }
+  },
+  {
+   "id": "S2",
+   "bg": "graphite",
+   "lines": [
+    {
+     "text": "*صدا* ساختش.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "نظم: نقطه‌های پراکنده با یک ضربه شکل می‌گیرند = صدا که به ماده فرم می‌دهد",
+   "evidence": [
+    {
+     "url": "https://www.macrumors.com/2026/10/21/apple-music-new-look-announced/",
+     "publisher": "MacRumors",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Identity unveiled 21 Oct 2026; Apple Music visuals moved from red to black-and-white; Apple says visuals 'made by sound'"
+    },
+    {
+     "url": "https://9to5mac.com/2026/10/21/apple-music-unveils-new-design-rebrand-with-logo-made-by-sound/",
+     "publisher": "9to5Mac",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Apple: identity 'physically shaped by an original composition' by Fred again.. and NEST Acoustics; captured entirely in camera"
+    }
+   ],
+   "motif": {
+    "type": "converge",
+    "params": {}
+   }
+  },
+  {
+   "id": "S3",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "اپل موزیک چهره عوض کرد.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "قرمز رفت. سیاه و سفید ماند.",
+     "kind": "b",
+     "dim": true
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "قبل/بعد: یک شکل دوپاره می‌شود = گسست از قرمز آشنا",
+   "evidence": [
+    {
+     "url": "https://www.macrumors.com/2026/10/21/apple-music-new-look-announced/",
+     "publisher": "MacRumors",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Identity unveiled 21 Oct 2026; Apple Music visuals moved from red to black-and-white; Apple says visuals 'made by sound'"
+    }
+   ],
+   "motif": {
+    "type": "split",
+    "params": {}
+   }
+  },
+  {
+   "id": "S4",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "لوگو را کف یک مخزن شیشه‌ای حک کردند،",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "زیر لایه‌ای از *مایع*.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "سکون: حلقه‌ی کامل و آرام = سطح ساکن مایع پیش از صدا",
+   "evidence": [
+    {
+     "url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass",
+     "publisher": "AppleInsider",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Logo etched into the glass floor of a small tank of mineral oil; a transducer played chosen tones, rippling the oil and distorting the logo"
+    }
+   ],
+   "motif": {
+    "type": "ring",
+    "params": {}
+   }
+  },
+  {
+   "id": "S5",
+   "bg": "graphite",
+   "lines": [
+    {
+     "text": "چند نُت پخش شد.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "مایع *لرزید* و لوگو موج برداشت.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "نویز: خط لرزان که آرام می‌شود = ارتعاش صدا که سطح را می‌شکند و دوباره شکل می‌دهد",
+   "evidence": [
+    {
+     "url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass",
+     "publisher": "AppleInsider",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Logo etched into the glass floor of a small tank of mineral oil; a transducer played chosen tones, rippling the oil and distorting the logo"
+    }
+   ],
+   "motif": {
+    "type": "noise",
+    "params": {}
+   }
+  },
+  {
+   "id": "S6",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "بدون جلوه‌ی کامپیوتری.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "همه *جلوی دوربین*.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "تمرکز: حلقه‌ها مثل فوکوس عدسی جمع می‌شوند = تصویر واقعی، گرفته‌شده با دوربین",
+   "evidence": [
+    {
+     "url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass",
+     "publisher": "AppleInsider",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Effect captured in-camera as a practical effect, not CGI"
+    },
+    {
+     "url": "https://9to5mac.com/2026/10/21/apple-music-unveils-new-design-rebrand-with-logo-made-by-sound/",
+     "publisher": "9to5Mac",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Apple: identity 'physically shaped by an original composition' by Fred again.. and NEST Acoustics; captured entirely in camera"
+    }
+   ],
+   "motif": {
+    "type": "focus",
+    "params": {}
+   }
+  },
+  {
+   "id": "S7",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "همان نُت‌ها شدند",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "*امضای صوتی* برند.",
+     "kind": "h",
+     "dim": true
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "چرخه: صدا تصویر ساخت و تصویر دوباره صدا شد = حلقه‌ی صدا و نشانه",
+   "evidence": [
+    {
+     "url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass",
+     "publisher": "AppleInsider",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Fred again.. and NEST Acoustics; Fred again.. helped create the notes for the final mnemonic (sonic sting)"
+    }
+   ],
+   "motif": {
+    "type": "loop",
+    "params": {}
+   }
+  },
+  {
+   "id": "S8",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "بیشتر ما لوگو را",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "از *سلیقه* می‌سازیم.",
+     "kind": "h",
+     "dim": true
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "انبوه: ابر نقطه‌ها = انتخاب‌های بی‌شمار سلیقه‌ای که هر کدام می‌توانست باشد",
+   "evidence": [],
+   "motif": {
+    "type": "cloud",
+    "params": {
+     "n": 380
+    }
+   }
+  },
+  {
+   "id": "S9",
+   "bg": "graphite",
+   "lines": [
+    {
+     "text": "این یکی از *کارش* درآمد.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "مسیر: نقطه از سرچشمه به مقصد می‌رود = نشانه‌ای که از دل محصول بیرون می‌آید",
+   "evidence": [],
+   "motif": {
+    "type": "journey",
+    "params": {}
+   }
+  },
+  {
+   "id": "S10",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "هنوز نمی‌دانیم مردم دوستش دارند یا نه.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "ولی *روشش* درس است.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "سنجیدن: دو کفه = نتیجه‌ی نامعلوم در برابر روشی که همین حالا ارزش دارد",
+   "evidence": [],
+   "motif": {
+    "type": "balance",
+    "params": {}
+   }
+  },
+  {
+   "id": "S11",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "نانوا بوی نان دارد.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "نجار رگه‌ی *چوب*.",
+     "kind": "h",
+     "dim": true
+    }
+   ],
+   "claim_type": "metaphor",
+   "motion_rationale": "پیوند: گره‌هایی که به هم وصل‌اند = هر سازنده با ماده‌ی کارش پیوند دارد",
+   "evidence": [],
+   "motif": {
+    "type": "network",
+    "params": {}
+   }
+  },
+  {
+   "id": "S12",
+   "bg": "graphite",
+   "lines": [
+    {
+     "text": "هویت شما هم جایی",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "در کارتان *پنهان* است.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "اثر نامحسوس: جابه‌جایی کوچک و جای قبلی نقطه‌چین = چیزی که هست ولی دیده نشده",
+   "evidence": [],
+   "motif": {
+    "type": "shift",
+    "params": {}
+   }
+  },
+  {
+   "id": "S13",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "پیش از این‌که لوگو را عوض کنید،",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "گوش کنید کارتان چه *صدایی* می‌دهد.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "question",
+   "motion_rationale": "انتظار بزرگ در برابر واقعیت کوچک: موج بزرگ بازطراحی در برابر صدای آرامی که کار شما همین حالا دارد",
+   "evidence": [],
+   "motif": {
+    "type": "whisper",
+    "params": {}
+   }
+  },
+  {
+   "id": "S14",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "برای من بنویسید.",
+     "kind": "b",
+     "dim": false
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "کارت پایانی",
+   "evidence": [],
+   "logo": true,
+   "txt_top": 1080
+  }
+ ],
+ "caption": "این هویت را کسی نکشید. صدا ساختش.\n\nاپل موزیک ۲۱ اکتبر هویت بصری تازه‌اش را معرفی کرد. به گزارش AppleInsider، لوگو را کف شیشه‌ای یک مخزن کوچک روغن معدنی حک کردند، چند نُت انتخاب‌شده را با یک مبدل صوتی پخش کردند تا مایع موج بردارد، و همه را جلوی دوربین گرفتند، بدون جلوه‌ی کامپیوتری. Fred again.. همراه NEST Acoustics در ساختن نُت‌ها بود و همین نُت‌ها امضای صوتی برند شدند. به گزارش MacRumors، رنگ هم از قرمز به سیاه و سفید رفت.\n\nبه نظر من درسش برای هر برند کوچکی همین است: هویت را از چیزی دربیاورید که واقعاً می‌سازید، نه از تزئین.\n\nحد این حرف: هنوز زود است بگوییم مردم این هویت را دوست دارند یا به کار برند می‌آید؛ عددی از نتیجه‌اش منتشر نشده. جزئیات روش از گزارش رسانه‌هاست، نه از صفحه‌ی رسمی اپل؛ MacRumors از آب حرف می‌زند و AppleInsider از روغن معدنی.\n\nکار شما چه صدا، بو یا ردی دارد که هنوز در هویت‌تان نیامده؟ برای من بنویسید.\n\n— بهنود کاویان",
+ "hashtags": [
+  "#لوگو",
+  "#branding",
+  "#طراحی_لوگو",
+  "#هویت_بصری"
+ ],
+ "sources": [
+  {
+   "publisher": "AppleInsider",
+   "title": "Apple Music's gorgeous rebrand leans on Liquid Glass",
+   "date": "2026-10-21",
+   "url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass"
+  },
+  {
+   "publisher": "MacRumors",
+   "title": "Apple Music's New Look Officially Announced",
+   "date": "2026-10-21",
+   "url": "https://www.macrumors.com/2026/10/21/apple-music-new-look-announced/"
+  },
+  {
+   "publisher": "9to5Mac",
+   "title": "Apple Music unveils new design rebrand, with logo 'made by sound'",
+   "date": "2026-10-21",
+   "url": "https://9to5mac.com/2026/10/21/apple-music-unveils-new-design-rebrand-with-logo-made-by-sound/"
+  }
+ ],
+ "cta": "برای من بنویسید.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S8"
+ },
+ "status": "DRAFT"
+}

@@ -1,0 +1,458 @@
+{
+ "reel_id": "2026-10-22_R1",
+ "date": "2026-10-22",
+ "topic": "پیری و حافظه: از جزئیات به معنا",
+ "pillar": "human_psychology_philosophy",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "مادربزرگ تاریخ آن سفر را *یادش* نیست.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "metaphor",
+   "motion_rationale": "تردید: خط لرزان و آشفته = جزئیاتی که محو شده‌اند؛ آرام‌شدنش راه را برای صحنه‌ی بعد باز می‌کند",
+   "evidence": [],
+   "motif": {
+    "type": "noise",
+    "params": {}
+   }
+  },
+  {
+   "id": "S2",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "ولی یادش هست آن سفر *چه* یادش داد.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "metaphor",
+   "motion_rationale": "تمرکز: حلقه‌ها جمع می‌شوند روی اصل ماجرا = معنایی که مانده",
+   "evidence": [],
+   "motif": {
+    "type": "focus",
+    "params": {}
+   }
+  },
+  {
+   "id": "S3",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "اسمش را می‌گذاریم",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "*فراموشی*.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "و نگران می‌شویم.",
+     "kind": "b",
+     "dim": true
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "گسست: پیوندهای شبکه کم‌رنگ می‌شوند = ترسی که از فراموشی داریم",
+   "evidence": [],
+   "motif": {
+    "type": "network",
+    "params": {}
+   }
+  },
+  {
+   "id": "S4",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "یک فرضیه‌ی تازه می‌گوید:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "شاید این *فرسایش* نیست.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "تغییر نامحسوس: نقطه فقط جابه‌جا می‌شود، از بین نمی‌رود = تغییر، نه فرسایش",
+   "evidence": [
+    {
+     "url": "https://www.newswise.com/articles/the-aging-brain-is-not-declining-it-s-adapting",
+     "publisher": "Association for Psychological Science (via Newswise)",
+     "event_date": "2026-09-17",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Fernandez, Burke & Nadel, Perspectives on Psychological Science: adaptive aging hypothesis/framework (not a new experiment); healthy aging shifts weight from hippocampus (detail) to frontal cortex (gist/meaning)"
+    }
+   ],
+   "motif": {
+    "type": "shift",
+    "params": {}
+   }
+  },
+  {
+   "id": "S5",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "در کودکی، مغز مثل *اسفنج* است.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "همه‌چیز را با جزئیات برمی‌دارد.",
+     "kind": "b",
+     "dim": true
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "مقیاس: ابر انبوه نقطه‌ها = انبار جزئیاتی که کودک جمع می‌کند",
+   "evidence": [
+    {
+     "url": "https://www.newswise.com/articles/the-aging-brain-is-not-declining-it-s-adapting",
+     "publisher": "Association for Psychological Science (via Newswise)",
+     "event_date": "2026-09-17",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Fernandez: 'A kid absorbs information like a sponge'; early life hippocampus-dominant, precise detailed memory"
+    }
+   ],
+   "motif": {
+    "type": "cloud",
+    "params": {
+     "n": 420
+    }
+   }
+  },
+  {
+   "id": "S6",
+   "bg": "graphite",
+   "lines": [
+    {
+     "text": "با سال‌ها، وزن کم‌کم جابه‌جا می‌شود:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "از *جزئیات* به *معنا*.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "نظم: نقطه‌های پراکنده به یک شبکه‌ی منظم می‌رسند = جزئیات پراکنده که به معنا فشرده می‌شوند",
+   "evidence": [
+    {
+     "url": "https://www.newswise.com/articles/the-aging-brain-is-not-declining-it-s-adapting",
+     "publisher": "Association for Psychological Science (via Newswise)",
+     "event_date": "2026-09-17",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Fernandez, Burke & Nadel, Perspectives on Psychological Science: adaptive aging hypothesis/framework (not a new experiment); healthy aging shifts weight from hippocampus (detail) to frontal cortex (gist/meaning)"
+    }
+   ],
+   "motif": {
+    "type": "converge",
+    "params": {}
+   }
+  },
+  {
+   "id": "S7",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "ذهن ریزه‌کاری را رها می‌کند",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "تا *اصل* ماجرا را نگه دارد.",
+     "kind": "h",
+     "dim": true
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "بده‌بستان: یک کفه پایین می‌رود و یکی بالا = رها کردن جزئیات در ازای نگه‌داشتن معنا",
+   "evidence": [
+    {
+     "url": "https://www.newswise.com/articles/the-aging-brain-is-not-declining-it-s-adapting",
+     "publisher": "Association for Psychological Science (via Newswise)",
+     "event_date": "2026-09-17",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Fernandez, Burke & Nadel, Perspectives on Psychological Science: adaptive aging hypothesis/framework (not a new experiment); healthy aging shifts weight from hippocampus (detail) to frontal cortex (gist/meaning)"
+    }
+   ],
+   "motif": {
+    "type": "balance",
+    "params": {}
+   }
+  },
+  {
+   "id": "S8",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "در یک پژوهش کوچک، سالمندها",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "خاطره را بیشتر با *دانسته‌ها* تعریف کردند.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "مقایسه‌ی مقدار: پله‌ی بلندتر = سهم بیشتر دانسته‌های کلی در روایت سالمندها",
+   "evidence": [
+    {
+     "url": "https://www.psypost.org/older-adults-tell-the-story-of-their-lives-differently-and-it-may-not-be-a-sign-of-decline-new-psychology-study-suggests/",
+     "publisher": "PsyPost (report on Melega et al., Psychology and Aging, UEA)",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "37 older vs 37 younger adults; older adults' memories had a larger share of semantic/general content (e.g. 40-42% vs 15-24% in categoric memories; 18% vs 13% in specific)"
+    }
+   ],
+   "motif": {
+    "type": "steps",
+    "params": {}
+   }
+  },
+  {
+   "id": "S9",
+   "bg": "graphite",
+   "lines": [
+    {
+     "text": "و همان خاطره‌ها برایشان *زنده‌تر* بود.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "کلیت و تنفس: حلقه‌ای که کامل می‌شود = خاطره‌ای که کم‌جزئیات‌تر ولی کامل‌تر و زنده‌تر است",
+   "evidence": [
+    {
+     "url": "https://www.psypost.org/older-adults-tell-the-story-of-their-lives-differently-and-it-may-not-be-a-sign-of-decline-new-psychology-study-suggests/",
+     "publisher": "PsyPost (report on Melega et al., Psychology and Aging, UEA)",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Older adults rated their specific memories as more vivid (3.81 vs 3.53 of 5)"
+    }
+   ],
+   "motif": {
+    "type": "ring",
+    "params": {}
+   }
+  },
+  {
+   "id": "S10",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "فرضیه است، نه حکم. نمونه هم کوچک بود.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "و آلزایمر *راه دیگری* است.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "دوراهی: یک دایره دو تا می‌شود = آلزایمر شکل شدیدتر پیری نیست، مسیر جداست",
+   "evidence": [
+    {
+     "url": "https://www.newswise.com/articles/the-aging-brain-is-not-declining-it-s-adapting",
+     "publisher": "Association for Psychological Science (via Newswise)",
+     "event_date": "2026-09-17",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Fernandez, Burke & Nadel, Perspectives on Psychological Science: adaptive aging hypothesis/framework (not a new experiment); healthy aging shifts weight from hippocampus (detail) to frontal cortex (gist/meaning)"
+    },
+    {
+     "url": "https://www.newswise.com/articles/the-aging-brain-is-not-declining-it-s-adapting",
+     "publisher": "Association for Psychological Science (via Newswise)",
+     "event_date": "2026-09-17",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Fernandez: Alzheimer's is not an intensified form of normal aging, 'They are completely different'; pathology may disrupt the shift"
+    },
+    {
+     "url": "https://www.psypost.org/older-adults-tell-the-story-of-their-lives-differently-and-it-may-not-be-a-sign-of-decline-new-psychology-study-suggests/",
+     "publisher": "PsyPost (report on Melega et al., Psychology and Aging, UEA)",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Limits: not preregistered, small trial numbers, older sample mostly female and high-functioning"
+    }
+   ],
+   "motif": {
+    "type": "split",
+    "params": {}
+   }
+  },
+  {
+   "id": "S11",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "شاید پیری *پاک‌کن* نیست.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "*صافی* است.",
+     "kind": "h",
+     "dim": true
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "تمایز: از میان نقطه‌های همسان یکی روشن می‌ماند و جابه‌جا می‌شود = صافی‌ای که فقط آنچه می‌ارزد را نگه می‌دارد",
+   "evidence": [],
+   "motif": {
+    "type": "grid",
+    "params": {
+     "path": [
+      5,
+      6,
+      10
+     ],
+     "hop_t": 1.4
+    }
+   }
+  },
+  {
+   "id": "S12",
+   "bg": "graphite",
+   "lines": [
+    {
+     "text": "جوان می‌پرسد:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*کِی* بود؟",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "پیر می‌پرسد:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "چه *معنایی* داشت؟",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "زمان: عقربه‌ای که می‌چرخد = پرسش «کی» در برابر پرسشی که از زمان عبور کرده",
+   "evidence": [],
+   "motif": {
+    "type": "clock",
+    "params": {}
+   }
+  },
+  {
+   "id": "S13",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "دفعه‌ی بعد که پدرتان قصه را از وسط شروع کرد،",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "حرفش را *قطع* نکنید.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "مسیر: نقطه‌ای که راه پرپیچش را تا مقصد می‌رود = قصه‌ای که باید بگذاریم به نتیجه‌اش برسد",
+   "evidence": [],
+   "motif": {
+    "type": "journey",
+    "params": {}
+   }
+  },
+  {
+   "id": "S14",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "بپرسید از آن روزها",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "*چه* با خودش آورد.",
+     "kind": "h",
+     "dim": true
+    }
+   ],
+   "claim_type": "question",
+   "motion_rationale": "چرخه: دو نقطه که دنبال هم می‌چرخند = دانسته‌ای که از نسلی به نسل بعد می‌رسد و برمی‌گردد",
+   "evidence": [],
+   "motif": {
+    "type": "loop",
+    "params": {}
+   }
+  },
+  {
+   "id": "S15",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "برای من بنویسید.",
+     "kind": "b",
+     "dim": false
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "کارت پایانی",
+   "evidence": [],
+   "logo": true,
+   "txt_top": 1080
+  }
+ ],
+ "caption": "مادربزرگ تاریخ آن سفر را یادش نیست. ولی یادش هست آن سفر چه یادش داد.\n\nما به این می‌گوییم فراموشی. سه پژوهشگر دانشگاه آریزونا (Fernandez، Burke و Nadel) در مجله‌ی Perspectives on Psychological Science فرضیه‌ای پیشنهاد کرده‌اند: در پیری سالم، مغز کم‌کم تکیه‌اش را از هیپوکامپ، که جزئیات را ضبط می‌کند، به قشر پیشانی می‌دهد که «اصل ماجرا» و معنا را نگه می‌دارد. به گفته‌ی آن‌ها شاید این فقط افول نباشد؛ ادامه‌ی رشد باشد.\n\nیک پژوهش کوچک در Psychology and Aging (دانشگاه ایست‌انگلیا) هم دید که ۳۷ سالمند، در مقایسه با ۳۷ جوان، سهم بیشتری از روایت خاطره‌هایشان را با دانسته‌های کلی پر کردند و خاطره‌های مشخص‌شان را زنده‌تر ارزیابی کردند.\n\nحدودش را هم بگویم: اولی فرضیه است، نه آزمایش تازه. دومی نمونه‌ی کوچکی دارد، از پیش ثبت نشده و بیشتر شرکت‌کنندگانش زن بودند. آلزایمر هم شکل شدیدتر همین روند نیست؛ به گفته‌ی نویسندگان، مسیر دیگری است. منبع‌ها گزارش‌های ثانویه‌اند و متن اصلی مقاله‌ها را مستقیم نخوانده‌ام.\n\nآخرین بار که یکی از بزرگ‌ترهایتان قصه‌ای را دوباره تعریف کرد، چه چیزی از آن برایتان ماند؟ برای من بنویسید.\n\n— بهنود کاویان",
+ "hashtags": [
+  "#روانشناسی",
+  "#psychology",
+  "#حافظه",
+  "#سالمندی"
+ ],
+ "sources": [
+  {
+   "publisher": "Association for Psychological Science (Newswise)",
+   "title": "The Aging Brain Is Not Declining. It's Adapting (Fernandez, Burke & Nadel, Perspectives on Psychological Science)",
+   "date": "2026-09-17",
+   "url": "https://www.newswise.com/articles/the-aging-brain-is-not-declining-it-s-adapting"
+  },
+  {
+   "publisher": "PsyPost",
+   "title": "Older adults tell the story of their lives differently, and it may not be a sign of decline (Melega et al., Psychology and Aging)",
+   "date": "2026-10-21",
+   "url": "https://www.psypost.org/older-adults-tell-the-story-of-their-lives-differently-and-it-may-not-be-a-sign-of-decline-new-psychology-study-suggests/"
+  }
+ ],
+ "cta": "برای من بنویسید.",
+ "audio": {
+  "mode": "generative",
+  "mood": "reflective",
+  "drop_scene": "S11"
+ },
+ "status": "DRAFT"
+}
