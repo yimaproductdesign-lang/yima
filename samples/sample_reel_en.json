@@ -355,23 +355,21 @@
      "type": "words",
      "mode": "pop",
      "box": [
-      170,
-      800,
-      910,
-      1500
+      150,
+      840,
+      930,
+      1480
      ],
      "seed": 21,
      "size": 54,
      "stagger": 0.08,
      "words": [
-      "the CEO's favorite color",
       "trending font",
-      "this year's look",
-      "like the competitor",
+      "the CEO's color",
       "a cute icon",
       "gradient",
       "make it pop",
-      "make it bigger"
+      "like the competitor"
      ]
     }
    ]

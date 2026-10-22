@@ -96,13 +96,13 @@
     },
     "latin": {
       "family": "BrandLatin",
-      "typeface": "Inter (SIL Open Font License, assets/fonts/inter/LICENSE.txt)",
+      "typeface": "Helvetica style: TeX Gyre Heros (GUST Font License) until licensed Helvetica files are added (assets/fonts/helvetica/README.md)",
       "files": {
-        "Light": "assets/fonts/inter/Inter-Light.otf",
-        "Regular": "assets/fonts/inter/Inter-Regular.otf",
-        "Medium": "assets/fonts/inter/Inter-Medium.otf",
-        "Bold": "assets/fonts/inter/Inter-Bold.otf",
-        "ExtraBold": "assets/fonts/inter/Inter-ExtraBold.otf"
+        "Light": "assets/fonts/helvetica/texgyreheros-regular.otf",
+        "Regular": "assets/fonts/helvetica/texgyreheros-regular.otf",
+        "Medium": "assets/fonts/helvetica/texgyreheros-regular.otf",
+        "Bold": "assets/fonts/helvetica/texgyreheros-bold.otf",
+        "ExtraBold": "assets/fonts/helvetica/texgyreheros-bold.otf"
       },
       "use": "English reels only; Persian stays DoranFaNum"
     }

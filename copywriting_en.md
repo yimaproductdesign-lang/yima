@@ -17,7 +17,7 @@ A senior brand strategist and designer: direct, warm, a little dry. Talks to a s
 - Headline lines stand alone: a claim or an image, never a label.
 - Cut long sentences with a short punch. No three sentences of the same length in a row.
 - Sentence case. No title case, no ALL CAPS, no exclamation marks, no emoji.
-- Avoid line breaks that leave one word alone; split lines yourself.
+- Split lines yourself: one thought per line, headline lines up to about 6 words. The renderer sets each line as an aligned block that fills the column (Helvetica-style font).
 - Numbers: one number that changes something.
 - Caveats once, briefly, on screen; fully in the caption. The last line lands; never end on an apology.
 
