@@ -28,3 +28,13 @@ Readings taken (unattended run): no owner images in `incoming/2026-10-22/` → a
 - R1 S4–S7, S10: Fernandez, Burke & Nadel, Perspectives on Psychological Science — hypothesis/framework, hippocampus (detail) → frontal (gist); "sponge" quote; Alzheimer's "completely different" (APS/Newswise, 2026-09-17). ✔
 - R1 S8–S9: Melega et al., Psychology and Aging, 37 vs 37; more semantic share; specific memories rated more vivid; not preregistered, mostly female (PsyPost 2026-10-21). ✔
 - R2 S2–S7: AppleInsider (tank, etched glass floor, mineral oil, transducer, in-camera, Fred again.. + NEST Acoustics, mnemonic); MacRumors (21 Oct, red → black-and-white, "made by sound"; says water); 9to5Mac ("physically shaped by an original composition", in camera). ✔ Wallpaper* not re-read.
+
+## Update — owner images (received in chat after the first build)
+Six images were attached. Used:
+- **R2-b.jpg** (orange frame: transducer splash over the logo in the liquid) → R2 S5 «مایع لرزید و لوگو موج برداشت». Credit Apple; source page AppleInsider (as requested for R2-b).
+- **R2-a.jpg** (white frame: new wordmark seen through the ripple) → R2 S9 «این یکی از کارش درآمد». Credit Apple; source page Wallpaper* (as requested for R2-a).
+Both are 16:9 (1280 px wide), so they were placed full-width in a 1080x1920 frame on a blurred extension of themselves (`*_vertical.jpg`) instead of being centre-cropped, which would have cut the logo. The vector motif was removed in those two scenes; the footage itself carries the meaning. Motifs still 11 distinct.
+Skipped:
+- Letterboxed duplicate of R2-a (same frame with black bars).
+- Logo-history comparison (2015–2019 / 2019–2026 / 2026): source unknown, year labels not verified, and black-on-white would vanish under the brand tint.
+- Two photos of an older woman with a younger woman (R1): no image was requested for R1, stage 1 chose vector-only and no photos of private individuals; source/credit unknown; one is only 750x375.
