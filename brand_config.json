@@ -217,7 +217,6 @@
     "topic_scope": "branding, brand strategy, marketing (one topic per day)",
     "voice": {
       "provider": "Azure Speech (neural TTS)",
-      "fa": "fa-IR-FaridNeural",
       "en": "en-US-AndrewNeural",
       "rate": "-6%",
       "pitch": "-3%",
@@ -225,7 +224,11 @@
         "AZURE_SPEECH_KEY",
         "AZURE_SPEECH_REGION"
       ],
-      "status": "waiting for owner's Azure key and network allowlist"
+      "status": "waiting for owner's Azure key and network allowlist",
+      "languages": [
+        "en"
+      ],
+      "note": "Owner (2026-10-22): Persian reel stays without voice-over; only the English reel is narrated."
     }
   }
 }
