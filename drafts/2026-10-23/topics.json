@@ -112,6 +112,56 @@
     "reuse_path_or_new": "reuse jar.png (same key for continuity)"
    }
   ],
-  "image_note": "Owner-uploaded real images only for T-a/T-b (official release page). All other visuals are generated monochrome objects; never generate the Jif logo or pack."
+  "image_note": "Owner-uploaded real images only for T-a/T-b (official release page). All other visuals are generated monochrome objects; never generate the Jif logo or pack. Owner uploaded 6 images on 2026-10-22 evening (T-a..T-f). Monochrome objects (jar, bread, apple slice, tube) remain for non-proof scenes; real photos are framed on dark scenes per motion.md.",
+  "uploaded_images": [
+   {
+    "id": "T-a",
+    "file": "incoming/2026-10-23/T-a.jpg",
+    "size": "2699x1518",
+    "content": "New-look Jif jar family, diagonal rows; labels show snack uses (apple slice, celery, rice cake, pretzel) and 'Dip. Scoop. Spread.'",
+    "use": "Proof scene: same jar, new moments printed on the label (framed, dark bg).",
+    "source_note": "Owner upload; matches the release's family image (Jif-Family_August-2026)."
+   },
+   {
+    "id": "T-b",
+    "file": "incoming/2026-10-23/T-b.jpg",
+    "size": "2700x2872",
+    "content": "New Jif logo: flat tri-colour banner, no drop shadow.",
+    "use": "AFTER half of the before/after with T-c.",
+    "source_note": "Owner upload; matches the release's logo image."
+   },
+   {
+    "id": "T-c",
+    "file": "incoming/2026-10-23/T-c.jpg",
+    "size": "2400x2400",
+    "content": "Jif squeeze pouch 'Packable Snackable', OLD logo WITH drop shadow, cracker with peanut-butter heart.",
+    "use": "BEFORE logo (shadowed letters) vs T-b; also 'format follows the moment' (portable pouch). Note: this is the pre-refresh design, label it as earlier pack.",
+    "source_note": "Owner upload; exact source page not given — confirm in caption credit as 'Jif / J.M. Smucker Co.'"
+   },
+   {
+    "id": "T-d",
+    "file": "incoming/2026-10-23/T-d.jpg",
+    "size": "1534x1534",
+    "content": "Green apple rings topped with peanut butter, granola, cranberries.",
+    "use": "The new moment: snack, not sandwich.",
+    "source_note": "Owner upload; likely Jif recipe imagery, source page not given."
+   },
+   {
+    "id": "T-e",
+    "file": "incoming/2026-10-23/T-e.jpg",
+    "size": "1534x1534",
+    "content": "Stacked s'mores with peanut butter, chocolate, marshmallow.",
+    "use": "Optional: dessert moment (third occasion).",
+    "source_note": "Owner upload; source page not given."
+   },
+   {
+    "id": "T-f",
+    "file": "incoming/2026-10-23/T-f.jpg",
+    "size": "1534x1534",
+    "content": "Waffle cone filled with peanut butter and fruit, apple half beside.",
+    "use": "Optional: on-the-go / kids' snack moment.",
+    "source_note": "Owner upload; source page not given."
+   }
+  ]
  }
 }
