@@ -214,6 +214,18 @@
         "copy_guide": "copywriting_en.md"
       }
     },
-    "topic_scope": "branding, brand strategy, marketing (one topic per day)"
+    "topic_scope": "branding, brand strategy, marketing (one topic per day)",
+    "voice": {
+      "provider": "Azure Speech (neural TTS)",
+      "fa": "fa-IR-FaridNeural",
+      "en": "en-US-AndrewNeural",
+      "rate": "-6%",
+      "pitch": "-3%",
+      "env": [
+        "AZURE_SPEECH_KEY",
+        "AZURE_SPEECH_REGION"
+      ],
+      "status": "waiting for owner's Azure key and network allowlist"
+    }
   }
 }

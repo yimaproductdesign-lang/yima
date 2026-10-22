@@ -51,13 +51,13 @@ def schedule(reel):
             lines.append({"size": ln.get("size", size), "weight": wt, "dim": ln.get("dim", False), "words": ws})
         hold = sc.get("hold", max(0.9, 0.6 + 0.06 * nwords))
         mm = MOTIF_MIN.get((sc.get("motif") or {}).get("type"), 0) if sc.get("motif") else 0
-        vm = 3.0 if (sc.get("objects") or sc.get("fx")) else 0
+        vm = max(3.0 if (sc.get("objects") or sc.get("fx")) else 0, sc.get("vo_dur", 0) + 0.75)
         dur = sc.get("dur") or max((last_in + 0.42 + hold) if nwords else 0, mm, vm, 3.0 if sc.get("logo") else 2.4)
         end = sc.get("end", round(start + dur, 3))
         scenes.append({"id": sc["id"], "start": start, "end": end, "theme": THEME[sc["bg"]], "bg": sc["bg"], "lines": lines,
                        "txt_top": sc.get("txt_top", 330), "motif": sc.get("motif"), "logo": sc.get("logo", False), "image": sc.get("image"),
                        "objects": sc.get("objects"), "fx": sc.get("fx"), "style": sc.get("style", reel.get("style")), "spot_y": sc.get("spot_y"),
-                       "txt_align": sc.get("txt_align", "start")})
+                       "txt_align": sc.get("txt_align", "start"), "vo_dur": sc.get("vo_dur", 0)})
         prev_end = end
     tmax = (reel.get("target_s") or [40, 60])[1]
     total = scenes[-1]["end"] if scenes else 0
@@ -65,7 +65,7 @@ def schedule(reel):
         mins = []
         for s in scenes:
             last = max([w["t"] for l in s["lines"] for w in l["words"]] or [0])
-            mins.append(max(last + 0.42 + 0.8 if s["lines"] else 0, 2.2, 3.0 if s["logo"] else 0))
+            mins.append(max(last + 0.42 + 0.8 if s["lines"] else 0, 2.2, 3.0 if s["logo"] else 0, s["vo_dur"] + 0.5))
         durs = [s["end"] - s["start"] for s in scenes]
         slack = sum(d - m for d, m in zip(durs, mins))
         f = max(0.0, (tmax - 0.5 - sum(mins)) / slack) if slack > 0 else 0
@@ -82,7 +82,7 @@ def schedule(reel):
         def need(s):
             last = max([w["t"] for l in s["lines"] for w in l["words"]] or [0])
             nw = sum(len(l["words"]) for l in s["lines"])
-            return max(last + 0.42 + 0.8 if s["lines"] else 0, nw / 3.0, 2.2, 3.0 if s["logo"] else 0)
+            return max(last + 0.42 + 0.8 if s["lines"] else 0, nw / 3.0, 2.2, 3.0 if s["logo"] else 0, s["vo_dur"] + 0.45)
         durs = [s["end"] - s["start"] for s in scenes]
         while sum(durs) > tmax:
             i = max(range(len(scenes)), key=lambda k: durs[k] - need(scenes[k]))
@@ -331,6 +331,8 @@ def main(reel_path, out_dir):
     out = pathlib.Path(out_dir).resolve() / reel["reel_id"]
     if out.exists(): shutil.rmtree(out)
     (out / "frames").mkdir(parents=True)
+    import reel_voice
+    clips, vstatus = reel_voice.prepare(reel, pathlib.Path(out_dir).resolve())
     scenes = schedule(reel)
     total = scenes[-1]["end"]
     html = page_html(json.loads(json.dumps(scenes)), reel.get("lang", "fa"))
@@ -352,8 +354,10 @@ def main(reel_path, out_dir):
         page.evaluate("cur=-1; if(window.resetVis) resetVis();")
         page.evaluate(f"render({scenes[0]['end'] - 0.2})"); page.screenshot(path=str(out / "cover.png"), clip={"x": 0, "y": 0, "width": W, "height": H})
         br.close()
+    metrics["voice"] = vstatus
     (out / "reel_metrics.json").write_text(json.dumps(metrics, indent=1), encoding="utf8")
     reel_audio.synth(scenes, total, out / "audio.wav", reel.get("audio") or {})
+    reel_voice.mix(out / "audio.wav", scenes, clips)
     mp4 = out / f"{reel['reel_id']}.mp4"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-framerate", str(FPS), "-i", str(out / "frames" / "%05d.jpg"), "-i", str(out / "audio.wav"),
                     "-c:v", "libx264", "-preset", "medium", "-crf", "17", "-pix_fmt", "yuv420p", "-r", str(FPS), "-c:a", "aac", "-b:a", "192k",

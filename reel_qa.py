@@ -147,6 +147,7 @@ def main(reel_path, out_dir):
             if not sg or sg["text"] != L["signature"]: crit.append(f"{sc['id']}: signature «{L['signature']}» missing on end card")
             elif sg["b"] > S["y1"] or ("DoranFaNum" if lang == "fa" else CFG["fonts"]["latin"]["family"]) not in sg["font"]: crit.append(f"{sc['id']}: signature outside safe area or wrong font")
             if not any(L["cta"].rstrip(".") in l["text"] for l in sc.get("lines", [])): warn.append(f"{sc['id']}: end card CTA should be «{L['cta']}»")
+    if (reel.get("voice") or {}).get("enabled") and not str(met.get("voice", "")).startswith("voice ok"): crit.append(f"voice-over requested but missing: {met.get('voice', 'not run')}")
     score = max(0, 100 - 15 * len(crit) - 2 * len(warn))
     status = "READY_FOR_REVIEW" if not crit and score >= CFG["qa"]["mandatory_threshold"] else "BLOCKED_QA"
     rep = {"reel_id": rid, "status": status, "score": score, "critical": crit, "warnings": warn,
