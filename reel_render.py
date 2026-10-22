@@ -17,7 +17,7 @@ THEME = {
     "graphite": dict(bg=P["graphite"], fg=P["paper"],    dim=P["slate"], acc=P["paper"], logo="on_dark"),
     "paper":    dict(bg=P["paper"],    dim=P["teal"],    fg=P["graphite"], acc=P["teal"], logo="on_light"),
 }
-STYLE = {"h": (116, 800), "b": (68, 500), "s": (48, 300)}  # size px, css weight
+STYLE = {"xl": (168, 800), "h": (116, 800), "b": (68, 500), "s": (48, 300)}  # size px, css weight
 MOTIF_MIN = {"grid": 2.2, "cloud": 2.6, "ring": 2.0, "shift": 3.0, "whisper": 3.0, "steps": 2.4, "converge": 3.4, "network": 3.4,
              "loop": 3.0, "balance": 3.2, "journey": 3.0, "focus": 2.8, "split": 2.4, "clock": 3.2, "noise": 3.2}
 
@@ -51,10 +51,13 @@ def schedule(reel):
             lines.append({"size": ln.get("size", size), "weight": wt, "dim": ln.get("dim", False), "words": ws})
         hold = sc.get("hold", max(0.9, 0.6 + 0.06 * nwords))
         mm = MOTIF_MIN.get((sc.get("motif") or {}).get("type"), 0) if sc.get("motif") else 0
-        dur = sc.get("dur") or max((last_in + 0.42 + hold) if nwords else 0, mm, 3.0 if sc.get("logo") else 2.4)
+        vm = 3.0 if (sc.get("objects") or sc.get("fx")) else 0
+        dur = sc.get("dur") or max((last_in + 0.42 + hold) if nwords else 0, mm, vm, 3.0 if sc.get("logo") else 2.4)
         end = sc.get("end", round(start + dur, 3))
         scenes.append({"id": sc["id"], "start": start, "end": end, "theme": THEME[sc["bg"]], "bg": sc["bg"], "lines": lines,
-                       "txt_top": sc.get("txt_top", 330), "motif": sc.get("motif"), "logo": sc.get("logo", False), "image": sc.get("image")})
+                       "txt_top": sc.get("txt_top", 330), "motif": sc.get("motif"), "logo": sc.get("logo", False), "image": sc.get("image"),
+                       "objects": sc.get("objects"), "fx": sc.get("fx"), "style": sc.get("style", reel.get("style")), "spot_y": sc.get("spot_y"),
+                       "txt_align": sc.get("txt_align", "center")})
         prev_end = end
     tmax = (reel.get("target_s") or [40, 60])[1]
     total = scenes[-1]["end"] if scenes else 0
@@ -88,6 +91,11 @@ def schedule(reel):
         t = 0.0
         for s, d in zip(scenes, durs):
             s["start"] = round(t, 4); t += d; s["end"] = round(t, 4)
+    for i, sc in enumerate(scenes):  # object continuity: same key in neighbouring scenes glides instead of re-entering
+        keys = lambda j: {o.get("key") for o in (scenes[j].get("objects") or []) if o.get("key")} if 0 <= j < len(scenes) else set()
+        for o in sc.get("objects") or []:
+            o["carry_in"] = bool(o.get("key")) and o["key"] in keys(i - 1)
+            o["carry_out"] = bool(o.get("key")) and o["key"] in keys(i + 1)
     gstart = None
     for i, sc in enumerate(scenes):
         m = sc["motif"] or {}; g = m.get("group")
@@ -219,6 +227,8 @@ function build(si){
   if(!(g&&g===curGroup&&M)){svg.innerHTML='';M=null;curGroup=null;
     if(s.motif){M=Object.create(MOTIFS[s.motif.type]);M.init(s.motif.params||{},C);curGroup=g;}}
   logo.style.display=s.logo?'block':'none';if(s.logo)logo.src=s.theme.logo_url;const sg=document.getElementById('sig');sg.style.display=s.logo?'block':'none';sg.textContent=SIG;sg.style.color=C.fg;
+  txt.style.alignItems=s.txt_align==='right'?'flex-start':'center';txt.style.textAlign=s.txt_align==='right'?'right':'center';[...txt.children].forEach(r=>r.style.justifyContent=s.txt_align==='right'?'flex-start':'center');
+  if(window.buildVis)buildVis(s,si);
   if(s.image){imgwrap.style.display='block';bgimg.src=s.image.url;const h=C.bg,r=parseInt(h.slice(1,3),16),g=parseInt(h.slice(3,5),16),b=parseInt(h.slice(5,7),16),c=a=>`rgba(${r},${g},${b},${a})`;tint.style.background=`linear-gradient(180deg,${c(.9)} 0%,${c(.8)} 45%,${c(.6)} 70%,${c(.85)} 100%)`;}else{imgwrap.style.display='none';}
 }
 function render(t){
@@ -233,6 +243,7 @@ function render(t){
   const mf=Math.min(s.m_in?Math.min(1,u/.14):1,s.m_out?Math.min(1,(s.end-t)/.14):1);
   txt.style.opacity=fade;svg.style.opacity=mf;logo.style.opacity=fade;imgwrap.style.opacity=fade;
   if(s.image){bgimg.style.transform=`scale(${1+.08*u/dur})`;}
+  if(window.updateVis)updateVis(s,u,dur);
   if(M)M.update(t-s.mstart,dur);
   if(s.logo){const p=ease(clamp(u/.8));logo.style.transform=`translate(-50%,-50%) scale(${.94+.06*p})`;const q=ease(clamp((u-.6)/.6)),sg=document.getElementById('sig');sg.style.opacity=q*fade;sg.style.transform=`translateY(${(1-q)*20}px)`;}
 }
@@ -243,11 +254,18 @@ window.measure=function(){return {fit:window.__fit,words:words.map(e=>{const b=e
 """
 
 
+VIS_JS = (ROOT / "reel_visuals.js").read_text(encoding="utf8")
+
+
 def page_html(scenes):
     for s in scenes:
         s["theme"] = dict(s["theme"], logo_url=(ROOT / CFG["logo"]["files"][s["theme"]["logo"]]["path"]).as_uri())
         if s.get("image"):
             s["image"] = dict(s["image"], url=pathlib.Path(s["image"]["path"]).resolve().as_uri())
+        for o in s.get("objects") or []:
+            o["url"] = pathlib.Path(o["src"]).resolve().as_uri()
+        for f in s.get("fx") or []:
+            if f.get("lens"): f["lens_url"] = pathlib.Path(f["lens"]).resolve().as_uri()
     txt_h = 760
     return f"""<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8"><style>{font_css()}
 *{{margin:0;padding:0;box-sizing:border-box}}
@@ -256,6 +274,18 @@ html,body{{width:{W}px;height:{H}px;overflow:hidden;background:#000}}
 #imgwrap{{position:absolute;inset:0;display:none;overflow:hidden}}
 #bgimg{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.05)}}
 #tint{{position:absolute;inset:0}}
+#bgfx{{position:absolute;inset:0;display:none}}
+#objlayer,#fx{{position:absolute;inset:0;overflow:hidden}}
+#objlayer{{z-index:1}}#fx{{z-index:2}}#txt,#logo,#sig{{z-index:3}}
+.obj{{position:absolute;will-change:transform,opacity,filter}}
+.obj img{{display:block;width:100%;height:auto}}
+.obj.frame img{{height:100%;object-fit:cover;border-radius:18px;box-shadow:0 40px 70px rgba(0,0,0,.45)}}
+.obj .reveal{{position:absolute;left:0;top:0;width:100%;height:auto}}
+.obj.frame .reveal{{height:100%;object-fit:cover;border-radius:18px}}
+.fxw{{position:absolute;white-space:nowrap;font-family:'DoranFaNum';direction:rtl;will-change:transform,opacity,filter}}
+.fxsvg{{position:absolute;inset:0;width:{W}px;height:{H}px}}
+.fxlens{{position:absolute;filter:drop-shadow(0 30px 30px rgba(0,0,0,.3))}}
+.card{{position:absolute;width:300px;height:420px;border-radius:22px;box-shadow:0 30px 50px rgba(0,0,0,.25)}}
 #motif{{position:absolute;inset:0;width:{W}px;height:{H}px}}
 #txt{{position:absolute;left:{SAFE['x0']}px;right:{W - SAFE['x1']}px;top:330px;display:flex;flex-direction:column;align-items:center;gap:34px;direction:rtl;text-align:center}}
 .ln{{display:flex;flex-wrap:wrap;justify-content:center;gap:0 .36em;line-height:1.4}}
@@ -263,8 +293,8 @@ html,body{{width:{W}px;height:{H}px;overflow:hidden;background:#000}}
 .em::after{{content:'';position:absolute;right:0;left:0;bottom:-2px;height:7px;border-radius:4px;background:var(--ac);transform:scaleX(var(--u,0));transform-origin:right}}
 #logo{{position:absolute;left:50%;top:760px;height:420px;width:auto;transform:translate(-50%,-50%);display:none}}
 #sig{{position:absolute;left:0;right:0;top:1380px;text-align:center;font-weight:500;font-size:56px;letter-spacing:.02em;display:none;direction:rtl}}
-</style></head><body><div id="stage"><div id="imgwrap"><img id="bgimg"><div id="tint"></div></div><svg id="motif" viewBox="0 0 {W} {H}"></svg><div id="txt"></div><img id="logo"><div id="sig"></div></div>
-<script>const SC={json.dumps(scenes, ensure_ascii=False)};const SAFE_TXT_H={txt_h};const SIG={json.dumps(CFG['signature']['text'], ensure_ascii=False)};{JS}</script></body></html>"""
+</style></head><body><div id="stage"><div id="bgfx"></div><div id="imgwrap"><img id="bgimg"><div id="tint"></div></div><svg id="motif" viewBox="0 0 {W} {H}"></svg><div id="objlayer"></div><div id="fx"></div><div id="txt"></div><img id="logo"><div id="sig"></div></div>
+<script>const SC={json.dumps(scenes, ensure_ascii=False)};const SAFE_TXT_H={txt_h};const SIG={json.dumps(CFG['signature']['text'], ensure_ascii=False)};{JS}</script><script>{VIS_JS}</script></body></html>"""
 
 
 def main(reel_path, out_dir):
@@ -285,10 +315,12 @@ def main(reel_path, out_dir):
         for s in scenes:  # layout metrics near the end of each scene, when every word is visible
             page.evaluate(f"render({s['end'] - 0.2})"); page.wait_for_timeout(200)
             m = page.evaluate("measure()"); m.update(scene=s["id"], start=s["start"], end=s["end"], bg=s["bg"]); metrics["scenes"].append(m)
+        page.evaluate("cur=-1; if(window.resetVis) resetVis();")
         for i in range(n):
             page.evaluate(f"render({i / FPS})")
             page.screenshot(path=str(out / "frames" / f"{i:05d}.jpg"), type="jpeg", quality=95, clip={"x": 0, "y": 0, "width": W, "height": H})
         # cover frame: first scene, all words visible
+        page.evaluate("cur=-1; if(window.resetVis) resetVis();")
         page.evaluate(f"render({scenes[0]['end'] - 0.2})"); page.screenshot(path=str(out / "cover.png"), clip={"x": 0, "y": 0, "width": W, "height": H})
         br.close()
     (out / "reel_metrics.json").write_text(json.dumps(metrics, indent=1), encoding="utf8")

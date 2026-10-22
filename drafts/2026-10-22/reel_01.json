@@ -11,7 +11,7 @@
  "scenes": [
   {
    "id": "S1",
-   "bg": "primary",
+   "bg": "paper",
    "lines": [
     {
      "text": "مادربزرگ تاریخ آن سفر را *یادش* نیست.",
@@ -20,16 +20,30 @@
     }
    ],
    "claim_type": "metaphor",
-   "motion_rationale": "تردید: خط لرزان و آشفته = جزئیاتی که محو شده‌اند؛ آرام‌شدنش راه را برای صحنه‌ی بعد باز می‌کند",
+   "motion_rationale": "تردید/محو شدن: عکس قدیمی سفر می‌افتد و جزئیاتش تار می‌شود = تاریخی که یادش نیست",
    "evidence": [],
-   "motif": {
-    "type": "noise",
-    "params": {}
-   }
+   "objects": [
+    {
+     "key": "photo",
+     "src": "assets/objects/2026-10-22/photo.png",
+     "x": 540,
+     "y": 1190,
+     "w": 840,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -3,
+     "anim": "drop",
+     "blur": [
+      0,
+      9,
+      1.3,
+      2.9
+     ]
+    }
+   ]
   },
   {
    "id": "S2",
-   "bg": "primary",
+   "bg": "paper",
    "lines": [
     {
      "text": "ولی یادش هست آن سفر *چه* یادش داد.",
@@ -38,16 +52,75 @@
     }
    ],
    "claim_type": "metaphor",
-   "motion_rationale": "تمرکز: حلقه‌ها جمع می‌شوند روی اصل ماجرا = معنایی که مانده",
+   "motion_rationale": "تمرکز: ذره‌بین روی عکس تار حرکت می‌کند و فقط یک تکه را واضح می‌کند = آنچه از سفر مانده، اصل ماجراست",
    "evidence": [],
-   "motif": {
-    "type": "focus",
-    "params": {}
-   }
+   "objects": [
+    {
+     "key": "photo",
+     "src": "assets/objects/2026-10-22/photo.png",
+     "x": 540,
+     "y": 1190,
+     "w": 840,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -3,
+     "blur": [
+      9,
+      9
+     ],
+     "reveal": {
+      "r": 128,
+      "t": 0.5,
+      "path": [
+       [
+        0,
+        330,
+        1050
+       ],
+       [
+        1.4,
+        520,
+        1160
+       ],
+       [
+        2.4,
+        640,
+        1275
+       ]
+      ]
+     }
+    },
+    {
+     "key": "magnifier",
+     "src": "assets/objects/2026-10-22/magnifier.png",
+     "x": 0,
+     "y": 0,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "z": 3,
+     "anim": "fade",
+     "path": [
+      [
+       0,
+       195.6,
+       1134.608695652174
+      ],
+      [
+       1.4,
+       385.6,
+       1244.608695652174
+      ],
+      [
+       2.4,
+       505.6,
+       1359.608695652174
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "S3",
-   "bg": "paper",
+   "bg": "primary",
    "lines": [
     {
      "text": "اسمش را می‌گذاریم",
@@ -66,12 +139,34 @@
     }
    ],
    "claim_type": "interpretation",
-   "motion_rationale": "گسست: پیوندهای شبکه کم‌رنگ می‌شوند = ترسی که از فراموشی داریم",
+   "motion_rationale": "گسست: کلمه‌های جزئیات سفر یکی‌یکی محو و تار می‌شوند = همان چیزی که اسمش را فراموشی می‌گذاریم",
    "evidence": [],
-   "motif": {
-    "type": "network",
-    "params": {}
-   }
+   "fx": [
+    {
+     "type": "words",
+     "mode": "fade",
+     "box": [
+      120,
+      880,
+      960,
+      1500
+     ],
+     "seed": 3,
+     "size": 54,
+     "t0": 0.9,
+     "words": [
+      "تاریخ",
+      "اسم هتل",
+      "ساعت حرکت",
+      "رنگ ماشین",
+      "اسم خیابان",
+      "روز هفته",
+      "پلاک",
+      "قیمت بنزین",
+      "سال"
+     ]
+    }
+   ]
   },
   {
    "id": "S4",
@@ -89,7 +184,7 @@
     }
    ],
    "claim_type": "interpretation",
-   "motion_rationale": "تغییر نامحسوس: نقطه فقط جابه‌جا می‌شود، از بین نمی‌رود = تغییر، نه فرسایش",
+   "motion_rationale": "تغییر نگاه: مغز زیر نور، آرام نزدیک می‌شود = فرضیه‌ای درباره‌ی خود مغز، نه درباره‌ی فرسودگی",
    "evidence": [
     {
      "url": "https://www.newswise.com/articles/the-aging-brain-is-not-declining-it-s-adapting",
@@ -99,10 +194,19 @@
      "claim": "Fernandez, Burke & Nadel, Perspectives on Psychological Science: adaptive aging hypothesis/framework (not a new experiment); healthy aging shifts weight from hippocampus (detail) to frontal cortex (gist/meaning)"
     }
    ],
-   "motif": {
-    "type": "shift",
-    "params": {}
-   }
+   "objects": [
+    {
+     "key": "brain",
+     "src": "assets/objects/2026-10-22/brain.png",
+     "x": 540,
+     "y": 1210,
+     "w": 760,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "push": 0.05
+    }
+   ],
+   "spot_y": 1210
   },
   {
    "id": "S5",
@@ -120,7 +224,7 @@
     }
    ],
    "claim_type": "fact",
-   "motion_rationale": "مقیاس: ابر انبوه نقطه‌ها = انبار جزئیاتی که کودک جمع می‌کند",
+   "motion_rationale": "مقیاس و جذب: کلمه‌های جزئیات به درون اسفنج کشیده می‌شوند = ذهن کودک که همه‌چیز را برمی‌دارد",
    "evidence": [
     {
      "url": "https://www.newswise.com/articles/the-aging-brain-is-not-declining-it-s-adapting",
@@ -130,16 +234,53 @@
      "claim": "Fernandez: 'A kid absorbs information like a sponge'; early life hippocampus-dominant, precise detailed memory"
     }
    ],
-   "motif": {
-    "type": "cloud",
-    "params": {
-     "n": 420
+   "objects": [
+    {
+     "key": "sponge",
+     "src": "assets/objects/2026-10-22/sponge.png",
+     "x": 540,
+     "y": 1260,
+     "w": 600,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "pop",
+     "push": 0.04
     }
-   }
+   ],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "absorb",
+     "box": [
+      90,
+      840,
+      990,
+      1500
+     ],
+     "target": [
+      540,
+      1260
+     ],
+     "seed": 5,
+     "size": 54,
+     "t0": 0.7,
+     "words": [
+      "رنگ‌ها",
+      "اسم‌ها",
+      "بوها",
+      "عددها",
+      "صداها",
+      "چهره‌ها",
+      "خیابان‌ها",
+      "تاریخ‌ها",
+      "آهنگ‌ها",
+      "جزئیات"
+     ]
+    }
+   ]
   },
   {
    "id": "S6",
-   "bg": "graphite",
+   "bg": "paper",
    "lines": [
     {
      "text": "با سال‌ها، وزن کم‌کم جابه‌جا می‌شود:",
@@ -153,7 +294,7 @@
     }
    ],
    "claim_type": "fact",
-   "motion_rationale": "نظم: نقطه‌های پراکنده به یک شبکه‌ی منظم می‌رسند = جزئیات پراکنده که به معنا فشرده می‌شوند",
+   "motion_rationale": "نظم: کلمه‌ها از صافی رد می‌شوند و فقط «معنا» در آن می‌ماند = جابه‌جایی وزن از جزئیات به معنا",
    "evidence": [
     {
      "url": "https://www.newswise.com/articles/the-aging-brain-is-not-declining-it-s-adapting",
@@ -163,10 +304,49 @@
      "claim": "Fernandez, Burke & Nadel, Perspectives on Psychological Science: adaptive aging hypothesis/framework (not a new experiment); healthy aging shifts weight from hippocampus (detail) to frontal cortex (gist/meaning)"
     }
    ],
-   "motif": {
-    "type": "converge",
-    "params": {}
-   }
+   "objects": [
+    {
+     "key": "sieve",
+     "src": "assets/objects/2026-10-22/sieve.png",
+     "x": 540,
+     "y": 1340,
+     "w": 820,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise"
+    }
+   ],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "sift",
+     "box": [
+      160,
+      820,
+      920,
+      900
+     ],
+     "target": [
+      390,
+      1300
+     ],
+     "seed": 9,
+     "size": 54,
+     "keep": [
+      "معنا"
+     ],
+     "stagger": 0.02,
+     "words": [
+      "تاریخ",
+      "ساعت",
+      "اسم",
+      "پلاک",
+      "معنا",
+      "رنگ",
+      "عدد",
+      "قیمت"
+     ]
+    }
+   ]
   },
   {
    "id": "S7",
@@ -184,7 +364,7 @@
     }
    ],
    "claim_type": "interpretation",
-   "motion_rationale": "بده‌بستان: یک کفه پایین می‌رود و یکی بالا = رها کردن جزئیات در ازای نگه‌داشتن معنا",
+   "motion_rationale": "بده‌بستان: روی کفه‌ها ریزه‌کاری سبک می‌شود و می‌رود، اصل ماجرا سنگین می‌ماند",
    "evidence": [
     {
      "url": "https://www.newswise.com/articles/the-aging-brain-is-not-declining-it-s-adapting",
@@ -194,10 +374,41 @@
      "claim": "Fernandez, Burke & Nadel, Perspectives on Psychological Science: adaptive aging hypothesis/framework (not a new experiment); healthy aging shifts weight from hippocampus (detail) to frontal cortex (gist/meaning)"
     }
    ],
-   "motif": {
-    "type": "balance",
-    "params": {}
-   }
+   "objects": [
+    {
+     "key": "scale",
+     "src": "assets/objects/2026-10-22/scale.png",
+     "x": 540,
+     "y": 1300,
+     "w": 620,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise"
+    }
+   ],
+   "fx": [
+    {
+     "type": "labels",
+     "items": [
+      {
+       "text": "ریزه‌کاری",
+       "x": 373,
+       "y": 1480,
+       "move": "up",
+       "t": 1.6,
+       "size": 56
+      },
+      {
+       "text": "اصل ماجرا",
+       "x": 707,
+       "y": 1480,
+       "move": "down",
+       "acc": true,
+       "t": 1.6,
+       "size": 56
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "S8",
@@ -215,7 +426,7 @@
     }
    ],
    "claim_type": "fact",
-   "motion_rationale": "مقایسه‌ی مقدار: پله‌ی بلندتر = سهم بیشتر دانسته‌های کلی در روایت سالمندها",
+   "motion_rationale": "دانسته‌ها: کتاب‌های کهنه زیر نور = روایتی که بیشتر از دانسته‌ها ساخته شده تا از صحنه‌ها",
    "evidence": [
     {
      "url": "https://www.psypost.org/older-adults-tell-the-story-of-their-lives-differently-and-it-may-not-be-a-sign-of-decline-new-psychology-study-suggests/",
@@ -225,14 +436,23 @@
      "claim": "37 older vs 37 younger adults; older adults' memories had a larger share of semantic/general content (e.g. 40-42% vs 15-24% in categoric memories; 18% vs 13% in specific)"
     }
    ],
-   "motif": {
-    "type": "steps",
-    "params": {}
-   }
+   "objects": [
+    {
+     "key": "books",
+     "src": "assets/objects/2026-10-22/books.png",
+     "x": 540,
+     "y": 1250,
+     "w": 720,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "push": 0.04
+    }
+   ],
+   "spot_y": 1250
   },
   {
    "id": "S9",
-   "bg": "graphite",
+   "bg": "paper",
    "lines": [
     {
      "text": "و همان خاطره‌ها برایشان *زنده‌تر* بود.",
@@ -241,7 +461,7 @@
     }
    ],
    "claim_type": "fact",
-   "motion_rationale": "کلیت و تنفس: حلقه‌ای که کامل می‌شود = خاطره‌ای که کم‌جزئیات‌تر ولی کامل‌تر و زنده‌تر است",
+   "motion_rationale": "وضوح: همان عکس سفر برمی‌گردد و این بار واضح و روشن‌تر می‌شود = خاطره‌ای که زنده‌تر است",
    "evidence": [
     {
      "url": "https://www.psypost.org/older-adults-tell-the-story-of-their-lives-differently-and-it-may-not-be-a-sign-of-decline-new-psychology-study-suggests/",
@@ -251,10 +471,29 @@
      "claim": "Older adults rated their specific memories as more vivid (3.81 vs 3.53 of 5)"
     }
    ],
-   "motif": {
-    "type": "ring",
-    "params": {}
-   }
+   "objects": [
+    {
+     "key": "photo2",
+     "src": "assets/objects/2026-10-22/photo.png",
+     "x": 540,
+     "y": 1190,
+     "w": 860,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": 2,
+     "anim": "zoom",
+     "blur": [
+      6,
+      0,
+      0.2,
+      1.6
+     ],
+     "bright": [
+      0.9,
+      1.08
+     ],
+     "push": 0.06
+    }
+   ]
   },
   {
    "id": "S10",
@@ -272,7 +511,7 @@
     }
    ],
    "claim_type": "fact",
-   "motion_rationale": "دوراهی: یک دایره دو تا می‌شود = آلزایمر شکل شدیدتر پیری نیست، مسیر جداست",
+   "motion_rationale": "دوراهی: تابلوی دوطرفه = فرضیه یک راه است و آلزایمر راهی دیگر",
    "evidence": [
     {
      "url": "https://www.newswise.com/articles/the-aging-brain-is-not-declining-it-s-adapting",
@@ -296,10 +535,17 @@
      "claim": "Limits: not preregistered, small trial numbers, older sample mostly female and high-functioning"
     }
    ],
-   "motif": {
-    "type": "split",
-    "params": {}
-   }
+   "objects": [
+    {
+     "key": "signpost",
+     "src": "assets/objects/2026-10-22/signpost.png",
+     "x": 540,
+     "y": 1220,
+     "w": 660,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise"
+    }
+   ]
   },
   {
    "id": "S11",
@@ -317,23 +563,39 @@
     }
    ],
    "claim_type": "interpretation",
-   "motion_rationale": "تمایز: از میان نقطه‌های همسان یکی روشن می‌ماند و جابه‌جا می‌شود = صافی‌ای که فقط آنچه می‌ارزد را نگه می‌دارد",
+   "motion_rationale": "جانشینی: پاک‌کن بیرون می‌رود و صافی جایش می‌آید = پیری پاک‌کن نیست، صافی است",
    "evidence": [],
-   "motif": {
-    "type": "grid",
-    "params": {
-     "path": [
-      5,
-      6,
-      10
-     ],
-     "hop_t": 1.4
+   "objects": [
+    {
+     "key": "eraser",
+     "src": "assets/objects/2026-10-22/eraser.png",
+     "x": 540,
+     "y": 1230,
+     "w": 640,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "fade",
+     "exit": [
+      "left",
+      1.25
+     ]
+    },
+    {
+     "key": "sieve2",
+     "src": "assets/objects/2026-10-22/sieve.png",
+     "x": 540,
+     "y": 1230,
+     "w": 820,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "slide_r",
+     "delay": 1.5,
+     "in": 0.9
     }
-   }
+   ],
+   "spot_y": 1230
   },
   {
    "id": "S12",
-   "bg": "graphite",
+   "bg": "primary",
    "lines": [
     {
      "text": "جوان می‌پرسد:",
@@ -357,12 +619,21 @@
     }
    ],
    "claim_type": "interpretation",
-   "motion_rationale": "زمان: عقربه‌ای که می‌چرخد = پرسش «کی» در برابر پرسشی که از زمان عبور کرده",
+   "motion_rationale": "زمان: ساعت جیبی زیر نور = پرسش «کی بود؟» در برابر پرسش معنا",
    "evidence": [],
-   "motif": {
-    "type": "clock",
-    "params": {}
-   }
+   "objects": [
+    {
+     "key": "watch",
+     "src": "assets/objects/2026-10-22/watch.png",
+     "x": 540,
+     "y": 1300,
+     "w": 440,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "fade",
+     "push": 0.05
+    }
+   ],
+   "spot_y": 1300
   },
   {
    "id": "S13",
@@ -380,16 +651,24 @@
     }
    ],
    "claim_type": "interpretation",
-   "motion_rationale": "مسیر: نقطه‌ای که راه پرپیچش را تا مقصد می‌رود = قصه‌ای که باید بگذاریم به نتیجه‌اش برسد",
+   "motion_rationale": "صحنه‌ی ملموس: استکان چای = لحظه‌ای که پدر قصه را تعریف می‌کند و باید مجال داد",
    "evidence": [],
-   "motif": {
-    "type": "journey",
-    "params": {}
-   }
+   "objects": [
+    {
+     "key": "tea",
+     "src": "assets/objects/2026-10-22/tea.png",
+     "x": 540,
+     "y": 1250,
+     "w": 640,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "float": 6
+    }
+   ]
   },
   {
    "id": "S14",
-   "bg": "primary",
+   "bg": "paper",
    "lines": [
     {
      "text": "بپرسید از آن روزها",
@@ -403,12 +682,19 @@
     }
    ],
    "claim_type": "question",
-   "motion_rationale": "چرخه: دو نقطه که دنبال هم می‌چرخند = دانسته‌ای که از نسلی به نسل بعد می‌رسد و برمی‌گردد",
+   "motion_rationale": "بازگشت از سفر: چمدان کهنه = آنچه از آن روزها با خودش آورده؛ پایان قصه به سفرِ صحنه‌ی اول برمی‌گردد",
    "evidence": [],
-   "motif": {
-    "type": "loop",
-    "params": {}
-   }
+   "objects": [
+    {
+     "key": "suitcase",
+     "src": "assets/objects/2026-10-22/suitcase.png",
+     "x": 540,
+     "y": 1240,
+     "w": 600,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop"
+    }
+   ]
   },
   {
    "id": "S15",
@@ -454,5 +740,6 @@
   "mood": "reflective",
   "drop_scene": "S11"
  },
- "status": "DRAFT"
+ "status": "DRAFT",
+ "style": "editorial"
 }

@@ -80,10 +80,23 @@ def main(reel_path, out_dir):
             if abs((lg["r"] - lg["l"]) / rh - lg["nw"] / lg["nh"]) > .01: crit.append(f"{tag}: logo distorted")
     # motion semantics: every motif needs a reason; variety; no mechanical repetition
     mot = [(s.get("motif") or {}) for s in reel["scenes"]]
+    def vis_sig(s):  # what the viewer sees: motif type, objects, typographic/vector effects
+        return {("m", (s.get("motif") or {}).get("type"))} - {("m", None)} | {("o", pathlib.Path(o["src"]).stem) for o in s.get("objects") or []} | {("f", f.get("type") + ":" + f.get("mode", "")) for f in s.get("fx") or []}
     for s, m in zip(reel["scenes"], mot):
-        if m and len(s.get("motion_rationale", "").strip()) < 8: crit.append(f"{s['id']}: motif without motion_rationale")
-    types = [m.get("type") for m in mot if m]
-    if len(set(types)) < 5: crit.append(f"only {len(set(types))} distinct motifs; need >= 5 for a 40-60s reel")
+        if (m or s.get("objects") or s.get("fx")) and len(s.get("motion_rationale", "").strip()) < 8: crit.append(f"{s['id']}: visual without motion_rationale")
+        if not s.get("logo") and not vis_sig(s) and not s.get("image"): warn.append(f"{s['id']}: no visual (text only)")
+    allsig = set().union(*[vis_sig(s) for s in reel["scenes"]])
+    if len(allsig) < 5: crit.append(f"only {len(allsig)} distinct visuals; need >= 5 for a 40-60s reel")
+    for i in range(1, len(reel["scenes"])):
+        a_, b_ = vis_sig(reel["scenes"][i - 1]), vis_sig(reel["scenes"][i])
+        carried = {o.get("key") for o in reel["scenes"][i].get("objects") or []} & {o.get("key") for o in reel["scenes"][i - 1].get("objects") or []} - {None}
+        if a_ and a_ == b_ and not carried and not (mot[i].get("group") and mot[i].get("group") == mot[i - 1].get("group")): warn.append(f"{reel['scenes'][i]['id']}: same visual as previous scene")
+    for sc in reel["scenes"]:  # objects: file, provenance
+        for o in sc.get("objects") or []:
+            if not (ROOT / o["src"]).exists() and not pathlib.Path(o["src"]).exists(): crit.append(f"{sc['id']}: object file missing {o['src']}")
+            if not o.get("credit"): crit.append(f"{sc['id']}: object {o['src']} needs a credit (AI-generated or owner source)")
+            elif not o["credit"].startswith("AI-generated") and not o.get("source_url"): crit.append(f"{sc['id']}: sourced image {o['src']} needs source_url")
+            if o.get("frame") and sc["bg"] == "paper": warn.append(f"{sc['id']}: framed footage on paper; prefer a dark scene")
     for i in range(2, len(mot)):
         a, b, c = mot[i - 2], mot[i - 1], mot[i]
         if a and b and c and a.get("type") == b.get("type") == c.get("type") and not (a.get("group") and a.get("group") == b.get("group") == c.get("group")):

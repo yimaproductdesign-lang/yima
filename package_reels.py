@@ -14,6 +14,12 @@ for i, rp in enumerate(paths, 1):
     refs[rid] = [e for s in r["scenes"] for e in s.get("evidence", [])]
     src_lines = [f"- {x.get('publisher', '')}: {x.get('title') or x.get('claim', '')} ({x.get('date', '')}) {x.get('url', '')}" for x in r.get("sources", [])]
     src_lines += [f"- تصویر: {s['image'].get('credit', '')} {s['image'].get('source_url', '')}" for s in r["scenes"] if s.get("image")]
+    seen = set()
+    for s in r["scenes"]:
+        for o in s.get("objects") or []:
+            c = (o.get("credit", ""), o.get("source_url", ""))
+            if c in seen: continue
+            seen.add(c); src_lines.append(f"- تصویر: {c[0]} {c[1]}".rstrip())
     post = r["caption"].rstrip() + "\n\n" + " ".join(r.get("hashtags", []))
     (d / "caption.txt").write_text(post + "\n", encoding="utf8")
     caps.append(f"# Reel {i:02d} — {r['topic']}\n\n{post}\n\n**منابع**\n" + "\n".join(src_lines) + f"\n\n(music: {(r.get('audio') or {}).get('mood')})")

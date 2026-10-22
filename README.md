@@ -22,3 +22,5 @@ Two 40-60s reels per day, 1080x1920, 30fps. Per reel: write `drafts/DATE/reel_0N
 `python3 reel_render.py drafts/DATE/reel_0N.json out && python3 reel_qa.py drafts/DATE/reel_0N.json out/<reel_id>`, then
 `python3 package_reels.py DATE drafts/DATE/reel_01.json drafts/DATE/reel_02.json`.
 Music: generative, moods `reflective` or `dark` only. End card: logo, «برای من بنویسید.», «بهنود کاویان». Never name the UAE in copy.
+
+Visual style (since 2026-10-22): editorial objects + topic-word typography (`reel_visuals.js`, rules in `motion.md`). AI-generated monochrome objects live in `assets/objects/DATE/` (cut out with rembg). Abstract motifs are a fallback only.

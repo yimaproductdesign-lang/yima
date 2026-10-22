@@ -11,27 +11,37 @@
  "scenes": [
   {
    "id": "S1",
-   "bg": "primary",
+   "bg": "paper",
    "lines": [
     {
-     "text": "این هویت را کسی *نکشید*.",
+     "text": "این هویت را",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "کسی *نکشید*.",
      "kind": "h",
      "dim": false
     }
    ],
    "claim_type": "interpretation",
-   "motion_rationale": "تمایز: یک نقطه‌ی متفاوت میان نشانه‌های همسانِ کشیده‌شده = هویتی که از راه دیگری آمده",
+   "motion_rationale": "غیاب: مداد می‌افتد و بی‌آن‌که چیزی بکشد از قاب بیرون می‌رود = این هویت را کسی نکشید",
    "evidence": [],
-   "motif": {
-    "type": "grid",
-    "params": {
-     "path": [
-      5,
-      9
-     ],
-     "hop_t": 1.2
+   "objects": [
+    {
+     "key": "pencil",
+     "src": "assets/objects/2026-10-22/pencil.png",
+     "x": 540,
+     "y": 1210,
+     "w": 680,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop",
+     "exit": [
+      "right",
+      1.3
+     ]
     }
-   }
+   ]
   },
   {
    "id": "S2",
@@ -44,7 +54,7 @@
     }
    ],
    "claim_type": "fact",
-   "motion_rationale": "نظم: نقطه‌های پراکنده با یک ضربه شکل می‌گیرند = صدا که به ماده فرم می‌دهد",
+   "motion_rationale": "صدا: دیاپازون می‌لرزد و موج می‌فرستد = صدا که شکل می‌سازد",
    "evidence": [
     {
      "url": "https://www.macrumors.com/2026/10/21/apple-music-new-look-announced/",
@@ -61,10 +71,32 @@
      "claim": "Apple: identity 'physically shaped by an original composition' by Fred again.. and NEST Acoustics; captured entirely in camera"
     }
    ],
-   "motif": {
-    "type": "converge",
-    "params": {}
-   }
+   "objects": [
+    {
+     "key": "fork",
+     "src": "assets/objects/2026-10-22/fork.png",
+     "x": 540,
+     "y": 1200,
+     "w": 150,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "vibrate": 3,
+     "vib_t": 0.6
+    }
+   ],
+   "fx": [
+    {
+     "type": "rings",
+     "x": 540,
+     "y": 900,
+     "R": 430,
+     "n": 6,
+     "period": 1.3,
+     "t": 0.6,
+     "op": 0.45
+    }
+   ],
+   "spot_y": 1200
   },
   {
    "id": "S3",
@@ -82,7 +114,7 @@
     }
    ],
    "claim_type": "fact",
-   "motion_rationale": "قبل/بعد: یک شکل دوپاره می‌شود = گسست از قرمز آشنا",
+   "motion_rationale": "تغییر چهره: کارت قرمز بیرون می‌رود و کارت سیاه و سفید جایش می‌نشیند = قرمز رفت، سیاه و سفید ماند",
    "evidence": [
     {
      "url": "https://www.macrumors.com/2026/10/21/apple-music-new-look-announced/",
@@ -92,14 +124,17 @@
      "claim": "Identity unveiled 21 Oct 2026; Apple Music visuals moved from red to black-and-white; Apple says visuals 'made by sound'"
     }
    ],
-   "motif": {
-    "type": "split",
-    "params": {}
-   }
+   "fx": [
+    {
+     "type": "swatch",
+     "y": 1180,
+     "t": 1.5
+    }
+   ]
   },
   {
    "id": "S4",
-   "bg": "primary",
+   "bg": "graphite",
    "lines": [
     {
      "text": "لوگو را کف یک مخزن شیشه‌ای حک کردند،",
@@ -113,7 +148,7 @@
     }
    ],
    "claim_type": "fact",
-   "motion_rationale": "سکون: حلقه‌ی کامل و آرام = سطح ساکن مایع پیش از صدا",
+   "motion_rationale": "خود صحنه: فریم واقعی مخزن، لوگو زیر لایه‌ی مایع = همان چیزی که متن می‌گوید",
    "evidence": [
     {
      "url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass",
@@ -123,10 +158,22 @@
      "claim": "Logo etched into the glass floor of a small tank of mineral oil; a transducer played chosen tones, rippling the oil and distorting the logo"
     }
    ],
-   "motif": {
-    "type": "ring",
-    "params": {}
-   }
+   "objects": [
+    {
+     "key": "R2-a.jpg",
+     "src": "incoming/2026-10-22/R2-a.jpg",
+     "x": 540,
+     "y": 1160,
+     "w": 980,
+     "ar": 1.8285714285714285,
+     "frame": true,
+     "credit": "Apple (frame from the Apple Music identity film)",
+     "source_url": "https://www.wallpaper.com/art/music/apple-musics-new-visual-identity-turns-sound-into-liquid-with-help-from-fred-again",
+     "anim": "zoom",
+     "push": 0.04
+    }
+   ],
+   "spot_y": 1160
   },
   {
    "id": "S5",
@@ -144,7 +191,7 @@
     }
    ],
    "claim_type": "fact",
-   "motion_rationale": "تصویر واقعی به‌جای موتیف: فریم خود ویدیو (مبدل صوتی و موج مایع) همان لرزش را نشان می‌دهد؛ زوم آهسته‌ی رندرر حرکت صحنه است",
+   "motion_rationale": "لرزش: فریم واقعی پاشیدن مایع می‌لرزد و موج‌ها پخش می‌شوند = نُت‌ها مایع را لرزاندند",
    "evidence": [
     {
      "url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass",
@@ -154,15 +201,40 @@
      "claim": "Logo etched into the glass floor of a small tank of mineral oil; a transducer played chosen tones, rippling the oil and distorting the logo"
     }
    ],
-   "image": {
-    "path": "incoming/2026-10-22/R2-b_vertical.jpg",
-    "credit": "Apple (فریم ویدیوی هویت تازه‌ی اپل موزیک)",
-    "source_url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass"
-   }
+   "objects": [
+    {
+     "key": "tank",
+     "src": "incoming/2026-10-22/R2-b.jpg",
+     "x": 540,
+     "y": 1160,
+     "w": 980,
+     "ar": 1.7777777777777777,
+     "frame": true,
+     "credit": "Apple (frame from the Apple Music identity film)",
+     "source_url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass",
+     "anim": "fade",
+     "vibrate": 5,
+     "vib_t": 0.8,
+     "vib_decay": true
+    }
+   ],
+   "fx": [
+    {
+     "type": "rings",
+     "x": 560,
+     "y": 1060,
+     "R": 380,
+     "n": 5,
+     "period": 1.0,
+     "t": 0.8,
+     "op": 0.35
+    }
+   ],
+   "spot_y": 1160
   },
   {
    "id": "S6",
-   "bg": "paper",
+   "bg": "graphite",
    "lines": [
     {
      "text": "بدون جلوه‌ی کامپیوتری.",
@@ -176,7 +248,7 @@
     }
    ],
    "claim_type": "fact",
-   "motion_rationale": "تمرکز: حلقه‌ها مثل فوکوس عدسی جمع می‌شوند = تصویر واقعی، گرفته‌شده با دوربین",
+   "motion_rationale": "دوربین: همان فریم کوچک می‌شود و قاب منظره‌یاب دورش بسته می‌شود = همه‌چیز جلوی دوربین، بدون جلوه‌ی کامپیوتری",
    "evidence": [
     {
      "url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass",
@@ -193,14 +265,37 @@
      "claim": "Apple: identity 'physically shaped by an original composition' by Fred again.. and NEST Acoustics; captured entirely in camera"
     }
    ],
-   "motif": {
-    "type": "focus",
-    "params": {}
-   }
+   "objects": [
+    {
+     "key": "tank",
+     "src": "incoming/2026-10-22/R2-b.jpg",
+     "x": 540,
+     "y": 1180,
+     "w": 700,
+     "ar": 1.7777777777777777,
+     "frame": true,
+     "credit": "Apple (frame from the Apple Music identity film)",
+     "source_url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass",
+     "carry_t": 1.0
+    }
+   ],
+   "fx": [
+    {
+     "type": "viewfinder",
+     "box": [
+      150,
+      940,
+      930,
+      1420
+     ],
+     "t": 0.9
+    }
+   ],
+   "spot_y": 1180
   },
   {
    "id": "S7",
-   "bg": "primary",
+   "bg": "paper",
    "lines": [
     {
      "text": "همان نُت‌ها شدند",
@@ -214,7 +309,7 @@
     }
    ],
    "claim_type": "fact",
-   "motion_rationale": "چرخه: صدا تصویر ساخت و تصویر دوباره صدا شد = حلقه‌ی صدا و نشانه",
+   "motion_rationale": "امضا: موج صدا آرام می‌گیرد و به یک خط امضا تبدیل می‌شود = نُت‌ها شدند امضای صوتی",
    "evidence": [
     {
      "url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass",
@@ -224,10 +319,12 @@
      "claim": "Fred again.. and NEST Acoustics; Fred again.. helped create the notes for the final mnemonic (sonic sting)"
     }
    ],
-   "motif": {
-    "type": "loop",
-    "params": {}
-   }
+   "fx": [
+    {
+     "type": "signature",
+     "y": 1180
+    }
+   ]
   },
   {
    "id": "S8",
@@ -245,14 +342,33 @@
     }
    ],
    "claim_type": "interpretation",
-   "motion_rationale": "انبوه: ابر نقطه‌ها = انتخاب‌های بی‌شمار سلیقه‌ای که هر کدام می‌توانست باشد",
+   "motion_rationale": "هیاهوی سلیقه: انبوه کلمه‌های سلیقه‌ای بی‌نظم ظاهر می‌شوند = لوگویی که از سلیقه ساخته می‌شود",
    "evidence": [],
-   "motif": {
-    "type": "cloud",
-    "params": {
-     "n": 380
+   "fx": [
+    {
+     "type": "words",
+     "mode": "pop",
+     "box": [
+      90,
+      780,
+      990,
+      1520
+     ],
+     "seed": 21,
+     "size": 54,
+     "stagger": 0.08,
+     "words": [
+      "رنگ محبوب مدیر",
+      "فونت مد روز",
+      "ترند امسال",
+      "شبیه رقیب",
+      "یک آیکون بامزه",
+      "گرادیان",
+      "شیک باشد",
+      "بزرگ‌ترش کن"
+     ]
     }
-   }
+   ]
   },
   {
    "id": "S9",
@@ -265,13 +381,24 @@
     }
    ],
    "claim_type": "interpretation",
-   "motion_rationale": "تصویر واقعی به‌جای موتیف: لوگوی تازه که از میان موج مایع پیدا می‌شود = نشانه‌ای که از دل خود کار بیرون آمده؛ زوم آهسته = نزدیک شدن به نتیجه",
+   "motion_rationale": "نتیجه: فریم واقعی لوگوی تازه از دل موج، نزدیک‌تر می‌شود = نشانه‌ای که از کار خودش درآمد",
    "evidence": [],
-   "image": {
-    "path": "incoming/2026-10-22/R2-a_vertical.jpg",
-    "credit": "Apple (فریم ویدیوی هویت تازه‌ی اپل موزیک)",
-    "source_url": "https://www.wallpaper.com/art/music/apple-musics-new-visual-identity-turns-sound-into-liquid-with-help-from-fred-again"
-   }
+   "objects": [
+    {
+     "key": "final",
+     "src": "incoming/2026-10-22/R2-a.jpg",
+     "x": 540,
+     "y": 1160,
+     "w": 1000,
+     "ar": 1.8285714285714285,
+     "frame": true,
+     "credit": "Apple (frame from the Apple Music identity film)",
+     "source_url": "https://www.wallpaper.com/art/music/apple-musics-new-visual-identity-turns-sound-into-liquid-with-help-from-fred-again",
+     "anim": "zoom",
+     "push": 0.1
+    }
+   ],
+   "spot_y": 1160
   },
   {
    "id": "S10",
@@ -289,12 +416,43 @@
     }
    ],
    "claim_type": "interpretation",
-   "motion_rationale": "سنجیدن: دو کفه = نتیجه‌ی نامعلوم در برابر روشی که همین حالا ارزش دارد",
+   "motion_rationale": "سنجیدن: «نظر مردم» هنوز معلق است و «روش» وزن دارد",
    "evidence": [],
-   "motif": {
-    "type": "balance",
-    "params": {}
-   }
+   "objects": [
+    {
+     "key": "scale",
+     "src": "assets/objects/2026-10-22/scale.png",
+     "x": 540,
+     "y": 1260,
+     "w": 720,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise"
+    }
+   ],
+   "fx": [
+    {
+     "type": "labels",
+     "items": [
+      {
+       "text": "نظر مردم؟",
+       "x": 346,
+       "y": 1470,
+       "move": "up",
+       "t": 1.5,
+       "size": 56
+      },
+      {
+       "text": "روش",
+       "x": 734,
+       "y": 1470,
+       "move": "down",
+       "acc": true,
+       "t": 1.5,
+       "size": 56
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "S11",
@@ -312,16 +470,19 @@
     }
    ],
    "claim_type": "metaphor",
-   "motion_rationale": "پیوند: گره‌هایی که به هم وصل‌اند = هر سازنده با ماده‌ی کارش پیوند دارد",
+   "motion_rationale": "جنس کار: رگه‌های چوب آرام کشیده می‌شوند = هر سازنده ردِ ماده‌ی خودش را دارد",
    "evidence": [],
-   "motif": {
-    "type": "network",
-    "params": {}
-   }
+   "fx": [
+    {
+     "type": "grain",
+     "y0": 900,
+     "n": 15
+    }
+   ]
   },
   {
    "id": "S12",
-   "bg": "graphite",
+   "bg": "paper",
    "lines": [
     {
      "text": "هویت شما هم جایی",
@@ -335,16 +496,68 @@
     }
    ],
    "claim_type": "interpretation",
-   "motion_rationale": "اثر نامحسوس: جابه‌جایی کوچک و جای قبلی نقطه‌چین = چیزی که هست ولی دیده نشده",
+   "motion_rationale": "جست‌وجو: ذره‌بین روی کلمه‌های کار شما می‌گردد و «هویت» را میانشان پیدا می‌کند = هویتی که در کار پنهان است",
    "evidence": [],
-   "motif": {
-    "type": "shift",
-    "params": {}
-   }
+   "fx": [
+    {
+     "type": "words",
+     "mode": "lens",
+     "box": [
+      110,
+      860,
+      970,
+      1480
+     ],
+     "seed": 4,
+     "size": 54,
+     "keep": [
+      "هویت"
+     ],
+     "keep_at": [
+      600,
+      1290
+     ],
+     "r": 150,
+     "lens": "assets/objects/2026-10-22/magnifier.png",
+     "lens_w": 560,
+     "hit_t": 2.4,
+     "path": [
+      [
+       0,
+       300,
+       950
+      ],
+      [
+       1.2,
+       760,
+       1080
+      ],
+      [
+       2.3,
+       600,
+       1290
+      ]
+     ],
+     "words": [
+      "جنس",
+      "صدا",
+      "بو",
+      "دست‌خط",
+      "ابزار",
+      "ریتم",
+      "حرکت",
+      "مواد",
+      "رنگ خاک",
+      "هویت",
+      "عادت",
+      "گرما"
+     ]
+    }
+   ]
   },
   {
    "id": "S13",
-   "bg": "paper",
+   "bg": "graphite",
    "lines": [
     {
      "text": "پیش از این‌که لوگو را عوض کنید،",
@@ -358,12 +571,33 @@
     }
    ],
    "claim_type": "question",
-   "motion_rationale": "انتظار بزرگ در برابر واقعیت کوچک: موج بزرگ بازطراحی در برابر صدای آرامی که کار شما همین حالا دارد",
+   "motion_rationale": "گوش دادن: همان دیاپازون صحنه‌ی دوم، این بار موج‌ها به سمتش برمی‌گردند = گوش کنید کارتان چه صدایی می‌دهد",
    "evidence": [],
-   "motif": {
-    "type": "whisper",
-    "params": {}
-   }
+   "objects": [
+    {
+     "key": "fork2",
+     "src": "assets/objects/2026-10-22/fork.png",
+     "x": 540,
+     "y": 1300,
+     "w": 150,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise"
+    }
+   ],
+   "fx": [
+    {
+     "type": "rings",
+     "x": 540,
+     "y": 1010,
+     "R": 420,
+     "n": 6,
+     "period": 1.6,
+     "t": 0.4,
+     "op": 0.4,
+     "inward": true
+    }
+   ],
+   "spot_y": 1220
   },
   {
    "id": "S14",
@@ -415,5 +649,6 @@
   "mood": "dark",
   "drop_scene": "S8"
  },
- "status": "DRAFT"
+ "status": "DRAFT",
+ "style": "editorial"
 }

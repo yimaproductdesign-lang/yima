@@ -38,3 +38,10 @@ Skipped:
 - Letterboxed duplicate of R2-a (same frame with black bars).
 - Logo-history comparison (2015–2019 / 2019–2026 / 2026): source unknown, year labels not verified, and black-on-white would vanish under the brand tint.
 - Two photos of an older woman with a younger woman (R1): no image was requested for R1, stage 1 chose vector-only and no photos of private individuals; source/credit unknown; one is only 750x375.
+
+## Update 2 — visual redesign after owner feedback
+Owner: vectors repetitive and unrelated; topic lost in the visuals; use the six reference reels.
+Copy unchanged. Every scene now carries a concrete object or the topic's own words:
+- R1: old trip photo (blurs) → magnifier reveals the car sharp → detail-words fade on dark → brain under light → sponge absorbs detail-words → sieve keeps «معنا» → balance (ریزه‌کاری rises, اصل ماجرا settles) → old books → the photo returns sharp → two-way signpost → eraser out, sieve in → pocket watch → Persian tea glass → suitcase (back from the trip).
+- R2: pencil drops and leaves (nobody drew it) → vibrating tuning fork with sound rings → red card out, black and white in → owner footage: logo in the tank → splash frame trembling → same frame inside a camera viewfinder → sound wave settling into a signature stroke → noisy cloud of taste-words → final logo frame → balance (نظر مردم؟ / روش) → wood grain → magnifier finds «هویت» among craft-words → the tuning fork again, rings converging (listen).
+Objects: 14 AI-generated (Figma, gemini-3.1-flash-lite-image), cut out with rembg; 8 more were generated but could not be downloaded at full size (Figma Starter MCP call limit), so bread/wood/stethoscope/camera/swatches/hourglass/dish/seal scenes were redesigned with what was available.
