@@ -24,3 +24,9 @@ Two 40-60s reels per day, 1080x1920, 30fps. Per reel: write `drafts/DATE/reel_0N
 Music: generative, moods `reflective` or `dark` only. End card: logo, «برای من بنویسید.», «بهنود کاویان». Never name the UAE in copy.
 
 Visual style (since 2026-10-22): editorial objects + topic-word typography (`reel_visuals.js`, rules in `motion.md`). AI-generated monochrome objects live in `assets/objects/DATE/` (cut out with rembg). Abstract motifs are a fallback only.
+
+## Daily format (from 2026-10-23)
+One topic per day in **branding, brand strategy or marketing**, two reels on the same idea and the same visual plan:
+- `drafts/DATE/reel_01.json`: Persian, `"lang": "fa"`, copy rules `copywriting.md`, CTA «برای من بنویسید.», signature «بهنود کاویان».
+- `drafts/DATE/reel_02.json`: English, `"lang": "en"`, copy rules `copywriting_en.md` (written natively, not translated), CTA «Write to me.», signature «Behnood Kavian», Latin font Inter (`assets/fonts/inter`, OFL).
+Reference samples: `samples/sample_reel.json` (fa), `samples/sample_reel_en.json` (en). The renderer switches direction, font and signature by `lang`; QA lints each language with its own rules.

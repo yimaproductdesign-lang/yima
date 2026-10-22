@@ -3,6 +3,16 @@ Machine-checkable gates only; prose quality, motion taste and factual accuracy s
 import json, sys, pathlib, subprocess, hashlib
 from fontTools.ttLib import TTFont
 from persian_text import normalize, lint
+import re as _re
+
+
+def lint_en(s):  # English copy: UAE ban, tired/news phrases, Persian letters in English copy
+    out = []
+    for pat, msg, sev in [(r"(?i)\b(UAE|Dubai|Emirates?|Abu Dhabi|Sharjah|Ajman|Fujairah|Ras Al Khaimah|Umm Al Quwain)\b", "UAE/Dubai name banned (امارات)", "critical"),
+                          (r"(?i)\b(in today's world|it is worth noting|studies show that|according to a new report|game[- ]changer|unlock|elevate your|did you know)\b", "tired/news phrase (copywriting_en.md)", "warn"),
+                          (r"[\u0600-\u06FF]", "Persian letters in English copy", "warn"), (r"  +", "double space", "warn")]:
+        for m in _re.finditer(pat, s): out.append({"severity": sev, "message": msg, "at": m.start(), "context": s[max(0, m.start() - 12): m.end() + 12]})
+    return out
 
 ROOT = pathlib.Path(__file__).parent.resolve()
 CFG = json.loads((ROOT / "brand_config.json").read_text(encoding="utf8"))
@@ -25,6 +35,7 @@ THEME = {"primary": (P["primary"], P["paper"], P["slate"]), "graphite": (P["grap
 
 def main(reel_path, out_dir):
     reel = json.loads(pathlib.Path(reel_path).read_text(encoding="utf8"))
+    lang = reel.get("lang", "fa"); L = CFG["reels"]["languages"][lang]
     out = pathlib.Path(out_dir).resolve(); rid = reel["reel_id"]
     met = json.loads((out / "reel_metrics.json").read_text()); S = met["safe"]
     cmap = set(TTFont(ROOT / CFG["fonts"]["files"]["Regular"]).getBestCmap())
@@ -48,7 +59,8 @@ def main(reel_path, out_dir):
         if mean < -35: crit.append(f"audio too quiet (mean {mean} dB)")
     for sc, m in zip(reel["scenes"], met["scenes"]):
         tag = sc["id"]; ws = m["words"]
-        if not m["font_ok"] or any("DoranFaNum" not in f for f in m["fonts"]): crit.append(f"{tag}: font is not DoranFaNum")
+        FAMQ = "DoranFaNum" if lang == "fa" else CFG["fonts"]["latin"]["family"]
+        if not m["font_ok"] or any(FAMQ not in f for f in m["fonts"]): crit.append(f"{tag}: font is not {FAMQ}")
         for w in ws:
             if w["l"] < S["x0"] - 1 or w["r"] > S["x1"] + 1 or w["t"] < S["y0"] or w["b"] > S["y1"]: crit.append(f"{tag}: word «{w['w']}» outside Reels safe area"); break
         if m["fit"] < 0.7: crit.append(f"{tag}: text shrunk to {m['fit']:.2f} to fit; shorten it")
@@ -68,9 +80,9 @@ def main(reel_path, out_dir):
                 if x - tops[-1] > 40: tops.append(x)
             if len(row) >= 3 and len(tops) >= 2 and sum(1 for w in row if w["t"] > tops[-1] - 40) == 1: warn.append(f"{tag}: line {li + 1} ends with a single-word row")
         for ln in sc.get("lines", []):
-            txt = normalize(ln["text"]).replace("*", "")
-            for it in lint(ln["text"].replace("*", "")): (crit if it["severity"] == "critical" else warn).append(f"{tag}: {it['message']} «{it['context']}»")
-            miss = {c for c in txt if not c.isspace() and ord(c) not in cmap}
+            txt = (normalize(ln["text"]) if lang == "fa" else ln["text"]).replace("*", "")
+            for it in (lint(ln["text"].replace("*", "")) if lang == "fa" else lint_en(ln["text"].replace("*", ""))): (crit if it["severity"] == "critical" else warn).append(f"{tag}: {it['message']} «{it['context']}»")
+            miss = {c for c in txt if not c.isspace() and ord(c) not in cmap} if lang == "fa" else set()
             if miss: crit.append(f"{tag}: glyphs missing {''.join(sorted(miss))}")
         if sc.get("claim_type") == "fact" and not sc.get("evidence"): crit.append(f"{tag}: fact without evidence")
         if sc.get("logo") and m["logo"]:
@@ -118,7 +130,10 @@ def main(reel_path, out_dir):
     tags = reel.get("hashtags", [])
     if len(tags) != 4 or any(not t.startswith("#") or " " in t for t in tags): crit.append(f"need exactly 4 hashtags like #برندینگ, got {tags}")
     if any(s.get("claim_type") == "fact" for s in reel["scenes"]) and not reel.get("sources"): crit.append("facts on screen but no sources list")
-    if not reel.get("caption", "").rstrip().endswith("بهنود کاویان"): crit.append("caption must end with «— بهنود کاویان»")
+    if not reel.get("caption", "").rstrip().endswith(L["signature"]): crit.append(f"caption must end with «{L['caption_end']}»")
+    if lang == "en":
+        for it in lint_en(reel.get("caption", "")):
+            if it["severity"] == "critical": crit.append(f"caption: {it['message']}")
     for it in lint(" ".join(tags)):
         if "امارات" in it["message"]: crit.append(f"hashtags: {it['message']}")
     mood = (reel.get("audio") or {}).get("mood")
@@ -129,9 +144,9 @@ def main(reel_path, out_dir):
     for sc, m in zip(reel["scenes"], met["scenes"]):
         if sc.get("logo"):
             sg = m.get("sig")
-            if not sg or sg["text"] != CFG["signature"]["text"]: crit.append(f"{sc['id']}: signature «{CFG['signature']['text']}» missing on end card")
-            elif sg["b"] > S["y1"] or "DoranFaNum" not in sg["font"]: crit.append(f"{sc['id']}: signature outside safe area or wrong font")
-            if not any("برای من بنویسید" in l["text"] for l in sc.get("lines", [])): warn.append(f"{sc['id']}: end card CTA should be «برای من بنویسید.»")
+            if not sg or sg["text"] != L["signature"]: crit.append(f"{sc['id']}: signature «{L['signature']}» missing on end card")
+            elif sg["b"] > S["y1"] or ("DoranFaNum" if lang == "fa" else CFG["fonts"]["latin"]["family"]) not in sg["font"]: crit.append(f"{sc['id']}: signature outside safe area or wrong font")
+            if not any(L["cta"].rstrip(".") in l["text"] for l in sc.get("lines", [])): warn.append(f"{sc['id']}: end card CTA should be «{L['cta']}»")
     score = max(0, 100 - 15 * len(crit) - 2 * len(warn))
     status = "READY_FOR_REVIEW" if not crit and score >= CFG["qa"]["mandatory_threshold"] else "BLOCKED_QA"
     rep = {"reel_id": rid, "status": status, "score": score, "critical": crit, "warnings": warn,

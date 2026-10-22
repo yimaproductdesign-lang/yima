@@ -1,0 +1,661 @@
+{
+ "reel_id": "2026-10-22_R2_EN",
+ "date": "2026-10-22",
+ "topic": "A logo made by sound: Apple Music's new identity",
+ "pillar": "brand_visual_strategy",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "Nobody *drew*",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "this identity.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "غیاب: مداد می‌افتد و بی‌آن‌که چیزی بکشد از قاب بیرون می‌رود = این هویت را کسی نکشید",
+   "evidence": [],
+   "objects": [
+    {
+     "key": "pencil",
+     "src": "assets/objects/2026-10-22/pencil.png",
+     "x": 540,
+     "y": 1210,
+     "w": 680,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop",
+     "exit": [
+      "right",
+      1.3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "bg": "graphite",
+   "lines": [
+    {
+     "text": "*Sound* made it.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "صدا: دیاپازون می‌لرزد و موج می‌فرستد = صدا که شکل می‌سازد",
+   "evidence": [
+    {
+     "url": "https://www.macrumors.com/2026/10/21/apple-music-new-look-announced/",
+     "publisher": "MacRumors",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Identity unveiled 21 Oct 2026; Apple Music visuals moved from red to black-and-white; Apple says visuals 'made by sound'"
+    },
+    {
+     "url": "https://9to5mac.com/2026/10/21/apple-music-unveils-new-design-rebrand-with-logo-made-by-sound/",
+     "publisher": "9to5Mac",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Apple: identity 'physically shaped by an original composition' by Fred again.. and NEST Acoustics; captured entirely in camera"
+    }
+   ],
+   "objects": [
+    {
+     "key": "fork",
+     "src": "assets/objects/2026-10-22/fork.png",
+     "x": 540,
+     "y": 1200,
+     "w": 150,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "vibrate": 3,
+     "vib_t": 0.6
+    }
+   ],
+   "fx": [
+    {
+     "type": "rings",
+     "x": 540,
+     "y": 900,
+     "R": 430,
+     "n": 6,
+     "period": 1.3,
+     "t": 0.6,
+     "op": 0.45
+    }
+   ],
+   "spot_y": 1200
+  },
+  {
+   "id": "S3",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "Apple Music",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "changed its face.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "Red is out. Black and white stay.",
+     "kind": "b",
+     "dim": true
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "تغییر چهره: کارت قرمز بیرون می‌رود و کارت سیاه و سفید جایش می‌نشیند = قرمز رفت، سیاه و سفید ماند",
+   "evidence": [
+    {
+     "url": "https://www.macrumors.com/2026/10/21/apple-music-new-look-announced/",
+     "publisher": "MacRumors",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Identity unveiled 21 Oct 2026; Apple Music visuals moved from red to black-and-white; Apple says visuals 'made by sound'"
+    }
+   ],
+   "fx": [
+    {
+     "type": "swatch",
+     "y": 1260,
+     "t": 1.5
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "bg": "graphite",
+   "lines": [
+    {
+     "text": "Etched into the floor of a glass tank,",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "under a layer of *liquid*.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "خود صحنه: فریم واقعی مخزن، لوگو زیر لایه‌ی مایع = همان چیزی که متن می‌گوید",
+   "evidence": [
+    {
+     "url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass",
+     "publisher": "AppleInsider",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Logo etched into the glass floor of a small tank of mineral oil; a transducer played chosen tones, rippling the oil and distorting the logo"
+    }
+   ],
+   "objects": [
+    {
+     "key": "R2-a.jpg",
+     "src": "incoming/2026-10-22/R2-a.jpg",
+     "x": 540,
+     "y": 1260,
+     "w": 980,
+     "ar": 1.8285714285714285,
+     "frame": true,
+     "credit": "Apple (frame from the Apple Music identity film)",
+     "source_url": "https://www.wallpaper.com/art/music/apple-musics-new-visual-identity-turns-sound-into-liquid-with-help-from-fred-again",
+     "anim": "zoom",
+     "push": 0.04
+    }
+   ],
+   "spot_y": 1160
+  },
+  {
+   "id": "S5",
+   "bg": "graphite",
+   "lines": [
+    {
+     "text": "A few notes played.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "The liquid *shook*.",
+     "kind": "h",
+     "dim": false,
+     "size": 100
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "لرزش: فریم واقعی پاشیدن مایع می‌لرزد و موج‌ها پخش می‌شوند = نُت‌ها مایع را لرزاندند",
+   "evidence": [
+    {
+     "url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass",
+     "publisher": "AppleInsider",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Logo etched into the glass floor of a small tank of mineral oil; a transducer played chosen tones, rippling the oil and distorting the logo"
+    }
+   ],
+   "objects": [
+    {
+     "key": "tank",
+     "src": "incoming/2026-10-22/R2-b.jpg",
+     "x": 540,
+     "y": 1260,
+     "w": 980,
+     "ar": 1.7777777777777777,
+     "frame": true,
+     "credit": "Apple (frame from the Apple Music identity film)",
+     "source_url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass",
+     "anim": "fade",
+     "vibrate": 5,
+     "vib_t": 0.8,
+     "vib_decay": true
+    }
+   ],
+   "fx": [
+    {
+     "type": "rings",
+     "x": 560,
+     "y": 1060,
+     "R": 380,
+     "n": 5,
+     "period": 1.0,
+     "t": 0.8,
+     "op": 0.35
+    }
+   ],
+   "spot_y": 1160
+  },
+  {
+   "id": "S6",
+   "bg": "graphite",
+   "lines": [
+    {
+     "text": "No computer effects.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "All *in camera*.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "دوربین: همان فریم کوچک می‌شود و قاب منظره‌یاب دورش بسته می‌شود = همه‌چیز جلوی دوربین، بدون جلوه‌ی کامپیوتری",
+   "evidence": [
+    {
+     "url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass",
+     "publisher": "AppleInsider",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Effect captured in-camera as a practical effect, not CGI"
+    },
+    {
+     "url": "https://9to5mac.com/2026/10/21/apple-music-unveils-new-design-rebrand-with-logo-made-by-sound/",
+     "publisher": "9to5Mac",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Apple: identity 'physically shaped by an original composition' by Fred again.. and NEST Acoustics; captured entirely in camera"
+    }
+   ],
+   "objects": [
+    {
+     "key": "tank",
+     "src": "incoming/2026-10-22/R2-b.jpg",
+     "x": 540,
+     "y": 1180,
+     "w": 700,
+     "ar": 1.7777777777777777,
+     "frame": true,
+     "credit": "Apple (frame from the Apple Music identity film)",
+     "source_url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass",
+     "carry_t": 1.0
+    }
+   ],
+   "fx": [
+    {
+     "type": "viewfinder",
+     "box": [
+      150,
+      940,
+      930,
+      1420
+     ],
+     "t": 0.9
+    }
+   ],
+   "spot_y": 1180
+  },
+  {
+   "id": "S7",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "Those same notes became",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "the brand's *sonic signature*.",
+     "kind": "h",
+     "dim": true
+    }
+   ],
+   "claim_type": "fact",
+   "motion_rationale": "امضا: موج صدا آرام می‌گیرد و به یک خط امضا تبدیل می‌شود = نُت‌ها شدند امضای صوتی",
+   "evidence": [
+    {
+     "url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass",
+     "publisher": "AppleInsider",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-10-22T04:30:00Z",
+     "claim": "Fred again.. and NEST Acoustics; Fred again.. helped create the notes for the final mnemonic (sonic sting)"
+    }
+   ],
+   "fx": [
+    {
+     "type": "signature",
+     "y": 1180
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "Most of us build a logo",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "out of *taste*.",
+     "kind": "h",
+     "dim": true
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "هیاهوی سلیقه: انبوه کلمه‌های سلیقه‌ای بی‌نظم ظاهر می‌شوند = لوگویی که از سلیقه ساخته می‌شود",
+   "evidence": [],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "pop",
+     "box": [
+      170,
+      800,
+      910,
+      1500
+     ],
+     "seed": 21,
+     "size": 54,
+     "stagger": 0.08,
+     "words": [
+      "the CEO's favorite color",
+      "trending font",
+      "this year's look",
+      "like the competitor",
+      "a cute icon",
+      "gradient",
+      "make it pop",
+      "make it bigger"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "bg": "graphite",
+   "lines": [
+    {
+     "text": "This one came out of its own *work*.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "نتیجه: فریم واقعی لوگوی تازه از دل موج، نزدیک‌تر می‌شود = نشانه‌ای که از کار خودش درآمد",
+   "evidence": [],
+   "objects": [
+    {
+     "key": "final",
+     "src": "incoming/2026-10-22/R2-a.jpg",
+     "x": 540,
+     "y": 1260,
+     "w": 1000,
+     "ar": 1.8285714285714285,
+     "frame": true,
+     "credit": "Apple (frame from the Apple Music identity film)",
+     "source_url": "https://www.wallpaper.com/art/music/apple-musics-new-visual-identity-turns-sound-into-liquid-with-help-from-fred-again",
+     "anim": "zoom",
+     "push": 0.1
+    }
+   ],
+   "spot_y": 1160
+  },
+  {
+   "id": "S10",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "We don't know yet if people love it.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "But the *method* is a lesson.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "سنجیدن: «نظر مردم» هنوز معلق است و «روش» وزن دارد",
+   "evidence": [],
+   "objects": [
+    {
+     "key": "scale",
+     "src": "assets/objects/2026-10-22/scale.png",
+     "x": 540,
+     "y": 1260,
+     "w": 720,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise"
+    }
+   ],
+   "fx": [
+    {
+     "type": "labels",
+     "items": [
+      {
+       "text": "Public verdict?",
+       "x": 346,
+       "y": 1470,
+       "move": "up",
+       "t": 1.5,
+       "size": 56
+      },
+      {
+       "text": "Method",
+       "x": 734,
+       "y": 1470,
+       "move": "down",
+       "acc": true,
+       "t": 1.5,
+       "size": 56
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "A baker smells of bread.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "A carpenter, of *grain*.",
+     "kind": "h",
+     "dim": true
+    }
+   ],
+   "claim_type": "metaphor",
+   "motion_rationale": "جنس کار: رگه‌های چوب آرام کشیده می‌شوند = هر سازنده ردِ ماده‌ی خودش را دارد",
+   "evidence": [],
+   "fx": [
+    {
+     "type": "grain",
+     "y0": 900,
+     "n": 15
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "bg": "paper",
+   "lines": [
+    {
+     "text": "Your identity",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "hides in your *work*.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "جست‌وجو: ذره‌بین روی کلمه‌های کار شما می‌گردد و «هویت» را میانشان پیدا می‌کند = هویتی که در کار پنهان است",
+   "evidence": [],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "lens",
+     "box": [
+      110,
+      860,
+      970,
+      1480
+     ],
+     "seed": 4,
+     "size": 54,
+     "keep": [
+      "identity"
+     ],
+     "keep_at": [
+      600,
+      1290
+     ],
+     "r": 150,
+     "lens": "assets/objects/2026-10-22/magnifier.png",
+     "lens_w": 560,
+     "hit_t": 2.4,
+     "path": [
+      [
+       0,
+       300,
+       950
+      ],
+      [
+       1.2,
+       760,
+       1080
+      ],
+      [
+       2.3,
+       600,
+       1290
+      ]
+     ],
+     "words": [
+      "material",
+      "sound",
+      "smell",
+      "handwriting",
+      "tools",
+      "rhythm",
+      "motion",
+      "texture",
+      "identity",
+      "habit",
+      "warmth",
+      "craft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "bg": "graphite",
+   "lines": [
+    {
+     "text": "Before you change your logo,",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "listen to what your work *sounds* like.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "claim_type": "question",
+   "motion_rationale": "گوش دادن: همان دیاپازون صحنه‌ی دوم، این بار موج‌ها به سمتش برمی‌گردند = گوش کنید کارتان چه صدایی می‌دهد",
+   "evidence": [],
+   "objects": [
+    {
+     "key": "fork2",
+     "src": "assets/objects/2026-10-22/fork.png",
+     "x": 540,
+     "y": 1380,
+     "w": 150,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise"
+    }
+   ],
+   "fx": [
+    {
+     "type": "rings",
+     "x": 540,
+     "y": 1090,
+     "R": 420,
+     "n": 6,
+     "period": 1.6,
+     "t": 0.4,
+     "op": 0.4,
+     "inward": true
+    }
+   ],
+   "spot_y": 1220
+  },
+  {
+   "id": "S14",
+   "bg": "primary",
+   "lines": [
+    {
+     "text": "Write to me.",
+     "kind": "b",
+     "dim": false
+    }
+   ],
+   "claim_type": "interpretation",
+   "motion_rationale": "کارت پایانی",
+   "evidence": [],
+   "logo": true,
+   "txt_top": 1080
+  }
+ ],
+ "caption": "Nobody drew this identity. Sound made it.\n\nApple Music introduced its new visual identity on 21 October. According to AppleInsider, the logo was etched into the glass floor of a small tank of mineral oil, a transducer played a few chosen notes until the liquid rippled, and the whole thing was filmed in camera, with no CGI. Fred again.. worked on the notes with NEST Acoustics, and those notes became the brand's sonic signature. MacRumors reports the colour moved from red to black and white.\n\nMy take: the lesson for any small brand is to pull the identity out of what you actually make, not out of decoration.\n\nThe limits: it's too early to say whether people like it or whether it works for the brand; no results have been published. Process details come from press coverage, not an official Apple page, and MacRumors says water where AppleInsider says mineral oil.\n\nWhat sound, smell or trace does your work have that your identity still ignores? Write to me.\n\n— Behnood Kavian",
+ "hashtags": [
+  "#branding",
+  "#logodesign",
+  "#brandidentity",
+  "#brandstrategy"
+ ],
+ "sources": [
+  {
+   "publisher": "AppleInsider",
+   "title": "Apple Music's gorgeous rebrand leans on Liquid Glass",
+   "date": "2026-10-21",
+   "url": "https://appleinsider.com/articles/26/10/21/apple-musics-gorgeous-rebrand-leans-on-liquid-glass"
+  },
+  {
+   "publisher": "MacRumors",
+   "title": "Apple Music's New Look Officially Announced",
+   "date": "2026-10-21",
+   "url": "https://www.macrumors.com/2026/10/21/apple-music-new-look-announced/"
+  },
+  {
+   "publisher": "9to5Mac",
+   "title": "Apple Music unveils new design rebrand, with logo 'made by sound'",
+   "date": "2026-10-21",
+   "url": "https://9to5mac.com/2026/10/21/apple-music-unveils-new-design-rebrand-with-logo-made-by-sound/"
+  }
+ ],
+ "cta": "Write to me.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S8"
+ },
+ "status": "DRAFT",
+ "style": "editorial",
+ "lang": "en"
+}

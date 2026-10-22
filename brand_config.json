@@ -93,6 +93,18 @@
       "subhead": 40,
       "body": 38,
       "annotation": 28
+    },
+    "latin": {
+      "family": "BrandLatin",
+      "typeface": "Inter (SIL Open Font License, assets/fonts/inter/LICENSE.txt)",
+      "files": {
+        "Light": "assets/fonts/inter/Inter-Light.otf",
+        "Regular": "assets/fonts/inter/Inter-Regular.otf",
+        "Medium": "assets/fonts/inter/Inter-Medium.otf",
+        "Bold": "assets/fonts/inter/Inter-Bold.otf",
+        "ExtraBold": "assets/fonts/inter/Inter-ExtraBold.otf"
+      },
+      "use": "English reels only; Persian stays DoranFaNum"
     }
   },
   "logo": {
@@ -158,11 +170,13 @@
   "signature": {
     "text": "بهنود کاویان",
     "where": "end card, bottom",
-    "weight": "Medium"
+    "weight": "Medium",
+    "text_en": "Behnood Kavian"
   },
   "copy_rules": [
     "Never name the UAE, Dubai or any emirate in on-screen copy or captions.",
-    "End card CTA is first-person singular: «برای من بنویسید.»"
+    "End card CTA is first-person singular: «برای من بنویسید.»",
+    "English reel CTA: «Write to me.»; caption ends «— Behnood Kavian»."
   ],
   "reels": {
     "daily": 2,
@@ -184,6 +198,22 @@
       "dark": "brand strategy, tension, warnings, high-stakes ideas"
     },
     "imagery": "editorial: one concrete monochrome object per scene (AI-generated, credited) or topic-word typography; owner-uploaded footage framed on dark scenes; abstract motifs only as fallback (motion.md)",
-    "end_card": "logo + «برای من بنویسید.» + signature"
+    "end_card": "logo + «برای من بنویسید.» + signature",
+    "languages": {
+      "_note": "From 2026-10-23: one topic per day (branding, brand strategy, marketing), two reels: Reel_01 Persian (fa), Reel_02 English (en). Same idea, same visual plan; the English copy is written natively, not translated.",
+      "fa": {
+        "cta": "برای من بنویسید.",
+        "signature": "بهنود کاویان",
+        "caption_end": "— بهنود کاویان",
+        "copy_guide": "copywriting.md"
+      },
+      "en": {
+        "cta": "Write to me.",
+        "signature": "Behnood Kavian",
+        "caption_end": "— Behnood Kavian",
+        "copy_guide": "copywriting_en.md"
+      }
+    },
+    "topic_scope": "branding, brand strategy, marketing (one topic per day)"
   }
 }

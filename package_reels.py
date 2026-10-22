@@ -22,7 +22,7 @@ for i, rp in enumerate(paths, 1):
             seen.add(c); src_lines.append(f"- تصویر: {c[0]} {c[1]}".rstrip())
     post = r["caption"].rstrip() + "\n\n" + " ".join(r.get("hashtags", []))
     (d / "caption.txt").write_text(post + "\n", encoding="utf8")
-    caps.append(f"# Reel {i:02d} — {r['topic']}\n\n{post}\n\n**منابع**\n" + "\n".join(src_lines) + f"\n\n(music: {(r.get('audio') or {}).get('mood')})")
+    caps.append(f"# Reel {i:02d} ({r.get('lang', 'fa').upper()}) — {r['topic']}\n\n{post}\n\n**منابع**\n" + "\n".join(src_lines) + f"\n\n(music: {(r.get('audio') or {}).get('mood')})")
     with zipfile.ZipFile(dest / f"Reel_{i:02d}.zip", "w", zipfile.ZIP_DEFLATED) as z:
         for f in sorted(d.iterdir()): z.write(f, f"Reel_{i:02d}/{f.name}")
 (dest / "captions.md").write_text("\n\n---\n\n".join(caps), encoding="utf8")

@@ -39,7 +39,7 @@ def schedule(reel):
         cursor, last_in, nwords, lines = sc.get("lead", 0.25), 0.0, 0, []
         for ln in sc.get("lines", []):
             size, wt = STYLE[ln.get("kind", "h")]
-            toks = normalize(ln["text"]).split(" ")
+            toks = (normalize(ln["text"]) if reel.get("lang", "fa") == "fa" else " ".join(ln["text"].split())).split(" ")
             t = ln["t"] if "t" in ln else cursor
             ws = []
             for k, tok in enumerate(toks):
@@ -107,7 +107,9 @@ def schedule(reel):
 
 
 def font_css():
-    return "\n".join(f"@font-face{{font-family:'DoranFaNum';font-weight:{CFG['fonts']['css_weight'][n]};src:url('{(ROOT / r).as_uri()}') format('truetype');}}"
+    lat = CFG["fonts"].get("latin")
+    extra = "\n".join(f"@font-face{{font-family:'{lat['family']}';font-weight:{CFG['fonts']['css_weight'][n]};src:url('{(ROOT / r).as_uri()}');}}" for n, r in lat["files"].items()) if lat else ""
+    return extra + "\n" + "\n".join(f"@font-face{{font-family:'DoranFaNum';font-weight:{CFG['fonts']['css_weight'][n]};src:url('{(ROOT / r).as_uri()}') format('truetype');}}"
                      for n, r in CFG["fonts"]["files"].items())
 
 
@@ -214,7 +216,7 @@ function build(si){
   const s=SC[si];cur=si;const C=s.theme;
   stage.style.background=C.bg;stage.style.setProperty('--ac',C.acc);
   txt.innerHTML='';words=[];txt.style.top=(s.txt_top||330)+'px';
-  s.lines.forEach((l,li)=>{const row=document.createElement('div');row.className='ln';
+  s.lines.forEach((l,li)=>{const row=document.createElement('div');row.className='ln';if(FAM!=='DoranFaNum')row.style.columnGap=(l.size*.27)+'px';
     l.words.forEach(w=>{const sp=document.createElement('span');sp.className='w'+(w.em?' em':'');sp.textContent=w.w;sp.dataset.t=w.t;sp.dataset.li=li;sp.dataset.em=w.em?1:0;
       sp.style.fontSize=l.size+'px';sp.style.fontWeight=l.weight;sp.style.color=l.dim?C.dim:C.fg;sp.style.opacity=0;row.appendChild(sp);words.push(sp);});
     txt.appendChild(row);});
@@ -249,7 +251,7 @@ function render(t){
 }
 window.render=render;
 window.measure=function(){return {fit:window.__fit,words:words.map(e=>{const b=e.getBoundingClientRect();return {w:e.textContent,l:b.left,r:b.right,t:b.top,b:b.bottom,fs:parseFloat(e.style.fontSize),tt:parseFloat(e.dataset.t),li:parseInt(e.dataset.li)};}),
-  fonts:[...new Set(words.map(e=>getComputedStyle(e).fontFamily))],font_ok:document.fonts.check('800 40px DoranFaNum'),
+  fonts:[...new Set(words.map(e=>getComputedStyle(e).fontFamily))],font_ok:document.fonts.check('800 40px '+FAM),
   sig:(()=>{const e=document.getElementById('sig');if(e.style.display!=='block')return null;const b=e.getBoundingClientRect();return {text:e.textContent,t:b.top,b:b.bottom,font:getComputedStyle(e).fontFamily};})(),logo:document.getElementById('logo').style.display==='block'?(()=>{const b=document.getElementById('logo').getBoundingClientRect();return {l:b.left,r:b.right,t:b.top,b:b.bottom,nw:document.getElementById('logo').naturalWidth,nh:document.getElementById('logo').naturalHeight}})():null};};
 """
 
@@ -257,7 +259,7 @@ window.measure=function(){return {fit:window.__fit,words:words.map(e=>{const b=e
 VIS_JS = (ROOT / "reel_visuals.js").read_text(encoding="utf8")
 
 
-def page_html(scenes):
+def page_html(scenes, lang="fa"):
     for s in scenes:
         s["theme"] = dict(s["theme"], logo_url=(ROOT / CFG["logo"]["files"][s["theme"]["logo"]]["path"]).as_uri())
         if s.get("image"):
@@ -267,10 +269,12 @@ def page_html(scenes):
         for f in s.get("fx") or []:
             if f.get("lens"): f["lens_url"] = pathlib.Path(f["lens"]).resolve().as_uri()
     txt_h = 760
-    return f"""<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8"><style>{font_css()}
+    DIR, ORIG = ("rtl", "right") if lang == "fa" else ("ltr", "left")
+    FAM = "DoranFaNum" if lang == "fa" else CFG["fonts"]["latin"]["family"]
+    return f"""<!doctype html><html lang="{lang}" dir="{DIR}"><head><meta charset="utf-8"><style>{font_css()}
 *{{margin:0;padding:0;box-sizing:border-box}}
 html,body{{width:{W}px;height:{H}px;overflow:hidden;background:#000}}
-#stage{{position:relative;width:{W}px;height:{H}px;overflow:hidden;font-family:'DoranFaNum';text-rendering:geometricPrecision;-webkit-font-smoothing:antialiased}}
+#stage{{position:relative;width:{W}px;height:{H}px;overflow:hidden;font-family:'{FAM}';text-rendering:geometricPrecision;-webkit-font-smoothing:antialiased}}
 #imgwrap{{position:absolute;inset:0;display:none;overflow:hidden}}
 #bgimg{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.05)}}
 #tint{{position:absolute;inset:0}}
@@ -282,19 +286,19 @@ html,body{{width:{W}px;height:{H}px;overflow:hidden;background:#000}}
 .obj.frame img{{height:100%;object-fit:cover;border-radius:18px;box-shadow:0 40px 70px rgba(0,0,0,.45)}}
 .obj .reveal{{position:absolute;left:0;top:0;width:100%;height:auto}}
 .obj.frame .reveal{{height:100%;object-fit:cover;border-radius:18px}}
-.fxw{{position:absolute;white-space:nowrap;font-family:'DoranFaNum';direction:rtl;will-change:transform,opacity,filter}}
+.fxw{{position:absolute;white-space:nowrap;font-family:'{FAM}';direction:{DIR};will-change:transform,opacity,filter}}
 .fxsvg{{position:absolute;inset:0;width:{W}px;height:{H}px}}
 .fxlens{{position:absolute;filter:drop-shadow(0 30px 30px rgba(0,0,0,.3))}}
 .card{{position:absolute;width:300px;height:420px;border-radius:22px;box-shadow:0 30px 50px rgba(0,0,0,.25)}}
 #motif{{position:absolute;inset:0;width:{W}px;height:{H}px}}
-#txt{{position:absolute;left:{SAFE['x0']}px;right:{W - SAFE['x1']}px;top:330px;display:flex;flex-direction:column;align-items:center;gap:34px;direction:rtl;text-align:center}}
+#txt{{position:absolute;left:{SAFE['x0']}px;right:{W - SAFE['x1']}px;top:330px;display:flex;flex-direction:column;align-items:center;gap:34px;direction:{DIR};text-align:center}}
 .ln{{display:flex;flex-wrap:wrap;justify-content:center;gap:0 .36em;line-height:1.4}}
 .w{{display:inline-block;position:relative;will-change:transform,opacity,filter}}
-.em::after{{content:'';position:absolute;right:0;left:0;bottom:-2px;height:7px;border-radius:4px;background:var(--ac);transform:scaleX(var(--u,0));transform-origin:right}}
+.em::after{{content:'';position:absolute;right:0;left:0;bottom:-2px;height:7px;border-radius:4px;background:var(--ac);transform:scaleX(var(--u,0));transform-origin:{ORIG}}}
 #logo{{position:absolute;left:50%;top:760px;height:420px;width:auto;transform:translate(-50%,-50%);display:none}}
-#sig{{position:absolute;left:0;right:0;top:1380px;text-align:center;font-weight:500;font-size:56px;letter-spacing:.02em;display:none;direction:rtl}}
+#sig{{position:absolute;left:0;right:0;top:1380px;text-align:center;font-weight:500;font-size:56px;letter-spacing:.02em;display:none;direction:{DIR}}}
 </style></head><body><div id="stage"><div id="bgfx"></div><div id="imgwrap"><img id="bgimg"><div id="tint"></div></div><svg id="motif" viewBox="0 0 {W} {H}"></svg><div id="objlayer"></div><div id="fx"></div><div id="txt"></div><img id="logo"><div id="sig"></div></div>
-<script>const SC={json.dumps(scenes, ensure_ascii=False)};const SAFE_TXT_H={txt_h};const SIG={json.dumps(CFG['signature']['text'], ensure_ascii=False)};{JS}</script><script>{VIS_JS}</script></body></html>"""
+<script>const FAM='{FAM}';const SC={json.dumps(scenes, ensure_ascii=False)};const SAFE_TXT_H={txt_h};const SIG={json.dumps(CFG['signature']['text'] if lang == 'fa' else CFG['signature']['text_en'], ensure_ascii=False)};{JS}</script><script>{VIS_JS}</script></body></html>"""
 
 
 def main(reel_path, out_dir):
@@ -304,14 +308,14 @@ def main(reel_path, out_dir):
     (out / "frames").mkdir(parents=True)
     scenes = schedule(reel)
     total = scenes[-1]["end"]
-    html = page_html(json.loads(json.dumps(scenes)))
+    html = page_html(json.loads(json.dumps(scenes)), reel.get("lang", "fa"))
     (out / "reel.html").write_text(html, encoding="utf8")
     metrics = {"fps": FPS, "size": [W, H], "safe": SAFE, "duration": total, "scenes": []}
     n = int(round(total * FPS))
     with sync_playwright() as pw:
         br = pw.chromium.launch(executable_path="/opt/pw-browsers/chromium") if pathlib.Path("/opt/pw-browsers/chromium").exists() else pw.chromium.launch()
         page = br.new_context(viewport={"width": W, "height": H}, device_scale_factor=1).new_page()
-        page.goto((out / "reel.html").as_uri()); page.evaluate("Promise.all([300,400,800].map(w=>document.fonts.load(`${w} 40px DoranFaNum`,'پول آدم')))"); page.evaluate("document.fonts.ready"); page.wait_for_timeout(300)
+        page.goto((out / "reel.html").as_uri()); page.evaluate("Promise.all([300,400,500,800].flatMap(w=>[document.fonts.load(`${w} 40px BrandLatin`,'Brand'),document.fonts.load(`${w} 40px DoranFaNum`,'پول آدم')]))"); page.evaluate("document.fonts.ready"); page.wait_for_timeout(300)
         for s in scenes:  # layout metrics near the end of each scene, when every word is visible
             page.evaluate(f"render({s['end'] - 0.2})"); page.wait_for_timeout(200)
             m = page.evaluate("measure()"); m.update(scene=s["id"], start=s["start"], end=s["end"], bg=s["bg"]); metrics["scenes"].append(m)
