@@ -20,7 +20,7 @@
      "src": "assets/objects/2026-10-23/jar_color.png",
      "x": 540,
      "y": 1250,
-     "w": 330,
+     "w": 260,
      "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
      "anim": "drop",
      "color": [
@@ -48,14 +48,19 @@
    "objects": [
     {
      "key": "watch",
-     "src": "assets/objects/2026-10-22/watch.png",
+     "src": "assets/objects/2026-10-23/watch_color.png",
      "x": 540,
      "y": 1260,
-     "w": 460,
-     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "w": 600,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
      "anim": "rise",
-     "tilt": -8,
-     "tilt_t": 1.0
+     "tilt": -4,
+     "tilt_t": 1.0,
+     "color": [
+      0,
+      0,
+      0
+     ]
     }
    ],
    "motion_rationale": "زمان: ساعت جیبی زیر نور موضعی بالا می‌آید و کمی می‌چرخد = تنها چیزی که عوض شد، ساعتِ مصرف بود",
@@ -264,7 +269,7 @@
      "src": "assets/objects/2026-10-23/pouch.png",
      "x": 540,
      "y": 1250,
-     "w": 330,
+     "w": 310,
      "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
      "anim": "rise",
      "float": 6
@@ -304,7 +309,7 @@
      "src": "assets/objects/2026-10-23/jar_color.png",
      "x": 540,
      "y": 1250,
-     "w": 330,
+     "w": 260,
      "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
      "anim": "zoom",
      "push": 0.06,
@@ -495,15 +500,34 @@
    "objects": [
     {
      "key": "tea",
-     "src": "assets/objects/2026-10-22/tea.png",
+     "src": "assets/objects/2026-10-23/tea_color.png",
      "x": 540,
-     "y": 1280,
-     "w": 470,
-     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
-     "anim": "rise"
+     "y": 1320,
+     "w": 430,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "rise",
+     "color": [
+      0,
+      0,
+      0
+     ]
     }
    ],
-   "motion_rationale": "لحظه‌ی چسبیده: یک استکان چای که فقط به صبحانه گره خورده = لحظه‌ی دیگرِ روز مال کیست؟",
+   "fx": [
+    {
+     "type": "steam",
+     "x": 541,
+     "y": 1118,
+     "h": 290,
+     "n": 3,
+     "spread": 80,
+     "amp": 24,
+     "sw": 22,
+     "blur": 7,
+     "t": 0.8
+    }
+   ],
+   "motion_rationale": "لحظه‌ی چسبیده: یک استکان چای داغ و رنگی که بخار از آن بلند می‌شود؛ لحظه‌ای که فقط به صبحانه گره خورده = لحظه‌ی دیگرِ روز مال کیست؟",
    "lines": [
     {
      "text": "If your tea means *breakfast*,",
@@ -563,9 +587,9 @@
     {
      "key": "jar",
      "src": "assets/objects/2026-10-23/jar_color.png",
-     "x": 400,
-     "y": 1270,
-     "w": 300,
+     "x": 390,
+     "y": 1280,
+     "w": 230,
      "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
      "anim": "fade",
      "color": [
@@ -576,13 +600,18 @@
     },
     {
      "key": "watch",
-     "src": "assets/objects/2026-10-22/watch.png",
-     "x": 720,
-     "y": 1300,
-     "w": 330,
-     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "src": "assets/objects/2026-10-23/watch_color.png",
+     "x": 730,
+     "y": 1400,
+     "w": 360,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
      "anim": "rise",
-     "delay": 0.5
+     "delay": 0.5,
+     "color": [
+      0,
+      0,
+      0
+     ]
     }
    ],
    "motion_rationale": "بازگشت به آغاز: همان شیشه کنار همان ساعت = رشد گاهی توی شیشه نیست، روی ساعت است",

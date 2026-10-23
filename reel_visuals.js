@@ -166,6 +166,21 @@ const FXS = {
       for (let i = 0; i <= 120; i++) { const t = i / 120, x = 120 + 840 * t; if (t > draw) break; const wave = Math.sin(t * 46 + u * 9) * 110 * Math.sin(Math.PI * t) * (.6 + .4 * Math.sin(t * 7)); const sig = Math.sin(t * 9.4) * 70 * Math.sin(Math.PI * t) + Math.sin(t * 3.1) * 30; d += (i ? 'L' : 'M') + x.toFixed(1) + ' ' + (y + lerp(wave, sig, m)).toFixed(1); }
       this.p.setAttribute('d', d); this.p.setAttribute('opacity', a); this.u.setAttribute('d', `M260 ${y + 150} L820 ${y + 150}`); this.u.setAttribute('stroke-dashoffset', 1 - ease(clamp((u - 2.4) / .6))); this.u.setAttribute('opacity', a); }
   },
+  // steam rising from a hot drink: soft blurred wisps whose waves travel upward (x,y = rim centre, h = rise height)
+  steam: {
+    init(f, C) { this.f = f; this.svg = document.createElementNS(NS, 'svg'); this.svg.setAttribute('viewBox', '0 0 1080 1920'); this.svg.setAttribute('class', 'fxsvg'); fx.appendChild(this.svg);
+      const id = 'st' + Math.random().toString(36).slice(2, 7), y0 = f.y, H = f.h || 260, col = f.color || '#ffffff', d = el('defs', {}, this.svg);
+      const flt = el('filter', { id: id + 'b', x: '-50%', y: '-20%', width: '200%', height: '140%' }, d); el('feGaussianBlur', { stdDeviation: f.blur || 7 }, flt);
+      const g = el('linearGradient', { id: id + 'g', gradientUnits: 'userSpaceOnUse', x1: 0, y1: y0, x2: 0, y2: y0 - H }, d);
+      [[0, 0], [.18, .55], [.55, .35], [1, 0]].forEach(([o, op]) => el('stop', { offset: o, 'stop-color': col, 'stop-opacity': op }, g));
+      this.ps = []; const n = f.n || 3; for (let i = 0; i < n; i++) this.ps.push(el('path', { fill: 'none', stroke: `url(#${id}g)`, 'stroke-width': (f.sw || 20) * (1 - .15 * i), 'stroke-linecap': 'round', filter: `url(#${id}b)` }, this.svg)); },
+    update(u, dur, a) { const f = this.f, H = f.h || 260, A = f.amp || 26, n = this.ps.length, sp = (f.spread || 70);
+      const on = ease(clamp((u - (f.t || .7)) / 1.2));
+      this.ps.forEach((p, i) => { const x0 = f.x + (i - (n - 1) / 2) * sp / Math.max(1, n - 1) * 1.4; let d = '';
+        for (let k = 0; k <= 40; k++) { const t = k / 40, y = f.y - t * H * (0.92 + .08 * Math.sin(u * .9 + i)), x = x0 + Math.sin(t * 6.5 - u * 2.2 + i * 2.1) * A * (0.25 + t) + Math.sin(t * 2.3 + u * .7 + i) * A * .5 * t;
+          d += (k ? 'L' : 'M') + x.toFixed(1) + ' ' + y.toFixed(1); }
+        p.setAttribute('d', d); p.setAttribute('opacity', a * on * (.75 + .25 * Math.sin(u * 1.3 + i * 1.7))); }); }
+  },
   // wood grain: wavy parallel lines drawn in (craft, material)
   grain: {
     init(f, C) { this.f = f; this.svg = document.createElementNS(NS, 'svg'); this.svg.setAttribute('viewBox', '0 0 1080 1920'); this.svg.setAttribute('class', 'fxsvg'); fx.appendChild(this.svg); this.ls = []; const y0 = f.y0 || 980, n = f.n || 14;

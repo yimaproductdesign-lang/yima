@@ -41,3 +41,5 @@ Visual decisions: owner uploads T-a (jar family, proof) and T-d (apple rings, th
 
 ## Revision (owner feedback, same day)
 Owner: product objects should be in colour. Regenerated jar, PB&J sandwich half and apple slices with peanut butter in natural colour (Figma, 3 new generations), and set owner photos T-a and T-d to full colour. Metaphor objects (watch, signpost, magnifier, tea, pencil) stay monochrome so the product stands out. Rule added to motion.md (item 5). Copy unchanged.
+
+Second revision (owner): the pocket watch looked like a bad vector (rembg had left the white dial semi-transparent). Regenerated watch and tea glass in real colour with gemini-3.1-flash-image, filled interior alpha holes, added an animated steam fx (new `steam` effect in reel_visuals.js) over the tea. Jar sizes reduced so object bottoms stay above y=1560.
