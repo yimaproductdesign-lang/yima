@@ -1,0 +1,632 @@
+{
+ "reel_id": "2026-10-23_EN",
+ "date": "2026-10-23",
+ "topic": "Same product, new moment: grow by changing when people use you, not what you sell",
+ "pillar": "brand_strategy_positioning",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [],
+   "objects": [
+    {
+     "key": "jar",
+     "src": "assets/objects/2026-10-23/jar.png",
+     "x": 540,
+     "y": 1250,
+     "w": 330,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop"
+    }
+   ],
+   "motion_rationale": "همان شیشه: یک شیشه‌ی ساده‌ی کره‌ی بادام‌زمینی با قاشق پایین می‌آید و بی‌حرکت می‌ماند = توی شیشه هیچ‌چیز عوض نشد",
+   "lines": [
+    {
+     "text": "Nothing in the jar *changed*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "bg": "graphite",
+   "spot_y": 1250,
+   "claim_type": "interpretation",
+   "evidence": [],
+   "objects": [
+    {
+     "key": "watch",
+     "src": "assets/objects/2026-10-22/watch.png",
+     "x": 540,
+     "y": 1260,
+     "w": 460,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "tilt": -8,
+     "tilt_t": 1.0
+    }
+   ],
+   "motion_rationale": "زمان: ساعت جیبی زیر نور موضعی بالا می‌آید و کمی می‌چرخد = تنها چیزی که عوض شد، ساعتِ مصرف بود",
+   "lines": [
+    {
+     "text": "Only the *clock* did.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://s203.q4cdn.com/703080298/files/doc_news/Jif-Unveils-First-Major-Brand-Refresh-in-More-than-30-Years-as-Peanut-Butter-Moves-Beyond-the-PBJ-2026.pdf",
+     "publisher": "The J.M. Smucker Co. (press release, PR Newswire)",
+     "event_date": "2026-08-10",
+     "retrieved_at": "2026-10-23T04:20:00Z",
+     "claim": "Release title: peanut butter 'moves beyond the PB&J'"
+    }
+   ],
+   "objects": [
+    {
+     "key": "bread",
+     "src": "assets/objects/2026-10-23/bread.png",
+     "x": 540,
+     "y": 1260,
+     "w": 430,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "rot": -4
+    }
+   ],
+   "motion_rationale": "لحظه‌ی قدیم: نصف ساندویچ نان سفید = کره‌ی بادام‌زمینی سال‌ها فقط مادّه‌ای لای ساندویچ بود",
+   "lines": [
+    {
+     "text": "For decades, peanut butter",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "lived *inside* a sandwich.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "bg": "graphite",
+   "spot_y": 1240,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://s203.q4cdn.com/703080298/files/doc_news/Jif-Unveils-First-Major-Brand-Refresh-in-More-than-30-Years-as-Peanut-Butter-Moves-Beyond-the-PBJ-2026.pdf",
+     "publisher": "The J.M. Smucker Co. (press release, PR Newswire)",
+     "event_date": "2026-08-10",
+     "retrieved_at": "2026-10-23T04:20:00Z",
+     "claim": "First major design update in more than 30 years (Shelly Kowal); new-look packs ship from October 2026"
+    }
+   ],
+   "objects": [
+    {
+     "key": "family",
+     "src": "incoming/2026-10-23/T-a.jpg",
+     "x": 540,
+     "y": 1250,
+     "w": 960,
+     "ar": 1.7779973649538867,
+     "frame": true,
+     "credit": "Jif / The J.M. Smucker Co. (owner upload)",
+     "source_url": "https://www.prnewswire.com/news-releases/jif-unveils-first-major-brand-refresh-in-more-than-30-years-as-peanut-butter-moves-beyond-the-pbj-302846092.html",
+     "anim": "zoom",
+     "push": 0.05
+    }
+   ],
+   "motion_rationale": "اثبات واقعی: عکس خانواده‌ی شیشه‌های تازه‌ی جیف (آپلود مالک) آرام نزدیک می‌شود = همان شیشه‌ها با چهره‌ی تازه",
+   "lines": [
+    {
+     "text": "Jif just changed its face.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "First big redesign",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "in *30+ years*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://s203.q4cdn.com/703080298/files/doc_news/Jif-Unveils-First-Major-Brand-Refresh-in-More-than-30-Years-as-Peanut-Butter-Moves-Beyond-the-PBJ-2026.pdf",
+     "publisher": "The J.M. Smucker Co. (press release, PR Newswire)",
+     "event_date": "2026-08-10",
+     "retrieved_at": "2026-10-23T04:20:00Z",
+     "claim": "New imagery across packaging shows more ways to eat Jif through the day; pairs with apple slices, rice cakes, crackers, or straight from a spoon"
+    }
+   ],
+   "objects": [
+    {
+     "key": "apple",
+     "src": "assets/objects/2026-10-23/apple.png",
+     "x": 540,
+     "y": 1280,
+     "w": 640,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "slide_r"
+    }
+   ],
+   "motion_rationale": "لحظه‌ی تازه: برش‌های سیب با کمی کره‌ی بادام‌زمینی از کنار وارد می‌شوند = برچسب حالا میان‌وعده را نشان می‌دهد",
+   "lines": [
+    {
+     "text": "On the new labels:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*Apple*, crackers, a spoon.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "bg": "graphite",
+   "spot_y": 1250,
+   "claim_type": "interpretation",
+   "evidence": [],
+   "objects": [
+    {
+     "key": "snack",
+     "src": "incoming/2026-10-23/T-d.jpg",
+     "x": 540,
+     "y": 1270,
+     "w": 760,
+     "ar": 1.0,
+     "frame": true,
+     "credit": "Jif / The J.M. Smucker Co. (owner upload; recipe image)",
+     "source_url": "https://www.prnewswire.com/news-releases/jif-unveils-first-major-brand-refresh-in-more-than-30-years-as-peanut-butter-moves-beyond-the-pbj-302846092.html",
+     "anim": "pop"
+    }
+   ],
+   "motion_rationale": "میان‌وعده‌ی واقعی: عکس حلقه‌های سیب با کره‌ی بادام‌زمینی (آپلود مالک) = نه ساندویچ، میان‌وعده",
+   "lines": [
+    {
+     "text": "Not a sandwich.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "A *snack*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://s203.q4cdn.com/703080298/files/doc_news/Jif-Unveils-First-Major-Brand-Refresh-in-More-than-30-Years-as-Peanut-Butter-Moves-Beyond-the-PBJ-2026.pdf",
+     "publisher": "The J.M. Smucker Co. (press release, PR Newswire)",
+     "event_date": "2026-08-10",
+     "retrieved_at": "2026-10-23T04:20:00Z",
+     "claim": "Jif To Go renamed Jif Dippers to reflect dipping and portability; new squeezable formats to make snacking easier"
+    }
+   ],
+   "objects": [
+    {
+     "key": "pouch",
+     "src": "assets/objects/2026-10-23/pouch.png",
+     "x": 540,
+     "y": 1250,
+     "w": 330,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "float": 6
+    }
+   ],
+   "motion_rationale": "قالب پیرو لحظه: یک بسته‌ی فشاری ساده و بی‌برچسب شناور می‌ماند = بسته‌بندی برای خوردن بیرون از خانه",
+   "lines": [
+    {
+     "text": "“To Go” is now “Dippers”.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "And a *squeeze* pack arrived.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "bg": "graphite",
+   "spot_y": 1250,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://s203.q4cdn.com/703080298/files/doc_news/Jif-Unveils-First-Major-Brand-Refresh-in-More-than-30-Years-as-Peanut-Butter-Moves-Beyond-the-PBJ-2026.pdf",
+     "publisher": "The J.M. Smucker Co. (press release, PR Newswire)",
+     "event_date": "2026-08-10",
+     "retrieved_at": "2026-10-23T04:20:00Z",
+     "claim": "FAQ: the product is not changing; 'same iconic taste'"
+    }
+   ],
+   "objects": [
+    {
+     "key": "jar",
+     "src": "assets/objects/2026-10-23/jar.png",
+     "x": 540,
+     "y": 1250,
+     "w": 330,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "zoom",
+     "push": 0.06
+    }
+   ],
+   "motion_rationale": "چرخش ایده: همان شیشه‌ی صحنه‌ی اول، حالا زیر نور موضعی و نزدیک‌تر = محصول همان است، فقط لحظه عوض شده",
+   "lines": [
+    {
+     "text": "Same peanut butter.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "A new *moment*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "pop",
+     "box": [
+      150,
+      960,
+      930,
+      1500
+     ],
+     "seed": 23,
+     "size": 54,
+     "stagger": 0.08,
+     "words": [
+      "new flavor",
+      "discount",
+      "new market",
+      "campaign",
+      "new logo",
+      "bigger ads"
+     ]
+    }
+   ],
+   "motion_rationale": "هیاهوی راه‌حل‌های گران: کلمه‌های واکنش معمول به افت فروش بی‌نظم و شلوغ ظاهر می‌شوند = دنبال چیز تازه می‌دویم",
+   "lines": [
+    {
+     "text": "When sales slow down,",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "we chase a *new product*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "primary",
+   "spot_y": 1230,
+   "claim_type": "question",
+   "evidence": [],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "lens",
+     "box": [
+      110,
+      980,
+      970,
+      1500
+     ],
+     "seed": 5,
+     "size": 54,
+     "keep": [
+      "4 pm"
+     ],
+     "keep_at": [
+      600,
+      1330
+     ],
+     "r": 150,
+     "lens": "assets/objects/2026-10-22/magnifier.png",
+     "lens_w": 560,
+     "hit_t": 2.4,
+     "path": [
+      [
+       0,
+       300,
+       1020
+      ],
+      [
+       1.2,
+       760,
+       1150
+      ],
+      [
+       2.3,
+       600,
+       1330
+      ]
+     ],
+     "words": [
+      "breakfast",
+      "lunch",
+      "after the gym",
+      "in the car",
+      "guests",
+      "midnight",
+      "4 pm",
+      "travel"
+     ]
+    }
+   ],
+   "motion_rationale": "جست‌وجوی لحظه: ذره‌بین میان لحظه‌های روزِ مشتری می‌گردد و یکی را (ساعت چهار) پیدا می‌کند = بپرس مشتری کِی سراغت می‌آید",
+   "lines": [
+    {
+     "text": "The cheaper question:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*when* do people",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "reach for you?",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://www.mediapost.com/publications/article/417222/with-major-rebranding-jif-conquers-new-occasions.html",
+     "publisher": "MediaPost",
+     "event_date": "2026-08-14",
+     "retrieved_at": "2026-10-23T04:20:00Z",
+     "claim": "No sales results of the refresh published; spreads division sales had declined"
+    }
+   ],
+   "objects": [
+    {
+     "key": "signpost",
+     "src": "assets/objects/2026-10-22/signpost.png",
+     "x": 540,
+     "y": 1270,
+     "w": 520,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise"
+    }
+   ],
+   "motion_rationale": "جهت: تابلوی راهنما = نتیجه هنوز معلوم نیست، اما جهت حرکت روشن است",
+   "lines": [
+    {
+     "text": "No sales results yet.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "But the *direction* is clear.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "bg": "primary",
+   "spot_y": 1270,
+   "claim_type": "question",
+   "evidence": [],
+   "objects": [
+    {
+     "key": "tea",
+     "src": "assets/objects/2026-10-22/tea.png",
+     "x": 540,
+     "y": 1280,
+     "w": 470,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise"
+    }
+   ],
+   "motion_rationale": "لحظه‌ی چسبیده: یک استکان چای که فقط به صبحانه گره خورده = لحظه‌ی دیگرِ روز مال کیست؟",
+   "lines": [
+    {
+     "text": "If your tea means *breakfast*,",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "who owns 4 pm?",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [],
+   "objects": [
+    {
+     "key": "pencil",
+     "src": "assets/objects/2026-10-22/pencil.png",
+     "x": 540,
+     "y": 1290,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "slide_l",
+     "rot": -6
+    }
+   ],
+   "motion_rationale": "نوشتن: مداد وارد می‌شود = آزمون عملی، سه لحظه را بنویس و چهارمی را پیدا کن",
+   "lines": [
+    {
+     "text": "List three moments",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "people reach for you.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "Then find the *fourth*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "bg": "graphite",
+   "spot_y": 1260,
+   "claim_type": "interpretation",
+   "evidence": [],
+   "objects": [
+    {
+     "key": "jar",
+     "src": "assets/objects/2026-10-23/jar.png",
+     "x": 400,
+     "y": 1270,
+     "w": 300,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "fade"
+    },
+    {
+     "key": "watch",
+     "src": "assets/objects/2026-10-22/watch.png",
+     "x": 720,
+     "y": 1300,
+     "w": 330,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "delay": 0.5
+    }
+   ],
+   "motion_rationale": "بازگشت به آغاز: همان شیشه کنار همان ساعت = رشد گاهی توی شیشه نیست، روی ساعت است",
+   "lines": [
+    {
+     "text": "Sometimes growth",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "isn't in the jar.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "It's on the *clock*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "bg": "primary",
+   "claim_type": "interpretation",
+   "evidence": [],
+   "logo": true,
+   "txt_top": 1080,
+   "lines": [
+    {
+     "text": "Write to me.",
+     "kind": "b",
+     "dim": false
+    }
+   ],
+   "motion_rationale": "کارت پایانی"
+  }
+ ],
+ "caption": "Nothing in the jar changed. Only the clock did.\n\nIn August, Jif announced its first major design update in more than 30 years. The tri-colour banner is back, the drop shadow is gone, but the real shift is on the label: new images show Jif with apple slices, crackers and rice cakes, or straight off a spoon. Jif To Go is now Jif Dippers, and there are new squeezable formats. The company says the product itself isn't changing.\n\nMy take: before you build a new product, look at the moments of your customer's day where you don't show up yet. The Ehrenberg-Bass Institute (Jenni Romaniuk) calls these category entry points, and they add a warning: more moments don't automatically mean more growth. You have to pick the right ones.\n\nThe limits: the new packs only started shipping in October 2026 and no sales results have been published, so we don't know yet whether it works. Snacking figures in the coverage (like the Spins 56% cited by FoodNavigator) are second-hand; I haven't read the original reports. Sources: the J.M. Smucker press release, MediaPost, FoodNavigator. Photos: Jif / J.M. Smucker. Other objects are AI-generated.\n\nWhat are the three moments people reach for you, and what's the fourth one nobody owns yet? Write to me.\n\n— Behnood Kavian",
+ "hashtags": [
+  "#branding",
+  "#marketing",
+  "#brandstrategy",
+  "#packagingdesign"
+ ],
+ "sources": [
+  {
+   "publisher": "The J.M. Smucker Co. via PR Newswire",
+   "title": "Jif Unveils First Major Brand Refresh in More than 30 Years as Peanut Butter Moves Beyond the PB&J",
+   "date": "2026-08-10",
+   "url": "https://www.prnewswire.com/news-releases/jif-unveils-first-major-brand-refresh-in-more-than-30-years-as-peanut-butter-moves-beyond-the-pbj-302846092.html"
+  },
+  {
+   "publisher": "MediaPost",
+   "title": "With Major Rebranding, Jif Conquers New Occasions",
+   "date": "2026-08-14",
+   "url": "https://www.mediapost.com/publications/article/417222/with-major-rebranding-jif-conquers-new-occasions.html"
+  },
+  {
+   "publisher": "FoodNavigator",
+   "title": "JM Smucker expands Jif peanut butter beyond sandwiches in brand refresh",
+   "date": "2026-08-19",
+   "url": "https://foodnavigator.com/Article/2026/08/19/jm-smucker-refreshes-jif-peanut-butter-branding/"
+  },
+  {
+   "publisher": "Ehrenberg-Bass Institute (from Adformatie)",
+   "title": "Category Entry Points Dissected: How They Really Contribute to Growth",
+   "date": "undated (about 2025)",
+   "url": "https://marketingscience.info/news-and-insights/category-entry-points-dissected-how-they-really-contribute-to-growth"
+  }
+ ],
+ "cta": "Write to me.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S8"
+ },
+ "status": "DRAFT",
+ "style": "editorial",
+ "lang": "en"
+}
