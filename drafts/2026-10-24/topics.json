@@ -105,6 +105,51 @@
     "line_idea": "Close the loop: the orange came back",
     "reuse_path_or_new": "same key as first object"
    }
-  ]
+  ],
+  "received_images": [
+   {
+    "file": "incoming/2026-10-24/T-a.png",
+    "size": "800x500",
+    "shows": "Before/after carton: orange with straw vs 2009 glass-of-juice carton",
+    "use": "hook/evidence scene, framed on dark",
+    "source": "https://www.thebrandingjournal.com/2015/05/what-to-learn-from-tropicanas-packaging-redesign-failure/ (owner upload, 2026-10-23 evening)"
+   },
+   {
+    "file": "incoming/2026-10-24/T-a2.png",
+    "size": "800x319",
+    "shows": "Before: orange with straw; after: glass of juice",
+    "use": "'they swapped the orange for a glass' scene; mirrors orange_straw/juice_glass objects",
+    "source": "https://www.thebrandingjournal.com/2015/05/what-to-learn-from-tropicanas-packaging-redesign-failure/ (owner upload, 2026-10-23 evening)"
+   },
+   {
+    "file": "incoming/2026-10-24/T-a3.png",
+    "size": "800x319",
+    "shows": "Logo before (arched wordmark with leaf) vs after (vertical sans wordmark)",
+    "use": "'they erased the cues' scene, next to eraser object",
+    "source": "https://www.thebrandingjournal.com/2015/05/what-to-learn-from-tropicanas-packaging-redesign-failure/ (owner upload, 2026-10-23 evening)"
+   },
+   {
+    "file": "incoming/2026-10-24/T-a4.png",
+    "size": "470x293",
+    "shows": "2009 range: Pulp Free / Some Pulp / High Pulp cartons all look alike",
+    "use": "'shoppers couldn't tell them apart' scene; small, use framed and not full-width",
+    "source": "https://www.thebrandingjournal.com/2015/05/what-to-learn-from-tropicanas-packaging-redesign-failure/ (owner upload, 2026-10-23 evening)"
+   },
+   {
+    "file": "incoming/2026-10-24/T-a5.png",
+    "size": "1200x800",
+    "shows": "2009 'squeeze' print ad with new carton (adult and children models)",
+    "use": "optional; prefer crop to carton only, do not feature the models' faces",
+    "source": "https://www.thebrandingjournal.com/2015/05/what-to-learn-from-tropicanas-packaging-redesign-failure/ (owner upload, 2026-10-23 evening)"
+   },
+   {
+    "file": "incoming/2026-10-24/T-a6.png",
+    "size": "700x452",
+    "shows": "2009 'squeeze' print ad variant (adult and children models)",
+    "use": "optional; same rule as T-a5",
+    "source": "https://www.thebrandingjournal.com/2015/05/what-to-learn-from-tropicanas-packaging-redesign-failure/ (owner upload, 2026-10-23 evening)"
+   }
+  ],
+  "image_note": "Owner uploaded 6 unique Tropicana images (a 7th was a duplicate of T-a). All are below the 1080px rule: show them framed (frame:true) at reduced width, never full-bleed. T-b (Bahlsen before/after) not yet received; if absent at 05:00 use biscuit/trophy/swatch objects."
  }
 }
