@@ -1,0 +1,110 @@
+{
+ "date": "2026-10-24",
+ "T": {
+  "topic_fa": "بازطراحی‌ای که برند را نامرئی کرد: مشتری بسته را نمی‌خواند، می‌شناسد",
+  "topic_en": "The redesign that made the brand invisible: shoppers don't read your pack, they recognise it",
+  "pillar": "brand_identity_distinctive_assets",
+  "central_tension_fa": "همه فکر می‌کنیم بسته‌بندی تازه و مدرن یعنی فروش بیشتر؛ ولی وقتی نشانه‌ای را که مشتری با آن پیدایمان می‌کرد پاک می‌کنیم، او از کنار ما رد می‌شود. طرحی که جایزه برد، قفسه را باخت.",
+  "central_tension_en": "We assume a fresh, modern pack sells more; but erase the cue people used to find you and they walk right past. The design that won the award lost the shelf.",
+  "working_hook_fa": "یک پرتقال و یک نی. همین را پاک کردند و فروش افتاد.",
+  "working_hook_en": "They swapped an orange for a glass of juice. Shoppers stopped finding it.",
+  "key_sources": [
+   {
+    "url": "https://adelaide.edu.au/about/news/2026/reducing-risks-when-modernising-packaging/",
+    "publisher": "Adelaide University (Ehrenberg-Bass Institute)",
+    "date": "2026-04-07",
+    "claim": "Caruso, Journal of Retailing and Consumer Services 2026 (US/UK household shoppers survey): redesign works when perceived modernity rises without removing recognisable cues; removing colours, logos or layout can reduce familiarity and purchase intent; 58% of marketers name modernisation as the main purpose of their latest pack redesign; modernise only when likeability has measurably declined."
+   },
+   {
+    "url": "https://www.bloomberg.com/news/articles/2009-04-02/tropicana-fiasco-from-arnell-is-gift-that-keeps-giving",
+    "publisher": "Bloomberg Businessweek",
+    "date": "2009-04-02",
+    "claim": "Tropicana's new carton (glass of juice replacing orange with a straw): unit sales -20%, dollar sales -19% from Jan 1 to Feb 22, 2009 (IRI), revenue down about $33M; dropped the new pack on Feb 23."
+   },
+   {
+    "url": "https://creativebloq.com/news/bahlsen-rebrand-fail",
+    "publisher": "Creative Bloq",
+    "date": "2023-10-05",
+    "claim": "Bahlsen's 2021 redesign (Auge) won D&AD, dropped product imagery and the signature blue; sales -11.8% in Jan-May 2023 per CEO (Lebensmittelzeitung); inflation also cited by commentators; new rebrand planned."
+   }
+  ],
+  "music_mood": "dark",
+  "framing_note": "The idea is evergreen: protect distinctive brand assets when you modernise. The 2026 Ehrenberg-Bass paper is the spark, but it dates from April: never call it 'new research' on screen. On screen: one number at most (Tropicana 20%, 'in under two months'). Bahlsen: say the award-winning redesign was followed by a sales drop and a planned re-redesign; do not claim the design alone caused it (inflation). Close with the practical rule: before redesigning, list what customers actually recognise you by (colour, shape, symbol) and keep it; change only what is not recognised. Never show the Tropicana or Bahlsen logos as AI-generated objects; real brand imagery only from owner uploads, framed and credited. No mention of any Gulf location.",
+  "image_requests": [
+   {
+    "id": "T-a",
+    "description": "تصویر مقایسه‌ی قبل و بعد بسته‌بندی تروپیکانا: کارتن قدیمی با پرتقال و نی، کنار کارتن ۲۰۰۹ با لیوان آب‌پرتقال (عکس داخل مقاله، بخش «Differences between the original packaging and the new one»).",
+    "page_url": "https://www.thebrandingjournal.com/2015/05/what-to-learn-from-tropicanas-packaging-redesign-failure/",
+    "scene_idea": "صحنه‌ی قلاب/مدرک: پرتقال و نی در برابر لیوان؛ قاب‌دار روی صحنه‌ی تیره بعد از شیء پرتقال."
+   },
+   {
+    "id": "T-b",
+    "description": "تصویر «Bahlsen before and after» در مقاله (بسته‌های قدیمی با عکس بیسکویت و آبی، کنار بسته‌های طرح ۲۰۲۱).",
+    "page_url": "https://creativebloq.com/news/bahlsen-rebrand-fail",
+    "scene_idea": "صحنه‌ی «جایزه برد، قفسه را باخت»: بعد از شیء جام، قاب واقعی بسته‌ها."
+   }
+  ],
+  "object_plan": [
+   {
+    "object": "whole orange with a drinking straw pushed into it (natural colour, product of the topic, no logo)",
+    "line_idea": "Hook: the one image people used to find the brand",
+    "reuse_path_or_new": "new: assets/objects/2026-10-24/orange_straw.png (colour)"
+   },
+   {
+    "object": "plain glass of orange juice (natural colour, no logo)",
+    "line_idea": "The 'modern' replacement: cleaner, and anonymous",
+    "reuse_path_or_new": "new: assets/objects/2026-10-24/juice_glass.png (colour)"
+   },
+   {
+    "object": "eraser",
+    "line_idea": "They erased the cue customers knew",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/eraser.png"
+   },
+   {
+    "object": "empty wire shopping basket",
+    "line_idea": "Shoppers walked past; sales fell about 20% in under two months",
+    "reuse_path_or_new": "new: assets/objects/2026-10-24/basket.png"
+   },
+   {
+    "object": "magnifier",
+    "line_idea": "Shoppers don't read the pack, they scan for a familiar sign",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/magnifier.png"
+   },
+   {
+    "object": "generic trophy cup (no award logo)",
+    "line_idea": "A redesign that won a top design award, then sales fell",
+    "reuse_path_or_new": "new: assets/objects/2026-10-24/trophy.png"
+   },
+   {
+    "object": "butter biscuit (natural colour)",
+    "line_idea": "The second case: a biscuit brand that lost its blue",
+    "reuse_path_or_new": "new: assets/objects/2026-10-24/biscuit.png (colour)"
+   },
+   {
+    "object": "paint colour swatch fan",
+    "line_idea": "A colour can be the whole brand in a shopper's mind",
+    "reuse_path_or_new": "new: assets/objects/2026-10-24/swatch_fan.png (or fx swatch with brand teal)"
+   },
+   {
+    "object": "old key on a ring",
+    "line_idea": "Your distinctive cues are the key customers use to find you",
+    "reuse_path_or_new": "new: assets/objects/2026-10-24/key.png"
+   },
+   {
+    "object": "balance scale",
+    "line_idea": "Modern enough to look fresh, familiar enough to be found",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/scale.png"
+   },
+   {
+    "object": "pencil",
+    "line_idea": "Before redesigning, write down what people recognise you by; keep that, change the rest",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/pencil.png"
+   },
+   {
+    "object": "orange with straw (return)",
+    "line_idea": "Close the loop: the orange came back",
+    "reuse_path_or_new": "same key as first object"
+   }
+  ]
+ }
+}

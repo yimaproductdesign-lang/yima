@@ -1,0 +1,369 @@
+{
+ "date": "2026-10-24",
+ "stage": "1_evening",
+ "run_at": "2026-10-23T16:55:00Z",
+ "scope": "branding, brand strategy, marketing only (owner rule from 2026-10-23)",
+ "searches": [
+  "rebrand new logo identity October 2026",
+  "brand packaging redesign news October 22 2026",
+  "marketing campaign backlash brand pulled ad October 2026",
+  "brand name change renamed company new name October 2026",
+  "consumer psychology pricing study brands 2026 new research",
+  "Creative Review branding news this week",
+  "Marketing Week news brand strategy October 2026",
+  "\"reducing risks when modernising packaging\" Adelaide",
+  "Dezeen graphic design rebrand October 2026",
+  "Marketing Dive brand news October 22 2026",
+  "The Drum rebrand campaign news October 2026",
+  "Bahlsen redesign 2021 sales fell award packaging",
+  "Tropicana 2009 packaging redesign sales fell 20 percent reverted",
+  "shrinkflation brand backlash October 2026",
+  "Rosemaund English whisky branding",
+  "Tropicana 2009 IRI sales nytimes"
+ ],
+ "pages_read": [
+  "https://www.newswise.com/articles/reducing-risks-when-modernising-packaging",
+  "https://adelaide.edu.au/about/news/2026/reducing-risks-when-modernising-packaging/",
+  "https://www.creativereview.co.uk/landing-page/branding-news/",
+  "https://www.underconsideration.com/brandnew/",
+  "https://www.marketingdive.com/topic/brand-strategy/",
+  "https://bestmediainfo.com/mediainfo/advertising/top-advertising-marketing-and-media-news-headlines-of-today-october-22-2026-12716210",
+  "https://creativebloq.com/news/bahlsen-rebrand-fail",
+  "https://www.marketingdive.com/news/how-coca-colas-mr-pibb-became-the-fastest-growing-brand-of-2026/833009/",
+  "https://www.marketingdive.com/news/how-cpg-challenger-brands-are-setting-category-marketing-trends/833696/",
+  "https://www.wral.com/tropicana-redesigned-its-classic-bottle-customers-revolted/21727761/",
+  "https://www.thebrandingjournal.com/2015/05/what-to-learn-from-tropicanas-packaging-redesign-failure/",
+  "https://www.bloomberg.com/news/articles/2009-04-02/tropicana-fiasco-from-arnell-is-gift-that-keeps-giving"
+ ],
+ "excluded_recent_topics": [
+  "2026-10-22 ageing memory (R1), Apple Music sound-made logo (R2)",
+  "2026-10-23 Jif: same product, new moment"
+ ],
+ "scoring_note": "Scores /100: freshness 10, growth 15, reach 15, qualified followers 15, regional business relevance 15, audience psychology 10, commercial utility 10, originality 5, verifiability 5. Growth, reach, follower potential, psychology and commercial utility are subjective estimates, not measured data. 'read': false means only listing/summary pages were read.",
+ "candidates": [
+  {
+   "id": "C01",
+   "title": "Ehrenberg-Bass: modernising packaging only works if distinctive brand cues survive (Tropicana 2009, Bahlsen 2021)",
+   "url": "https://adelaide.edu.au/about/news/2026/reducing-risks-when-modernising-packaging/",
+   "publisher": "Adelaide University (Ehrenberg-Bass Institute) / Newswise",
+   "event_date": "2026-04-07",
+   "claim": "Dr William Caruso, Journal of Retailing and Consumer Services (2026, doi 10.1016/j.jretconser.2026.104800), survey of primary household shoppers in US and UK (sample size not stated in release): redesign succeeds when it raises perceived modernity without removing recognisable cues; removing colours, logos or layout can cut familiarity and purchase intent; 58% of marketers say modernisation was the main purpose of their latest pack redesign; modernise when pack likeability has measurably declined; use Distinctive Asset Testing.",
+   "retrieved_at": "2026-10-23T16:40:00Z",
+   "class": "evergreen",
+   "page_read": true,
+   "scores": {
+    "freshness": 4,
+    "growth": 9,
+    "reach": 14,
+    "qualified_followers": 15,
+    "regional_business_relevance": 15,
+    "audience_psychology": 10,
+    "commercial_utility": 10,
+    "originality": 4,
+    "verifiability": 5
+   },
+   "total": 86,
+   "note": "SELECTED. Evergreen idea with a fresh academic spark; release is April 2026, so do not call it 'new' on screen.",
+   "lenses": {
+    "verification": "Primary university release read; case figures cross-checked: Tropicana unit sales -20% Jan 1-Feb 22 2009, about $33M (IRI via Bloomberg Businessweek, 2009-04-02); reverted after under two months. Bahlsen -11.8% Jan-May 2023 per CEO in Lebensmittelzeitung (via Creative Bloq), redesign won D&AD; commentators note inflation also played a part -> say 'sales fell' not 'the design caused all of it'. Sample size of the survey unknown: no study numbers on screen except the 58% if attributed in caption.",
+    "audience_psychology": "Every owner has felt the urge to 'refresh the logo'; seeing an award-winning redesign lose shoppers creates loss-aversion tension and a self-check ('what do my customers actually recognise?'). Strong save/share.",
+    "brand_fit": "Core to a brand designer-strategist: argues for strategy over decoration, positions the studio as the one that protects equity. Works identically for Persian and international English viewers."
+   }
+  },
+  {
+   "id": "C06",
+   "title": "How CPG challenger brands set category marketing trends (Graza squeeze bottle copied by 'a few dozen')",
+   "url": "https://www.marketingdive.com/news/how-cpg-challenger-brands-are-setting-category-marketing-trends/833696/",
+   "publisher": "Marketing Dive",
+   "event_date": "2026-10-22",
+   "claim": "Graza VP: 'Now there's at least a few dozen squeeze bottles on shelf'; challengers shape incumbents' packaging; deal value doubled Q1 2026 (PwC).",
+   "retrieved_at": "2026-10-23T16:40:00Z",
+   "class": "breaking",
+   "page_read": true,
+   "scores": {
+    "freshness": 10,
+    "growth": 9,
+    "reach": 10,
+    "qualified_followers": 12,
+    "regional_business_relevance": 12,
+    "audience_psychology": 8,
+    "commercial_utility": 9,
+    "originality": 4,
+    "verifiability": 4
+   },
+   "total": 78,
+   "note": "Good tension (your distinctive format becomes the category norm) - keep as backup idea for a later day."
+  },
+  {
+   "id": "C07",
+   "title": "Apple Music identity 'made by sound'",
+   "url": "https://www.creativereview.co.uk/apple-music-brand-identity-fred-again/",
+   "publisher": "Creative Review",
+   "event_date": "2026-10-22",
+   "claim": "Identity built from music played into mineral oil.",
+   "retrieved_at": "2026-10-23T16:40:00Z",
+   "class": "breaking",
+   "page_read": false,
+   "scores": {
+    "freshness": 10,
+    "growth": 10,
+    "reach": 14,
+    "qualified_followers": 11,
+    "regional_business_relevance": 10,
+    "audience_psychology": 8,
+    "commercial_utility": 6,
+    "originality": 4,
+    "verifiability": 5
+   },
+   "total": 78,
+   "note": "Excluded: covered on 2026-10-22."
+  },
+  {
+   "id": "C04",
+   "title": "Mr. Pibb: returning to the original name, fastest-growing brand of 2026 (Morning Consult)",
+   "url": "https://www.marketingdive.com/news/how-coca-colas-mr-pibb-became-the-fastest-growing-brand-of-2026/833009/",
+   "publisher": "Marketing Dive",
+   "event_date": "2026-10-15",
+   "claim": "Coca-Cola relaunched Pibb Xtra as Mr. Pibb (fall 2025, national Feb 2026); volume +20% in Q2 2026 per earnings call; consideration +11 pts (Morning Consult); 4M households added (brand figure, unverified).",
+   "retrieved_at": "2026-10-23T16:40:00Z",
+   "class": "emerging",
+   "page_read": true,
+   "scores": {
+    "freshness": 7,
+    "growth": 11,
+    "reach": 11,
+    "qualified_followers": 11,
+    "regional_business_relevance": 9,
+    "audience_psychology": 8,
+    "commercial_utility": 8,
+    "originality": 4,
+    "verifiability": 4
+   },
+   "total": 73,
+   "note": "Strong but US-centric product unknown to Persian audience; growth also driven by sampling and distribution, so name return alone cannot be credited. Possible caption footnote only."
+  },
+  {
+   "id": "C02",
+   "title": "Tropicana 2009 carton redesign: -20% unit sales in under two months, reversed",
+   "url": "https://www.bloomberg.com/news/articles/2009-04-02/tropicana-fiasco-from-arnell-is-gift-that-keeps-giving",
+   "publisher": "Bloomberg Businessweek",
+   "event_date": "2009-04-02",
+   "claim": "Unit sales fell 20% and dollar sales 19% between Jan 1 and Feb 22, 2009 (Information Resources Inc), revenue down about $33M to $137M; company announced on Feb 23 it would drop the new pack.",
+   "retrieved_at": "2026-10-23T16:40:00Z",
+   "class": "evergreen",
+   "page_read": true,
+   "scores": {
+    "freshness": 1,
+    "growth": 5,
+    "reach": 13,
+    "qualified_followers": 13,
+    "regional_business_relevance": 13,
+    "audience_psychology": 9,
+    "commercial_utility": 9,
+    "originality": 1,
+    "verifiability": 5
+   },
+   "total": 69,
+   "note": "Supporting case for C01, not a stand-alone topic (well-worn case)."
+  },
+  {
+   "id": "C05",
+   "title": "Kuda digital bank rebrand by Barkas targets young Nigerians",
+   "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_kuda_by_barkas.php",
+   "publisher": "Brand New (UnderConsideration); Creative Review",
+   "event_date": "2026-10-20/22",
+   "claim": "New identity drops 'Bank of the Free', 'More Life' platform for young users.",
+   "retrieved_at": "2026-10-23T16:40:00Z",
+   "class": "breaking",
+   "page_read": false,
+   "scores": {
+    "freshness": 10,
+    "growth": 7,
+    "reach": 9,
+    "qualified_followers": 11,
+    "regional_business_relevance": 10,
+    "audience_psychology": 7,
+    "commercial_utility": 8,
+    "originality": 3,
+    "verifiability": 4
+   },
+   "total": 69,
+   "note": "Already a candidate yesterday; identity novelty without a sharp tension."
+  },
+  {
+   "id": "C08",
+   "title": "Just Eat 'Stay Just Where You Are' platform (VCCP)",
+   "url": "https://www.creativereview.co.uk/just-eat-vccp-stay-where-you-are-campaign-advertising/",
+   "publisher": "Creative Review",
+   "event_date": "2026-10-16",
+   "claim": "Global platform moves away from celebrity-led ads toward the joy of staying in.",
+   "retrieved_at": "2026-10-23T16:40:00Z",
+   "class": "emerging",
+   "page_read": false,
+   "scores": {
+    "freshness": 7,
+    "growth": 7,
+    "reach": 11,
+    "qualified_followers": 11,
+    "regional_business_relevance": 10,
+    "audience_psychology": 8,
+    "commercial_utility": 8,
+    "originality": 3,
+    "verifiability": 4
+   },
+   "total": 69,
+   "note": "Campaign-only; scored yesterday, weaker tension."
+  },
+  {
+   "id": "C11",
+   "title": "Tropicana 2024 bottle redesign: sales -19% by October, shrinkflation complaints",
+   "url": "https://www.wral.com/tropicana-redesigned-its-classic-bottle-customers-revolted/21727761/",
+   "publisher": "CNN (via WRAL)",
+   "event_date": "2024-11-18",
+   "claim": "Carafe bottle replaced, 52->46 oz; sales -8.3% July, -10.9% Aug, -19% Oct vs prior year; ~4 pts share lost to Simply Orange.",
+   "retrieved_at": "2026-10-23T16:40:00Z",
+   "class": "evergreen",
+   "page_read": true,
+   "scores": {
+    "freshness": 2,
+    "growth": 6,
+    "reach": 12,
+    "qualified_followers": 12,
+    "regional_business_relevance": 12,
+    "audience_psychology": 9,
+    "commercial_utility": 8,
+    "originality": 3,
+    "verifiability": 5
+   },
+   "total": 69,
+   "note": "Shows the lesson repeating at the same brand; caption material only (mixes size cut with design)."
+  },
+  {
+   "id": "C03",
+   "title": "Bahlsen's award-winning 2021 redesign followed by sales drop; second rebrand planned",
+   "url": "https://creativebloq.com/news/bahlsen-rebrand-fail",
+   "publisher": "Creative Bloq (Joe Foley)",
+   "event_date": "2023-10-05",
+   "claim": "Redesign by Auge (brief: a 'revolution') dropped product imagery-led packs and the signature blue; won D&AD; sales -11.8% in first five months of 2023 per CEO Alexander Kühne (Lebensmittelzeitung); some attribute part of the fall to inflation.",
+   "retrieved_at": "2026-10-23T16:40:00Z",
+   "class": "evergreen",
+   "page_read": true,
+   "scores": {
+    "freshness": 1,
+    "growth": 5,
+    "reach": 11,
+    "qualified_followers": 13,
+    "regional_business_relevance": 12,
+    "audience_psychology": 9,
+    "commercial_utility": 9,
+    "originality": 3,
+    "verifiability": 4
+   },
+   "total": 67,
+   "note": "Supporting case for C01; Bahlsen sales cause is contested -> careful wording."
+  },
+  {
+   "id": "C10",
+   "title": "FSSAI questions Complan and Nestlé ad claims, flags infant-formula reel",
+   "url": "https://bestmediainfo.com/mediainfo/advertising/top-advertising-marketing-and-media-news-headlines-of-today-october-22-2026-12716210",
+   "publisher": "Best Media Info",
+   "event_date": "2026-10-22",
+   "claim": "Regulator asks for evidence behind growth, immunity, digestibility claims.",
+   "retrieved_at": "2026-10-23T16:40:00Z",
+   "class": "breaking",
+   "page_read": false,
+   "scores": {
+    "freshness": 10,
+    "growth": 6,
+    "reach": 8,
+    "qualified_followers": 9,
+    "regional_business_relevance": 9,
+    "audience_psychology": 7,
+    "commercial_utility": 7,
+    "originality": 3,
+    "verifiability": 3
+   },
+   "total": 62,
+   "note": "Regulatory/claims angle; secondary summary only, original notices not read."
+  },
+  {
+   "id": "C12",
+   "title": "Domino's x Minecraft personal pizza push",
+   "url": "https://www.marketingdive.com/news/dominos-links-with-minecraft-to-push-personal-pizza-via-gaming/833357/",
+   "publisher": "Marketing Dive",
+   "event_date": "2026-10-21",
+   "claim": "Gaming partnership with creator content, in-game items, packaging, giveaways.",
+   "retrieved_at": "2026-10-23T16:40:00Z",
+   "class": "breaking",
+   "page_read": false,
+   "scores": {
+    "freshness": 10,
+    "growth": 8,
+    "reach": 11,
+    "qualified_followers": 8,
+    "regional_business_relevance": 7,
+    "audience_psychology": 6,
+    "commercial_utility": 6,
+    "originality": 2,
+    "verifiability": 4
+   },
+   "total": 62,
+   "note": "Brand-fit weak (promo tactic, not strategy)."
+  },
+  {
+   "id": "C09",
+   "title": "ColorPlus: 'Heritage alone is not the differentiation' (younger consumers)",
+   "url": "https://bestmediainfo.com/mediainfo/advertising/top-advertising-marketing-and-media-news-headlines-of-today-october-22-2026-12716210",
+   "publisher": "Best Media Info",
+   "event_date": "2026-10-22",
+   "claim": "Raymond Lifestyle's ColorPlus refreshing product, advertising and retail to reach younger buyers.",
+   "retrieved_at": "2026-10-23T16:40:00Z",
+   "class": "breaking",
+   "page_read": false,
+   "scores": {
+    "freshness": 10,
+    "growth": 5,
+    "reach": 6,
+    "qualified_followers": 10,
+    "regional_business_relevance": 10,
+    "audience_psychology": 7,
+    "commercial_utility": 7,
+    "originality": 3,
+    "verifiability": 3
+   },
+   "total": 61,
+   "note": "Interview only; counterpoint to C01 (heritage vs refresh) usable in caption."
+  }
+ ],
+ "lenses_summary": {
+  "verification_red_team": "C01's academic finding comes from a university release (sample size not given); the two cases are well documented: Tropicana -20% unit sales in under two months (IRI via Businessweek 2009), Bahlsen -11.8% Jan-May 2023 (CEO via Lebensmittelzeitung), but Bahlsen's fall was also during high inflation, so the reel must not claim the design alone caused it. No invented numbers; at most one number on screen (Tropicana 20%).",
+  "audience_psychology": "Loss aversion plus recognition: 'your customers don't read your pack, they recognise it'. Every viewer has hunted for a familiar product on a shelf and walked past it after a redesign. Gives owners an instant self-test.",
+  "brand_fit": "Lets a designer argue against cosmetic redesign, building trust with serious clients. Distinct from yesterday's Jif (usage moments) though both touch packaging; this one is about identity/distinctive assets."
+ },
+ "gates": {
+  "brand_fit": {
+   "pass": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C06",
+    "C11"
+   ],
+   "fail_or_weak": [
+    "C07 repeat of 2026-10-22",
+    "C12 promo tactic",
+    "C10 regulatory, secondary source only",
+    "C05/C08 repeated from yesterday's pool, weak tension"
+   ]
+  },
+  "story": {
+   "winner": "C01 (with C02 and C03 as its cases)",
+   "why": "Sharpest tension (the redesign that won a design award and lost shoppers) and the most concrete image (an orange with a straw replaced by a glass of juice, and shoppers walking past it)."
+  }
+ },
+ "decision": {
+  "topic": "C01",
+  "backup": "C06 (your distinctive format becomes everyone's)"
+ }
+}
