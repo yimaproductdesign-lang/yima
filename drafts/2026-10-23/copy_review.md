@@ -38,3 +38,6 @@ Visual decisions: owner uploads T-a (jar family, proof) and T-d (apple rings, th
 ## Hashtags (relevant and in active use; not live trend data)
 - FA: #برندینگ #بازاریابی (broad) · #استراتژی_برند #packagingdesign (specific)
 - EN: #branding #marketing (broad) · #brandstrategy #packagingdesign (specific)
+
+## Revision (owner feedback, same day)
+Owner: product objects should be in colour. Regenerated jar, PB&J sandwich half and apple slices with peanut butter in natural colour (Figma, 3 new generations), and set owner photos T-a and T-d to full colour. Metaphor objects (watch, signpost, magnifier, tea, pencil) stay monochrome so the product stands out. Rule added to motion.md (item 5). Copy unchanged.

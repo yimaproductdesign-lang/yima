@@ -17,12 +17,17 @@
    "objects": [
     {
      "key": "jar",
-     "src": "assets/objects/2026-10-23/jar.png",
+     "src": "assets/objects/2026-10-23/jar_color.png",
      "x": 540,
      "y": 1250,
      "w": 330,
      "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
-     "anim": "drop"
+     "anim": "drop",
+     "color": [
+      0,
+      0,
+      0
+     ]
     }
    ],
    "motion_rationale": "همان شیشه: یک شیشه‌ی ساده‌ی کره‌ی بادام‌زمینی با قاشق پایین می‌آید و بی‌حرکت می‌ماند = توی شیشه هیچ‌چیز عوض نشد",
@@ -78,16 +83,20 @@
    "objects": [
     {
      "key": "bread",
-     "src": "assets/objects/2026-10-23/bread.png",
+     "src": "assets/objects/2026-10-23/sandwich_color.png",
      "x": 540,
-     "y": 1260,
-     "w": 430,
+     "y": 1270,
+     "w": 520,
      "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
      "anim": "rise",
-     "rot": -4
+     "color": [
+      0,
+      0,
+      0
+     ]
     }
    ],
-   "motion_rationale": "لحظه‌ی قدیم: نصف ساندویچ نان سفید = کره‌ی بادام‌زمینی سال‌ها فقط مادّه‌ای لای ساندویچ بود",
+   "motion_rationale": "لحظه‌ی قدیم: نصف ساندویچ کره‌ی بادام‌زمینی و مربا، رنگی (محصول) = کره‌ی بادام‌زمینی سال‌ها فقط مادّه‌ای لای ساندویچ بود",
    "lines": [
     {
      "text": "For decades, peanut butter",
@@ -127,7 +136,12 @@
      "credit": "Jif / The J.M. Smucker Co. (owner upload)",
      "source_url": "https://www.prnewswire.com/news-releases/jif-unveils-first-major-brand-refresh-in-more-than-30-years-as-peanut-butter-moves-beyond-the-pbj-302846092.html",
      "anim": "zoom",
-     "push": 0.05
+     "push": 0.05,
+     "color": [
+      0,
+      0,
+      0
+     ]
     }
    ],
    "motion_rationale": "اثبات واقعی: عکس خانواده‌ی شیشه‌های تازه‌ی جیف (آپلود مالک) آرام نزدیک می‌شود = همان شیشه‌ها با چهره‌ی تازه",
@@ -165,12 +179,17 @@
    "objects": [
     {
      "key": "apple",
-     "src": "assets/objects/2026-10-23/apple.png",
+     "src": "assets/objects/2026-10-23/apple_color.png",
      "x": 540,
      "y": 1280,
      "w": 640,
      "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
-     "anim": "slide_r"
+     "anim": "slide_r",
+     "color": [
+      0,
+      0,
+      0
+     ]
     }
    ],
    "motion_rationale": "لحظه‌ی تازه: برش‌های سیب با کمی کره‌ی بادام‌زمینی از کنار وارد می‌شوند = برچسب حالا میان‌وعده را نشان می‌دهد",
@@ -204,7 +223,12 @@
      "frame": true,
      "credit": "Jif / The J.M. Smucker Co. (owner upload; recipe image)",
      "source_url": "https://www.prnewswire.com/news-releases/jif-unveils-first-major-brand-refresh-in-more-than-30-years-as-peanut-butter-moves-beyond-the-pbj-302846092.html",
-     "anim": "pop"
+     "anim": "pop",
+     "color": [
+      0,
+      0,
+      0
+     ]
     }
    ],
    "motion_rationale": "میان‌وعده‌ی واقعی: عکس حلقه‌های سیب با کره‌ی بادام‌زمینی (آپلود مالک) = نه ساندویچ، میان‌وعده",
@@ -277,13 +301,18 @@
    "objects": [
     {
      "key": "jar",
-     "src": "assets/objects/2026-10-23/jar.png",
+     "src": "assets/objects/2026-10-23/jar_color.png",
      "x": 540,
      "y": 1250,
      "w": 330,
      "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
      "anim": "zoom",
-     "push": 0.06
+     "push": 0.06,
+     "color": [
+      0,
+      0,
+      0
+     ]
     }
    ],
    "motion_rationale": "چرخش ایده: همان شیشه‌ی صحنه‌ی اول، حالا زیر نور موضعی و نزدیک‌تر = محصول همان است، فقط لحظه عوض شده",
@@ -533,12 +562,17 @@
    "objects": [
     {
      "key": "jar",
-     "src": "assets/objects/2026-10-23/jar.png",
+     "src": "assets/objects/2026-10-23/jar_color.png",
      "x": 400,
      "y": 1270,
      "w": 300,
      "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
-     "anim": "fade"
+     "anim": "fade",
+     "color": [
+      0,
+      0,
+      0
+     ]
     },
     {
      "key": "watch",
