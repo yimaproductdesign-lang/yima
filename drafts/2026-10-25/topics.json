@@ -53,7 +53,15 @@
     "id": "T-a",
     "description": "عکس تابلرونِ ۲۰۱۶ با فاصله‌های پهن‌تر میان قله‌ها (عکس اصلی خبر؛ اگر عکسی کنار‌به‌کنارِ قدیم و جدید پیدا شد، همان بهتر).",
     "page_url": "https://kathmandupost.com/world/2016/11/08/toblerone-triangle-change-upsets-fans",
-    "scene_idea": "مدرک قلاب: «جعبه همان ماند، شکلات کم شد»؛ قاب‌دار روی صحنه‌ی تیره، بلافاصله بعد از قلاب."
+    "scene_idea": "مدرک قلاب: «جعبه همان ماند، شکلات کم شد»؛ قاب‌دار روی صحنه‌ی تیره، بلافاصله بعد از قلاب.",
+    "received": {
+     "file": "incoming/2026-10-25/T-a.jpg",
+     "size_px": [
+      900,
+      505
+     ],
+     "note": "Owner upload 2026-10-24 in chat. Below 1080px: show framed at native size or smaller (max ~900px wide), never full-bleed or upscaled. Shows the 2016 bar with wide gaps beside its unchanged box; logo visible, so use only as a framed, credited real photo (credit: 2016 news photo via Kathmandu Post/AFP coverage)."
+    }
    }
   ],
   "object_plan": [
