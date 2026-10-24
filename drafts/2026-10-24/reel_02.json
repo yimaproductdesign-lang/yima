@@ -1,0 +1,720 @@
+{
+ "reel_id": "2026-10-24_EN",
+ "date": "2026-10-24",
+ "topic": "The redesign that made the brand invisible: shoppers don't read your pack, they recognise it",
+ "pillar": "brand_identity_distinctive_assets",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://adelaide.edu.au/about/news/2026/reducing-risks-when-modernising-packaging/",
+     "publisher": "Adelaide University (Ehrenberg-Bass Institute)",
+     "event_date": "2026-04-07",
+     "retrieved_at": "2026-10-24T04:30:00Z",
+     "claim": "Tropicana 2009 replaced orange-with-straw with a glass of juice; sales fell about 20% and the brand reverted; removing colours, logos or layout can cut familiarity and purchase intent"
+    }
+   ],
+   "objects": [
+    {
+     "key": "orange",
+     "src": "assets/objects/2026-10-24/orange_straw.png",
+     "x": 540,
+     "y": 1270,
+     "w": 380,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "drop",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "motion_rationale": "نشانه: پرتقالِ نی‌دار رنگی پایین می‌افتد و می‌ایستد = همان تصویری که مشتری برند را با آن می‌شناخت",
+   "lines": [
+    {
+     "text": "An orange with a straw.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "That was the *brand*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "bg": "graphite",
+   "spot_y": 1250,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.thebrandingjournal.com/2015/05/what-to-learn-from-tropicanas-packaging-redesign-failure/",
+     "publisher": "The Branding Journal",
+     "event_date": "2015-05",
+     "retrieved_at": "2026-10-24T04:30:00Z",
+     "claim": "New 2009 cartons: glass of juice, vertical wordmark; variants looked alike"
+    },
+    {
+     "url": "https://adelaide.edu.au/about/news/2026/reducing-risks-when-modernising-packaging/",
+     "publisher": "Adelaide University (Ehrenberg-Bass Institute)",
+     "event_date": "2026-04-07",
+     "retrieved_at": "2026-10-24T04:30:00Z",
+     "claim": "Tropicana 2009 replaced orange-with-straw with a glass of juice; sales fell about 20% and the brand reverted; removing colours, logos or layout can cut familiarity and purchase intent"
+    }
+   ],
+   "objects": [
+    {
+     "key": "tA",
+     "src": "incoming/2026-10-24/T-a.png",
+     "x": 540,
+     "y": 1250,
+     "w": 900,
+     "ar": 1.6,
+     "frame": true,
+     "credit": "Tropicana packaging, via The Branding Journal (owner upload)",
+     "source_url": "https://www.thebrandingjournal.com/2015/05/what-to-learn-from-tropicanas-packaging-redesign-failure/",
+     "anim": "zoom",
+     "push": 0.05,
+     "color": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "motion_rationale": "مدرک واقعی: قبل و بعد بسته (آپلود مالک) قاب‌دار زیر نور موضعی آرام نزدیک می‌شود = پرتقال رفت، لیوان آمد",
+   "lines": [
+    {
+     "text": "In 2009, Tropicana",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "swapped it for a *glass*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [],
+   "objects": [
+    {
+     "key": "glass",
+     "src": "assets/objects/2026-10-24/juice_glass.png",
+     "x": 540,
+     "y": 1280,
+     "w": 240,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "rise",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "motion_rationale": "جانشین: لیوان سادهٔ آب‌پرتقال، تمیز و بی‌هویت، تنها در قاب = مدرن ولی بی‌نشان",
+   "lines": [
+    {
+     "text": "Cleaner. More modern.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "And *anonymous*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "bg": "graphite",
+   "spot_y": 1230,
+   "claim_type": "interpretation",
+   "evidence": [],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "lens",
+     "box": [
+      140,
+      920,
+      940,
+      1270
+     ],
+     "seed": 8,
+     "size": 50,
+     "keep": [
+      "orange + straw"
+     ],
+     "keep_at": [
+      540,
+      1380
+     ],
+     "r": 150,
+     "lens": "assets/objects/2026-10-22/magnifier.png",
+     "lens_w": 520,
+     "hit_t": 2.4,
+     "path": [
+      [
+       0,
+       300,
+       1050
+      ],
+      [
+       1.2,
+       760,
+       1120
+      ],
+      [
+       2.3,
+       540,
+       1380
+      ]
+     ],
+     "words": [
+      "100% orange",
+      "a glass",
+      "new font",
+      "white space",
+      "orange + straw"
+     ]
+    }
+   ],
+   "motion_rationale": "نگاه مشتری: ذره‌بین میان شلوغی کلمه‌های بسته می‌گردد و فقط نشانهٔ آشنا (پرتقال و نی) را پیدا می‌کند = مشتری نمی‌خواند، دنبال نشانه می‌گردد",
+   "lines": [
+    {
+     "text": "Shoppers don't read a pack.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "They *scan* for a sign.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://www.thebrandingjournal.com/2015/05/what-to-learn-from-tropicanas-packaging-redesign-failure/",
+     "publisher": "The Branding Journal",
+     "event_date": "2015-05",
+     "retrieved_at": "2026-10-24T04:30:00Z",
+     "claim": "New 2009 cartons: glass of juice, vertical wordmark; variants looked alike"
+    }
+   ],
+   "objects": [
+    {
+     "key": "eraser",
+     "src": "assets/objects/2026-10-22/eraser.png",
+     "x": 540,
+     "y": 1440,
+     "w": 400,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "slide_r",
+     "rot": -8
+    }
+   ],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "fade",
+     "box": [
+      140,
+      920,
+      940,
+      1290
+     ],
+     "seed": 8,
+     "size": 52,
+     "words": [
+      "orange",
+      "straw",
+      "green leaf",
+      "arched logo",
+      "old layout"
+     ]
+    }
+   ],
+   "motion_rationale": "پاک‌شدن: نشانه‌های آشنای بسته یکی‌یکی محو می‌شوند و پاک‌کن از کنار وارد می‌شود = بازطراحی نشانه‌ها را پاک کرد",
+   "lines": [
+    {
+     "text": "It erased the *cues*",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "people knew it by.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "bg": "graphite",
+   "spot_y": 1250,
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://www.thebrandingjournal.com/2015/05/what-to-learn-from-tropicanas-packaging-redesign-failure/",
+     "publisher": "The Branding Journal",
+     "event_date": "2015-05",
+     "retrieved_at": "2026-10-24T04:30:00Z",
+     "claim": "New 2009 cartons: glass of juice, vertical wordmark; variants looked alike"
+    }
+   ],
+   "objects": [
+    {
+     "key": "tA4",
+     "src": "incoming/2026-10-24/T-a4.png",
+     "x": 540,
+     "y": 1250,
+     "w": 720,
+     "ar": 1.604,
+     "frame": true,
+     "credit": "Tropicana packaging, via The Branding Journal (owner upload)",
+     "source_url": "https://www.thebrandingjournal.com/2015/05/what-to-learn-from-tropicanas-packaging-redesign-failure/",
+     "anim": "zoom",
+     "push": 0.05,
+     "color": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "motion_rationale": "مدرک واقعی: سه طعم با بسته‌های تقریباً یکسان (آپلود مالک) = حتی طعم‌ها از هم تشخیص داده نمی‌شدند",
+   "lines": [
+    {
+     "text": "Even the flavours",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "looked *alike*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.bloomberg.com/news/articles/2009-04-02/tropicana-fiasco-from-arnell-is-gift-that-keeps-giving",
+     "publisher": "Bloomberg Businessweek",
+     "event_date": "2009-04-02",
+     "retrieved_at": "2026-10-24T04:30:00Z",
+     "claim": "Unit sales fell 20% between Jan 1 and Feb 22, 2009 (IRI); company announced Feb 23 it would bring back the old carton"
+    }
+   ],
+   "objects": [
+    {
+     "key": "basket",
+     "src": "assets/objects/2026-10-24/basket.png",
+     "x": 540,
+     "y": 1310,
+     "w": 600,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop"
+    }
+   ],
+   "motion_rationale": "خرید نشد: سبد خرید خالی پایین می‌آید = مشتری از کنار قفسه رد شد و فروش افتاد",
+   "lines": [
+    {
+     "text": "Unit sales fell *20%*",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "in under two months.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "bg": "primary",
+   "spot_y": 1260,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.bloomberg.com/news/articles/2009-04-02/tropicana-fiasco-from-arnell-is-gift-that-keeps-giving",
+     "publisher": "Bloomberg Businessweek",
+     "event_date": "2009-04-02",
+     "retrieved_at": "2026-10-24T04:30:00Z",
+     "claim": "Unit sales fell 20% between Jan 1 and Feb 22, 2009 (IRI); company announced Feb 23 it would bring back the old carton"
+    }
+   ],
+   "objects": [
+    {
+     "key": "orange",
+     "src": "assets/objects/2026-10-24/orange_straw.png",
+     "x": 540,
+     "y": 1270,
+     "w": 400,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "zoom",
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "push": 0.06
+    }
+   ],
+   "motion_rationale": "چرخش: همان پرتقال صحنهٔ اول زیر نور برمی‌گردد = طرح تازه کنار رفت و نشانه برگشت",
+   "lines": [
+    {
+     "text": "The new pack was pulled.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "The *orange* came back.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://creativebloq.com/news/bahlsen-rebrand-fail",
+     "publisher": "Creative Bloq",
+     "event_date": "2023-10-05",
+     "retrieved_at": "2026-10-24T04:30:00Z",
+     "claim": "Bahlsen 2021 redesign won a D&AD award; sales fell 11.8% Jan-May 2023 per CEO (Lebensmittelzeitung); inflation also cited"
+    }
+   ],
+   "objects": [
+    {
+     "key": "trophy",
+     "src": "assets/objects/2026-10-24/trophy.png",
+     "x": 540,
+     "y": 1290,
+     "w": 320,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "pop"
+    }
+   ],
+   "motion_rationale": "جایزه: جام نقره‌ای ساده = طرحی که جایزهٔ طراحی برد",
+   "lines": [
+    {
+     "text": "In 2021, Bahlsen's new packs",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "won a design *award*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "graphite",
+   "spot_y": 1260,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://creativebloq.com/news/bahlsen-rebrand-fail",
+     "publisher": "Creative Bloq",
+     "event_date": "2023-10-05",
+     "retrieved_at": "2026-10-24T04:30:00Z",
+     "claim": "Bahlsen 2021 redesign won a D&AD award; sales fell 11.8% Jan-May 2023 per CEO (Lebensmittelzeitung); inflation also cited"
+    },
+    {
+     "url": "https://lebensmittelpraxis.de/industrie-aktuell/43869-markenrelaunch-bahlsen-kehrt-zu-traditionellem-verpackungsdesign-zurueck.html",
+     "publisher": "Lebensmittel Praxis",
+     "event_date": "2025-04-04",
+     "retrieved_at": "2026-10-24T04:30:00Z",
+     "claim": "Bahlsen returns to traditional design: Bahlsen blue reactivated, biscuits shown more clearly, in stores from June 2025"
+    }
+   ],
+   "objects": [
+    {
+     "key": "biscuit",
+     "src": "assets/objects/2026-10-24/biscuit.png",
+     "x": 540,
+     "y": 1300,
+     "w": 480,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "rise",
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "rot": -5,
+     "tilt": 4,
+     "tilt_t": 1.2
+    }
+   ],
+   "motion_rationale": "محصول برمی‌گردد: بیسکویت کره‌ای رنگی زیر نور = فروش افتاد و تصویر محصول و رنگ قدیمی برگشت",
+   "lines": [
+    {
+     "text": "Then sales fell,",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "and the *blue* came back.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "Inflation played a part, too.",
+     "kind": "s",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [],
+   "objects": [
+    {
+     "key": "key",
+     "src": "assets/objects/2026-10-24/key.png",
+     "x": 540,
+     "y": 1300,
+     "w": 500,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "slide_l",
+     "rot": -4
+    }
+   ],
+   "motion_rationale": "کلید: کلید قدیمی وارد می‌شود = نشانه‌های آشنا کلیدی‌اند که مشتری با آن پیدایتان می‌کند",
+   "lines": [
+    {
+     "text": "Your cues are the *key*",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "people use to find you.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "bg": "primary",
+   "spot_y": 1270,
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://adelaide.edu.au/about/news/2026/reducing-risks-when-modernising-packaging/",
+     "publisher": "Adelaide University (Ehrenberg-Bass Institute)",
+     "event_date": "2026-04-07",
+     "retrieved_at": "2026-10-24T04:30:00Z",
+     "claim": "Tropicana 2009 replaced orange-with-straw with a glass of juice; sales fell about 20% and the brand reverted; removing colours, logos or layout can cut familiarity and purchase intent"
+    }
+   ],
+   "objects": [
+    {
+     "key": "scale",
+     "src": "assets/objects/2026-10-22/scale.png",
+     "x": 540,
+     "y": 1300,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "tilt": 3,
+     "tilt_t": 1.4
+    }
+   ],
+   "motion_rationale": "تعادل: ترازو میان تازگی و آشنایی = آن‌قدر تازه که دیده شوید، آن‌قدر آشنا که پیدا شوید",
+   "lines": [
+    {
+     "text": "New enough to *notice*.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "Familiar enough to *find*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://adelaide.edu.au/about/news/2026/reducing-risks-when-modernising-packaging/",
+     "publisher": "Adelaide University (Ehrenberg-Bass Institute)",
+     "event_date": "2026-04-07",
+     "retrieved_at": "2026-10-24T04:30:00Z",
+     "claim": "Tropicana 2009 replaced orange-with-straw with a glass of juice; sales fell about 20% and the brand reverted; removing colours, logos or layout can cut familiarity and purchase intent"
+    }
+   ],
+   "objects": [
+    {
+     "key": "pencil",
+     "src": "assets/objects/2026-10-22/pencil.png",
+     "x": 540,
+     "y": 1340,
+     "w": 500,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "slide_l",
+     "rot": -6
+    }
+   ],
+   "motion_rationale": "نوشتن: مداد وارد می‌شود = پیش از بازطراحی فهرست نشانه‌هایتان را بنویسید",
+   "lines": [
+    {
+     "text": "Before you redesign,",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "list what people *know* you by.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "Keep that. Change the rest.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "bg": "graphite",
+   "spot_y": 1260,
+   "claim_type": "interpretation",
+   "evidence": [],
+   "objects": [
+    {
+     "key": "orange",
+     "src": "assets/objects/2026-10-24/orange_straw.png",
+     "x": 540,
+     "y": 1270,
+     "w": 380,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "rise",
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "push": 0.05
+    }
+   ],
+   "motion_rationale": "بازگشت به آغاز: همان پرتقال نی‌دار زیر نور = نشانه تزئین نبود، نشانی برند بود",
+   "lines": [
+    {
+     "text": "The orange wasn't decoration.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "It was the *address*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "bg": "primary",
+   "claim_type": "interpretation",
+   "evidence": [],
+   "logo": true,
+   "txt_top": 1080,
+   "lines": [
+    {
+     "text": "Write to me.",
+     "kind": "b",
+     "dim": false
+    }
+   ],
+   "motion_rationale": "کارت پایانی"
+  }
+ ],
+ "caption": "An orange with a straw. That was the whole brand.\n\nIn 2009 Tropicana redesigned its carton. The orange with the straw went; a glass of juice came in, and the arched logo turned into a vertical wordmark. Clean, modern, and hard to find. Shoppers walked past it. Unit sales fell 20% between January 1 and February 22 (IRI data, reported by Bloomberg Businessweek), and the old carton was back within two months.\n\nBahlsen's 2021 redesign won a D&AD award. It played down the biscuit photos and dropped the familiar blue. The CEO later said sales fell 11.8% in the first five months of 2023, and in 2025 the blue and the clear product shots came back.\n\nMy take: the lesson isn't \"never redesign\". Research by William Caruso at the Ehrenberg-Bass Institute (2026, household shoppers in the US and UK) says a redesign works when it looks fresher without erasing the cues people recognise: colour, logo, layout. His advice is to modernise only when the pack's likeability has measurably dropped.\n\nThe limits: inflation also hit Bahlsen's sales, so the design isn't the whole story. The university release doesn't give the study's sample size. Sources: Bloomberg Businessweek, Adelaide University (Ehrenberg-Bass Institute), Creative Bloq, Lebensmittel Praxis, The Branding Journal. Tropicana pack images via The Branding Journal; other objects are AI-generated.\n\nWhat do people actually recognise you by: a colour, a shape, a picture? And would it survive your next redesign? Write to me.\n\n— Behnood Kavian",
+ "hashtags": [
+  "#branding",
+  "#marketing",
+  "#packagingdesign",
+  "#rebranding"
+ ],
+ "sources": [
+  {
+   "publisher": "Bloomberg Businessweek",
+   "title": "Tropicana Fiasco From Arnell Is Gift That Keeps Giving",
+   "date": "2009-04-02",
+   "url": "https://www.bloomberg.com/news/articles/2009-04-02/tropicana-fiasco-from-arnell-is-gift-that-keeps-giving"
+  },
+  {
+   "publisher": "Adelaide University (Ehrenberg-Bass Institute)",
+   "title": "Reducing risks when modernising packaging (W. Caruso, Journal of Retailing and Consumer Services)",
+   "date": "2026-04-07",
+   "url": "https://adelaide.edu.au/about/news/2026/reducing-risks-when-modernising-packaging/"
+  },
+  {
+   "publisher": "Creative Bloq",
+   "title": "Bahlsen rebrand fail",
+   "date": "2023-10-05",
+   "url": "https://creativebloq.com/news/bahlsen-rebrand-fail"
+  },
+  {
+   "publisher": "Lebensmittel Praxis",
+   "title": "Markenrelaunch: Bahlsen kehrt zu traditionellem Verpackungsdesign zurück",
+   "date": "2025-04-04",
+   "url": "https://lebensmittelpraxis.de/industrie-aktuell/43869-markenrelaunch-bahlsen-kehrt-zu-traditionellem-verpackungsdesign-zurueck.html"
+  },
+  {
+   "publisher": "The Branding Journal",
+   "title": "What to Learn From Tropicana's Packaging Redesign Failure?",
+   "date": "2015-05",
+   "url": "https://www.thebrandingjournal.com/2015/05/what-to-learn-from-tropicanas-packaging-redesign-failure/"
+  }
+ ],
+ "cta": "Write to me.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S8"
+ },
+ "status": "DRAFT",
+ "style": "editorial",
+ "lang": "en"
+}
