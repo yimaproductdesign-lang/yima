@@ -1,0 +1,122 @@
+{
+ "date": "2026-10-25",
+ "T": {
+  "topic_fa": "کوچک‌کردن بی‌صدا: مشتری از گرانی نمی‌رنجد، از فریب می‌رنجد",
+  "topic_en": "The quiet shrink: customers forgive a higher price, not a hidden one",
+  "pillar": "pricing_communication_trust",
+  "central_tension_fa": "همه فکر می‌کنیم کوچک‌کردن بسته بی‌خطرتر از گران‌کردن است، چون کسی متوجه نمی‌شود؛ و داده‌ی فروش هم همین را نشان می‌دهد. ولی همان لحظه که مشتری بفهمد، دیگر قضیه پول نیست، فریب است. همان صرفه‌جویی، اعتماد را می‌خورد.",
+  "central_tension_en": "We assume shrinking the pack is safer than raising the price, because no one notices, and sales data mostly agrees. But the moment customers do notice, it stops being about money and becomes about being fooled. Saying it out loud makes the problem almost disappear.",
+  "working_hook_fa": "شکلات کوچک‌تر شد. جعبه همان ماند. کسی نفهمید. تا روزی که فهمید.",
+  "working_hook_en": "Same box. Less chocolate. Nobody noticed. Until somebody did.",
+  "key_sources": [
+   {
+    "url": "https://merit.url.edu/ws/portalfiles/portal/46733960/Shrinkflation_Aversion.pdf",
+    "publisher": "Marketing Science 43(2), Evangelidis (ESADE), author repository",
+    "date": "2023-12 online / 2024",
+    "claim": "Downsizing judged unfair more often than an equivalent price rise (chocolate 44.4% vs 30.7%); without disclosure 69.3% vs 53% unfair, with clear disclosure the gap disappears (36.9% vs 35.4%). Driver: feeling deceived."
+   },
+   {
+    "url": "https://dobetter.esade.edu/en/customers-shrinkflation",
+    "publisher": "Esade Do Better",
+    "date": "2024-04-26",
+    "claim": "Summary of the same research: >7,000 participants; transparency and genuine cost reasons make changes acceptable; 'Being honest with customers is always the best policy.'"
+   },
+   {
+    "url": "https://ideas.repec.org/a/inm/ormksc/v45y2026i1p142-158.html",
+    "publisher": "Marketing Science 45(1), Janssen & Kasinger (via RePEc)",
+    "date": "2026-01",
+    "claim": "Decade of US scanner data: about 1.92% of products downsized, usually without a price cut; shoppers react more to price than to size, so downsizing works as a margin tool."
+   },
+   {
+    "url": "https://www.nbcnews.com/news/world/shrinking-toblerone-triangle-bar-leaves-u-k-chocolate-fans-bitter-n679526",
+    "publisher": "NBC News (with Kathmandu Post/AFP 2016-11-08)",
+    "date": "2016-11-08",
+    "claim": "UK Toblerone 400g->360g and 170g->150g by widening gaps between peaks, packaging unchanged; Mondelez cited ingredient costs; public mockery."
+   },
+   {
+    "url": "https://www.confectionerynews.com/Article/2018/07/31/Mondelez-reverts-Toblerone-chocolate-to-original-shape/",
+    "publisher": "ConfectioneryNews",
+    "date": "2018-07-31",
+    "claim": "Mondelez: '150g Toblerone is no longer being manufactured', it was 'only ever a short term response to cost increases'."
+   },
+   {
+    "url": "https://www.schoenherr.eu/content/spotlight-on-shrinkflation-austria-s-anti-deceptive-packaging-law-now-in-effect",
+    "publisher": "Schoenherr",
+    "date": "2026-04-09",
+    "claim": "Austrian law in force 1 April 2026: retailers must show a 'less content, higher price' notice for 60 days when unit price rises >=3% with unchanged packaging."
+   }
+  ],
+  "music_mood": "dark",
+  "framing_note": "The idea is evergreen; research is the spark, not the story. Do not call the Evangelidis study 'new' (2023/24). Do not say 'nobody notices' as fact: say sales data barely moves (C02) and that most people, once told, feel cheated. One number on screen at most: the disclosure result (gap nearly vanishes when told) or 'the same price rise, judged fairer than the smaller pack'. Toblerone: state the facts (gaps widened, box unchanged, 2016) and that the maker later stopped the 150g bar, citing costs; do not claim the backlash caused it. Optional line: some countries now force a label 'less content, higher price' (do not need to name Austria; never name any Gulf location). Close with the practical rule: if you must cut, cut out loud: say what changed and why, or raise the price honestly; never hide it in the same box. No brand logos as AI objects; real Toblerone imagery only from owner upload, framed and credited.",
+  "image_requests": [
+   {
+    "id": "T-a",
+    "description": "عکس تابلرونِ ۲۰۱۶ با فاصله‌های پهن‌تر میان قله‌ها (عکس اصلی خبر؛ اگر عکسی کنار‌به‌کنارِ قدیم و جدید پیدا شد، همان بهتر).",
+    "page_url": "https://kathmandupost.com/world/2016/11/08/toblerone-triangle-change-upsets-fans",
+    "scene_idea": "مدرک قلاب: «جعبه همان ماند، شکلات کم شد»؛ قاب‌دار روی صحنه‌ی تیره، بلافاصله بعد از قلاب."
+   }
+  ],
+  "object_plan": [
+   {
+    "object": "generic chocolate bar, unwrapped half, with two squares missing in the middle (natural colour; product of the topic; no logo, not a triangular-peak bar)",
+    "line_idea": "Hook: less chocolate, same box",
+    "reuse_path_or_new": "new: assets/objects/2026-10-25/chocolate_gap.png (colour)"
+   },
+   {
+    "object": "plain cardboard snack box, open, visibly half empty inside (monochrome, no text)",
+    "line_idea": "The box stays the same so the eye does not notice",
+    "reuse_path_or_new": "new: assets/objects/2026-10-25/box_half.png"
+   },
+   {
+    "object": "balance scale",
+    "line_idea": "Shoppers weigh price far more than size: sales barely move",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/scale.png"
+   },
+   {
+    "object": "blank paper price tag on string (monochrome, no text)",
+    "line_idea": "The price did not change, so nothing seemed to change",
+    "reuse_path_or_new": "new: assets/objects/2026-10-25/price_tag.png"
+   },
+   {
+    "object": "magnifier",
+    "line_idea": "Until someone looks closely, and posts it",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/magnifier.png"
+   },
+   {
+    "object": "smartphone lying face up, dark screen (monochrome, no UI, no logo)",
+    "line_idea": "One photo of the gap travels faster than any ad",
+    "reuse_path_or_new": "new: assets/objects/2026-10-25/phone.png"
+   },
+   {
+    "object": "broken biscuit (two halves)",
+    "line_idea": "It is not the money; it is trust that cracks: 'they tried to fool me'",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-24/biscuit.png (shown split via two placements, or new broken_biscuit.png if needed)"
+   },
+   {
+    "object": "pasta packet, half the pasta spilling out, plain unbranded bag (natural colour)",
+    "line_idea": "The family still needs the same amount of food: they buy more or eat less",
+    "reuse_path_or_new": "new: assets/objects/2026-10-25/pasta.png (colour)"
+   },
+   {
+    "object": "pencil",
+    "line_idea": "Say it on the pack: what changed and why",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/pencil.png"
+   },
+   {
+    "object": "blank paper sticker label / shelf notice card (monochrome, no text; renderer can overlay copy)",
+    "line_idea": "Told openly, the unfairness gap almost disappears; some countries now require the label",
+    "reuse_path_or_new": "new: assets/objects/2026-10-25/label_card.png"
+   },
+   {
+    "object": "eraser",
+    "line_idea": "A hidden cut erases more trust than it saves in grams",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/eraser.png"
+   },
+   {
+    "object": "same generic chocolate bar, whole (natural colour)",
+    "line_idea": "Close: cut out loud, or keep the bar whole and change the price (loops back to the hook object)",
+    "reuse_path_or_new": "new: assets/objects/2026-10-25/chocolate_whole.png (colour; key shared with chocolate_gap for continuity)"
+   }
+  ]
+ }
+}
