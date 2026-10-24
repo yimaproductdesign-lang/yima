@@ -443,7 +443,55 @@
   {
    "id": "S10",
    "bg": "graphite",
-   "spot_y": 1260,
+   "spot_y": 1280,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://creativebloq.com/news/bahlsen-rebrand-fail",
+     "publisher": "Creative Bloq",
+     "event_date": "2023-10-05",
+     "retrieved_at": "2026-10-24T04:30:00Z",
+     "claim": "Bahlsen 2021 redesign won a D&AD award; sales fell 11.8% Jan-May 2023 per CEO (Lebensmittelzeitung); inflation also cited"
+    }
+   ],
+   "objects": [
+    {
+     "key": "tB2",
+     "src": "incoming/2026-10-24/T-b2.jpg",
+     "x": 540,
+     "y": 1290,
+     "w": 960,
+     "ar": 2.8,
+     "frame": true,
+     "credit": "Bahlsen packaging before/after 2021 (owner upload)",
+     "source_url": "owner upload, 2026-10-24 (page URL not given)",
+     "anim": "zoom",
+     "push": 0.05,
+     "color": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "motion_rationale": "مدرک واقعی: قبل و بعد بسته‌ی بالزن (آپلود مالک) = جعبه‌ی آبی با عکس بیسکویت رفت و لوگوی بزرگ روی سفید آمد",
+   "lines": [
+    {
+     "text": "The blue box went.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "The *logo* took over.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "bg": "primary",
+   "spot_y": 1270,
    "claim_type": "fact",
    "evidence": [
     {
@@ -463,24 +511,25 @@
    ],
    "objects": [
     {
-     "key": "biscuit",
-     "src": "assets/objects/2026-10-24/biscuit.png",
+     "key": "tB",
+     "src": "incoming/2026-10-24/T-b.jpg",
      "x": 540,
      "y": 1300,
-     "w": 480,
-     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "w": 860,
+     "ar": 1.9,
+     "frame": true,
+     "credit": "Bahlsen packaging (owner upload)",
+     "source_url": "owner upload, 2026-10-24 (page URL not given)",
      "anim": "rise",
+     "push": 0.05,
      "color": [
       0,
       0,
       0
-     ],
-     "rot": -5,
-     "tilt": 4,
-     "tilt_t": 1.2
+     ]
     }
    ],
-   "motion_rationale": "محصول برمی‌گردد: بیسکویت کره‌ای رنگی زیر نور = فروش افتاد و تصویر محصول و رنگ قدیمی برگشت",
+   "motion_rationale": "رنگ برمی‌گردد: بسته‌ی آبی بالزن با عکس محصول (آپلود مالک) زیر نور = فروش افتاد و آبی آشنا برگشت",
    "lines": [
     {
      "text": "Then sales fell,",
@@ -500,40 +549,8 @@
    ]
   },
   {
-   "id": "S11",
-   "bg": "paper",
-   "claim_type": "interpretation",
-   "evidence": [],
-   "objects": [
-    {
-     "key": "key",
-     "src": "assets/objects/2026-10-24/key.png",
-     "x": 540,
-     "y": 1300,
-     "w": 500,
-     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
-     "anim": "slide_l",
-     "rot": -4
-    }
-   ],
-   "motion_rationale": "کلید: کلید قدیمی وارد می‌شود = نشانه‌های آشنا کلیدی‌اند که مشتری با آن پیدایتان می‌کند",
-   "lines": [
-    {
-     "text": "Your cues are the *key*",
-     "kind": "h",
-     "dim": false
-    },
-    {
-     "text": "people use to find you.",
-     "kind": "b",
-     "dim": false
-    }
-   ]
-  },
-  {
    "id": "S12",
-   "bg": "primary",
-   "spot_y": 1270,
+   "bg": "paper",
    "claim_type": "interpretation",
    "evidence": [
     {
@@ -573,7 +590,8 @@
   },
   {
    "id": "S13",
-   "bg": "paper",
+   "bg": "primary",
+   "spot_y": 1300,
    "claim_type": "interpretation",
    "evidence": [
     {
@@ -617,8 +635,7 @@
   },
   {
    "id": "S14",
-   "bg": "graphite",
-   "spot_y": 1260,
+   "bg": "paper",
    "claim_type": "interpretation",
    "evidence": [],
    "objects": [
@@ -629,7 +646,7 @@
      "y": 1270,
      "w": 380,
      "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
-     "anim": "rise",
+     "anim": "drop",
      "color": [
       0,
       0,
@@ -638,7 +655,7 @@
      "push": 0.05
     }
    ],
-   "motion_rationale": "بازگشت به آغاز: همان پرتقال نی‌دار زیر نور = نشانه تزئین نبود، نشانی برند بود",
+   "motion_rationale": "بازگشت به آغاز: همان پرتقال نی‌دار صحنه‌ی اول، روی همان کاغذ = نشانه تزئین نبود، نشانی برند بود",
    "lines": [
     {
      "text": "The orange wasn't decoration.",
@@ -669,7 +686,7 @@
    "motion_rationale": "کارت پایانی"
   }
  ],
- "caption": "An orange with a straw. That was the whole brand.\n\nIn 2009 Tropicana redesigned its carton. The orange with the straw went; a glass of juice came in, and the arched logo turned into a vertical wordmark. Clean, modern, and hard to find. Shoppers walked past it. Unit sales fell 20% between January 1 and February 22 (IRI data, reported by Bloomberg Businessweek), and the old carton was back within two months.\n\nBahlsen's 2021 redesign won a D&AD award. It played down the biscuit photos and dropped the familiar blue. The CEO later said sales fell 11.8% in the first five months of 2023, and in 2025 the blue and the clear product shots came back.\n\nMy take: the lesson isn't \"never redesign\". Research by William Caruso at the Ehrenberg-Bass Institute (2026, household shoppers in the US and UK) says a redesign works when it looks fresher without erasing the cues people recognise: colour, logo, layout. His advice is to modernise only when the pack's likeability has measurably dropped.\n\nThe limits: inflation also hit Bahlsen's sales, so the design isn't the whole story. The university release doesn't give the study's sample size. Sources: Bloomberg Businessweek, Adelaide University (Ehrenberg-Bass Institute), Creative Bloq, Lebensmittel Praxis, The Branding Journal. Tropicana pack images via The Branding Journal; other objects are AI-generated.\n\nWhat do people actually recognise you by: a colour, a shape, a picture? And would it survive your next redesign? Write to me.\n\n— Behnood Kavian",
+ "caption": "An orange with a straw. That was the whole brand.\n\nIn 2009 Tropicana redesigned its carton. The orange with the straw went; a glass of juice came in, and the arched logo turned into a vertical wordmark. Clean, modern, and hard to find. Shoppers walked past it. Unit sales fell 20% between January 1 and February 22 (IRI data, reported by Bloomberg Businessweek), and the old carton was back within two months.\n\nBahlsen's 2021 redesign won a D&AD award. It played down the biscuit photos and dropped the familiar blue. The CEO later said sales fell 11.8% in the first five months of 2023, and in 2025 the blue and the clear product shots came back.\n\nMy take: the lesson isn't \"never redesign\". Research by William Caruso at the Ehrenberg-Bass Institute (2026, household shoppers in the US and UK) says a redesign works when it looks fresher without erasing the cues people recognise: colour, logo, layout. His advice is to modernise only when the pack's likeability has measurably dropped.\n\nThe limits: inflation also hit Bahlsen's sales, so the design isn't the whole story. The university release doesn't give the study's sample size. Sources: Bloomberg Businessweek, Adelaide University (Ehrenberg-Bass Institute), Creative Bloq, Lebensmittel Praxis, The Branding Journal. Pack images: Tropicana (via The Branding Journal) and Bahlsen; other objects are AI-generated.\n\nWhat do people actually recognise you by: a colour, a shape, a picture? And would it survive your next redesign? Write to me.\n\n— Behnood Kavian",
  "hashtags": [
   "#branding",
   "#marketing",

@@ -40,6 +40,11 @@ Images: owner uploads T-a (before/after carton, S2) and T-a4 (2009 flavour range
 - **After frame check (rework 1):** S1 headline broke into four loose rows and touched the straw → "An orange with a straw." set as body, headline "That was the *brand*." (the caption keeps "the whole brand"). S9 "got an award-winning look." filled three rows and touched the trophy → "In 2021, Bahlsen's new packs / won a design *award*." S4 (both reels): the found cue collided with another scattered word → cue words moved into the upper band, the found cue placed alone below.
 - Caveat once on screen: "Inflation played a part, too." (S10); fully in the caption.
 
+## Revision (owner feedback, same day)
+- FA S7: owner's wording «فروش ۲۰ درصد اُفت کرد. / در کمتر از دو ماه.» (key word on «اُفت» instead of the split underline under «۲۰ درصد»).
+- Owner sent three Bahlsen images (T-b blue First Class pack, T-b2 Messino before/after 2021, T-b3 the 2021 range). Used: T-b2 in a new scene S10 on graphite ("The blue box went. / The logo took over." · «جعبه‌ی آبی رفت. / لوگو همه‌جا را گرفت.»; Creative Bloq: product imagery dropped in favour of the logo, the blue lost) and T-b in S11 on primary ("and the blue came back"). T-b3 not used (it repeats the "after" side of T-b2). The AI biscuit and the key scene ("Your cues are the key") were dropped to keep the length; scale moved to paper, pencil to primary, the closing orange to paper so it mirrors S1. One dark-to-dark step remains (S10 graphite → S11 primary) because both owner photos need dark scenes.
+- T-b looks like the pre-2021 pack (older oval logo), not the 2025 return design; it illustrates "the blue", not the exact 2025 pack.
+
 ## Hashtags (relevant and in active use; not live trend data)
 - FA: #برندینگ #بازاریابی (broad) · #طراحی_بسته_بندی #rebranding (specific)
 - EN: #branding #marketing (broad) · #packagingdesign #rebranding (specific)
