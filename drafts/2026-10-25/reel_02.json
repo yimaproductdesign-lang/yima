@@ -1,0 +1,785 @@
+{
+ "reel_id": "2026-10-25_EN",
+ "date": "2026-10-25",
+ "topic": "The quiet shrink: customers forgive a higher price, not a hidden one",
+ "pillar": "pricing_communication_trust",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://www.nbcnews.com/news/world/shrinking-toblerone-triangle-bar-leaves-u-k-chocolate-fans-bitter-n679526",
+     "publisher": "NBC News",
+     "event_date": "2016-11-08",
+     "retrieved_at": "2026-10-25T05:00:00Z",
+     "claim": "UK Toblerone 400g->360g and 170g->150g by widening the gaps between peaks; packaging unchanged; maker cited ingredient costs"
+    }
+   ],
+   "objects": [
+    {
+     "key": "gap",
+     "src": "assets/objects/2026-10-25/chocolate_gap.png",
+     "x": 540,
+     "y": 1290,
+     "w": 620,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "drop",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "motion_rationale": "قلاب: شکلاتِ نیمه‌باز با دو مربع خالی وسطش پایین می‌افتد = همان بسته، شکلات کمتر",
+   "lines": [
+    {
+     "text": "Same box.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "Less *chocolate*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "bg": "graphite",
+   "spot_y": 1250,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.nbcnews.com/news/world/shrinking-toblerone-triangle-bar-leaves-u-k-chocolate-fans-bitter-n679526",
+     "publisher": "NBC News",
+     "event_date": "2016-11-08",
+     "retrieved_at": "2026-10-25T05:00:00Z",
+     "claim": "UK Toblerone 400g->360g and 170g->150g by widening the gaps between peaks; packaging unchanged; maker cited ingredient costs"
+    },
+    {
+     "url": "https://www.confectionerynews.com/Article/2018/07/31/Mondelez-reverts-Toblerone-chocolate-to-original-shape/",
+     "publisher": "ConfectioneryNews",
+     "event_date": "2018-07-31",
+     "retrieved_at": "2026-10-25T05:00:00Z",
+     "claim": "170g->150g with pieces spaced out, packaging similar; 2018: '150g Toblerone is no longer being manufactured', 'only ever a short term response to cost increases and manufacturing constraints'"
+    }
+   ],
+   "objects": [
+    {
+     "key": "tA",
+     "src": "incoming/2026-10-25/T-a.jpg",
+     "x": 540,
+     "y": 1250,
+     "w": 860,
+     "credit": "2016 news photo of the Toblerone bar (owner upload; via Kathmandu Post/AFP coverage)",
+     "ar": 1.782,
+     "frame": true,
+     "source_url": "https://kathmandupost.com/world/2016/11/08/toblerone-triangle-change-upsets-fans",
+     "anim": "zoom",
+     "push": 0.05,
+     "color": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "motion_rationale": "مدرک واقعی: عکس ۲۰۱۶ تابلرون با فاصله‌های پهن کنار جعبه‌ی دست‌نخورده (آپلود مالک)، قاب‌دار زیر نور موضعی",
+   "lines": [
+    {
+     "text": "In 2016, Toblerone",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "just widened the *gaps*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://www.confectionerynews.com/Article/2018/07/31/Mondelez-reverts-Toblerone-chocolate-to-original-shape/",
+     "publisher": "ConfectioneryNews",
+     "event_date": "2018-07-31",
+     "retrieved_at": "2026-10-25T05:00:00Z",
+     "claim": "170g->150g with pieces spaced out, packaging similar; 2018: '150g Toblerone is no longer being manufactured', 'only ever a short term response to cost increases and manufacturing constraints'"
+    }
+   ],
+   "objects": [
+    {
+     "key": "box",
+     "src": "assets/objects/2026-10-25/box_half.png",
+     "x": 540,
+     "y": 1300,
+     "w": 470,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "push": 0.04
+    }
+   ],
+   "motion_rationale": "جعبه‌ی بیرون همان است، داخلش نیمه‌خالی = چشم از بیرون چیزی نمی‌بیند",
+   "lines": [
+    {
+     "text": "The box didn't change.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "So the eye saw *nothing*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "bg": "primary",
+   "spot_y": 1290,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.informs.org/News-Room/INFORMS-Releases/News-Releases/Consumers-Don-t-Realize-How-Much-Shrinkflation-Is-Costing-Them",
+     "publisher": "INFORMS (Janssen & Kasinger, Marketing Science 45(1))",
+     "event_date": "2026-02-27",
+     "retrieved_at": "2026-10-25T05:00:00Z",
+     "claim": "NielsenIQ US scanner data 2010-2020: ~1.9% of products downsized; 1% price rise cut sales ~1.2%, 1% size cut roughly half that; consumers less sensitive to size than price"
+    }
+   ],
+   "objects": [
+    {
+     "key": "tag",
+     "src": "assets/objects/2026-10-25/price_tag.png",
+     "x": 540,
+     "y": 1300,
+     "w": 400,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop",
+     "rot": -6,
+     "float": 5
+    }
+   ],
+   "motion_rationale": "برچسب قیمتِ دست‌نخورده زیر نور = مشتری قیمت را می‌پاید، نه وزن را",
+   "lines": [
+    {
+     "text": "Sales data agrees:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "people watch the *price*,",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "not the grams.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "lens",
+     "box": [
+      150,
+      880,
+      930,
+      1250
+     ],
+     "seed": 11,
+     "size": 46,
+     "keep_at": [
+      540,
+      1400
+     ],
+     "r": 150,
+     "lens": "assets/objects/2026-10-22/magnifier.png",
+     "lens_w": 520,
+     "hit_t": 2.4,
+     "path": [
+      [
+       0,
+       300,
+       1050
+      ],
+      [
+       1.2,
+       760,
+       1150
+      ],
+      [
+       2.3,
+       540,
+       1400
+      ]
+     ],
+     "words": [
+      "fewer grams",
+      "same box",
+      "same price",
+      "wider gaps",
+      "less inside"
+     ],
+     "keep": [
+      "wider gaps"
+     ]
+    }
+   ],
+   "motion_rationale": "ذره‌بین میان کلمه‌های بسته می‌گردد و فقط «فاصله‌ی بیشتر» را پیدا می‌کند = روزی که کسی دقیق نگاه می‌کند",
+   "lines": [
+    {
+     "text": "Until someone looks closely",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "and *posts* it.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://www.nbcnews.com/news/world/shrinking-toblerone-triangle-bar-leaves-u-k-chocolate-fans-bitter-n679526",
+     "publisher": "NBC News",
+     "event_date": "2016-11-08",
+     "retrieved_at": "2026-10-25T05:00:00Z",
+     "claim": "UK Toblerone 400g->360g and 170g->150g by widening the gaps between peaks; packaging unchanged; maker cited ingredient costs"
+    }
+   ],
+   "objects": [
+    {
+     "key": "phone",
+     "src": "assets/objects/2026-10-25/phone.png",
+     "x": 540,
+     "y": 1300,
+     "w": 480,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "pop",
+     "bright": [
+      1.7,
+      1.7
+     ],
+     "rot": -4
+    }
+   ],
+   "fx": [
+    {
+     "type": "rings",
+     "x": 540,
+     "y": 1290,
+     "R": 460,
+     "n": 5,
+     "period": 1.6,
+     "op": 0.35
+    }
+   ],
+   "motion_rationale": "گوشی و موج‌هایی که از آن پخش می‌شوند = یک عکس از فاصله‌ها دست‌به‌دست می‌شود",
+   "lines": [
+    {
+     "text": "One photo travels",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "further than any *ad*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://merit.url.edu/ws/portalfiles/portal/46733960/Shrinkflation_Aversion.pdf",
+     "publisher": "Marketing Science 43(2), I. Evangelidis (ESADE), author repository",
+     "event_date": "2024",
+     "retrieved_at": "2026-10-25T05:00:00Z",
+     "claim": "Downsizing judged unfair more often than an economically equivalent price rise (chocolate 44.4% vs 30.7%); low transparency 69.3% vs 53%, clear disclosure 36.9% vs 35.4%; driver: perceived deception"
+    },
+    {
+     "url": "https://dobetter.esade.edu/en/customers-shrinkflation",
+     "publisher": "Esade Do Better",
+     "event_date": "2024-04-26",
+     "retrieved_at": "2026-10-25T05:00:00Z",
+     "claim": ">7,000 participants; asymmetry driven by a belief that the consumer is being deceived; 'Being honest with customers is always the best policy'"
+    }
+   ],
+   "objects": [
+    {
+     "key": "bl",
+     "src": "assets/objects/2026-10-25/biscuit_left.png",
+     "x": 417,
+     "y": 1300,
+     "w": 250,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "fade",
+     "path": [
+      [
+       0,
+       417,
+       1300
+      ],
+      [
+       1.2,
+       417,
+       1300
+      ],
+      [
+       1.9,
+       360,
+       1325
+      ]
+     ],
+     "tilt": -7,
+     "tilt_t": 1.2
+    },
+    {
+     "key": "br",
+     "src": "assets/objects/2026-10-25/biscuit_right.png",
+     "x": 663,
+     "y": 1300,
+     "w": 250,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "fade",
+     "path": [
+      [
+       0,
+       663,
+       1300
+      ],
+      [
+       1.2,
+       663,
+       1300
+      ],
+      [
+       1.9,
+       722,
+       1280
+      ]
+     ],
+     "tilt": 6,
+     "tilt_t": 1.2
+    }
+   ],
+   "motion_rationale": "چرخش: بیسکویت از وسط می‌شکند = آنچه می‌شکند پول نیست، اعتماد است",
+   "lines": [
+    {
+     "text": "Now it's not about *money*.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "It's about being *fooled*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "bg": "graphite",
+   "spot_y": 1260,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://merit.url.edu/ws/portalfiles/portal/46733960/Shrinkflation_Aversion.pdf",
+     "publisher": "Marketing Science 43(2), I. Evangelidis (ESADE), author repository",
+     "event_date": "2024",
+     "retrieved_at": "2026-10-25T05:00:00Z",
+     "claim": "Downsizing judged unfair more often than an economically equivalent price rise (chocolate 44.4% vs 30.7%); low transparency 69.3% vs 53%, clear disclosure 36.9% vs 35.4%; driver: perceived deception"
+    }
+   ],
+   "objects": [
+    {
+     "key": "scale",
+     "src": "assets/objects/2026-10-22/scale.png",
+     "x": 540,
+     "y": 1300,
+     "w": 500,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "tilt": -4,
+     "tilt_t": 1.6
+    }
+   ],
+   "fx": [
+    {
+     "type": "labels",
+     "items": [
+      {
+       "text": "price rise",
+       "x": 300,
+       "y": 975,
+       "size": 48,
+       "move": "up",
+       "t": 1.6
+      },
+      {
+       "text": "smaller pack",
+       "x": 770,
+       "y": 975,
+       "size": 48,
+       "move": "down",
+       "t": 1.6,
+       "acc": true
+      }
+     ]
+    }
+   ],
+   "motion_rationale": "ترازوی انصاف: کفه‌ی «بسته‌ی کوچک‌تر» سنگین‌تر پایین می‌رود و «گرانی» بالا = در آزمایش، کوچک‌کردن ناعادلانه‌تر سنجیده شد",
+   "lines": [
+    {
+     "text": "In experiments, a smaller pack",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "felt less *fair*",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "than the same price rise.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://dobetter.esade.edu/en/customers-shrinkflation",
+     "publisher": "Esade Do Better",
+     "event_date": "2024-04-26",
+     "retrieved_at": "2026-10-25T05:00:00Z",
+     "claim": ">7,000 participants; asymmetry driven by a belief that the consumer is being deceived; 'Being honest with customers is always the best policy'"
+    }
+   ],
+   "objects": [
+    {
+     "key": "eraser",
+     "src": "assets/objects/2026-10-22/eraser.png",
+     "x": 540,
+     "y": 1330,
+     "w": 400,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "slide_r",
+     "rot": -8
+    }
+   ],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "fade",
+     "box": [
+      150,
+      960,
+      930,
+      1200
+     ],
+     "seed": 3,
+     "size": 50,
+     "words": [
+      "loyalty",
+      "goodwill",
+      "trust",
+      "word of mouth",
+      "repeat buys"
+     ]
+    }
+   ],
+   "motion_rationale": "پاک‌کن وارد می‌شود و کلمه‌های اعتماد محو می‌شوند = چند گرم صرفه‌جویی اعتماد را پاک می‌کند",
+   "lines": [
+    {
+     "text": "A hidden cut saves grams.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "It erases *trust*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "primary",
+   "spot_y": 1290,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://merit.url.edu/ws/portalfiles/portal/46733960/Shrinkflation_Aversion.pdf",
+     "publisher": "Marketing Science 43(2), I. Evangelidis (ESADE), author repository",
+     "event_date": "2024",
+     "retrieved_at": "2026-10-25T05:00:00Z",
+     "claim": "Downsizing judged unfair more often than an economically equivalent price rise (chocolate 44.4% vs 30.7%); low transparency 69.3% vs 53%, clear disclosure 36.9% vs 35.4%; driver: perceived deception"
+    },
+    {
+     "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17378?lang=en",
+     "publisher": "Service-Public.fr",
+     "event_date": "2024-05-07",
+     "retrieved_at": "2026-10-25T05:00:00Z",
+     "claim": "France: from 1 July 2024 large retailers must flag products whose quantity fell while price stayed or rose"
+    },
+    {
+     "url": "https://www.schoenherr.eu/content/spotlight-on-shrinkflation-austria-s-anti-deceptive-packaging-law-now-in-effect",
+     "publisher": "Schoenherr",
+     "event_date": "2026-04-09",
+     "retrieved_at": "2026-10-25T05:00:00Z",
+     "claim": "Austria: from 1 April 2026 retailers must show a 'less content, higher price' notice for 60 days"
+    }
+   ],
+   "objects": [
+    {
+     "key": "label",
+     "src": "assets/objects/2026-10-25/label_card.png",
+     "x": 540,
+     "y": 1310,
+     "w": 520,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop",
+     "rot": 4
+    }
+   ],
+   "motion_rationale": "برچسب سفیدِ روی بسته زیر نور = تغییر را روی بسته بنویسید و حس فریب از بین می‌رود",
+   "lines": [
+    {
+     "text": "Print it on the pack,",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "and it's no *worse*",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "than a price rise.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [],
+   "objects": [
+    {
+     "key": "pencil",
+     "src": "assets/objects/2026-10-22/pencil.png",
+     "x": 540,
+     "y": 1330,
+     "w": 480,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "slide_l",
+     "rot": -6
+    }
+   ],
+   "motion_rationale": "مداد وارد می‌شود = بنویسید چه عوض شد و چرا؛ بلند گفتن",
+   "lines": [
+    {
+     "text": "If you must cut,",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "cut *out loud*.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "Say what changed, and why.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "evidence": [],
+   "objects": [
+    {
+     "key": "whole",
+     "src": "assets/objects/2026-10-25/chocolate_whole.png",
+     "x": 540,
+     "y": 1300,
+     "w": 600,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "zoom",
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "push": 0.04
+    }
+   ],
+   "motion_rationale": "شکلاتِ کامل زیر نور = راه دیگر: بسته را کامل نگه دار و قیمت را صادقانه عوض کن",
+   "lines": [
+    {
+     "text": "Or keep the bar whole",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "and change the *price*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [],
+   "objects": [
+    {
+     "key": "whole",
+     "src": "assets/objects/2026-10-25/chocolate_whole.png",
+     "x": 540,
+     "y": 1300,
+     "w": 640,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "zoom",
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "push": 0.05
+    }
+   ],
+   "motion_rationale": "بازگشت به آغاز: همان شکلات، این بار کامل، روی همان کاغذِ صحنه‌ی اول = گرانی بخشیده می‌شود، فریب نه",
+   "lines": [
+    {
+     "text": "People forgive a higher price.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "Not a *hidden* one.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "bg": "primary",
+   "claim_type": "interpretation",
+   "evidence": [],
+   "logo": true,
+   "txt_top": 1080,
+   "lines": [
+    {
+     "text": "Write to me.",
+     "kind": "b",
+     "dim": false
+    }
+   ],
+   "motion_rationale": "کارت پایانی"
+  }
+ ],
+ "caption": "Same box. Less chocolate. Sales barely moved. Then people noticed.\n\nIn 2016 Toblerone made its UK bars lighter (400g to 360g, 170g to 150g) by widening the gaps between the peaks. The box stayed the same. The maker pointed to ingredient costs; people mocked the gaps online. In 2018 Mondelēz said the 150g bar was no longer made and had only ever been a short-term response to cost increases.\n\nHere's the paradox. Ten years of US store data (Janssen & Kasinger, Marketing Science, 2026) show shoppers react to size far less than to price: a 1% price rise cut sales about 1.2%, a 1% size cut roughly half that. On paper, shrinking works.\n\nBut in pre-registered experiments by Ioannis Evangelidis (ESADE; Marketing Science, 2024; over 7,000 participants), people judged a smaller pack less fair than an economically identical price rise (chocolate: 44% vs 31% called it unfair). The driver was the feeling of being deceived. When the change was clearly disclosed, the gap almost vanished (37% vs 35%). France (since 2024) and Austria (since April 2026) now make large shops flag shrunken products.\n\nMy take: if you must cut, cut out loud. Say what changed and why, or keep the product whole and change the price.\n\nThe limits: the fairness numbers come from online experiments, not real shelves, and the sales data is from US stores; your customers may react differently. Sources: Marketing Science, Esade Do Better, INFORMS, NBC News, ConfectioneryNews, Service-Public.fr, Schoenherr. Toblerone photo: 2016 news photo (owner upload, via Kathmandu Post/AFP coverage); the other objects are AI-generated.\n\nIf you had to shrink a product tomorrow, what would you tell your customers first? Write to me.\n\n— Behnood Kavian",
+ "hashtags": [
+  "#branding",
+  "#marketing",
+  "#pricingstrategy",
+  "#shrinkflation"
+ ],
+ "sources": [
+  {
+   "publisher": "Marketing Science (I. Evangelidis, ESADE), author repository",
+   "title": "Frontiers: Shrinkflation Aversion: When and Why Product Size Decreases Are Seen as More Unfair Than Equivalent Price Increases",
+   "date": "2024",
+   "url": "https://merit.url.edu/ws/portalfiles/portal/46733960/Shrinkflation_Aversion.pdf"
+  },
+  {
+   "publisher": "Esade Do Better",
+   "title": "Why customers hate 'sneaky' shrinkflation",
+   "date": "2024-04-26",
+   "url": "https://dobetter.esade.edu/en/customers-shrinkflation"
+  },
+  {
+   "publisher": "INFORMS",
+   "title": "Consumers Don't Realize How Much 'Shrinkflation' Is Costing Them (Janssen & Kasinger, Marketing Science)",
+   "date": "2026-02-27",
+   "url": "https://www.informs.org/News-Room/INFORMS-Releases/News-Releases/Consumers-Don-t-Realize-How-Much-Shrinkflation-Is-Costing-Them"
+  },
+  {
+   "publisher": "NBC News",
+   "title": "Shrinking Toblerone triangle bar leaves U.K. chocolate fans bitter",
+   "date": "2016-11-08",
+   "url": "https://www.nbcnews.com/news/world/shrinking-toblerone-triangle-bar-leaves-u-k-chocolate-fans-bitter-n679526"
+  },
+  {
+   "publisher": "ConfectioneryNews",
+   "title": "Mondelēz reverts Toblerone chocolate to original shape",
+   "date": "2018-07-31",
+   "url": "https://www.confectionerynews.com/Article/2018/07/31/Mondelez-reverts-Toblerone-chocolate-to-original-shape/"
+  },
+  {
+   "publisher": "Service-Public.fr",
+   "title": "Shrinkflation: obligation to inform consumers about the products concerned by 1 July!",
+   "date": "2024-05-07",
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17378?lang=en"
+  },
+  {
+   "publisher": "Schoenherr",
+   "title": "Spotlight on shrinkflation: Austria's anti-deceptive packaging law now in effect",
+   "date": "2026-04-09",
+   "url": "https://www.schoenherr.eu/content/spotlight-on-shrinkflation-austria-s-anti-deceptive-packaging-law-now-in-effect"
+  }
+ ],
+ "cta": "Write to me.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S7"
+ },
+ "status": "DRAFT",
+ "style": "editorial",
+ "lang": "en"
+}
