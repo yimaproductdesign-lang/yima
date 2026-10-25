@@ -1,0 +1,39 @@
+{
+ "date": "2026-10-26",
+ "T": {
+  "topic_fa": "شما از شعار برندتان خسته شده‌اید؛ مشتری تازه دارد یادش می‌گیرد",
+  "topic_en": "You're bored of your brand. Your customers have barely met it.",
+  "pillar": "brand_positioning_consistency",
+  "central_tension_fa": "ما فکر می‌کنیم شعار و جایگاه برندمان کهنه شده، چون هر روز می‌بینیمش؛ ولی مشتری فقط گاهی و از گوشه‌ی چشم آن را دیده و تازه دارد به خاطرش می‌سپارد. هر بار که از نو شروع می‌کنیم، حافظه‌ی او را پاک می‌کنیم، نه خستگی خودمان را.",
+  "central_tension_en": "We think our slogan is stale because we see it every day. Customers have glimpsed it a handful of times and are only starting to remember it. Every restart wipes their memory, not our boredom.",
+  "working_hook_fa": "سه شعار در پنج سال. شعار قدیمی هنوز روی ویترین است.",
+  "working_hook_en": "Three slogans in five years. The old one is still on the shop window.",
+  "key_sources": [
+   {"url": "https://marketingweek.com/boots-marketing-consistency", "publisher": "Marketing Week (Helen Edwards, opinion)", "date": "2026-10-02", "claim": "Boots has had three positionings in five years ('Feel good', then 'With you. For life.' from 2021, then 'Give it some Boots' launched September 2026), each under a new CMO; the earlier 'Feel good' line is still on a store window. Cites Nike 'Just do it' (1988), Red Bull 'Gives you wings' (1987), L'Oreal 'You're worth it' (1971) as consistent exceptions. Opinion, no data."},
+   {"url": "https://www.retailgazette.co.uk/blog/2026/09/boots-unveils-new-give-it-some-boots-brand-platform-in-nationwide-campaign/", "publisher": "Retail Gazette", "date": "2026-09", "claim": "New 'Give it Some Boots' platform by WPP: films about 'beautiful and brutal' life moments; CMO Charlotte Lock: put the retailer 'right in the middle of real life'."},
+   {"url": "https://www.npr.org/2022/10/06/1127032721", "publisher": "NPR", "date": "2022-10-06", "claim": "'Just Do It', written by Dan Wieden in 1988, still Nike's tagline (search-result level confirmation; widely documented)."},
+   {"url": "https://www.nrn.com/family-dining/cracker-barrel-switches-back-to-old-logo-after-backlash", "publisher": "Nation's Restaurant News", "date": "2025-08-26", "claim": "Optional contrast only: Cracker Barrel returned to its old logo after backlash to a new one."}
+  ],
+  "music_mood": "dark",
+  "framing_note": "Boots is the spark, not the target: do not mock Boots or claim the new platform fails (no sales data exists). The idea is the internal-boredom bias: the team sees the brand daily, the customer rarely. State Boots facts plainly (three lines in five years; old line still on a window). Proof of the other side: Nike has said 'Just do it' since 1988 (one number on screen at most: 1988 or 'three in five years'). Do NOT invent wear-out or exposure statistics; frame 'customers see it rarely' as my take/observation, not data. The Marketing Week piece is opinion: say 'a columnist pointed out', not 'research shows', and keep publication names off screen. Practical close: refresh the expression, keep the idea; before changing the slogan, ask whether the customer is tired of it or only you are. Never name the UAE, Dubai or any emirate.",
+  "image_requests": [
+   {"id": "T-a", "description": "عکس اصلی بالای مقاله (فریم یا پوستر کمپین تازه‌ی Boots با شعار Give it Some Boots)؛ اگر عکس چیز دیگری بود، همان عکس اصلی را ذخیره کن.", "page_url": "https://www.retailgazette.co.uk/blog/2026/09/boots-unveils-new-give-it-some-boots-brand-platform-in-nationwide-campaign/", "scene_idea": "صحنه‌ی «شعار سوم»: قاب کمپین تازه روی صحنه‌ی تیره، بعد از دو برچسب کاغذی شعارهای قبلی که کنار می‌روند."},
+   {"id": "T-b", "description": "عکس اصلی بالای ستون Marketing Week درباره‌ی ثبات Boots (احتمالاً ویترین یا سردر فروشگاه Boots).", "page_url": "https://marketingweek.com/boots-marketing-consistency", "scene_idea": "قلاب: «شعار قدیمی هنوز روی ویترین است» — عکس قاب‌دار، ذره‌بین روی ویترین."}
+  ],
+  "image_note": "Contents of the lead photos were not seen in this run (text-only fetch); the morning build must check each upload shows Boots branding/campaign before using it, and credit the page.",
+  "object_plan": [
+   {"object": "three paper slogan labels stacked and overlapping (blank, no text)", "line_idea": "سه شعار در پنج سال / three slogans in five years", "reuse_path_or_new": "assets/objects/2026-10-25/label_card.png (reuse, repeat x3 with offsets)"},
+   {"object": "shop window with a faded, half-peeled sticker (no readable text, no logo)", "line_idea": "شعار قدیمی هنوز روی ویترین است / the old one is still on the window", "reuse_path_or_new": "new: assets/objects/2026-10-26/window_sticker.png"},
+   {"object": "eraser", "line_idea": "هر شروع دوباره حافظه‌ی مشتری را پاک می‌کند / every restart wipes their memory", "reuse_path_or_new": "assets/objects/2026-10-22/eraser.png"},
+   {"object": "wristwatch", "line_idea": "شما هر روز می‌بینیدش؛ مشتری چند ثانیه در سال / you see it daily, they see it seconds a year", "reuse_path_or_new": "assets/objects/2026-10-22/watch.png"},
+   {"object": "magnifying glass", "line_idea": "مشتری با این دقت نگاه نمی‌کند / nobody inspects your brand this closely", "reuse_path_or_new": "assets/objects/2026-10-22/magnifier.png"},
+   {"object": "signpost with arrows pointing different ways", "line_idea": "هر مدیر تازه، یک جهت تازه / every new boss, a new direction", "reuse_path_or_new": "assets/objects/2026-10-22/signpost.png"},
+   {"object": "phone (scrolling feed)", "line_idea": "مشتری در حال رد شدن است، نه خواندن / they scroll past, they don't study", "reuse_path_or_new": "assets/objects/2026-10-25/phone.png"},
+   {"object": "worn, broken-in running shoe (generic, unbranded, no swoosh)", "line_idea": "یک جمله از ۱۹۸۸ / one line since 1988", "reuse_path_or_new": "new: assets/objects/2026-10-26/worn_shoe.png"},
+   {"object": "stone with a smooth groove worn by dripping water", "line_idea": "تکرار است که جای پا می‌سازد / repetition carves the memory", "reuse_path_or_new": "new: assets/objects/2026-10-26/worn_stone.png"},
+   {"object": "paint roller painting over a wall stripe", "line_idea": "رنگ را تازه کنید، دیوار را خراب نکنید / refresh the paint, keep the wall", "reuse_path_or_new": "new: assets/objects/2026-10-26/paint_roller.png"},
+   {"object": "well-used brass key", "line_idea": "کلیدی که مشتری تازه پیدا کرده بود / the key they'd only just found", "reuse_path_or_new": "assets/objects/2026-10-24/key.png"},
+   {"object": "shopping basket", "line_idea": "در لحظه‌ی خرید، آشنا برنده است / at the shelf, familiar wins", "reuse_path_or_new": "assets/objects/2026-10-24/basket.png"}
+  ]
+ }
+}

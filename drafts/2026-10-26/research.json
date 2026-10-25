@@ -1,0 +1,361 @@
+{
+ "date": "2026-10-26",
+ "stage": "1_evening",
+ "run_at": "2026-10-25T16:45:00Z",
+ "scope": "branding, brand strategy, marketing only (owner rule from 2026-10-23)",
+ "searches": [
+  "rebrand new logo October 2026",
+  "brand campaign October 2026 marketing week",
+  "brand naming OR positioning news October 23 2026",
+  "consumer behaviour brand study October 2026",
+  "brand identity unveiled this week designweek OR creativebloq October 2026",
+  "Boots positioning changed three times consistency Marketing Week 2026",
+  "Intuit new brand identity JKR TurboTax Mailchimp 2026",
+  "Paramount Skydance Warner Bros rebrand name criticism logo 2026",
+  "\"October 22/23/24, 2026\" rebrand brand",
+  "Marketing Week Mark Ritson column October 2026",
+  "thebrandingupdate substack October 2026 issue",
+  "Coca-Cola CMO brand love questioned 2026",
+  "P&G CFO growing categories not taking share October 2026",
+  "Ferrari Luce electric car name design reaction brand",
+  "Nestle take consumers along pricing 2026",
+  "Cracker Barrel reverts to old logo after backlash August 2025",
+  "Nike Just Do It 1988 slogan history Wieden"
+ ],
+ "pages_read": [
+  "https://thebrandingupdate.substack.com/p/does-jaguars-rebrand-make-more-sense",
+  "https://thebrandingupdate.substack.com/p/apple-music-unveils-a-new-identity",
+  "https://www.underconsideration.com/brandnew/",
+  "https://www.meltwater.com/en/news/most-creative-brand-campaigns",
+  "https://www.newscaststudio.com/2026/10/02/paramount-skydance-new-name/",
+  "https://marketingweek.com/boots-marketing-consistency",
+  "https://creativebloq.com/entertainment/warner-bros-and-paramounts-skydance-rebrand-isnt-going-down-well",
+  "https://www.marketingweek.com/ (homepage headlines only)",
+  "https://www.retailgazette.co.uk/blog/2026/09/boots-unveils-new-give-it-some-boots-brand-platform-in-nationwide-campaign/",
+  "https://www.marketingweek.com/boots-brand-platform-2026/ (standfirst only, paywall)",
+  "https://www.edmunds.com/car-news/ferrari-luce-ev-negative-opinions.html"
+ ],
+ "fetch_failures": [
+  "Marketing Week feature bodies (Coca-Cola brand love, P&G, Legora, Lovehoney) are paywalled; only homepage summaries seen"
+ ],
+ "excluded_recent_topics": [
+  "2026-10-22 Apple Music sound-made identity",
+  "2026-10-23 same product, new moment (occasions)",
+  "2026-10-24 redesign made the brand invisible (pack recognition)",
+  "2026-10-25 quiet shrink (pricing honesty); Nestle pricing item skipped for this reason"
+ ],
+ "scoring_note": "Weights: {\"freshness\": 10, \"growth\": 15, \"reach\": 15, \"qualified_followers\": 15, \"regional_business\": 15, \"audience_psychology\": 10, \"commercial_utility\": 10, \"originality\": 5, \"verifiability\": 5}. Growth, reach, qualified-follower potential, regional relevance, audience psychology, commercial utility and originality are labelled ESTIMATES (editorial judgement, no platform data). Freshness from event date; verifiability from whether the primary page was read.",
+ "candidates": [
+  {
+   "id": "C01",
+   "title": "Boots: three brand positionings in five years ('Feel good' -> 'With you. For life.' -> 'Give it some Boots')",
+   "classification": "evergreen (news spark)",
+   "url": "https://marketingweek.com/boots-marketing-consistency",
+   "publisher": "Marketing Week (Helen Edwards, opinion)",
+   "event_date": "2026-10-02",
+   "claim": "Boots has had three positionings in five years under three CMOs; the old 'Feel good' line is still on a store window; Nike 'Just do it' (1988), Red Bull 'Gives you wings' (1987), L'Oreal 'You're worth it' (1971) cited as consistent exceptions. Opinion piece, no data.",
+   "retrieved_at": "2026-10-25T16:45:00Z",
+   "verification": "verified (page read)",
+   "scores": {
+    "freshness": 6,
+    "growth": 11,
+    "reach": 13,
+    "qualified_followers": 14,
+    "regional_business": 14,
+    "audience_psychology": 9,
+    "commercial_utility": 9,
+    "originality": 4,
+    "verifiability": 5
+   },
+   "total": 85,
+   "note": "Strongest universal tension: owners get bored of their brand long before customers learn it. Concrete image: old slogan still on the window while a new one is on TV."
+  },
+  {
+   "id": "C06",
+   "title": "Coca-Cola CMO questions 'brand love'",
+   "classification": "emerging",
+   "url": "https://www.marketingweek.com/",
+   "publisher": "Marketing Week (Matthew Valentine)",
+   "event_date": "2026-10-22",
+   "claim": "Feature asks whether brand love drives results after Coca-Cola's CMO questioned it.",
+   "retrieved_at": "2026-10-25T16:45:00Z",
+   "verification": "headline only (unverified)",
+   "scores": {
+    "freshness": 9,
+    "growth": 8,
+    "reach": 11,
+    "qualified_followers": 11,
+    "regional_business": 10,
+    "audience_psychology": 8,
+    "commercial_utility": 7,
+    "originality": 4,
+    "verifiability": 2
+   },
+   "total": 70,
+   "note": "Fresh, but the CMO's exact words were not verified (homepage summary only, paywalled). Do not use as a claim."
+  },
+  {
+   "id": "C02",
+   "title": "Paramount + Warner Bros. Discovery to be named Skydance",
+   "classification": "emerging",
+   "url": "https://creativebloq.com/entertainment/warner-bros-and-paramounts-skydance-rebrand-isnt-going-down-well",
+   "publisher": "Creative Bloq (also NewscastStudio 2026-10-02)",
+   "event_date": "2026-10-02",
+   "claim": "Combined company named after the least-known brand in the group; Warner Bros, HBO, DC, CNN keep identities; analyst calls it 'ego-driven'; uses existing Skydance Media logo.",
+   "retrieved_at": "2026-10-25T16:45:00Z",
+   "verification": "verified (page read)",
+   "scores": {
+    "freshness": 6,
+    "growth": 10,
+    "reach": 13,
+    "qualified_followers": 10,
+    "regional_business": 9,
+    "audience_psychology": 7,
+    "commercial_utility": 6,
+    "originality": 3,
+    "verifiability": 5
+   },
+   "total": 69,
+   "note": "Corporate vs consumer brand. Interesting, but customers never meet a holding name; weaker lesson for small business; political/ownership noise."
+  },
+  {
+   "id": "C11",
+   "title": "'Does brand design have a longevity problem?' (Bud Rodecker)",
+   "classification": "evergreen",
+   "url": "https://thebrandingupdate.substack.com/p/apple-music-unveils-a-new-identity",
+   "publisher": "The Branding Update (newsletter summary)",
+   "event_date": "2026-10 (week of 15-21)",
+   "claim": "Hype-driven rebrands waste accumulated equity; build enduring systems.",
+   "retrieved_at": "2026-10-25T16:45:00Z",
+   "verification": "newsletter summary only",
+   "scores": {
+    "freshness": 8,
+    "growth": 7,
+    "reach": 9,
+    "qualified_followers": 11,
+    "regional_business": 11,
+    "audience_psychology": 8,
+    "commercial_utility": 8,
+    "originality": 3,
+    "verifiability": 2
+   },
+   "total": 67,
+   "note": "Same idea as C01 from the design side; supports the chosen angle, but original not opened."
+  },
+  {
+   "id": "C09",
+   "title": "Legora: brand before product to skip the 'underdog years'",
+   "classification": "emerging",
+   "url": "https://www.marketingweek.com/",
+   "publisher": "Marketing Week (Lucy Tesseras)",
+   "event_date": "2026-10-21",
+   "claim": "Legal-AI firm credits Jude Law-led brand campaign.",
+   "retrieved_at": "2026-10-25T16:45:00Z",
+   "verification": "headline only (unverified)",
+   "scores": {
+    "freshness": 9,
+    "growth": 8,
+    "reach": 9,
+    "qualified_followers": 10,
+    "regional_business": 9,
+    "audience_psychology": 7,
+    "commercial_utility": 7,
+    "originality": 3,
+    "verifiability": 2
+   },
+   "total": 64,
+   "note": "Celebrity-led; headline only; risk of 'brand > product' myth."
+  },
+  {
+   "id": "C03",
+   "title": "Ferrari Luce EV backlash: new category straying from brand codes",
+   "classification": "evergreen (2026 news)",
+   "url": "https://www.edmunds.com/car-news/ferrari-luce-ev-negative-opinions.html",
+   "publisher": "Edmunds",
+   "event_date": "2026-07-07",
+   "claim": "Ferrari did not expect 'such a magnitude' of negativity; marketing director calls backlash free advertising; Purosangue was also criticised then loved.",
+   "retrieved_at": "2026-10-25T16:45:00Z",
+   "verification": "verified (page read)",
+   "scores": {
+    "freshness": 3,
+    "growth": 7,
+    "reach": 12,
+    "qualified_followers": 9,
+    "regional_business": 9,
+    "audience_psychology": 8,
+    "commercial_utility": 6,
+    "originality": 3,
+    "verifiability": 5
+   },
+   "total": 62,
+   "note": "Months old; luxury-car angle narrow for SMB audience."
+  },
+  {
+   "id": "C07",
+   "title": "P&G: future growth is growing categories, not taking share",
+   "classification": "emerging",
+   "url": "https://www.marketingweek.com/",
+   "publisher": "Marketing Week (Niamh Carroll)",
+   "event_date": "2026-10-22",
+   "claim": "P&G CFO says marketing spend flat; growth from category growth.",
+   "retrieved_at": "2026-10-25T16:45:00Z",
+   "verification": "headline only (unverified)",
+   "scores": {
+    "freshness": 9,
+    "growth": 7,
+    "reach": 8,
+    "qualified_followers": 9,
+    "regional_business": 9,
+    "audience_psychology": 6,
+    "commercial_utility": 8,
+    "originality": 3,
+    "verifiability": 2
+   },
+   "total": 61,
+   "note": "Big-company finance angle; headline only."
+  },
+  {
+   "id": "C04",
+   "title": "Cracker Barrel logo change reversed within days",
+   "classification": "evergreen",
+   "url": "https://www.nrn.com/family-dining/cracker-barrel-switches-back-to-old-logo-after-backlash",
+   "publisher": "Nation's Restaurant News",
+   "event_date": "2025-08-26",
+   "claim": "Cracker Barrel returned to its 'Old Timer' logo after public backlash to a simplified logo.",
+   "retrieved_at": "2026-10-25T16:45:00Z",
+   "verification": "verified via multiple search results (not opened)",
+   "scores": {
+    "freshness": 2,
+    "growth": 5,
+    "reach": 12,
+    "qualified_followers": 10,
+    "regional_business": 9,
+    "audience_psychology": 8,
+    "commercial_utility": 7,
+    "originality": 2,
+    "verifiability": 5
+   },
+   "total": 60,
+   "note": "Over-used case; works as a supporting contrast at most; politically charged in US."
+  },
+  {
+   "id": "C10",
+   "title": "Kiwibank sheep mascot remixed by the public; copyright clampdown",
+   "classification": "hidden_gem",
+   "url": "https://thebrandingupdate.substack.com/p/apple-music-unveils-a-new-identity",
+   "publisher": "The Branding Update (newsletter summary)",
+   "event_date": "2026-10 (week of 15-21)",
+   "claim": "Public remixing went viral; brand had to accept losing some control.",
+   "retrieved_at": "2026-10-25T16:45:00Z",
+   "verification": "newsletter summary only",
+   "scores": {
+    "freshness": 8,
+    "growth": 8,
+    "reach": 7,
+    "qualified_followers": 7,
+    "regional_business": 6,
+    "audience_psychology": 8,
+    "commercial_utility": 5,
+    "originality": 4,
+    "verifiability": 2
+   },
+   "total": 55,
+   "note": "Second-hand summary; original not opened."
+  },
+  {
+   "id": "C05",
+   "title": "Intuit unifies sub-brands under one 'i' system (JKR)",
+   "classification": "emerging",
+   "url": "https://www.printmag.com/branding-identity-design/intuit-rethinks-its-brand-architecture-with-jkr/",
+   "publisher": "PRINT",
+   "event_date": "2026-09",
+   "claim": "Masterbrand system linking TurboTax, Credit Karma, QuickBooks, Mailchimp.",
+   "retrieved_at": "2026-10-25T16:45:00Z",
+   "verification": "search result only (not opened)",
+   "scores": {
+    "freshness": 4,
+    "growth": 6,
+    "reach": 8,
+    "qualified_followers": 8,
+    "regional_business": 8,
+    "audience_psychology": 5,
+    "commercial_utility": 6,
+    "originality": 3,
+    "verifiability": 4
+   },
+   "total": 52,
+   "note": "Brand architecture; abstract for reels."
+  },
+  {
+   "id": "C08",
+   "title": "Lovehoney 'normalises' its category via partnerships",
+   "classification": "emerging",
+   "url": "https://www.marketingweek.com/",
+   "publisher": "Marketing Week (Niamh Carroll)",
+   "event_date": "2026-10-23",
+   "claim": "Positioning a taboo category next to wellness.",
+   "retrieved_at": "2026-10-25T16:45:00Z",
+   "verification": "headline only (unverified)",
+   "scores": {
+    "freshness": 10,
+    "growth": 6,
+    "reach": 7,
+    "qualified_followers": 6,
+    "regional_business": 3,
+    "audience_psychology": 6,
+    "commercial_utility": 6,
+    "originality": 4,
+    "verifiability": 2
+   },
+   "total": 50,
+   "note": "Brand-fit and regional sensitivity gate: fail for this audience."
+  },
+  {
+   "id": "C12",
+   "title": "Disney+ / Hulu billboard that splits the logos to read 'Hu Dis?'",
+   "classification": "commercial",
+   "url": "https://thebrandingupdate.substack.com/p/does-jaguars-rebrand-make-more-sense",
+   "publisher": "The Branding Update (newsletter summary)",
+   "event_date": "2026-10 (week of 1-7)",
+   "claim": "Canadian campaign by Courage plays on the two logos.",
+   "retrieved_at": "2026-10-25T16:45:00Z",
+   "verification": "newsletter summary only",
+   "scores": {
+    "freshness": 6,
+    "growth": 7,
+    "reach": 10,
+    "qualified_followers": 6,
+    "regional_business": 5,
+    "audience_psychology": 6,
+    "commercial_utility": 4,
+    "originality": 4,
+    "verifiability": 2
+   },
+   "total": 50,
+   "note": "Clever but a one-joke craft item; English-only wordplay fails the Persian reel."
+  }
+ ],
+ "lenses_summary": {
+  "verification_red_team": "C01 is an opinion column with no data: treat 'three positionings in five years' and the slogans as reported facts (dates/names from Marketing Week and Retail Gazette); do NOT invent wear-out statistics (no 'consumers need X exposures' numbers). Nike 1988 confirmed by NPR/Dezeen; Red Bull 1987 and L'Oreal 1971 are as cited by Marketing Week only. Do not claim Boots' new platform is failing; no sales data. C06/C07/C09 headline-only, so excluded from claims.",
+  "audience_psychology": "Every owner has felt 'our logo/slogan is stale' — the reel names that itch and flips it: the fatigue is internal, the audience is barely starting to remember. Self-recognition is high; gentle sting, then relief (you do not need to change, you need to repeat).",
+  "brand_fit": "Fits Behnood's strategist voice: a contrarian, practical rule (refresh, don't restart). Works for Persian and English audiences without geography; Boots is only the spark, Nike/L'Oreal the proof. Avoids repeating 10-24 (that was visual codes of a pack; this is message/positioning consistency and the internal-boredom bias)."
+ },
+ "gates": {
+  "brand_fit": {
+   "C01": "pass",
+   "C02": "pass (weak SMB lesson)",
+   "C08": "fail (category sensitivity)",
+   "C12": "fail (English-only pun)"
+  },
+  "story": {
+   "C01": "tension: 'You are bored of your slogan; your customers have barely learned it.' image: an old slogan sticker still on the shop window while the new one plays on TV — three slogans layered on one glass.",
+   "C02": "tension ok, image weak (a holding-company name customers never see)",
+   "C11": "same idea, no concrete image"
+  }
+ },
+ "decision": {
+  "chosen": "C01 (supported by C11 idea, C04 as contrast)",
+  "why": "Highest total (estimates), passes both gates, strongest universal tension and a concrete image, works natively in Persian and English, evergreen idea with a recent spark; not a repeat of the last 7 days.",
+  "runner_up": "C02 Skydance naming"
+ }
+}
