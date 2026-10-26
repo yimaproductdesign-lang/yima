@@ -94,6 +94,28 @@
    ],
    "objects": [
     {
+     "key": "ta",
+     "src": "incoming/2026-10-26/T-a.webp",
+     "x": 540,
+     "y": 1250,
+     "w": 900,
+     "ar": 1.778,
+     "frame": true,
+     "credit": "Frame from Boots' 'Give it some Boots' campaign film (owner upload)",
+     "source_url": "https://www.retailgazette.co.uk/blog/2026/09/boots-unveils-new-give-it-some-boots-brand-platform-in-nationwide-campaign/",
+     "anim": "zoom",
+     "push": 0.04,
+     "exit": [
+      "fade",
+      1.4
+     ],
+     "color": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
      "key": "tb",
      "src": "incoming/2026-10-26/T-b.jpg",
      "x": 540,
@@ -104,7 +126,8 @@
      "credit": "Boots 'Give it some Boots' campaign billboard (owner upload)",
      "source_url": "https://marketingweek.com/boots-marketing-consistency",
      "anim": "zoom",
-     "push": 0.05,
+     "delay": 1.9,
+     "push": 0.04,
      "color": [
       0,
       0,
@@ -112,15 +135,15 @@
      ]
     }
    ],
-   "motion_rationale": "مدرک واقعی: بیلبورد کمپین تازه (آپلود مالک) قاب‌دار زیر نور موضعی = شعار سوم",
+   "motion_rationale": "مدرک واقعی (هر دو آپلود مالک، قاب‌دار زیر نور موضعی): اول فریم فیلم کمپین تازه، بعد بیلبورد با خود شعار = کمپین تازه، شعار سوم",
    "lines": [
     {
-     "text": "In September, Boots launched",
+     "text": "In September, Boots launched a new campaign",
      "kind": "b",
      "dim": false
     },
     {
-     "text": "slogan number *three*.",
+     "text": "and slogan number *three*.",
      "kind": "h",
      "dim": false
     }

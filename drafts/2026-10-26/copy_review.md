@@ -47,8 +47,8 @@ Facts re-verified this morning (2026-10-26): Marketing Week column (Helen Edward
 - Caveat once on screen: "My take:" (S5); fully in the caption.
 
 ## Visual plan (shared)
-S1 three blank labels drop onto each other (paper) · S2 owner photo T-b, the "Give it some Boots" billboard, framed (graphite) · S3 faded, half-peeled sticker (paper) · S4 signpost (primary) · S5 watch (paper) · S6 phone slides in and drifts up like a feed (graphite) · S7 turn: old sticker beside a fresh label, labels "old / new" (paper) · S8 eraser, brand-memory words fade (graphite) · S9 worn, unbranded sneaker (paper) · S10 stone grooved by drops (graphite) · S11 paint roller (paper) · S12 magnifier (primary) · S13 one label from S1 remains (paper, bookend) · S14 end card.
-Owner images: T-b used (S2). T-a (campaign-film frame: storefront and dancers) skipped: it shows neither the slogan nor the old window, and a second framed photo would break the paper/dark alternation.
+S1 three blank labels drop onto each other (paper) · S2 owner photos T-a (campaign-film frame) then T-b (the "Give it some Boots" billboard), framed (graphite) · S3 faded, half-peeled sticker (paper) · S4 signpost (primary) · S5 watch (paper) · S6 phone slides in and drifts up like a feed (graphite) · S7 turn: old sticker beside a fresh label, labels "old / new" (paper) · S8 eraser, brand-memory words fade (graphite) · S9 worn, unbranded sneaker (paper) · S10 stone grooved by drops (graphite) · S11 paint roller (paper) · S12 magnifier (primary) · S13 one label from S1 remains (paper, bookend) · S14 end card.
+Owner images: both used in S2 (owner request after the first delivery): T-a, a frame from the new campaign film, fades out and T-b, the billboard with the slogan, comes in. S2 copy became "In September, Boots launched a new campaign / and slogan number three." / «سپتامبر امسال، بوتس کمپین تازه‌ای ساخت / و شعار سوم را آورد.»
 
 ## Hashtags (relevant and in active use; not live trend data)
 - FA: #برندینگ #بازاریابی (broad) · #برندسازی #brandstrategy (specific)
