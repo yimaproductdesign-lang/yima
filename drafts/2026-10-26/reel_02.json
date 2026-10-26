@@ -1,0 +1,639 @@
+{
+ "reel_id": "2026-10-26_EN",
+ "date": "2026-10-26",
+ "topic": "You're bored of your brand. Your customers have barely met it.",
+ "pillar": "brand_positioning_consistency",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://marketingweek.com/boots-marketing-consistency",
+     "publisher": "Marketing Week (Helen Edwards, opinion column)",
+     "event_date": "2026-10-02",
+     "retrieved_at": "2026-10-26T05:00:00Z",
+     "claim": "'the third new brand campaign, third brand slogan, third brand positioning in the space of five years'; Feel good (Normoyle) -> With you. For life (Markey, from 2021) -> Give it some Boots (Lock, from Nov 2025); 'On the windows of the store is emblazoned Feel good'; Nike Just do it since 1988"
+    }
+   ],
+   "objects": [
+    {
+     "key": "l1",
+     "src": "assets/objects/2026-10-25/label_card.png",
+     "x": 470,
+     "y": 1250,
+     "w": 440,
+     "rot": -9,
+     "anim": "drop",
+     "delay": 0,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)"
+    },
+    {
+     "key": "l2",
+     "src": "assets/objects/2026-10-25/label_card.png",
+     "x": 560,
+     "y": 1290,
+     "w": 440,
+     "rot": 4,
+     "anim": "drop",
+     "delay": 0.35,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)"
+    },
+    {
+     "key": "l3",
+     "src": "assets/objects/2026-10-25/label_card.png",
+     "x": 620,
+     "y": 1340,
+     "w": 440,
+     "rot": -2,
+     "anim": "drop",
+     "delay": 0.7,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)"
+    }
+   ],
+   "motion_rationale": "قلاب: سه برچسب خالی یکی‌یکی روی هم می‌افتند = سه شعار پشت سر هم، هر کدام روی قبلی",
+   "lines": [
+    {
+     "text": "Three slogans.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "Five *years*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "bg": "graphite",
+   "spot_y": 1250,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.retailgazette.co.uk/blog/2026/09/boots-unveils-new-give-it-some-boots-brand-platform-in-nationwide-campaign/",
+     "publisher": "Retail Gazette",
+     "event_date": "2026-09",
+     "retrieved_at": "2026-10-26T05:00:00Z",
+     "claim": "Boots unveils new 'Give it Some Boots' brand platform (WPP) in a nationwide campaign"
+    },
+    {
+     "url": "https://marketingweek.com/boots-marketing-consistency",
+     "publisher": "Marketing Week (Helen Edwards, opinion column)",
+     "event_date": "2026-10-02",
+     "retrieved_at": "2026-10-26T05:00:00Z",
+     "claim": "'the third new brand campaign, third brand slogan, third brand positioning in the space of five years'; Feel good (Normoyle) -> With you. For life (Markey, from 2021) -> Give it some Boots (Lock, from Nov 2025); 'On the windows of the store is emblazoned Feel good'; Nike Just do it since 1988"
+    }
+   ],
+   "objects": [
+    {
+     "key": "tb",
+     "src": "incoming/2026-10-26/T-b.jpg",
+     "x": 540,
+     "y": 1250,
+     "w": 900,
+     "ar": 2.4,
+     "frame": true,
+     "credit": "Boots 'Give it some Boots' campaign billboard (owner upload)",
+     "source_url": "https://marketingweek.com/boots-marketing-consistency",
+     "anim": "zoom",
+     "push": 0.05,
+     "color": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "motion_rationale": "مدرک واقعی: بیلبورد کمپین تازه (آپلود مالک) قاب‌دار زیر نور موضعی = شعار سوم",
+   "lines": [
+    {
+     "text": "In September, Boots launched",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "slogan number *three*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://marketingweek.com/boots-marketing-consistency",
+     "publisher": "Marketing Week (Helen Edwards, opinion column)",
+     "event_date": "2026-10-02",
+     "retrieved_at": "2026-10-26T05:00:00Z",
+     "claim": "'the third new brand campaign, third brand slogan, third brand positioning in the space of five years'; Feel good (Normoyle) -> With you. For life (Markey, from 2021) -> Give it some Boots (Lock, from Nov 2025); 'On the windows of the store is emblazoned Feel good'; Nike Just do it since 1988"
+    }
+   ],
+   "objects": [
+    {
+     "key": "sticker",
+     "src": "assets/objects/2026-10-26/faded_sticker.png",
+     "x": 540,
+     "y": 1290,
+     "w": 420,
+     "rot": -6,
+     "anim": "rise",
+     "float": 4,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)"
+    }
+   ],
+   "motion_rationale": "برچسب رنگ‌رفته‌ای که گوشه‌اش ور آمده ولی هنوز چسبیده = شعار قدیمی که هنوز روی ویترین مانده",
+   "lines": [
+    {
+     "text": "One of its windows",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "still says *Feel good*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "bg": "primary",
+   "spot_y": 1260,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://marketingweek.com/boots-marketing-consistency",
+     "publisher": "Marketing Week (Helen Edwards, opinion column)",
+     "event_date": "2026-10-02",
+     "retrieved_at": "2026-10-26T05:00:00Z",
+     "claim": "'the third new brand campaign, third brand slogan, third brand positioning in the space of five years'; Feel good (Normoyle) -> With you. For life (Markey, from 2021) -> Give it some Boots (Lock, from Nov 2025); 'On the windows of the store is emblazoned Feel good'; Nike Just do it since 1988"
+    }
+   ],
+   "objects": [
+    {
+     "key": "sign",
+     "src": "assets/objects/2026-10-22/signpost.png",
+     "x": 540,
+     "y": 1290,
+     "w": 470,
+     "anim": "rise",
+     "tilt": -4,
+     "tilt_t": 1.4,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)"
+    }
+   ],
+   "motion_rationale": "تابلوی راهنما با فلش‌هایی به سوهای مختلف = هر مدیر تازه، یک جهت تازه",
+   "lines": [
+    {
+     "text": "Three marketing chiefs.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "Three *directions*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "watch",
+     "src": "assets/objects/2026-10-22/watch.png",
+     "x": 540,
+     "y": 1300,
+     "w": 380,
+     "anim": "pop",
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)"
+    }
+   ],
+   "motion_rationale": "ساعت = تیم هر روز، هر ساعت شعار را می‌بیند",
+   "lines": [
+    {
+     "text": "My take: you see your slogan",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*every* day.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "phone",
+     "src": "assets/objects/2026-10-25/phone.png",
+     "x": 540,
+     "y": 1300,
+     "w": 460,
+     "rot": -4,
+     "anim": "slide_r",
+     "bright": [
+      1.7,
+      1.7
+     ],
+     "path": [
+      [
+       0,
+       540,
+       1340
+      ],
+      [
+       3.6,
+       540,
+       1240
+      ]
+     ],
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)"
+    }
+   ],
+   "motion_rationale": "گوشی از راست می‌آید و آرام مثل فید بالا می‌رود = مشتری در حال رد شدن است، نه خواندن",
+   "lines": [
+    {
+     "text": "Your customer catches it",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "between two *scrolls*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "sticker",
+     "src": "assets/objects/2026-10-26/faded_sticker.png",
+     "x": 330,
+     "y": 1300,
+     "w": 330,
+     "rot": -6,
+     "anim": "fade",
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)"
+    },
+    {
+     "key": "l1",
+     "src": "assets/objects/2026-10-25/label_card.png",
+     "x": 760,
+     "y": 1300,
+     "w": 360,
+     "rot": 3,
+     "anim": "drop",
+     "delay": 0.5,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)"
+    }
+   ],
+   "fx": [
+    {
+     "type": "labels",
+     "items": [
+      {
+       "text": "you: old",
+       "x": 330,
+       "y": 1060,
+       "size": 58,
+       "move": "down",
+       "t": 1.4
+      },
+      {
+       "text": "them: new",
+       "x": 760,
+       "y": 1060,
+       "size": 58,
+       "move": "up",
+       "t": 1.4,
+       "acc": true
+      }
+     ]
+    }
+   ],
+   "motion_rationale": "چرخش: همان برچسب کهنه کنار برچسبی نو = یک شعار، برای تیم کهنه و برای مشتری تازه",
+   "lines": [
+    {
+     "text": "So it feels *old* to you.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "To them, it's still *new*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "eraser",
+     "src": "assets/objects/2026-10-22/eraser.png",
+     "x": 540,
+     "y": 1360,
+     "w": 380,
+     "rot": -8,
+     "anim": "slide_r",
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)"
+    }
+   ],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "fade",
+     "box": [
+      150,
+      960,
+      930,
+      1200
+     ],
+     "seed": 5,
+     "size": 50,
+     "words": [
+      "the line",
+      "the colour",
+      "the jingle",
+      "the face",
+      "the promise"
+     ]
+    }
+   ],
+   "motion_rationale": "پاک‌کن وارد می‌شود و تکه‌های آشنای برند محو می‌شوند = هر شروع دوباره حافظه‌ی مشتری را پاک می‌کند",
+   "lines": [
+    {
+     "text": "Every restart",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*erases* what they'd learned.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.npr.org/2022/10/06/1127032721",
+     "publisher": "NPR",
+     "event_date": "2022-10-06",
+     "retrieved_at": "2026-10-26T05:00:00Z",
+     "claim": "'Just Do It', written by Dan Wieden in 1988, is still Nike's tagline"
+    },
+    {
+     "url": "https://marketingweek.com/boots-marketing-consistency",
+     "publisher": "Marketing Week (Helen Edwards, opinion column)",
+     "event_date": "2026-10-02",
+     "retrieved_at": "2026-10-26T05:00:00Z",
+     "claim": "'the third new brand campaign, third brand slogan, third brand positioning in the space of five years'; Feel good (Normoyle) -> With you. For life (Markey, from 2021) -> Give it some Boots (Lock, from Nov 2025); 'On the windows of the store is emblazoned Feel good'; Nike Just do it since 1988"
+    }
+   ],
+   "objects": [
+    {
+     "key": "shoe",
+     "src": "assets/objects/2026-10-26/worn_shoe.png",
+     "x": 540,
+     "y": 1320,
+     "w": 640,
+     "anim": "drop",
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)"
+    }
+   ],
+   "motion_rationale": "کفش ساییده و جاافتاده (بی‌نشان) = یک جمله که سال‌ها پوشیده شده و جا افتاده",
+   "lines": [
+    {
+     "text": "Nike has said one line",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "since *1988*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "graphite",
+   "spot_y": 1280,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "stone",
+     "src": "assets/objects/2026-10-26/worn_stone.png",
+     "x": 540,
+     "y": 1310,
+     "w": 640,
+     "anim": "zoom",
+     "push": 0.05,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)"
+    }
+   ],
+   "motion_rationale": "سنگی که قطره‌ها در آن شیار انداخته‌اند = تکرار، نه تازگی، جای پا در حافظه می‌سازد",
+   "lines": [
+    {
+     "text": "New doesn't stick.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "Repetition *carves* memory.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "roller",
+     "src": "assets/objects/2026-10-26/paint_roller.png",
+     "x": 540,
+     "y": 1310,
+     "w": 560,
+     "rot": 8,
+     "anim": "slide_l",
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)"
+    }
+   ],
+   "motion_rationale": "غلتک رنگ = رنگ را تازه کن (اجرا)، دیوار را نگه دار (ایده)",
+   "lines": [
+    {
+     "text": "Refresh the *paint*.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "Keep the wall.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "bg": "primary",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "lens",
+     "src": "assets/objects/2026-10-22/magnifier.png",
+     "x": 540,
+     "y": 1300,
+     "w": 480,
+     "anim": "pop",
+     "rot": -6,
+     "float": 5,
+     "bright": [
+      1.5,
+      1.5
+     ],
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)"
+    }
+   ],
+   "motion_rationale": "ذره‌بین = پیش از تغییر، دقیق نگاه کن: خستگی مال کیست؟",
+   "lines": [
+    {
+     "text": "Before you change the line, ask:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "who's tired of it?",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "Them, or *you*?",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "l1",
+     "src": "assets/objects/2026-10-25/label_card.png",
+     "x": 540,
+     "y": 1300,
+     "w": 480,
+     "rot": -2,
+     "anim": "zoom",
+     "push": 0.04,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)"
+    }
+   ],
+   "motion_rationale": "بازگشت به آغاز: از سه برچسب صحنه‌ی اول فقط یکی می‌ماند = یک شعار، نگه‌داشته",
+   "lines": [
+    {
+     "text": "You're bored of your brand.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "They've barely *met* it.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "bg": "primary",
+   "claim_type": "interpretation",
+   "logo": true,
+   "txt_top": 1080,
+   "lines": [
+    {
+     "text": "Write to me.",
+     "kind": "b",
+     "dim": false
+    }
+   ],
+   "motion_rationale": "کارت پایانی"
+  }
+ ],
+ "caption": "You're bored of your slogan. Your customers have barely met it.\n\nIn September Boots launched a new brand platform, \"Give it some Boots\", made with WPP. In a Marketing Week opinion column, Helen Edwards counted it as the third positioning in five years, each arriving with a new marketing chief: \"Feel good\", then \"With you. For life.\" (from 2022), now this. On one store window, she noted, \"Feel good\" is still there.\n\nMy take: the people who change the line are the people who see it every day. Customers catch it now and then, between other things. To you it's worn out; to them it's half-learned. Each restart wipes what they had started to remember.\n\nNike has said \"Just do it\" since 1988. The column also points to Red Bull (\"Gives you wings\", 1987) and L'Oréal (\"You're worth it\", 1971). Refresh the expression. Keep the idea.\n\nThe limits: this rests on an opinion column and my own reading, not on research. I have no data on how often customers notice a slogan, and there are no sales figures yet on Boots' new platform; it may well work. Sources: Marketing Week, Retail Gazette, The Drum, NPR. Billboard photo: Boots' \"Give it some Boots\" campaign (owner upload); the other objects are AI-generated.\n\nBefore you change your slogan, who is actually tired of it: your customers, or you? Write to me.\n\n— Behnood Kavian",
+ "hashtags": [
+  "#branding",
+  "#marketing",
+  "#brandstrategy",
+  "#brandconsistency"
+ ],
+ "sources": [
+  {
+   "publisher": "Marketing Week",
+   "title": "Boots is proof that marketing doesn't place enough value on consistency (Helen Edwards, opinion)",
+   "date": "2026-10-02",
+   "url": "https://marketingweek.com/boots-marketing-consistency"
+  },
+  {
+   "publisher": "Retail Gazette",
+   "title": "Boots unveils new 'Give it Some Boots' brand platform in nationwide campaign",
+   "date": "2026-09",
+   "url": "https://www.retailgazette.co.uk/blog/2026/09/boots-unveils-new-give-it-some-boots-brand-platform-in-nationwide-campaign/"
+  },
+  {
+   "publisher": "The Drum",
+   "title": "Post-pandemic, Boots says its long-serving 'Let's feel good' strapline no longer works",
+   "date": "2022-06-06",
+   "url": "https://www.thedrum.com/news/post-pandemic-boots-says-its-long-serving-lets-feel-good-strapline-no-longer"
+  },
+  {
+   "publisher": "NPR",
+   "title": "Dan Wieden, who coined Nike's 'Just Do It' slogan, has died",
+   "date": "2022-10-06",
+   "url": "https://www.npr.org/2022/10/06/1127032721"
+  }
+ ],
+ "cta": "Write to me.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S7"
+ },
+ "status": "DRAFT",
+ "style": "editorial",
+ "lang": "en"
+}
