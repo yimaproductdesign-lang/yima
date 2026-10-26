@@ -426,6 +426,42 @@
   {
    "id": "S9",
    "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "airmax",
+     "src": "incoming/2026-10-26/T-d_cut.png",
+     "x": 540,
+     "y": 1320,
+     "w": 400,
+     "anim": "drop",
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "Nike sneaker product photo (owner upload; source page not given)",
+     "source_url": "owner upload in chat, 2026-10-26 (source page not given)"
+    }
+   ],
+   "motion_rationale": "کفش امروزِ نایکی (آپلود مالک، رنگ طبیعی) = محصول و ظاهر مدام عوض می‌شوند",
+   "lines": [
+    {
+     "text": "Nike's shoes keep changing.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "Its *line* doesn't.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "graphite",
+   "spot_y": 1250,
    "claim_type": "fact",
    "evidence": [
     {
@@ -445,55 +481,33 @@
    ],
    "objects": [
     {
-     "key": "shoe",
-     "src": "assets/objects/2026-10-26/worn_shoe.png",
+     "key": "jdi",
+     "src": "incoming/2026-10-26/T-c.jpg",
      "x": 540,
-     "y": 1320,
-     "w": 640,
-     "anim": "drop",
-     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)"
+     "y": 1250,
+     "w": 330,
+     "ar": 0.563,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.04,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "Nike 'Just do it' poster (owner upload; source page not given)",
+     "source_url": "owner upload in chat, 2026-10-26 (source page not given)"
     }
    ],
-   "motion_rationale": "کفش ساییده و جاافتاده (بی‌نشان) = یک جمله که سال‌ها پوشیده شده و جا افتاده",
+   "motion_rationale": "پوستر همان سه کلمه (آپلود مالک) قاب‌دار زیر نور = جمله‌ای که از ۱۹۸۸ ثابت مانده",
    "lines": [
     {
-     "text": "Nike has said one line",
+     "text": "Same three words",
      "kind": "b",
      "dim": false
     },
     {
      "text": "since *1988*.",
-     "kind": "h",
-     "dim": false
-    }
-   ]
-  },
-  {
-   "id": "S10",
-   "bg": "graphite",
-   "spot_y": 1280,
-   "claim_type": "interpretation",
-   "objects": [
-    {
-     "key": "stone",
-     "src": "assets/objects/2026-10-26/worn_stone.png",
-     "x": 540,
-     "y": 1310,
-     "w": 640,
-     "anim": "zoom",
-     "push": 0.05,
-     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)"
-    }
-   ],
-   "motion_rationale": "سنگی که قطره‌ها در آن شیار انداخته‌اند = تکرار، نه تازگی، جای پا در حافظه می‌سازد",
-   "lines": [
-    {
-     "text": "New doesn't stick.",
-     "kind": "b",
-     "dim": false
-    },
-    {
-     "text": "Repetition *carves* memory.",
      "kind": "h",
      "dim": false
     }
@@ -617,7 +631,7 @@
    "motion_rationale": "کارت پایانی"
   }
  ],
- "caption": "You're bored of your slogan. Your customers have barely met it.\n\nIn September Boots launched a new brand platform, \"Give it some Boots\", made with WPP. In a Marketing Week opinion column, Helen Edwards counted it as the third positioning in five years, each arriving with a new marketing chief: \"Feel good\", then \"With you. For life.\" (from 2022), now this. On one store window, she noted, \"Feel good\" is still there.\n\nMy take: the people who change the line are the people who see it every day. Customers catch it now and then, between other things. To you it's worn out; to them it's half-learned. Each restart wipes what they had started to remember.\n\nNike has said \"Just do it\" since 1988. The column also points to Red Bull (\"Gives you wings\", 1987) and L'Oréal (\"You're worth it\", 1971). Refresh the expression. Keep the idea.\n\nThe limits: this rests on an opinion column and my own reading, not on research. I have no data on how often customers notice a slogan, and there are no sales figures yet on Boots' new platform; it may well work. Sources: Marketing Week, Retail Gazette, The Drum, NPR. Billboard photo: Boots' \"Give it some Boots\" campaign (owner upload); the other objects are AI-generated.\n\nBefore you change your slogan, who is actually tired of it: your customers, or you? Write to me.\n\n— Behnood Kavian",
+ "caption": "You're bored of your slogan. Your customers have barely met it.\n\nIn September Boots launched a new brand platform, \"Give it some Boots\", made with WPP. In a Marketing Week opinion column, Helen Edwards counted it as the third positioning in five years, each arriving with a new marketing chief: \"Feel good\", then \"With you. For life.\" (from 2022), now this. On one store window, she noted, \"Feel good\" is still there.\n\nMy take: the people who change the line are the people who see it every day. Customers catch it now and then, between other things. To you it's worn out; to them it's half-learned. Each restart wipes what they had started to remember.\n\nNike has said \"Just do it\" since 1988. The column also points to Red Bull (\"Gives you wings\", 1987) and L'Oréal (\"You're worth it\", 1971). Refresh the expression. Keep the idea.\n\nThe limits: this rests on an opinion column and my own reading, not on research. I have no data on how often customers notice a slogan, and there are no sales figures yet on Boots' new platform; it may well work. Sources: Marketing Week, Retail Gazette, The Drum, NPR. Images: a frame from Boots' \"Give it some Boots\" campaign film, the campaign billboard, a Nike \"Just do it\" poster and a Nike sneaker photo (all owner uploads); the other objects are AI-generated.\n\nBefore you change your slogan, who is actually tired of it: your customers, or you? Write to me.\n\n— Behnood Kavian",
  "hashtags": [
   "#branding",
   "#marketing",

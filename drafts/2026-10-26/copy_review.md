@@ -59,3 +59,10 @@ New (Figma, 4 generations, gemini-3.1-flash-lite-image, monochrome): faded_stick
 
 ## Voice
 AZURE_SPEECH_KEY / AZURE_SPEECH_REGION not present in this run → English reel rendered without voice-over.
+
+## Revision after owner feedback (chat, 2026-10-26)
+- Owner sent two more images: T-c (Nike "Just do it" poster) and T-d (Nike sneaker product photo, 225px; cut out with rembg after a 4x Lanczos upscale, so it may look soft). Source pages were not given.
+- S9 (paper): T-d cut-out in natural colour. «کفش‌های نایکی مدام عوض می‌شوند؛ / *جمله‌اش* نه.» · "Nike's shoes keep changing. / Its *line* doesn't."
+- S10 (graphite): T-c framed. «همان سه کلمه، / از *۱۹۸۸* تا امروز.» · "Same three words / since *1988*."
+- The worn-stone scene ("repetition carves memory") was dropped: S10 says the same thing with real evidence. The worn_shoe and worn_stone objects stay in the library, unused today.
+- Caption image credits updated (all four owner uploads).
