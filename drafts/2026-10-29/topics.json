@@ -129,6 +129,63 @@
     "line_idea": "زحمت را جایی خرج کنید که دیده می‌شود (پایان، برگشت به شهر کوچک)",
     "reuse_path_or_new": "assets/objects/2026-10-22/photo.png"
    }
-  ]
+  ],
+  "received_images": [
+   {
+    "id": "T-a",
+    "file": "incoming/2026-10-29/T-a.png",
+    "size": "1000x563",
+    "source_page": "https://ouraring.com/blog/wear-your-best-life-brand-campaign/",
+    "content": "Oura BTS: hand-built miniature street at night, modelmaker leaning over the rooftops, toy police car on wet road",
+    "use": "hook / '35 people, three weeks'; framed on dark scene",
+    "note": "below 1080px short side; use framed, not full-bleed"
+   },
+   {
+    "id": "T-b",
+    "file": "incoming/2026-10-29/T-b.png",
+    "size": "2000x1125",
+    "source_page": "https://ouraring.com/blog/wear-your-best-life-brand-campaign/",
+    "content": "Oura campaign frame: a hand wearing the ring 'walks' on a miniature treadmill inside a model glass gym",
+    "use": "'to sell a ring' payoff",
+    "note": "meets size rule"
+   },
+   {
+    "id": "T-c",
+    "file": "incoming/2026-10-29/T-c.png",
+    "size": "1200x675",
+    "source_page": "https://creativebloq.com/design/branding/polaroid-just-dropped-the-most-iconic-anti-ai-ad-of-the-year",
+    "content": "Polaroid campaign: three instant photos with handwritten lines 'A.I. can't generate sand between your toes', 'How much of your camera roll do you really remember?', 'Algorithms can't separate us if we stay in touch'",
+    "use": "when 'real' becomes the ad line",
+    "note": "below 1080px short side; framed"
+   },
+   {
+    "id": "T-d",
+    "file": "incoming/2026-10-29/T-d.png",
+    "size": "700x525",
+    "source_page": "https://ouraring.com/blog/wear-your-best-life-brand-campaign/",
+    "content": "Oura campaign frame: four hands wearing rings lounge on miniature sun loungers by a tiny pool",
+    "use": "optional extra hands-in-miniature beat",
+    "note": "small; framed only, or skip"
+   },
+   {
+    "id": "T-e",
+    "file": "incoming/2026-10-29/T-e.png",
+    "size": "1200x704",
+    "source_page": "https://creativebloq.com/design/branding/polaroid-just-dropped-the-most-iconic-anti-ai-ad-of-the-year",
+    "content": "Polaroid street ad on a newsstand: handwritten 'Real stories, not stories & reels', New Polaroid Flip",
+    "use": "optional; strong for English reel (the word 'reels' is self-aware)",
+    "note": "below 1080px short side; framed"
+   },
+   {
+    "id": "T-f",
+    "file": "incoming/2026-10-29/T-f.png",
+    "size": "750x422",
+    "source_page": "https://creativebloq.com/design/branding/polaroid-just-dropped-the-most-iconic-anti-ai-ad-of-the-year",
+    "content": "Polaroid beach instant photos without text (same set as T-c)",
+    "use": "backup only; T-c is stronger",
+    "note": "small; prefer T-c"
+   }
+  ],
+  "image_note": "Owner sent 6 images on 2026-10-28 evening (via session attachment). Credit each in caption to Oura / Polaroid campaign. Only T-b meets the 1080px rule; show others framed (frame: true) on dark scenes."
  }
 }
