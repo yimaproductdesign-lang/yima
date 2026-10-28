@@ -1,0 +1,134 @@
+{
+ "date": "2026-10-29",
+ "T": {
+  "topic_fa": "وقتی همه‌چیز را می‌شود در چند ثانیه ساخت، زحمتِ دیده‌شده خودش پیام است",
+  "topic_en": "When anything can be generated in seconds, visible effort becomes the message",
+  "pillar": "brand_communication_trust",
+  "central_tension_fa": "ما با هوش مصنوعی محتوا را ارزان‌تر و سریع‌تر می‌سازیم تا بیشتر دیده شویم؛ ولی مشتری زحمت را نشانه‌ی اهمیت می‌خواند. هرچه ساختنش ارزان‌تر به نظر برسد، باورکردنش گران‌تر می‌شود.",
+  "central_tension_en": "We use AI to make more, faster and cheaper, so we can be seen more. But customers read effort as care. The cheaper it looks to make, the more expensive it is to believe.",
+  "working_hook_fa": "۳۵ نفر، سه هفته، یک شهر کوچک با دست. برای فروش یک انگشتر.",
+  "working_hook_en": "Thirty-five people. Three weeks. A tiny city, built by hand. To sell a ring.",
+  "key_sources": [
+   {
+    "url": "https://ouraring.com/blog/wear-your-best-life-brand-campaign/",
+    "publisher": "Oura (official blog)",
+    "date": "2026-10-08",
+    "claim": "'Wear Your Best Life' campaign 'eschews AI'; a world 'crafted entirely by hands, for hands'; 35 modelmakers built a 1:10 city in Prague over three weeks; practical effects."
+   },
+   {
+    "url": "https://www.thedrum.com/news/ad-of-the-day-oura-lets-its-fingers-do-the-living-in-handmade-miniature-city",
+    "publisher": "The Drum",
+    "date": "2026-10-08",
+    "claim": "Build details: one-tenth scale, ~20-foot street, working subway cars, hand-carved brick walls, rooftop pool with real water; agency Nice & Frank, director Sam Walker."
+   },
+   {
+    "url": "https://www.gartner.com/en/newsroom/press-releases/2026-03-16-gartner-marketing-survey-finds-50-percent-of-consumers-prefer-brands-that-avoid-using-genai-in-consumer-facing-content0",
+    "publisher": "Gartner",
+    "date": "2026-03-16",
+    "claim": "Survey of 1,539 US consumers (Oct 2025): 50% would prefer to give their business to brands that do not use GenAI; 68% frequently wonder whether content they see is real. Stated preference, US only."
+   },
+   {
+    "url": "https://www.campaignlive.com/article/coca-colas-ai-christmas-ad-most-talked-about-social/1940473",
+    "publisher": "Campaign (Sprout Social data)",
+    "date": "2025-11-20",
+    "claim": "Coca-Cola's 2025 AI Christmas ad: ~50,000 posts, >1m engagements, 37% positive; John Lewis: ~21,000 posts, 83% positive. Social sentiment only, not sales."
+   },
+   {
+    "url": "https://www.famouscampaigns.com/2026/10/dear-brand-all-i-want-for-christmas-is-no-ai/",
+    "publisher": "Famous Campaigns (opinion)",
+    "date": "2026-10-27",
+    "claim": "Opinion: 'no AI' is becoming a premium selling point; brands (Oura, De'Longhi, Beefeater 0.0) advertise handmade craft. Etsy figures cited there are unverified; do not use."
+   },
+   {
+    "url": "https://creativebloq.com/design/branding/polaroid-just-dropped-the-most-iconic-anti-ai-ad-of-the-year",
+    "publisher": "Creative Bloq",
+    "date": "2025-07-19",
+    "claim": "Polaroid in-house outdoor campaign: 'AI can't generate sand between your toes.'"
+   }
+  ],
+  "music_mood": "dark",
+  "framing_note": "Not an anti-AI sermon. The idea: effort is a signal people believe because it is hard to fake (strategist's interpretation, say 'my take'). Practical close: use the machine for what customers never see, spend human effort where they do. Caveat once: Gartner is a US survey of stated preference; Coca-Cola numbers are social sentiment, not sales. One number on screen at most (35 people / three weeks, or 50%). Do not use Etsy percentages. Do not use Apple Music (covered 2026-10-22). Oura's page lists rollout markets; never name the UAE, Dubai or any emirate in copy, caption or hashtags.",
+  "image_requests": [
+   {
+    "id": "T-a",
+    "description": "عکس پشت‌صحنه‌ی شهر مینیاتوری ساخته‌شده با دست در صفحه‌ی رسمی Oura (تصویر زیر بخش ساخت ست‌ها با برچسب BTS؛ ترجیحاً قابی که دست یا ابزار ماکت‌ساز در آن پیداست)",
+    "page_url": "https://ouraring.com/blog/wear-your-best-life-brand-campaign/",
+    "scene_idea": "اثبات زحمت: «۳۵ نفر، سه هفته» روی قاب واقعی ست؛ صحنه‌ی قلاب یا صحنه‌ی ۲"
+   },
+   {
+    "id": "T-b",
+    "description": "تصویر اصلی کمپین Oura (قاب شهر کوچک با دست‌ها/انگشت‌ها که در خیابان راه می‌روند)",
+    "page_url": "https://ouraring.com/blog/wear-your-best-life-brand-campaign/",
+    "scene_idea": "«برای فروش یک انگشتر»: نتیجه‌ی نهایی، قاب‌دار روی صحنه‌ی تیره"
+   },
+   {
+    "id": "T-c",
+    "description": "عکس بیلبورد Polaroid با جمله‌ی «AI can't generate sand between your toes» از همان مقاله",
+    "page_url": "https://creativebloq.com/design/branding/polaroid-just-dropped-the-most-iconic-anti-ai-ad-of-the-year",
+    "scene_idea": "وقتی «واقعی» خودش شعار تبلیغاتی می‌شود؛ صحنه‌ی میانی پس از عدد گارتنر"
+   }
+  ],
+  "object_plan": [
+   {
+    "object": "miniature hand-built house / tiny brick facade",
+    "line_idea": "۳۵ نفر، سه هفته، یک شهر کوچک با دست (قلاب)",
+    "reuse_path_or_new": "new"
+   },
+   {
+    "object": "modelmaker's tweezers or small carving knife",
+    "line_idea": "زحمتی که می‌شود دیدش",
+    "reuse_path_or_new": "new"
+   },
+   {
+    "object": "rubber stamp",
+    "line_idea": "امروز هر تصویری را می‌شود در چند ثانیه مُهر زد، بی‌نهایت بار",
+    "reuse_path_or_new": "new"
+   },
+   {
+    "object": "phone",
+    "line_idea": "فیدی پر از تصویرهای بی‌نقص و بی‌صاحب",
+    "reuse_path_or_new": "assets/objects/2026-10-25/phone.png"
+   },
+   {
+    "object": "magnifier",
+    "line_idea": "مخاطب حالا با ذره‌بین نگاه می‌کند: واقعی است یا ساختگی؟ (۶۸٪ مدام می‌پرسند)",
+    "reuse_path_or_new": "assets/objects/2026-10-22/magnifier.png"
+   },
+   {
+    "object": "scale",
+    "line_idea": "ساختنش ارزان، باورکردنش گران",
+    "reuse_path_or_new": "assets/objects/2026-10-22/scale.png"
+   },
+   {
+    "object": "watch",
+    "line_idea": "زمان خرج‌شده یعنی «برایم مهم بودی»",
+    "reuse_path_or_new": "assets/objects/2026-10-22/watch.png"
+   },
+   {
+    "object": "hand-thrown ceramic cup with a slight wobble",
+    "line_idea": "آن کجیِ کوچک، امضای دست است؛ نقص نیست، مدرک است",
+    "reuse_path_or_new": "new"
+   },
+   {
+    "object": "pencil",
+    "line_idea": "کسی این را کشید",
+    "reuse_path_or_new": "assets/objects/2026-10-22/pencil.png"
+   },
+   {
+    "object": "price_tag",
+    "line_idea": "«دست‌ساز» دارد برچسب گران‌تر می‌گیرد",
+    "reuse_path_or_new": "assets/objects/2026-10-25/price_tag.png"
+   },
+   {
+    "object": "needle and thread",
+    "line_idea": "ماشین را بگذارید برای کارهایی که مشتری نمی‌بیند",
+    "reuse_path_or_new": "new"
+   },
+   {
+    "object": "photo (instant photo)",
+    "line_idea": "زحمت را جایی خرج کنید که دیده می‌شود (پایان، برگشت به شهر کوچک)",
+    "reuse_path_or_new": "assets/objects/2026-10-22/photo.png"
+   }
+  ]
+ }
+}
