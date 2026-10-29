@@ -118,6 +118,89 @@
     "line_idea": "تست یک‌ثانیه‌ای از فاصله‌ی یک دست",
     "reuse_path_or_new": "assets/objects/2026-10-22/watch.png"
    }
-  ]
+  ],
+  "received_images": [
+   {
+    "id": "T-a",
+    "file": "incoming/2026-10-30/T-a.png",
+    "size": "1024x576",
+    "source_page": "https://thedieline.com/coca-cola-unveils-newly-refreshed-global-visual-identity-system/",
+    "content": "Original and Zero Sugar cans stacked on red; only the small 'zero sugar' line and a thin black ribbon differ",
+    "use": "hook: 'Two red cans. One has zero sugar.' framed on dark, slow push to the 'zero sugar' line",
+    "credit": "Image: The Coca-Cola Company (press image, via The Dieline)",
+    "note": "below 1080px short side; show framed (frame: true) on dark scene, not full-bleed"
+   },
+   {
+    "id": "T-b",
+    "file": "incoming/2026-10-30/T-b.png",
+    "size": "1024x576",
+    "source_page": "https://thedieline.com/coca-cola-unveils-newly-refreshed-global-visual-identity-system/",
+    "content": "Shelf wall of identical red packs with a 'Sign of Good Taste' poster of the two cans; blurred shopper passing",
+    "use": "'you recognise the brand from the end of the aisle, not the product'",
+    "credit": "Image: The Coca-Cola Company (press image, via The Dieline)",
+    "note": "below 1080px short side; show framed (frame: true) on dark scene, not full-bleed"
+   },
+   {
+    "id": "T-c",
+    "file": "incoming/2026-10-30/T-c.png",
+    "size": "2048x1152",
+    "source_page": "https://thedieline.com/coca-cola-unveils-newly-refreshed-global-visual-identity-system/",
+    "content": "Product family: glass bottles, PET bottles (black vs red cap), 12-pack, cans; everything red",
+    "use": "system overview / end card return; caps show the one real cue (black cap)",
+    "credit": "Image: The Coca-Cola Company (press image, via The Dieline)",
+    "note": "meets size rule"
+   },
+   {
+    "id": "T-d",
+    "file": "incoming/2026-10-30/T-d.png",
+    "size": "1024x576",
+    "source_page": "https://thedieline.com/coca-cola-unveils-newly-refreshed-global-visual-identity-system/",
+    "content": "Row of seven red cans: original, zero sugar, cherry, zero cherry, lemon, zero lemon, caffeine free",
+    "use": "strongest proof: seven products, one colour; variant cue is only a word and a stripe",
+    "credit": "Image: The Coca-Cola Company (press image, via The Dieline)",
+    "note": "below 1080px short side; show framed (frame: true) on dark scene, not full-bleed"
+   },
+   {
+    "id": "T-e",
+    "file": "incoming/2026-10-30/T-e.png",
+    "size": "1024x576",
+    "source_page": "https://thedieline.com/coca-cola-unveils-newly-refreshed-global-visual-identity-system/",
+    "content": "One hand passing a red can to another hand",
+    "use": "'a flight attendant reported handing out the wrong can again and again' (no person shown/named)",
+    "credit": "Image: The Coca-Cola Company (press image, via The Dieline)",
+    "note": "below 1080px short side; show framed (frame: true) on dark scene, not full-bleed"
+   },
+   {
+    "id": "T-f",
+    "file": "incoming/2026-10-30/T-f.png",
+    "size": "1024x576",
+    "source_page": "https://thedieline.com/coca-cola-unveils-newly-refreshed-global-visual-identity-system/",
+    "content": "Real-looking shelf with red multipacks, shoppers blurred in foreground",
+    "use": "shopper scans in one second; optional, alternative to T-b",
+    "credit": "Image: The Coca-Cola Company (press image, via The Dieline)",
+    "note": "below 1080px short side; show framed (frame: true) on dark scene, not full-bleed"
+   },
+   {
+    "id": "T-g",
+    "file": "incoming/2026-10-30/T-g.png",
+    "size": "1024x576",
+    "source_page": "https://thedieline.com/coca-cola-unveils-newly-refreshed-global-visual-identity-system/",
+    "content": "Contour glass bottle on white with red Dynamic Ribbon",
+    "use": "masterbrand recognition: 'the brand should be recognised' (what consistency does well)",
+    "credit": "Image: The Coca-Cola Company (press image, via The Dieline)",
+    "note": "below 1080px short side; show framed (frame: true) on dark scene, not full-bleed"
+   },
+   {
+    "id": "T-h",
+    "file": "incoming/2026-10-30/T-h.png",
+    "size": "1024x576",
+    "source_page": "https://thedieline.com/coca-cola-unveils-newly-refreshed-global-visual-identity-system/",
+    "content": "Design-system flatlay: brand manuals, fact sheet, keyring, envelopes",
+    "use": "'one seamless visual identity' / governance across 200+ markets; optional",
+    "credit": "Image: The Coca-Cola Company (press image, via The Dieline)",
+    "note": "below 1080px short side; show framed (frame: true) on dark scene, not full-bleed"
+   }
+  ],
+  "image_note": "Owner sent 8 official Coca-Cola press images on 2026-10-29 evening via session attachment (ids T-a..T-h; T-d..T-h are extras beyond the request). Only T-c meets 1080px; others framed. Images contain real logos: use only as framed press images with credit, never as AI-generated objects. People in T-b/T-f are blurred campaign models; do not crop to faces."
  }
 }
