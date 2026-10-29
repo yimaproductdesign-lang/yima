@@ -1,0 +1,586 @@
+{
+ "reel_id": "2026-10-29_EN",
+ "date": "2026-10-29",
+ "topic": "When anything can be generated in seconds, visible effort becomes the message",
+ "pillar": "brand_communication_trust",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "graphite",
+   "spot_y": 1250,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://ouraring.com/blog/wear-your-best-life-brand-campaign/",
+     "publisher": "Oura (official blog)",
+     "event_date": "2026-10-08",
+     "retrieved_at": "2026-10-29T05:00:00Z",
+     "claim": "'Wear Your Best Life' eschews AI; a world crafted entirely by hands; 35 modelmakers built a 1:10 city in Prague over three weeks; practical effects"
+    },
+    {
+     "url": "https://www.famouscampaigns.com/?p=47289",
+     "publisher": "Famous Campaigns",
+     "event_date": "2026-10-13",
+     "retrieved_at": "2026-10-29T05:00:00Z",
+     "claim": "Oura 'shunned AI in favour of handmade sets and practical effects'; '35 modelmakers in Prague'; built 'in three weeks'; Nice+Frank, director Sam Walker"
+    }
+   ],
+   "objects": [
+    {
+     "key": "ta",
+     "src": "incoming/2026-10-29/T-a.png",
+     "x": 540,
+     "y": 1320,
+     "w": 820,
+     "ar": 1.776,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.04,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "Oura 'Wear Your Best Life' behind-the-scenes photo (owner upload)",
+     "source_url": "https://ouraring.com/blog/wear-your-best-life-brand-campaign/"
+    }
+   ],
+   "motion_rationale": "قلاب با مدرک واقعی: پشت‌صحنه‌ی شهر مینیاتوری که ماکت‌سازی رویش خم شده (آپلود مالک، قاب‌دار زیر نور موضعی) = ۳۵ نفر، سه هفته، با دست",
+   "lines": [
+    {
+     "text": "35 people. Three weeks.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "A tiny city, built by *hand*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://ouraring.com/blog/wear-your-best-life-brand-campaign/",
+     "publisher": "Oura (official blog)",
+     "event_date": "2026-10-08",
+     "retrieved_at": "2026-10-29T05:00:00Z",
+     "claim": "'Wear Your Best Life' eschews AI; a world crafted entirely by hands; 35 modelmakers built a 1:10 city in Prague over three weeks; practical effects"
+    },
+    {
+     "url": "https://www.famouscampaigns.com/?p=47289",
+     "publisher": "Famous Campaigns",
+     "event_date": "2026-10-13",
+     "retrieved_at": "2026-10-29T05:00:00Z",
+     "claim": "Oura 'shunned AI in favour of handmade sets and practical effects'; '35 modelmakers in Prague'; built 'in three weeks'; Nice+Frank, director Sam Walker"
+    }
+   ],
+   "objects": [
+    {
+     "key": "ring",
+     "src": "assets/objects/2026-10-29/ring.png",
+     "x": 540,
+     "y": 1250,
+     "w": 300,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop",
+     "float": 4
+    }
+   ],
+   "motion_rationale": "یک انگشتر ساده و تنها که می‌افتد وسط کاغذ = این‌همه زحمت برای یک شیء کوچک",
+   "lines": [
+    {
+     "text": "To sell a *ring*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "bg": "graphite",
+   "spot_y": 1250,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://ouraring.com/blog/wear-your-best-life-brand-campaign/",
+     "publisher": "Oura (official blog)",
+     "event_date": "2026-10-08",
+     "retrieved_at": "2026-10-29T05:00:00Z",
+     "claim": "'Wear Your Best Life' eschews AI; a world crafted entirely by hands; 35 modelmakers built a 1:10 city in Prague over three weeks; practical effects"
+    },
+    {
+     "url": "https://www.famouscampaigns.com/?p=47289",
+     "publisher": "Famous Campaigns",
+     "event_date": "2026-10-13",
+     "retrieved_at": "2026-10-29T05:00:00Z",
+     "claim": "Oura 'shunned AI in favour of handmade sets and practical effects'; '35 modelmakers in Prague'; built 'in three weeks'; Nice+Frank, director Sam Walker"
+    }
+   ],
+   "objects": [
+    {
+     "key": "tb",
+     "src": "incoming/2026-10-29/T-b.png",
+     "x": 540,
+     "y": 1250,
+     "w": 900,
+     "ar": 1.778,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.04,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "Oura 'Wear Your Best Life' campaign frame (owner upload)",
+     "source_url": "https://ouraring.com/blog/wear-your-best-life-brand-campaign/"
+    }
+   ],
+   "motion_rationale": "نتیجه‌ی واقعی کمپین (آپلود مالک): دستی که انگشتر دارد در باشگاه مینیاتوری راه می‌رود = هر قاب با دست ساخته شده، نه با ماشین",
+   "lines": [
+    {
+     "text": "And Oura kept AI",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "out of it. On *purpose*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "stamp",
+     "src": "assets/objects/2026-10-29/stamp.png",
+     "x": 540,
+     "y": 1270,
+     "w": 330,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop",
+     "vibrate": 4
+    }
+   ],
+   "motion_rationale": "مهر لاستیکی که با ضربه فرود می‌آید و می‌لرزد = تصویر را می‌شود بی‌نهایت بار، در یک ثانیه، کوبید",
+   "lines": [
+    {
+     "text": "Today, any image",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "takes *seconds* to make.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "phone",
+     "src": "assets/objects/2026-10-25/phone.png",
+     "x": 540,
+     "y": 1300,
+     "w": 460,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -4,
+     "anim": "slide_r",
+     "bright": [
+      1.7,
+      1.7
+     ],
+     "path": [
+      [
+       0,
+       540,
+       1340
+      ],
+      [
+       3.6,
+       540,
+       1240
+      ]
+     ]
+    }
+   ],
+   "motion_rationale": "گوشی از راست می‌آید و آرام مثل فید بالا می‌رود = فیدی که بی‌وقفه تصویر بی‌نقص و بی‌صاحب رد می‌کند",
+   "lines": [
+    {
+     "text": "Feeds are full of perfect pictures",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "nobody *made*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.gartner.com/en/newsroom/press-releases/2026-03-16-gartner-marketing-survey-finds-50-percent-of-consumers-prefer-brands-that-avoid-using-genai-in-consumer-facing-content0",
+     "publisher": "Gartner (press release)",
+     "event_date": "2026-03-16",
+     "retrieved_at": "2026-10-29T05:00:00Z",
+     "claim": "Survey of 1,539 US consumers, Oct 2025: 68% frequently wonder whether the content they see is real; 50% would prefer brands that do not use GenAI"
+    }
+   ],
+   "objects": [
+    {
+     "key": "lens",
+     "src": "assets/objects/2026-10-22/magnifier.png",
+     "x": 540,
+     "y": 1290,
+     "w": 470,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -6,
+     "anim": "pop",
+     "float": 5
+    }
+   ],
+   "motion_rationale": "ذره‌بین = مخاطب حالا با دقت و بدگمانی نگاه می‌کند: واقعی است یا ساختگی؟",
+   "lines": [
+    {
+     "text": "So people squint and ask:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "is this *real*?",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "bg": "graphite",
+   "spot_y": 1250,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://creativebloq.com/design/branding/polaroid-just-dropped-the-most-iconic-anti-ai-ad-of-the-year",
+     "publisher": "Creative Bloq",
+     "event_date": "2025-07-19",
+     "retrieved_at": "2026-10-29T05:00:00Z",
+     "claim": "Polaroid in-house outdoor campaign: 'AI can't generate sand between your toes'"
+    }
+   ],
+   "objects": [
+    {
+     "key": "tc",
+     "src": "incoming/2026-10-29/T-c.png",
+     "x": 540,
+     "y": 1250,
+     "w": 900,
+     "ar": 1.778,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.04,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "Polaroid outdoor campaign artwork (owner upload)",
+     "source_url": "https://creativebloq.com/design/branding/polaroid-just-dropped-the-most-iconic-anti-ai-ad-of-the-year"
+    }
+   ],
+   "motion_rationale": "کمپین واقعی پولاروید (آپلود مالک، قاب‌دار): عکس فوری با جمله‌ی دست‌نویس = «واقعی بودن» خودش شعار تبلیغ شده",
+   "lines": [
+    {
+     "text": "Now “real” itself",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "is the *ad line*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "watch",
+     "src": "assets/objects/2026-10-22/watch.png",
+     "x": 540,
+     "y": 1330,
+     "w": 330,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "pop"
+    }
+   ],
+   "motion_rationale": "چرخش (drop): ساعت = زمانی که خرج شده؛ زحمت پیامِ «برایت وقت گذاشتم» است",
+   "lines": [
+    {
+     "text": "The data is still thin.",
+     "kind": "s",
+     "dim": false
+    },
+    {
+     "text": "But my take: effort says",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "“I spent *time* on you.”",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "tweezers",
+     "src": "assets/objects/2026-10-29/tweezers.png",
+     "x": 540,
+     "y": 1290,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -4,
+     "anim": "slide_l",
+     "bright": [
+      1.5,
+      1.5
+     ]
+    }
+   ],
+   "motion_rationale": "موچین ماکت‌ساز که یک آجر ریز را نگه داشته = زحمتی که جعلش سخت است، آجر به آجر",
+   "lines": [
+    {
+     "text": "Effort is hard to fake.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "That's why we *believe* it.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "cup",
+     "src": "assets/objects/2026-10-29/cup.png",
+     "x": 540,
+     "y": 1300,
+     "w": 420,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise"
+    }
+   ],
+   "motion_rationale": "فنجان دست‌ساز با لبه‌ی کج = نقص کوچک، امضای دست و مدرک زحمت",
+   "lines": [
+    {
+     "text": "That wobble on the rim",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "isn't a flaw. It's *proof*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "scale",
+     "src": "assets/objects/2026-10-22/scale.png",
+     "x": 540,
+     "y": 1300,
+     "w": 470,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "tilt": -5,
+     "tilt_t": 1.4,
+     "bright": [
+      1.4,
+      1.4
+     ]
+    }
+   ],
+   "motion_rationale": "ترازو که کج می‌شود = ساختنِ ارزان در یک کفه، باورکردنِ گران در کفه‌ی دیگر",
+   "lines": [
+    {
+     "text": "The cheaper it looks to make,",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "the harder it is to *believe*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "thread",
+     "src": "assets/objects/2026-10-29/thread.png",
+     "x": 540,
+     "y": 1300,
+     "w": 400,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "float": 4
+    }
+   ],
+   "motion_rationale": "قرقره و سوزن = دوخت پشت پارچه که کسی نمی‌بیند؛ کار ماشین را بگذار برای پشت‌صحنه",
+   "lines": [
+    {
+     "text": "Let machines do the work",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "customers never *see*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "bg": "graphite",
+   "spot_y": 1220,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "house",
+     "src": "assets/objects/2026-10-29/mini_house.png",
+     "x": 540,
+     "y": 1200,
+     "w": 250,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise"
+    }
+   ],
+   "motion_rationale": "بازگشت به آغاز: یک خانه‌ی مینیاتوری دست‌ساز از همان شهر صحنه‌ی اول = زحمت را جایی بگذار که دیده می‌شود",
+   "lines": [
+    {
+     "text": "Spend the effort",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "where they *look*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "bg": "primary",
+   "claim_type": "interpretation",
+   "motion_rationale": "کارت پایانی",
+   "logo": true,
+   "txt_top": 1080,
+   "lines": [
+    {
+     "text": "Write to me.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  }
+ ],
+ "caption": "Thirty-five people. Three weeks. A tiny city, built by hand. To sell a ring.\n\nFor its new \"Wear Your Best Life\" campaign, Oura chose not to use AI. Its own blog says 35 modelmakers in Prague built a one-tenth-scale city in three weeks, shot with practical effects. Polaroid got there earlier with a billboard line: AI can't generate sand between your toes.\n\nMy take: this isn't an anti-AI sermon. When any image takes seconds to make, visible effort becomes the message. It says \"I spent time on you.\" Effort is hard to fake, which is exactly why we believe it. The cheaper something looks to make, the more expensive it is to believe.\n\nThe practical version: let machines do the work customers never see, and spend human hands and hours where they look.\n\nThe limits: in Gartner's survey (1,539 US consumers, October 2025), 68% said they often wonder whether the content they see is real, and half said they'd prefer brands that don't use GenAI. That is what people say, not what they buy, and it's one country. Oura hasn't published results for the campaign yet. The rest is my reading. Sources: Oura's blog, Famous Campaigns, The Drum, Gartner, Creative Bloq. The real photos are from Oura's and Polaroid's campaigns (owner uploads); the other objects are AI-generated.\n\nWhere does the effort go in your business: where customers can see it, or backstage? Write to me.\n\n— Behnood Kavian",
+ "hashtags": [
+  "#branding",
+  "#marketing",
+  "#brandstrategy",
+  "#craftsmanship"
+ ],
+ "sources": [
+  {
+   "publisher": "Oura (official blog)",
+   "title": "Wear Your Best Life: Oura's new brand campaign",
+   "date": "2026-10-08",
+   "url": "https://ouraring.com/blog/wear-your-best-life-brand-campaign/"
+  },
+  {
+   "publisher": "Famous Campaigns",
+   "title": "Oura skips AI to build a tiny city where hands do the walking",
+   "date": "2026-10-13",
+   "url": "https://www.famouscampaigns.com/?p=47289"
+  },
+  {
+   "publisher": "The Drum",
+   "title": "Ad of the day: Oura lets its fingers do the living in handmade miniature city",
+   "date": "2026-10-08",
+   "url": "https://www.thedrum.com/news/ad-of-the-day-oura-lets-its-fingers-do-the-living-in-handmade-miniature-city"
+  },
+  {
+   "publisher": "Gartner",
+   "title": "Gartner marketing survey finds 50% of consumers prefer brands that avoid using GenAI in consumer-facing content",
+   "date": "2026-03-16",
+   "url": "https://www.gartner.com/en/newsroom/press-releases/2026-03-16-gartner-marketing-survey-finds-50-percent-of-consumers-prefer-brands-that-avoid-using-genai-in-consumer-facing-content0"
+  },
+  {
+   "publisher": "Creative Bloq",
+   "title": "Polaroid just dropped the most iconic anti-AI ad of the year",
+   "date": "2025-07-19",
+   "url": "https://creativebloq.com/design/branding/polaroid-just-dropped-the-most-iconic-anti-ai-ad-of-the-year"
+  }
+ ],
+ "cta": "Write to me.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S8"
+ },
+ "status": "DRAFT",
+ "style": "editorial",
+ "lang": "en"
+}
