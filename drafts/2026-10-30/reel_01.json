@@ -1,0 +1,622 @@
+{
+ "reel_id": "2026-10-30_FA",
+ "date": "2026-10-30",
+ "topic": "وقتی برند آن‌قدر یک‌دست می‌شود که محصول گم می‌شود",
+ "pillar": "brand_architecture_packaging",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "graphite",
+   "spot_y": 1280,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.coca-colacompany.com/media-center/coca-cola-sharpens-its-identity-under-one-bold-visual-system",
+     "publisher": "The Coca-Cola Company (official)",
+     "event_date": "2026-07-20",
+     "retrieved_at": "2026-10-30T01:30:00Z",
+     "claim": "Unified visual system across more than 200 markets; Rapha Abreu: 'with one seamless visual identity, we can deliver one recognizable brand experience'; Zero Sugar: larger 'Zero Sugar' text, black Dynamic Ribbon on cans, black cap on PET"
+    }
+   ],
+   "objects": [
+    {
+     "key": "ta",
+     "src": "incoming/2026-10-30/T-a.png",
+     "x": 540,
+     "y": 1300,
+     "w": 880,
+     "ar": 1.778,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.04,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "Image: The Coca-Cola Company (press image, via The Dieline)",
+     "source_url": "https://thedieline.com/coca-cola-unveils-newly-refreshed-global-visual-identity-system/"
+    }
+   ],
+   "motion_rationale": "قلاب با مدرک واقعی (آپلود مالک، قاب‌دار): دو قوطی قرمزِ روی هم که فقط یک سطر ریز فرقشان است = دو قوطی قرمز، یکی بدون قند",
+   "lines": [
+    {
+     "text": "دو قوطی قرمز.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "یکی *بدون قند* است.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "watch",
+     "src": "assets/objects/2026-10-22/watch.png",
+     "x": 540,
+     "y": 1320,
+     "w": 330,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "pop"
+    }
+   ],
+   "motion_rationale": "ساعت = فقط یک ثانیه وقت برای انتخاب جلوی قفسه",
+   "lines": [
+    {
+     "text": "یک ثانیه وقت دارید.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*کدام*؟",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "bg": "graphite",
+   "spot_y": 1280,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.coca-colacompany.com/media-center/coca-cola-sharpens-its-identity-under-one-bold-visual-system",
+     "publisher": "The Coca-Cola Company (official)",
+     "event_date": "2026-07-20",
+     "retrieved_at": "2026-10-30T01:30:00Z",
+     "claim": "Unified visual system across more than 200 markets; Rapha Abreu: 'with one seamless visual identity, we can deliver one recognizable brand experience'; Zero Sugar: larger 'Zero Sugar' text, black Dynamic Ribbon on cans, black cap on PET"
+    }
+   ],
+   "objects": [
+    {
+     "key": "tg",
+     "src": "incoming/2026-10-30/T-g.png",
+     "x": 540,
+     "y": 1280,
+     "w": 900,
+     "ar": 1.778,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.04,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "Image: The Coca-Cola Company (press image, via The Dieline)",
+     "source_url": "https://thedieline.com/coca-cola-unveils-newly-refreshed-global-visual-identity-system/"
+    }
+   ],
+   "motion_rationale": "بطری کلاسیک روی روبان قرمز (آپلود مالک) = برند مادر که از دور شناخته می‌شود؛ کاری که یک‌دستی خوب انجام می‌دهد",
+   "lines": [
+    {
+     "text": "یک زبان تصویری در بیش از ۲۰۰ بازار.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "از ته راهرو *شناخته* می‌شود.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "stamp",
+     "src": "assets/objects/2026-10-29/stamp.png",
+     "x": 540,
+     "y": 1300,
+     "w": 330,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop",
+     "vibrate": 4
+    }
+   ],
+   "motion_rationale": "مهر لاستیکی که فرود می‌آید = یک نقش، همه‌جا یک‌جور؛ تکرار، حافظه می‌سازد",
+   "lines": [
+    {
+     "text": "و این حرکت هوشمندانه‌ای است.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*یک‌دستی* یعنی حافظه.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "bg": "graphite",
+   "spot_y": 1280,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.coca-colacompany.com/media-center/coca-cola-sharpens-its-identity-under-one-bold-visual-system",
+     "publisher": "The Coca-Cola Company (official)",
+     "event_date": "2026-07-20",
+     "retrieved_at": "2026-10-30T01:30:00Z",
+     "claim": "Unified visual system across more than 200 markets; Rapha Abreu: 'with one seamless visual identity, we can deliver one recognizable brand experience'; Zero Sugar: larger 'Zero Sugar' text, black Dynamic Ribbon on cans, black cap on PET"
+    },
+    {
+     "url": "https://creativebloq.com/news/the-coca-cola-rebrand-is-still-causing-confusion-three-months-on",
+     "publisher": "Creative Bloq",
+     "event_date": "2026-10-11",
+     "retrieved_at": "2026-10-30T01:30:00Z",
+     "claim": "Three months on, Original and Zero Sugar are easy to mix up; Zero's only remaining colour cue is a black ribbon; flight attendant on TikTok: 'lost count of how many wrong Cokes I've handed out this week'; commenters with diabetes/allergy rely on the cue"
+    }
+   ],
+   "objects": [
+    {
+     "key": "td",
+     "src": "incoming/2026-10-30/T-d.png",
+     "x": 540,
+     "y": 1280,
+     "w": 900,
+     "ar": 1.778,
+     "frame": true,
+     "anim": "slide_r",
+     "push": 0.03,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "Image: The Coca-Cola Company (press image, via The Dieline)",
+     "source_url": "https://thedieline.com/coca-cola-unveils-newly-refreshed-global-visual-identity-system/"
+    }
+   ],
+   "motion_rationale": "چرخش ایده: ردیف هفت قوطیِ همه قرمز (آپلود مالک) از راست وارد می‌شود = هفت محصول، یک رنگ",
+   "lines": [
+    {
+     "text": "ولی حالا هفت محصول",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "یک *رنگ* دارند.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "roller",
+     "src": "assets/objects/2026-10-26/paint_roller.png",
+     "x": 540,
+     "y": 1300,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -6,
+     "anim": "slide_l"
+    }
+   ],
+   "motion_rationale": "غلتک رنگ که از چپ رد می‌شود = همه‌چیز یک‌رنگ می‌شود و تفاوت‌ها هم زیر رنگ می‌روند",
+   "lines": [
+    {
+     "text": "غلتکی که همه‌چیز را یک‌رنگ می‌کند،",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*تفاوت‌ها* را هم می‌پوشاند.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "bg": "graphite",
+   "spot_y": 1280,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://creativebloq.com/news/the-coca-cola-rebrand-is-still-causing-confusion-three-months-on",
+     "publisher": "Creative Bloq",
+     "event_date": "2026-10-11",
+     "retrieved_at": "2026-10-30T01:30:00Z",
+     "claim": "Three months on, Original and Zero Sugar are easy to mix up; Zero's only remaining colour cue is a black ribbon; flight attendant on TikTok: 'lost count of how many wrong Cokes I've handed out this week'; commenters with diabetes/allergy rely on the cue"
+    }
+   ],
+   "objects": [
+    {
+     "key": "te",
+     "src": "incoming/2026-10-30/T-e.png",
+     "x": 540,
+     "y": 1280,
+     "w": 900,
+     "ar": 1.778,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.04,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "Image: The Coca-Cola Company (press image, via The Dieline)",
+     "source_url": "https://thedieline.com/coca-cola-unveils-newly-refreshed-global-visual-identity-system/"
+    }
+   ],
+   "motion_rationale": "دستی که قوطی را به دست دیگر می‌دهد (آپلود مالک) = قوطی اشتباه دست‌به‌دست می‌شود؛ بدون نشان‌دادن یا نام‌بردن از کسی",
+   "lines": [
+    {
+     "text": "آدم‌ها می‌گویند",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "قوطیِ *اشتباه* دست‌به‌دست می‌شود.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.coca-colacompany.com/media-center/coca-cola-sharpens-its-identity-under-one-bold-visual-system",
+     "publisher": "The Coca-Cola Company (official)",
+     "event_date": "2026-07-20",
+     "retrieved_at": "2026-10-30T01:30:00Z",
+     "claim": "Unified visual system across more than 200 markets; Rapha Abreu: 'with one seamless visual identity, we can deliver one recognizable brand experience'; Zero Sugar: larger 'Zero Sugar' text, black Dynamic Ribbon on cans, black cap on PET"
+    },
+    {
+     "url": "https://creativebloq.com/news/the-coca-cola-rebrand-is-still-causing-confusion-three-months-on",
+     "publisher": "Creative Bloq",
+     "event_date": "2026-10-11",
+     "retrieved_at": "2026-10-30T01:30:00Z",
+     "claim": "Three months on, Original and Zero Sugar are easy to mix up; Zero's only remaining colour cue is a black ribbon; flight attendant on TikTok: 'lost count of how many wrong Cokes I've handed out this week'; commenters with diabetes/allergy rely on the cue"
+    }
+   ],
+   "objects": [
+    {
+     "key": "lens",
+     "src": "assets/objects/2026-10-22/magnifier.png",
+     "x": 540,
+     "y": 1350,
+     "w": 430,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -6,
+     "anim": "pop",
+     "float": 5
+    }
+   ],
+   "motion_rationale": "ذره‌بین = تفاوت هست (نوار مشکی، نوشته‌ی درشت‌تر) ولی فقط با دقت دیده می‌شود؛ احتیاط یک بار و کوتاه",
+   "lines": [
+    {
+     "text": "فعلاً روایت است، نه آمار فروش.",
+     "kind": "s",
+     "dim": false
+    },
+    {
+     "text": "فرق هست: نوار مشکی، نوشته‌ی درشت‌تر.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "ولی باید *دقیق* نگاه کنید.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "scale",
+     "src": "assets/objects/2026-10-22/scale.png",
+     "x": 540,
+     "y": 1310,
+     "w": 470,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "tilt": -5,
+     "tilt_t": 1.4,
+     "bright": [
+      1.4,
+      1.4
+     ]
+    }
+   ],
+   "motion_rationale": "ترازو = دو کفه: شناخته‌شدنِ برند و پیدا‌شدنِ محصول؛ هر دو باید وزن داشته باشند",
+   "lines": [
+    {
+     "text": "برند باید *شناخته* شود؛",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "محصول باید *پیدا* شود.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "basket",
+     "src": "assets/objects/2026-10-24/basket.png",
+     "x": 540,
+     "y": 1320,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop"
+    }
+   ],
+   "motion_rationale": "سبد خرید که می‌افتد = محصول اشتباه در سبد؛ یک بار خنده، بار سوم بی‌اعتمادی",
+   "lines": [
+    {
+     "text": "یک بار اشتباه، خنده دارد.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "بار سوم، *اعتماد* می‌رود.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "bg": "graphite",
+   "spot_y": 1220,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.foodnavigator.com/Article/2011/12/02/Consumers-see-red-over-Coke-s-white-can-campaign/",
+     "publisher": "FoodNavigator",
+     "event_date": "2011-12-02",
+     "retrieved_at": "2026-10-30T01:30:00Z",
+     "claim": "2011 white holiday cans confused with silver Diet Coke; about a month after launch only red was being shipped; company did not cite confusion as the reason"
+    }
+   ],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "fade",
+     "box": [
+      140,
+      980,
+      940,
+      1460
+     ],
+     "seed": 5,
+     "size": 58,
+     "t0": 0.9,
+     "keep_at": [
+      540,
+      1230
+     ],
+     "words": [
+      "سفید",
+      "خرس قطبی",
+      "زمستان",
+      "نقره‌ای",
+      "رژیمی",
+      "قرمز"
+     ],
+     "keep": [
+      "قرمز"
+     ]
+    }
+   ],
+   "motion_rationale": "کلمه‌های کمپین ۲۰۱۱ (سفید، خرس قطبی، نقره‌ای، رژیمی) محو می‌شوند و فقط «قرمز» می‌ماند و بزرگ می‌شود = قوطی سفید چند هفته بعد قرمز شد",
+   "lines": [
+    {
+     "text": "قوطی سفیدِ زمستانی‌اش هم",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "چند هفته بعد *قرمز* شد.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "key",
+     "src": "assets/objects/2026-10-24/key.png",
+     "x": 540,
+     "y": 1340,
+     "w": 420,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -10,
+     "anim": "pop"
+    }
+   ],
+   "motion_rationale": "کلید = نشانه‌ای که فقط به یک قفل می‌خورد؛ یک نشانه‌ی بی‌اشتباه برای هر محصول",
+   "lines": [
+    {
+     "text": "به هر محصول یک نشانه بدهید",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "که *نشود* اشتباهش گرفت.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "یک رنگ یا یک فرم، از هر طرف.",
+     "kind": "s",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "bg": "graphite",
+   "spot_y": 1280,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.coca-colacompany.com/media-center/coca-cola-sharpens-its-identity-under-one-bold-visual-system",
+     "publisher": "The Coca-Cola Company (official)",
+     "event_date": "2026-07-20",
+     "retrieved_at": "2026-10-30T01:30:00Z",
+     "claim": "Unified visual system across more than 200 markets; Rapha Abreu: 'with one seamless visual identity, we can deliver one recognizable brand experience'; Zero Sugar: larger 'Zero Sugar' text, black Dynamic Ribbon on cans, black cap on PET"
+    }
+   ],
+   "objects": [
+    {
+     "key": "tc",
+     "src": "incoming/2026-10-30/T-c.png",
+     "x": 540,
+     "y": 1280,
+     "w": 900,
+     "ar": 1.778,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.04,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "Image: The Coca-Cola Company (press image, via The Dieline)",
+     "source_url": "https://thedieline.com/coca-cola-unveils-newly-refreshed-global-visual-identity-system/"
+    }
+   ],
+   "motion_rationale": "بازگشت به قوطی‌های آغاز: خانواده‌ی محصول با درپوش مشکی (آپلود مالک) = نشانه‌ای که از فاصله‌ی یک دست کار می‌کند؛ تست یک‌ثانیه‌ای",
+   "lines": [
+    {
+     "text": "از فاصله‌ی یک دست،",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "در یک *ثانیه* امتحانش کنید.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "bg": "primary",
+   "claim_type": "interpretation",
+   "motion_rationale": "کارت پایانی",
+   "logo": true,
+   "txt_top": 1080,
+   "lines": [
+    {
+     "text": "برای من بنویسید.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  }
+ ],
+ "caption": "دو قوطی قرمز. یکی بدون قند. یک ثانیه وقت دارید.\n\nکوکاکولا امسال بسته‌بندی‌هایش را در بیش از ۲۰۰ بازار زیر یک نظام تصویری برد. به گفته‌ی خود شرکت، هدف این است که با «یک هویت تصویری یکپارچه» یک تجربه‌ی برندِ قابل‌شناختن بسازد. به نظر من حرکت درستی است: یک‌دستی یعنی حافظه، و برند را از ته راهرو می‌شناسید.\n\nولی حالا نسخه‌ی معمولی و زیرو شوگر خیلی شبیه هم شده‌اند. تنها نشانه‌ی رنگیِ زیرو یک نوار مشکی است، کنار نوشته‌ای درشت‌تر. سه ماه بعد، آدم‌ها هنوز در شبکه‌های اجتماعی تعریف می‌کنند که قوطی اشتباه برداشته‌اند یا دست کسی داده‌اند؛ چند نفر نوشته‌اند به خاطر دیابت یا حساسیت، به همان نشانه تکیه می‌کنند. یک بار اشتباه خنده دارد؛ بار سوم اعتماد می‌رود.\n\nدرسش معماری برند است: نشانه‌های برند مادر برای شناختن، و برای هر محصول یک نشانه‌ی بی‌اشتباه، رنگ یا فرم، که از هر طرف بسته دیده شود. امتحانش ساده است: از فاصله‌ی یک دست، در یک ثانیه.\n\nحدودش را هم بگویم: شواهد سردرگمی فعلاً روایت آدم‌ها و گزارش رسانه‌هاست، نه آمار فروش، و بعضی متخصص‌های بسته‌بندی، خانواده‌ی یک‌دست‌تر را تحسین کرده‌اند. در ۲۰۱۱ هم قوطی‌های سفید زمستانی کوکاکولا را با نسخه‌ی رژیمیِ نقره‌ای اشتباه می‌گرفتند و حدود یک ماه بعد دوباره قرمز شدند؛ شرکت رسماً سردرگمی را دلیلش اعلام نکرد. منبع‌ها: بیانیه‌ی کوکاکولا، Creative Bloq، Packaging Europe و FoodNavigator. عکس‌های واقعی، تصویرهای مطبوعاتی شرکت کوکاکولا‌اند (از طریق The Dieline، آپلود مالک)؛ اشیای دیگر با هوش مصنوعی ساخته شده‌اند.\n\nمحصول‌های شما از فاصله‌ی یک دست از هم جدا می‌شوند، یا فقط برندتان شناخته می‌شود؟ برای من بنویسید.\n\n— بهنود کاویان",
+ "hashtags": [
+  "#برندینگ",
+  "#بازاریابی",
+  "#packagingdesign",
+  "#brandstrategy"
+ ],
+ "sources": [
+  {
+   "publisher": "The Coca-Cola Company",
+   "title": "Coca-Cola sharpens its identity under one bold visual system",
+   "date": "2026-07-20",
+   "url": "https://www.coca-colacompany.com/media-center/coca-cola-sharpens-its-identity-under-one-bold-visual-system"
+  },
+  {
+   "publisher": "Creative Bloq",
+   "title": "The Coca-Cola rebrand is still causing confusion three months on",
+   "date": "2026-10-11",
+   "url": "https://creativebloq.com/news/the-coca-cola-rebrand-is-still-causing-confusion-three-months-on"
+  },
+  {
+   "publisher": "Packaging Europe",
+   "title": "Is Coca-Cola's refreshed packaging a success or a mistake?",
+   "date": "2026-07-27",
+   "url": "https://www.packagingeurope.com/is-coca-colas-refreshed-packaging-a-success-or-a-mistake/"
+  },
+  {
+   "publisher": "FoodNavigator",
+   "title": "Consumers see red over Coke's white can campaign",
+   "date": "2011-12-02",
+   "url": "https://www.foodnavigator.com/Article/2011/12/02/Consumers-see-red-over-Coke-s-white-can-campaign/"
+  },
+  {
+   "publisher": "The Dieline",
+   "title": "Coca-Cola unveils newly refreshed global visual identity system (press images)",
+   "date": "2026-07",
+   "url": "https://thedieline.com/coca-cola-unveils-newly-refreshed-global-visual-identity-system/"
+  }
+ ],
+ "cta": "برای من بنویسید.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S5"
+ },
+ "status": "DRAFT",
+ "style": "editorial",
+ "lang": "fa"
+}
