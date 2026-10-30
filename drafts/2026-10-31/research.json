@@ -1,0 +1,364 @@
+{
+  "date": "2026-10-31",
+  "stage": "1-evening",
+  "run_at": "2026-10-30T16:58Z",
+  "scope": "branding, brand strategy, marketing only (owner rule 2026-10-23)",
+  "searches": [
+    "rebrand new logo October 2026",
+    "brand campaign marketing news this week October 2026",
+    "packaging redesign brand backlash October 2026",
+    "Marketing Week October 2026 brand strategy column",
+    "new visual identity unveiled Creative Review OR It's Nice That OR Dezeen October 2026",
+    "brand name change renamed company October 2026 marketing",
+    "Skydance Corp new name Paramount Warner Bros combined company reaction branding",
+    "store brands private label share 2026 shoppers trust brands study",
+    "Kantar BrandZ 2026 most valuable brands",
+    "Skydance Corporation official announcement constellation brands logo"
+  ],
+  "pages_read": [
+    "bmwblog.com BMW slogan",
+    "b2the7.com trends week Oct 26",
+    "meltwater.com creative campaigns",
+    "statnews.com Novo",
+    "trendhunter.com October 2026 (thin, discarded)",
+    "creativebloq.com Skydance reaction",
+    "bnnbloomberg.ca Skydance name",
+    "blog.n8n.io brand refresh",
+    "abasto.com store brands",
+    "designcompass.org Skydance identity"
+  ],
+  "fetch_failures": [
+    "variety.com Skydance (client_error)",
+    "packagingdigest.com Butterball (client_error)",
+    "skydance.com/news/what-once-was-the-peak-is-now-just-the-beginning (permission not granted in unattended run; URL taken from designcompass source list, content NOT verified)"
+  ],
+  "excluded_recent_topics": [
+    "2026-10-23 product moment",
+    "2026-10-24 Tropicana-style redesign recognition",
+    "2026-10-25 shrinkflation",
+    "2026-10-26 slogan fatigue",
+    "2026-10-29 visible effort vs AI",
+    "2026-10-30 consistency hides products (Coke Zero)"
+  ],
+  "scoring_note": "Weights: freshness 10, growth 15, reach 15, qualified-follower 15, regional business relevance 15, audience psychology 10, commercial utility 10, originality 5, verifiability 5. Growth, reach, follower potential, relevance, psychology and utility are ESTIMATES (editorial judgement, no platform data).",
+  "candidates": [
+    {
+      "id": "C1",
+      "title": "Paramount + Warner Bros Discovery combined company named 'Skydance' (corporate naming / brand architecture)",
+      "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/02/david-ellison-says-combined-paramount-and-warner-bros-discovery-will-be-named-skydance/",
+      "publisher": "BNN Bloomberg (Reuters)",
+      "event_date": "2026-10-02",
+      "claim": "Ellison: 'We never wanted a new corporate identity to diminish, alter or overshadow either one'; legal name Skydance Corporation from Oct 6; ticker SKYD; Emarketer's Ross Benes called the name 'ego-driven'.",
+      "class": "emerging",
+      "verification": "verified: two independent outlets read",
+      "retrieved_at": "2026-10-30T16:58Z",
+      "scores": {
+        "freshness": 8,
+        "growth": 11,
+        "reach": 13,
+        "qualified_follower_potential": 13,
+        "regional_business_relevance": 13,
+        "audience_psychology": 9,
+        "commercial_utility": 9,
+        "originality": 4,
+        "verifiability": 5
+      },
+      "total": 85,
+      "notes": "Read in full (summary). Consumer studio brands (Paramount, Warner Bros, HBO, CNN, DC) are kept. Corroborated by Creative Bloq 2026-10-03 and designcompass 2026-10-07."
+    },
+    {
+      "id": "C2",
+      "title": "Skydance rebrand 'isn't going down well' — public reaction, constellation-of-brands graphic",
+      "url": "https://creativebloq.com/entertainment/warner-bros-and-paramounts-skydance-rebrand-isnt-going-down-well",
+      "publisher": "Creative Bloq (Joe Foley)",
+      "event_date": "2026-10-03",
+      "claim": "Name taken from Ellison's former production company; launch video frames brands as a 'constellation'; studios keep identities like Pixar/Marvel in Disney; online comparisons to Twitter->X and Skynet.",
+      "class": "emerging",
+      "verification": "read; reaction = anecdotal",
+      "retrieved_at": "2026-10-30T16:58Z",
+      "scores": {
+        "freshness": 8,
+        "growth": 10,
+        "reach": 12,
+        "qualified_follower_potential": 12,
+        "regional_business_relevance": 12,
+        "audience_psychology": 9,
+        "commercial_utility": 8,
+        "originality": 4,
+        "verifiability": 4
+      },
+      "total": 79,
+      "notes": "Reaction quotes are social posts: treat as sentiment, not data."
+    },
+    {
+      "id": "C3",
+      "title": "BMW new international campaign line 'Made Different. To Feel Different.'",
+      "url": "https://www.bmwblog.com/2026/10/30/bmw-made-different-to-feel-different-slogan/",
+      "publisher": "BMWBlog (Adrian Padeanu)",
+      "event_date": "2026-10-30",
+      "claim": "120-second hero film plus shorter films on design, quality, service; whether it replaces an existing line is NOT stated in the article.",
+      "class": "breaking",
+      "verification": "partly verified",
+      "retrieved_at": "2026-10-30T16:58Z",
+      "scores": {
+        "freshness": 10,
+        "growth": 9,
+        "reach": 12,
+        "qualified_follower_potential": 11,
+        "regional_business_relevance": 10,
+        "audience_psychology": 6,
+        "commercial_utility": 7,
+        "originality": 3,
+        "verifiability": 3
+      },
+      "total": 71,
+      "notes": "Slogan topic too close to 2026-10-26 (slogan fatigue). Replacement status unverified."
+    },
+    {
+      "id": "C4",
+      "title": "Novo Nordisk operates as 'Novo' — shortened name as turnaround signal",
+      "url": "https://www.statnews.com/2026/09/14/novo-nordisk-company-rebrand-obesity-diabetes/",
+      "publisher": "STAT News",
+      "event_date": "2026-09-14",
+      "claim": "New name 'Novo', slogan 'Lasting Health Starts Now'; framed as turnaround after falling behind Eli Lilly; shares down ~20% in a year.",
+      "class": "emerging",
+      "verification": "partly verified (paywall)",
+      "retrieved_at": "2026-10-30T16:58Z",
+      "scores": {
+        "freshness": 5,
+        "growth": 8,
+        "reach": 10,
+        "qualified_follower_potential": 10,
+        "regional_business_relevance": 9,
+        "audience_psychology": 7,
+        "commercial_utility": 8,
+        "originality": 3,
+        "verifiability": 4
+      },
+      "total": 64,
+      "notes": "Paywalled after intro; logo details unknown. Pharma = weaker fit for audience."
+    },
+    {
+      "id": "C5",
+      "title": "Store brands at record unit share 23.8% (PLMA/Circana H1 2026); Zappi: shoppers buying only national brands fell 21%->10%",
+      "url": "https://abasto.com/en/news/store-brands-hit-record-market-share-in-first-half-of-2026/",
+      "publisher": "Abasto (PLMA/Circana data)",
+      "event_date": "2026-07-08",
+      "claim": "Private label 23.8% unit share record; Zappi survey says national-brand-only shoppers halved in under a year.",
+      "class": "evergreen",
+      "verification": "PLMA figure corroborated by several outlets in SERP; Zappi not independently checked",
+      "retrieved_at": "2026-10-30T16:58Z",
+      "scores": {
+        "freshness": 4,
+        "growth": 10,
+        "reach": 11,
+        "qualified_follower_potential": 12,
+        "regional_business_relevance": 13,
+        "audience_psychology": 9,
+        "commercial_utility": 10,
+        "originality": 3,
+        "verifiability": 4
+      },
+      "total": 76,
+      "notes": "Zappi figure is a vendor survey, secondary report only. Pricing angle close to 2026-10-25 (shrinkflation)."
+    },
+    {
+      "id": "C6",
+      "title": "n8n brand refresh: new logo, type, colour system — 'a zhush, not a rebuild'",
+      "url": "https://blog.n8n.io/n8n-brand-refresh-2026/",
+      "publisher": "n8n (official blog)",
+      "event_date": "2026-10-14",
+      "claim": "Moves from connected-nodes logo as company becomes multi-product; keeps pink; admits some will miss the old logo.",
+      "class": "breaking",
+      "verification": "verified (primary source)",
+      "retrieved_at": "2026-10-30T16:58Z",
+      "scores": {
+        "freshness": 9,
+        "growth": 6,
+        "reach": 7,
+        "qualified_follower_potential": 9,
+        "regional_business_relevance": 7,
+        "audience_psychology": 6,
+        "commercial_utility": 7,
+        "originality": 3,
+        "verifiability": 5
+      },
+      "total": 59,
+      "notes": "Niche B2B tech; low reach for Persian audience."
+    },
+    {
+      "id": "C7",
+      "title": "Apple Music identity 'made by sound'",
+      "url": "https://dezeen.com/2026/10/26/apple-music-logo-physically-made-by-sound",
+      "publisher": "Dezeen",
+      "event_date": "2026-10-21",
+      "claim": "Logo physically formed by sound.",
+      "class": "breaking",
+      "verification": "verified earlier",
+      "retrieved_at": "2026-10-30T16:58Z",
+      "scores": {
+        "freshness": 7,
+        "growth": 10,
+        "reach": 14,
+        "qualified_follower_potential": 10,
+        "regional_business_relevance": 8,
+        "audience_psychology": 7,
+        "commercial_utility": 6,
+        "originality": 1,
+        "verifiability": 5
+      },
+      "total": 68,
+      "notes": "Already used as samples/sample_reel_en.json reference (2026-10-22). Excluded as repeat."
+    },
+    {
+      "id": "C8",
+      "title": "Holiday creative refresh: weekly-new creative saw 23% higher 7-day ROAS (AppLovin data via Marketing Dive)",
+      "url": "https://www.b2the7.com/news-blog/marketing-trends-october-26-2026",
+      "publisher": "B2the7 roundup citing Marketing Dive 2026-10-16",
+      "event_date": "2026-10-16",
+      "claim": "Advertisers refreshing creative almost weekly had 23% higher 7-day ROAS; vendor data, directional.",
+      "class": "emerging",
+      "verification": "unverified (secondary)",
+      "retrieved_at": "2026-10-30T16:58Z",
+      "scores": {
+        "freshness": 8,
+        "growth": 8,
+        "reach": 9,
+        "qualified_follower_potential": 9,
+        "regional_business_relevance": 10,
+        "audience_psychology": 7,
+        "commercial_utility": 9,
+        "originality": 3,
+        "verifiability": 2
+      },
+      "total": 65,
+      "notes": "Vendor data from an ad-tech seller; contradicts brand-memory logic of 2026-10-26 — would read as a reversal. Secondary source only."
+    },
+    {
+      "id": "C9",
+      "title": "October celebrity-heavy campaigns (Rivian/Bill Murray, DoorDash/Kim Kardashian, Sprite/Jokić)",
+      "url": "https://www.meltwater.com/en/news/most-creative-brand-campaigns",
+      "publisher": "Meltwater (citing Adweek)",
+      "event_date": "2026-10-16",
+      "claim": "Brands 'calling in the big names' this month.",
+      "class": "emerging",
+      "verification": "secondary roundup",
+      "retrieved_at": "2026-10-30T16:58Z",
+      "scores": {
+        "freshness": 8,
+        "growth": 8,
+        "reach": 12,
+        "qualified_follower_potential": 8,
+        "regional_business_relevance": 8,
+        "audience_psychology": 7,
+        "commercial_utility": 7,
+        "originality": 2,
+        "verifiability": 3
+      },
+      "total": 63,
+      "notes": "Real-person faces would be needed; image rules forbid using people casually. Thin idea."
+    },
+    {
+      "id": "C10",
+      "title": "Meltwater 25th-anniversary film series with Kim Cattrall",
+      "url": "https://www.meltwater.com/en/news/most-creative-brand-campaigns",
+      "publisher": "Meltwater (self-published)",
+      "event_date": "2026-10-22",
+      "claim": "In-house short films on PR teams tracking brand conversation.",
+      "class": "commercial",
+      "verification": "self-reported",
+      "retrieved_at": "2026-10-30T16:58Z",
+      "scores": {
+        "freshness": 8,
+        "growth": 4,
+        "reach": 6,
+        "qualified_follower_potential": 6,
+        "regional_business_relevance": 6,
+        "audience_psychology": 5,
+        "commercial_utility": 5,
+        "originality": 2,
+        "verifiability": 3
+      },
+      "total": 45,
+      "notes": "Self-promotional source; low originality."
+    },
+    {
+      "id": "C11",
+      "title": "Evergreen: branded house vs house of brands (Disney/Pixar/Marvel; Unilever/Dove; family holding groups)",
+      "url": "https://creativebloq.com/entertainment/warner-bros-and-paramounts-skydance-rebrand-isnt-going-down-well",
+      "publisher": "Creative Bloq (Pixar/Marvel-inside-Disney comparison)",
+      "event_date": "evergreen",
+      "claim": "Customers buy product brands; corporate names serve investors, banks and staff.",
+      "class": "evergreen",
+      "verification": "framework, not a claim",
+      "retrieved_at": "2026-10-30T16:58Z",
+      "scores": {
+        "freshness": 3,
+        "growth": 7,
+        "reach": 11,
+        "qualified_follower_potential": 13,
+        "regional_business_relevance": 14,
+        "audience_psychology": 9,
+        "commercial_utility": 10,
+        "originality": 3,
+        "verifiability": 4
+      },
+      "total": 74,
+      "notes": "Merged into C1 as the idea beneath the news spark."
+    },
+    {
+      "id": "C12",
+      "title": "Meta business terms allow crawling of business-linked sites from Oct 30",
+      "url": "https://www.b2the7.com/news-blog/marketing-trends-october-26-2026",
+      "publisher": "B2the7 roundup citing Nieman Lab",
+      "event_date": "2026-10-30",
+      "claim": "Updated commercial terms; 'train' removed after reporting.",
+      "class": "breaking",
+      "verification": "secondary",
+      "retrieved_at": "2026-10-30T16:58Z",
+      "scores": {
+        "freshness": 10,
+        "growth": 7,
+        "reach": 9,
+        "qualified_follower_potential": 6,
+        "regional_business_relevance": 7,
+        "audience_psychology": 4,
+        "commercial_utility": 5,
+        "originality": 3,
+        "verifiability": 2
+      },
+      "total": 53,
+      "notes": "Platform/legal, outside branding scope. Excluded."
+    }
+  ],
+  "lenses_summary": {
+    "verification_red_team": "C1 confirmed by Reuters via BNN Bloomberg plus Creative Bloq and designcompass. Do not claim the name 'failed' or that customers rejected it: reaction is social posts and one analyst view ('ego-driven'). Deal value ($110bn) and Oct 6 legal name change are reported, not audited. Do not say how the logo was designed beyond what designcompass states. C3 replacement status unknown; C5 Zappi number secondary only; C8 vendor data.",
+    "audience_psychology": "Every business owner has felt the urge to put their own name on the door. The tension 'who is the name for?' is personal (ego, family name, shareholders) and practical. Movie-studio logos are universally known images; no need for English fluency to feel it.",
+    "brand_fit": "Behnood = strategist/designer talking to business owners. Naming and brand architecture is core work. Regional relevance high: family holding groups and multi-brand companies across the audience's markets wrestle with parent-name vs product-name. Safe, non-political (avoid monopoly/news-politics angle, CNN/CBS editorial disputes)."
+  },
+  "gates": {
+    "brand_fit_gate": {
+      "passed": [
+        "C1",
+        "C2",
+        "C4",
+        "C5",
+        "C6",
+        "C11"
+      ],
+      "failed": [
+        "C9 (people-led, thin)",
+        "C10 (self-promo)",
+        "C12 (out of scope)",
+        "C7 (repeat)"
+      ]
+    },
+    "story_gate": "C1+C11 wins: central tension (the merger's name honours neither famous studio; the name on the building vs the name on the screen) and a concrete image (the studio logo before a film; a brass nameplate on a door vs a cinema ticket). C5 has a strong number but repeats the pricing theme of 2026-10-25; C3 repeats 2026-10-26.",
+    "repeat_check": "2026-10-30 dealt with visual consistency inside one brand's packaging; tomorrow is about naming and who a name serves (parent vs product). Different question, different imagery."
+  },
+  "decision": {
+    "chosen": "C1+C11",
+    "why": "Fresh, verified spark; evergreen idea underneath usable by any business owner with more than one product; works equally for Persian and international audiences.",
+    "runner_up": "C5 store brands (hold for a later week)"
+  }
+}

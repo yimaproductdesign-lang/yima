@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-31",
+  "T": {
+    "topic_fa": "نام روی ساختمان، نام روی پرده: هر نامی برای یک مخاطب است",
+    "topic_en": "The name on the building vs the name on the screen: every name has one audience",
+    "pillar": "naming_brand_architecture",
+    "central_tension_fa": "دو نام افسانه‌ای سینما یکی شدند و نام شرکت تازه هیچ‌کدامشان نیست. ما فکر می‌کنیم نام شرکت مادر باید ستاره باشد؛ ولی هیچ‌کس از «شرکت» بلیت نمی‌خرد. نام بالای سر برای بانک و سهام‌دار است؛ نامی که مشتری می‌شناسد را دست نزن.",
+    "central_tension_en": "Two of the most famous names in film merged, and the new company is named after neither. We think the parent name should be the star. But nobody buys a ticket from a holding company. The name on top is for investors; the name people love is the one you don't touch.",
+    "working_hook_fa": "دو اسم افسانه‌ای یکی شدند. اسم تازه، هیچ‌کدامشان نیست.",
+    "working_hook_en": "Two legendary studios merged. The new name is neither of them.",
+    "key_sources": [
+      {
+        "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/02/david-ellison-says-combined-paramount-and-warner-bros-discovery-will-be-named-skydance/",
+        "publisher": "BNN Bloomberg (Reuters)",
+        "date": "2026-10-02",
+        "claim": "Combined Paramount + Warner Bros Discovery to be named Skydance; Ellison: 'We never wanted a new corporate identity to diminish, alter or overshadow either one'; legal name Skydance Corporation from Oct 6; Emarketer analyst Ross Benes called it 'ego-driven'."
+      },
+      {
+        "url": "https://creativebloq.com/entertainment/warner-bros-and-paramounts-skydance-rebrand-isnt-going-down-well",
+        "publisher": "Creative Bloq",
+        "date": "2026-10-03",
+        "claim": "Name comes from Ellison's former production company; studios, HBO, DC, CNN keep their identities (compared to Pixar and Marvel inside Disney); online reaction largely negative (anecdotal)."
+      },
+      {
+        "url": "https://designcompass.org/en/2026/10/07/skydance-paramount-warner-bros-brand-identity/",
+        "publisher": "Design Compass",
+        "date": "2026-10-07",
+        "claim": "Skydance launched Oct 6; the existing Skydance logo animation (Imaginary Forces) shows letters converging in a star field, based on a mechanical solar-system model; Skydance sits above Paramount and Warner Bros as the connecting corporate name."
+      }
+    ],
+    "music_mood": "dark",
+    "framing_note": "News is the spark; the reel is about who each name serves (corporate/endorsing name vs product brand) and the founder's urge to put their own name on top. Do not say the name failed or that customers rejected it (reaction is anecdotal; one analyst quote). Keep it non-political: no monopoly, newsroom or CNN/CBS editorial angle. No studio or publication names in on-screen headline lines if avoidable; brand names fine in body/caption. Never use real people's faces. Never name the UAE, Dubai or any emirate. Takeaway for owners: before renaming, list which audience each name speaks to (customers, staff, investors, banks) and protect the one customers already search for.",
+    "image_requests": [
+      {
+        "id": "T-a",
+        "description": "تصویر «منظومه‌ی برندهای اسکای‌دنس» (نام اسکای‌دنس بالای لوگوهای پارامونت، برادران وارنر، اچ‌بی‌او و…) را از همین مقاله ذخیره کن؛ عکس آدم نه.",
+        "page_url": "https://creativebloq.com/entertainment/warner-bros-and-paramounts-skydance-rebrand-isnt-going-down-well",
+        "scene_idea": "صحنه‌ی چرخش: یک نام تازه بالای سر همه‌ی نام‌های آشنا؛ قاب‌دار روی زمینه‌ی تیره."
+      },
+      {
+        "id": "T-b",
+        "description": "تصویر سرصفحه‌ی مقاله (لوگو/هویت اسکای‌دنس) را از این صفحه ذخیره کن.",
+        "page_url": "https://designcompass.org/en/2026/10/07/skydance-paramount-warner-bros-brand-identity/",
+        "scene_idea": "صحنه‌ی قلاب: «اسم تازه، هیچ‌کدامشان نیست» — خودِ نام تازه، قاب‌دار."
+      }
+    ],
+    "object_plan": [
+      {
+        "object": "brass nameplate on a door (blank, no text)",
+        "line_idea": "نام روی ساختمان: نامی که فقط کارمند و بانک می‌بیند",
+        "reuse_path_or_new": "new"
+      },
+      {
+        "object": "cinema ticket stub (blank, no logo)",
+        "line_idea": "هیچ‌کس از «شرکت» بلیت نمی‌خرد؛ برای فیلم می‌خرد",
+        "reuse_path_or_new": "new"
+      },
+      {
+        "object": "film reel / film canister",
+        "line_idea": "صد سال حافظه‌ی تماشاگر در یک نام",
+        "reuse_path_or_new": "new"
+      },
+      {
+        "object": "trophy",
+        "line_idea": "نامی که نشان می‌دهد چه کسی برد (ادعای «خودخواهانه»)",
+        "reuse_path_or_new": "assets/objects/2026-10-24/trophy.png"
+      },
+      {
+        "object": "rubber stamp",
+        "line_idea": "وسوسه‌ی کوبیدن نام خودت روی همه‌چیز",
+        "reuse_path_or_new": "assets/objects/2026-10-29/stamp.png"
+      },
+      {
+        "object": "key ring holding many keys",
+        "line_idea": "شرکت مادر حلقه است؛ کلیدها برندها هستند و درها را آن‌ها باز می‌کنند",
+        "reuse_path_or_new": "new (single key exists: assets/objects/2026-10-24/key.png)"
+      },
+      {
+        "object": "plain business card (blank)",
+        "line_idea": "نام بنیان‌گذار روی کارت، نه لزوماً روی قفسه",
+        "reuse_path_or_new": "new"
+      },
+      {
+        "object": "signpost",
+        "line_idea": "مشتری دنبال تابلویی می‌رود که می‌شناسد",
+        "reuse_path_or_new": "assets/objects/2026-10-22/signpost.png"
+      },
+      {
+        "object": "product label card",
+        "line_idea": "نامی که مشتری می‌خواند و جست‌وجو می‌کند",
+        "reuse_path_or_new": "assets/objects/2026-10-25/label_card.png"
+      },
+      {
+        "object": "balance scale",
+        "line_idea": "نامی که دو گروه سهام‌دار را راضی نگه دارد، نه مشتری را",
+        "reuse_path_or_new": "assets/objects/2026-10-22/scale.png"
+      },
+      {
+        "object": "orrery (mechanical solar-system model, brass)",
+        "line_idea": "یک خورشید و چند سیاره: کدام نام مرکز است و کدام می‌چرخد؟",
+        "reuse_path_or_new": "new"
+      },
+      {
+        "object": "envelope with blank letterhead",
+        "line_idea": "نام بالای سر برای نامه‌ی بانک و گزارش سالانه است",
+        "reuse_path_or_new": "new"
+      }
+    ]
+  }
+}
