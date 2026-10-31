@@ -1,0 +1,551 @@
+{
+ "reel_id": "2026-10-31_EN",
+ "date": "2026-10-31",
+ "topic": "The name on the building vs the name on the screen",
+ "pillar": "naming_brand_architecture",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "graphite",
+   "spot_y": 1260,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://techcrunch.com/2026/10/02/paramount-and-warner-bros-discovery-to-become-skydance/",
+     "publisher": "TechCrunch",
+     "event_date": "2026-10-02",
+     "retrieved_at": "2026-10-31T01:40:00Z",
+     "claim": "Paramount and Warner Bros. Discovery to operate as Skydance, the name of David Ellison's original production company; Ellison: 'We never wanted a new corporate identity to diminish, alter or overshadow either one'; both studios 'remain in the spotlight'"
+    },
+    {
+     "url": "https://techcrunch.com/2026/10/06/paramount-closes-historic-warner-bros-merger-to-form-skydance/",
+     "publisher": "TechCrunch",
+     "event_date": "2026-10-06",
+     "retrieved_at": "2026-10-31T01:40:00Z",
+     "claim": "Merger completed Oct 6, 2026 (~$110bn); company named Skydance, ticker SKYD; includes Paramount+, HBO Max, CBS, CNN, MTV and more"
+    }
+   ],
+   "objects": [
+    {
+     "key": "tb",
+     "src": "incoming/2026-10-31/T-b_crop.png",
+     "x": 540,
+     "y": 1345,
+     "w": 760,
+     "ar": 1.88,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.04,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "Image: Skydance identity (via Design Compass)",
+     "source_url": "https://designcompass.org/en/2026/10/07/skydance-paramount-warner-bros-brand-identity/"
+    }
+   ],
+   "motion_rationale": "قلاب با تصویر واقعی (آپلود مالک، قاب‌دار): نام تازه بالای دو نام افسانه‌ای = دو اسم یکی شدند و اسم تازه هیچ‌کدامشان نیست",
+   "lines": [
+    {
+     "text": "Two legendary studios merged.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "The new name is *neither*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://techcrunch.com/2026/10/02/paramount-and-warner-bros-discovery-to-become-skydance/",
+     "publisher": "TechCrunch",
+     "event_date": "2026-10-02",
+     "retrieved_at": "2026-10-31T01:40:00Z",
+     "claim": "Paramount and Warner Bros. Discovery to operate as Skydance, the name of David Ellison's original production company; Ellison: 'We never wanted a new corporate identity to diminish, alter or overshadow either one'; both studios 'remain in the spotlight'"
+    },
+    {
+     "url": "https://techcrunch.com/2026/10/06/paramount-closes-historic-warner-bros-merger-to-form-skydance/",
+     "publisher": "TechCrunch",
+     "event_date": "2026-10-06",
+     "retrieved_at": "2026-10-31T01:40:00Z",
+     "claim": "Merger completed Oct 6, 2026 (~$110bn); company named Skydance, ticker SKYD; includes Paramount+, HBO Max, CBS, CNN, MTV and more"
+    }
+   ],
+   "objects": [
+    {
+     "key": "plate",
+     "src": "assets/objects/2026-10-31/nameplate.png",
+     "x": 540,
+     "y": 1290,
+     "w": 600,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop"
+    }
+   ],
+   "motion_rationale": "پلاک برنجی سردر = اسمی برای ساختمان؛ اسمی که روی در دفتر است، نه روی پرده",
+   "lines": [
+    {
+     "text": "The parent is now Skydance.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "A name for the *building*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "bg": "graphite",
+   "spot_y": 1280,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.deseret.com/entertainment/2026/10/02/paramount-and-warner-bros-merger-gets-new-name/",
+     "publisher": "Deseret News",
+     "event_date": "2026-10-02",
+     "retrieved_at": "2026-10-31T01:40:00Z",
+     "claim": "Ellison: 'we wanted to preserve what has made each of these studios iconic'; studios sit under one corporate umbrella"
+    },
+    {
+     "url": "https://techcrunch.com/2026/10/02/paramount-and-warner-bros-discovery-to-become-skydance/",
+     "publisher": "TechCrunch",
+     "event_date": "2026-10-02",
+     "retrieved_at": "2026-10-31T01:40:00Z",
+     "claim": "Paramount and Warner Bros. Discovery to operate as Skydance, the name of David Ellison's original production company; Ellison: 'We never wanted a new corporate identity to diminish, alter or overshadow either one'; both studios 'remain in the spotlight'"
+    }
+   ],
+   "objects": [
+    {
+     "key": "ta",
+     "src": "incoming/2026-10-31/T-a.png",
+     "x": 540,
+     "y": 1280,
+     "w": 660,
+     "ar": 1.209,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.04,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "Image: Skydance launch video still (via Creative Bloq)",
+     "source_url": "https://creativebloq.com/entertainment/warner-bros-and-paramounts-skydance-rebrand-isnt-going-down-well"
+    }
+   ],
+   "motion_rationale": "منظومه‌ی نام‌ها (آپلود مالک): ده‌ها نام آشنا زیر نام تازه سر جایشان‌اند = نام‌های مشتری‌پسند زیر نور می‌مانند",
+   "lines": [
+    {
+     "text": "Underneath, the famous names",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*stay* in the spotlight.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "ticket",
+     "src": "assets/objects/2026-10-31/ticket.png",
+     "x": 540,
+     "y": 1300,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -5,
+     "anim": "pop",
+     "float": 5
+    }
+   ],
+   "motion_rationale": "ته‌بلیت سینما = مردم بلیت فیلم می‌خرند، نه بلیت شرکت؛ پاره‌ی بلیت یعنی تجربه‌ی واقعی تماشاگر",
+   "lines": [
+    {
+     "text": "That's the smart part.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "Nobody buys a ticket from a *company*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "bg": "graphite",
+   "spot_y": 1240,
+   "claim_type": "interpretation",
+   "fx": [
+    {
+     "type": "words",
+     "mode": "fade",
+     "box": [
+      140,
+      1000,
+      940,
+      1460
+     ],
+     "seed": 7,
+     "size": 58,
+     "t0": 0.9,
+     "keep_at": [
+      540,
+      1240
+     ],
+     "words": [
+      "shares",
+      "merger",
+      "ticker",
+      "board",
+      "bank",
+      "the film"
+     ],
+     "keep": [
+      "the film"
+     ]
+    }
+   ],
+   "motion_rationale": "کلمه‌های شرکتی (سهام، ادغام، نماد بورس، هیئت‌مدیره، بانک) محو می‌شوند و فقط «فیلم» می‌ماند و بزرگ می‌شود = مشتری فقط فیلم را می‌بیند",
+   "lines": [
+    {
+     "text": "People pay for the film,",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "and a name they *know*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "stamp",
+     "src": "assets/objects/2026-10-29/stamp.png",
+     "x": 540,
+     "y": 1300,
+     "w": 330,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop",
+     "vibrate": 4
+    }
+   ],
+   "motion_rationale": "مهر لاستیکی اداری = قرارداد، بانک، کاغذبازی؛ دنیای مخاطبانِ اسم بالای سر",
+   "lines": [
+    {
+     "text": "The name on top talks to",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*banks*, staff and investors.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "key",
+     "src": "assets/objects/2026-10-24/key.png",
+     "x": 540,
+     "y": 1320,
+     "w": 420,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -10,
+     "anim": "rise",
+     "bright": [
+      1.4,
+      1.4
+     ]
+    }
+   ],
+   "motion_rationale": "چرخش ایده: کلید = برندها درها را باز می‌کنند؛ شرکت مادر فقط دسته‌کلید را نگه می‌دارد",
+   "lines": [
+    {
+     "text": "The parent holds the key ring.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "The *brands* open the doors.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "trophy",
+     "src": "assets/objects/2026-10-24/trophy.png",
+     "x": 540,
+     "y": 1300,
+     "w": 380,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise"
+    }
+   ],
+   "motion_rationale": "جام = وسوسه‌ی برنده‌بودن؛ اسم خودت بالای همه، مثل اسم قهرمان روی جام",
+   "lines": [
+    {
+     "text": "Every founder knows the itch:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "put *your* name on top.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "lens",
+     "src": "assets/objects/2026-10-22/magnifier.png",
+     "x": 540,
+     "y": 1330,
+     "w": 430,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -6,
+     "anim": "pop",
+     "float": 5,
+     "bright": [
+      1.4,
+      1.4
+     ]
+    }
+   ],
+   "motion_rationale": "ذره‌بین = هنوز زود است برای قضاوت؛ با دقت نگاه کن، ولی قاعده روشن است؛ احتیاط یک بار و کوتاه",
+   "lines": [
+    {
+     "text": "Too early to judge this one.",
+     "kind": "s",
+     "dim": false
+    },
+    {
+     "text": "But the rule holds:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "every name has *one* audience.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "label",
+     "src": "assets/objects/2026-10-25/label_card.png",
+     "x": 540,
+     "y": 1310,
+     "w": 460,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": 4,
+     "anim": "slide_r"
+    }
+   ],
+   "motion_rationale": "برچسب = برای هر اسم بنویس چه کسی آن را می‌خواند؛ برچسب‌زدن مخاطب",
+   "lines": [
+    {
+     "text": "Before you rename,",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "write down who *reads* each name.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "sign",
+     "src": "assets/objects/2026-10-22/signpost.png",
+     "x": 540,
+     "y": 1300,
+     "w": 440,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "bright": [
+      1.4,
+      1.4
+     ]
+    }
+   ],
+   "motion_rationale": "تابلوی راهنما = مشتری دنبال تابلویی می‌رود که می‌شناسد؛ همان اسمی که جست‌وجو می‌کند",
+   "lines": [
+    {
+     "text": "Then protect the one",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "customers already *search* for.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "plate",
+     "src": "assets/objects/2026-10-31/nameplate.png",
+     "x": 330,
+     "y": 1280,
+     "w": 400,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -4,
+     "anim": "slide_l"
+    },
+    {
+     "key": "ticket",
+     "src": "assets/objects/2026-10-31/ticket.png",
+     "x": 760,
+     "y": 1330,
+     "w": 380,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": 6,
+     "anim": "slide_r",
+     "delay": 0.3
+    }
+   ],
+   "motion_rationale": "بازگشت به آغاز: پلاک سردر (اسم شما) کنار ته‌بلیت (اسم آن‌ها) = هر اسم سر جای خودش؛ بستن دایره‌ی ریل",
+   "lines": [
+    {
+     "text": "Your name goes on the door.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "Theirs stays on the *screen*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "bg": "primary",
+   "claim_type": "interpretation",
+   "motion_rationale": "کارت پایانی",
+   "logo": true,
+   "txt_top": 1080,
+   "lines": [
+    {
+     "text": "Write to me.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  }
+ ],
+ "caption": "Two legendary studios merged. The new name is neither of them.\n\nParamount and Warner Bros. Discovery closed their merger on October 6, and the combined company is called Skydance, the name of David Ellison's original production company. His words: \"We never wanted a new corporate identity to diminish, alter or overshadow either one.\" Paramount, Warner Bros., HBO Max, CNN and the rest sit underneath it, under their own names.\n\nMy take: that's the smart part. Nobody buys a ticket from a holding company. People pay for the film, and for a name they know. The name on top has a different audience: banks, staff, investors. The parent holds the key ring; the brands open the doors.\n\nEvery founder knows the itch to put their own name on top. Before you rename anything, write down who reads each name, and protect the one customers already search for.\n\nThe limits: it's far too early to judge the Skydance name itself. Early online reaction has been mostly unkind (per Creative Bloq), but that's social posts, not data. Sources: TechCrunch, Deseret News, Creative Bloq, Design Compass. The two real images are from Skydance's launch video and identity (owner uploads); the other objects are AI-generated.\n\nIn your business, which name do customers actually say out loud: the company's or the product's? Write to me.\n\n— Behnood Kavian",
+ "hashtags": [
+  "#branding",
+  "#marketing",
+  "#brandstrategy",
+  "#rebrand"
+ ],
+ "sources": [
+  {
+   "publisher": "TechCrunch",
+   "title": "Paramount and Warner Bros. Discovery to become Skydance",
+   "date": "2026-10-02",
+   "url": "https://techcrunch.com/2026/10/02/paramount-and-warner-bros-discovery-to-become-skydance/"
+  },
+  {
+   "publisher": "TechCrunch",
+   "title": "Paramount closes historic Warner Bros. merger to form Skydance",
+   "date": "2026-10-06",
+   "url": "https://techcrunch.com/2026/10/06/paramount-closes-historic-warner-bros-merger-to-form-skydance/"
+  },
+  {
+   "publisher": "Deseret News",
+   "title": "Paramount and Warner Bros. merger gets new name",
+   "date": "2026-10-02",
+   "url": "https://www.deseret.com/entertainment/2026/10/02/paramount-and-warner-bros-merger-gets-new-name/"
+  },
+  {
+   "publisher": "Creative Bloq",
+   "title": "Warner Bros and Paramount's Skydance rebrand isn't going down well (reaction; image T-a)",
+   "date": "2026-10-03",
+   "url": "https://creativebloq.com/entertainment/warner-bros-and-paramounts-skydance-rebrand-isnt-going-down-well"
+  },
+  {
+   "publisher": "Design Compass",
+   "title": "Skydance: Paramount and Warner Bros brand identity (image T-b)",
+   "date": "2026-10-07",
+   "url": "https://designcompass.org/en/2026/10/07/skydance-paramount-warner-bros-brand-identity/"
+  }
+ ],
+ "cta": "Write to me.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S7"
+ },
+ "status": "DRAFT",
+ "style": "editorial",
+ "lang": "en"
+}
