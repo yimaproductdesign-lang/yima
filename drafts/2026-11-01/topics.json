@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-01",
+  "T": {
+    "topic_fa": "شهرت قرضی: وقتی صحنه‌ی دیگران را اجاره می‌کنی، تشویق مال کیست؟",
+    "topic_en": "Borrowed fame: when you rent someone else's stage, who keeps the applause?",
+    "pillar": "brand_equity_campaigns_sponsorship",
+    "central_tension_fa": "مک‌دونالد ۳۲ سال کنار جام جهانی بود و درست بعد از بزرگ‌ترین کمپینش کنار کشید؛ مدیر بازاریابی‌اش گفت «بیش از حد به اعتبار قرضی تکیه کرده‌ایم». ما فکر می‌کنیم ایستادن کنار یک نام بزرگ ما را بزرگ می‌کند؛ ولی تشویق مال صاحب صحنه است و وقتی قرارداد تمام شود، فقط چیزی که مال خودت است می‌ماند.",
+    "central_tension_en": "McDonald's stood next to the World Cup for 32 years, ran its biggest campaign ever, then walked away. Its CMO: 'we've become overly reliant on borrowed IP.' We think standing next to something famous makes us famous. The applause goes to whoever owns the stage; when the contract ends, only what you own stays.",
+    "working_hook_fa": "بزرگ‌ترین کمپین تاریخش را ساخت. بعد، رفت.",
+    "working_hook_en": "Their biggest campaign ever. Then they walked away.",
+    "key_sources": [
+      {
+        "url": "https://www.adweek.com/brand-marketing/mcdonalds-ends-32-year-fifa-world-cup-sponsorship-amid-marketing-overhaul/",
+        "publisher": "Adweek",
+        "date": "2026-10-23",
+        "claim": "McDonald's ends its 32-year FIFA World Cup sponsorship amid a shift toward its own IP; 2026 campaign by Wieden+Kennedy NY reached 110+ countries; CFO Ian Borden: it 'provided a lift to the business' but 'underperformed versus our expectations'."
+      },
+      {
+        "url": "https://www.nrn.com/quick-service/mcdonald-s-is-ending-its-fifa-world-cup-sponsorship",
+        "publisher": "Nation's Restaurant News (Restaurant Business)",
+        "date": "2026-10-26",
+        "claim": "Global CMO Morgan Flatley: 'I think we've become overly reliant on borrowed IP' and 'we need to be very selective and do it a few times'; statement: 'sport and culture will remain important ways we connect with our fans'."
+      },
+      {
+        "url": "https://www.bandt.com.au/mcdonalds-ends-fifa-world-cup-sponsorship/",
+        "publisher": "B&T",
+        "date": "2026-10-26",
+        "claim": "Borden on borrowed equities (World Cup, Minecraft, the Grinch): 'you're not going to promo your way to long-term value creation'; promotion included nine collectible cups."
+      },
+      {
+        "url": "https://campaignlive.com/article/mcdonalds-taps-beckham-pulisic-world-cup-collectible-cup-campaign/1960190",
+        "publisher": "Campaign",
+        "date": "2026-06 (launch)",
+        "claim": "Nine cups: eight star players plus one for McDonald's own mascot Grimace; designed with Ilovedust after the 1990s Dream Team cups."
+      },
+      {
+        "url": "https://www.marketingdive.com/news/what-mcdonalds-dropping-its-fifa-sponsorship-means-for-sports-marketing/872775/",
+        "publisher": "Marketing Dive",
+        "date": "2026-10-27",
+        "claim": "Context: Kantar saw NPS and buzz lift among young consumers; reportedly ~$80M committed for the 2026 cycle; SponsorUnited estimates another $70-100M to activate; shift to owned IP and smaller year-round deals (figures single-source, caption only)."
+      }
+    ],
+    "music_mood": "dark",
+    "framing_note": "News is the spark; the reel is about borrowed vs owned brand assets. Do NOT say the sponsorship failed or lost money (the CFO said it gave a lift but underperformed expectations). Keep '$80M' and 'one-third of traffic loss' out of on-screen lines (single-source); if used in the caption, say 'reportedly'. Stay out of FIFA politics/governance. No real people's faces as generated objects; athlete names only if needed in caption. Never name the UAE, Dubai or any emirate. Takeaway for owners: before paying for someone else's spotlight (event, booth, influencer, celebrity), ask what you will still own when the lights go off — a character, a sound, a ritual, a name customers search for — and spend on that.",
+    "image_requests": [
+      {
+        "id": "T-a",
+        "description": "تصویر ردیف لیوان‌های کلکسیونی جام جهانی مک‌دونالد (۹ لیوان؛ یکی‌شان گریمِس بنفش است) را از همین مقاله ذخیره کن؛ اگر تصویر فقط عکس آدم‌هاست، تصویری که لیوان‌ها یا گریمس در آن است را بردار.",
+        "page_url": "https://campaignlive.com/article/mcdonalds-taps-beckham-pulisic-world-cup-collectible-cup-campaign/1960190",
+        "scene_idea": "صحنه‌ی چرخش: هشت لیوان با چهره‌ی قرضی و یک لیوان با شخصیتِ خودشان؛ teal فقط روی لیوان گریمس. قاب‌دار روی زمینه‌ی تیره."
+      },
+      {
+        "id": "T-b",
+        "description": "تصویر اصلی (سرصفحه) مقاله با عنوان «McDonald's last World Cup campaign» را ذخیره کن.",
+        "page_url": "https://www.bandt.com.au/mcdonalds-ends-fifa-world-cup-sponsorship/",
+        "scene_idea": "صحنه‌ی قلاب: «بزرگ‌ترین کمپین تاریخش… بعد رفت» — قاب واقعی کمپین که آرام تیره می‌شود."
+      }
+    ],
+    "object_plan": [
+      {
+        "object": "trophy",
+        "line_idea": "جامی که بالا می‌بری، مال تو نیست",
+        "reuse_path_or_new": "assets/objects/2026-10-24/trophy.png"
+      },
+      {
+        "object": "stadium floodlight (single lamp head)",
+        "line_idea": "نور صحنه را اجاره کردی؛ خاموش که شود، تو هم دیده نمی‌شوی",
+        "reuse_path_or_new": "new"
+      },
+      {
+        "object": "classic leather football",
+        "line_idea": "۳۲ سال کنار بزرگ‌ترین بازی دنیا",
+        "reuse_path_or_new": "new"
+      },
+      {
+        "object": "wristwatch",
+        "line_idea": "۳۲ سال؛ از ۱۹۹۴ تا امروز",
+        "reuse_path_or_new": "assets/objects/2026-10-22/watch.png"
+      },
+      {
+        "object": "event entry ticket",
+        "line_idea": "قرارداد حمایت مثل بلیت است: تاریخ انقضا دارد",
+        "reuse_path_or_new": "assets/objects/2026-10-31/ticket.png"
+      },
+      {
+        "object": "plain paper soda cup with lid and straw (no logo)",
+        "line_idea": "لیوانی که روی آن چهره‌ی دیگران است",
+        "reuse_path_or_new": "new"
+      },
+      {
+        "object": "suit jacket on a wooden hanger (rented-look tag, blank)",
+        "line_idea": "کت قرضی: برازنده است، ولی پسش می‌دهی",
+        "reuse_path_or_new": "new"
+      },
+      {
+        "object": "key",
+        "line_idea": "کلید خانه‌ی اجاره‌ای را روز آخر پس می‌دهی",
+        "reuse_path_or_new": "assets/objects/2026-10-24/key.png"
+      },
+      {
+        "object": "small model house",
+        "line_idea": "دارایی خودت: چیزی که بعد از قرارداد می‌ماند",
+        "reuse_path_or_new": "assets/objects/2026-10-29/mini_house.png"
+      },
+      {
+        "object": "rubber stamp",
+        "line_idea": "نشانِ خودت را بساز، نه این‌که پای نام دیگران مهر بزنی",
+        "reuse_path_or_new": "assets/objects/2026-10-29/stamp.png"
+      },
+      {
+        "object": "suitcase",
+        "line_idea": "رفتن، درست بعد از بزرگ‌ترین مهمانی",
+        "reuse_path_or_new": "assets/objects/2026-10-22/suitcase.png"
+      },
+      {
+        "object": "price tag",
+        "line_idea": "اجاره‌ی شهرت + هزینه‌ی دیده‌شدن کنارش",
+        "reuse_path_or_new": "assets/objects/2026-10-25/price_tag.png"
+      }
+    ]
+  }
+}
