@@ -47,13 +47,23 @@
         "id": "T-a",
         "description": "تصویر ردیف لیوان‌های کلکسیونی جام جهانی مک‌دونالد (۹ لیوان؛ یکی‌شان گریمِس بنفش است) را از همین مقاله ذخیره کن؛ اگر تصویر فقط عکس آدم‌هاست، تصویری که لیوان‌ها یا گریمس در آن است را بردار.",
         "page_url": "https://campaignlive.com/article/mcdonalds-taps-beckham-pulisic-world-cup-collectible-cup-campaign/1960190",
-        "scene_idea": "صحنه‌ی چرخش: هشت لیوان با چهره‌ی قرضی و یک لیوان با شخصیتِ خودشان؛ teal فقط روی لیوان گریمس. قاب‌دار روی زمینه‌ی تیره."
+        "scene_idea": "صحنه‌ی چرخش: هشت لیوان با چهره‌ی قرضی و یک لیوان با شخصیتِ خودشان؛ teal فقط روی لیوان گریمس. قاب‌دار روی زمینه‌ی تیره.",
+        "received": {
+          "file": "incoming/2026-11-01/T-a.jpg",
+          "size": "1272x678",
+          "note": "Owner sent the campaign photo itself: stars on a bench holding the collectible cups, flanked by McDonald's own characters (Ronald statue left, Grimace right with cup and World Cup meal bag), trophy at the bench end. Below 1080px short side: use framed, not full-bleed. Strong turn image: borrowed stars in the middle, owned characters at the edges. Source: McDonald's campaign image as published with the Campaign article (owner upload)."
+        }
       },
       {
         "id": "T-b",
         "description": "تصویر اصلی (سرصفحه) مقاله با عنوان «McDonald's last World Cup campaign» را ذخیره کن.",
         "page_url": "https://www.bandt.com.au/mcdonalds-ends-fifa-world-cup-sponsorship/",
-        "scene_idea": "صحنه‌ی قلاب: «بزرگ‌ترین کمپین تاریخش… بعد رفت» — قاب واقعی کمپین که آرام تیره می‌شود."
+        "scene_idea": "صحنه‌ی قلاب: «بزرگ‌ترین کمپین تاریخش… بعد رفت» — قاب واقعی کمپین که آرام تیره می‌شود.",
+        "received": {
+          "file": "incoming/2026-11-01/T-b.jpg",
+          "size": "890x474",
+          "note": "Owner sent a different image than requested: the official World Cup 26 match ball on a Powerade-branded pedestal (another sponsor). Source page not given by owner — ask/confirm at morning session; credit as 'owner-supplied' until confirmed. Below 1080px: small framed only. Scene idea: 'the ball isn't yours; you paid for the pedestal' (sponsorship = renting the stand under someone else's star)."
+        }
       }
     ],
     "object_plan": [
