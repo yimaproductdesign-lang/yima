@@ -57,8 +57,8 @@ PLAN = [
      "کلمه‌های شهرت قرضی (ستاره، جام، استادیوم، هیاهو) محو می‌شوند و فقط «قرضی» می‌ماند = تشخیص خود مدیر بازاریابی"),
     ("S4", "paper", None, "fact", EV_AW, [obj("scale", "2026-10-22/scale", y=1320, w=480, anim="rise")], None,
      "ترازو = انصاف و سنجش؛ اثر داشت ولی کفه‌ی انتظار سنگین‌تر بود (احتیاط یک بار، کوتاه)"),
-    ("S5", "graphite", 1290, "fact", EV_CL, [frame("tacups", "T-a_cups.jpg", 1.402, y=1290, w=760)], None,
-     "چرخش (drop): قاب نزدیک از همان عکس کمپین؛ ستاره‌های قرضی روی نیمکت و گریمس، شخصیتِ خودشان، با لیوان = هشت چهره‌ی قرضی، یکی از خودشان"),
+    ("S5", "graphite", 1290, "fact", EV_CL, [frame("cups", "T-c_cups.jpg", 0.805, y=1270, w=440, credit="Image: McDonald's World Cup collectible cups (owner upload)")], None,
+     "چرخش (drop): عکس واقعی لیوان‌های کلکسیونی (آپلود مالک، قاب‌دار) با چهره‌ی ستاره‌ها = لیوان، نه جام؛ چهره‌های قرضی روی محصول خودشان"),
     ("S6", "paper", None, "interpretation", None, [obj("suit", f"{D}/suit", y=1290, w=470, anim="drop", float=3)], None,
      "کت روی چوب‌لباسی با برچسب کرایه = شهرت قرضی برازنده است ولی پس داده می‌شود"),
     ("S7", "graphite", 1300, "interpretation", None, [obj("trophy", "2026-10-24/trophy", y=1310, w=360, anim="rise", bright=[1.4, 1.4])], None,
@@ -83,7 +83,7 @@ FA = {
     "S2": [("۳۲ سال ایستاد کنار", "b"), ("بزرگ‌ترین *بازی* دنیا.", "h")],
     "S3": [("مدیر بازاریابی‌اش گفت:", "b"), ("«زیادی به اعتبار *قرضی* تکیه کرده‌ایم.»", "h")],
     "S4": [("انصافاً بی‌اثر نبود؛ کمکش کرد.", "b"), ("فقط *کمتر* از انتظارش.", "h")],
-    "S5": [("به لیوان‌ها نگاه کنید.", "b"), ("هشت ستاره. *یکی* از خودشان.", "h")],
+    "S5": [("به لیوان‌های کلکسیونی‌اش نگاه کنید.", "b"), ("هشت ستاره. *یکی* از خودشان.", "h")],
     "S6": [("شهرت قرضی، کت کرایه‌ای است.", "b"), ("برازنده است. ولی *پس‌دادنی*.", "h")],
     "S7": [("تشویق مال کسی است", "b"), ("که *صحنه* مال اوست.", "h")],
     "S8": [("قرارداد حمایت، بلیت است.", "b"), ("*تاریخ انقضا* دارد.", "h")],
@@ -98,7 +98,7 @@ EN = {
     "S2": [("32 years beside", "b"), ("the world's biggest *game*.", "h")],
     "S3": [("Their marketing chief:", "b"), ("“overly reliant on *borrowed* IP.”", "h")],
     "S4": [("Fair: it gave “a lift.”", "b"), ("Just *less* than expected.", "h")],
-    "S5": [("Look at the cups.", "b"), ("Eight stars. *One* of their own.", "h")],
+    "S5": [("Look at the collectible cups.", "b"), ("Eight stars. *One* of their own.", "h")],
     "S6": [("Borrowed fame is a rented suit.", "b"), ("It fits. Then it goes *back*.", "h")],
     "S7": [("The applause goes to", "b"), ("whoever *owns* the stage.", "h")],
     "S8": [("A sponsorship is a ticket.", "b"), ("It has an *end date*.", "h")],
@@ -124,7 +124,7 @@ CAP_FA = """بزرگ‌ترین کمپین جام جهانی‌اش را ساخ�
 
 به نظر من حرف این نیست که هیچ‌وقت حامی نشوید. خود فلتلی گفته باید «خیلی گزیده و فقط چند بار» این کار را کرد. پیش از این‌که برای نور صحنه‌ی دیگران پول بدهید (یک رویداد، یک غرفه، یک چهره‌ی مشهور)، بپرسید خاموش که شد، چه برایتان می‌ماند.
 
-حدودش را هم بگویم: کمپین شکست نخورد. ایان بوردن، مدیر مالی شرکت، گفته به کسب‌وکار «رونق داد» ولی «کمتر از انتظار ما» عمل کرد. منبع‌ها: Adweek، Nation's Restaurant News، Campaign و Marketing Dive. دو قاب واقعی از عکس کمپین جام جهانی مک‌دونالد است (آپلود مالک، به نقل از Campaign)؛ اشیای دیگر با هوش مصنوعی ساخته شده‌اند.
+حدودش را هم بگویم: کمپین شکست نخورد. ایان بوردن، مدیر مالی شرکت، گفته به کسب‌وکار «رونق داد» ولی «کمتر از انتظار ما» عمل کرد. منبع‌ها: Adweek، Nation's Restaurant News، Campaign و Marketing Dive. دو قاب واقعی از تصاویر کمپین جام جهانی مک‌دونالد است (آپلود مالک؛ عکس نیمکت به نقل از Campaign)؛ اشیای دیگر با هوش مصنوعی ساخته شده‌اند.
 
 اگر فردا همه‌ی حامی‌ها، شریک‌ها و چهره‌های مشهور از کنار کسب‌وکارتان بروند، چه چیزی هنوز مال خودتان است؟ برای من بنویسید.
 
@@ -138,7 +138,7 @@ Look at the collectible cups: nine of them, eight with star players, one with Gr
 
 My take: this isn't "never sponsor." Flatley's own words were to "be very selective and do it a few times." Before you pay for someone else's spotlight (an event, a booth, a famous face), ask what will still be yours when it's off.
 
-The limits: it wasn't a flop. CFO Ian Borden said the campaign "provided a lift to the business" but "underperformed versus our expectations." Sources: Adweek, Nation's Restaurant News, Campaign, Marketing Dive. The two real frames come from McDonald's World Cup campaign photo (owner upload, via Campaign); the other objects are AI-generated.
+The limits: it wasn't a flop. CFO Ian Borden said the campaign "provided a lift to the business" but "underperformed versus our expectations." Sources: Adweek, Nation's Restaurant News, Campaign, Marketing Dive. The two real frames come from McDonald's World Cup campaign images (owner uploads; the bench photo via Campaign); the other objects are AI-generated.
 
 If every sponsor, partner and famous face left your business tomorrow, what would still be yours? Write to me.
 

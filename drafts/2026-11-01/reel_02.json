@@ -222,12 +222,12 @@
    ],
    "objects": [
     {
-     "key": "tacups",
-     "src": "incoming/2026-11-01/T-a_cups.jpg",
+     "key": "cups",
+     "src": "incoming/2026-11-01/T-c_cups.jpg",
      "x": 540,
-     "y": 1290,
-     "w": 760,
-     "ar": 1.402,
+     "y": 1270,
+     "w": 440,
+     "ar": 0.805,
      "frame": true,
      "anim": "zoom",
      "push": 0.04,
@@ -236,14 +236,14 @@
       0,
       0
      ],
-     "credit": "Image: McDonald's FIFA World Cup 26 campaign (via Campaign)",
+     "credit": "Image: McDonald's World Cup collectible cups (owner upload)",
      "source_url": "https://campaignlive.com/article/mcdonalds-taps-beckham-pulisic-world-cup-collectible-cup-campaign/1960190"
     }
    ],
-   "motion_rationale": "چرخش (drop): قاب نزدیک از همان عکس کمپین؛ ستاره‌های قرضی روی نیمکت و گریمس، شخصیتِ خودشان، با لیوان = هشت چهره‌ی قرضی، یکی از خودشان",
+   "motion_rationale": "چرخش (drop): عکس واقعی لیوان‌های کلکسیونی (آپلود مالک، قاب‌دار) با چهره‌ی ستاره‌ها = لیوان، نه جام؛ چهره‌های قرضی روی محصول خودشان",
    "lines": [
     {
-     "text": "Look at the cups.",
+     "text": "Look at the collectible cups.",
      "kind": "b",
      "dim": false
     },
@@ -518,7 +518,7 @@
    ]
   }
  ],
- "caption": "Their biggest World Cup campaign ever. Then they walked away.\n\nMcDonald's has stood next to the FIFA World Cup for 32 years. This summer it ran its biggest-ever World Cup campaign, built by Wieden+Kennedy New York across more than 110 countries. Now it's ending the sponsorship. Its global CMO, Morgan Flatley: \"I think we've become overly reliant on borrowed IP.\"\n\nLook at the collectible cups: nine of them, eight with star players, one with Grimace, McDonald's own character. The whole lesson fits on one shelf. Borrowed fame is a rented suit: it fits, then it goes back. The applause goes to whoever owns the stage, and a sponsorship has an end date. What stays is what you own: a character, a sound, a ritual, a name people search for.\n\nMy take: this isn't \"never sponsor.\" Flatley's own words were to \"be very selective and do it a few times.\" Before you pay for someone else's spotlight (an event, a booth, a famous face), ask what will still be yours when it's off.\n\nThe limits: it wasn't a flop. CFO Ian Borden said the campaign \"provided a lift to the business\" but \"underperformed versus our expectations.\" Sources: Adweek, Nation's Restaurant News, Campaign, Marketing Dive. The two real frames come from McDonald's World Cup campaign photo (owner upload, via Campaign); the other objects are AI-generated.\n\nIf every sponsor, partner and famous face left your business tomorrow, what would still be yours? Write to me.\n\n— Behnood Kavian",
+ "caption": "Their biggest World Cup campaign ever. Then they walked away.\n\nMcDonald's has stood next to the FIFA World Cup for 32 years. This summer it ran its biggest-ever World Cup campaign, built by Wieden+Kennedy New York across more than 110 countries. Now it's ending the sponsorship. Its global CMO, Morgan Flatley: \"I think we've become overly reliant on borrowed IP.\"\n\nLook at the collectible cups: nine of them, eight with star players, one with Grimace, McDonald's own character. The whole lesson fits on one shelf. Borrowed fame is a rented suit: it fits, then it goes back. The applause goes to whoever owns the stage, and a sponsorship has an end date. What stays is what you own: a character, a sound, a ritual, a name people search for.\n\nMy take: this isn't \"never sponsor.\" Flatley's own words were to \"be very selective and do it a few times.\" Before you pay for someone else's spotlight (an event, a booth, a famous face), ask what will still be yours when it's off.\n\nThe limits: it wasn't a flop. CFO Ian Borden said the campaign \"provided a lift to the business\" but \"underperformed versus our expectations.\" Sources: Adweek, Nation's Restaurant News, Campaign, Marketing Dive. The two real frames come from McDonald's World Cup campaign images (owner uploads; the bench photo via Campaign); the other objects are AI-generated.\n\nIf every sponsor, partner and famous face left your business tomorrow, what would still be yours? Write to me.\n\n— Behnood Kavian",
  "hashtags": [
   "#branding",
   "#marketing",

@@ -42,3 +42,6 @@ Chosen: 1. Hook 3 becomes the turn at S5 (drop scene) over the cropped campaign 
 
 ## Caveat placement
 On screen once (S4): «انصافاً بی‌اثر نبود…» / "Fair: it gave “a lift.” Just less than expected." Full CFO quote in captions.
+
+## Revision (owner feedback, same day)
+Owner asked whether «لیوان» meant «جام» (cup vs World Cup trophy): ambiguous on screen because the cups were small in the bench photo. Fix: S5 now shows the owner's close-up photo of the collectible cups (T-c_cups.jpg) and the line names them: «به لیوان‌های کلکسیونی‌اش نگاه کنید.» / "Look at the collectible cups." Owner's portrait bench crop (T-d_bench.jpg) not used: same photo as T-a, and a tall frame would collide with the text column.
