@@ -47,19 +47,45 @@
         "id": "T-a",
         "description": "آیکون جدید سیاه‌وسفید اپل موزیک (تصویر اصلی بالای همین مقاله) را ذخیره کن.",
         "page_url": "https://9to5mac.com/2026/10/27/ios-27-2-adds-new-app-icon-for-apple-music-more-design-updates/",
-        "scene_idea": "صحنه‌ی قلاب/چرخش: آیکون بی‌رنگ قاب‌دار روی زمینه‌ی تیره؛ «رنگش را پس داد». شکل نُت ماند، فقط رنگ رفت."
+        "scene_idea": "صحنه‌ی قلاب/چرخش: آیکون بی‌رنگ قاب‌دار روی زمینه‌ی تیره؛ «رنگش را پس داد». شکل نُت ماند، فقط رنگ رفت.",
+        "received": {
+          "file": "incoming/2026-11-02/T-a.png",
+          "size": "2000x1000",
+          "note": "9to5Mac header: new Apple Music app icon, black rounded square with white note, on a beige/brown wavy wallpaper; '9TO5Mac' watermark bottom-right. Short side 1000px (just under 1080): crop to the icon square (~700px) and use framed on dark, not full-bleed; crop out the watermark. Source: 9to5Mac, 2026-10-27 (owner upload)."
+        }
       },
       {
         "id": "T-b",
         "description": "یکی از فریم‌های «ساخته‌شده با صدا» در همین مقاله را ذخیره کن: لوگوی زیر روغن موج‌دار که لحظه‌ای رنگی شده است (Image: Apple).",
         "page_url": "https://www.fastcompany.com/91627164/for-the-new-apple-music-logo-designers-lean-into-the-science-of-sound",
-        "scene_idea": "صحنه‌ی معنا: رنگ فقط وقتی برمی‌گردد که موسیقی پخش می‌شود؛ قاب واقعی با teal روی خط «رنگ مال موسیقی است»."
+        "scene_idea": "صحنه‌ی معنا: رنگ فقط وقتی برمی‌گردد که موسیقی پخش می‌شود؛ قاب واقعی با teal روی خط «رنگ مال موسیقی است».",
+        "received": {
+          "file": "incoming/2026-11-02/T-b.png",
+          "size": "1024x1024",
+          "note": "'Made by sound' frame: glass/liquid icon tile with white note on black, edges refracting into rainbow/cyan/orange colour bursts. Exactly the meaning scene: colour returns only with sound. Below 1080px: framed. Source: Apple image as published in Fast Company (owner upload)."
+        }
       },
       {
         "id": "T-c",
         "description": "اگر در این مقاله تصویر مقایسه‌ی آیکون قدیمی قرمز با آیکون جدید هست، همان را ذخیره کن؛ اگر نبود، تصویر اصلی مقاله را.",
         "page_url": "https://www.creativebloq.com/news/apple-musics-miserable-new-logo-is-giving-mixed-messages",
-        "scene_idea": "صحنه‌ی تنش: قبل/بعد — قرمزِ بیش از یک دهه در برابر سیاه‌وسفید؛ «بعضی طرفدارها گفتند غم‌انگیز است.»"
+        "scene_idea": "صحنه‌ی تنش: قبل/بعد — قرمزِ بیش از یک دهه در برابر سیاه‌وسفید؛ «بعضی طرفدارها گفتند غم‌انگیز است.»",
+        "received": {
+          "file": "incoming/2026-11-02/T-c.png",
+          "size": "1024x576",
+          "note": "Official before/after: left 'Apple Music' white on red, labelled 'Before'; right bold lowercase 'apple music' black on light grey, labelled 'After'. Ideal tension scene (red vs no colour; also shows wordmark went bolder/lowercase). Below 1080px: framed, small. Source: Apple comparison image (owner upload; confirm page in morning, credit 'Apple')."
+        }
+      },
+      {
+        "id": "T-d",
+        "description": "(ارسال اضافه‌ی مالک) فریم ویدیوی معرفی: wordmark سفید apple music روی سیاه با موج‌های رنگی صدا در دو طرف.",
+        "page_url": "owner-supplied (Apple 'made by sound' film frame; confirm source in morning)",
+        "scene_idea": "صحنه‌ی پایانی/بازگشت: wordmark بی‌رنگ که فقط کنار صدا رنگ می‌گیرد؛ «رنگ مال موسیقی است، شکل مال برند».",
+        "received": {
+          "file": "incoming/2026-11-02/T-d.png",
+          "size": "1920x1080",
+          "note": "Meets 1080px. White lowercase wordmark on black, rainbow sound-wave blur at the apple (left) and the tail of the 'c' (right). Usable large; good closing frame paired with T-b. Credit 'Apple' (owner upload)."
+        }
       }
     ],
     "object_plan": [
