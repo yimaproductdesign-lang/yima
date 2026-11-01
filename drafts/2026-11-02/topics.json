@@ -107,27 +107,27 @@
       {
         "object": "tuning fork",
         "line_idea": "لوگویی که صدا ساختش، نه نرم‌افزار",
-        "reuse_path_or_new": "new"
+        "reuse_path_or_new": "skip (owner: no new generated objects for this date; use vector instead)"
       },
       {
         "object": "shallow glass dish of liquid with concentric ripples",
         "line_idea": "هر نُت، یک موج؛ هر موج، لحظه‌ای رنگ",
-        "reuse_path_or_new": "new"
+        "reuse_path_or_new": "skip (owner: no new generated objects for this date; use vector instead)"
       },
       {
         "object": "empty ornate wooden picture frame",
         "line_idea": "برند تو قاب است، نه نقاشی",
-        "reuse_path_or_new": "new"
+        "reuse_path_or_new": "skip (owner: no new generated objects for this date; use vector instead)"
       },
       {
         "object": "vinyl record",
         "line_idea": "چیزی که مردم برایش می‌آیند، کار دیگران است: موسیقی",
-        "reuse_path_or_new": "new"
+        "reuse_path_or_new": "skip (owner: no new generated objects for this date; use vector instead)"
       },
       {
         "object": "paint tube squeezed (artist's oil paint, no label)",
         "line_idea": "رنگ را بده به صاحب اثر",
-        "reuse_path_or_new": "new"
+        "reuse_path_or_new": "skip (owner: no new generated objects for this date; use vector instead)"
       },
       {
         "object": "magnifier",
@@ -149,6 +149,25 @@
         "line_idea": "شکلی که مردم می‌شناسند را نگه دار؛ این امضای توست",
         "reuse_path_or_new": "assets/objects/2026-10-29/stamp.png"
       }
-    ]
+    ],
+    "owner_visual_directive": {
+      "date": "2026-11-01 evening",
+      "source": "owner, in chat: «از همین عکسای ارسالی و وکتور های خوب استفاده کن»",
+      "rule": "Build both reels from the owner's four images (T-a..T-d) plus high-quality, meaning-carrying vector motion. Do NOT generate new AI objects for this date; existing objects in assets/objects/ only if a scene truly needs one.",
+      "image_roles": {
+        "T-c": "hook/tension: before (red) vs after (no colour), framed on dark",
+        "T-a": "the new colourless icon on a phone-screen moment, framed, cropped to the icon",
+        "T-b": "meaning: colour returns only when sound plays (teal accent on that line)",
+        "T-d": "closing frame: wordmark + sound waves; loop back to the hook (red -> sound)"
+      },
+      "vector_ideas": [
+        "sound wave (sine) that draws across the frame and lights a teal burst at each peak",
+        "concentric ripple rings expanding from a point (the liquid made by sound)",
+        "an empty rectangular frame line drawing itself around a framed image: 'your brand is the frame'",
+        "a solid colour block (red) draining down to grey, like paint running out, for 'more than a decade of red'",
+        "a note-shape outline that stays fixed while its fill fades: 'kept the shape, gave back the colour'"
+      ],
+      "vector_quality": "Clean editorial line work in brand palette (paper/primary/graphite, teal only for emphasis); each vector must say its line's meaning (motion.md rule 8); no decorative dots or generic circles. Never redraw the Apple logo or note as a vector; show them only through the owner's images."
+    }
   }
 }
