@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-02",
+  "T": {
+    "topic_fa": "رنگ را از لوگو برداشتند تا موسیقی رنگ باشد: وقتی کالای تو کارِ دیگران است، برند تو قاب است، نه نقاشی",
+    "topic_en": "They took the colour out of the logo so the music could be the colour: when you sell other people's work, your brand is the frame, not the painting",
+    "pillar": "visual_identity_distinctive_assets",
+    "central_tension_fa": "اپل موزیک بعد از بیش از یک دهه، قرمز را از آیکونش برداشت و آن را سیاه‌وسفید کرد؛ بعضی طرفدارها گفتند «غم‌انگیز» است. حالا رنگ فقط وقتی برمی‌گردد که صدا پخش می‌شود. ما فکر می‌کنیم برند باید بلندترین صدای قفسه باشد؛ ولی وقتی چیزی که می‌فروشی کار دیگران است، قابی که داد می‌زند، نقاشی را می‌دزدد. شکل را نگه داشتند، فقط رنگ را پس دادند.",
+    "central_tension_en": "After more than a decade, Apple Music took the red out of its icon and went black and white; some fans called it 'miserable'. Now colour only comes back when sound plays. We think a brand should be the loudest thing on the shelf. But when what you sell is other people's work, a frame that shouts steals the painting. They kept the shape and gave back only the colour.",
+    "working_hook_fa": "بعد از بیش از ده سال، رنگش را پس داد.",
+    "working_hook_en": "After more than a decade, they gave the colour back.",
+    "key_sources": [
+      {
+        "url": "https://www.macrumors.com/2026/10/21/apple-music-new-look-announced/",
+        "publisher": "MacRumors",
+        "date": "2026-10-21",
+        "claim": "Apple officially introduced the rebrand: icon and logo black and white, dropping the red scheme; visuals 'made by sound' with Fred again.. and NEST Acoustics; rolls out with iOS 27.2."
+      },
+      {
+        "url": "https://9to5mac.com/2026/10/27/ios-27-2-adds-new-app-icon-for-apple-music-more-design-updates/",
+        "publisher": "9to5Mac",
+        "date": "2026-10-27",
+        "claim": "iOS 27.2 released: white icon with black note (black/white in dark mode); active tab red->blue; widgets red->black; Library list colour removed; bolder all-lowercase logo."
+      },
+      {
+        "url": "https://www.fastcompany.com/91627164/for-the-new-apple-music-logo-designers-lean-into-the-science-of-sound",
+        "publisher": "Fast Company",
+        "date": "2026-10-21",
+        "claim": "Logo filmed in camera: a transducer played the sonic logo into mineral oil over acrylic logos; each note produces a brief burst of saturated colour; made with TBWA\\Media Arts Lab, Fred again.., Nest Acoustics over months."
+      },
+      {
+        "url": "https://9to5mac.com/2026/10/21/apple-music-unveils-new-design-rebrand-with-logo-made-by-sound/",
+        "publisher": "9to5Mac",
+        "date": "2026-10-21",
+        "claim": "Apple: logo 'physically shaped by an original composition'; tagline 'Just music, made visible.'"
+      },
+      {
+        "url": "https://www.creativebloq.com/news/apple-musics-miserable-new-logo-is-giving-mixed-messages",
+        "publisher": "Creative Bloq",
+        "date": "2026-10-16",
+        "claim": "Fan reaction: 'how do you sap a thing of all of its colour like this and think it's okay?'; one user theorised the plain mark lets artists supply the colour (anonymous social posts)."
+      }
+    ],
+    "music_mood": "dark",
+    "framing_note": "News is the spark; the reel is about host brands vs the work they host, and about keeping the shape while releasing the colour. Apple gave NO reason for dropping red: present the 'frame' idea as a reading ('one way to read it' / «می‌شود این‌طور خواند»), never as Apple's strategy. Say 'more than a decade', not '13 years' (single secondary source). 'Some fans', no backlash numbers. Include the red-team: dropping a distinctive asset is risky and a giant can afford it; the lesson is NOT 'drop your colour' (that would contradict 2026-10-26) but 'decide who the star is, and keep the shape people recognise'. Never generate the Apple logo or note as an object (owner images only, framed). Takeaway for owners (gallery, café serving local roasters, multi-brand store, marketplace, agency portfolio): if customers come for what you host, let your brand be the frame — consistent, recognisable, quiet — and let the work carry the colour. Never name the UAE, Dubai or any emirate.",
+    "image_requests": [
+      {
+        "id": "T-a",
+        "description": "آیکون جدید سیاه‌وسفید اپل موزیک (تصویر اصلی بالای همین مقاله) را ذخیره کن.",
+        "page_url": "https://9to5mac.com/2026/10/27/ios-27-2-adds-new-app-icon-for-apple-music-more-design-updates/",
+        "scene_idea": "صحنه‌ی قلاب/چرخش: آیکون بی‌رنگ قاب‌دار روی زمینه‌ی تیره؛ «رنگش را پس داد». شکل نُت ماند، فقط رنگ رفت."
+      },
+      {
+        "id": "T-b",
+        "description": "یکی از فریم‌های «ساخته‌شده با صدا» در همین مقاله را ذخیره کن: لوگوی زیر روغن موج‌دار که لحظه‌ای رنگی شده است (Image: Apple).",
+        "page_url": "https://www.fastcompany.com/91627164/for-the-new-apple-music-logo-designers-lean-into-the-science-of-sound",
+        "scene_idea": "صحنه‌ی معنا: رنگ فقط وقتی برمی‌گردد که موسیقی پخش می‌شود؛ قاب واقعی با teal روی خط «رنگ مال موسیقی است»."
+      },
+      {
+        "id": "T-c",
+        "description": "اگر در این مقاله تصویر مقایسه‌ی آیکون قدیمی قرمز با آیکون جدید هست، همان را ذخیره کن؛ اگر نبود، تصویر اصلی مقاله را.",
+        "page_url": "https://www.creativebloq.com/news/apple-musics-miserable-new-logo-is-giving-mixed-messages",
+        "scene_idea": "صحنه‌ی تنش: قبل/بعد — قرمزِ بیش از یک دهه در برابر سیاه‌وسفید؛ «بعضی طرفدارها گفتند غم‌انگیز است.»"
+      }
+    ],
+    "object_plan": [
+      {
+        "object": "paint roller",
+        "line_idea": "روی بیش از ده سال قرمز، یک دست خاکستری کشیدند",
+        "reuse_path_or_new": "assets/objects/2026-10-26/paint_roller.png"
+      },
+      {
+        "object": "faded sticker",
+        "line_idea": "رنگی که رفت؛ چیزی که اول به چشم می‌آید همین است",
+        "reuse_path_or_new": "assets/objects/2026-10-26/faded_sticker.png"
+      },
+      {
+        "object": "smartphone",
+        "line_idea": "روی صفحه‌ی گوشی، یک آیکون بی‌رنگ میان آیکون‌های رنگی",
+        "reuse_path_or_new": "assets/objects/2026-10-25/phone.png"
+      },
+      {
+        "object": "tuning fork",
+        "line_idea": "لوگویی که صدا ساختش، نه نرم‌افزار",
+        "reuse_path_or_new": "new"
+      },
+      {
+        "object": "shallow glass dish of liquid with concentric ripples",
+        "line_idea": "هر نُت، یک موج؛ هر موج، لحظه‌ای رنگ",
+        "reuse_path_or_new": "new"
+      },
+      {
+        "object": "empty ornate wooden picture frame",
+        "line_idea": "برند تو قاب است، نه نقاشی",
+        "reuse_path_or_new": "new"
+      },
+      {
+        "object": "vinyl record",
+        "line_idea": "چیزی که مردم برایش می‌آیند، کار دیگران است: موسیقی",
+        "reuse_path_or_new": "new"
+      },
+      {
+        "object": "paint tube squeezed (artist's oil paint, no label)",
+        "line_idea": "رنگ را بده به صاحب اثر",
+        "reuse_path_or_new": "new"
+      },
+      {
+        "object": "magnifier",
+        "line_idea": "دقیق‌تر نگاه کن: شکل نُت ماند، فقط رنگ رفت",
+        "reuse_path_or_new": "assets/objects/2026-10-22/magnifier.png"
+      },
+      {
+        "object": "blank gallery wall label card",
+        "line_idea": "گالری، کافه‌ی قهوه‌های دیگران، فروشگاه چندبرندی: کار تو معرفی است، نه داد زدن",
+        "reuse_path_or_new": "assets/objects/2026-10-25/label_card.png"
+      },
+      {
+        "object": "wristwatch",
+        "line_idea": "بیش از یک دهه قرمز",
+        "reuse_path_or_new": "assets/objects/2026-10-22/watch.png"
+      },
+      {
+        "object": "rubber stamp",
+        "line_idea": "شکلی که مردم می‌شناسند را نگه دار؛ این امضای توست",
+        "reuse_path_or_new": "assets/objects/2026-10-29/stamp.png"
+      }
+    ]
+  }
+}
