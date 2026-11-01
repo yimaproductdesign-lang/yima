@@ -1,0 +1,563 @@
+{
+ "reel_id": "2026-11-01_FA",
+ "date": "2026-11-01",
+ "topic": "شهرت قرضی: تشویق مال صاحب صحنه است",
+ "pillar": "brand_equity_campaigns_sponsorship",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "graphite",
+   "spot_y": 1300,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.adweek.com/brand-marketing/mcdonalds-ends-32-year-fifa-world-cup-sponsorship-amid-marketing-overhaul/",
+     "publisher": "Adweek",
+     "event_date": "2026-10-23",
+     "retrieved_at": "2026-11-01T01:40:00Z",
+     "claim": "McDonald's is ending its FIFA World Cup sponsorship after 32 years; 'biggest-ever World Cup campaign this summer'; by Wieden+Kennedy New York, more than 110 countries; CFO Ian Borden: 'provided a lift to the business ... [it] underperformed versus our expectations'"
+    },
+    {
+     "url": "https://campaignlive.com/article/mcdonalds-taps-beckham-pulisic-world-cup-collectible-cup-campaign/1960190",
+     "publisher": "Campaign",
+     "event_date": "2026-06",
+     "retrieved_at": "2026-11-01T01:40:00Z",
+     "claim": "Nine collectible cups: eight players from the ads plus Grimace; designed with Ilovedust; ads by Wieden+Kennedy New York"
+    }
+   ],
+   "objects": [
+    {
+     "key": "ta",
+     "src": "incoming/2026-11-01/T-a.jpg",
+     "x": 540,
+     "y": 1300,
+     "w": 900,
+     "ar": 1.876,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.04,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "Image: McDonald's FIFA World Cup 26 campaign (via Campaign)",
+     "source_url": "https://campaignlive.com/article/mcdonalds-taps-beckham-pulisic-world-cup-collectible-cup-campaign/1960190"
+    }
+   ],
+   "motion_rationale": "قلاب با تصویر واقعی کمپین (آپلود مالک، قاب‌دار): ستاره‌ها روی نیمکت، جام کنارشان = بزرگ‌ترین مهمانی؛ و درست بعدش رفتن",
+   "lines": [
+    {
+     "text": "بزرگ‌ترین کمپین جام جهانی‌اش را ساخت.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "بعد، *رفت*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.adweek.com/brand-marketing/mcdonalds-ends-32-year-fifa-world-cup-sponsorship-amid-marketing-overhaul/",
+     "publisher": "Adweek",
+     "event_date": "2026-10-23",
+     "retrieved_at": "2026-11-01T01:40:00Z",
+     "claim": "McDonald's is ending its FIFA World Cup sponsorship after 32 years; 'biggest-ever World Cup campaign this summer'; by Wieden+Kennedy New York, more than 110 countries; CFO Ian Borden: 'provided a lift to the business ... [it] underperformed versus our expectations'"
+    },
+    {
+     "url": "https://www.nrn.com/quick-service/mcdonald-s-is-ending-its-fifa-world-cup-sponsorship",
+     "publisher": "Nation's Restaurant News",
+     "event_date": "2026-10-26",
+     "retrieved_at": "2026-11-01T01:40:00Z",
+     "claim": "CMO Morgan Flatley: 'I think we've become overly reliant on borrowed IP'; 'we need to be very selective and do it a few times'; involved since 1994"
+    }
+   ],
+   "objects": [
+    {
+     "key": "ball",
+     "src": "assets/objects/2026-11-01/football.png",
+     "x": 540,
+     "y": 1300,
+     "w": 440,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop",
+     "float": 4
+    }
+   ],
+   "motion_rationale": "توپ چرمی کهنه = ۳۲ سال کنار بازی؛ کهنگی توپ یعنی زمان طولانی همراهی",
+   "lines": [
+    {
+     "text": "۳۲ سال ایستاد کنار",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "بزرگ‌ترین *بازی* دنیا.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "bg": "graphite",
+   "spot_y": 1240,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.nrn.com/quick-service/mcdonald-s-is-ending-its-fifa-world-cup-sponsorship",
+     "publisher": "Nation's Restaurant News",
+     "event_date": "2026-10-26",
+     "retrieved_at": "2026-11-01T01:40:00Z",
+     "claim": "CMO Morgan Flatley: 'I think we've become overly reliant on borrowed IP'; 'we need to be very selective and do it a few times'; involved since 1994"
+    }
+   ],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "fade",
+     "box": [
+      140,
+      1000,
+      940,
+      1460
+     ],
+     "seed": 11,
+     "size": 56,
+     "t0": 0.9,
+     "words": [
+      "ستاره‌ها",
+      "جام",
+      "استادیوم",
+      "هیاهو",
+      "چهره‌های مشهور",
+      "قرضی"
+     ],
+     "keep": [
+      "قرضی"
+     ],
+     "keep_at": [
+      540,
+      1240
+     ]
+    }
+   ],
+   "motion_rationale": "کلمه‌های شهرت قرضی (ستاره، جام، استادیوم، هیاهو) محو می‌شوند و فقط «قرضی» می‌ماند = تشخیص خود مدیر بازاریابی",
+   "lines": [
+    {
+     "text": "مدیر بازاریابی‌اش گفت:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "«زیادی به اعتبار *قرضی* تکیه کرده‌ایم.»",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.adweek.com/brand-marketing/mcdonalds-ends-32-year-fifa-world-cup-sponsorship-amid-marketing-overhaul/",
+     "publisher": "Adweek",
+     "event_date": "2026-10-23",
+     "retrieved_at": "2026-11-01T01:40:00Z",
+     "claim": "McDonald's is ending its FIFA World Cup sponsorship after 32 years; 'biggest-ever World Cup campaign this summer'; by Wieden+Kennedy New York, more than 110 countries; CFO Ian Borden: 'provided a lift to the business ... [it] underperformed versus our expectations'"
+    }
+   ],
+   "objects": [
+    {
+     "key": "scale",
+     "src": "assets/objects/2026-10-22/scale.png",
+     "x": 540,
+     "y": 1320,
+     "w": 480,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise"
+    }
+   ],
+   "motion_rationale": "ترازو = انصاف و سنجش؛ اثر داشت ولی کفه‌ی انتظار سنگین‌تر بود (احتیاط یک بار، کوتاه)",
+   "lines": [
+    {
+     "text": "انصافاً بی‌اثر نبود؛ کمکش کرد.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "فقط *کمتر* از انتظارش.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://campaignlive.com/article/mcdonalds-taps-beckham-pulisic-world-cup-collectible-cup-campaign/1960190",
+     "publisher": "Campaign",
+     "event_date": "2026-06",
+     "retrieved_at": "2026-11-01T01:40:00Z",
+     "claim": "Nine collectible cups: eight players from the ads plus Grimace; designed with Ilovedust; ads by Wieden+Kennedy New York"
+    }
+   ],
+   "objects": [
+    {
+     "key": "tacups",
+     "src": "incoming/2026-11-01/T-a_cups.jpg",
+     "x": 540,
+     "y": 1290,
+     "w": 760,
+     "ar": 1.402,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.04,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "Image: McDonald's FIFA World Cup 26 campaign (via Campaign)",
+     "source_url": "https://campaignlive.com/article/mcdonalds-taps-beckham-pulisic-world-cup-collectible-cup-campaign/1960190"
+    }
+   ],
+   "motion_rationale": "چرخش (drop): قاب نزدیک از همان عکس کمپین؛ ستاره‌های قرضی روی نیمکت و گریمس، شخصیتِ خودشان، با لیوان = هشت چهره‌ی قرضی، یکی از خودشان",
+   "lines": [
+    {
+     "text": "به لیوان‌ها نگاه کنید.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "هشت ستاره. *یکی* از خودشان.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "suit",
+     "src": "assets/objects/2026-11-01/suit.png",
+     "x": 540,
+     "y": 1290,
+     "w": 470,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop",
+     "float": 3
+    }
+   ],
+   "motion_rationale": "کت روی چوب‌لباسی با برچسب کرایه = شهرت قرضی برازنده است ولی پس داده می‌شود",
+   "lines": [
+    {
+     "text": "شهرت قرضی، کت کرایه‌ای است.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "برازنده است. ولی *پس‌دادنی*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "bg": "graphite",
+   "spot_y": 1300,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "trophy",
+     "src": "assets/objects/2026-10-24/trophy.png",
+     "x": 540,
+     "y": 1310,
+     "w": 360,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "bright": [
+      1.4,
+      1.4
+     ]
+    }
+   ],
+   "motion_rationale": "جام زیر نور = تشویق و پیروزی مال صاحب صحنه است، نه کسی که کنارش ایستاده",
+   "lines": [
+    {
+     "text": "تشویق مال کسی است",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "که *صحنه* مال اوست.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "ticket",
+     "src": "assets/objects/2026-10-31/ticket.png",
+     "x": 540,
+     "y": 1300,
+     "w": 540,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -5,
+     "anim": "pop",
+     "float": 5
+    }
+   ],
+   "motion_rationale": "ته‌بلیت = قرارداد حمایت مثل بلیت است؛ تاریخ دارد و تمام می‌شود",
+   "lines": [
+    {
+     "text": "قرارداد حمایت، بلیت است.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*تاریخ انقضا* دارد.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "bg": "graphite",
+   "spot_y": 1240,
+   "claim_type": "interpretation",
+   "fx": [
+    {
+     "type": "words",
+     "mode": "fade",
+     "box": [
+      140,
+      1000,
+      940,
+      1460
+     ],
+     "seed": 5,
+     "size": 56,
+     "t0": 0.9,
+     "words": [
+      "قرارداد",
+      "استادیوم",
+      "ستاره",
+      "پوستر",
+      "هیاهو",
+      "مال خودتان"
+     ],
+     "keep": [
+      "مال خودتان"
+     ],
+     "keep_at": [
+      540,
+      1240
+     ]
+    }
+   ],
+   "motion_rationale": "کلمه‌های قرضی (قرارداد، استادیوم، ستاره، پوستر) محو می‌شوند و فقط «مال خودتان» می‌ماند و بزرگ می‌شود؛ شخصیت، صدا و آیین در تیتر",
+   "lines": [
+    {
+     "text": "آنچه می‌ماند، مال خودتان است:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "شخصیت، صدا، *آیین*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "sieve",
+     "src": "assets/objects/2026-10-22/sieve.png",
+     "x": 540,
+     "y": 1300,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -8,
+     "anim": "slide_r"
+    }
+   ],
+   "motion_rationale": "صافی = گزینش؛ «خیلی گزیده و چند بار» (حرف خود مدیر بازاریابی)، نه هرگز",
+   "lines": [
+    {
+     "text": "نمی‌گویم هیچ‌وقت حامی نشوید.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*کم*، و آگاهانه.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "bg": "graphite",
+   "spot_y": 1300,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "tag",
+     "src": "assets/objects/2026-10-25/price_tag.png",
+     "x": 540,
+     "y": 1310,
+     "w": 420,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": 6,
+     "anim": "pop",
+     "bright": [
+      1.4,
+      1.4
+     ]
+    }
+   ],
+   "motion_rationale": "برچسب قیمت = بهای اجاره‌ی نور صحنه؛ پیش از پرداخت بپرس چه برایت می‌ماند",
+   "lines": [
+    {
+     "text": "پیش از اجاره‌ی نور صحنه بپرسید:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "خاموش که شد، *چه* برایم می‌ماند؟",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "ball",
+     "src": "assets/objects/2026-11-01/football.png",
+     "x": 330,
+     "y": 1360,
+     "w": 300,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "slide_l"
+    },
+    {
+     "key": "house",
+     "src": "assets/objects/2026-10-29/mini_house.png",
+     "x": 750,
+     "y": 1290,
+     "w": 230,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "delay": 0.3
+    }
+   ],
+   "motion_rationale": "بازگشت به آغاز: توپ (بازی دیگران) برمی‌گردد کنار خانه‌ای که ساخته می‌شود = تشویق اجاره‌ای، اسم ساختنی",
+   "lines": [
+    {
+     "text": "تشویق را می‌شود اجاره کرد.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "اسم را باید *ساخت*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "bg": "primary",
+   "claim_type": "interpretation",
+   "motion_rationale": "کارت پایانی",
+   "logo": true,
+   "txt_top": 1080,
+   "lines": [
+    {
+     "text": "برای من بنویسید.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  }
+ ],
+ "caption": "بزرگ‌ترین کمپین جام جهانی‌اش را ساخت. بعد، رفت.\n\nمک‌دونالد ۳۲ سال حامی جام جهانی فیفا بود. تابستان امسال بزرگ‌ترین کمپین جام جهانی تاریخش را در بیش از ۱۱۰ کشور اجرا کرد و حالا این همکاری را تمام می‌کند. مورگان فلتلی، مدیر ارشد بازاریابی جهانی‌اش، گفته: «فکر می‌کنم بیش از حد به اعتبار قرضی (IP قرضی) تکیه کرده‌ایم.»\n\nبه لیوان‌های کلکسیونی نگاه کنید: نُه لیوان؛ هشت تا با چهره‌ی ستاره‌های فوتبال، یکی با گریمس، شخصیتِ خودِ مک‌دونالد. کل درس در همین یک ردیف است. شهرت قرضی کت کرایه‌ای است؛ برازنده است، ولی پس‌دادنی. تشویق مال کسی است که صحنه مال اوست، و قرارداد حمایت تاریخ انقضا دارد. آنچه می‌ماند مال خودتان است: یک شخصیت، یک صدا، یک آیین، اسمی که مشتری جست‌وجویش می‌کند.\n\nبه نظر من حرف این نیست که هیچ‌وقت حامی نشوید. خود فلتلی گفته باید «خیلی گزیده و فقط چند بار» این کار را کرد. پیش از این‌که برای نور صحنه‌ی دیگران پول بدهید (یک رویداد، یک غرفه، یک چهره‌ی مشهور)، بپرسید خاموش که شد، چه برایتان می‌ماند.\n\nحدودش را هم بگویم: کمپین شکست نخورد. ایان بوردن، مدیر مالی شرکت، گفته به کسب‌وکار «رونق داد» ولی «کمتر از انتظار ما» عمل کرد. منبع‌ها: Adweek، Nation's Restaurant News، Campaign و Marketing Dive. دو قاب واقعی از عکس کمپین جام جهانی مک‌دونالد است (آپلود مالک، به نقل از Campaign)؛ اشیای دیگر با هوش مصنوعی ساخته شده‌اند.\n\nاگر فردا همه‌ی حامی‌ها، شریک‌ها و چهره‌های مشهور از کنار کسب‌وکارتان بروند، چه چیزی هنوز مال خودتان است؟ برای من بنویسید.\n\n— بهنود کاویان",
+ "hashtags": [
+  "#برندینگ",
+  "#بازاریابی",
+  "#brandstrategy",
+  "#sponsorship"
+ ],
+ "sources": [
+  {
+   "publisher": "Adweek",
+   "title": "McDonald's Ends 32-Year FIFA World Cup Sponsorship Amid Marketing Overhaul",
+   "date": "2026-10-23",
+   "url": "https://www.adweek.com/brand-marketing/mcdonalds-ends-32-year-fifa-world-cup-sponsorship-amid-marketing-overhaul/"
+  },
+  {
+   "publisher": "Nation's Restaurant News",
+   "title": "McDonald's is ending its FIFA World Cup sponsorship",
+   "date": "2026-10-26",
+   "url": "https://www.nrn.com/quick-service/mcdonald-s-is-ending-its-fifa-world-cup-sponsorship"
+  },
+  {
+   "publisher": "Campaign",
+   "title": "McDonald's taps Beckham, Pulisic for World Cup collectible cup campaign (image T-a)",
+   "date": "2026-06",
+   "url": "https://campaignlive.com/article/mcdonalds-taps-beckham-pulisic-world-cup-collectible-cup-campaign/1960190"
+  },
+  {
+   "publisher": "Marketing Dive",
+   "title": "What McDonald's dropping its FIFA sponsorship means for sports marketing (context)",
+   "date": "2026-10-27",
+   "url": "https://www.marketingdive.com/news/what-mcdonalds-dropping-its-fifa-sponsorship-means-for-sports-marketing/872775/"
+  }
+ ],
+ "cta": "برای من بنویسید.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S5"
+ },
+ "status": "DRAFT",
+ "style": "editorial",
+ "lang": "fa"
+}
