@@ -181,6 +181,17 @@ const FXS = {
           d += (k ? 'L' : 'M') + x.toFixed(1) + ' ' + y.toFixed(1); }
         p.setAttribute('d', d); p.setAttribute('opacity', a * on * (.75 + .25 * Math.sin(u * 1.3 + i * 1.7))); }); }
   },
+  // picture frame drawing itself (outer moulding + inner fillet); inside, a soft colour wash fills in = the frame stays quiet, the work carries the colour
+  frameline: {
+    init(f, C) { this.f = f; this.svg = document.createElementNS(NS, 'svg'); this.svg.setAttribute('viewBox', '0 0 1080 1920'); this.svg.setAttribute('class', 'fxsvg'); fx.appendChild(this.svg);
+      const [x0, y0, x1, y1] = f.box, g = f.gap || 34, col = f.color || C.fg;
+      this.wash = el('rect', { x: x0 + g + 10, y: y0 + g + 10, width: x1 - x0 - 2 * g - 20, height: y1 - y0 - 2 * g - 20, fill: f.wash || C.acc, opacity: 0 }, this.svg);
+      this.o = el('rect', { x: x0, y: y0, width: x1 - x0, height: y1 - y0, fill: 'none', stroke: col, 'stroke-width': f.sw || 14, pathLength: 1, 'stroke-dasharray': '1 1', 'stroke-dashoffset': 1 }, this.svg);
+      this.i = el('rect', { x: x0 + g, y: y0 + g, width: x1 - x0 - 2 * g, height: y1 - y0 - 2 * g, fill: 'none', stroke: col, 'stroke-width': 3, pathLength: 1, 'stroke-dasharray': '1 1', 'stroke-dashoffset': 1 }, this.svg); },
+    update(u, dur, a) { const t = this.f.t || .4, p = easeIO(clamp((u - t) / 1.4)), q = easeIO(clamp((u - t - .9) / 1.2)), w = easeIO(clamp((u - (this.f.wash_t || t + 1.8)) / 1.4));
+      this.o.setAttribute('stroke-dashoffset', 1 - p); this.i.setAttribute('stroke-dashoffset', 1 - q); this.o.setAttribute('opacity', a); this.i.setAttribute('opacity', a * .8);
+      this.wash.setAttribute('opacity', a * w * (this.f.wash_op || .55)); }
+  },
   // wood grain: wavy parallel lines drawn in (craft, material)
   grain: {
     init(f, C) { this.f = f; this.svg = document.createElementNS(NS, 'svg'); this.svg.setAttribute('viewBox', '0 0 1080 1920'); this.svg.setAttribute('class', 'fxsvg'); fx.appendChild(this.svg); this.ls = []; const y0 = f.y0 || 980, n = f.n || 14;

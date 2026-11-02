@@ -1,0 +1,645 @@
+{
+ "reel_id": "2026-11-02_EN",
+ "date": "2026-11-02",
+ "topic": "Your brand is the frame, not the painting: Apple Music gave its colour to the music",
+ "pillar": "visual_identity_distinctive_assets",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "graphite",
+   "spot_y": 1270,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://macrumors.com/2026/10/21/apple-music-new-look-announced/",
+     "publisher": "MacRumors",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-11-02T03:30:00Z",
+     "claim": "Apple Music visuals now have a black-and-white color scheme instead of red; visuals 'made by sound' with Fred Again and NEST Acoustics; rolls out with iOS 27.2"
+    },
+    {
+     "url": "https://www.macrumors.com/2026/10/13/ios-27-2-apple-music-icon/",
+     "publisher": "MacRumors",
+     "event_date": "2026-10-13",
+     "retrieved_at": "2026-11-02T03:30:00Z",
+     "claim": "iOS 27.2 icon: black on white in light mode, white on black in dark mode; widgets black instead of red; tab highlight blue instead of red"
+    }
+   ],
+   "objects": [
+    {
+     "key": "tc",
+     "src": "incoming/2026-11-02/T-c.png",
+     "x": 540,
+     "y": 1270,
+     "w": 900,
+     "ar": 1.778,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.04,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "Image: Apple, before/after comparison (owner upload)",
+     "source_url": "https://www.creativebloq.com/news/apple-musics-miserable-new-logo-is-giving-mixed-messages"
+    }
+   ],
+   "motion_rationale": "قلاب با تصویر واقعی قبل/بعد (آپلود مالک، قاب‌دار، رنگ طبیعی): قرمزِ بیش از یک دهه کنار نسخه‌ی بی‌رنگ = «پس داد»",
+   "lines": [
+    {
+     "text": "More than a decade of red.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "Then they *gave it back*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://macrumors.com/2026/10/21/apple-music-new-look-announced/",
+     "publisher": "MacRumors",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-11-02T03:30:00Z",
+     "claim": "Apple Music visuals now have a black-and-white color scheme instead of red; visuals 'made by sound' with Fred Again and NEST Acoustics; rolls out with iOS 27.2"
+    },
+    {
+     "url": "https://www.macrumors.com/2026/10/13/ios-27-2-apple-music-icon/",
+     "publisher": "MacRumors",
+     "event_date": "2026-10-13",
+     "retrieved_at": "2026-11-02T03:30:00Z",
+     "claim": "iOS 27.2 icon: black on white in light mode, white on black in dark mode; widgets black instead of red; tab highlight blue instead of red"
+    }
+   ],
+   "fx": [
+    {
+     "type": "swatch",
+     "y": 1260,
+     "t": 1.3
+    }
+   ],
+   "motion_rationale": "کارت قرمز بیرون می‌رود و کارت‌های سیاه و سفید جایش می‌نشینند = خودِ تغییر رنگ، بی‌آن‌که لوگو را بازکشی کنیم",
+   "lines": [
+    {
+     "text": "Apple Music's icon and logo",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "went *black and white*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "bg": "graphite",
+   "spot_y": 1270,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://macrumors.com/2026/10/21/apple-music-new-look-announced/",
+     "publisher": "MacRumors",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-11-02T03:30:00Z",
+     "claim": "Apple Music visuals now have a black-and-white color scheme instead of red; visuals 'made by sound' with Fred Again and NEST Acoustics; rolls out with iOS 27.2"
+    },
+    {
+     "url": "https://www.macrumors.com/2026/10/13/ios-27-2-apple-music-icon/",
+     "publisher": "MacRumors",
+     "event_date": "2026-10-13",
+     "retrieved_at": "2026-11-02T03:30:00Z",
+     "claim": "iOS 27.2 icon: black on white in light mode, white on black in dark mode; widgets black instead of red; tab highlight blue instead of red"
+    }
+   ],
+   "objects": [
+    {
+     "key": "ta",
+     "src": "incoming/2026-11-02/T-a_icon.png",
+     "x": 540,
+     "y": 1270,
+     "w": 560,
+     "ar": 1.0,
+     "frame": true,
+     "anim": "rise",
+     "push": 0.04,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "Image: 9to5Mac, new Apple Music icon (owner upload, cropped)",
+     "source_url": "https://9to5mac.com/2026/10/27/ios-27-2-adds-new-app-icon-for-apple-music-more-design-updates/"
+    }
+   ],
+   "motion_rationale": "آیکون واقعی جدید (آپلود مالک، بریده روی آیکون): نُت همان نُت است، فقط رنگ رفته = شکل ماند",
+   "lines": [
+    {
+     "text": "The note is the same note.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "Only the *colour* left.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.creativebloq.com/news/apple-musics-miserable-new-logo-is-giving-mixed-messages",
+     "publisher": "Creative Bloq",
+     "event_date": "2026-10-16",
+     "retrieved_at": "2026-11-02T03:30:00Z",
+     "claim": "X user: 'The new Apple Music branding is miserable how do you sap a thing of all of its colour like this and think it's okay?'"
+    }
+   ],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "fade",
+     "box": [
+      150,
+      1020,
+      930,
+      1450
+     ],
+     "seed": 9,
+     "size": 58,
+     "t0": 0.9,
+     "words": [
+      "red",
+      "warm",
+      "familiar",
+      "loud",
+      "bright",
+      "miserable"
+     ],
+     "keep": [
+      "miserable"
+     ],
+     "keep_at": [
+      540,
+      1240
+     ]
+    }
+   ],
+   "motion_rationale": "کلمه‌های حسِ قرمز (گرم، آشنا، شاد) محو می‌شوند و فقط «غم‌انگیز» می‌ماند = واکنش بعضی طرفدارها",
+   "lines": [
+    {
+     "text": "Some fans called it",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "“*miserable*.”",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "bg": "graphite",
+   "spot_y": 1270,
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://www.wallpaper.com/art/music/apple-musics-new-visual-identity-turns-sound-into-liquid-with-help-from-fred-again",
+     "publisher": "Wallpaper*",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-11-02T03:30:00Z",
+     "claim": "Music played through a transducer into a shallow bath of mineral oil; vibrations filmed"
+    },
+    {
+     "url": "https://www.fastcompany.com/91627164/for-the-new-apple-music-logo-designers-lean-into-the-science-of-sound",
+     "publisher": "Fast Company",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-11-01T16:50Z",
+     "claim": "Each note produces a brief burst of saturated colour (stage-1 reading; page not re-fetchable this morning)"
+    }
+   ],
+   "objects": [
+    {
+     "key": "tb",
+     "src": "incoming/2026-11-02/T-b_crop.png",
+     "x": 540,
+     "y": 1270,
+     "w": 580,
+     "ar": 1.0,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.06,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "Image: Apple 'made by sound' frame, via Fast Company (owner upload)",
+     "source_url": "https://www.fastcompany.com/91627164/for-the-new-apple-music-logo-designers-lean-into-the-science-of-sound"
+    }
+   ],
+   "motion_rationale": "چرخش (drop): قاب واقعی «ساخته‌شده با صدا» که لبه‌هایش رنگی شده = رنگ رفت توی موسیقی",
+   "lines": [
+    {
+     "text": "So where did the colour go?",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "Into the *music*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.wallpaper.com/art/music/apple-musics-new-visual-identity-turns-sound-into-liquid-with-help-from-fred-again",
+     "publisher": "Wallpaper*",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-11-02T03:30:00Z",
+     "claim": "Music played through a transducer into a shallow bath of mineral oil; vibrations filmed"
+    },
+    {
+     "url": "https://www.fastcompany.com/91627164/for-the-new-apple-music-logo-designers-lean-into-the-science-of-sound",
+     "publisher": "Fast Company",
+     "event_date": "2026-10-21",
+     "retrieved_at": "2026-11-01T16:50Z",
+     "claim": "Each note produces a brief burst of saturated colour (stage-1 reading; page not re-fetchable this morning)"
+    }
+   ],
+   "fx": [
+    {
+     "type": "rings",
+     "x": 540,
+     "y": 1250,
+     "R": 400,
+     "n": 6,
+     "period": 1.3,
+     "t": 0.5,
+     "op": 0.85,
+     "sw": 5
+    }
+   ],
+   "motion_rationale": "موج‌های هم‌مرکز از یک نقطه = نُتی که روغن را می‌لرزاند؛ رنگ فقط با موج می‌آید",
+   "lines": [
+    {
+     "text": "Sound shaped the new logo.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "Colour comes with the *notes*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "lens",
+     "src": "assets/objects/2026-10-22/magnifier.png",
+     "x": 540,
+     "y": 1290,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -10,
+     "anim": "slide_r",
+     "bright": [
+      1.3,
+      1.3
+     ]
+    }
+   ],
+   "motion_rationale": "ذره‌بین = «خوانش من»؛ اپل دلیلی نگفته، این نگاه دقیق‌تر من است، نه ادعای استراتژی اپل (احتیاط یک بار)",
+   "lines": [
+    {
+     "text": "Apple gave no reason.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "This is my *reading*:",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "fx": [
+    {
+     "type": "frameline",
+     "box": [
+      250,
+      1030,
+      830,
+      1480
+     ],
+     "t": 0.5,
+     "wash_op": 0.5
+    }
+   ],
+   "motion_rationale": "قاب خالی که خودش را می‌کشد و داخلش رنگ می‌نشیند = برند قاب است، رنگ مال اثر",
+   "lines": [
+    {
+     "text": "Selling other people's work?",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "you're the *frame*, not the painting.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "bg": "graphite",
+   "spot_y": 1240,
+   "claim_type": "interpretation",
+   "fx": [
+    {
+     "type": "words",
+     "mode": "pop",
+     "box": [
+      150,
+      1020,
+      930,
+      1450
+     ],
+     "seed": 4,
+     "size": 64,
+     "t0": 0.9,
+     "words": [
+      "colour",
+      "logo",
+      "slogan",
+      "louder",
+      "look at me",
+      "sale",
+      "colour",
+      "logo",
+      "louder"
+     ],
+     "keep": []
+    }
+   ],
+   "motion_rationale": "کلمه‌های بلند تبلیغ (لوگو، شعار، بلندتر، مرا ببین) شلوغ و چشمک‌زن = قابی که داد می‌زند و جای نقاشی را می‌گیرد",
+   "lines": [
+    {
+     "text": "A frame that shouts",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*steals* the painting.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "label",
+     "src": "assets/objects/2026-10-25/label_card.png",
+     "x": 540,
+     "y": 1280,
+     "w": 520,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -4,
+     "anim": "drop",
+     "float": 3
+    }
+   ],
+   "motion_rationale": "کارت برچسب دیوار گالری = کار میزبان معرفی است، کوچک و ثابت کنار اثر",
+   "lines": [
+    {
+     "text": "Galleries. Cafés. Concept stores.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "People come for the *work*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "roller",
+     "src": "assets/objects/2026-10-26/paint_roller.png",
+     "x": 540,
+     "y": 1290,
+     "w": 620,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": 8,
+     "anim": "slide_l",
+     "bright": [
+      1.35,
+      1.35
+     ]
+    }
+   ],
+   "motion_rationale": "غلتک رنگ = «رنگت را رنگ نکن/دور نریز»؛ پیش از رنگ‌زدن روی دارایی‌ات بپرس ستاره کیست (رد تیم)",
+   "lines": [
+    {
+     "text": "I'm not saying drop your colour.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "First ask: who's the *star*?",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "stamp",
+     "src": "assets/objects/2026-10-29/stamp.png",
+     "x": 540,
+     "y": 1290,
+     "w": 300,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop",
+     "float": 2
+    }
+   ],
+   "motion_rationale": "مهر = شکلی که مردم می‌شناسند، امضای ثابت تو؛ همان را نگه دار",
+   "lines": [
+    {
+     "text": "Keep the shape people know.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "That's your *signature*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "td",
+     "src": "incoming/2026-11-02/T-d_crop.png",
+     "x": 540,
+     "y": 1290,
+     "w": 940,
+     "ar": 2.897,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.04,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "Image: Apple 'made by sound' film frame (owner upload)",
+     "source_url": "https://macrumors.com/2026/10/21/apple-music-new-look-announced/"
+    }
+   ],
+   "motion_rationale": "بازگشت به آغاز: قرمز S1 حالا رنگ موج‌های صداست کنار wordmark بی‌رنگ = قاب ساکت، اثر رنگی",
+   "lines": [
+    {
+     "text": "A quiet frame.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "The colour goes to the *work*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "bg": "primary",
+   "claim_type": "interpretation",
+   "motion_rationale": "کارت پایانی",
+   "logo": true,
+   "txt_top": 1080,
+   "lines": [
+    {
+     "text": "Write to me.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  }
+ ],
+ "caption": "More than a decade of red. Then they gave it back.\n\nWith iOS 27.2, Apple Music's icon and logo went black and white. The note is the same shape; only the colour left. Widgets went from red to black. Some fans online called the new branding \"miserable.\"\n\nSo where did the colour go? The new identity was shaped by sound: Fred again.. and NEST Acoustics played notes through a transducer into a shallow bath of mineral oil and filmed the vibrations in camera (agency: TBWA\\Media Arts Lab). In those frames, the colour arrives with the notes.\n\nMy reading: when what you sell is other people's work (a gallery, a café pouring other roasters' coffee, a multi-brand store, a marketplace), your brand is the frame, not the painting. A frame that shouts steals the painting. People come for the work; the frame should be consistent, recognisable and quiet.\n\nThe limits: Apple gave no reason for dropping red, so this is one reading, not Apple's strategy. Dropping a distinctive asset is risky, and a giant can afford it. The lesson isn't \"drop your colour.\" It's \"decide who the star is, and keep the shape people know.\" Sources: MacRumors, Creative Bloq, Wallpaper*, Fast Company, B&T, 9to5Mac. The four real frames are owner uploads (images by Apple and 9to5Mac); the other objects are AI-generated.\n\nWhat do your customers come for: the frame, or the work inside it? Write to me.\n\n— Behnood Kavian",
+ "hashtags": [
+  "#branding",
+  "#marketing",
+  "#brandidentity",
+  "#visualidentity"
+ ],
+ "sources": [
+  {
+   "publisher": "MacRumors",
+   "title": "Apple Music's New Look Officially Announced",
+   "date": "2026-10-21",
+   "url": "https://macrumors.com/2026/10/21/apple-music-new-look-announced/"
+  },
+  {
+   "publisher": "MacRumors",
+   "title": "iOS 27.2 Adds New Apple Music Icon",
+   "date": "2026-10-13",
+   "url": "https://www.macrumors.com/2026/10/13/ios-27-2-apple-music-icon/"
+  },
+  {
+   "publisher": "Creative Bloq",
+   "title": "Apple Music's 'miserable' new logo is giving mixed messages",
+   "date": "2026-10-16",
+   "url": "https://www.creativebloq.com/news/apple-musics-miserable-new-logo-is-giving-mixed-messages"
+  },
+  {
+   "publisher": "Wallpaper*",
+   "title": "Apple Music's new visual identity ripples into view – with help from Fred Again..",
+   "date": "2026-10-21",
+   "url": "https://www.wallpaper.com/art/music/apple-musics-new-visual-identity-turns-sound-into-liquid-with-help-from-fred-again"
+  },
+  {
+   "publisher": "Fast Company",
+   "title": "For the new Apple Music logo, designers lean into the science of sound",
+   "date": "2026-10-21",
+   "url": "https://www.fastcompany.com/91627164/for-the-new-apple-music-logo-designers-lean-into-the-science-of-sound"
+  },
+  {
+   "publisher": "B&T",
+   "title": "Apple Music Gets Watery Rebrand Via TBWA\\Media Arts Lab",
+   "date": "2026-10-22",
+   "url": "https://www.bandt.com.au/apple-music-gets-watery-rebrand-via-tbwamedia-arts-lab/"
+  },
+  {
+   "publisher": "9to5Mac",
+   "title": "iOS 27.2 adds new app icon for Apple Music, more design updates (image T-a)",
+   "date": "2026-10-27",
+   "url": "https://9to5mac.com/2026/10/27/ios-27-2-adds-new-app-icon-for-apple-music-more-design-updates/"
+  }
+ ],
+ "cta": "Write to me.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S5"
+ },
+ "status": "DRAFT",
+ "style": "editorial",
+ "lang": "en"
+}
