@@ -47,19 +47,45 @@
         "id": "T-a",
         "description": "تصویر اصلی بالای این مقاله (جوراب‌های یونیکلو) را ذخیره کن؛ اگر آدم قابل‌شناسایی در عکس هست، نفرست.",
         "page_url": "https://www.advertimes.com/?p=562209",
-        "scene_idea": "صحنه‌ی قلاب: جوراب واقعیِ ماجرا، قاب‌دار روی زمینه‌ی تیره؛ «صد ین روی جوراب...»"
+        "scene_idea": "صحنه‌ی قلاب: جوراب واقعیِ ماجرا، قاب‌دار روی زمینه‌ی تیره؛ «صد ین روی جوراب...»",
+        "received": {
+          "file": "incoming/2026-11-03/T-a.png",
+          "size": "700x466",
+          "note": "Store shelf of Uniqlo colour socks in stacked cubbies with the ¥290 shelf price label visible; 'Bloomberg' watermark bottom-right. Exactly the subject (the ¥290 socks). Below 1080px: use framed and modest size on dark; credit 'Bloomberg' (owner upload). Best hook image."
+        }
       },
       {
         "id": "T-b",
         "description": "تصویر اصلی بالای این مقاله (ماجرای پس گرفتن افزایش قیمت) را ذخیره کن؛ اگر چهره‌ی مشتری یا رهگذر در آن پیداست، نفرست.",
         "page_url": "https://www.fashionsnap.com/article/2026-10-27/uniqlo-priceup-withdrawal/",
-        "scene_idea": "صحنه‌ی چرخش: «یازده روز بعد پس گرفتند»؛ عکس واقعی ماجرا، قاب‌دار، با برچسب تاریخ ۱۶ ← ۲۷ اکتبر."
+        "scene_idea": "صحنه‌ی چرخش: «یازده روز بعد پس گرفتند»؛ عکس واقعی ماجرا، قاب‌دار، با برچسب تاریخ ۱۶ ← ۲۷ اکتبر.",
+        "received": {
+          "file": "incoming/2026-11-03/T-b.png",
+          "size": "1064x796",
+          "note": "Red UNIQLO square sign on a tiled storefront, no people. Just under 1080px: framed. Use for brand establishing/turn scene ('Uniqlo announced...'). Source not stated (owner upload); confirm credit in morning."
+        }
       },
       {
         "id": "T-c",
         "description": "از صفحه‌ی رسمی یونیکلو یک عکس محصولِ تمیز از یک جفت جوراب ساده (بدون مدل/آدم) ذخیره کن.",
         "page_url": "https://www.uniqlo.com/jp/ja/contents/kw/%E3%82%BD%E3%83%83%E3%82%AF%E3%82%B9%E3%80%80%E3%83%8D%E3%82%A4%E3%83%93%E3%83%BC%E3%80%80%E3%83%A1%E3%83%B3%E3%82%BA/review/",
-        "scene_idea": "صحنه‌ی معنا: جوراب کنار کاپشن روی ترازو؛ «قیمتی که مشتری از بر است». محصول با رنگ واقعی (استثنای محصول)."
+        "scene_idea": "صحنه‌ی معنا: جوراب کنار کاپشن روی ترازو؛ «قیمتی که مشتری از بر است». محصول با رنگ واقعی (استثنای محصول).",
+        "received": {
+          "file": "incoming/2026-11-03/T-c.png",
+          "size": "1500x2000",
+          "note": "Official Uniqlo product shot: one pair of striped crew socks on light grey, with 'JW ANDERSON' + Uniqlo logos top-left. Meets 1080px. CAUTION: this is the JW Anderson collaboration sock, NOT the basic ¥290 50-colour sock in the story — use only as a generic 'a pair of socks' visual, crop out the JW Anderson wordmark, never caption it with ¥290/¥390."
+        }
+      },
+      {
+        "id": "T-d",
+        "description": "(ارسال اضافه‌ی مالک) لوگوی یونیکلو: دو مربع قرمز، ژاپنی و لاتین.",
+        "page_url": "owner-supplied (official Uniqlo logo; confirm source in morning)",
+        "scene_idea": "امضای برند در صحنه‌ی چرخش یا پایان؛ کوچک و قاب‌دار.",
+        "received": {
+          "file": "incoming/2026-11-03/T-d.png",
+          "size": "593x333",
+          "note": "Official logo pair (katakana + UNIQLO) on white. Low resolution: small only, framed; do not enlarge. Credit 'Uniqlo'."
+        }
       }
     ],
     "object_plan": [
