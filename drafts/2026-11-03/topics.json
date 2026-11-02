@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-03",
+  "T": {
+    "topic_fa": "صد ین روی جوراب، هزار ین روی کاپشن: مشتری همه‌ی قیمت‌های تو را به خاطر ندارد؛ چند قیمت را به خاطر دارد",
+    "topic_en": "¥100 on socks, ¥1,000 on a jacket: customers don't remember all your prices, they remember a few",
+    "pillar": "pricing_communication_brand_promise",
+    "central_tension_fa": "یونیکلو در ژاپن اعلام کرد قیمت کاپشن را هزار ین و قیمت جوراب را صد ین بالا می‌برد. افزایش کاپشن سر جایش ماند؛ افزایش جوراب یازده روز هم دوام نیاورد و پس گرفته شد. ما فکر می‌کنیم مشتری درصد افزایش را حساب می‌کند؛ ولی مشتری با چند قیمتِ آشنا قضاوت می‌کند که «این‌جا منصف است یا نه». جوراب همان قیمت آشناست؛ به آن که دست بزنی، به قولِ برند دست زده‌ای.",
+    "central_tension_en": "Uniqlo announced ¥1,000 more on a jacket and ¥100 more on socks in Japan. The jacket rise stayed. The sock rise didn't last eleven days. We assume customers do the percentage maths. They don't: they judge 'is this place fair?' by a handful of prices they know by heart. Socks are one of them. Touch that price and you've touched the promise.",
+    "working_hook_fa": "صد ین روی جوراب، از هزار ین روی کاپشن گران‌تر تمام شد.",
+    "working_hook_en": "¥100 on socks cost more than ¥1,000 on a jacket.",
+    "key_sources": [
+      {
+        "url": "https://www.advertimes.com/?p=562209",
+        "publisher": "AdverTimes (Sendenkaigi)",
+        "date": "2026-10-28",
+        "claim": "16 Oct plan: 50-colour socks ¥290->¥390 and end of 4-for-¥990 / 3-for-¥990 bundles from 10 Nov (4 pairs ¥990->¥1,560, ~+58%). 27 Oct: cancelled after 11 days with an apology. Kando Jacket ¥6,990->¥7,990 and Kando Pants ¥3,990->¥4,990 still rise 10 Nov; average selling price ~+4%."
+      },
+      {
+        "url": "https://www.fashionsnap.com/article/2026-10-27/uniqlo-priceup-withdrawal/",
+        "publisher": "FASHIONSNAP",
+        "date": "2026-10-27",
+        "claim": "Uniqlo withdrew the sock changes on 27 Oct, citing socks as an essential daily item; apologised for changing after announcing; rises on 10 other items incl. Kando Jacket/Pants proceed."
+      },
+      {
+        "url": "https://www.arabnews.jp/en/business/uniqlo-cancels-socks-price-hikes-in-japan-as-inflation-bites-3001153",
+        "publisher": "AFP via Arab News Japan",
+        "date": "2026-10-29",
+        "claim": "Spokesperson: 'As socks are an essential everyday item, in Japan we reconsidered our planned price revision.' Jackets and pants rises still take effect in November."
+      },
+      {
+        "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/29/uniqlo-scraps-price-rise-on-us2-socks-after-japan-shopper-outcry",
+        "publisher": "Bloomberg via The Star",
+        "date": "2026-10-29",
+        "claim": "Reversed less than two weeks after announcing, following shopper complaints on social media; some rushed to stock up."
+      },
+      {
+        "url": "https://foodtradenews.com/2026/06/23/the-10-products-that-still-define-your-entire-value-proposition/",
+        "publisher": "Food Trade News (citing McKinsey State of Grocery NA 2026)",
+        "date": "2026-06-23",
+        "claim": "Stores carry 30,000-60,000 SKUs but shoppers judge value by about ten 'key value items' (eggs, milk, bread...)."
+      }
+    ],
+    "music_mood": "dark",
+    "framing_note": "News is the spark; the idea is key value items: customers judge your fairness by a few prices they know by heart, so a small rise on the everyday item can cost more trust than a big rise on a considered one. Say 'the jacket rise stayed', NEVER 'nobody complained about the jacket' (unverified). Outcry = 'complaints spread on social media', no numbers. 'Socks as Uniqlo's milk and eggs' is our reading of the KVI idea — present as a reading, not Uniqlo's stated reason (stated reason: socks are an essential everyday item). Use ¥ amounts (¥100 / ¥1,000) — no currency conversion needed; avoid inflation/CPI figures (sources conflict) and no politics. Credit Uniqlo fairly: reversing in 11 days with an apology is also a lesson (listening fast). Owner takeaway (café, bakery, salon, shop): find your 'socks' — the one price regulars remember (espresso, bread, a haircut) — move it last and least; raise where value is visible; announce plainly and once. Optional caption aside: Saizeriya raised ~6% the same month and apologised (AFP); do not claim customer reaction. Never name the UAE, Dubai or any emirate.",
+    "image_requests": [
+      {
+        "id": "T-a",
+        "description": "تصویر اصلی بالای این مقاله (جوراب‌های یونیکلو) را ذخیره کن؛ اگر آدم قابل‌شناسایی در عکس هست، نفرست.",
+        "page_url": "https://www.advertimes.com/?p=562209",
+        "scene_idea": "صحنه‌ی قلاب: جوراب واقعیِ ماجرا، قاب‌دار روی زمینه‌ی تیره؛ «صد ین روی جوراب...»"
+      },
+      {
+        "id": "T-b",
+        "description": "تصویر اصلی بالای این مقاله (ماجرای پس گرفتن افزایش قیمت) را ذخیره کن؛ اگر چهره‌ی مشتری یا رهگذر در آن پیداست، نفرست.",
+        "page_url": "https://www.fashionsnap.com/article/2026-10-27/uniqlo-priceup-withdrawal/",
+        "scene_idea": "صحنه‌ی چرخش: «یازده روز بعد پس گرفتند»؛ عکس واقعی ماجرا، قاب‌دار، با برچسب تاریخ ۱۶ ← ۲۷ اکتبر."
+      },
+      {
+        "id": "T-c",
+        "description": "از صفحه‌ی رسمی یونیکلو یک عکس محصولِ تمیز از یک جفت جوراب ساده (بدون مدل/آدم) ذخیره کن.",
+        "page_url": "https://www.uniqlo.com/jp/ja/contents/kw/%E3%82%BD%E3%83%83%E3%82%AF%E3%82%B9%E3%80%80%E3%83%8D%E3%82%A4%E3%83%93%E3%83%BC%E3%80%80%E3%83%A1%E3%83%B3%E3%82%BA/review/",
+        "scene_idea": "صحنه‌ی معنا: جوراب کنار کاپشن روی ترازو؛ «قیمتی که مشتری از بر است». محصول با رنگ واقعی (استثنای محصول)."
+      }
+    ],
+    "object_plan": [
+      {
+        "object": "a pair of plain folded socks (product, natural colour)",
+        "line_idea": "صد ین روی جوراب — قیمتی که همه از بر دارند",
+        "reuse_path_or_new": "new (or owner image T-c)"
+      },
+      {
+        "object": "suit jacket on a hanger",
+        "line_idea": "هزار ین روی کاپشن؛ آن افزایش سر جایش ماند",
+        "reuse_path_or_new": "assets/objects/2026-11-01/suit.png"
+      },
+      {
+        "object": "price tag",
+        "line_idea": "برچسب ۲۹۰ که می‌خواست ۳۹۰ شود",
+        "reuse_path_or_new": "assets/objects/2026-10-25/price_tag.png"
+      },
+      {
+        "object": "balance scale",
+        "line_idea": "مشتری درصد را نمی‌سنجد؛ انصاف را می‌سنجد",
+        "reuse_path_or_new": "assets/objects/2026-10-22/scale.png"
+      },
+      {
+        "object": "wristwatch",
+        "line_idea": "یازده روز دوام آورد",
+        "reuse_path_or_new": "assets/objects/2026-10-22/watch.png"
+      },
+      {
+        "object": "smartphone",
+        "line_idea": "شکایت‌ها در شبکه‌های اجتماعی پخش شد",
+        "reuse_path_or_new": "assets/objects/2026-10-25/phone.png"
+      },
+      {
+        "object": "eraser",
+        "line_idea": "افزایش را پاک کردند و عذر خواستند",
+        "reuse_path_or_new": "assets/objects/2026-10-22/eraser.png"
+      },
+      {
+        "object": "shopping basket",
+        "line_idea": "در سبد خرید چند کالای آشنا هست که قیمتشان را از بریم",
+        "reuse_path_or_new": "assets/objects/2026-10-24/basket.png"
+      },
+      {
+        "object": "egg carton and milk bottle (plain, unbranded)",
+        "line_idea": "در سوپرمارکت، تخم‌مرغ و شیر؛ در یونیکلو، جوراب",
+        "reuse_path_or_new": "new"
+      },
+      {
+        "object": "coffee cup",
+        "line_idea": "در کافه‌ی تو، اسپرسو همان جوراب است",
+        "reuse_path_or_new": "assets/objects/2026-10-29/cup.png"
+      },
+      {
+        "object": "magnifier",
+        "line_idea": "جورابِ کسب‌وکار خودت را پیدا کن",
+        "reuse_path_or_new": "assets/objects/2026-10-22/magnifier.png"
+      },
+      {
+        "object": "rubber stamp",
+        "line_idea": "قیمت آشنا یک قول است؛ آخر از همه و کم‌تر از همه به آن دست بزن",
+        "reuse_path_or_new": "assets/objects/2026-10-29/stamp.png"
+      }
+    ]
+  }
+}
