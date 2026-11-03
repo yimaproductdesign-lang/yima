@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-04",
+  "T": {
+    "topic_fa": "لوگویی که رو به جمع است: نشانِ برند تو بیشتر از آنکه برای مشتری باشد، برای آدم‌های دور و بر اوست",
+    "topic_en": "The logo that faces the room: your brand mark works hardest for the people around your customer, not your customer",
+    "pillar": "identity_visibility_consumer_behaviour",
+    "central_tension_fa": "روی لپ‌تاپ‌های قدیمی اپل، لوگو برای خودِ کاربر درست بود و برای همه‌ی اطرافیان وارونه. بعد برعکسش کردند تا رو به جمع درست دیده شود؛ و حالا، حدود ده سال بعد از خاموش شدن، در مک‌بوک پروی جدید دوباره روشن می‌شود. کسی که لپ‌تاپ را خریده تقریباً هیچ‌وقت آن لوگو را نمی‌بیند؛ اتاق همیشه می‌بیند. سؤال هر برند: نشانت را برای کسی طراحی کرده‌ای که خریده، یا برای کسی که هنوز نخریده؟",
+    "central_tension_en": "On early Apple laptops the logo read right-way-up to the owner and upside down to everyone else. Apple flipped it to face the room, and now, about ten years after switching the glow off, the new MacBook Pro lights it again. The person who bought the laptop almost never sees that logo. The room always does. So who is your mark really for: the person who bought, or the people who haven't yet?",
+    "working_hook_fa": "لوگوی اپل یک روز برای صاحبش وارونه بود؛ و حق با همان وارونگی نبود.",
+    "working_hook_en": "The person who paid for the logo is the only one who never sees it.",
+    "key_sources": [
+      {
+        "url": "https://macrumors.com/2026/10/28/illuminated-logo-returns-to-macbook-pro",
+        "publisher": "MacRumors",
+        "date": "2026-10-28",
+        "claim": "New OLED MacBook Pro brings back the illuminated rear Apple logo, absent since the 2016 MacBook Pro redesign; John Ternus: 'We're glowing with excitement over the new MacBook Pro.'"
+      },
+      {
+        "url": "https://macrumors.com/2026/10/28/macbook-pro-glowing-apple-logo/",
+        "publisher": "MacRumors",
+        "date": "2026-10-28",
+        "claim": "Hands-on (UrAvgConsumer video) shows the glowing logo; brightness follows display brightness; Apple has not publicly explained why it was removed."
+      },
+      {
+        "url": "https://appleosophy.com/2026/10/28/the-glowing-apple-logo-is-back-on-the-macbook-pro-with-an-interesting-twist/",
+        "publisher": "Appleosophy",
+        "date": "2026-10-28",
+        "claim": "Glow dropped from 12-inch MacBook (2015), then MacBook Pro (2016) and MacBook Air (2018); when unlit the new logo looks metallic."
+      },
+      {
+        "url": "https://www.engadget.com/2012/05/21/the-story-of-apples-upside-down-logo/",
+        "publisher": "Engadget",
+        "date": "2012-05-21",
+        "claim": "On PowerBook/iBook the logo first faced the user (upside down to onlookers when open); later reversed to face the room. Account from former Apple employee Joe Moreno."
+      },
+      {
+        "url": "https://edition.cnn.com/2012/05/22/tech/gaming-gadgets/apple-upside-down-logo",
+        "publisher": "CNN",
+        "date": "2012-05-22",
+        "claim": "Moreno: opening the lid from the wrong side is a brief, self-correcting annoyance; an upside-down logo facing onlookers lasts indefinitely."
+      }
+    ],
+    "music_mood": "dark",
+    "framing_note": "News is the spark; the idea is that a brand mark lives mostly in public: on the lid, the cup, the bag, the photo — seen by people who haven't bought yet. Facts to keep exact: glow returns on the new OLED MacBook Pro (28 Oct 2026); removed with the 2016 MacBook Pro (12-inch MacBook 2015 earlier) — say 'about ten years'; Apple has NOT said why it removed or restored it: never invent a reason (no 'thinness', no 'nostalgia strategy' as fact; 'our reading' only). Apple's own pages don't mention the logo: attribute to reports/hands-on, never 'Apple says'. Upside-down story: 'a former Apple employee recounted', no direct Jobs quote, no years beyond 'PowerBook / iBook era'. Do not draw or show the Apple bitten-apple logo as an invented graphic — use owner-uploaded real photos or a generic laptop / real fruit. Do not reference yesterday's or 2 Nov reels. Owner takeaway (café, bakery, salon, shop): your cup, bag, sleeve and box are read by the street more than by the buyer — make the mark readable the right way up from the outside, at a distance, in a photo; design for the one who hasn't bought yet. Optional support line: Ipsos x JKR (2023, 5,000+ assets) found product designs are the most distinctive asset type (31% 'gold') vs colours 4% — use only as 'one study found', with year. Never name the UAE, Dubai or any emirate.",
+    "image_requests": [
+      {
+        "id": "T-a",
+        "description": "تصویر اصلیِ این مقاله (لوگوی سیبِ روشنِ پشت مک‌بوک پروی جدید) را ذخیره کن؛ اگر چهره‌ی آدمی در عکس پیداست، نفرست.",
+        "page_url": "https://macrumors.com/2026/10/28/illuminated-logo-returns-to-macbook-pro",
+        "scene_idea": "صحنه‌ی قلاب/خبر: لوگوی روشن روی درِ لپ‌تاپ در تاریکی، قاب‌دار؛ «بعد از حدود ده سال دوباره روشن شد»."
+      },
+      {
+        "id": "T-b",
+        "description": "اگر در این مقاله عکسی از پاوربوک/آی‌بوک قدیمی با لوگوی وارونه هست، همان را ذخیره کن (فقط عکس دستگاه، بدون آدم). اگر نبود، رد شو.",
+        "page_url": "https://www.engadget.com/2012/05/21/the-story-of-apples-upside-down-logo/",
+        "scene_idea": "صحنه‌ی چرخش: لوگوی وارونه رو به جمع؛ «اول برای صاحبش درست بود، برای بقیه وارونه»."
+      }
+    ],
+    "object_plan": [
+      {
+        "object": "open laptop seen from behind, plain blank lid (no logo drawn)",
+        "line_idea": "hook: the person who paid never sees the back of the lid",
+        "reuse_path_or_new": "new"
+      },
+      {
+        "object": "real fruit apple turned upside down",
+        "line_idea": "the mark once read upside down to everyone else (real fruit, never the bitten-logo silhouette)",
+        "reuse_path_or_new": "assets/objects/2026-10-23/apple.png (rotate 180°)"
+      },
+      {
+        "object": "desk lamp / bulb switched on",
+        "line_idea": "about ten years later the glow comes back",
+        "reuse_path_or_new": "new"
+      },
+      {
+        "object": "wristwatch",
+        "line_idea": "about ten years off, then on again",
+        "reuse_path_or_new": "assets/objects/2026-10-22/watch.png"
+      },
+      {
+        "object": "hand mirror",
+        "line_idea": "you design the logo looking at yourself; the customer never looks at it",
+        "reuse_path_or_new": "new"
+      },
+      {
+        "object": "binoculars",
+        "line_idea": "the room is always looking: the people who haven't bought yet",
+        "reuse_path_or_new": "new"
+      },
+      {
+        "object": "nameplate turned outward",
+        "line_idea": "a sign is for the ones walking past, not the one sitting behind it",
+        "reuse_path_or_new": "assets/objects/2026-10-31/nameplate.png"
+      },
+      {
+        "object": "takeaway paper cup",
+        "line_idea": "your café's logo spends its life on the street, in someone else's hand",
+        "reuse_path_or_new": "assets/objects/2026-10-29/cup.png"
+      },
+      {
+        "object": "paper shopping bag with handles",
+        "line_idea": "the bag walks your brand past a hundred future customers",
+        "reuse_path_or_new": "new"
+      },
+      {
+        "object": "phone (camera)",
+        "line_idea": "in photos, your mark must read the right way up from outside",
+        "reuse_path_or_new": "assets/objects/2026-10-25/phone.png"
+      },
+      {
+        "object": "rubber stamp",
+        "line_idea": "put your mark where others will see it, the right way up",
+        "reuse_path_or_new": "assets/objects/2026-10-29/stamp.png"
+      },
+      {
+        "object": "signpost",
+        "line_idea": "CTA turn: who is your sign pointing at?",
+        "reuse_path_or_new": "assets/objects/2026-10-22/signpost.png"
+      }
+    ]
+  }
+}
