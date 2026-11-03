@@ -47,13 +47,45 @@
         "id": "T-a",
         "description": "تصویر اصلیِ این مقاله (لوگوی سیبِ روشنِ پشت مک‌بوک پروی جدید) را ذخیره کن؛ اگر چهره‌ی آدمی در عکس پیداست، نفرست.",
         "page_url": "https://macrumors.com/2026/10/28/illuminated-logo-returns-to-macbook-pro",
-        "scene_idea": "صحنه‌ی قلاب/خبر: لوگوی روشن روی درِ لپ‌تاپ در تاریکی، قاب‌دار؛ «بعد از حدود ده سال دوباره روشن شد»."
+        "scene_idea": "صحنه‌ی قلاب/خبر: لوگوی روشن روی درِ لپ‌تاپ در تاریکی، قاب‌دار؛ «بعد از حدود ده سال دوباره روشن شد».",
+        "received": {
+          "file": "incoming/2026-11-04/T-a.png",
+          "size": "1600x900",
+          "note": "Glowing white Apple logo on a dark lid, no people, no watermark. Meets 1080px on the long side but short side is 900: use framed / full-width, not upscaled to fill 9:16. Best hook image. Source not stated by owner (likely the MacRumors article); credit 'via MacRumors' only if confirmed in the morning, otherwise no source line."
+        }
       },
       {
         "id": "T-b",
         "description": "اگر در این مقاله عکسی از پاوربوک/آی‌بوک قدیمی با لوگوی وارونه هست، همان را ذخیره کن (فقط عکس دستگاه، بدون آدم). اگر نبود، رد شو.",
         "page_url": "https://www.engadget.com/2012/05/21/the-story-of-apples-upside-down-logo/",
-        "scene_idea": "صحنه‌ی چرخش: لوگوی وارونه رو به جمع؛ «اول برای صاحبش درست بود، برای بقیه وارونه»."
+        "scene_idea": "صحنه‌ی چرخش: لوگوی وارونه رو به جمع؛ «اول برای صاحبش درست بود، برای بقیه وارونه».",
+        "received": {
+          "file": "incoming/2026-11-04/T-b.png",
+          "size": "441x439",
+          "note": "Owner sent a blue clamshell iBook instead of the requested upside-down shot. Product only, no people. In this photo the logo reads RIGHT WAY UP to the viewer, so do NOT use it as the 'upside down' example; use it as an era-establishing image ('the iBook / PowerBook era'). Very small: show framed and small, never upscaled."
+        }
+      },
+      {
+        "id": "T-c",
+        "description": "(owner extra) TV still: actor at a desk behind a black PowerBook whose glowing logo is visibly UPSIDE DOWN to the camera.",
+        "page_url": "owner upload (source not stated)",
+        "scene_idea": "Turn scene: the upside-down logo seen by the room.",
+        "received": {
+          "file": "incoming/2026-11-04/T-c.png",
+          "size": "1080x870",
+          "note": "Strongest proof of the upside-down logo (leaf at the bottom, checked by zoom). CAUTION: identifiable public figure in a copyrighted TV frame, not from the article or an official page. Use ONLY cropped to the laptop lid and logo (crop roughly x 420-860, y 500-870), face and hands out of frame; never name the actor or the show in on-screen text. If the crop looks too soft, skip it and use objects."
+        }
+      },
+      {
+        "id": "T-d",
+        "description": "(owner extra) Press photo: Steve Jobs holding up a PowerBook with the logo facing the audience.",
+        "page_url": "owner upload (Getty Images, Justin Sullivan)",
+        "scene_idea": "'Flipped to face the room.'",
+        "received": {
+          "file": "incoming/2026-11-04/T-d.png",
+          "size": "612x433",
+          "note": "DO NOT PUBLISH: Getty Images watermark across the laptop (unlicensed preview) and too small. Reference only for the object/scene idea (laptop held up, logo facing the audience) — draw it as a monochrome object instead."
+        }
       }
     ],
     "object_plan": [
