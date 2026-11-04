@@ -1,0 +1,579 @@
+{
+ "reel_id": "2026-11-04_EN",
+ "date": "2026-11-04",
+ "topic": "The logo that faces the room: your mark works hardest for the people around your customer",
+ "pillar": "identity_visibility_consumer_behaviour",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://macrumors.com/2026/10/28/illuminated-logo-returns-to-macbook-pro",
+     "publisher": "MacRumors",
+     "event_date": "2026-10-28",
+     "retrieved_at": "2026-11-04T01:30:00Z",
+     "claim": "New MacBook Pro (announced 28 Oct 2026) brings back the illuminated rear Apple logo, dropped in the 2016 MacBook Pro redesign. The article gives no reason from Apple."
+    }
+   ],
+   "objects": [
+    {
+     "key": "ta",
+     "src": "incoming/2026-11-04/T-a.png",
+     "x": 540,
+     "y": 1290,
+     "w": 900,
+     "ar": 1.778,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.04,
+     "credit": "Image: glowing logo on the new MacBook Pro (owner upload; requested from MacRumors' report, original source not confirmed)",
+     "source_url": "https://macrumors.com/2026/10/28/illuminated-logo-returns-to-macbook-pro"
+    }
+   ],
+   "motion_rationale": "قلاب: عکس واقعی لوگوی روشن روی درِ لپ‌تاپ در تاریکی (آپلود مالک، قاب‌دار) = همان نشانی که خریدار نمی‌بیند",
+   "lines": [
+    {
+     "text": "Whoever paid for this logo",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "never *sees* it.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "lap",
+     "src": "assets/objects/2026-11-04/laptop_back.png",
+     "x": 540,
+     "y": 1310,
+     "w": 640,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "rise",
+     "float": 3
+    }
+   ],
+   "motion_rationale": "لپ‌تاپ از پشت، درِ ساده بی‌نشان، رو به ما = ما جای «اتاق» نشسته‌ایم؛ لوگو رو به ماست، نه رو به صاحبش",
+   "lines": [
+    {
+     "text": "Open the laptop.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "The logo faces the *room*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.engadget.com/2012/05/21/the-story-of-apples-upside-down-logo/",
+     "publisher": "Engadget (citing former Apple employee Joe Moreno)",
+     "event_date": "2012-05-21",
+     "retrieved_at": "2026-11-04T01:30:00Z",
+     "claim": "On PowerBooks and iBooks the logo first faced the user and read upside down to onlookers when the lid was open; the decision was later reversed."
+    }
+   ],
+   "objects": [
+    {
+     "key": "tb",
+     "src": "incoming/2026-11-04/T-b.png",
+     "x": 540,
+     "y": 1290,
+     "w": 460,
+     "ar": 1.005,
+     "frame": true,
+     "anim": "drop",
+     "push": 0.03,
+     "credit": "Image: iBook, clamshell era (owner upload; source not stated)",
+     "source_url": "owner upload (source not stated)"
+    }
+   ],
+   "motion_rationale": "عکس واقعی آی‌بوک قدیمی (آپلود مالک، کوچک و قاب‌دار، بدون بزرگ‌نمایی) = دورانِ پاوربوک و آی‌بوک",
+   "lines": [
+    {
+     "text": "On old PowerBooks and iBooks,",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "it faced the *owner*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.engadget.com/2012/05/21/the-story-of-apples-upside-down-logo/",
+     "publisher": "Engadget (citing former Apple employee Joe Moreno)",
+     "event_date": "2012-05-21",
+     "retrieved_at": "2026-11-04T01:30:00Z",
+     "claim": "On PowerBooks and iBooks the logo first faced the user and read upside down to onlookers when the lid was open; the decision was later reversed."
+    }
+   ],
+   "objects": [
+    {
+     "key": "lap",
+     "src": "assets/objects/2026-11-04/laptop_back.png",
+     "x": 540,
+     "y": 1310,
+     "w": 640,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "fade",
+     "tilt": 180,
+     "tilt_t": 1.4
+    }
+   ],
+   "motion_rationale": "همان لپ‌تاپ وسط صحنه ۱۸۰ درجه می‌چرخد = برای صاحبش درست، برای بقیه وارونه",
+   "lines": [
+    {
+     "text": "Right way up when shut.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*Upside down* to everyone else.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.engadget.com/2012/05/21/the-story-of-apples-upside-down-logo/",
+     "publisher": "Engadget (citing former Apple employee Joe Moreno)",
+     "event_date": "2012-05-21",
+     "retrieved_at": "2026-11-04T01:30:00Z",
+     "claim": "On PowerBooks and iBooks the logo first faced the user and read upside down to onlookers when the lid was open; the decision was later reversed."
+    },
+    {
+     "url": "https://edition.cnn.com/2012/05/22/tech/gaming-gadgets/apple-upside-down-logo",
+     "publisher": "CNN (citing Joe Moreno)",
+     "event_date": "2012-05-22",
+     "retrieved_at": "2026-11-04T01:30:00Z",
+     "claim": "'Opening a laptop from the wrong end is a self-correcting problem that only lasts for a few seconds. However, viewing the upside logo is a problem that lasts indefinitely.' Reversed within a few years."
+    }
+   ],
+   "objects": [
+    {
+     "key": "tc",
+     "src": "incoming/2026-11-04/T-c_lid.png",
+     "x": 540,
+     "y": 1290,
+     "w": 720,
+     "ar": 1.407,
+     "frame": true,
+     "anim": "drop",
+     "push": 0.05,
+     "credit": "Image: TV still cropped to a PowerBook lid, logo upside down to the camera (owner upload; source not stated)",
+     "source_url": "owner upload (source not stated)"
+    }
+   ],
+   "motion_rationale": "چرخش (drop): برش واقعی از درِ پاوربوک که لوگویش رو به دوربین وارونه است (چهره و دست بیرون از قاب) = سند همان وارونگی، پیش از برعکس شدن",
+   "lines": [
+    {
+     "text": "A former Apple employee recalls",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "they *flipped* it.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://edition.cnn.com/2012/05/22/tech/gaming-gadgets/apple-upside-down-logo",
+     "publisher": "CNN (citing Joe Moreno)",
+     "event_date": "2012-05-22",
+     "retrieved_at": "2026-11-04T01:30:00Z",
+     "claim": "'Opening a laptop from the wrong end is a self-correcting problem that only lasts for a few seconds. However, viewing the upside logo is a problem that lasts indefinitely.' Reversed within a few years."
+    }
+   ],
+   "objects": [
+    {
+     "key": "watch",
+     "src": "assets/objects/2026-10-22/watch.png",
+     "x": 540,
+     "y": 1300,
+     "w": 380,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop",
+     "float": 2
+    }
+   ],
+   "motion_rationale": "ساعت = چند ثانیه در برابر همیشه؛ استدلالِ کارمند سابق اپل درباره‌ی زمان",
+   "lines": [
+    {
+     "text": "The wrong end costs seconds.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "An upside-down logo *never stops*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "bg": "graphite",
+   "spot_y": 1180,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://macrumors.com/2026/10/28/illuminated-logo-returns-to-macbook-pro",
+     "publisher": "MacRumors",
+     "event_date": "2026-10-28",
+     "retrieved_at": "2026-11-04T01:30:00Z",
+     "claim": "New MacBook Pro (announced 28 Oct 2026) brings back the illuminated rear Apple logo, dropped in the 2016 MacBook Pro redesign. The article gives no reason from Apple."
+    }
+   ],
+   "objects": [
+    {
+     "key": "bulb",
+     "src": "assets/objects/2026-11-04/bulb.png",
+     "x": 540,
+     "y": 1280,
+     "w": 270,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "rise",
+     "bright": [
+      0.55,
+      1.35
+     ]
+    }
+   ],
+   "fx": [
+    {
+     "type": "rings",
+     "x": 540,
+     "y": 1180,
+     "n": 5,
+     "R": 380,
+     "period": 1.6,
+     "t": 1.2,
+     "op": 0.35
+    }
+   ],
+   "motion_rationale": "لامپی که آرام روشن می‌شود و حلقه‌های نور = بعد از حدود ده سال خاموشی، نشان دوباره روشن شد",
+   "lines": [
+    {
+     "text": "The glow went dark in 2016.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "The new MacBook Pro *relights* it.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "plate",
+     "src": "assets/objects/2026-10-31/nameplate.png",
+     "x": 540,
+     "y": 1300,
+     "w": 600,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "slide_r",
+     "float": 2
+    }
+   ],
+   "motion_rationale": "پلاک رو به بیرون = نشانی که برای بیننده‌ها نوشته شده، نه برای کسی که پشتش نشسته",
+   "lines": [
+    {
+     "text": "The buyer faces the screen.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "The room stares *all day*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "bg": "graphite",
+   "spot_y": 1300,
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://macrumors.com/2026/10/28/illuminated-logo-returns-to-macbook-pro",
+     "publisher": "MacRumors",
+     "event_date": "2026-10-28",
+     "retrieved_at": "2026-11-04T01:30:00Z",
+     "claim": "New MacBook Pro (announced 28 Oct 2026) brings back the illuminated rear Apple logo, dropped in the 2016 MacBook Pro redesign. The article gives no reason from Apple."
+    }
+   ],
+   "objects": [
+    {
+     "key": "lens",
+     "src": "assets/objects/2026-10-22/magnifier.png",
+     "x": 540,
+     "y": 1300,
+     "w": 540,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -10,
+     "anim": "slide_r",
+     "bright": [
+      1.3,
+      1.3
+     ]
+    }
+   ],
+   "motion_rationale": "ذره‌بین = «خوانش من»؛ اپل دلیل نگفته، این برداشت است و یک بار روی صفحه می‌آید",
+   "lines": [
+    {
+     "text": "Apple hasn't said why. My reading:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "logos are for *onlookers*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "cup",
+     "src": "assets/objects/2026-10-29/cup.png",
+     "x": 540,
+     "y": 1310,
+     "w": 430,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "slide_l",
+     "float": 2
+    }
+   ],
+   "motion_rationale": "لیوان کافه که از کنار وارد می‌شود = نشانِ کافه در دست مشتری از جلوی رهگذرها می‌گذرد",
+   "lines": [
+    {
+     "text": "Your café cup walks the street,",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "seen by *strangers*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "bg": "graphite",
+   "spot_y": 1260,
+   "claim_type": "interpretation",
+   "fx": [
+    {
+     "type": "words",
+     "mode": "pop",
+     "box": [
+      150,
+      1000,
+      930,
+      1480
+     ],
+     "seed": 397,
+     "size": 72,
+     "words": [
+      "cup",
+      "bag",
+      "box",
+      "receipt",
+      "sign",
+      "sticker"
+     ]
+    }
+   ],
+   "motion_rationale": "ابرِ نام سطح‌هایی که نشان روی‌شان سفر می‌کند (کیسه، جعبه، رسید...) با تپش = ویترینِ سیار، شلوغ و در حرکت",
+   "lines": [
+    {
+     "text": "Bag, box, receipt:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "a *travelling* shop window.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "phone",
+     "src": "assets/objects/2026-10-25/phone.png",
+     "x": 540,
+     "y": 1300,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -6,
+     "anim": "rise"
+    }
+   ],
+   "motion_rationale": "گوشی = عکس؛ نشان در قابِ دوربینِ دیگران هم باید درست خوانده شود",
+   "lines": [
+    {
+     "text": "In their photos too,",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "it must read *right way up*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "ta",
+     "src": "incoming/2026-11-04/T-a.png",
+     "x": 540,
+     "y": 1290,
+     "w": 900,
+     "ar": 1.778,
+     "frame": true,
+     "anim": "fade",
+     "push": 0.06,
+     "credit": "Image: glowing logo on the new MacBook Pro (owner upload; requested from MacRumors' report, original source not confirmed)",
+     "source_url": "https://macrumors.com/2026/10/28/illuminated-logo-returns-to-macbook-pro"
+    }
+   ],
+   "motion_rationale": "بازگشت به آغاز: همان لوگوی روشن = نشانت را برای کسی بساز که هنوز نخریده",
+   "lines": [
+    {
+     "text": "So design your mark",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "for whoever *hasn't bought yet*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "bg": "primary",
+   "claim_type": "interpretation",
+   "motion_rationale": "کارت پایانی",
+   "logo": true,
+   "txt_top": 1080,
+   "lines": [
+    {
+     "text": "Write to me.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  }
+ ],
+ "caption": "The person who paid for this logo is the one who never sees it.\n\nOn 28 October the new MacBook Pro brought back the glowing logo on the back of the lid, switched off since the 2016 MacBook Pro redesign (reported by MacRumors and other Apple news sites). The owner almost never sees it. The room always does.\n\nThe older story is better. As former Apple employee Joe Moreno told it, on PowerBooks and iBooks the logo first faced the owner: right way up with the lid shut, upside down to everyone else once it was open, because people kept opening the laptop from the wrong end. A few years later Apple flipped it. His logic: opening the wrong end is a few seconds of fumbling that fixes itself; an upside-down logo in front of everyone else never stops.\n\nThe limits: Apple hasn't said why the glow went away or why it's back, so \"a logo is for the onlooker\" is my reading, not Apple's. The upside-down story is one person's account, retold by Engadget and CNN in 2012. The photos are owner uploads (exact sources not confirmed); the other objects are AI-generated.\n\nFor owners: your cup, bag, box and receipt are seen by the street far more than by the buyer. Make your mark read from the outside, from a distance, in other people's photos. Design it for the one who hasn't bought yet.\n\nWhich way is your mark facing right now? Write to me.\n\n— Behnood Kavian",
+ "hashtags": [
+  "#branding",
+  "#marketing",
+  "#logodesign",
+  "#brandidentity"
+ ],
+ "sources": [
+  {
+   "publisher": "MacRumors",
+   "title": "Illuminated Apple Logo Returns to MacBook Pro After 10 Years",
+   "date": "2026-10-28",
+   "url": "https://macrumors.com/2026/10/28/illuminated-logo-returns-to-macbook-pro"
+  },
+  {
+   "publisher": "MacRumors",
+   "title": "Here's a Real-World Look at the New MacBook Pro's Glowing Apple Logo",
+   "date": "2026-10-28",
+   "url": "https://www.macrumors.com/2026/10/28/macbook-pro-glowing-apple-logo/"
+  },
+  {
+   "publisher": "Engadget",
+   "title": "The story of Apple's upside down logo",
+   "date": "2012-05-21",
+   "url": "https://www.engadget.com/2012/05/21/the-story-of-apples-upside-down-logo/"
+  },
+  {
+   "publisher": "CNN (via Wired)",
+   "title": "Why Apple's logo was once upside down",
+   "date": "2012-05-22",
+   "url": "https://edition.cnn.com/2012/05/22/tech/gaming-gadgets/apple-upside-down-logo"
+  }
+ ],
+ "cta": "Write to me.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S5"
+ },
+ "status": "DRAFT",
+ "style": "editorial",
+ "lang": "en"
+}
