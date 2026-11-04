@@ -41,19 +41,34 @@
         "id": "T-a",
         "description": "تصویر دومِ این مقاله (اعتبار: The Brain Bridge Lab) را ذخیره کن؛ همان که نسخه‌ی درست و نسخه‌های دست‌کاری‌شده‌ی چند لوگو/آیکون را کنار هم نشان می‌دهد. عکسِ پژوهشگرها (تصویر اول، چهره‌ی آدم) را نفرست.",
         "page_url": "https://creativebloq.com/inspiration/youve-been-picturing-these-logos-wrong-your-whole-life",
-        "scene_idea": "صحنه‌ی آزمون: «کدام درست است؟» قاب‌دار روی صحنه‌ی تیره، ۲ ثانیه مکث برای اینکه بیننده خودش امتحان کند."
+        "scene_idea": "صحنه‌ی آزمون: «کدام درست است؟» قاب‌دار روی صحنه‌ی تیره، ۲ ثانیه مکث برای اینکه بیننده خودش امتحان کند.",
+        "received": {
+          "file": "incoming/2026-11-05/T-a.png",
+          "size": "1000x563",
+          "note": "Paper figure (Prasad & Bainbridge 2022): row A original, B 'VME-induced manipulation', C matched control, for C-3PO, Fruit of the Loom, Curious George, Monopoly man, Pikachu, Volkswagen. No people. Short side 563 (below 1080): show framed, never upscaled to fill 9:16. Best for the 'Fruit of the Loom: horn vs plate vs original' twist; crop to one column (e.g. Fruit of the Loom or VW) for legibility. Contains copyrighted characters: show only as the framed research figure, do not isolate or redraw a character. Credit 'The Brain Bridge Lab / Prasad & Bainbridge 2022'."
+        }
       },
       {
         "id": "T-b",
         "description": "تصویر سومِ همین مقاله (اعتبار: The Brain Bridge Lab): نقاشی‌هایی که شرکت‌کننده‌ها از حافظه کشیده‌اند.",
         "page_url": "https://creativebloq.com/inspiration/youve-been-picturing-these-logos-wrong-your-whole-life",
-        "scene_idea": "صحنه‌ی چرخش: «همه همان اشتباه را کشیدند»؛ نقاشی‌های واقعی کنار مداد و پاک‌کن."
+        "scene_idea": "صحنه‌ی چرخش: «همه همان اشتباه را کشیدند»؛ نقاشی‌های واقعی کنار مداد و پاک‌کن.",
+        "received": {
+          "file": "incoming/2026-11-05/T-b.png",
+          "size": "1000x563",
+          "note": "Participants' drawings from memory (VW, Monopoly man, Pikachu, Fruit of the Loom), arrows mark the shared errors (VW gap, monocle, black tail tip, cornucopia). Strongest 'everyone drew the same mistake' proof. Short side 563: framed only. Same character caution; prefer cropping to the VW and Fruit of the Loom rows. Credit 'The Brain Bridge Lab'."
+        }
       },
       {
         "id": "T-c",
         "description": "تصویر اصلی بالای این صفحه (مقایسه‌ی نسخه‌ی درست و غلطِ چند آیکون معروف). اگر T-a را فرستادی و همین تصویر بود، رد شو.",
         "page_url": "https://news.uchicago.edu/story/visual-mandela-effect-false-memories-psychology-neuroscience-pikachu-mr-monopoly-waldo",
-        "scene_idea": "جایگزین/پشتیبان صحنه‌ی آزمون، اگر T-a در دسترس نبود یا کیفیتش کم بود."
+        "scene_idea": "جایگزین/پشتیبان صحنه‌ی آزمون، اگر T-a در دسترس نبود یا کیفیتش کم بود.",
+        "received": {
+          "file": "incoming/2026-11-05/T-c.png",
+          "size": "1380x776",
+          "note": "UChicago News lead image: three versions each of Curious George, Monopoly man, Waldo, Pikachu, Fruit of the Loom, C-3PO, no labels (good for an interactive 'which one is right?' pause). Short side 776: framed only. Character caution as above; the Fruit of the Loom row alone (bottom-left) makes a clean, brand-only test frame. Credit 'University of Chicago / The Brain Bridge Lab'."
+        }
       }
     ],
     "object_plan": [
