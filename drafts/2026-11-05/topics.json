@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-05",
+  "T": {
+    "topic_fa": "مونوکلی که هرگز نبود: مشتری برندت را با اطمینان به یاد دارد؛ ولی نسخه‌ای را که تو هرگز نساختی",
+    "topic_en": "The monocle that was never there: customers remember your brand with total confidence, and remember it wrong",
+    "pillar": "identity_memory_consumer_behaviour",
+    "central_tension_fa": "فکر می‌کنیم مشتری لوگوی ما را می‌شناسد چون هزار بار دیده‌اش. ولی در یک پژوهش، فقط ۲۰ تا ۳۰ درصد آدم‌ها نسخه‌ی درست لوگوی فولکس‌واگن یا «مرد مونوپولی» را انتخاب کردند؛ بیشترشان با اطمینان یک جزئیاتِ ساختگی را به یاد داشتند، و همه همان اشتباه را. برندِ تو آن چیزی نیست که طراحی کرده‌ای؛ آن چیزی است که در ذهن‌ها مانده.",
+    "central_tension_en": "We assume customers know our logo because they've seen it a thousand times. In one study only 20-30% picked the real Volkswagen or Monopoly-man logo; most remembered, confidently, a detail that never existed, and they all remembered the same wrong detail. Your brand isn't what you designed. It's what survived in their heads.",
+    "working_hook_fa": "مرد مونوپولی هیچ‌وقت مونوکل نداشت. حالا برندِ تو در ذهن مشتری چه چیزی دارد که نداری؟",
+    "working_hook_en": "The Monopoly man never wore a monocle. So what does your brand wear in your customers' heads?",
+    "key_sources": [
+      {
+        "url": "https://creativebloq.com/inspiration/youve-been-picturing-these-logos-wrong-your-whole-life",
+        "publisher": "Creative Bloq",
+        "date": "2026-11-04",
+        "claim": "Brain Bridge Lab test of 40 images: Apple and Ralph Lauren logos picked correctly by ~80%; Monopoly man, Volkswagen, Fruit of the Loom by only 20-30%; people repeat the same errors when drawing from memory."
+      },
+      {
+        "url": "https://news.uchicago.edu/story/visual-mandela-effect-false-memories-psychology-neuroscience-pikachu-mr-monopoly-waldo",
+        "publisher": "University of Chicago News",
+        "date": "2022-07-15",
+        "claim": "Prasad & Bainbridge: consistent, confident false memories even for familiar icons; not explained by looking at the wrong part; schema theory not a universal explanation (cornucopia chosen over plate); cause not yet known."
+      },
+      {
+        "url": "https://www.psychologicalscience.org/publications/observer/visual-memory-distortions.html",
+        "publisher": "APS Observer",
+        "date": "2024-06-12",
+        "claim": "Citation: Prasad & Bainbridge (2022), Psychological Science 33(12), 1971-1988; study 1 had 100 online participants, who were significantly more likely to choose the altered versions."
+      },
+      {
+        "url": "https://www.uclahealth.org/news/release/85-college-students-tried-to-draw-the-apple-logo-from-memory-84-failed",
+        "publisher": "UCLA",
+        "date": "2015-03-26",
+        "claim": "Blake, Nazarian & Castel (QJEP 2015): 1 of 85 students drew the Apple logo correctly; fewer than half picked it from altered options; large gap between confidence and performance."
+      }
+    ],
+    "music_mood": "dark",
+    "framing_note": "News is only the spark (a 4 Nov 2026 feature); the study is from 2022 — never say 'new study'; say 'one study' / 'researchers in Chicago'. Exact numbers: ~80% vs 20-30%; one number per reel on screen (use 20-30% or '1 in 85', not both on one scene). The cause is unknown: do not claim the brain 'adds what fits' as fact — the Fruit of the Loom horn is the counterexample and can itself be the twist ('it doesn't even fit the story, and we still all see it'). 'Mandela effect' term optional, caption only. Never draw or generate Monopoly man, Pikachu, Waldo, C-3PO or any logo; show only generic objects (a monocle alone on velvet, a horn of plenty, a bowl of fruit, a pencil, an eraser) and owner-uploaded real images, framed. Apple appeared yesterday: mention the 1-of-85 Apple drawing study at most once, ideally caption only. Owner takeaway (café, bakery, salon, shop): ask five customers to draw your sign or cup from memory; whatever they all keep is your real brand, whatever they all add is a story you can use or must fix; build one detail worth remembering. Do not reference the last 7 days' reels. Never name the UAE, Dubai or any emirate.",
+    "image_requests": [
+      {
+        "id": "T-a",
+        "description": "تصویر دومِ این مقاله (اعتبار: The Brain Bridge Lab) را ذخیره کن؛ همان که نسخه‌ی درست و نسخه‌های دست‌کاری‌شده‌ی چند لوگو/آیکون را کنار هم نشان می‌دهد. عکسِ پژوهشگرها (تصویر اول، چهره‌ی آدم) را نفرست.",
+        "page_url": "https://creativebloq.com/inspiration/youve-been-picturing-these-logos-wrong-your-whole-life",
+        "scene_idea": "صحنه‌ی آزمون: «کدام درست است؟» قاب‌دار روی صحنه‌ی تیره، ۲ ثانیه مکث برای اینکه بیننده خودش امتحان کند."
+      },
+      {
+        "id": "T-b",
+        "description": "تصویر سومِ همین مقاله (اعتبار: The Brain Bridge Lab): نقاشی‌هایی که شرکت‌کننده‌ها از حافظه کشیده‌اند.",
+        "page_url": "https://creativebloq.com/inspiration/youve-been-picturing-these-logos-wrong-your-whole-life",
+        "scene_idea": "صحنه‌ی چرخش: «همه همان اشتباه را کشیدند»؛ نقاشی‌های واقعی کنار مداد و پاک‌کن."
+      },
+      {
+        "id": "T-c",
+        "description": "تصویر اصلی بالای این صفحه (مقایسه‌ی نسخه‌ی درست و غلطِ چند آیکون معروف). اگر T-a را فرستادی و همین تصویر بود، رد شو.",
+        "page_url": "https://news.uchicago.edu/story/visual-mandela-effect-false-memories-psychology-neuroscience-pikachu-mr-monopoly-waldo",
+        "scene_idea": "جایگزین/پشتیبان صحنه‌ی آزمون، اگر T-a در دسترس نبود یا کیفیتش کم بود."
+      }
+    ],
+    "object_plan": [
+      {
+        "object": "monocle (a single round eyeglass on a chain, alone)",
+        "line_idea": "Hook: the monocle that was never there",
+        "reuse_path_or_new": "new: assets/objects/2026-11-05/monocle.png"
+      },
+      {
+        "object": "magnifier",
+        "line_idea": "'We looked closely, a thousand times' / they weren't looking at the wrong spot",
+        "reuse_path_or_new": "assets/objects/2026-10-22/magnifier.png"
+      },
+      {
+        "object": "old photograph",
+        "line_idea": "Memory feels like a photo; it isn't one",
+        "reuse_path_or_new": "assets/objects/2026-10-22/photo.png"
+      },
+      {
+        "object": "horn of plenty (cornucopia), empty",
+        "line_idea": "The horn nobody put in the logo, yet everyone remembers",
+        "reuse_path_or_new": "new: assets/objects/2026-11-05/horn.png"
+      },
+      {
+        "object": "plain plate with a few fruits",
+        "line_idea": "What was really there: just fruit on a plate (twist: the 'fitting' answer isn't what we remember)",
+        "reuse_path_or_new": "new: assets/objects/2026-11-05/fruit_plate.png"
+      },
+      {
+        "object": "pencil",
+        "line_idea": "Draw it from memory",
+        "reuse_path_or_new": "assets/objects/2026-10-22/pencil.png"
+      },
+      {
+        "object": "eraser",
+        "line_idea": "What blurs and disappears from your brand in their heads",
+        "reuse_path_or_new": "assets/objects/2026-10-22/eraser.png"
+      },
+      {
+        "object": "brain",
+        "line_idea": "Your brand lives here, not in the brand book",
+        "reuse_path_or_new": "assets/objects/2026-10-22/brain.png"
+      },
+      {
+        "object": "blank sketch paper / notepad",
+        "line_idea": "Owner test: ask five customers to draw your sign",
+        "reuse_path_or_new": "new: assets/objects/2026-11-05/notepad.png"
+      },
+      {
+        "object": "coffee cup",
+        "line_idea": "Your cup, your bag, your sign: what will they keep?",
+        "reuse_path_or_new": "assets/objects/2026-10-29/cup.png"
+      },
+      {
+        "object": "nameplate / shop sign",
+        "line_idea": "Build one detail worth remembering",
+        "reuse_path_or_new": "assets/objects/2026-10-31/nameplate.png"
+      },
+      {
+        "object": "monocle (return)",
+        "line_idea": "Close: same key as the hook — 'what does your brand wear that you never gave it?'",
+        "reuse_path_or_new": "same as hook"
+      }
+    ]
+  }
+}
