@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-06",
+  "T": {
+    "topic_fa": "شش درصد داد می‌زنند، شصت‌ونه درصد ساکت‌اند: صدای بلند منتقدان، صدای بازار نیست",
+    "topic_en": "Six percent shouting, sixty-nine percent quietly nodding: the loudest reaction to your brand is rarely the real one",
+    "pillar": "brand_communication_consumer_behaviour",
+    "central_tension_fa": "فکر می‌کنیم وقتی کامنت‌ها و تیترها علیه کارمان است، یعنی همه از آن بدشان آمده. ولی وقتی تبلیغ کریسمس امسال جان لوئیس زیر بار انتقاد رفت، در یک آزمون بر یک نمونه‌ی ملی، ۶۹ درصد واکنش مثبت داشتند و فقط ۶ درصد واقعاً بیزار بودند. صدای بلند یعنی صدای بلند، نه صدای اکثریت.",
+    "central_tension_en": "When the comments and headlines turn on our work, we assume everyone hates it. John Lewis's Christmas ad got slammed this week, yet in a nationally representative test 69% responded positively and only 6% felt real contempt. Loud is not the same as many.",
+    "working_hook_fa": "اینترنت گفت شکست خورد. مردم گفتند دوستش دارند.",
+    "working_hook_en": "The internet said it flopped. People said they liked it.",
+    "key_sources": [
+      {
+        "url": "https://www.thedrum.com/opinion/andrew-tindall-they-may-be-loud-but-only-6-hated-the-john-lewis-christmas-ad-it-will-work",
+        "publisher": "The Drum (Andrew Tindall, System1)",
+        "date": "2026-11-04",
+        "claim": "System1 test, nationally representative UK sample: 69% positive, 10% negative, 6% contempt; 5.6 Stars, best John Lewis Christmas ad since 2019; 'Online, that 10% can feel like 30% or even 50%.' Author works for System1; sample size not given."
+      },
+      {
+        "url": "https://news.designrush.com/john-lewis-saatchi-2026-christmas-ad-backlash",
+        "publisher": "DesignRush",
+        "date": "2026-11-04",
+        "claim": "Backlash over wealthy setting and 'spoilt' grandchildren (Sarah Vine, The Independent 'tone deaf'); System1 5.6 Stars, only 15% recalled the children as rude; OnePulse: 68% liked or loved it, 36% more likely to shop, 58% no difference; Kantar: 'lacks the emotive punch'; no sales data yet."
+      },
+      {
+        "url": "https://britbrief.co.uk/business/retail/john-lewis-2026-christmas-ad-faces-backlash-over-gloria.html",
+        "publisher": "Brit Brief",
+        "date": "2026-11-04",
+        "claim": "Critics call the message 'warped' (buying love); comparison with Dogs Trust ad praised on X. No complaint counts."
+      },
+      {
+        "url": "https://poynter.org/techtools/2019/10-percent-of-twitter-users-create-80-percent-of-all-tweets-study-finds",
+        "publisher": "Poynter (on Pew Research Center)",
+        "date": "2019-04-24",
+        "claim": "Pew survey of 2,791 US adult Twitter users: ~10% of users produce ~80% of tweets. Older, US-only: caption-level illustration only."
+      }
+    ],
+    "music_mood": "dark",
+    "framing_note": "News is only the spark; the idea is evergreen: weigh criticism, don't count it by volume. Do not judge the John Lewis ad's quality or claim it 'worked' commercially (no sales data). Be fair to critics: 'criticism can be right and still be a minority' (Tindall: 'Both can be true'). One number per scene; recommended pair across the reel: 69% vs 6% (System1). Say 'in one test of a national sample', never 'a study proves'; mention once, briefly, that the test is by a research firm and sales are not in yet (caption carries details: System1 vendor, OnePulse 68%, Kantar view). Do not name or quote Piers Morgan, Sarah Vine or other columnists on screen; no children shown. Owner takeaway (café, salon, shop, studio): before changing a sign, menu or pack after an angry wave, ask ten regulars, check repeat orders and the week's sales; answer the critic politely, but let the quiet majority vote. Pew 10%/80% only in caption with year (2019, US Twitter). Never name the UAE, Dubai or any emirate.",
+    "image_requests": [
+      {
+        "id": "T-a",
+        "description": "نمودار/گرافیک داده‌ی داخل متن مقاله (نام فایل: how-john-lewis-christmas-ad-affected-shopping-intent) که اثر تبلیغ بر قصد خرید را نشان می‌دهد. فقط همین نمودار؛ عکس نویسنده یا تصویرهای دیگر را نفرست.",
+        "page_url": "https://news.designrush.com/john-lewis-saatchi-2026-christmas-ad-backlash",
+        "scene_idea": "صحنه‌ی «اندازه بگیر، نشمار»: نمودار واقعی قاب‌دار روی صحنه‌ی تیره، کنار ذره‌بین؛ بعد از صحنه‌ی بلندگو، تا تضاد هیاهو و داده دیده شود."
+      },
+      {
+        "id": "T-b",
+        "description": "تصویر اصلی بالای همین مقاله (فریم ویدیوی تبلیغ جان لوئیس) فقط اگر عروسک سگ چوبی «پیکِلز» یا قاب پایانی/لوگوی جان لوئیس را نشان می‌دهد و چهره‌ی بچه‌ها در آن نیست. اگر بچه‌ها در تصویرند، نفرست.",
+        "page_url": "https://news.designrush.com/john-lewis-saatchi-2026-christmas-ad-backlash",
+        "scene_idea": "صحنه‌ی جرقه: «این تبلیغ این هفته زیر بار انتقاد رفت» — فریم واقعی، قاب‌دار و کوچک، پیش از پیچش ۶۹ درصد."
+      }
+    ],
+    "object_plan": [
+      {
+        "object": "megaphone (old metal loudspeaker, alone)",
+        "line_idea": "Hook: a few voices, very loud",
+        "reuse_path_or_new": "new: assets/objects/2026-11-06/megaphone.png"
+      },
+      {
+        "object": "smartphone with screen glow",
+        "line_idea": "The comments pile up overnight",
+        "reuse_path_or_new": "assets/objects/2026-10-25/phone.png"
+      },
+      {
+        "object": "balance scale",
+        "line_idea": "Weigh it: 69% on one pan, 6% on the other",
+        "reuse_path_or_new": "assets/objects/2026-10-22/scale.png"
+      },
+      {
+        "object": "magnifier",
+        "line_idea": "Measure, don't read headlines (pairs with T-a chart)",
+        "reuse_path_or_new": "assets/objects/2026-10-22/magnifier.png"
+      },
+      {
+        "object": "ear trumpet (antique hearing horn)",
+        "line_idea": "Listen to the quiet ones; they don't post, they come back",
+        "reuse_path_or_new": "new: assets/objects/2026-11-06/ear_trumpet.png"
+      },
+      {
+        "object": "paint roller",
+        "line_idea": "The urge to repaint everything after one storm",
+        "reuse_path_or_new": "assets/objects/2026-10-26/paint_roller.png"
+      },
+      {
+        "object": "eraser",
+        "line_idea": "Erasing what was working because it was loud",
+        "reuse_path_or_new": "assets/objects/2026-10-22/eraser.png"
+      },
+      {
+        "object": "coffee cup",
+        "line_idea": "Your regulars: they never comment, they just order again",
+        "reuse_path_or_new": "assets/objects/2026-10-29/cup.png"
+      },
+      {
+        "object": "paper till receipt, slightly curled",
+        "line_idea": "The vote that counts: repeat orders and the week's sales",
+        "reuse_path_or_new": "new: assets/objects/2026-11-06/receipt.png"
+      },
+      {
+        "object": "noise-cancelling headphones",
+        "line_idea": "Turn the volume down, not the criticism off: listen, then weigh",
+        "reuse_path_or_new": "new: assets/objects/2026-11-06/headphones.png"
+      },
+      {
+        "object": "signpost",
+        "line_idea": "Decide direction by the many, not the loud",
+        "reuse_path_or_new": "assets/objects/2026-10-22/signpost.png"
+      },
+      {
+        "object": "megaphone (return, lying on its side, silent)",
+        "line_idea": "Close: same key as hook; loud is not many",
+        "reuse_path_or_new": "same as hook"
+      }
+    ]
+  }
+}
