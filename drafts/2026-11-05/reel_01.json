@@ -1,0 +1,661 @@
+{
+ "reel_id": "2026-11-05_FA",
+ "date": "2026-11-05",
+ "topic": "مونوکلی که هرگز نبود: مشتری برندت را با اطمینان به یاد دارد، ولی نسخه‌ای را که تو نساختی",
+ "pillar": "identity_memory_consumer_behaviour",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "graphite",
+   "spot_y": 1280,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://neurosciencenews.com/logo-visual-mandela-effect-21066/",
+     "publisher": "Neuroscience News (UChicago release)",
+     "event_date": "2022-07",
+     "retrieved_at": "2026-11-05T01:30:00Z",
+     "claim": "Mr. Monopoly has never worn a monocle; consistent, confident false memories; no attentional or visual differences drive the effect."
+    }
+   ],
+   "objects": [
+    {
+     "key": "mon",
+     "src": "assets/objects/2026-11-05/monocle.png",
+     "x": 540,
+     "y": 1290,
+     "w": 520,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "drop",
+     "float": 3,
+     "carry_out": true
+    }
+   ],
+   "motion_rationale": "قلاب: مونوکلِ تنها، بی‌صاحب، زیر نور = همان جزئیاتی که هرگز روی صورتِ مرد مونوپولی نبود",
+   "lines": [
+    {
+     "text": "مردِ مونوپولی هیچ‌وقت",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*مونوکل* نداشت.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://socialsciences.uchicago.edu/node/21404",
+     "publisher": "University of Chicago (Social Sciences Division)",
+     "event_date": "2022-06-19",
+     "retrieved_at": "2026-11-05T01:30:00Z",
+     "claim": "People are very confident in the wrong image; errors are shared; cornucopia chosen over plate argues against schema theory as sole cause; even looking at the right area they still erred; cause not yet pinpointed."
+    }
+   ],
+   "objects": [
+    {
+     "key": "mon",
+     "src": "assets/objects/2026-11-05/monocle.png",
+     "x": 540,
+     "y": 1290,
+     "w": 600,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "push": 0.06,
+     "carry_in": true
+    }
+   ],
+   "motion_rationale": "همان مونوکل ادامه می‌دهد و بزرگ‌تر می‌شود = در ذهنِ ما واضح‌تر و مطمئن‌تر از واقعیت",
+   "lines": [
+    {
+     "text": "ولی بیشترِ ما می‌بینیمش،",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "و سرش *شرط* هم می‌بندیم.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.creativebloq.com/inspiration/youve-been-picturing-these-logos-wrong-your-whole-life",
+     "publisher": "Creative Bloq",
+     "event_date": "2026-11-04",
+     "retrieved_at": "2026-11-05T01:30:00Z",
+     "claim": "Brain Bridge Lab (Univ. of Chicago), 40 images: Apple and Ralph Lauren ~80% correct; Monopoly man, Volkswagen, Fruit of the Loom only 20-30% chose the real logo; drawing from memory, people made the same mistakes unprompted."
+    }
+   ],
+   "objects": [
+    {
+     "key": "tc",
+     "src": "incoming/2026-11-05/T-c_fotl.png",
+     "x": 540,
+     "y": 1290,
+     "w": 900,
+     "ar": 3.4444444444444446,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.04,
+     "credit": "Image: University of Chicago / The Brain Bridge Lab (Prasad & Bainbridge 2022), owner upload, cropped to one brand",
+     "source_url": "https://news.uchicago.edu/story/visual-mandela-effect-false-memories-psychology-neuroscience-pikachu-mr-monopoly-waldo"
+    }
+   ],
+   "motion_rationale": "آزمونِ واقعی پژوهش (آپلود مالک، قاب‌دار): سه نسخه از یک لوگو؛ بیننده خودش امتحان می‌کند",
+   "lines": [
+    {
+     "text": "سه نسخه از یک لوگو.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "کدام *واقعی* است؟",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.creativebloq.com/inspiration/youve-been-picturing-these-logos-wrong-your-whole-life",
+     "publisher": "Creative Bloq",
+     "event_date": "2026-11-04",
+     "retrieved_at": "2026-11-05T01:30:00Z",
+     "claim": "Brain Bridge Lab (Univ. of Chicago), 40 images: Apple and Ralph Lauren ~80% correct; Monopoly man, Volkswagen, Fruit of the Loom only 20-30% chose the real logo; drawing from memory, people made the same mistakes unprompted."
+    }
+   ],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "fade",
+     "box": [
+      150,
+      1020,
+      930,
+      1480
+     ],
+     "seed": 511,
+     "size": 66,
+     "words": [
+      "رنگ",
+      "فاصله",
+      "گوشه",
+      "سایه",
+      "خط",
+      "حرف",
+      "شکل",
+      "لوگو"
+     ],
+     "keep": [
+      "لوگو"
+     ],
+     "keep_at": [
+      540,
+      1250
+     ]
+    }
+   ],
+   "motion_rationale": "ابرِ جزئیاتِ لوگو (رنگ، فاصله، گوشه...) محو می‌شود و فقط «لوگو» می‌ماند = حافظه کلیت را نگه می‌دارد و جزئیات را می‌بازد",
+   "lines": [
+    {
+     "text": "برای لوگوهایی مثل فولکس‌واگن،",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "فقط *۲۰ تا ۳۰ درصد* درست گفتند.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.creativebloq.com/inspiration/youve-been-picturing-these-logos-wrong-your-whole-life",
+     "publisher": "Creative Bloq",
+     "event_date": "2026-11-04",
+     "retrieved_at": "2026-11-05T01:30:00Z",
+     "claim": "Brain Bridge Lab (Univ. of Chicago), 40 images: Apple and Ralph Lauren ~80% correct; Monopoly man, Volkswagen, Fruit of the Loom only 20-30% chose the real logo; drawing from memory, people made the same mistakes unprompted."
+    }
+   ],
+   "objects": [
+    {
+     "key": "tb",
+     "src": "incoming/2026-11-05/T-b_fotl.png",
+     "x": 540,
+     "y": 1290,
+     "w": 820,
+     "ar": 2.6551724137931036,
+     "frame": true,
+     "anim": "drop",
+     "push": 0.03,
+     "credit": "Image: participants' drawings from memory, The Brain Bridge Lab (via Creative Bloq), owner upload, cropped",
+     "source_url": "https://www.creativebloq.com/inspiration/youve-been-picturing-these-logos-wrong-your-whole-life"
+    }
+   ],
+   "motion_rationale": "نقاشی‌های واقعیِ شرکت‌کننده‌ها از حافظه (آپلود مالک) با فلش‌هایی روی همان خطای مشترک = همه همان اشتباه را کشیدند",
+   "lines": [
+    {
+     "text": "از حافظه که کشیدند،",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*همان* اشتباه‌ها تکرار شد.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://socialsciences.uchicago.edu/node/21404",
+     "publisher": "University of Chicago (Social Sciences Division)",
+     "event_date": "2022-06-19",
+     "retrieved_at": "2026-11-05T01:30:00Z",
+     "claim": "People are very confident in the wrong image; errors are shared; cornucopia chosen over plate argues against schema theory as sole cause; even looking at the right area they still erred; cause not yet pinpointed."
+    },
+    {
+     "url": "https://neurosciencenews.com/logo-visual-mandela-effect-21066/",
+     "publisher": "Neuroscience News (UChicago release)",
+     "event_date": "2022-07",
+     "retrieved_at": "2026-11-05T01:30:00Z",
+     "claim": "Mr. Monopoly has never worn a monocle; consistent, confident false memories; no attentional or visual differences drive the effect."
+    }
+   ],
+   "objects": [
+    {
+     "key": "lens",
+     "src": "assets/objects/2026-10-22/magnifier.png",
+     "x": 540,
+     "y": 1300,
+     "w": 540,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -10,
+     "anim": "slide_r"
+    }
+   ],
+   "motion_rationale": "ذره‌بین = نگاهِ دقیق؛ مشکل از نگاه کردن به جای اشتباه نبود",
+   "lines": [
+    {
+     "text": "حتی وقتی همان‌جا را نگاه کردند،",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "باز *اشتباه* کردند.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://socialsciences.uchicago.edu/node/21404",
+     "publisher": "University of Chicago (Social Sciences Division)",
+     "event_date": "2022-06-19",
+     "retrieved_at": "2026-11-05T01:30:00Z",
+     "claim": "People are very confident in the wrong image; errors are shared; cornucopia chosen over plate argues against schema theory as sole cause; even looking at the right area they still erred; cause not yet pinpointed."
+    }
+   ],
+   "objects": [
+    {
+     "key": "tc",
+     "src": "incoming/2026-11-05/T-c_fotl.png",
+     "x": 540,
+     "y": 1290,
+     "w": 900,
+     "ar": 3.4444444444444446,
+     "frame": true,
+     "anim": "fade",
+     "push": 0.02,
+     "credit": "Image: University of Chicago / The Brain Bridge Lab (Prasad & Bainbridge 2022), owner upload, cropped to one brand",
+     "source_url": "https://news.uchicago.edu/story/visual-mandela-effect-false-memories-psychology-neuroscience-pikachu-mr-monopoly-waldo"
+    }
+   ],
+   "fx": [
+    {
+     "type": "viewfinder",
+     "box": [
+      110,
+      1150,
+      380,
+      1430
+     ],
+     "t": 1.2
+    }
+   ],
+   "motion_rationale": "چرخش: همان سه نسخه برمی‌گردد و قابِ منظره‌یاب روی نسخه‌ی اصلی (بی‌شاخ) می‌نشیند = جواب آزمون",
+   "lines": [
+    {
+     "text": "لوگوی «فروت آو د لوم» میوه دارد.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "ولی هرگز *شاخ* نداشت.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://socialsciences.uchicago.edu/node/21404",
+     "publisher": "University of Chicago (Social Sciences Division)",
+     "event_date": "2022-06-19",
+     "retrieved_at": "2026-11-05T01:30:00Z",
+     "claim": "People are very confident in the wrong image; errors are shared; cornucopia chosen over plate argues against schema theory as sole cause; even looking at the right area they still erred; cause not yet pinpointed."
+    }
+   ],
+   "objects": [
+    {
+     "key": "scale",
+     "src": "assets/objects/2026-10-22/scale.png",
+     "x": 540,
+     "y": 1300,
+     "w": 620,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise"
+    }
+   ],
+   "fx": [
+    {
+     "type": "labels",
+     "items": [
+      {
+       "text": "بشقاب",
+       "x": 330,
+       "y": 1520,
+       "move": "up",
+       "t": 1.6,
+       "size": 58
+      },
+      {
+       "text": "شاخ",
+       "x": 745,
+       "y": 1520,
+       "move": "down",
+       "acc": true,
+       "t": 1.6,
+       "size": 58
+      }
+     ]
+    }
+   ],
+   "motion_rationale": "ترازو: «بشقاب» (جوابِ منطقی) سبک می‌شود و بالا می‌رود، «شاخ» سنگین می‌ماند = انتخاب، با منطق نمی‌خواند",
+   "lines": [
+    {
+     "text": "بشقاب منطقی‌تر بود.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "باز هم *شاخ* را انتخاب کردند.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://socialsciences.uchicago.edu/node/21404",
+     "publisher": "University of Chicago (Social Sciences Division)",
+     "event_date": "2022-06-19",
+     "retrieved_at": "2026-11-05T01:30:00Z",
+     "claim": "People are very confident in the wrong image; errors are shared; cornucopia chosen over plate argues against schema theory as sole cause; even looking at the right area they still erred; cause not yet pinpointed."
+    }
+   ],
+   "objects": [
+    {
+     "key": "photo",
+     "src": "assets/objects/2026-10-22/photo.png",
+     "x": 540,
+     "y": 1300,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -4,
+     "anim": "drop",
+     "blur": [
+      0,
+      7,
+      1.2,
+      3.2
+     ]
+    }
+   ],
+   "motion_rationale": "عکسِ قدیمی که تار می‌شود = حافظه عکس نیست؛ و چرایش هنوز معلوم نیست (احتیاط یک بار)",
+   "lines": [
+    {
+     "text": "چرایش هنوز معلوم نیست.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "حافظه *عکس* نیست.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "brain",
+     "src": "assets/objects/2026-10-22/brain.png",
+     "x": 540,
+     "y": 1300,
+     "w": 520,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "float": 3
+    }
+   ],
+   "motion_rationale": "مغز = جایی که برند واقعاً زندگی می‌کند، نه کتابچه‌ی برند",
+   "lines": [
+    {
+     "text": "برندِ شما آن نیست که طراحی کردید.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "آن است که در ذهن‌ها *ماند*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "bg": "graphite",
+   "spot_y": 1300,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "pen",
+     "src": "assets/objects/2026-10-22/pencil.png",
+     "x": 540,
+     "y": 1300,
+     "w": 600,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -20,
+     "anim": "slide_l"
+    }
+   ],
+   "motion_rationale": "مداد = آزمونِ صاحب کسب‌وکار: از مشتری بخواه از حافظه بکشد",
+   "lines": [
+    {
+     "text": "یک آزمونِ ساده:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "پنج مشتری تابلویتان را *از حافظه* بکشند.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "plate",
+     "src": "assets/objects/2026-10-31/nameplate.png",
+     "x": 540,
+     "y": 1300,
+     "w": 600,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop",
+     "float": 2
+    }
+   ],
+   "motion_rationale": "تابلوی نام = آنچه همه به یاد می‌آورند؛ برندِ واقعی",
+   "lines": [
+    {
+     "text": "آنچه همه می‌کشند،",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "برندِ *واقعی* شماست.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "bg": "graphite",
+   "spot_y": 1300,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "eraser",
+     "src": "assets/objects/2026-10-22/eraser.png",
+     "x": 540,
+     "y": 1300,
+     "w": 440,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": 8,
+     "anim": "pop"
+    }
+   ],
+   "motion_rationale": "پاک‌کن = آنچه مشتری اضافه می‌کند: یا قصه‌ای که نگه می‌داری، یا خطایی که پاک می‌کنی",
+   "lines": [
+    {
+     "text": "آنچه همه اضافه می‌کنند،",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "یا *قصه* است، یا *خطا*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "mon",
+     "src": "assets/objects/2026-11-05/monocle.png",
+     "x": 540,
+     "y": 1290,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "zoom",
+     "float": 3
+    }
+   ],
+   "motion_rationale": "بازگشت به آغاز: همان مونوکل = برندِ شما در ذهنِ مشتری چه جزئیاتی دارد که شما نساختید؟",
+   "lines": [
+    {
+     "text": "برندِ شما در ذهنِ مشتری",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "چه *مونوکلی* به چشم زده؟",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "bg": "primary",
+   "claim_type": "interpretation",
+   "motion_rationale": "کارت پایانی",
+   "logo": true,
+   "txt_top": 1080,
+   "lines": [
+    {
+     "text": "برای من بنویسید.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  }
+ ],
+ "caption": "مردِ مونوپولی هیچ‌وقت مونوکل نداشت. ولی احتمالاً همین الان دارید می‌بینیدش.\n\nپژوهشگرانِ دانشگاه شیکاگو (پراساد و بینبریج، ۲۰۲۲) چهل تصویرِ آشنا را با نسخه‌های دست‌کاری‌شده کنار هم گذاشتند. برای اپل و رالف لورن حدود ۸۰ درصد درست انتخاب کردند؛ برای مرد مونوپولی، فولکس‌واگن و «فروت آو د لوم» فقط ۲۰ تا ۳۰ درصد. آدم‌ها به انتخابِ غلطشان مطمئن بودند، و وقتی از حافظه کشیدند، همان اشتباه‌ها را تکرار کردند. حتی کسانی که درست به همان نقطه نگاه کرده بودند.\n\nعجیب‌ترش: لوگوی «فروت آو د لوم» هرگز شاخِ فراوانی نداشته. بشقاب جوابِ منطقی‌تری بود، ولی آدم‌ها باز شاخ را انتخاب کردند. یعنی مغز همیشه «جورترین» جزئیات را اضافه نمی‌کند. چرایش هنوز معلوم نیست؛ اسمش را گذاشته‌اند «اثر ماندلای تصویری».\n\nحدودش را بگویم: این یک پژوهش آزمایشگاهی است با چند ده تا صد شرکت‌کننده در هر آزمایش، نه نظرسنجی از مشتری‌های شما. خبرِ تازه، گزارشی است که کریتیو بلاک ۴ نوامبر منتشر کرد؛ خودِ پژوهش مالِ ۲۰۲۲ است. تصویرهای آزمون آپلود مالک‌اند (از منبع‌های بالا)، اشیای دیگر با هوش مصنوعی ساخته شده‌اند. اینکه «برند همان است که در ذهن می‌ماند» برداشتِ من است.\n\nبرای صاحب کسب‌وکار: از پنج مشتری بخواهید تابلو یا لیوانتان را از حافظه بکشند. آنچه همه می‌کشند، برندِ واقعی شماست. آنچه همه از خودشان اضافه می‌کنند، یا قصه‌ای است که می‌شود ساخت، یا خطایی که باید درستش کرد.\n\nبرندِ شما در ذهنِ مشتری چه جزئیاتی دارد که خودتان هرگز نساختید؟ برای من بنویسید.\n\n— بهنود کاویان",
+ "hashtags": [
+  "#برندینگ",
+  "#بازاریابی",
+  "#logodesign",
+  "#mandelaeffect"
+ ],
+ "sources": [
+  {
+   "publisher": "Creative Bloq",
+   "title": "Why do millions of us remember famous logos all wrong? The Mandela effect, explained",
+   "date": "2026-11-04",
+   "url": "https://www.creativebloq.com/inspiration/youve-been-picturing-these-logos-wrong-your-whole-life"
+  },
+  {
+   "publisher": "University of Chicago News",
+   "title": "Visual Mandela effect: false memories of Pikachu, Mr. Monopoly and Waldo",
+   "date": "2022-07-15",
+   "url": "https://news.uchicago.edu/story/visual-mandela-effect-false-memories-psychology-neuroscience-pikachu-mr-monopoly-waldo"
+  },
+  {
+   "publisher": "University of Chicago, Social Sciences Division",
+   "title": "New Research Shows Consistency in What We Misremember",
+   "date": "2022-06-19",
+   "url": "https://socialsciences.uchicago.edu/node/21404"
+  },
+  {
+   "publisher": "Neuroscience News",
+   "title": "Study Finds Widespread False Memories of Logos and Characters, Including Mr. Monopoly and Pikachu",
+   "date": "2022-07",
+   "url": "https://neurosciencenews.com/logo-visual-mandela-effect-21066/"
+  },
+  {
+   "publisher": "APS Observer",
+   "title": "Visual memory distortions (Prasad & Bainbridge 2022, Psychological Science 33(12), 1971-1988)",
+   "date": "2024-06-12",
+   "url": "https://www.psychologicalscience.org/publications/observer/visual-memory-distortions.html"
+  }
+ ],
+ "cta": "برای من بنویسید.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S7"
+ },
+ "status": "DRAFT",
+ "style": "editorial",
+ "lang": "fa"
+}
