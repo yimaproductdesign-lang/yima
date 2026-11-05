@@ -50,3 +50,6 @@ Pick: 1, same as FA; in English it lands even harder because the "rich uncle wit
 
 **Round 2 — scores:** voice 8 · tension 8 · concreteness 8 · rhythm 8 · fluency 8 — all ≥ 7. 126 words (with CTA).
 Caveat once on screen: "Nobody knows why yet." (S9). Full limits in the caption.
+
+## Revision (owner request, same morning)
+Owner: the original reference images, full and in colour, are more engaging. T-a, T-b and T-c are now shown uncropped and in natural colour (`"color": [0, 0]`), framed on dark scenes: S3 = T-c (all six, "which ones are real?"), S5 = T-b (all participants' drawings), S7 = T-a (labelled research figure: A original, B horn version). The viewfinder on S7 was dropped (white strokes vanished on the white figure; the figure's own labels show the answer). FA S3 → «از هر کدام سه نسخه.»; EN S3 → "Three versions of each. / Which ones are real?". The crops T-b_fotl/T-c_fotl are no longer used.

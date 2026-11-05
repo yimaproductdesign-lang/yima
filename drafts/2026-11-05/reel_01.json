@@ -106,22 +106,26 @@
    "objects": [
     {
      "key": "tc",
-     "src": "incoming/2026-11-05/T-c_fotl.png",
+     "src": "incoming/2026-11-05/T-c.png",
      "x": 540,
      "y": 1290,
      "w": 900,
-     "ar": 3.4444444444444446,
+     "ar": 1.7783505154639174,
      "frame": true,
      "anim": "zoom",
      "push": 0.04,
-     "credit": "Image: University of Chicago / The Brain Bridge Lab (Prasad & Bainbridge 2022), owner upload, cropped to one brand",
-     "source_url": "https://news.uchicago.edu/story/visual-mandela-effect-false-memories-psychology-neuroscience-pikachu-mr-monopoly-waldo"
+     "credit": "Image: University of Chicago / The Brain Bridge Lab (Prasad & Bainbridge 2022), owner upload",
+     "source_url": "https://news.uchicago.edu/story/visual-mandela-effect-false-memories-psychology-neuroscience-pikachu-mr-monopoly-waldo",
+     "color": [
+      0,
+      0
+     ]
     }
    ],
-   "motion_rationale": "آزمونِ واقعی پژوهش (آپلود مالک، قاب‌دار): سه نسخه از یک لوگو؛ بیننده خودش امتحان می‌کند",
+   "motion_rationale": "تصویر کامل و رنگیِ آزمونِ پژوهش (آپلود مالک، قاب‌دار، به خواست مالک): سه نسخه از هر برند و شخصیت؛ بیننده خودش امتحان می‌کند",
    "lines": [
     {
-     "text": "سه نسخه از یک لوگو.",
+     "text": "از هر کدام سه نسخه.",
      "kind": "b",
      "dim": false
     },
@@ -207,19 +211,23 @@
    "objects": [
     {
      "key": "tb",
-     "src": "incoming/2026-11-05/T-b_fotl.png",
+     "src": "incoming/2026-11-05/T-b.png",
      "x": 540,
      "y": 1290,
-     "w": 820,
-     "ar": 2.6551724137931036,
+     "w": 900,
+     "ar": 1.7761989342806395,
      "frame": true,
      "anim": "drop",
      "push": 0.03,
-     "credit": "Image: participants' drawings from memory, The Brain Bridge Lab (via Creative Bloq), owner upload, cropped",
-     "source_url": "https://www.creativebloq.com/inspiration/youve-been-picturing-these-logos-wrong-your-whole-life"
+     "credit": "Image: participants' drawings from memory, The Brain Bridge Lab (via Creative Bloq), owner upload",
+     "source_url": "https://www.creativebloq.com/inspiration/youve-been-picturing-these-logos-wrong-your-whole-life",
+     "color": [
+      0,
+      0
+     ]
     }
    ],
-   "motion_rationale": "نقاشی‌های واقعیِ شرکت‌کننده‌ها از حافظه (آپلود مالک) با فلش‌هایی روی همان خطای مشترک = همه همان اشتباه را کشیدند",
+   "motion_rationale": "همه‌ی نقاشی‌های واقعیِ شرکت‌کننده‌ها از حافظه، کامل و رنگی (آپلود مالک) با فلش روی خطاهای مشترک (مونوکل، شاخ، دم) = همان اشتباه‌ها",
    "lines": [
     {
      "text": "از حافظه که کشیدند،",
@@ -295,32 +303,24 @@
    ],
    "objects": [
     {
-     "key": "tc",
-     "src": "incoming/2026-11-05/T-c_fotl.png",
+     "key": "ta",
+     "src": "incoming/2026-11-05/T-a.png",
      "x": 540,
      "y": 1290,
      "w": 900,
-     "ar": 3.4444444444444446,
+     "ar": 1.7761989342806395,
      "frame": true,
      "anim": "fade",
      "push": 0.02,
-     "credit": "Image: University of Chicago / The Brain Bridge Lab (Prasad & Bainbridge 2022), owner upload, cropped to one brand",
-     "source_url": "https://news.uchicago.edu/story/visual-mandela-effect-false-memories-psychology-neuroscience-pikachu-mr-monopoly-waldo"
+     "credit": "Image: research figure, Prasad & Bainbridge 2022 (The Brain Bridge Lab), owner upload",
+     "source_url": "https://www.psychologicalscience.org/publications/observer/visual-memory-distortions.html",
+     "color": [
+      0,
+      0
+     ]
     }
    ],
-   "fx": [
-    {
-     "type": "viewfinder",
-     "box": [
-      110,
-      1150,
-      380,
-      1430
-     ],
-     "t": 1.2
-    }
-   ],
-   "motion_rationale": "چرخش: همان سه نسخه برمی‌گردد و قابِ منظره‌یاب روی نسخه‌ی اصلی (بی‌شاخ) می‌نشیند = جواب آزمون",
+   "motion_rationale": "چرخش: شکلِ اصلی پژوهش، کامل و رنگی (ردیف A = اصل، B = نسخه‌ی شاخ‌دار) = جواب آزمون؛ برچسب‌های خودِ شکل اصل و نسخه‌ی ساختگی را نشان می‌دهند",
    "lines": [
     {
      "text": "لوگوی «فروت آو د لوم» میوه دارد.",

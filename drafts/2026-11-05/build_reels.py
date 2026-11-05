@@ -21,8 +21,8 @@ E_UC = {"url": SS, "publisher": "University of Chicago (Social Sciences Division
 E_NN = {"url": NN, "publisher": "Neuroscience News (UChicago release)", "event_date": "2022-07", "retrieved_at": RT,
         "claim": "Mr. Monopoly has never worn a monocle; consistent, confident false memories; no attentional or visual differences drive the effect."}
 
-CR_C = "Image: University of Chicago / The Brain Bridge Lab (Prasad & Bainbridge 2022), owner upload, cropped to one brand"
-CR_B = "Image: participants' drawings from memory, The Brain Bridge Lab (via Creative Bloq), owner upload, cropped"
+CR_C = "Image: University of Chicago / The Brain Bridge Lab (Prasad & Bainbridge 2022), owner upload"
+CR_B = "Image: participants' drawings from memory, The Brain Bridge Lab (via Creative Bloq), owner upload"
 
 
 def obj(key, path, x=540, y=1300, w=420, credit=AI_OLD, **kw):
@@ -40,8 +40,10 @@ WORDS = {"fa": ["رنگ", "فاصله", "گوشه", "سایه", "خط", "حرف"
          "en": ["colour", "gap", "corner", "shadow", "line", "letter", "shape", "logo"]}
 LBL = {"fa": ("بشقاب", "شاخ"), "en": ("plate", "horn")}
 
-TC_AR = 620 / 180
-TB_AR = 385 / 145
+TC_AR = 1380 / 776
+TB_AR = 1000 / 563
+TA_AR = 1000 / 563
+CR_A = "Image: research figure, Prasad & Bainbridge 2022 (The Brain Bridge Lab), owner upload"
 
 
 def fx_for(sid, lang):
@@ -50,7 +52,7 @@ def fx_for(sid, lang):
         return [{"type": "words", "mode": "fade", "box": [150, 1020, 930, 1480], "seed": 511, "size": 66,
                  "words": WORDS[lang], "keep": [k], "keep_at": [540, 1250]}]
     if sid == "S7":  # brackets land on the original (left of the three)
-        return [{"type": "viewfinder", "box": [110, 1150, 380, 1430], "t": 1.2}]
+        return [{"type": "viewfinder", "box": [222, 1060, 436, 1240], "t": 1.2}]
     if sid == "S8":
         p, h = LBL[lang]
         return [{"type": "labels", "items": [{"text": p, "x": 330, "y": 1520, "move": "up", "t": 1.6, "size": 58},
@@ -65,16 +67,16 @@ PLAN = [
      "قلاب: مونوکلِ تنها، بی‌صاحب، زیر نور = همان جزئیاتی که هرگز روی صورتِ مرد مونوپولی نبود"),
     ("S2", "paper", None, "fact", [E_UC], [obj("mon", f"{D}/monocle", w=600, y=1290, push=0.06, carry_in=True, **MON)], None,
      "همان مونوکل ادامه می‌دهد و بزرگ‌تر می‌شود = در ذهنِ ما واضح‌تر و مطمئن‌تر از واقعیت"),
-    ("S3", "graphite", 1290, "fact", [E_CB], [frame("tc", "T-c_fotl.png", TC_AR, CR_C, UC, w=900, y=1290)], None,
-     "آزمونِ واقعی پژوهش (آپلود مالک، قاب‌دار): سه نسخه از یک لوگو؛ بیننده خودش امتحان می‌کند"),
+    ("S3", "graphite", 1290, "fact", [E_CB], [frame("tc", "T-c.png", TC_AR, CR_C, UC, w=900, y=1290, color=[0, 0])], None,
+     "تصویر کامل و رنگیِ آزمونِ پژوهش (آپلود مالک، قاب‌دار، به خواست مالک): سه نسخه از هر برند و شخصیت؛ بیننده خودش امتحان می‌کند"),
     ("S4", "paper", None, "fact", [E_CB], None, "S4",
      "ابرِ جزئیاتِ لوگو (رنگ، فاصله، گوشه...) محو می‌شود و فقط «لوگو» می‌ماند = حافظه کلیت را نگه می‌دارد و جزئیات را می‌بازد"),
-    ("S5", "graphite", 1290, "fact", [E_CB], [frame("tb", "T-b_fotl.png", TB_AR, CR_B, CB, w=820, y=1290, anim="drop", push=0.03)], None,
-     "نقاشی‌های واقعیِ شرکت‌کننده‌ها از حافظه (آپلود مالک) با فلش‌هایی روی همان خطای مشترک = همه همان اشتباه را کشیدند"),
+    ("S5", "graphite", 1290, "fact", [E_CB], [frame("tb", "T-b.png", TB_AR, CR_B, CB, w=900, y=1290, anim="drop", push=0.03, color=[0, 0])], None,
+     "همه‌ی نقاشی‌های واقعیِ شرکت‌کننده‌ها از حافظه، کامل و رنگی (آپلود مالک) با فلش روی خطاهای مشترک (مونوکل، شاخ، دم) = همان اشتباه‌ها"),
     ("S6", "paper", None, "fact", [E_UC, E_NN], [obj("lens", "2026-10-22/magnifier", w=540, y=1300, rot=-10, anim="slide_r")], None,
      "ذره‌بین = نگاهِ دقیق؛ مشکل از نگاه کردن به جای اشتباه نبود"),
-    ("S7", "graphite", 1290, "fact", [E_UC], [frame("tc", "T-c_fotl.png", TC_AR, CR_C, UC, w=900, y=1290, anim="fade", push=0.02)], "S7",
-     "چرخش: همان سه نسخه برمی‌گردد و قابِ منظره‌یاب روی نسخه‌ی اصلی (بی‌شاخ) می‌نشیند = جواب آزمون"),
+    ("S7", "graphite", 1290, "fact", [E_UC], [frame("ta", "T-a.png", TA_AR, CR_A, APS, w=900, y=1290, anim="fade", push=0.02, color=[0, 0])], None,
+     "چرخش: شکلِ اصلی پژوهش، کامل و رنگی (ردیف A = اصل، B = نسخه‌ی شاخ‌دار) = جواب آزمون؛ برچسب‌های خودِ شکل اصل و نسخه‌ی ساختگی را نشان می‌دهند"),
     ("S8", "paper", None, "fact", [E_UC], [obj("scale", "2026-10-22/scale", w=620, y=1300, anim="rise")], "S8",
      "ترازو: «بشقاب» (جوابِ منطقی) سبک می‌شود و بالا می‌رود، «شاخ» سنگین می‌ماند = انتخاب، با منطق نمی‌خواند"),
     ("S9", "graphite", 1290, "fact", [E_UC], [obj("photo", "2026-10-22/photo", w=560, y=1300, rot=-4, anim="drop", blur=[0, 7, 1.2, 3.2])], None,
@@ -95,7 +97,7 @@ PLAN = [
 FA = {
     "S1": [("مردِ مونوپولی هیچ‌وقت", "b"), ("*مونوکل* نداشت.", "h")],
     "S2": [("ولی بیشترِ ما می‌بینیمش،", "b"), ("و سرش *شرط* هم می‌بندیم.", "h")],
-    "S3": [("سه نسخه از یک لوگو.", "b"), ("کدام *واقعی* است؟", "h")],
+    "S3": [("از هر کدام سه نسخه.", "b"), ("کدام *واقعی* است؟", "h")],
     "S4": [("برای لوگوهایی مثل فولکس‌واگن،", "b"), ("فقط *۲۰ تا ۳۰ درصد* درست گفتند.", "h")],
     "S5": [("از حافظه که کشیدند،", "b"), ("*همان* اشتباه‌ها تکرار شد.", "h")],
     "S6": [("حتی وقتی همان‌جا را نگاه کردند،", "b"), ("باز *اشتباه* کردند.", "h")],
@@ -112,7 +114,7 @@ FA = {
 EN = {
     "S1": [("The Monopoly man", "b"), ("never wore a *monocle*.", "h")],
     "S2": [("Yet most of us see one,", "b"), ("and we'd *bet* on it.", "h")],
-    "S3": [("Three versions.", "b"), ("Which logo is *real*?", "h")],
+    "S3": [("Three versions of each.", "b"), ("Which ones are *real*?", "h")],
     "S4": [("For logos like Volkswagen,", "b"), ("only *20 to 30%* got it right.", "h")],
     "S5": [("From memory,", "b"), ("people drew the *same* mistakes.", "h")],
     "S6": [("Even looking right at it,", "b"), ("still *wrong*.", "h")],
