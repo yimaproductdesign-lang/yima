@@ -41,13 +41,23 @@
         "id": "T-a",
         "description": "نمودار/گرافیک داده‌ی داخل متن مقاله (نام فایل: how-john-lewis-christmas-ad-affected-shopping-intent) که اثر تبلیغ بر قصد خرید را نشان می‌دهد. فقط همین نمودار؛ عکس نویسنده یا تصویرهای دیگر را نفرست.",
         "page_url": "https://news.designrush.com/john-lewis-saatchi-2026-christmas-ad-backlash",
-        "scene_idea": "صحنه‌ی «اندازه بگیر، نشمار»: نمودار واقعی قاب‌دار روی صحنه‌ی تیره، کنار ذره‌بین؛ بعد از صحنه‌ی بلندگو، تا تضاد هیاهو و داده دیده شود."
+        "scene_idea": "صحنه‌ی «اندازه بگیر، نشمار»: نمودار واقعی قاب‌دار روی صحنه‌ی تیره، کنار ذره‌بین؛ بعد از صحنه‌ی بلندگو، تا تضاد هیاهو و داده دیده شود.",
+        "received": {
+          "file": "incoming/2026-11-06/T-a.png",
+          "size": "1798x1400",
+          "note": "OnePulse chart via DesignRush: shopping intent after the ad: much more likely 9%, more likely 36%, makes no difference 58%, less likely 6%. No people. Short side 1400: fine. Show framed on a dark scene; credit 'OnePulse / DesignRush'. Note: this is OnePulse's 6% 'less likely', not System1's 6% contempt; do not merge the two numbers; if the reel uses 69% vs 6% (System1) on screen, use this chart as visual proof of 'most people barely moved' (58%) and label it by its own source."
+        }
       },
       {
         "id": "T-b",
         "description": "تصویر اصلی بالای همین مقاله (فریم ویدیوی تبلیغ جان لوئیس) فقط اگر عروسک سگ چوبی «پیکِلز» یا قاب پایانی/لوگوی جان لوئیس را نشان می‌دهد و چهره‌ی بچه‌ها در آن نیست. اگر بچه‌ها در تصویرند، نفرست.",
         "page_url": "https://news.designrush.com/john-lewis-saatchi-2026-christmas-ad-backlash",
-        "scene_idea": "صحنه‌ی جرقه: «این تبلیغ این هفته زیر بار انتقاد رفت» — فریم واقعی، قاب‌دار و کوچک، پیش از پیچش ۶۹ درصد."
+        "scene_idea": "صحنه‌ی جرقه: «این تبلیغ این هفته زیر بار انتقاد رفت» — فریم واقعی، قاب‌دار و کوچک، پیش از پیچش ۶۹ درصد.",
+        "received": {
+          "file": "incoming/2026-11-06/T-b.png",
+          "size": "1024x683",
+          "note": "Official ad still (party room: grandmother, two children, parents in doorway; Pickles small, mid-left behind the boy). Children's faces are clearly visible, so do NOT show the full frame (studio rule: no minors; also the brief asked to skip it in that case). Short side 683: framed only, never upscaled. Allowed use: a crop of the decor only (top-left area roughly x 0-420, y 0-260: streamers, disco balls, stars, no faces) for the 'the lavish setting critics attacked' beat. Pickles crop is too small (~100px) to use. If in doubt, leave it out. Credit 'John Lewis / Saatchi & Saatchi'."
+        }
       }
     ],
     "object_plan": [
