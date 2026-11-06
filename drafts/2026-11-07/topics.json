@@ -35,26 +35,39 @@
       }
     ],
     "music_mood": "dark",
-    "framing_note": "News is the spark; the evergreen idea: simple marks earn value through consistent repetition; complexity is not value; effort is not what the customer sees. Be precise: this is a COPYRIGHT registration refusal only. Never say UPS 'lost its logo', 'anyone can copy it' or that the logo is unprotected; trademark rights are untouched (say once: 'it is still their trademark; this was about copyright'). Not legal advice; one board decision. Say 'the US copyright office', not paragraph quotes; on screen no publication names. Don't mock UPS or the designers; the point is a compliment to simplicity. Paul Rand 1961 / 2003 redesign only in caption. Owner takeaway (café, salon, shop, studio): don't pay for a busier logo; pick a simple mark and use it the same way on every cup, bag, sign and post for years; for legal protection ask a trademark lawyer. One number max on screen (e.g. 'since 1961' only if needed). Never name the UAE, Dubai or any emirate.",
+    "framing_note": "News is the spark; the evergreen idea: simple marks earn value through consistent repetition; complexity is not value; effort is not what the customer sees. Be precise: this is a COPYRIGHT registration refusal only. Never say UPS 'lost its logo', 'anyone can copy it' or that the logo is unprotected; trademark rights are untouched (say once: 'it is still their trademark; this was about copyright'). Not legal advice; one board decision. Say 'the US copyright office', not paragraph quotes; on screen no publication names. Don't mock UPS or the designers; the point is a compliment to simplicity. Paul Rand 1961 / 2003 redesign only in caption. Owner takeaway (café, salon, shop, studio): don't pay for a busier logo; pick a simple mark and use it the same way on every cup, bag, sign and post for years; for legal protection ask a trademark lawyer. One number max on screen (e.g. 'since 1961' only if needed). Never name the UAE, Dubai or any emirate. Owner rule from 2026-11-07: use modern, attractive, relevant mockups (motion.md rule 9): blank AI mockup + real logo composited; never AI-draw the UPS logo; label as editorial mockup in caption. Mockups are not UPS ads.",
     "image_requests": [
       {
         "id": "T-a",
-        "description": "تصویر داخل متن مقاله (اسکرین‌شات عریض، بعد از پاراگراف استدلال‌های UPS؛ نام فایل Screenshot-2026-11-01-at-10.54.53-AM) که احتمالاً دو نسخه‌ی لوگوی سپر UPS (تنها و با نوشته) از رأی را نشان می‌دهد. فقط همین تصویر؛ اگر لوگو در آن نیست، نفرست. اندازه‌ی اصلی حدود ۱۰۲۴×۳۸۰ است؛ بزرگ‌ترین نسخه را ذخیره کن (کوچک‌تر از ۱۰۸۰ هم قابل قبول است، فقط قاب‌دار و کوچک نمایش داده می‌شود).",
-        "page_url": "https://www.thefashionlaw.com/ups-loss-shows-the-copyright-limits-of-even-the-most-recognizable-logos/",
-        "scene_idea": "صحنه‌ی چرخش: «این، از نظر قانون، خلاقانه نیست»؛ دو لوگوی واقعی قاب‌دار روی صحنه‌ی تیره، کنار مهر (رأی).",
+        "description": "دو نسخه‌ی سپر UPS کنار هم: سپر خالی و سپر با حروف ups (همان دو نسخه‌ای که در رأی رد شد).",
+        "page_url": "(owner upload, 2026-11-06 evening)",
+        "scene_idea": "صحنه‌ی چرخش: «این دو، از نظر قانون، خلاقانه نیستند» — قاب‌دار روی صحنه‌ی تیره کنار مهر.",
         "received": {
-          "file": null,
-          "note": "Owner (2026-11-06 evening): the article has only one image, the TFL header collage of ~35 luxury fashion/jewellery logos (Chanel, LV, Dior, Rolex...). No UPS shield anywhere, so T-a does not exist and T-b's condition (UPS shield/truck/box) is not met. Do NOT use the collage: it is not UPS, and it would wrongly imply those brands' logos were also judged uncreative. Build both reels with objects only; the UPS shield is described in words, never drawn or recreated."
+          "file": "incoming/2026-11-07/T-a.png",
+          "size": "738x273",
+          "note": "Matches the two versions in the decision (shield alone; shield with lowercase 'ups'). Small: show framed at <=1.5x, never full width. Credit 'UPS logos (trademark of UPS)'."
         }
       },
       {
         "id": "T-b",
-        "description": "تصویر اصلی بالای همان مقاله (Image: TFL) فقط اگر سپر UPS، کامیون یا جعبه‌ی قهوه‌ای UPS را بدون آدم نشان می‌دهد. اگر چهره‌ی کسی در آن است، نفرست.",
-        "page_url": "https://www.thefashionlaw.com/ups-loss-shows-the-copyright-limits-of-even-the-most-recognizable-logos/",
-        "scene_idea": "صحنه‌ی جرقه/هوک: «همه این را می‌شناسند»؛ فریم واقعی قاب‌دار پیش از پیچش «خلاقانه نیست».",
+        "description": "لوگوی فعلی UPS (تخت، ۲۰۱۴).",
+        "page_url": "(owner upload)",
+        "scene_idea": "روی موکاپ‌ها: جعبه، ون، لیبل ارسال.",
         "received": {
-          "file": null,
-          "note": "Owner (2026-11-06 evening): the article has only one image, the TFL header collage of ~35 luxury fashion/jewellery logos (Chanel, LV, Dior, Rolex...). No UPS shield anywhere, so T-a does not exist and T-b's condition (UPS shield/truck/box) is not met. Do NOT use the collage: it is not UPS, and it would wrongly imply those brands' logos were also judged uncreative. Build both reels with objects only; the UPS shield is described in words, never drawn or recreated."
+          "file": "incoming/2026-11-07/T-b.png",
+          "size": "150x150 RGBA",
+          "note": "Very small: composite onto mockups only at small size (<=300px on canvas, max 2x). Never redraw or regenerate the logo."
+        }
+      },
+      {
+        "id": "T-c",
+        "description": "جدول تاریخچه‌ی لوگوی UPS (۱۹۱۶، ۱۹۳۷، ۱۹۶۱، ۲۰۰۳، ۲۰۱۴).",
+        "page_url": "(owner upload; third-party logo-history chart, original source unknown)",
+        "scene_idea": "صحنه‌ی «ساده‌تر شد، نه پیچیده‌تر»: از نشان پرنده و نوشته‌ی ۱۹۳۷ تا سپر ساده.",
+        "received": {
+          "file": "incoming/2026-11-07/T-c.png",
+          "size": "525x585",
+          "note": "Third-party chart with inconsistent labels ('2003-now' and '2014-now'). Only 1961 (Paul Rand) and 2003 are verified (Truck News 2003). Crop the images, drop the chart's own date bars, and put only verified dates on screen (or none). Framed, small."
         }
       }
     ],
@@ -118,6 +131,28 @@
         "object": "plain brown parcel (return)",
         "line_idea": "Close: simple, seen, repeated; same key as hook",
         "reuse_path_or_new": "same as hook"
+      }
+    ],
+    "mockup_plan": [
+      {
+        "mockup": "stack of brown kraft shipping boxes with T-b logo, modern warehouse light",
+        "line_idea": "Hook: you've seen this a billion times",
+        "logo": "T-b"
+      },
+      {
+        "mockup": "brown delivery van side panel on a clean modern street, three-quarter view, no people",
+        "line_idea": "Decades on every truck: value made by repetition",
+        "logo": "T-b"
+      },
+      {
+        "mockup": "shipping label on a parcel corner, close-up macro",
+        "line_idea": "Every box, every day",
+        "logo": "T-b"
+      },
+      {
+        "mockup": "takeaway coffee cup + kraft paper bag with a simple placeholder mark (generic circle mark, no real brand)",
+        "line_idea": "Your version: one simple mark, the same on every cup and bag, for years",
+        "logo": "generic placeholder drawn by renderer"
       }
     ]
   }
