@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-07",
+  "T": {
+    "topic_fa": "لوگویی که «به‌اندازه‌ی کافی خلاقانه نیست» و همه می‌شناسندش: ارزش لوگو از تکرار می‌آید، نه از پیچیدگی",
+    "topic_en": "Not creative enough, impossible to miss: a logo's value is built by years of use, not by how clever it looks",
+    "pillar": "brand_identity_strategy",
+    "central_tension_fa": "خیال می‌کنیم لوگوی خوب باید پیچیده و هوشمندانه باشد. ولی دفتر کپی‌رایت آمریکا همین هفته گفت سپر قهوه‌ای و طلایی UPS، یکی از شناخته‌شده‌ترین نشانه‌های دنیا، از شکل‌ها و حروف معمولی ساخته شده و «به‌اندازه‌ی کافی خلاقانه نیست». ارزشش هیچ‌وقت از خلاقیت نیامد؛ از دهه‌ها دیده‌شدن روی هر کامیون و هر جعبه آمد.",
+    "central_tension_en": "We think a good logo has to be clever and intricate. This week the US Copyright Office said UPS's brown-and-gold shield, one of the most recognised marks on earth, is made of ordinary shapes and lettering and isn't 'creative enough' for copyright. Its value never came from cleverness. It came from decades on every truck and every box.",
+    "working_hook_fa": "یکی از معروف‌ترین لوگوهای دنیا، رسماً «خلاقانه نیست».",
+    "working_hook_en": "One of the world's best-known logos just got called 'not creative enough'.",
+    "key_sources": [
+      {
+        "url": "https://www.thefashionlaw.com/ups-loss-shows-the-copyright-limits-of-even-the-most-recognizable-logos/",
+        "publisher": "The Fashion Law",
+        "date": "2026-11-02",
+        "claim": "Review Board (30 Oct) affirmed refusal to register two UPS shield logos: familiar geometric shapes, conventional gradient, ordinary lettering, 'insufficiently creative'; protection depends on 'the resulting expression rather than the effort or decisions involved'; recognition does not establish copyright; trademark rights not addressed; decisions carry no precedential weight."
+      },
+      {
+        "url": "https://www.law360.com/articles/2545117/copyright-board-rejects-ups-logo-registration-bid",
+        "publisher": "Law360",
+        "date": "2026-11-02",
+        "claim": "Board found the brown-and-gold shield logos 'weren't creative enough to warrant copyright protection' (paywalled; summary only)."
+      },
+      {
+        "url": "https://www.businessinsurance.com/ups-logo-fails-to-deliver-on-copyright-protection/",
+        "publisher": "Business Insurance",
+        "date": "2026-11-03",
+        "claim": "Confirms the denial for both versions; some well-known logos may not qualify for copyright regardless of commercial value."
+      },
+      {
+        "url": "https://www.trucknews.com/transportation/ups-unveils-new-look-with-redesigned-shield-logo/1000027706",
+        "publisher": "Truck News",
+        "date": "2003-03-26",
+        "claim": "Previous shield designed by Paul Rand in 1961; redesigned in 2003 (bow-tied parcel removed). Context only, caption level."
+      }
+    ],
+    "music_mood": "dark",
+    "framing_note": "News is the spark; the evergreen idea: simple marks earn value through consistent repetition; complexity is not value; effort is not what the customer sees. Be precise: this is a COPYRIGHT registration refusal only. Never say UPS 'lost its logo', 'anyone can copy it' or that the logo is unprotected; trademark rights are untouched (say once: 'it is still their trademark; this was about copyright'). Not legal advice; one board decision. Say 'the US copyright office', not paragraph quotes; on screen no publication names. Don't mock UPS or the designers; the point is a compliment to simplicity. Paul Rand 1961 / 2003 redesign only in caption. Owner takeaway (café, salon, shop, studio): don't pay for a busier logo; pick a simple mark and use it the same way on every cup, bag, sign and post for years; for legal protection ask a trademark lawyer. One number max on screen (e.g. 'since 1961' only if needed). Never name the UAE, Dubai or any emirate.",
+    "image_requests": [
+      {
+        "id": "T-a",
+        "description": "تصویر داخل متن مقاله (اسکرین‌شات عریض، بعد از پاراگراف استدلال‌های UPS؛ نام فایل Screenshot-2026-11-01-at-10.54.53-AM) که احتمالاً دو نسخه‌ی لوگوی سپر UPS (تنها و با نوشته) از رأی را نشان می‌دهد. فقط همین تصویر؛ اگر لوگو در آن نیست، نفرست. اندازه‌ی اصلی حدود ۱۰۲۴×۳۸۰ است؛ بزرگ‌ترین نسخه را ذخیره کن (کوچک‌تر از ۱۰۸۰ هم قابل قبول است، فقط قاب‌دار و کوچک نمایش داده می‌شود).",
+        "page_url": "https://www.thefashionlaw.com/ups-loss-shows-the-copyright-limits-of-even-the-most-recognizable-logos/",
+        "scene_idea": "صحنه‌ی چرخش: «این، از نظر قانون، خلاقانه نیست»؛ دو لوگوی واقعی قاب‌دار روی صحنه‌ی تیره، کنار مهر (رأی)."
+      },
+      {
+        "id": "T-b",
+        "description": "تصویر اصلی بالای همان مقاله (Image: TFL) فقط اگر سپر UPS، کامیون یا جعبه‌ی قهوه‌ای UPS را بدون آدم نشان می‌دهد. اگر چهره‌ی کسی در آن است، نفرست.",
+        "page_url": "https://www.thefashionlaw.com/ups-loss-shows-the-copyright-limits-of-even-the-most-recognizable-logos/",
+        "scene_idea": "صحنه‌ی جرقه/هوک: «همه این را می‌شناسند»؛ فریم واقعی قاب‌دار پیش از پیچش «خلاقانه نیست»."
+      }
+    ],
+    "object_plan": [
+      {
+        "object": "plain brown cardboard parcel, taped, no logo",
+        "line_idea": "Hook: the mark you've seen on a million boxes",
+        "reuse_path_or_new": "new: assets/objects/2026-11-07/parcel.png (color: brown kraft is the topic itself)"
+      },
+      {
+        "object": "rubber stamp",
+        "line_idea": "The verdict: 'not creative enough'",
+        "reuse_path_or_new": "assets/objects/2026-10-29/stamp.png"
+      },
+      {
+        "object": "three plain wooden geometric blocks (shield-like arch, square, triangle)",
+        "line_idea": "Familiar shapes, arranged the ordinary way",
+        "reuse_path_or_new": "new: assets/objects/2026-11-07/blocks.png"
+      },
+      {
+        "object": "magnifier",
+        "line_idea": "They judged the result, not the story behind it",
+        "reuse_path_or_new": "assets/objects/2026-10-22/magnifier.png"
+      },
+      {
+        "object": "pencil, worn down short",
+        "line_idea": "All the effort and decisions: they don't count, only what people see",
+        "reuse_path_or_new": "assets/objects/2026-10-22/pencil.png"
+      },
+      {
+        "object": "tangled thread",
+        "line_idea": "The urge to make your logo busier to make it 'worth more'",
+        "reuse_path_or_new": "assets/objects/2026-10-29/thread.png"
+      },
+      {
+        "object": "wristwatch",
+        "line_idea": "Decades: time is the ingredient",
+        "reuse_path_or_new": "assets/objects/2026-10-22/watch.png"
+      },
+      {
+        "object": "smooth worn stone",
+        "line_idea": "Value made by repetition, like a stone shaped by water",
+        "reuse_path_or_new": "assets/objects/2026-10-26/worn_stone.png"
+      },
+      {
+        "object": "worn shoe",
+        "line_idea": "Miles of use: every truck, every box, every day",
+        "reuse_path_or_new": "assets/objects/2026-10-26/worn_shoe.png"
+      },
+      {
+        "object": "key",
+        "line_idea": "Protection lives elsewhere: it's still their trademark",
+        "reuse_path_or_new": "assets/objects/2026-10-24/key.png"
+      },
+      {
+        "object": "coffee cup",
+        "line_idea": "Your version: same simple mark on every cup, bag and sign",
+        "reuse_path_or_new": "assets/objects/2026-10-29/cup.png"
+      },
+      {
+        "object": "plain brown parcel (return)",
+        "line_idea": "Close: simple, seen, repeated; same key as hook",
+        "reuse_path_or_new": "same as hook"
+      }
+    ]
+  }
+}
