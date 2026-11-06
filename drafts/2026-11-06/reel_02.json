@@ -1,0 +1,653 @@
+{
+ "reel_id": "2026-11-06_EN",
+ "date": "2026-11-06",
+ "topic": "Loud isn't many: weigh the backlash, don't count its volume",
+ "pillar": "brand_communication_consumer_behaviour",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.fashiontimes.co.uk/john-lewis-christmas-advert-backlash-2026-1767078",
+     "publisher": "Fashion Times",
+     "event_date": "2026-11-05",
+     "retrieved_at": "2026-11-06T02:00:00Z",
+     "claim": "Gloria and Pickles drew a backlash: critics called the children 'horrid', 'spoilt, entitled, rude'; storyline 'out of touch', materialistic."
+    },
+    {
+     "url": "https://news.designrush.com/john-lewis-saatchi-2026-christmas-ad-backlash",
+     "publisher": "DesignRush",
+     "event_date": "2026-11-04",
+     "retrieved_at": "2026-11-06T02:00:00Z",
+     "claim": "OnePulse: 68% liked or loved the ad; 36% more likely to shop, 58% no difference; System1 5.6 Stars; no sales data yet."
+    }
+   ],
+   "objects": [
+    {
+     "key": "meg",
+     "src": "assets/objects/2026-11-06/megaphone.png",
+     "x": 540,
+     "y": 1290,
+     "w": 600,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "drop",
+     "vibrate": 3
+    }
+   ],
+   "fx": [
+    {
+     "type": "rings",
+     "x": 300,
+     "y": 1290,
+     "R": 420,
+     "n": 5,
+     "period": 1.0,
+     "t": 0.6,
+     "op": 0.35
+    }
+   ],
+   "motion_rationale": "قلاب: بلندگوی فلزی زیر نور با موج‌های صدا = چند صدای خیلی بلند؛ همان چیزی که «اینترنت» را می‌سازد",
+   "lines": [
+    {
+     "text": "The internet called it a flop.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "People said they *liked* it.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.fashiontimes.co.uk/john-lewis-christmas-advert-backlash-2026-1767078",
+     "publisher": "Fashion Times",
+     "event_date": "2026-11-05",
+     "retrieved_at": "2026-11-06T02:00:00Z",
+     "claim": "Gloria and Pickles drew a backlash: critics called the children 'horrid', 'spoilt, entitled, rude'; storyline 'out of touch', materialistic."
+    },
+    {
+     "url": "https://www.advanced-television.com/2026/11/04/john-lewis-2026-xmas-ad-scores-high-with-system1/",
+     "publisher": "Advanced Television",
+     "event_date": "2026-11-04",
+     "retrieved_at": "2026-11-06T02:00:00Z",
+     "claim": "System1 5.6 Stars, best John Lewis score since 2019; much of the press and social media reacted negatively."
+    }
+   ],
+   "objects": [
+    {
+     "key": "phone",
+     "src": "assets/objects/2026-10-25/phone.png",
+     "x": 540,
+     "y": 1300,
+     "w": 520,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -8,
+     "anim": "rise",
+     "vibrate": 2
+    }
+   ],
+   "motion_rationale": "گوشیِ لرزان = کامنت‌ها و تیترهایی که یک‌شبه روی صفحه انباشته می‌شوند",
+   "lines": [
+    {
+     "text": "John Lewis's Christmas ad",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "got *torn apart* this week.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "bg": "graphite",
+   "spot_y": 1250,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.fashiontimes.co.uk/john-lewis-christmas-advert-backlash-2026-1767078",
+     "publisher": "Fashion Times",
+     "event_date": "2026-11-05",
+     "retrieved_at": "2026-11-06T02:00:00Z",
+     "claim": "Gloria and Pickles drew a backlash: critics called the children 'horrid', 'spoilt, entitled, rude'; storyline 'out of touch', materialistic."
+    }
+   ],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "pop",
+     "box": [
+      140,
+      960,
+      940,
+      1520
+     ],
+     "seed": 141,
+     "size": 52,
+     "stagger": 0.08,
+     "words": [
+      "spoilt",
+      "out of touch",
+      "tone deaf",
+      "materialistic",
+      "cold",
+      "worst ever",
+      "rude",
+      "cynical"
+     ]
+    }
+   ],
+   "motion_rationale": "ابرِ شلوغِ واژه‌های انتقاد (لوس، مادی، بدترین…) که هم‌زمان چشمک می‌زنند = همه با یک صدا، و آن‌قدر بلند که بیشتر از آنچه هستند به نظر می‌رسند",
+   "lines": [
+    {
+     "text": "Columnists. Comments. Headlines.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "All one *voice*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://news.designrush.com/john-lewis-saatchi-2026-christmas-ad-backlash",
+     "publisher": "DesignRush",
+     "event_date": "2026-11-04",
+     "retrieved_at": "2026-11-06T02:00:00Z",
+     "claim": "OnePulse: 68% liked or loved the ad; 36% more likely to shop, 58% no difference; System1 5.6 Stars; no sales data yet."
+    }
+   ],
+   "objects": [
+    {
+     "key": "lens",
+     "src": "assets/objects/2026-10-22/magnifier.png",
+     "x": 540,
+     "y": 1300,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -10,
+     "anim": "slide_r"
+    }
+   ],
+   "motion_rationale": "ذره‌بین = به‌جای خواندنِ هیاهو، از خودِ مردم پرسیدن و دقیق نگاه کردن؛ عدد ۶۸ درصد",
+   "lines": [
+    {
+     "text": "Meanwhile, someone asked people.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*68%* liked or loved it.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "bg": "graphite",
+   "spot_y": 1300,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "scale",
+     "src": "assets/objects/2026-10-22/scale.png",
+     "x": 540,
+     "y": 1130,
+     "w": 600,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise"
+    }
+   ],
+   "fx": [
+    {
+     "type": "labels",
+     "items": [
+      {
+       "text": "loud",
+       "x": 330,
+       "y": 1500,
+       "move": "up",
+       "t": 1.6,
+       "size": 62
+      },
+      {
+       "text": "68%",
+       "x": 750,
+       "y": 1500,
+       "move": "down",
+       "acc": true,
+       "t": 1.6,
+       "size": 72
+      }
+     ]
+    }
+   ],
+   "motion_rationale": "چرخش (drop): ترازو؛ «صدای بلند» سبک است و بالا می‌رود، «۶۸٪» سنگین پایین می‌ماند = بلندی وزن ندارد، تعداد دارد",
+   "lines": [
+    {
+     "text": "Loud",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "isn't *many*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "ear",
+     "src": "assets/objects/2026-11-06/ear_trumpet.png",
+     "x": 540,
+     "y": 1300,
+     "w": 720,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "slide_l",
+     "float": 3
+    }
+   ],
+   "motion_rationale": "شیپورِ گوش = باید گوش را جلو برد تا ساکت‌ها را شنید؛ کسانی که خوششان آمده پست نمی‌گذارند",
+   "lines": [
+    {
+     "text": "The people who liked it",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "don't *post* about it.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "bg": "graphite",
+   "spot_y": 1300,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://news.designrush.com/john-lewis-saatchi-2026-christmas-ad-backlash",
+     "publisher": "DesignRush",
+     "event_date": "2026-11-04",
+     "retrieved_at": "2026-11-06T02:00:00Z",
+     "claim": "OnePulse: 68% liked or loved the ad; 36% more likely to shop, 58% no difference; System1 5.6 Stars; no sales data yet."
+    }
+   ],
+   "objects": [
+    {
+     "key": "watch",
+     "src": "assets/objects/2026-10-22/watch.png",
+     "x": 540,
+     "y": 1300,
+     "w": 440,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "fade",
+     "float": 2
+    }
+   ],
+   "motion_rationale": "احتیاط یک بار: ساعت = داوریِ اصلی، یعنی فروش، هنوز نرسیده؛ این فقط یک نظرسنجی سریع است",
+   "lines": [
+    {
+     "text": "One quick poll. Sales aren't in yet.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "But look at the *ratio*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "sieve",
+     "src": "assets/objects/2026-10-22/sieve.png",
+     "x": 540,
+     "y": 1210,
+     "w": 680,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise"
+    }
+   ],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "sift",
+     "box": [
+      160,
+      940,
+      920,
+      1000
+     ],
+     "target": [
+      540,
+      1500
+     ],
+     "seed": 9,
+     "size": 54,
+     "keep": [
+      "fair point"
+     ],
+     "stagger": 0.02,
+     "words": [
+      "spoilt",
+      "worst ever",
+      "fair point",
+      "tone deaf",
+      "cold",
+      "cynical"
+     ]
+    }
+   ],
+   "motion_rationale": "صافی: واژه‌های انتقاد می‌ریزند و فقط «حرفِ درست» می‌ماند = انتقاد را وزن کن، نه حجمش را؛ می‌تواند درست باشد و باز اقلیت",
+   "lines": [
+    {
+     "text": "Criticism can be right",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "and still be the *minority*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "bg": "graphite",
+   "spot_y": 1300,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "roller",
+     "src": "assets/objects/2026-10-26/paint_roller.png",
+     "x": 540,
+     "y": 1300,
+     "w": 640,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -12,
+     "anim": "slide_r",
+     "path": [
+      [
+       0.4,
+       600,
+       1300
+      ],
+      [
+       2.6,
+       480,
+       1300
+      ]
+     ]
+    }
+   ],
+   "motion_rationale": "غلتکِ رنگ که روی صحنه می‌کشد = وسوسه‌ی فردای طوفان: همه‌چیز را از نو رنگ کردن",
+   "lines": [
+    {
+     "text": "Then comes the morning after:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "you *repaint* it all.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "eraser",
+     "src": "assets/objects/2026-10-22/eraser.png",
+     "x": 540,
+     "y": 1300,
+     "w": 440,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": 8,
+     "anim": "pop"
+    }
+   ],
+   "motion_rationale": "پاک‌کن = پاک کردنِ منو، تابلو و بسته‌بندی؛ همان چیزی که داشت کار می‌کرد",
+   "lines": [
+    {
+     "text": "The menu. The sign. The pack.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "The thing that was *working*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "bg": "graphite",
+   "spot_y": 1300,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "cup",
+     "src": "assets/objects/2026-10-29/cup.png",
+     "x": 540,
+     "y": 1300,
+     "w": 460,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "float": 2
+    }
+   ],
+   "motion_rationale": "فنجانِ همیشگی = مشتریِ ثابت که کامنت نمی‌گذارد و فقط دوباره سفارش می‌دهد",
+   "lines": [
+    {
+     "text": "Your regulars never comment.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "They just order *again*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "ticket",
+     "src": "assets/objects/2026-10-31/ticket.png",
+     "x": 540,
+     "y": 1300,
+     "w": 640,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -4,
+     "anim": "drop"
+    }
+   ],
+   "motion_rationale": "تکه‌رسیدِ پاره = رأیِ واقعی: سفارشِ دوباره و فروشِ هفته، نه کامنت",
+   "lines": [
+    {
+     "text": "Before you change a thing,",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "ask ten regulars. Check the *till*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "bg": "graphite",
+   "spot_y": 1300,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "key",
+     "src": "assets/objects/2026-10-24/key.png",
+     "x": 540,
+     "y": 1300,
+     "w": 520,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -20,
+     "anim": "slide_l",
+     "float": 2
+    }
+   ],
+   "motion_rationale": "کلید = فرمانِ برند؛ به منتقد جواب بده، ولی کلید را دستش نده",
+   "lines": [
+    {
+     "text": "Answer the critic, politely.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "Don't hand over the *keys*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "meg",
+     "src": "assets/objects/2026-11-06/megaphone.png",
+     "x": 540,
+     "y": 1270,
+     "w": 500,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "rot": 90,
+     "anim": "fade"
+    }
+   ],
+   "motion_rationale": "بازگشت به آغاز: همان بلندگو، حالا بی‌صدا و رو به آسمان، بدون موج = بلندی اندازه‌ی صداست، نه اندازه‌ی جمعیت",
+   "lines": [
+    {
+     "text": "Loud is a volume,",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "not a *headcount*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "bg": "primary",
+   "claim_type": "interpretation",
+   "motion_rationale": "کارت پایانی",
+   "logo": true,
+   "txt_top": 1080,
+   "lines": [
+    {
+     "text": "Write to me.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  }
+ ],
+ "caption": "The internet called it a flop. People said they liked it.\n\nJohn Lewis's 2026 Christmas ad, \"Gloria and Pickles\", got torn apart this week. One columnist called the children \"spoilt, entitled, rude\"; plenty of people online called the story materialistic and out of touch.\n\nMeanwhile, someone asked people. In a OnePulse poll, 68% said they liked or loved it. System1 gave it 5.6 Stars, John Lewis's best score since 2019, and System1's Andrew Tindall wrote in The Drum that only 6% felt real contempt. Loud isn't the same as many. The people who like something rarely post about it.\n\nThe limits: these are quick polls and ad tests, not sales. Sample sizes weren't published, the 6% figure comes from someone who works at System1, and Kantar's view is that the ad \"lacks the emotive punch\" of earlier years. Christmas sales aren't in yet. I'm not judging whether the ad is good; my point is about how we count voices. Criticism can be right and still be the minority.\n\nFor owners: the morning after an angry wave, don't repaint the menu, the sign or the pack. Ask ten regulars, check repeat orders and the week's takings. Answer the critic politely, then let the quiet majority vote.\n\nWhen did a few loud voices last push you to change something, and what happened to sales after? Write to me.\n\n— Behnood Kavian",
+ "hashtags": [
+  "#branding",
+  "#marketing",
+  "#brandstrategy",
+  "#consumerbehavior"
+ ],
+ "sources": [
+  {
+   "publisher": "DesignRush",
+   "title": "John Lewis Ad Scores 5.6 Stars at System1, Lacks Punch for Kantar",
+   "date": "2026-11-04",
+   "url": "https://news.designrush.com/john-lewis-saatchi-2026-christmas-ad-backlash"
+  },
+  {
+   "publisher": "Fashion Times",
+   "title": "John Lewis's 2026 Christmas Ad Sparks Backlash Over 'Horrid Kids' and Materialistic Storyline",
+   "date": "2026-11-05",
+   "url": "https://www.fashiontimes.co.uk/john-lewis-christmas-advert-backlash-2026-1767078"
+  },
+  {
+   "publisher": "Advanced Television",
+   "title": "John Lewis 2026 Xmas ad scores high with System1",
+   "date": "2026-11-04",
+   "url": "https://www.advanced-television.com/2026/11/04/john-lewis-2026-xmas-ad-scores-high-with-system1/"
+  },
+  {
+   "publisher": "Campaign Brief",
+   "title": "John Lewis Christmas ad scores 5.6 Stars, its highest rating since 'Excitable Edgar' in 2019",
+   "date": "2026-11-05",
+   "url": "https://campaignbrief.com/john-lewis-christmas-ad-scores-5-6-stars-its-highest-rating-since-excitable-edgar-in-2019/"
+  },
+  {
+   "publisher": "The Drum (Andrew Tindall, System1)",
+   "title": "They may be loud, but only 6% hated the John Lewis Christmas ad. It will work",
+   "date": "2026-11-04",
+   "url": "https://www.thedrum.com/opinion/andrew-tindall-they-may-be-loud-but-only-6-hated-the-john-lewis-christmas-ad-it-will-work"
+  }
+ ],
+ "cta": "Write to me.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S5"
+ },
+ "status": "DRAFT",
+ "style": "editorial",
+ "lang": "en"
+}
