@@ -10,6 +10,12 @@
     "working_hook_en": "One of the world's best-known logos just got called 'not creative enough'.",
     "key_sources": [
       {
+        "url": "https://news.bloomberglaw.com/ip-law/ups-loses-appeal-to-copyright-brown-shield-logos-at-review-board",
+        "publisher": "Bloomberg Law (Annelise Levy)",
+        "date": "2026-10-30",
+        "claim": "Review Board upheld two refusals (shield with 'UPS', and blank shield): no 'creative spark'; common shapes, familiar designs, lettering and minor variations. UPS already holds trademarks for the lettered shield logo and for the dark brown colour used on its vehicles and uniforms."
+      },
+      {
         "url": "https://www.thefashionlaw.com/ups-loss-shows-the-copyright-limits-of-even-the-most-recognizable-logos/",
         "publisher": "The Fashion Law",
         "date": "2026-11-02",
@@ -32,6 +38,12 @@
         "publisher": "Truck News",
         "date": "2003-03-26",
         "claim": "Previous shield designed by Paul Rand in 1961; redesigned in 2003 (bow-tied parcel removed). Context only, caption level."
+      },
+      {
+        "url": "https://www.vitallaw.com/news/copyright-news-copyright-office-review-board-nothing-original-about-ups-shield-logos/ipm01452f41562e02422d897119e15fd39354",
+        "publisher": "IP Law Daily / VitalLaw (Matthew Hersh)",
+        "date": "2026-11-04",
+        "claim": "'Nothing original about UPS shield logos': 'uncopyrightable common geometric shapes'; other geometric registrations given no precedential weight."
       }
     ],
     "music_mood": "dark",
@@ -154,6 +166,59 @@
         "line_idea": "Your version: one simple mark, the same on every cup and bag, for years",
         "logo": "generic placeholder drawn by renderer"
       }
+    ],
+    "fact_sheet_on_screen_safe": [
+      "The US Copyright Office review board refused to register two UPS shield logos (blank shield; shield with 'ups') on 30 Oct 2026. [Bloomberg Law, TFL, Law360]",
+      "Reason in plain words: common shapes, familiar lettering, standard arrangement: no 'creative spark'. [Bloomberg Law]",
+      "Effort and decisions behind it don't count; only the result people see. ['the resulting expression rather than the effort or decisions involved', TFL]",
+      "UPS still holds trademarks on the lettered shield and on its dark brown colour (vehicles, uniforms). This was copyright only. [Bloomberg Law]",
+      "The shield has been simplified over time: Paul Rand's 1961 shield with a tied parcel; 2003 redesign removed the parcel. [Truck News 2003]",
+      "DO NOT say: court, lawsuit, 'UPS lost its logo', 'anyone can copy it', 'owns the colour brown' (say: its brown is trademarked for its vans and uniforms)."
+    ],
+    "hook_options": {
+      "fa": [
+        {
+          "h": "رسماً «خلاقانه نیست». ولی همه می‌شناسندش.",
+          "why": "انتخاب: تضاد کامل در دو جمله‌ی کوتاه؛ پایان ریل همین را برعکس می‌کند و حلقه می‌بندد."
+        },
+        {
+          "h": "رنگ قهوه‌ای‌اش ثبت شده. لوگویش «خلاقانه نیست».",
+          "why": "کنجکاوی قوی، ولی به توضیح حقوقی زودهنگام نیاز دارد؛ مناسب صحنه‌ی ۹."
+        },
+        {
+          "h": "آمریکا گفت این لوگو خلاقانه نیست.",
+          "why": "خبری‌تر و ضعیف‌تر؛ رجیستر خبری که copywriting منع می‌کند."
+        }
+      ],
+      "en": [
+        {
+          "h": "Officially not creative. Instantly recognised.",
+          "why": "Pick: two-beat contrast, sounds native, and the close flips it ('Not creative. Unmistakable.')."
+        },
+        {
+          "h": "Their brown is trademarked. Their logo isn't 'creative'.",
+          "why": "Great curiosity gap; better as the scene-9 twist."
+        },
+        {
+          "h": "This logo just failed a creativity test.",
+          "why": "Punchy but slightly misleading (it was a legal threshold, not a test); keep out."
+        }
+      ]
+    },
+    "beat_plan": [
+      "S1 hook (dark): mockup stack of boxes with T-b + hook line",
+      "S2 'You've seen it a billion times' (paper): van mockup",
+      "S3 verdict (dark): T-a framed + stamp object: 'The US copyright office: not creative enough.'",
+      "S4 why: wooden blocks: 'Common shapes. Familiar letters.'",
+      "S5 pencil: 'The effort behind it? Doesn't count. Only what you see.'",
+      "S6 turn: 'And that's exactly why it works.'",
+      "S7 T-c cropped (no chart dates): 'It got simpler, not busier.' (1961 → 2003 only)",
+      "S8 worn stone / watch: 'Its value came from decades, not cleverness.'",
+      "S9 key: 'Still protected: the shield and its brown are trademarks. This was copyright.' (caveat once)",
+      "S10 tangled thread: 'Most owners pay for a busier logo.'",
+      "S11 cup + bag mockup (generic mark): 'Pay for one you'll repeat for years.'",
+      "S12 label close-up: 'Same mark. Every cup, every bag, every post.'",
+      "S13 close = S1 boxes: 'Not creative. Unmistakable.' then CTA/end card"
     ]
   }
 }
