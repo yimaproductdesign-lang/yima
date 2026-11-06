@@ -41,13 +41,21 @@
         "id": "T-a",
         "description": "تصویر داخل متن مقاله (اسکرین‌شات عریض، بعد از پاراگراف استدلال‌های UPS؛ نام فایل Screenshot-2026-11-01-at-10.54.53-AM) که احتمالاً دو نسخه‌ی لوگوی سپر UPS (تنها و با نوشته) از رأی را نشان می‌دهد. فقط همین تصویر؛ اگر لوگو در آن نیست، نفرست. اندازه‌ی اصلی حدود ۱۰۲۴×۳۸۰ است؛ بزرگ‌ترین نسخه را ذخیره کن (کوچک‌تر از ۱۰۸۰ هم قابل قبول است، فقط قاب‌دار و کوچک نمایش داده می‌شود).",
         "page_url": "https://www.thefashionlaw.com/ups-loss-shows-the-copyright-limits-of-even-the-most-recognizable-logos/",
-        "scene_idea": "صحنه‌ی چرخش: «این، از نظر قانون، خلاقانه نیست»؛ دو لوگوی واقعی قاب‌دار روی صحنه‌ی تیره، کنار مهر (رأی)."
+        "scene_idea": "صحنه‌ی چرخش: «این، از نظر قانون، خلاقانه نیست»؛ دو لوگوی واقعی قاب‌دار روی صحنه‌ی تیره، کنار مهر (رأی).",
+        "received": {
+          "file": null,
+          "note": "Owner (2026-11-06 evening): the article has only one image, the TFL header collage of ~35 luxury fashion/jewellery logos (Chanel, LV, Dior, Rolex...). No UPS shield anywhere, so T-a does not exist and T-b's condition (UPS shield/truck/box) is not met. Do NOT use the collage: it is not UPS, and it would wrongly imply those brands' logos were also judged uncreative. Build both reels with objects only; the UPS shield is described in words, never drawn or recreated."
+        }
       },
       {
         "id": "T-b",
         "description": "تصویر اصلی بالای همان مقاله (Image: TFL) فقط اگر سپر UPS، کامیون یا جعبه‌ی قهوه‌ای UPS را بدون آدم نشان می‌دهد. اگر چهره‌ی کسی در آن است، نفرست.",
         "page_url": "https://www.thefashionlaw.com/ups-loss-shows-the-copyright-limits-of-even-the-most-recognizable-logos/",
-        "scene_idea": "صحنه‌ی جرقه/هوک: «همه این را می‌شناسند»؛ فریم واقعی قاب‌دار پیش از پیچش «خلاقانه نیست»."
+        "scene_idea": "صحنه‌ی جرقه/هوک: «همه این را می‌شناسند»؛ فریم واقعی قاب‌دار پیش از پیچش «خلاقانه نیست».",
+        "received": {
+          "file": null,
+          "note": "Owner (2026-11-06 evening): the article has only one image, the TFL header collage of ~35 luxury fashion/jewellery logos (Chanel, LV, Dior, Rolex...). No UPS shield anywhere, so T-a does not exist and T-b's condition (UPS shield/truck/box) is not met. Do NOT use the collage: it is not UPS, and it would wrongly imply those brands' logos were also judged uncreative. Build both reels with objects only; the UPS shield is described in words, never drawn or recreated."
+        }
       }
     ],
     "object_plan": [
