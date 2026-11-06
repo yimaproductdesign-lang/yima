@@ -61,3 +61,11 @@ Caveat once on screen: "One quick poll. Sales aren't in yet." (S7). Full limits 
 - Both: S5 scale moved up and labels enlarged (label "loud/صدای بلند" was sitting on the pan); S8 the kept word now lands below the sieve, not on the mesh (FA: «حرف درست» without kasre, which broke the join); S14 megaphone now points up, silent (was pointing down).
 - EN: S3 critic words re-seeded (no overlap: "tone deaf" sat on "out of touch"); S9 "you repaint everything." left a single-word row (QA orphan warning) → "you *repaint* it all."
 - Accepted: on S5 the rising "loud" label fades out just beside the scale base at the very end of the scene (it is the idea: loud floats away).
+
+## Revision (owner request, same morning): use the uploaded images, fewer repeated objects
+Owner: "the uploaded images — go get them again; the objects have become too repetitive."
+- T-a (OnePulse shopping-intent chart via DesignRush) now used full and in colour, framed on a dark scene (S9). It carries the one on-screen caveat: same poll, 58% said it makes no difference to their shopping; sales not in yet. (OnePulse's 6% "less likely" is not merged with System1's 6% contempt.)
+- T-b (official ad still) shows the children's faces, so the full frame is not used. Only a crop of the set decor (top-left 400x210 px: drapes, fringe, disco ball, no people) is shown small and framed on S3, near native size (not upscaled): "A glittering party. / Critics said: out of touch."
+- Library objects cut from 10 to 2 (cup, key). Replaced by today's megaphone (S1, S4, S15) and ear trumpet (S7), the two owner images, and topic-word typography: critic words (S2), reaction words fading to 68% (S5), loud vs 68% labels (S6, the drop), sift to "fair point" (S8), colour swatches for "repaint" (S10), the things that worked fading out (S11), comments vs repeat orders labels (S13).
+- New objects were attempted (ballot box): Canva credit quota exceeded; Figma generated one but the Starter-plan call limit blocked fetching it (thumbnail only) — not used.
+- Scenes now 16 (+ "A glittering party" beat). Words: FA ~131, EN ~128 (slightly above the ~125 guide; accepted to keep the fair caveat with its number).

@@ -88,47 +88,6 @@
      "claim": "System1 5.6 Stars, best John Lewis score since 2019; much of the press and social media reacted negatively."
     }
    ],
-   "objects": [
-    {
-     "key": "phone",
-     "src": "assets/objects/2026-10-25/phone.png",
-     "x": 540,
-     "y": 1300,
-     "w": 520,
-     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
-     "rot": -8,
-     "anim": "rise",
-     "vibrate": 2
-    }
-   ],
-   "motion_rationale": "گوشیِ لرزان = کامنت‌ها و تیترهایی که یک‌شبه روی صفحه انباشته می‌شوند",
-   "lines": [
-    {
-     "text": "تبلیغِ کریسمسِ جان لوئیس",
-     "kind": "b",
-     "dim": false
-    },
-    {
-     "text": "این هفته زیرِ *رگبار* رفت.",
-     "kind": "h",
-     "dim": false
-    }
-   ]
-  },
-  {
-   "id": "S3",
-   "bg": "graphite",
-   "spot_y": 1250,
-   "claim_type": "fact",
-   "evidence": [
-    {
-     "url": "https://www.fashiontimes.co.uk/john-lewis-christmas-advert-backlash-2026-1767078",
-     "publisher": "Fashion Times",
-     "event_date": "2026-11-05",
-     "retrieved_at": "2026-11-06T02:00:00Z",
-     "claim": "Gloria and Pickles drew a backlash: critics called the children 'horrid', 'spoilt, entitled, rude'; storyline 'out of touch', materialistic."
-    }
-   ],
    "fx": [
     {
      "type": "words",
@@ -154,7 +113,112 @@
      ]
     }
    ],
-   "motion_rationale": "ابرِ شلوغِ واژه‌های انتقاد (لوس، مادی، بدترین…) که هم‌زمان چشمک می‌زنند = همه با یک صدا، و آن‌قدر بلند که بیشتر از آنچه هستند به نظر می‌رسند",
+   "motion_rationale": "ابرِ شلوغِ واژه‌های انتقاد (لوس، مادی، بدترین…) که هم‌زمان چشمک می‌زنند = رگبارِ انتقاد، به زبانِ خودِ منتقدها",
+   "lines": [
+    {
+     "text": "تبلیغِ کریسمسِ جان لوئیس",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "این هفته زیرِ *رگبار* رفت.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "bg": "graphite",
+   "spot_y": 1220,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.fashiontimes.co.uk/john-lewis-christmas-advert-backlash-2026-1767078",
+     "publisher": "Fashion Times",
+     "event_date": "2026-11-05",
+     "retrieved_at": "2026-11-06T02:00:00Z",
+     "claim": "Gloria and Pickles drew a backlash: critics called the children 'horrid', 'spoilt, entitled, rude'; storyline 'out of touch', materialistic."
+    },
+    {
+     "url": "https://www.advanced-television.com/2026/11/04/john-lewis-2026-xmas-ad-scores-high-with-system1/",
+     "publisher": "Advanced Television",
+     "event_date": "2026-11-04",
+     "retrieved_at": "2026-11-06T02:00:00Z",
+     "claim": "System1 5.6 Stars, best John Lewis score since 2019; much of the press and social media reacted negatively."
+    }
+   ],
+   "objects": [
+    {
+     "key": "tb",
+     "src": "incoming/2026-11-06/T-b_decor.png",
+     "x": 540,
+     "y": 1230,
+     "w": 720,
+     "ar": 1.9047619047619047,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.03,
+     "color": [
+      0,
+      0
+     ],
+     "credit": "Image: John Lewis / Saatchi & Saatchi ad still, cropped to the set decor (no people), owner upload",
+     "source_url": "https://news.designrush.com/john-lewis-saatchi-2026-christmas-ad-backlash"
+    }
+   ],
+   "motion_rationale": "تصویر واقعی تبلیغ (آپلود مالک)، فقط دکورِ پرزرق‌وبرق، بی‌چهره: همان صحنه‌ای که منتقدها «دور از مردم» خواندند",
+   "lines": [
+    {
+     "text": "یک جشنِ پرزرق‌وبرق.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "منتقدها گفتند: *دور از مردم*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.fashiontimes.co.uk/john-lewis-christmas-advert-backlash-2026-1767078",
+     "publisher": "Fashion Times",
+     "event_date": "2026-11-05",
+     "retrieved_at": "2026-11-06T02:00:00Z",
+     "claim": "Gloria and Pickles drew a backlash: critics called the children 'horrid', 'spoilt, entitled, rude'; storyline 'out of touch', materialistic."
+    }
+   ],
+   "objects": [
+    {
+     "key": "meg",
+     "src": "assets/objects/2026-11-06/megaphone.png",
+     "x": 540,
+     "y": 1300,
+     "w": 520,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "slide_r",
+     "vibrate": 2
+    }
+   ],
+   "fx": [
+    {
+     "type": "rings",
+     "x": 340,
+     "y": 1300,
+     "R": 420,
+     "n": 5,
+     "period": 0.7,
+     "t": 0.6,
+     "op": 0.35
+    }
+   ],
+   "motion_rationale": "بلندگو برمی‌گردد و موج‌ها تندتر می‌شوند = ستون‌نویس و کامنت و تیتر، همه با یک بلندگو",
    "lines": [
     {
      "text": "ستون‌نویس‌ها، کامنت‌ها، تیترها:",
@@ -169,8 +233,9 @@
    ]
   },
   {
-   "id": "S4",
-   "bg": "paper",
+   "id": "S5",
+   "bg": "graphite",
+   "spot_y": 1220,
    "claim_type": "fact",
    "evidence": [
     {
@@ -181,19 +246,37 @@
      "claim": "OnePulse: 68% liked or loved the ad; 36% more likely to shop, 58% no difference; System1 5.6 Stars; no sales data yet."
     }
    ],
-   "objects": [
+   "fx": [
     {
-     "key": "lens",
-     "src": "assets/objects/2026-10-22/magnifier.png",
-     "x": 540,
-     "y": 1300,
-     "w": 560,
-     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
-     "rot": -10,
-     "anim": "slide_r"
+     "type": "words",
+     "mode": "fade",
+     "box": [
+      150,
+      960,
+      930,
+      1480
+     ],
+     "seed": 5,
+     "size": 68,
+     "t0": 0.9,
+     "words": [
+      "خوب بود",
+      "دوستش داشتم",
+      "گرم",
+      "قشنگ",
+      "عاشقش شدم",
+      "۶۸٪"
+     ],
+     "keep": [
+      "۶۸٪"
+     ],
+     "keep_at": [
+      540,
+      1220
+     ]
     }
    ],
-   "motion_rationale": "ذره‌بین = به‌جای خواندنِ هیاهو، از خودِ مردم پرسیدن و دقیق نگاه کردن؛ عدد ۶۸ درصد",
+   "motion_rationale": "واژه‌های واکنشِ عادیِ مردم (خوب بود، دوستش داشتم…) محو می‌شوند و فقط «۶۸٪» می‌ماند و بزرگ می‌شود = صدای آرامِ اکثریت",
    "lines": [
     {
      "text": "همان روزها کسی از خودِ مردم پرسید.",
@@ -208,21 +291,9 @@
    ]
   },
   {
-   "id": "S5",
-   "bg": "graphite",
-   "spot_y": 1300,
+   "id": "S6",
+   "bg": "paper",
    "claim_type": "interpretation",
-   "objects": [
-    {
-     "key": "scale",
-     "src": "assets/objects/2026-10-22/scale.png",
-     "x": 540,
-     "y": 1130,
-     "w": 600,
-     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
-     "anim": "rise"
-    }
-   ],
    "fx": [
     {
      "type": "labels",
@@ -230,24 +301,24 @@
       {
        "text": "صدای بلند",
        "x": 330,
-       "y": 1500,
+       "y": 1260,
        "move": "up",
-       "t": 1.6,
-       "size": 62
+       "t": 1.4,
+       "size": 92
       },
       {
        "text": "۶۸٪",
-       "x": 750,
-       "y": 1500,
+       "x": 760,
+       "y": 1260,
        "move": "down",
        "acc": true,
-       "t": 1.6,
-       "size": 72
+       "t": 1.4,
+       "size": 120
       }
      ]
     }
    ],
-   "motion_rationale": "چرخش (drop): ترازو؛ «صدای بلند» سبک است و بالا می‌رود، «۶۸٪» سنگین پایین می‌ماند = بلندی وزن ندارد، تعداد دارد",
+   "motion_rationale": "چرخش (drop): «صدای بلند» سبک است، بالا می‌رود و محو می‌شود؛ «۶۸٪» سنگین پایین می‌نشیند = بلندی وزن ندارد، تعداد دارد",
    "lines": [
     {
      "text": "صدای بلند",
@@ -262,8 +333,9 @@
    ]
   },
   {
-   "id": "S6",
-   "bg": "paper",
+   "id": "S7",
+   "bg": "graphite",
+   "spot_y": 1300,
    "claim_type": "interpretation",
    "objects": [
     {
@@ -292,60 +364,9 @@
    ]
   },
   {
-   "id": "S7",
-   "bg": "graphite",
-   "spot_y": 1300,
-   "claim_type": "fact",
-   "evidence": [
-    {
-     "url": "https://news.designrush.com/john-lewis-saatchi-2026-christmas-ad-backlash",
-     "publisher": "DesignRush",
-     "event_date": "2026-11-04",
-     "retrieved_at": "2026-11-06T02:00:00Z",
-     "claim": "OnePulse: 68% liked or loved the ad; 36% more likely to shop, 58% no difference; System1 5.6 Stars; no sales data yet."
-    }
-   ],
-   "objects": [
-    {
-     "key": "watch",
-     "src": "assets/objects/2026-10-22/watch.png",
-     "x": 540,
-     "y": 1300,
-     "w": 440,
-     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
-     "anim": "fade",
-     "float": 2
-    }
-   ],
-   "motion_rationale": "احتیاط یک بار: ساعت = داوریِ اصلی، یعنی فروش، هنوز نرسیده؛ این فقط یک نظرسنجی سریع است",
-   "lines": [
-    {
-     "text": "یک نظرسنجیِ سریع است؛ فروش هنوز نیامده.",
-     "kind": "b",
-     "dim": false
-    },
-    {
-     "text": "ولی *نسبت* را ببینید.",
-     "kind": "h",
-     "dim": false
-    }
-   ]
-  },
-  {
    "id": "S8",
    "bg": "paper",
    "claim_type": "interpretation",
-   "objects": [
-    {
-     "key": "sieve",
-     "src": "assets/objects/2026-10-22/sieve.png",
-     "x": 540,
-     "y": 1210,
-     "w": 680,
-     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
-     "anim": "rise"
-    }
-   ],
    "fx": [
     {
      "type": "words",
@@ -358,10 +379,10 @@
      ],
      "target": [
       540,
-      1500
+      1360
      ],
      "seed": 9,
-     "size": 54,
+     "size": 58,
      "keep": [
       "حرف درست"
      ],
@@ -376,7 +397,7 @@
      ]
     }
    ],
-   "motion_rationale": "صافی: واژه‌های انتقاد می‌ریزند و فقط «حرفِ درست» می‌ماند = انتقاد را وزن کن، نه حجمش را؛ می‌تواند درست باشد و باز اقلیت",
+   "motion_rationale": "واژه‌های انتقاد فرو می‌ریزند و فقط «حرف درست» می‌ماند = انتقاد را وزن کن، نه حجمش را؛ می‌تواند درست باشد و باز اقلیت",
    "lines": [
     {
      "text": "انتقاد می‌تواند درست باشد",
@@ -393,33 +414,62 @@
   {
    "id": "S9",
    "bg": "graphite",
-   "spot_y": 1300,
-   "claim_type": "interpretation",
-   "objects": [
+   "spot_y": 1200,
+   "claim_type": "fact",
+   "evidence": [
     {
-     "key": "roller",
-     "src": "assets/objects/2026-10-26/paint_roller.png",
-     "x": 540,
-     "y": 1300,
-     "w": 640,
-     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
-     "rot": -12,
-     "anim": "slide_r",
-     "path": [
-      [
-       0.4,
-       600,
-       1300
-      ],
-      [
-       2.6,
-       480,
-       1300
-      ]
-     ]
+     "url": "https://news.designrush.com/john-lewis-saatchi-2026-christmas-ad-backlash",
+     "publisher": "DesignRush",
+     "event_date": "2026-11-04",
+     "retrieved_at": "2026-11-06T02:00:00Z",
+     "claim": "OnePulse: 68% liked or loved the ad; 36% more likely to shop, 58% no difference; System1 5.6 Stars; no sales data yet."
     }
    ],
-   "motion_rationale": "غلتکِ رنگ که روی صحنه می‌کشد = وسوسه‌ی فردای طوفان: همه‌چیز را از نو رنگ کردن",
+   "objects": [
+    {
+     "key": "ta",
+     "src": "incoming/2026-11-06/T-a.png",
+     "x": 540,
+     "y": 1250,
+     "w": 780,
+     "ar": 1.2842857142857143,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.03,
+     "color": [
+      0,
+      0
+     ],
+     "credit": "Chart: OnePulse via DesignRush (shopping intent after the ad), owner upload",
+     "source_url": "https://news.designrush.com/john-lewis-saatchi-2026-christmas-ad-backlash"
+    }
+   ],
+   "motion_rationale": "احتیاط یک بار، با سندِ واقعی (آپلود مالک، کامل و رنگی): نمودارِ همان نظرسنجی؛ برای ۵۸٪ خرید فرقی نمی‌کند و فروش هنوز نیامده",
+   "lines": [
+    {
+     "text": "همان نظرسنجی؛ فروش هنوز نیامده.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "خریدِ *۵۸ درصد* عوض نمی‌شود.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "fx": [
+    {
+     "type": "swatch",
+     "y": 1220,
+     "t": 1.4
+    }
+   ],
+   "motion_rationale": "کارت‌های رنگ که جابه‌جا می‌شوند = وسوسه‌ی فردای طوفان: همه‌چیز را از نو رنگ کردن",
    "lines": [
     {
      "text": "خطر، فردای طوفان است:",
@@ -434,22 +484,33 @@
    ]
   },
   {
-   "id": "S10",
-   "bg": "paper",
+   "id": "S11",
+   "bg": "graphite",
+   "spot_y": 1220,
    "claim_type": "interpretation",
-   "objects": [
+   "fx": [
     {
-     "key": "eraser",
-     "src": "assets/objects/2026-10-22/eraser.png",
-     "x": 540,
-     "y": 1300,
-     "w": 440,
-     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
-     "rot": 8,
-     "anim": "pop"
+     "type": "words",
+     "mode": "fade",
+     "box": [
+      150,
+      980,
+      930,
+      1460
+     ],
+     "seed": 11,
+     "size": 56,
+     "t0": 0.8,
+     "words": [
+      "طعمِ آشنا",
+      "فونتِ تابلو",
+      "رنگِ لیوان",
+      "اسم‌های منو",
+      "بسته‌ی قدیمی"
+     ]
     }
    ],
-   "motion_rationale": "پاک‌کن = پاک کردنِ منو، تابلو و بسته‌بندی؛ همان چیزی که داشت کار می‌کرد",
+   "motion_rationale": "نام چیزهایی که کار می‌کردند (طعم آشنا، فونت تابلو…) یکی‌یکی محو می‌شوند = پاک کردنِ همان که داشت کار می‌کرد",
    "lines": [
     {
      "text": "منو، تابلو، بسته‌بندی؛",
@@ -464,9 +525,8 @@
    ]
   },
   {
-   "id": "S11",
-   "bg": "graphite",
-   "spot_y": 1300,
+   "id": "S12",
+   "bg": "paper",
    "claim_type": "interpretation",
    "objects": [
     {
@@ -495,22 +555,35 @@
    ]
   },
   {
-   "id": "S12",
-   "bg": "paper",
+   "id": "S13",
+   "bg": "graphite",
+   "spot_y": 1250,
    "claim_type": "interpretation",
-   "objects": [
+   "fx": [
     {
-     "key": "ticket",
-     "src": "assets/objects/2026-10-31/ticket.png",
-     "x": 540,
-     "y": 1300,
-     "w": 640,
-     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
-     "rot": -4,
-     "anim": "drop"
+     "type": "labels",
+     "items": [
+      {
+       "text": "کامنت‌ها",
+       "x": 300,
+       "y": 1250,
+       "move": "up",
+       "t": 1.4,
+       "size": 76
+      },
+      {
+       "text": "سفارشِ دوباره",
+       "x": 720,
+       "y": 1250,
+       "move": "down",
+       "acc": true,
+       "t": 1.4,
+       "size": 84
+      }
+     ]
     }
    ],
-   "motion_rationale": "تکه‌رسیدِ پاره = رأیِ واقعی: سفارشِ دوباره و فروشِ هفته، نه کامنت",
+   "motion_rationale": "ترازوی واژه‌ها: «کامنت‌ها» بالا می‌رود و محو می‌شود، «سفارشِ دوباره» سنگین می‌ماند = رأیِ واقعی در فروش است",
    "lines": [
     {
      "text": "پیش از هر تغییر، از ده مشتری بپرسید",
@@ -525,9 +598,8 @@
    ]
   },
   {
-   "id": "S13",
-   "bg": "graphite",
-   "spot_y": 1300,
+   "id": "S14",
+   "bg": "paper",
    "claim_type": "interpretation",
    "objects": [
     {
@@ -557,8 +629,9 @@
    ]
   },
   {
-   "id": "S14",
-   "bg": "paper",
+   "id": "S15",
+   "bg": "graphite",
+   "spot_y": 1270,
    "claim_type": "interpretation",
    "objects": [
     {
@@ -587,7 +660,7 @@
    ]
   },
   {
-   "id": "S15",
+   "id": "S16",
    "bg": "primary",
    "claim_type": "interpretation",
    "motion_rationale": "کارت پایانی",
@@ -602,7 +675,7 @@
    ]
   }
  ],
- "caption": "اینترنت گفت تبلیغ شکست خورد. مردم گفتند دوستش دارند.\n\nتبلیغ کریسمسِ امسالِ جان لوئیس («گلوریا و پیکلز») این هفته زیرِ رگبارِ انتقاد رفت: یک ستون‌نویس بچه‌های داستان را «لوس، طلبکار و بی‌ادب» خواند و خیلی‌ها در شبکه‌های اجتماعی گفتند قصه‌اش مادی و دور از زندگیِ مردم است.\n\nهمان روزها کسی از خودِ مردم پرسید. در نظرسنجیِ وان‌پالس، ۶۸ درصد گفتند تبلیغ را دوست دارند یا عاشقش‌اند. در آزمونِ شرکتِ System1 هم ۵٫۶ ستاره گرفت، بهترین امتیازِ جان لوئیس از ۲۰۱۹؛ و به گفته‌ی همین شرکت، فقط ۶ درصد واقعاً از آن بیزار بودند. صدای بلند، صدای اکثریت نیست. آن‌هایی که خوششان آمده معمولاً چیزی نمی‌نویسند.\n\nحدودش را بگویم: این‌ها نظرسنجی و آزمونِ سریع‌اند، نه فروش؛ اندازه‌ی نمونه منتشر نشده، عددِ ۶ درصد را یکی از کارکنانِ خودِ System1 نوشته، و کانتار معتقد است تبلیغ «ضربه‌ی احساسیِ سال‌های قبل» را ندارد. فروشِ کریسمس هنوز نیامده. من درباره‌ی خوب یا بد بودنِ این تبلیغ حکم نمی‌دهم؛ حرفم درباره‌ی شمردنِ صداهاست. انتقاد می‌تواند درست باشد و باز هم اقلیت باشد.\n\nبرای صاحب کسب‌وکار: فردای یک موجِ عصبانی، منو و تابلو و بسته‌بندی را عوض نکنید. از ده مشتریِ همیشگی بپرسید، سفارش‌های دوباره و فروشِ هفته را ببینید. به منتقد مؤدبانه جواب بدهید، ولی بگذارید اکثریتِ ساکت رأی بدهد.\n\nآخرین باری که چند صدای بلند شما را به تغییرِ چیزی واداشت، کِی بود، و بعدش فروش چه شد؟ برای من بنویسید.\n\n— بهنود کاویان",
+ "caption": "اینترنت گفت تبلیغ شکست خورد. مردم گفتند دوستش دارند.\n\nتبلیغ کریسمسِ امسالِ جان لوئیس («گلوریا و پیکلز») این هفته زیرِ رگبارِ انتقاد رفت: یک ستون‌نویس بچه‌های داستان را «لوس، طلبکار و بی‌ادب» خواند و خیلی‌ها در شبکه‌های اجتماعی گفتند قصه‌اش مادی و دور از زندگیِ مردم است.\n\nهمان روزها کسی از خودِ مردم پرسید. در نظرسنجیِ وان‌پالس، ۶۸ درصد گفتند تبلیغ را دوست دارند یا عاشقش‌اند؛ در همان نظرسنجی ۳۶ درصد گفتند احتمال خریدشان بیشتر شده و برای ۵۸ درصد فرقی نمی‌کند. در آزمونِ شرکتِ System1 هم ۵٫۶ ستاره گرفت، بهترین امتیازِ جان لوئیس از ۲۰۱۹؛ و به گفته‌ی همین شرکت، فقط ۶ درصد واقعاً از آن بیزار بودند. صدای بلند، صدای اکثریت نیست. آن‌هایی که خوششان آمده معمولاً چیزی نمی‌نویسند.\n\nحدودش را بگویم: این‌ها نظرسنجی و آزمونِ سریع‌اند، نه فروش؛ اندازه‌ی نمونه منتشر نشده، عددِ ۶ درصد را یکی از کارکنانِ خودِ System1 نوشته، و کانتار معتقد است تبلیغ «ضربه‌ی احساسیِ سال‌های قبل» را ندارد. فروشِ کریسمس هنوز نیامده. نمودار و تصویرِ دکورِ تبلیغ آپلود مالک‌اند (از DesignRush و خودِ تبلیغ، بدون چهره)؛ اشیای دیگر با هوش مصنوعی ساخته شده‌اند. من درباره‌ی خوب یا بد بودنِ این تبلیغ حکم نمی‌دهم؛ حرفم درباره‌ی شمردنِ صداهاست. انتقاد می‌تواند درست باشد و باز هم اقلیت باشد.\n\nبرای صاحب کسب‌وکار: فردای یک موجِ عصبانی، منو و تابلو و بسته‌بندی را عوض نکنید. از ده مشتریِ همیشگی بپرسید، سفارش‌های دوباره و فروشِ هفته را ببینید. به منتقد مؤدبانه جواب بدهید، ولی بگذارید اکثریتِ ساکت رأی بدهد.\n\nآخرین باری که چند صدای بلند شما را به تغییرِ چیزی واداشت، کِی بود، و بعدش فروش چه شد؟ برای من بنویسید.\n\n— بهنود کاویان",
  "hashtags": [
   "#برندینگ",
   "#بازاریابی",
@@ -645,7 +718,7 @@
  "audio": {
   "mode": "generative",
   "mood": "dark",
-  "drop_scene": "S5"
+  "drop_scene": "S6"
  },
  "status": "DRAFT",
  "style": "editorial",
