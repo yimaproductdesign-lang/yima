@@ -41,25 +41,40 @@
       }
     ],
     "music_mood": "dark",
-    "framing_note": "News is the spark (Fresh Step, Marketing Dive 5 Nov; airs 9 Nov). The evergreen idea: an obvious fiction is forgiven, a disguised one is punished; AI that leans on real brand codes (Coke's trucks) or openly fictional characters fares better than near-human fakes. Be precise: Fresh Step has NO results yet; never say it worked, only what they made and why ('we're not trying to fool anybody'). Coca-Cola 2025 is a nuance: online critics vs 5.9-star System1 test; credit familiar assets, not AI. McDonald's NL was Dec 2025 (context, not 'this week'). WSU 2024: the word 'AI' in product descriptions lowered emotional trust (1,000+ US adults); caveat once, details in caption. The thesis is my take, label as such. Don't mock brands or agencies; no 'AI slop' on screen. Owner takeaway: use AI for what is clearly imagined (illustration, concepts, characters, objects); never to fake your real product, your real shop, your real customers, reviews or 'before/after'; show the real thing with a real photo. The studio's own AI objects are openly labelled: consistent, can be said in the caption. One number max on screen (e.g. 'three days' or '1/10 the cost'). Never AI-draw or recreate brand logos, the ads' characters or Coke's trucks; real frames only from the owner's uploads (T-a/T-b/T-c), framed, credited 'Courtesy of Fresh Step' / 'Coca-Cola' / 'McDonald's Netherlands'. No real faces in mockups. Never name the UAE, Dubai or any emirate.",
+    "framing_note": "News is the spark (Fresh Step, Marketing Dive 5 Nov; airs 9 Nov). The evergreen idea: an obvious fiction is forgiven, a disguised one is punished; AI that leans on real brand codes (Coke's trucks) or openly fictional characters fares better than near-human fakes. Be precise: Fresh Step has NO results yet; never say it worked, only what they made and why ('we're not trying to fool anybody'). Coca-Cola 2025 is a nuance: online critics vs 5.9-star System1 test; credit familiar assets, not AI. McDonald's NL was Dec 2025 (context, not 'this week'). WSU 2024: the word 'AI' in product descriptions lowered emotional trust (1,000+ US adults); caveat once, details in caption. The thesis is my take, label as such. Don't mock brands or agencies; no 'AI slop' on screen. Owner takeaway: use AI for what is clearly imagined (illustration, concepts, characters, objects); never to fake your real product, your real shop, your real customers, reviews or 'before/after'; show the real thing with a real photo. The studio's own AI objects are openly labelled: consistent, can be said in the caption. One number max on screen (e.g. 'three days' or '1/10 the cost'). Never AI-draw or recreate brand logos, the ads' characters or Coke's trucks; real frames only from the owner's uploads (T-a/T-b/T-c), framed, credited 'Courtesy of Fresh Step' / 'Coca-Cola' / 'McDonald's Netherlands'. No real faces in mockups. Never name the UAE, Dubai or any emirate. Owner images received 2026-11-07 evening: T-a shows Fresh Step's own on-screen label 'AI actors used' (use it: the brand discloses, it does not disguise); T-c may be used with faces visible (owner approved; AI-generated people).",
     "image_requests": [
       {
         "id": "T-a",
         "description": "تصویر اصلی بالای مقاله: گربه‌های سخنگوی ساخته‌شده با هوش مصنوعی در تبلیغ جدید Fresh Step (کپشن: Courtesy of Fresh Step). همان عکس بالای صفحه را ذخیره کن.",
         "page_url": "https://www.marketingdive.com/news/how-fresh-step-used-ai-to-go-from-brief-to-ads-at-one-tenth-the-cost/873688/",
-        "scene_idea": "صحنه‌ی «گربه‌ی سخنگو کسی را گول نمی‌زند»: قاب‌دار روی صحنه‌ی تیره، کنار شیء ماسک."
+        "scene_idea": "صحنه‌ی «گربه‌ی سخنگو کسی را گول نمی‌زند»: قاب‌دار روی صحنه‌ی تیره، کنار شیء ماسک.",
+        "received": {
+          "file": "incoming/2026-11-08/T-a.png",
+          "size": "1200x675",
+          "note": "Fresh Step AI cats frame. The frame itself carries the on-screen disclosure 'AI actors used' (bottom left): strong evidence for the 'not trying to fool anybody' beat; keep that label visible, do not crop it. Short side 675px: show framed, not full width, max ~1.5x. Credit 'Courtesy of Fresh Step'."
+        }
       },
       {
         "id": "T-b",
         "description": "یک فریم از تبلیغ هوش‌مصنوعی کریسمس ۲۰۲۵ کوکاکولا (Holidays Are Coming) که کامیون قرمز کوکاکولا در برف پیداست؛ از ویدیوی جاسازی‌شده در همین صفحه اسکرین‌شات بگیر (حالت تمام‌صفحه، باکیفیت).",
         "page_url": "https://system1group.com/ad-of-the-week/ai-or-no-ai-coke-gets-the-christmas-love",
-        "scene_idea": "صحنه‌ی ظرافت: «وقتی جواب داد، کامیون‌های آشنا کار را کردند، نه ابزار.»"
+        "scene_idea": "صحنه‌ی ظرافت: «وقتی جواب داد، کامیون‌های آشنا کار را کردند، نه ابزار.»",
+        "received": {
+          "file": "incoming/2026-11-08/T-b.png",
+          "size": "1919x1078",
+          "note": "Coca-Cola 2025 AI ad: three red trucks on a snowy road (main). Credit 'Coca-Cola, Holidays Are Coming (2025)'. Alt frame T-b2.png (1897x773, single lit truck among lit trees) for a second beat or a slow push-in."
+        }
       },
       {
         "id": "T-c",
-        "description": "(اختیاری) تصویر اصلی مقاله از تبلیغ هوش‌مصنوعی کریسمس مک‌دونالدز هلند که حذف شد؛ فقط فریمی که چهره‌ی واضحی ندارد یا آدم‌ها از دور دیده می‌شوند.",
+        "description": "تصویر اصلی مقاله از تبلیغ هوش‌مصنوعی کریسمس مک‌دونالدز هلند که حذف شد.",
         "page_url": "https://www.techradar.com/ai-platforms-assistants/mcdonalds-pulls-ai-generated-christmas-ad-after-backlash-over-soulless-visuals-and-holiday-chaos",
-        "scene_idea": "صحنه‌ی «تقریباً واقعی، سه روز دوام آورد»: قاب‌دار، کوچک، با تاری ملایم."
+        "scene_idea": "صحنه‌ی «تقریباً واقعی، سه روز دوام آورد»: قاب‌دار، کوچک، با تاری ملایم.",
+        "received": {
+          "file": "incoming/2026-11-08/T-c.png",
+          "size": "752x428",
+          "note": "McDonald's Netherlands AI ad: carolers in the rain with the subtitle 'It's the most terrible time of the year.' Owner (2026-11-07 evening): use it even with clear faces (these are AI-generated people, not real individuals). Small: framed, <=1.4x. Keep the subtitle; it shows the tone problem. Credit 'McDonald's Netherlands (2025), via TechRadar'."
+        }
       }
     ],
     "object_plan": [
