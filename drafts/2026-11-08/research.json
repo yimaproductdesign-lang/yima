@@ -1,0 +1,495 @@
+{
+  "date": "2026-11-08",
+  "stage": "1-evening",
+  "retrieved_at": "2026-11-07T20:50+04:00",
+  "scope": "branding, brand strategy, marketing only",
+  "method": "WebSearch + WebFetch (Brand New, Marketing Dive brand-strategy feed, Adweek, trade/press articles). Adweek '9 moves' paywalled beyond McDonald's item; several pages (UPI, phys.org, substack, jukebox) failed to fetch and were not used.",
+  "weights": {
+    "freshness": 10,
+    "growth": 15,
+    "reach": 15,
+    "qualified_followers": 15,
+    "regional_business": 15,
+    "audience_psychology": 10,
+    "commercial_utility": 10,
+    "originality": 5,
+    "verifiability": 5
+  },
+  "candidates": [
+    {
+      "id": "C1",
+      "title": "AI ads: the audience punishes pretending, not the tool (Fresh Step AI talking cats vs McDonald's NL pulled AI ad vs Coca-Cola AI ad that tested well)",
+      "class": "emerging",
+      "sources": [
+        {
+          "url": "https://www.marketingdive.com/news/how-fresh-step-used-ai-to-go-from-brief-to-ads-at-one-tenth-the-cost/873688/",
+          "publisher": "Marketing Dive (Chris Kelly)",
+          "event_date": "2026-11-05",
+          "claim": "Fresh Step (Clorox) made three 15s TV spots with AI agency RECE: AI-generated talking cats of different breeds/accents; brief to finished creative in 30 days at ~1/10 the cost of traditional production; live Nov 9; Clorox's Deb Crandall: 'We're not trying to fool anybody here.' Started from a business problem (odor-control perception dipping) and a consumer insight.",
+          "retrieved": "2026-11-07T20:50+04:00"
+        },
+        {
+          "url": "https://www.techradar.com/ai-platforms-assistants/mcdonalds-pulls-ai-generated-christmas-ad-after-backlash-over-soulless-visuals-and-holiday-chaos",
+          "publisher": "TechRadar",
+          "event_date": "2025-12-10",
+          "claim": "McDonald's Netherlands AI Christmas ad ('the most terrible time of the year') with slightly-off people and glitches was removed from YouTube three days after launch after backlash.",
+          "retrieved": "2026-11-07T20:50+04:00"
+        },
+        {
+          "url": "https://system1group.com/ad-of-the-week/ai-or-no-ai-coke-gets-the-christmas-love",
+          "publisher": "System1 (Tom Ewing)",
+          "event_date": "2025-11-20",
+          "claim": "Coca-Cola 2025 'Holidays Are Coming' (Silverside AI, animals not human close-ups) scored 5.9 stars; few viewers mentioned AI; success credited to familiar assets (trucks, Santa, music).",
+          "retrieved": "2026-11-07T20:50+04:00"
+        },
+        {
+          "url": "https://www.nngroup.com/articles/ai-ad/",
+          "publisher": "Nielsen Norman Group (Huei-Hsin Wang)",
+          "event_date": "2025-12-19",
+          "claim": "AI holiday ads failed on authenticity: uncanny valley in near-human visuals breaks emotional connection; heavy AI read as cost-cutting over craft.",
+          "retrieved": "2026-11-07T20:50+04:00"
+        },
+        {
+          "url": "https://news.wsu.edu/press-release/2024/07/30/using-the-term-artificial-intelligence-in-product-descriptions-reduces-purchase-intentions/",
+          "publisher": "Washington State University (Cicek, Gursoy, Lu; J. Hospitality Marketing & Management 2024)",
+          "event_date": "2024-07-30",
+          "claim": "Experiments with 1,000+ US adults, 8 categories: mentioning 'artificial intelligence' in product descriptions lowered emotional trust and purchase intention; stronger for high-risk products.",
+          "retrieved": "2026-11-07T20:50+04:00"
+        }
+      ],
+      "claim": "Audiences don't reject AI per se; they reject near-real fakes that try to pass as real. Openly fictional AI (talking cats, animals) or AI carried by real brand codes fares better. (Synthesis = my interpretation, not a single study.)",
+      "scores": {
+        "freshness": 9,
+        "growth": 13,
+        "reach": 14,
+        "qualified_followers": 13,
+        "regional_business": 13,
+        "audience_psychology": 9,
+        "commercial_utility": 9,
+        "originality": 4,
+        "verifiability": 4
+      },
+      "total": 88,
+      "gates": {
+        "brand_fit": "pass: designer/strategist voice, direct SMB utility (owners post AI images daily)",
+        "story": "strongest: tension 'tool vs pretending'; concrete image: talking cat vs balloon hands",
+        "repeat_7d": "pass: no AI topic in 11-01..11-07",
+        "bilingual": "pass: universal"
+      },
+      "lenses": {
+        "red_team": "Fresh Step results unknown (airs Nov 9): never claim it worked. Coke 2025 tested well despite online backlash: use as nuance, not as a failure. McDonald's NL is 2025: context, not news. WSU study is about product descriptions, not ads; say 'the word AI lowered trust' once with limits in caption. Thesis is an editorial synthesis: say 'my take'.",
+        "audience_psychology": "Uncanny valley; perceived effort as a quality signal; deception aversion/persuasion knowledge: people forgive an obvious fiction, punish a disguised one.",
+        "brand_fit": "Behnood is a designer: speaks with authority on craft; studio itself uses openly-labelled AI objects, so the message is coherent and honest."
+      },
+      "scores_note": "growth, reach, qualified-follower, psychology, utility and originality are estimates"
+    },
+    {
+      "id": "C3",
+      "title": "John Lewis 'Gloria and Pickles': loud critics vs System1 5.6 stars",
+      "class": "breaking",
+      "sources": [
+        {
+          "url": "https://www.fashiontimes.co.uk/john-lewis-christmas-advert-backlash-2026-1767078",
+          "publisher": "Fashion Times",
+          "event_date": "2026-11-05",
+          "claim": "Critics called kids spoilt; System1 5.6 stars (best since 2019); OnePulse 68% liked it.",
+          "retrieved": "2026-11-07T20:50+04:00"
+        }
+      ],
+      "claim": "Online outrage vs measured response.",
+      "scores": {
+        "freshness": 10,
+        "growth": 12,
+        "reach": 13,
+        "qualified_followers": 10,
+        "regional_business": 9,
+        "audience_psychology": 9,
+        "commercial_utility": 7,
+        "originality": 2,
+        "verifiability": 4
+      },
+      "total": 76,
+      "gates": {
+        "repeat_7d": "fail: same idea as 11-06 (six percent shouting)"
+      },
+      "lenses": {
+        "red_team": "secondary source",
+        "audience_psychology": "negativity bias",
+        "brand_fit": "ok"
+      },
+      "scores_note": "growth, reach, qualified-follower, psychology, utility and originality are estimates"
+    },
+    {
+      "id": "C4",
+      "title": "Urban Decay 'Ghost Hunter Hotline' microdrama: product (Ghosting Spray) written into the plot",
+      "class": "emerging",
+      "sources": [
+        {
+          "url": "https://www.marketingdive.com/news/loreals-evolving-microdrama-strategy-puts-entertainment-over-product/873646/",
+          "publisher": "Marketing Dive (Peter Adams)",
+          "event_date": "2026-11-05",
+          "claim": "Six-episode vertical series on ReelShort, made in ~4 weeks; 3.8M views in 5 days (brand data).",
+          "retrieved": "2026-11-07T20:50+04:00"
+        }
+      ],
+      "claim": "Entertainment first, product as plot device.",
+      "scores": {
+        "freshness": 9,
+        "growth": 10,
+        "reach": 11,
+        "qualified_followers": 10,
+        "regional_business": 9,
+        "audience_psychology": 8,
+        "commercial_utility": 7,
+        "originality": 4,
+        "verifiability": 4
+      },
+      "total": 72,
+      "gates": {
+        "repeat_7d": "near 10-30 (products disappear)",
+        "story": "good"
+      },
+      "lenses": {
+        "red_team": "brand-reported views only",
+        "audience_psychology": "narrative transport",
+        "brand_fit": "ok"
+      },
+      "scores_note": "growth, reach, qualified-follower, psychology, utility and originality are estimates"
+    },
+    {
+      "id": "C2",
+      "title": "Old Navy vs Gap: sister brands, opposite holiday playbooks; Paris Hilton summer campaign 'drove engagement but not traffic'",
+      "class": "breaking",
+      "sources": [
+        {
+          "url": "https://www.marketingdive.com/news/old-navy-flies-with-celebs-gap-keeps-it-acapella-for-holiday-campaigns/873777/",
+          "publisher": "Marketing Dive",
+          "event_date": "2026-11-05",
+          "claim": "Old Navy: celebrity 'Jingle Jet', $7.99 value; Gap: third year of choir 'Give Your Gift'. Q2 comps Old Navy -4%, Gap +10%. Dickson: Hilton summer campaign drove engagement, not traffic.",
+          "retrieved": "2026-11-07T20:50+04:00"
+        }
+      ],
+      "claim": "Celebrity attention vs consistent emotional format.",
+      "scores": {
+        "freshness": 9,
+        "growth": 9,
+        "reach": 11,
+        "qualified_followers": 10,
+        "regional_business": 10,
+        "audience_psychology": 7,
+        "commercial_utility": 8,
+        "originality": 3,
+        "verifiability": 4
+      },
+      "total": 71,
+      "gates": {
+        "repeat_7d": "fail-ish: 11-01 'borrowed fame' covered celebrity",
+        "story": "good"
+      },
+      "lenses": {
+        "red_team": "Comps can't be attributed to ads.",
+        "audience_psychology": "attention ≠ visits",
+        "brand_fit": "ok"
+      },
+      "scores_note": "growth, reach, qualified-follower, psychology, utility and originality are estimates"
+    },
+    {
+      "id": "C6",
+      "title": "Shrinkflation costs half the sales of an equal price rise (Janssen & Kasinger, NielsenIQ 2010-2020)",
+      "class": "hidden_gem",
+      "sources": [
+        {
+          "url": "https://www.giftsanddec.com/business-news/shrinkflation-boosts-sales-us-study/",
+          "publisher": "Gifts & Decorative Accessories",
+          "event_date": "2026-03-03",
+          "claim": "1% price rise ≈ -1.2% sales; 1% size cut ≈ about half that.",
+          "retrieved": "2026-11-07T20:50+04:00"
+        }
+      ],
+      "claim": "Pack size vs price perception.",
+      "scores": {
+        "freshness": 3,
+        "growth": 8,
+        "reach": 12,
+        "qualified_followers": 11,
+        "regional_business": 12,
+        "audience_psychology": 9,
+        "commercial_utility": 9,
+        "originality": 4,
+        "verifiability": 3
+      },
+      "total": 71,
+      "gates": {
+        "repeat_7d": "near 11-03 pricing",
+        "verifiability": "secondary coverage only"
+      },
+      "lenses": {
+        "red_team": "ethics of hidden downsizing",
+        "audience_psychology": "unit-price blindness",
+        "brand_fit": "risky (looks like advice to deceive)"
+      },
+      "scores_note": "growth, reach, qualified-follower, psychology, utility and originality are estimates"
+    },
+    {
+      "id": "C5",
+      "title": "Svedka hands its next Super Bowl ad to critics ($500K fan contest)",
+      "class": "breaking",
+      "sources": [
+        {
+          "url": "https://marketingdive.com/news/after-ai-backlash-svedka-challenges-consumers-to-create-super-bowl-ad/873445/",
+          "publisher": "Marketing Dive",
+          "event_date": "2026-11-02",
+          "claim": "Fan-made 15s ad, $500K prize, deadline Dec 1; follows AI ad backlash; brand-cited Nielsen volume growth.",
+          "retrieved": "2026-11-07T20:50+04:00"
+        },
+        {
+          "url": "https://www.contentgrip.com/svedka-super-bowl-fan-ad/",
+          "publisher": "ContentGrip",
+          "event_date": "2026-11-03",
+          "claim": "Rules: US 21+, toolkit, Andy Cohen judges; growth is company-reported, not causal.",
+          "retrieved": "2026-11-07T20:50+04:00"
+        }
+      ],
+      "claim": "Turn critics into creators.",
+      "scores": {
+        "freshness": 9,
+        "growth": 9,
+        "reach": 10,
+        "qualified_followers": 9,
+        "regional_business": 5,
+        "audience_psychology": 8,
+        "commercial_utility": 7,
+        "originality": 4,
+        "verifiability": 4
+      },
+      "total": 65,
+      "gates": {
+        "brand_fit": "fail for Persian audience/regional: alcohol brand"
+      },
+      "lenses": {
+        "red_team": "growth not caused by ad",
+        "audience_psychology": "IKEA effect",
+        "brand_fit": "alcohol = gate fail"
+      },
+      "scores_note": "growth, reach, qualified-follower, psychology, utility and originality are estimates"
+    },
+    {
+      "id": "C7",
+      "title": "Ipsos x JKR: only 15% of brand assets are truly distinctive",
+      "class": "evergreen",
+      "sources": [
+        {
+          "url": "https://www.marketingweek.com/15-brand-assets-truly-distinctive-finds-research/",
+          "publisher": "Marketing Week",
+          "event_date": "undated on page",
+          "claim": "5,000+ assets, 26,000+ consumers; colours 4% gold, slogans 6%, logos 19%, product 31%.",
+          "retrieved": "2026-11-07T20:50+04:00"
+        }
+      ],
+      "claim": "Sustained use beats design.",
+      "scores": {
+        "freshness": 3,
+        "growth": 5,
+        "reach": 10,
+        "qualified_followers": 12,
+        "regional_business": 12,
+        "audience_psychology": 7,
+        "commercial_utility": 9,
+        "originality": 3,
+        "verifiability": 4
+      },
+      "total": 65,
+      "gates": {
+        "repeat_7d": "fail: same idea as 11-07 (value from repetition)"
+      },
+      "lenses": {
+        "red_team": "date unknown",
+        "audience_psychology": "memory structures",
+        "brand_fit": "ok"
+      },
+      "scores_note": "growth, reach, qualified-follower, psychology, utility and originality are estimates"
+    },
+    {
+      "id": "C9",
+      "title": "McDonald's ends 32-year FIFA World Cup sponsorship",
+      "class": "breaking",
+      "sources": [
+        {
+          "url": "https://www.contentgrip.com/mcdonalds-fifa-sponsorship-exit/",
+          "publisher": "ContentGrip",
+          "event_date": "2026-10-26",
+          "claim": "Shift to owned IP; 'limits of borrowed attention'.",
+          "retrieved": "2026-11-07T20:50+04:00"
+        }
+      ],
+      "claim": "Owned vs rented attention.",
+      "scores": {
+        "freshness": 6,
+        "growth": 8,
+        "reach": 12,
+        "qualified_followers": 9,
+        "regional_business": 9,
+        "audience_psychology": 6,
+        "commercial_utility": 7,
+        "originality": 2,
+        "verifiability": 5
+      },
+      "total": 64,
+      "gates": {
+        "repeat_7d": "fail: 11-01 borrowed fame"
+      },
+      "lenses": {
+        "red_team": "ok",
+        "audience_psychology": "ok",
+        "brand_fit": "ok"
+      },
+      "scores_note": "growth, reach, qualified-follower, psychology, utility and originality are estimates"
+    },
+    {
+      "id": "C8",
+      "title": "giffgaff refresh: a signpost hidden in the last 'f'",
+      "class": "breaking",
+      "sources": [
+        {
+          "url": "https://www.ispreview.co.uk/index.php/2026/10/telecoms-provider-giffgaff-refreshes-uk-brand-to-set-us-up-for-our-next-chapter.html",
+          "publisher": "ISPreview",
+          "event_date": "2026-10-29",
+          "claim": "Subtle logo update; 'We're not changing what we believe, just how clearly we show it.'",
+          "retrieved": "2026-11-07T20:50+04:00"
+        }
+      ],
+      "claim": "Evolution, not revolution.",
+      "scores": {
+        "freshness": 7,
+        "growth": 6,
+        "reach": 8,
+        "qualified_followers": 10,
+        "regional_business": 10,
+        "audience_psychology": 6,
+        "commercial_utility": 8,
+        "originality": 3,
+        "verifiability": 5
+      },
+      "total": 63,
+      "gates": {
+        "story": "weak tension"
+      },
+      "lenses": {
+        "red_team": "UK-only relevance",
+        "audience_psychology": "change aversion",
+        "brand_fit": "ok"
+      },
+      "scores_note": "growth, reach, qualified-follower, psychology, utility and originality are estimates"
+    },
+    {
+      "id": "C10",
+      "title": "Novo Nordisk becomes 'Novo' day to day",
+      "class": "emerging",
+      "sources": [
+        {
+          "url": "https://www.pharmexec.com/view/novo-nordisk-rebranding-novo",
+          "publisher": "PharmExec",
+          "event_date": "2026-09-14",
+          "claim": "Everyday name 'Novo'; legal name unchanged; Apis bull kept; tagline 'Lasting health starts now'.",
+          "retrieved": "2026-11-07T20:50+04:00"
+        }
+      ],
+      "claim": "Adopt the name people already say.",
+      "scores": {
+        "freshness": 4,
+        "growth": 5,
+        "reach": 9,
+        "qualified_followers": 9,
+        "regional_business": 9,
+        "audience_psychology": 6,
+        "commercial_utility": 7,
+        "originality": 3,
+        "verifiability": 5
+      },
+      "total": 57,
+      "gates": {
+        "repeat_7d": "near 10-31 naming"
+      },
+      "lenses": {
+        "red_team": "pharma sensitivities",
+        "audience_psychology": "fluency",
+        "brand_fit": "ok"
+      },
+      "scores_note": "growth, reach, qualified-follower, psychology, utility and originality are estimates"
+    },
+    {
+      "id": "C12",
+      "title": "Honor retires 'Go Beyond' for 'Dare to Be', new ring symbol, ahead of IPO",
+      "class": "evergreen",
+      "sources": [
+        {
+          "url": "https://memeburn.com/honor-rebrand-2026-dare-to-be/",
+          "publisher": "Memeburn",
+          "event_date": "2026-07-23",
+          "claim": "Rebrand toward 'AI device ecosystem' narrative, arguably aimed at investors.",
+          "retrieved": "2026-11-07T20:50+04:00"
+        }
+      ],
+      "claim": "Rebrand as investor story.",
+      "scores": {
+        "freshness": 2,
+        "growth": 5,
+        "reach": 8,
+        "qualified_followers": 8,
+        "regional_business": 8,
+        "audience_psychology": 6,
+        "commercial_utility": 6,
+        "originality": 4,
+        "verifiability": 4
+      },
+      "total": 51,
+      "gates": {
+        "freshness": "stale"
+      },
+      "lenses": {
+        "red_team": "opinion piece",
+        "audience_psychology": "ok",
+        "brand_fit": "ok"
+      },
+      "scores_note": "growth, reach, qualified-follower, psychology, utility and originality are estimates"
+    },
+    {
+      "id": "C11",
+      "title": "Cleveland airports new logos ('Where the Land Meets the Sky')",
+      "class": "breaking",
+      "sources": [
+        {
+          "url": "https://spectrumnews1.com/oh/cincinnati/news/2026/11/05/cleveland-airports-rebrand-with-new-logo",
+          "publisher": "Spectrum News 1",
+          "event_date": "2026-11-05",
+          "claim": "New logos, same blue/green palette; phased rollout; no cost or reaction reported.",
+          "retrieved": "2026-11-07T20:50+04:00"
+        }
+      ],
+      "claim": "Local civic rebrand.",
+      "scores": {
+        "freshness": 9,
+        "growth": 3,
+        "reach": 5,
+        "qualified_followers": 6,
+        "regional_business": 7,
+        "audience_psychology": 4,
+        "commercial_utility": 5,
+        "originality": 2,
+        "verifiability": 4
+      },
+      "total": 45,
+      "gates": {
+        "story": "no tension"
+      },
+      "lenses": {
+        "red_team": "thin",
+        "audience_psychology": "low",
+        "brand_fit": "low"
+      },
+      "scores_note": "growth, reach, qualified-follower, psychology, utility and originality are estimates"
+    }
+  ],
+  "pick": "C1",
+  "pick_reason": "Highest score; only candidate passing brand-fit, story and 7-day repeat gates with a sharp tension and concrete image; immediate utility for owners who use AI images in their own posts; works identically for Persian and English audiences."
+}

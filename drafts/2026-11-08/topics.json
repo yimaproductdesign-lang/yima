@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-08",
+  "T": {
+    "topic_fa": "مخاطب از هوش مصنوعی نمی‌رنجد؛ از وانمود کردن می‌رنجد: گربه‌ی سخنگو کسی را گول نمی‌زند، آدمِ تقریباً واقعی چرا",
+    "topic_en": "People don't hate AI ads. They hate being fooled: a talking cat fools no one, an almost-real person does",
+    "pillar": "advertising_creative_strategy",
+    "central_tension_fa": "خیال می‌کنیم مخاطب با خودِ هوش مصنوعی مشکل دارد. ولی تبلیغ کریسمس مک‌دونالدز هلند با آدم‌های «تقریباً واقعی» سه روز بعد پایین کشیده شد، تبلیغ هوش‌مصنوعی کوکاکولا با حیوان‌ها و کامیون‌های آشنا در آزمون مخاطب بالاترین نمره را گرفت، و حالا فرش‌استپ گربه‌های سخنگو ساخته که اصلاً قرار نیست کسی را گول بزنند. به نظر من مرز، ابزار نیست؛ تقلبی است که خودش را واقعی جا می‌زند.",
+    "central_tension_en": "We assume audiences hate AI itself. But McDonald's Netherlands pulled its AI Christmas ad of almost-real people after three days, Coca-Cola's AI ad with animals and its familiar trucks hit the top score in audience testing, and now Fresh Step has made AI talking cats that aren't trying to pass as real. My take: the line isn't the tool. It's the fake that pretends to be real.",
+    "working_hook_fa": "مشکل این تبلیغ‌ها هوش مصنوعی نبود. وانمود کردن بود.",
+    "working_hook_en": "AI didn't ruin these ads. Pretending did.",
+    "key_sources": [
+      {
+        "url": "https://www.marketingdive.com/news/how-fresh-step-used-ai-to-go-from-brief-to-ads-at-one-tenth-the-cost/873688/",
+        "publisher": "Marketing Dive (Chris Kelly)",
+        "date": "2026-11-05",
+        "claim": "Fresh Step (Clorox) made three 15s TV spots with AI agency RECE: AI-generated talking cats of different breeds/accents; brief to finished creative in 30 days at ~1/10 the cost of traditional production; live Nov 9; Clorox's Deb Crandall: 'We're not trying to fool anybody here.' Started from a business problem (odor-control perception dipping) and a consumer insight."
+      },
+      {
+        "url": "https://www.techradar.com/ai-platforms-assistants/mcdonalds-pulls-ai-generated-christmas-ad-after-backlash-over-soulless-visuals-and-holiday-chaos",
+        "publisher": "TechRadar",
+        "date": "2025-12-10",
+        "claim": "McDonald's Netherlands AI Christmas ad ('the most terrible time of the year') with slightly-off people and glitches was removed from YouTube three days after launch after backlash."
+      },
+      {
+        "url": "https://system1group.com/ad-of-the-week/ai-or-no-ai-coke-gets-the-christmas-love",
+        "publisher": "System1 (Tom Ewing)",
+        "date": "2025-11-20",
+        "claim": "Coca-Cola 2025 'Holidays Are Coming' (Silverside AI, animals not human close-ups) scored 5.9 stars; few viewers mentioned AI; success credited to familiar assets (trucks, Santa, music)."
+      },
+      {
+        "url": "https://www.nngroup.com/articles/ai-ad/",
+        "publisher": "Nielsen Norman Group (Huei-Hsin Wang)",
+        "date": "2025-12-19",
+        "claim": "AI holiday ads failed on authenticity: uncanny valley in near-human visuals breaks emotional connection; heavy AI read as cost-cutting over craft."
+      },
+      {
+        "url": "https://news.wsu.edu/press-release/2024/07/30/using-the-term-artificial-intelligence-in-product-descriptions-reduces-purchase-intentions/",
+        "publisher": "Washington State University (Cicek, Gursoy, Lu; J. Hospitality Marketing & Management 2024)",
+        "date": "2024-07-30",
+        "claim": "Experiments with 1,000+ US adults, 8 categories: mentioning 'artificial intelligence' in product descriptions lowered emotional trust and purchase intention; stronger for high-risk products."
+      }
+    ],
+    "music_mood": "dark",
+    "framing_note": "News is the spark (Fresh Step, Marketing Dive 5 Nov; airs 9 Nov). The evergreen idea: an obvious fiction is forgiven, a disguised one is punished; AI that leans on real brand codes (Coke's trucks) or openly fictional characters fares better than near-human fakes. Be precise: Fresh Step has NO results yet; never say it worked, only what they made and why ('we're not trying to fool anybody'). Coca-Cola 2025 is a nuance: online critics vs 5.9-star System1 test; credit familiar assets, not AI. McDonald's NL was Dec 2025 (context, not 'this week'). WSU 2024: the word 'AI' in product descriptions lowered emotional trust (1,000+ US adults); caveat once, details in caption. The thesis is my take, label as such. Don't mock brands or agencies; no 'AI slop' on screen. Owner takeaway: use AI for what is clearly imagined (illustration, concepts, characters, objects); never to fake your real product, your real shop, your real customers, reviews or 'before/after'; show the real thing with a real photo. The studio's own AI objects are openly labelled: consistent, can be said in the caption. One number max on screen (e.g. 'three days' or '1/10 the cost'). Never AI-draw or recreate brand logos, the ads' characters or Coke's trucks; real frames only from the owner's uploads (T-a/T-b/T-c), framed, credited 'Courtesy of Fresh Step' / 'Coca-Cola' / 'McDonald's Netherlands'. No real faces in mockups. Never name the UAE, Dubai or any emirate.",
+    "image_requests": [
+      {
+        "id": "T-a",
+        "description": "تصویر اصلی بالای مقاله: گربه‌های سخنگوی ساخته‌شده با هوش مصنوعی در تبلیغ جدید Fresh Step (کپشن: Courtesy of Fresh Step). همان عکس بالای صفحه را ذخیره کن.",
+        "page_url": "https://www.marketingdive.com/news/how-fresh-step-used-ai-to-go-from-brief-to-ads-at-one-tenth-the-cost/873688/",
+        "scene_idea": "صحنه‌ی «گربه‌ی سخنگو کسی را گول نمی‌زند»: قاب‌دار روی صحنه‌ی تیره، کنار شیء ماسک."
+      },
+      {
+        "id": "T-b",
+        "description": "یک فریم از تبلیغ هوش‌مصنوعی کریسمس ۲۰۲۵ کوکاکولا (Holidays Are Coming) که کامیون قرمز کوکاکولا در برف پیداست؛ از ویدیوی جاسازی‌شده در همین صفحه اسکرین‌شات بگیر (حالت تمام‌صفحه، باکیفیت).",
+        "page_url": "https://system1group.com/ad-of-the-week/ai-or-no-ai-coke-gets-the-christmas-love",
+        "scene_idea": "صحنه‌ی ظرافت: «وقتی جواب داد، کامیون‌های آشنا کار را کردند، نه ابزار.»"
+      },
+      {
+        "id": "T-c",
+        "description": "(اختیاری) تصویر اصلی مقاله از تبلیغ هوش‌مصنوعی کریسمس مک‌دونالدز هلند که حذف شد؛ فقط فریمی که چهره‌ی واضحی ندارد یا آدم‌ها از دور دیده می‌شوند.",
+        "page_url": "https://www.techradar.com/ai-platforms-assistants/mcdonalds-pulls-ai-generated-christmas-ad-after-backlash-over-soulless-visuals-and-holiday-chaos",
+        "scene_idea": "صحنه‌ی «تقریباً واقعی، سه روز دوام آورد»: قاب‌دار، کوچک، با تاری ملایم."
+      }
+    ],
+    "object_plan": [
+      {
+        "object": "white theatre mask (blank face mask)",
+        "line_idea": "Hook: it wasn't AI; it was pretending",
+        "reuse_path_or_new": "new: assets/objects/2026-11-08/mask.png"
+      },
+      {
+        "object": "mannequin hand with slightly wrong fingers (subtle, not gory)",
+        "line_idea": "Almost-real people, balloon hands: three days and it was gone",
+        "reuse_path_or_new": "new: assets/objects/2026-11-08/mannequin_hand.png"
+      },
+      {
+        "object": "magnifier",
+        "line_idea": "Near-real invites inspection: people look for the seam",
+        "reuse_path_or_new": "assets/objects/2026-10-22/magnifier.png"
+      },
+      {
+        "object": "ceramic cat figurine (generic, unbranded)",
+        "line_idea": "A talking cat fools no one, so nobody feels fooled",
+        "reuse_path_or_new": "new: assets/objects/2026-11-08/cat_figurine.png"
+      },
+      {
+        "object": "toy delivery truck, plain red, no logo",
+        "line_idea": "When AI worked, the familiar trucks did the work, not the tool",
+        "reuse_path_or_new": "new: assets/objects/2026-11-08/toy_truck.png (colour: red is the point)"
+      },
+      {
+        "object": "scale",
+        "line_idea": "One tenth of the cost: the saving is real, so is the risk",
+        "reuse_path_or_new": "assets/objects/2026-10-22/scale.png"
+      },
+      {
+        "object": "pencil",
+        "line_idea": "The brief stayed human: problem and insight first",
+        "reuse_path_or_new": "assets/objects/2026-10-22/pencil.png"
+      },
+      {
+        "object": "label card",
+        "line_idea": "Just the word 'AI' on a label lowered trust (caveat once)",
+        "reuse_path_or_new": "assets/objects/2026-10-25/label_card.png"
+      },
+      {
+        "object": "old photo print",
+        "line_idea": "Your real shop, your real product: show it with a real photo",
+        "reuse_path_or_new": "assets/objects/2026-10-22/photo.png"
+      },
+      {
+        "object": "coffee cup",
+        "line_idea": "Your café: imagine with AI, never fake the cup you actually serve",
+        "reuse_path_or_new": "assets/objects/2026-10-29/cup.png"
+      },
+      {
+        "object": "eraser",
+        "line_idea": "Don't erase the seams to pass as real",
+        "reuse_path_or_new": "assets/objects/2026-10-22/eraser.png"
+      },
+      {
+        "object": "white theatre mask (return)",
+        "line_idea": "Close: imagine openly; never pretend (same key as hook)",
+        "reuse_path_or_new": "same as hook"
+      }
+    ],
+    "mockup_plan": [
+      {
+        "mockup": "modern phone screen showing a generic social post with an obviously illustrated character (no real brand)",
+        "line_idea": "Use AI where it's clearly imagined",
+        "logo": "none"
+      },
+      {
+        "mockup": "phone screen showing a real-looking shop photo with a small 'real photo' tag (generic shop, no faces)",
+        "line_idea": "Your real product deserves a real photo",
+        "logo": "none"
+      }
+    ]
+  }
+}
