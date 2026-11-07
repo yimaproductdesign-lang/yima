@@ -1,0 +1,648 @@
+{
+ "reel_id": "2026-11-07_EN",
+ "date": "2026-11-07",
+ "topic": "Not creative, unmistakable: a logo's value comes from years of use, not cleverness",
+ "pillar": "brand_identity_strategy",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "graphite",
+   "spot_y": 1260,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.thefashionlaw.com/ups-loss-shows-the-copyright-limits-of-even-the-most-recognizable-logos/",
+     "publisher": "The Fashion Law",
+     "event_date": "2026-11-02",
+     "retrieved_at": "2026-11-07T01:30:00Z",
+     "claim": "Review Board (30 Oct) affirmed refusal to register two UPS shield logos: familiar geometric shapes, conventional gradient, ordinary lettering; 'insufficiently creative'; copyright turns on the resulting expression, not the effort or decisions; trademark rights not addressed."
+    }
+   ],
+   "objects": [
+    {
+     "key": "box",
+     "src": "assets/mockups/2026-11-07/boxes_all.png",
+     "x": 540,
+     "y": 1185,
+     "w": 620,
+     "color": [
+      0,
+      0
+     ],
+     "credit": "Editorial mockup (AI-generated blank, Figma gemini-3.1-flash-image + official UPS logo, owner upload; logo is a trademark of UPS)",
+     "source_url": "owner upload: incoming/2026-11-07/T-b.png (official UPS logo file)",
+     "anim": "drop"
+    }
+   ],
+   "motion_rationale": "قلاب: موکاپ ویرایشی، پنج جعبه‌ی کارتنی با همان سپر روی هر کدام = نشانه‌ای که همه میلیون‌ها بار دیده‌اند؛ «تکرار» از قاب اول",
+   "lines": [
+    {
+     "text": "Officially not creative.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "Instantly *recognised*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "van",
+     "src": "assets/mockups/2026-11-07/van.png",
+     "x": 540,
+     "y": 1290,
+     "w": 820,
+     "color": [
+      0,
+      0
+     ],
+     "credit": "Editorial mockup (AI-generated blank, Figma gemini-3.1-flash-image + official UPS logo, owner upload; logo is a trademark of UPS)",
+     "source_url": "owner upload: incoming/2026-11-07/T-b.png (official UPS logo file)",
+     "anim": "slide_l"
+    }
+   ],
+   "motion_rationale": "ون قهوه‌ای با همان سپر از کنار قاب وارد می‌شود = جایی که واقعاً می‌بینیمش: کوچه، هر روز",
+   "lines": [
+    {
+     "text": "You know this shield.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "You've seen it *everywhere*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "bg": "graphite",
+   "spot_y": 1200,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.thefashionlaw.com/ups-loss-shows-the-copyright-limits-of-even-the-most-recognizable-logos/",
+     "publisher": "The Fashion Law",
+     "event_date": "2026-11-02",
+     "retrieved_at": "2026-11-07T01:30:00Z",
+     "claim": "Review Board (30 Oct) affirmed refusal to register two UPS shield logos: familiar geometric shapes, conventional gradient, ordinary lettering; 'insufficiently creative'; copyright turns on the resulting expression, not the effort or decisions; trademark rights not addressed."
+    },
+    {
+     "url": "https://news.bloomberglaw.com/ip-law/ups-loses-appeal-to-copyright-brown-shield-logos-at-review-board",
+     "publisher": "Bloomberg Law",
+     "event_date": "2026-10-30",
+     "retrieved_at": "2026-11-06T16:00:00Z",
+     "claim": "Review Board upheld two refusals; no creative spark; UPS already holds trademarks for the lettered shield logo and for the dark brown colour used on its vehicles and uniforms."
+    }
+   ],
+   "objects": [
+    {
+     "key": "ta",
+     "src": "incoming/2026-11-07/T-a.png",
+     "x": 540,
+     "y": 1150,
+     "w": 720,
+     "ar": 2.7032967032967035,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.03,
+     "color": [
+      0,
+      0
+     ],
+     "credit": "UPS shield logos as filed (blank and lettered); trademarks of UPS; owner upload",
+     "source_url": "https://www.thefashionlaw.com/ups-loss-shows-the-copyright-limits-of-even-the-most-recognizable-logos/"
+    },
+    {
+     "key": "stamp",
+     "src": "assets/objects/2026-10-29/stamp.png",
+     "x": 820,
+     "y": 1400,
+     "w": 170,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop",
+     "rot": -8
+    }
+   ],
+   "motion_rationale": "سند واقعی (آپلود مالک): همان دو نسخه‌ای که رد شد، قاب‌دار؛ مهر از بالا فرود می‌آید = حکم «رد»",
+   "lines": [
+    {
+     "text": "Last week, the US copyright office",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "said it's not *creative* enough.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.thefashionlaw.com/ups-loss-shows-the-copyright-limits-of-even-the-most-recognizable-logos/",
+     "publisher": "The Fashion Law",
+     "event_date": "2026-11-02",
+     "retrieved_at": "2026-11-07T01:30:00Z",
+     "claim": "Review Board (30 Oct) affirmed refusal to register two UPS shield logos: familiar geometric shapes, conventional gradient, ordinary lettering; 'insufficiently creative'; copyright turns on the resulting expression, not the effort or decisions; trademark rights not addressed."
+    }
+   ],
+   "objects": [
+    {
+     "key": "shapes",
+     "src": "assets/objects/2026-11-07/plain_shapes.png",
+     "x": 540,
+     "y": 1290,
+     "w": 720,
+     "credit": "Plain shapes drawn by the studio (PIL), no brand mark",
+     "anim": "rise",
+     "source_url": "studio drawing (drafts/2026-11-07/build assets)"
+    }
+   ],
+   "motion_rationale": "دلیل حکم به زبان تصویر: دایره، سپر، مربع؛ شکل‌های معمولی با سایه‌روشن ساده = «شکل‌های هندسی آشنا»",
+   "lines": [
+    {
+     "text": "Common shapes. A plain gradient.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*Ordinary* letters.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.thefashionlaw.com/ups-loss-shows-the-copyright-limits-of-even-the-most-recognizable-logos/",
+     "publisher": "The Fashion Law",
+     "event_date": "2026-11-02",
+     "retrieved_at": "2026-11-07T01:30:00Z",
+     "claim": "Review Board (30 Oct) affirmed refusal to register two UPS shield logos: familiar geometric shapes, conventional gradient, ordinary lettering; 'insufficiently creative'; copyright turns on the resulting expression, not the effort or decisions; trademark rights not addressed."
+    }
+   ],
+   "objects": [
+    {
+     "key": "pencil",
+     "src": "assets/objects/2026-10-22/pencil.png",
+     "x": 540,
+     "y": 1290,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -12,
+     "anim": "slide_r"
+    }
+   ],
+   "motion_rationale": "مداد = همه‌ی زحمت و تصمیم‌های طراح؛ قانون فقط نتیجه را می‌بیند، نه مداد را",
+   "lines": [
+    {
+     "text": "All the effort behind it?",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "Doesn't *count*. Only the result.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "fx": [
+    {
+     "type": "labels",
+     "items": [
+      {
+       "text": "clever",
+       "x": 320,
+       "y": 1250,
+       "move": "up",
+       "t": 1.4,
+       "size": 92
+      },
+      {
+       "text": "familiar",
+       "x": 760,
+       "y": 1250,
+       "move": "down",
+       "acc": true,
+       "t": 1.4,
+       "size": 108
+      }
+     ]
+    }
+   ],
+   "motion_rationale": "چرخش (drop): «زیرکانه» سبک است، بالا می‌رود و محو می‌شود؛ «آشنا» سنگین پایین می‌نشیند = ارزش در آشنایی است",
+   "lines": [
+    {
+     "text": "Sounds like an insult.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "It's why it *works*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "bg": "graphite",
+   "spot_y": 1200,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.trucknews.com/transportation/ups-unveils-new-look-with-redesigned-shield-logo/1000027706",
+     "publisher": "Truck News",
+     "event_date": "2003-03-26",
+     "retrieved_at": "2026-11-07T01:30:00Z",
+     "claim": "Previous shield designed by Paul Rand in 1961; redesigned in 2003, dropping the bow-tied parcel."
+    }
+   ],
+   "objects": [
+    {
+     "key": "tc",
+     "src": "incoming/2026-11-07/T-c_strip.png",
+     "x": 540,
+     "y": 1200,
+     "w": 760,
+     "ar": 2.7,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.03,
+     "color": [
+      0,
+      0
+     ],
+     "credit": "UPS logos 1937, 1961, today (cropped from a third-party logo-history chart, owner upload; dates removed); trademarks of UPS",
+     "source_url": "https://www.trucknews.com/transportation/ups-unveils-new-look-with-redesigned-shield-logo/1000027706"
+    }
+   ],
+   "motion_rationale": "سند واقعی (آپلود مالک، بی‌تاریخ): از سپر پرنوشته‌ی قدیم تا سپر ساده‌ی امروز = ساده‌تر شد، نه شلوغ‌تر",
+   "lines": [
+    {
+     "text": "Over the decades,",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "it got *simpler*, not busier.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "stone",
+     "src": "assets/objects/2026-10-26/worn_stone.png",
+     "x": 540,
+     "y": 1300,
+     "w": 640,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "float": 2
+    }
+   ],
+   "motion_rationale": "سنگی که آب صافش کرده = ارزشی که تکرار می‌سازد، نه تراش زیرکانه",
+   "lines": [
+    {
+     "text": "Its value wasn't cleverness.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "It was *repetition*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "bg": "graphite",
+   "spot_y": 1240,
+   "claim_type": "interpretation",
+   "fx": [
+    {
+     "type": "words",
+     "mode": "pop",
+     "box": [
+      140,
+      980,
+      940,
+      1500
+     ],
+     "seed": 31,
+     "size": 58,
+     "stagger": 0.08,
+     "words": [
+      "trucks",
+      "boxes",
+      "uniforms",
+      "labels",
+      "depots",
+      "streets"
+     ]
+    }
+   ],
+   "motion_rationale": "ابر جاهایی که نشانه دیده می‌شود (کامیون، جعبه، لباس فرم، در خانه…) که یکی‌یکی روشن می‌شوند = تکرار در زندگی روزمره",
+   "lines": [
+    {
+     "text": "Every truck. Every box.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "Every *doorstep*, for decades.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://news.bloomberglaw.com/ip-law/ups-loses-appeal-to-copyright-brown-shield-logos-at-review-board",
+     "publisher": "Bloomberg Law",
+     "event_date": "2026-10-30",
+     "retrieved_at": "2026-11-06T16:00:00Z",
+     "claim": "Review Board upheld two refusals; no creative spark; UPS already holds trademarks for the lettered shield logo and for the dark brown colour used on its vehicles and uniforms."
+    },
+    {
+     "url": "https://www.thefashionlaw.com/ups-loss-shows-the-copyright-limits-of-even-the-most-recognizable-logos/",
+     "publisher": "The Fashion Law",
+     "event_date": "2026-11-02",
+     "retrieved_at": "2026-11-07T01:30:00Z",
+     "claim": "Review Board (30 Oct) affirmed refusal to register two UPS shield logos: familiar geometric shapes, conventional gradient, ordinary lettering; 'insufficiently creative'; copyright turns on the resulting expression, not the effort or decisions; trademark rights not addressed."
+    }
+   ],
+   "objects": [
+    {
+     "key": "key",
+     "src": "assets/objects/2026-10-24/key.png",
+     "x": 540,
+     "y": 1300,
+     "w": 500,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -20,
+     "anim": "slide_l",
+     "float": 2
+    }
+   ],
+   "motion_rationale": "احتیاط یک بار: کلید = حمایت حقوقی هنوز سر جایش است (علامت تجاری)؛ این حکم فقط درباره‌ی کپی‌رایت بود",
+   "lines": [
+    {
+     "text": "To be clear: this was copyright.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "It's still their *trademark*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "thread",
+     "src": "assets/objects/2026-10-29/thread.png",
+     "x": 540,
+     "y": 1290,
+     "w": 480,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "pop",
+     "vibrate": 1
+    }
+   ],
+   "motion_rationale": "نخ درهم = لوگوی شلوغ‌تر و عوض‌کردن هرساله؛ همان چیزی که برندهای کوچک به‌جای تکرار می‌خرند",
+   "lines": [
+    {
+     "text": "Most small brands do the opposite.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "A *busier* logo. Then a new one.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "cup",
+     "src": "assets/objects/2026-10-29/cup.png",
+     "x": 540,
+     "y": 1300,
+     "w": 480,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "float": 2
+    }
+   ],
+   "motion_rationale": "لیوان = سطح روزمره‌ی کسب‌وکار کوچک؛ جای همان نشانه‌ی ساده که باید هر روز تکرار شود",
+   "lines": [
+    {
+     "text": "Pick one simple mark.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "Put it on every *cup* and bag.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "watch",
+     "src": "assets/objects/2026-10-22/watch.png",
+     "x": 540,
+     "y": 1290,
+     "w": 400,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "fade"
+    }
+   ],
+   "fx": [
+    {
+     "type": "rings",
+     "x": 540,
+     "y": 1290,
+     "R": 360,
+     "n": 4,
+     "period": 1.6,
+     "t": 0.6,
+     "op": 0.25
+    }
+   ],
+   "motion_rationale": "ساعت با حلقه‌های آرام = زمان، ماده‌ی اصلی؛ دست نزدن، سال‌ها",
+   "lines": [
+    {
+     "text": "Then leave it alone.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "For *years*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "box",
+     "src": "assets/mockups/2026-11-07/boxes_all.png",
+     "x": 540,
+     "y": 1185,
+     "w": 620,
+     "color": [
+      0,
+      0
+     ],
+     "credit": "Editorial mockup (AI-generated blank, Figma gemini-3.1-flash-image + official UPS logo, owner upload; logo is a trademark of UPS)",
+     "source_url": "owner upload: incoming/2026-11-07/T-b.png (official UPS logo file)",
+     "anim": "zoom"
+    }
+   ],
+   "motion_rationale": "بازگشت به آغاز: همان جعبه‌ها، حالا روی کاغذ و روشن = قلاب برعکس می‌شود: خلاقانه نیست، فراموش‌نشدنی است",
+   "lines": [
+    {
+     "text": "Not creative.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*Unmistakable*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "bg": "primary",
+   "claim_type": "interpretation",
+   "motion_rationale": "کارت پایانی",
+   "logo": true,
+   "txt_top": 1080,
+   "lines": [
+    {
+     "text": "Write to me.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  }
+ ],
+ "caption": "Officially not creative. Instantly recognised.\n\nOn 30 October, the US Copyright Office's review board refused to register two versions of UPS's brown-and-gold shield (the blank shield and the one with \"ups\" lettering). In plain words: familiar geometric shapes, a conventional gradient, ordinary lettering. \"Insufficiently creative.\" And the sharper point: copyright looks at the result you see, not the effort or decisions behind it.\n\nMy take: that's not an insult. It's a compliment to simplicity. The shield got simpler over the decades, not busier. Paul Rand drew a shield topped with a ribbon-tied parcel in 1961; the 2003 redesign dropped the parcel. Its value never came from cleverness. It came from years on every truck, every box, every doorstep.\n\nThe limits: this was about copyright only. UPS still holds trademarks on the lettered shield and on the dark brown of its vehicles and uniforms, so the logo isn't unprotected and no, not anyone can copy it. It's one board decision with no precedential weight, and this isn't legal advice; if you want to protect your own mark, talk to a trademark lawyer. Sources: The Fashion Law, Bloomberg Law, Business Insurance, IP Law Daily. Editorial mockups: AI-generated blank boxes and van with the real logo placed on them; the logo belongs to its owner, and these are not UPS ads or official photos. The logos and the history chart are owner uploads; other objects are AI-generated.\n\nFor owners of a café, a salon, a shop: don't pay for a busier logo. Pick one simple mark and use it the same way on every cup, bag, sign and post, for years.\n\nHow many times has your mark changed in the last five years, and which version do your customers actually remember? Write to me.\n\n— Behnood Kavian",
+ "hashtags": [
+  "#branding",
+  "#marketing",
+  "#logodesign",
+  "#brandidentity"
+ ],
+ "sources": [
+  {
+   "publisher": "The Fashion Law",
+   "title": "UPS Loss Shows the Copyright Limits of Even the Most Recognizable Logos",
+   "date": "2026-11-02",
+   "url": "https://www.thefashionlaw.com/ups-loss-shows-the-copyright-limits-of-even-the-most-recognizable-logos/"
+  },
+  {
+   "publisher": "Bloomberg Law",
+   "title": "UPS Loses Appeal to Copyright Brown Shield Logos at Review Board",
+   "date": "2026-10-30",
+   "url": "https://news.bloomberglaw.com/ip-law/ups-loses-appeal-to-copyright-brown-shield-logos-at-review-board"
+  },
+  {
+   "publisher": "Business Insurance",
+   "title": "UPS logo fails to deliver on copyright protection",
+   "date": "2026-11-03",
+   "url": "https://www.businessinsurance.com/ups-logo-fails-to-deliver-on-copyright-protection/"
+  },
+  {
+   "publisher": "IP Law Daily / VitalLaw",
+   "title": "Copyright Office Review Board: Nothing original about UPS shield logos",
+   "date": "2026-11-04",
+   "url": "https://www.vitallaw.com/news/copyright-news-copyright-office-review-board-nothing-original-about-ups-shield-logos/ipm01452f41562e02422d897119e15fd39354"
+  },
+  {
+   "publisher": "Law360",
+   "title": "Copyright Board Rejects UPS Logo Registration Bid",
+   "date": "2026-11-02",
+   "url": "https://www.law360.com/articles/2545117/copyright-board-rejects-ups-logo-registration-bid"
+  },
+  {
+   "publisher": "Truck News",
+   "title": "UPS unveils new look with redesigned shield logo",
+   "date": "2003-03-26",
+   "url": "https://www.trucknews.com/transportation/ups-unveils-new-look-with-redesigned-shield-logo/1000027706"
+  }
+ ],
+ "cta": "Write to me.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S6"
+ },
+ "status": "DRAFT",
+ "style": "editorial",
+ "lang": "en"
+}
