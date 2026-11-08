@@ -1,0 +1,490 @@
+{
+ "date": "2026-11-09",
+ "stage": "1-evening",
+ "retrieved_at": "2026-11-08T21:00+04:00",
+ "scope": "branding, brand strategy, marketing only",
+ "method": "WebSearch + WebFetch (Brand New, Marketing Dive, Morning Consult coverage, SEC filing, AER 1986 PDF, Inside Retail/The Conversation, Futurism, Axios, Creative Bloq, trade press). Failed/unused: Marketing Dive brand-strategy topic page (permission timeout), bestmediainfo 'one meme, ten brands' (site error), MediaPost Mr. Pibb (site error), WebProNews Starlink (site error), Google News Starlink link (URL too long), AlphaGalileo Surrey study (login wall; finding not used).",
+ "weights": {
+  "freshness": 10,
+  "growth": 15,
+  "reach": 15,
+  "qualified_followers": 15,
+  "regional_business": 15,
+  "audience_psychology": 10,
+  "commercial_utility": 10,
+  "originality": 5,
+  "verifiability": 5
+ },
+ "candidates": [
+  {
+   "id": "C1",
+   "title": "'Our costs went up' has stopped working: when everyone gives the same reason for a price rise, customers hear an excuse (field study 2026 + classic fairness study 1986 + this week's wave of cost-based price hikes)",
+   "class": "evergreen (with emerging research + breaking spark)",
+   "sources": [
+    {
+     "url": "https://insideretail.us/?p=89821",
+     "publisher": "Inside Retail US, republished from The Conversation (Hoorsana Damavandi, U. Tennessee; Kersi D. Antia, Ivey; Praveen K. Kopalle, Dartmouth)",
+     "event_date": "2026-09-08",
+     "claim": "Field study with a Canadian self-storage company that randomly gave customers one of three price-hike justifications: cost-based and quality-based reasons produced no measurable change in churn vs no justification; the market-based reason (supply, demand, scarcity) made customers 30% less likely to exit. Authors: 'In times of prolonged inflation, like today, cost-based justifications may not be seen as fair anymore'; when every company cites higher costs, customers read it as an excuse. Sample size and journal not stated in the article.",
+     "retrieved": "2026-11-08T21:00+04:00"
+    },
+    {
+     "url": "https://eml.berkeley.edu/~saez/course131/Kahneman-FairnessConstraintProfit-1986.pdf",
+     "publisher": "American Economic Review 76(4) (Kahneman, Knetsch, Thaler, 'Fairness as a Constraint on Profit Seeking')",
+     "event_date": "1986-09",
+     "claim": "Snow shovel $15 -> $20 the morning after a snowstorm: 82% unfair (N=107). Grocer raises lettuce 30 cents after the wholesale price rose due to a shortage: 79% acceptable (N=101). Dual entitlement: customers are entitled to the reference terms, firms to their reference profit.",
+     "retrieved": "2026-11-08T21:00+04:00"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001786431/000162828026069785/reyn-20261104xex991.htm",
+     "publisher": "Reynolds Consumer Products Q3 2026 results (SEC 8-K exhibit 99.1)",
+     "event_date": "2026-11-04",
+     "claim": "Q3 2026: price +9%, retail volume -7%, net revenue +1%; CEO: 'acting decisively to address significant commodity inflation'. (Volume fall is not attributable to messaging; do not imply causation.)",
+     "retrieved": "2026-11-08T21:00+04:00"
+    },
+    {
+     "url": "https://dailycaller.com/2026/11/06/get-ready-to-pay-more-household-brands-hike-prices-as-costs-surge/",
+     "publisher": "Daily Caller (summarising earnings releases; WSJ for Kraft Heinz quote)",
+     "event_date": "2026-11-06",
+     "claim": "Household brands (Reynolds, Kraft Heinz, Clorox, P&G) all cite higher commodity/fuel/transport costs in early-November results; Kraft Heinz CEO says more increases likely in 2027. Used only as a spark showing everyone gives the same reason; primary figure verified via Reynolds 8-K.",
+     "retrieved": "2026-11-08T21:00+04:00"
+    },
+    {
+     "url": "https://www.axios.com/2024/02/28/wendys-pricing-plans-digital-boards",
+     "publisher": "Axios",
+     "event_date": "2024-02-28",
+     "claim": "After CEO talk of testing dynamic pricing on new digital menu boards, backlash compared it to Uber surge pricing; Wendy's: 'Wendy's will not implement surge pricing.'",
+     "retrieved": "2026-11-08T21:00+04:00"
+    },
+    {
+     "url": "https://futurism.com/space/elon-musk-spacex-starlink-customers-fees-demand",
+     "publisher": "Futurism (Victor Tangermann), citing PCMag, Washington Post, Reddit",
+     "event_date": "2026-07-05",
+     "claim": "Starlink 'demand surcharges' for high-demand areas, reported up to $1,500 in parts of Alaska (June 2026, per PCMag); customers describe them as opaque and hard to contest.",
+     "retrieved": "2026-11-08T21:00+04:00"
+    }
+   ],
+   "claim": "The reason you give for a price rise changes how customers judge it (1986: same kind of rise, 82% unfair vs 79% acceptable depending on reason). But in prolonged inflation, the generic cost reason no longer reduced churn in a 2026 field study; a specific, market-based reason did (-30% exits). My take: a reason works only when it is specific and checkable, not when it is the line everyone uses.",
+   "scores": {
+    "freshness": 8,
+    "growth": 13,
+    "reach": 14,
+    "qualified_followers": 14,
+    "regional_business": 15,
+    "audience_psychology": 10,
+    "commercial_utility": 10,
+    "originality": 5,
+    "verifiability": 4
+   },
+   "gates": {
+    "brand_fit": "pass: strategist voice on pricing communication; every SMB owner raises prices",
+    "story": "strongest: tension 'the fairest-sounding reason is the one that no longer works'; concrete image: snow shovel vs lettuce; the same note on every price tag",
+    "repeat_7d": "pass with care: 11-03 was price memory (which prices customers remember); this is how to explain a rise. Different angle, flag in framing note",
+    "bilingual": "pass: inflation is universal; especially sharp for the Persian audience living with long inflation"
+   },
+   "lenses": {
+    "red_team": "Single field study, single company (self-storage), sample size and journal not given in the article: say 'one field study' and keep caveat. Market-based reasons (demand/scarcity) look like they contradict Kahneman's snow shovel (demand-driven rises judged unfair): reconcile honestly: in 1986 a cost reason was accepted; in long inflation the generic cost reason lost force; the self-storage 'scarcity' was concrete and true. Never advise inventing scarcity. Reynolds 7% volume fall is not caused by messaging: use only '+9% price, citing commodity inflation' as an example of the common line, or skip numbers. Wendy's never implemented surge pricing: say 'just the word surge caused backlash'. 'My take' for the synthesis.",
+    "audience_psychology": "Dual entitlement / reference price; persuasion knowledge: a repeated line becomes a recognised tactic and loses meaning; specificity as a credibility signal; habituation.",
+    "brand_fit": "Practical, non-preachy, ethical: honesty + specificity; gives owners a usable template ('what changed, by how much, what you did first')."
+   },
+   "total": 93
+  },
+  {
+   "id": "C2",
+   "title": "Mr. Pibb: the fastest-growing brand of 2026 got its old name back (Morning Consult: only 14% of brands grew consideration)",
+   "class": "emerging",
+   "sources": [
+    {
+     "url": "https://www.marketingdive.com/news/how-coca-colas-mr-pibb-became-the-fastest-growing-brand-of-2026/833009/",
+     "publisher": "Marketing Dive (Chris Kelly)",
+     "event_date": "2026-10-15",
+     "claim": "Coca-Cola returned Pibb Xtra (20+ years) to the Mr. Pibb name; Q2 2026 volume +20%; Morning Consult fastest-growing brand; consideration +11 pts.",
+     "retrieved": "2026-11-08T21:00+04:00"
+    },
+    {
+     "url": "https://massmarketretailers.com/morning-consult-brand-growth-hits-a-5-year-low/",
+     "publisher": "Mass Market Retailers citing Morning Consult",
+     "event_date": "2026-09-09",
+     "claim": "Only 14% of brands grew purchase consideration in 2026, lowest in five years of tracking; growth went to already well-known brands.",
+     "retrieved": "2026-11-08T21:00+04:00"
+    }
+   ],
+   "claim": "In a stalled year, growth went to the familiar; the winner revived a name it had abandoned.",
+   "scores": {
+    "freshness": 7,
+    "growth": 11,
+    "reach": 12,
+    "qualified_followers": 12,
+    "regional_business": 10,
+    "audience_psychology": 8,
+    "commercial_utility": 7,
+    "originality": 4,
+    "verifiability": 5
+   },
+   "gates": {
+    "brand_fit": "pass",
+    "story": "good image (old name), weaker tension",
+    "repeat_7d": "risk: close to 11-07 (value built by years of use) and 11-05 (brand memory)",
+    "bilingual": "Mr. Pibb unknown to Persian audience"
+   },
+   "lenses": {
+    "red_team": "Growth drivers include distribution, sampling, Scottie Pippen campaign; not just the name.",
+    "audience_psychology": "nostalgia, familiarity in uncertainty",
+    "brand_fit": "ok"
+   },
+   "total": 76
+  },
+  {
+   "id": "C3",
+   "title": "Shrinkflation must now be labelled: 'Less content, higher price' signs (Austria, in force 1 Apr 2026)",
+   "class": "evergreen",
+   "sources": [
+    {
+     "url": "https://schoenherr.eu/content/spotlight-on-shrinkflation-austria-s-anti-deceptive-packaging-law-now-in-effect",
+     "publisher": "Schoenherr (law firm)",
+     "event_date": "2026-04-01",
+     "claim": "Retailers must show a notice for 60 days when content drops, pack looks unchanged and unit price rises >=3%; sample wording 'Attention: Less content - higher price'.",
+     "retrieved": "2026-11-08T21:00+04:00"
+    },
+    {
+     "url": "https://www.oesterreich.gv.at/de/Gesetzliche-Neuerungen/Bundesgesetzblatt/anti-mogelpackungs-gesetz",
+     "publisher": "oesterreich.gv.at",
+     "event_date": "2026-03-24",
+     "claim": "Law published 24 Mar 2026, effective 1 Apr 2026; covers food/drugstore retail >400 m2 or >5 branches.",
+     "retrieved": "2026-11-08T21:00+04:00"
+    }
+   ],
+   "claim": "Hidden price rises are being forced into the open.",
+   "scores": {
+    "freshness": 5,
+    "growth": 10,
+    "reach": 12,
+    "qualified_followers": 12,
+    "regional_business": 12,
+    "audience_psychology": 9,
+    "commercial_utility": 9,
+    "originality": 3,
+    "verifiability": 5
+   },
+   "gates": {
+    "brand_fit": "pass",
+    "story": "strong image (half-empty pack), but deception theme repeats 11-08",
+    "repeat_7d": "thematic overlap with 11-08 (being fooled)",
+    "bilingual": "pass"
+   },
+   "lenses": {
+    "red_team": "7 months old; legal details country-specific.",
+    "audience_psychology": "betrayal > price",
+    "brand_fit": "ok"
+   },
+   "total": 77
+  },
+  {
+   "id": "C4",
+   "title": "Bob's Red Mill takes the late founder out of the logo (Turner Duckworth)",
+   "class": "hidden_gem",
+   "sources": [
+    {
+     "url": "https://www.creativebloq.com/design/logos-icons/new-bobs-red-mill-logo-is-the-cracker-barrel-controversy-all-over-again",
+     "publisher": "Creative Bloq (Joe Foley)",
+     "event_date": "2026-05-25",
+     "claim": "Simpler logo, custom typeface; Bob Moore replaced by a seal; commenters compared it to Cracker Barrel.",
+     "retrieved": "2026-11-08T21:00+04:00"
+    }
+   ],
+   "claim": "Founder faces as brand assets after the founder is gone.",
+   "scores": {
+    "freshness": 4,
+    "growth": 8,
+    "reach": 10,
+    "qualified_followers": 11,
+    "regional_business": 9,
+    "audience_psychology": 8,
+    "commercial_utility": 6,
+    "originality": 4,
+    "verifiability": 5
+   },
+   "gates": {
+    "brand_fit": "pass",
+    "story": "good image, but 'founder face' close to 11-07 logo topic",
+    "repeat_7d": "logo theme 11-04, 11-07",
+    "bilingual": "weak"
+   },
+   "lenses": {
+    "red_team": "No sales impact known.",
+    "audience_psychology": "loss aversion around heritage",
+    "brand_fit": "ok"
+   },
+   "total": 65
+  },
+  {
+   "id": "C5",
+   "title": "Cleveland airports rebrand: 'Where the Land Meets the Sky'",
+   "class": "breaking",
+   "sources": [
+    {
+     "url": "https://spectrumnews1.com/oh/cincinnati/news/2026/11/05/cleveland-airports-rebrand-with-new-logo",
+     "publisher": "Spectrum News 1",
+     "event_date": "2026-11-05",
+     "claim": "New logos for Cleveland Hopkins and Burke Lakefront, same blue/green palette, phased rollout.",
+     "retrieved": "2026-11-08T21:00+04:00"
+    }
+   ],
+   "claim": "Place identity for infrastructure.",
+   "scores": {
+    "freshness": 10,
+    "growth": 5,
+    "reach": 5,
+    "qualified_followers": 7,
+    "regional_business": 6,
+    "audience_psychology": 4,
+    "commercial_utility": 5,
+    "originality": 3,
+    "verifiability": 4
+   },
+   "gates": {
+    "brand_fit": "weak",
+    "story": "weak tension",
+    "repeat_7d": "pass",
+    "bilingual": "weak"
+   },
+   "lenses": {
+    "red_team": "Local news, no data.",
+    "audience_psychology": "low",
+    "brand_fit": "low"
+   },
+   "total": 49
+  },
+  {
+   "id": "C6",
+   "title": "Instagram redraws its script wordmark (Koto), first major identity update in a decade",
+   "class": "emerging (date unverified)",
+   "sources": [
+    {
+     "url": "https://www.rebrand.gallery/rebrand/instagram-2026",
+     "publisher": "Rebrand Gallery",
+     "event_date": "2026",
+     "claim": "Koto redrew a bolder, simpler script with a pared-back 'gr' ligature; exact date not given.",
+     "retrieved": "2026-11-08T21:00+04:00"
+    }
+   ],
+   "claim": "Evolution, not revolution, for a famous mark.",
+   "scores": {
+    "freshness": 6,
+    "growth": 10,
+    "reach": 13,
+    "qualified_followers": 11,
+    "regional_business": 8,
+    "audience_psychology": 6,
+    "commercial_utility": 5,
+    "originality": 3,
+    "verifiability": 2
+   },
+   "gates": {
+    "brand_fit": "pass",
+    "story": "medium",
+    "repeat_7d": "logo theme overlap",
+    "bilingual": "pass"
+   },
+   "lenses": {
+    "red_team": "Date unverified; details paywalled.",
+    "audience_psychology": "familiarity",
+    "brand_fit": "ok"
+   },
+   "total": 64
+  },
+  {
+   "id": "C7",
+   "title": "Honor's 'Dare to Be' rebrand: a narrative for investors",
+   "class": "emerging",
+   "sources": [
+    {
+     "url": "https://memeburn.com/honor-rebrand-2026-dare-to-be/",
+     "publisher": "MemeBurn",
+     "event_date": "2026-07-23",
+     "claim": "New 'Honor Ring' logo and 'Dare to Be' slogan to reposition as AI device ecosystem ahead of IPO; China share fell from #1 to sixth.",
+     "retrieved": "2026-11-08T21:00+04:00"
+    }
+   ],
+   "claim": "Rebrands aimed at investors, not customers.",
+   "scores": {
+    "freshness": 5,
+    "growth": 8,
+    "reach": 10,
+    "qualified_followers": 10,
+    "regional_business": 9,
+    "audience_psychology": 5,
+    "commercial_utility": 5,
+    "originality": 4,
+    "verifiability": 3
+   },
+   "gates": {
+    "brand_fit": "pass",
+    "story": "medium",
+    "repeat_7d": "pass",
+    "bilingual": "pass"
+   },
+   "lenses": {
+    "red_team": "Interpretive single source.",
+    "audience_psychology": "low",
+    "brand_fit": "ok"
+   },
+   "total": 59
+  },
+  {
+   "id": "C8",
+   "title": "giffgaff refresh: 'We're not changing what we believe, just how clearly we show it'",
+   "class": "emerging",
+   "sources": [
+    {
+     "url": "https://www.ispreview.co.uk/index.php/2026/10/telecoms-provider-giffgaff-refreshes-uk-brand-to-set-us-up-for-our-next-chapter.html",
+     "publisher": "ISPreview",
+     "event_date": "2026-10-29",
+     "claim": "Subtle logo update with a signpost in the last 'f'; gradual rollout from Black Friday into 2027.",
+     "retrieved": "2026-11-08T21:00+04:00"
+    }
+   ],
+   "claim": "Evolutionary refresh as a signal of expansion.",
+   "scores": {
+    "freshness": 8,
+    "growth": 6,
+    "reach": 6,
+    "qualified_followers": 9,
+    "regional_business": 7,
+    "audience_psychology": 5,
+    "commercial_utility": 6,
+    "originality": 3,
+    "verifiability": 4
+   },
+   "gates": {
+    "brand_fit": "pass",
+    "story": "weak",
+    "repeat_7d": "logo overlap",
+    "bilingual": "weak (UK only)"
+   },
+   "lenses": {
+    "red_team": "Small change, little data.",
+    "audience_psychology": "low",
+    "brand_fit": "ok"
+   },
+   "total": 54
+  },
+  {
+   "id": "C9",
+   "title": "Mascots don't retire: Mr. Clean's 'retirement' stunt and the mascot comeback",
+   "class": "evergreen",
+   "sources": [
+    {
+     "url": "https://www.trendhunter.com/trends/mr-clean",
+     "publisher": "Trend Hunter",
+     "event_date": "2026-02-27",
+     "claim": "Mr. Clean announced 'retirement' on Instagram; packaging unchanged.",
+     "retrieved": "2026-11-08T21:00+04:00"
+    }
+   ],
+   "claim": "Mascots as long-term memory structures.",
+   "scores": {
+    "freshness": 4,
+    "growth": 9,
+    "reach": 11,
+    "qualified_followers": 10,
+    "regional_business": 9,
+    "audience_psychology": 7,
+    "commercial_utility": 7,
+    "originality": 3,
+    "verifiability": 3
+   },
+   "gates": {
+    "brand_fit": "pass",
+    "story": "medium",
+    "repeat_7d": "overlap with 11-05 (Monopoly man memory)",
+    "bilingual": "pass"
+   },
+   "lenses": {
+    "red_team": "Weak sourcing for results.",
+    "audience_psychology": "distinctive assets",
+    "brand_fit": "ok"
+   },
+   "total": 63
+  },
+  {
+   "id": "C10",
+   "title": "Store brands dressed like leaders: CVS Health private label packaging (Pearlfisher)",
+   "class": "hidden_gem",
+   "sources": [
+    {
+     "url": "https://www.underconsideration.com/brandnew/",
+     "publisher": "Brand New (UnderConsideration)",
+     "event_date": "2026-11-04",
+     "claim": "Brand New post 'New Packaging for CVS Health's Private Label' (Pearlfisher); original launch covered in 2025 by Fast Company and The Dieline.",
+     "retrieved": "2026-11-08T21:00+04:00"
+    }
+   ],
+   "claim": "Private label as a brand, not a cheap copy.",
+   "scores": {
+    "freshness": 6,
+    "growth": 7,
+    "reach": 8,
+    "qualified_followers": 10,
+    "regional_business": 10,
+    "audience_psychology": 7,
+    "commercial_utility": 8,
+    "originality": 3,
+    "verifiability": 3
+   },
+   "gates": {
+    "brand_fit": "pass",
+    "story": "medium",
+    "repeat_7d": "pass",
+    "bilingual": "pass"
+   },
+   "lenses": {
+    "red_team": "Redesign itself is from 2025; Brand New review content not read.",
+    "audience_psychology": "quality cues",
+    "brand_fit": "ok"
+   },
+   "total": 62
+  },
+  {
+   "id": "C11",
+   "title": "Mace Construct becomes 'Forco' after demerger (B2B naming)",
+   "class": "breaking",
+   "sources": [
+    {
+     "url": "https://constructionwave.co.uk/2026/11/04/mace-construct-reveals-new-brand-name-forco/",
+     "publisher": "Construction Wave",
+     "event_date": "2026-11-04",
+     "claim": "New name from January 2027 after March demerger; 'short, impactful and easy to pronounce'; meaning not explained.",
+     "retrieved": "2026-11-08T21:00+04:00"
+    }
+   ],
+   "claim": "Naming after a split.",
+   "scores": {
+    "freshness": 10,
+    "growth": 4,
+    "reach": 4,
+    "qualified_followers": 7,
+    "regional_business": 6,
+    "audience_psychology": 3,
+    "commercial_utility": 5,
+    "originality": 3,
+    "verifiability": 4
+   },
+   "gates": {
+    "brand_fit": "weak",
+    "story": "weak",
+    "repeat_7d": "pass",
+    "bilingual": "weak"
+   },
+   "lenses": {
+    "red_team": "Name meaning unknown.",
+    "audience_psychology": "low",
+    "brand_fit": "low"
+   },
+   "total": 46
+  }
+ ],
+ "pick": "C1",
+ "pick_reason": "Highest total (93) and strongest story gate: a counter-intuitive tension (the reason that sounds fairest has stopped working) with concrete images (snow shovel vs lettuce; the same note on every price tag). Direct, daily utility for every business owner; extremely relevant to a Persian audience living through long inflation and to an international audience facing this week's wave of cost-based price hikes. Evergreen core (1986) + 2026 field study + Nov 4-6 spark. Different angle from 11-03 (which prices customers remember).",
+ "scores_note": "growth, reach, qualified-follower, regional, psychology, utility and originality are estimates; verifiability and freshness are judged from sources."
+}

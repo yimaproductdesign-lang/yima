@@ -1,0 +1,123 @@
+{
+ "date": "2026-11-09",
+ "T": {
+  "topic_fa": "«هزینه‌ها بالا رفته» دیگر کار نمی‌کند: وقتی همه برای گرانی همین دلیل را می‌آورند، مشتری فقط بهانه می‌شنود",
+  "topic_en": "'Our costs went up' has stopped working: when everyone gives the same reason for a price rise, customers hear an excuse",
+  "pillar": "pricing_communication",
+  "central_tension_fa": "منصفانه‌ترین دلیلِ گرانی همان است که دیگر جواب نمی‌دهد. در آزمایش کلاسیک ۱۹۸۶، گران کردن پارو بعد از برف را ۸۲٪ ناعادلانه دانستند، اما گران شدن کاهو به‌خاطر بالا رفتن قیمت عمده را ۷۹٪ پذیرفتنی. حالا در تورمِ طولانی، یک آزمایش میدانی (۲۰۲۶) نشان داد «هزینه‌های ما بالا رفته» هیچ‌کس را نگه نداشت؛ دلیلِ مشخص و واقعیِ بازار، ۳۰٪ ریزش را کمتر کرد. به نظر من مشتری دیگر دلیل را نمی‌سنجد؛ تکراری بودنش را می‌شنود.",
+  "central_tension_en": "The fairest-sounding reason for a price rise is the one that has stopped working. In the classic 1986 study, 82% called a snow-shovel price rise after a storm unfair, while 79% accepted a lettuce rise passed on from a higher wholesale price. Now, in long inflation, a 2026 field study found 'our costs went up' kept no one; a specific, real market reason cut exits by 30%. My take: customers no longer weigh the reason. They hear that it's the same line everyone uses.",
+  "working_hook_fa": "«هزینه‌ها بالا رفته» را همه گفته‌اند. برای همین دیگر کسی نمی‌شنود.",
+  "working_hook_en": "Everyone says 'our costs went up'. That's why no one hears it.",
+  "key_sources": [
+   {
+    "url": "https://insideretail.us/?p=89821",
+    "publisher": "Inside Retail US, republished from The Conversation (Hoorsana Damavandi, U. Tennessee; Kersi D. Antia, Ivey; Praveen K. Kopalle, Dartmouth)",
+    "date": "2026-09-08",
+    "claim": "Field study with a Canadian self-storage company that randomly gave customers one of three price-hike justifications: cost-based and quality-based reasons produced no measurable change in churn vs no justification; the market-based reason (supply, demand, scarcity) made customers 30% less likely to exit. Authors: 'In times of prolonged inflation, like today, cost-based justifications may not be seen as fair anymore'; when every company cites higher costs, customers read it as an excuse. Sample size and journal not stated in the article."
+   },
+   {
+    "url": "https://eml.berkeley.edu/~saez/course131/Kahneman-FairnessConstraintProfit-1986.pdf",
+    "publisher": "American Economic Review 76(4) (Kahneman, Knetsch, Thaler, 'Fairness as a Constraint on Profit Seeking')",
+    "date": "1986-09",
+    "claim": "Snow shovel $15 -> $20 the morning after a snowstorm: 82% unfair (N=107). Grocer raises lettuce 30 cents after the wholesale price rose due to a shortage: 79% acceptable (N=101). Dual entitlement: customers are entitled to the reference terms, firms to their reference profit."
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0001786431/000162828026069785/reyn-20261104xex991.htm",
+    "publisher": "Reynolds Consumer Products Q3 2026 results (SEC 8-K exhibit 99.1)",
+    "date": "2026-11-04",
+    "claim": "Q3 2026: price +9%, retail volume -7%, net revenue +1%; CEO: 'acting decisively to address significant commodity inflation'. (Volume fall is not attributable to messaging; do not imply causation.)"
+   },
+   {
+    "url": "https://www.axios.com/2024/02/28/wendys-pricing-plans-digital-boards",
+    "publisher": "Axios",
+    "date": "2024-02-28",
+    "claim": "After CEO talk of testing dynamic pricing on new digital menu boards, backlash compared it to Uber surge pricing; Wendy's: 'Wendy's will not implement surge pricing.'"
+   },
+   {
+    "url": "https://futurism.com/space/elon-musk-spacex-starlink-customers-fees-demand",
+    "publisher": "Futurism (Victor Tangermann), citing PCMag, Washington Post, Reddit",
+    "date": "2026-07-05",
+    "claim": "Starlink 'demand surcharges' for high-demand areas, reported up to $1,500 in parts of Alaska (June 2026, per PCMag); customers describe them as opaque and hard to contest."
+   }
+  ],
+  "music_mood": "dark",
+  "framing_note": "News is the spark (early-November results: Reynolds +9% price citing commodity inflation; Kraft Heinz says more rises likely in 2027; everyone cites costs). The evergreen idea: the reason changes the verdict (1986), but a reason everyone repeats turns into an excuse (2026 field study, prolonged inflation). Be precise: the 2026 result is ONE field study with ONE Canadian self-storage company; sample size and journal not stated in the article; 30% = less likely to leave vs other conditions. Say 'one field study' on screen, details in caption. The 'market-based' reason there was real scarcity of storage space: NEVER suggest inventing scarcity or fake demand (that is the snow shovel, 82% unfair, and Wendy's 2024: just the word 'surge' caused backlash; Wendy's never implemented it). Starlink 'demand surcharges' (up to $1,500, opaque) only as a caption-level example, optional. My take (label it): a reason works when it is specific and checkable: what changed, by how much, what you absorbed first, what you did to keep quality; not the generic line. Owner takeaway: write your price-rise note like a receipt, not a slogan. Do not imply Reynolds' 7% volume fall was caused by its explanation. Don't mock named brands. One number max per scene; at most two numbers in the reel (82% / 79% pair counts as one comparison scene, or 30%). Different angle from 11-03 (price memory): don't reuse socks. Never name the UAE, Dubai or any emirate.",
+  "image_requests": [
+   {
+    "id": "T-a",
+    "description": "اسکرین‌شات باکیفیت از صفحه‌ی اول مقاله‌ی کلاسیک کانمن، نِچ و تیلر (۱۹۸۶) «Fairness as a Constraint on Profit Seeking» در American Economic Review؛ عنوان و نام نویسنده‌ها کامل دیده شود (زوم ۲۰۰٪، فقط نیمه‌ی بالای صفحه‌ی اول).",
+    "page_url": "https://eml.berkeley.edu/~saez/course131/Kahneman-FairnessConstraintProfit-1986.pdf",
+    "scene_idea": "صحنه‌ی شاهد: «این را ۴۰ سال پیش اندازه گرفتند»؛ قاب‌دار روی صحنه‌ی تیره، کنار پارو برف و کاهو. اعتبار: American Economic Review, 1986."
+   }
+  ],
+  "object_plan": [
+   {
+    "object": "snow shovel (plain, unbranded)",
+    "line_idea": "Hook/evidence: same kind of rise after a storm, 82% called it unfair",
+    "reuse_path_or_new": "new: assets/objects/2026-11-09/snow_shovel.png"
+   },
+   {
+    "object": "head of lettuce (natural colour: the product in the story)",
+    "line_idea": "Rise passed on from a higher wholesale price: 79% accepted",
+    "reuse_path_or_new": "new: assets/objects/2026-11-09/lettuce.png (colour)"
+   },
+   {
+    "object": "price tag",
+    "line_idea": "The note on every tag: 'our costs went up'",
+    "reuse_path_or_new": "assets/objects/2026-10-25/price_tag.png"
+   },
+   {
+    "object": "rubber stamp",
+    "line_idea": "The same excuse stamped on every price",
+    "reuse_path_or_new": "assets/objects/2026-10-29/stamp.png"
+   },
+   {
+    "object": "megaphone",
+    "line_idea": "Everyone is saying the same line, this week, louder",
+    "reuse_path_or_new": "assets/objects/2026-11-06/megaphone.png"
+   },
+   {
+    "object": "ear trumpet",
+    "line_idea": "Customers stopped hearing it; it sounds like an excuse",
+    "reuse_path_or_new": "assets/objects/2026-11-06/ear_trumpet.png"
+   },
+   {
+    "object": "padlock (storage-unit style, unbranded)",
+    "line_idea": "One field study, a self-storage company: the cost reason kept no one",
+    "reuse_path_or_new": "new: assets/objects/2026-11-09/padlock.png (or reuse assets/objects/2026-10-24/key.png)"
+   },
+   {
+    "object": "scale",
+    "line_idea": "Customers aren't weighing the reason any more",
+    "reuse_path_or_new": "assets/objects/2026-10-22/scale.png"
+   },
+   {
+    "object": "magnifier",
+    "line_idea": "A reason that works is one they can check",
+    "reuse_path_or_new": "assets/objects/2026-10-22/magnifier.png"
+   },
+   {
+    "object": "long paper receipt (blank, no text)",
+    "line_idea": "Write your price note like a receipt: what changed, by how much, what you absorbed first",
+    "reuse_path_or_new": "new: assets/objects/2026-11-09/receipt.png"
+   },
+   {
+    "object": "coffee cup",
+    "line_idea": "Your café: 'milk up X, we held the price for N months' beats 'costs went up'",
+    "reuse_path_or_new": "assets/objects/2026-10-29/cup.png"
+   },
+   {
+    "object": "snow shovel (return)",
+    "line_idea": "Close: never fake a storm to raise a price (same key as hook)",
+    "reuse_path_or_new": "same as hook"
+   }
+  ],
+  "mockup_plan": [
+   {
+    "mockup": "modern café counter sign / small A-frame chalkboard, blank, with an editorial generic price-rise note added in rendering (two versions: 'costs went up' vs a specific receipt-style note)",
+    "line_idea": "Generic line vs specific reason",
+    "logo": "none"
+   }
+  ]
+ }
+}
