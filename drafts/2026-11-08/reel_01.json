@@ -1,0 +1,655 @@
+{
+ "reel_id": "2026-11-08_FA",
+ "date": "2026-11-08",
+ "topic": "مخاطب از هوش مصنوعی نمی‌رنجد؛ از وانمود کردن می‌رنجد",
+ "pillar": "advertising_creative_strategy",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "graphite",
+   "spot_y": 1300,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "mask",
+     "src": "assets/objects/2026-11-08/mask.png",
+     "x": 540,
+     "y": 1300,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "drop"
+    }
+   ],
+   "motion_rationale": "قلاب: نقاب = وانمود کردن؛ مشکل، چهره‌ی جعلی است نه ابزار. همین نقاب در چرخش (S9) و پایان (S14) برمی‌گردد",
+   "lines": [
+    {
+     "text": "مشکل این تبلیغ‌ها هوش مصنوعی نبود.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*وانمود کردن* بود.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "fx": [
+    {
+     "type": "words",
+     "mode": "fade",
+     "box": [
+      150,
+      1000,
+      930,
+      1480
+     ],
+     "seed": 8,
+     "size": 60,
+     "words": [
+      "ربات",
+      "ارزان",
+      "بی‌روح",
+      "ماشینی",
+      "هوش مصنوعی",
+      "فریب"
+     ],
+     "keep": [
+      "فریب"
+     ],
+     "keep_at": [
+      540,
+      1250
+     ]
+    }
+   ],
+   "motion_rationale": "ابر برچسب‌هایی که به هوش مصنوعی می‌زنیم (ربات، ارزان، بی‌روح…) محو می‌شوند و فقط «فریب» می‌ماند = آنچه مخاطب واقعاً نمی‌بخشد",
+   "lines": [
+    {
+     "text": "همه ابزار را مقصر می‌دانند.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "مخاطب *فریب* را نمی‌بخشد.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "bg": "graphite",
+   "spot_y": 1240,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.nbcnews.com/world/europe/mcdonalds-ai-generated-christmas-advert-social-media-backlash-rcna248590",
+     "publisher": "NBC News",
+     "event_date": "2025-12-10",
+     "retrieved_at": "2026-11-08T03:30:00Z",
+     "claim": "McDonald's Netherlands' 45-second AI ad 'the most terrible time of the year' was posted on a Saturday and removed by the following Wednesday after backlash (creepy, inauthentic)."
+    }
+   ],
+   "objects": [
+    {
+     "key": "tc",
+     "src": "incoming/2026-11-08/T-c.png",
+     "x": 540,
+     "y": 1240,
+     "w": 760,
+     "ar": 1.7570093457943925,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.03,
+     "color": [
+      0,
+      0
+     ],
+     "credit": "McDonald's Netherlands (2025), via TechRadar; owner upload",
+     "source_url": "https://www.techradar.com/ai-platforms-assistants/mcdonalds-pulls-ai-generated-christmas-ad-after-backlash-over-soulless-visuals-and-holiday-chaos",
+     "blur": [
+      0,
+      2.5,
+      1.6,
+      3.2
+     ]
+    }
+   ],
+   "motion_rationale": "سند واقعی (آپلود مالک): فریم تبلیغ پایین‌کشیده با آدم‌های تقریباً واقعی؛ کمی تار می‌شود = چند روز بیشتر دوام نیاورد",
+   "lines": [
+    {
+     "text": "کریسمس پارسال، مک‌دونالدز هلند:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "آدم‌های *تقریباً واقعی*.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "چند روز بعد پایینش کشیدند.",
+     "kind": "s",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.nngroup.com/articles/ai-ad/",
+     "publisher": "Nielsen Norman Group",
+     "event_date": "2025-12-19",
+     "retrieved_at": "2026-11-08T03:30:00Z",
+     "claim": "AI visuals often provoke the uncanny-valley effect; once viewers notice subtle distortions, the emotional connection collapses."
+    }
+   ],
+   "objects": [
+    {
+     "key": "lens",
+     "src": "assets/objects/2026-10-22/magnifier.png",
+     "x": 540,
+     "y": 1290,
+     "w": 480,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -10,
+     "anim": "slide_r",
+     "path": [
+      [
+       0.6,
+       600,
+       1290
+      ],
+      [
+       2.2,
+       470,
+       1250
+      ],
+      [
+       3.4,
+       560,
+       1300
+      ]
+     ]
+    }
+   ],
+   "motion_rationale": "ذره‌بین که دنبال چیزی می‌گردد = چشم مخاطب روی چهره‌ی «تقریباً» انسانی دنبال ایراد می‌گردد (دره‌ی وهمی)",
+   "lines": [
+    {
+     "text": "سختی کار همین «تقریباً» است.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "چشم دنبال *ایراد* می‌گردد.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "bg": "graphite",
+   "spot_y": 1240,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://system1group.com/ad-of-the-week/ai-or-no-ai-coke-gets-the-christmas-love",
+     "publisher": "System1",
+     "event_date": "2025-11-20",
+     "retrieved_at": "2026-11-08T03:30:00Z",
+     "claim": "Coca-Cola 'Holidays Are Coming' 2025 AI ad: 5.9 stars (maximum) on Test Your Ad; onlookers are animals, not humans; AI not mentioned in key associations; success credited to creative consistency and assets built over decades."
+    }
+   ],
+   "objects": [
+    {
+     "key": "tb",
+     "src": "incoming/2026-11-08/T-b.png",
+     "x": 540,
+     "y": 1240,
+     "w": 820,
+     "ar": 1.780148423005566,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.03,
+     "color": [
+      0,
+      0
+     ],
+     "credit": "Coca-Cola, Holidays Are Coming (2025); owner upload",
+     "source_url": "https://system1group.com/ad-of-the-week/ai-or-no-ai-coke-gets-the-christmas-love"
+    }
+   ],
+   "motion_rationale": "سند واقعی (آپلود مالک): کامیون‌های قرمز آشنا در برف = همان ابزار، ولی سوار بر نشانه‌های چنددهه‌ای برند",
+   "lines": [
+    {
+     "text": "کوکاکولا همان فصل، با هوش مصنوعی:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "حیوان‌ها، کامیون‌های *آشنا*.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "نمره‌ی کامل در آزمون.",
+     "kind": "s",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://system1group.com/ad-of-the-week/ai-or-no-ai-coke-gets-the-christmas-love",
+     "publisher": "System1",
+     "event_date": "2025-11-20",
+     "retrieved_at": "2026-11-08T03:30:00Z",
+     "claim": "Coca-Cola 'Holidays Are Coming' 2025 AI ad: 5.9 stars (maximum) on Test Your Ad; onlookers are animals, not humans; AI not mentioned in key associations; success credited to creative consistency and assets built over decades."
+    }
+   ],
+   "fx": [
+    {
+     "type": "labels",
+     "items": [
+      {
+       "text": "ابزار",
+       "x": 320,
+       "y": 1260,
+       "move": "up",
+       "t": 1.4,
+       "size": 92
+      },
+      {
+       "text": "خاطره",
+       "x": 760,
+       "y": 1260,
+       "move": "down",
+       "acc": true,
+       "t": 1.4,
+       "size": 110
+      }
+     ]
+    }
+   ],
+   "motion_rationale": "چرخش کوچک: «ابزار» سبک است و بالا می‌رود؛ «خاطره» سنگین می‌نشیند = آنچه تبلیغ را کشید، دارایی‌های آشنای برند بود",
+   "lines": [
+    {
+     "text": "بار را ابزار نکشید.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*خاطره‌ی* چند دهه کشید.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "bg": "graphite",
+   "spot_y": 1240,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://marketingdive.com/news/how-fresh-step-used-ai-to-go-from-brief-to-ads-at-one-tenth-the-cost/873688",
+     "publisher": "Marketing Dive",
+     "event_date": "2026-11-05",
+     "retrieved_at": "2026-11-08T03:30:00Z",
+     "claim": "Fresh Step (Clorox) made three 15-second spots with AI agency RECE, AI-generated talking cats; brief to finished creative in 30 days at one-tenth the cost of a traditional production; live by Nov. 9; Deb Crandall (Clorox): 'We're not trying to fool anybody here.'"
+    }
+   ],
+   "objects": [
+    {
+     "key": "ta",
+     "src": "incoming/2026-11-08/T-a.png",
+     "x": 540,
+     "y": 1240,
+     "w": 820,
+     "ar": 1.7777777777777777,
+     "frame": true,
+     "anim": "zoom",
+     "push": 0.03,
+     "color": [
+      0,
+      0
+     ],
+     "credit": "Courtesy of Fresh Step (via Marketing Dive); owner upload",
+     "source_url": "https://marketingdive.com/news/how-fresh-step-used-ai-to-go-from-brief-to-ads-at-one-tenth-the-cost/873688"
+    }
+   ],
+   "motion_rationale": "سند واقعی (آپلود مالک): گربه‌های سخنگو، با برچسب «AI actors used» در گوشه‌ی قاب = خیالِ آشکار که خودش را واقعی جا نمی‌زند",
+   "lines": [
+    {
+     "text": "حالا گربه‌های سخنگوی فرش‌استپ.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "کسی خیال نمی‌کند *واقعی‌اند*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://marketingdive.com/news/how-fresh-step-used-ai-to-go-from-brief-to-ads-at-one-tenth-the-cost/873688",
+     "publisher": "Marketing Dive",
+     "event_date": "2026-11-05",
+     "retrieved_at": "2026-11-08T03:30:00Z",
+     "claim": "Fresh Step (Clorox) made three 15-second spots with AI agency RECE, AI-generated talking cats; brief to finished creative in 30 days at one-tenth the cost of a traditional production; live by Nov. 9; Deb Crandall (Clorox): 'We're not trying to fool anybody here.'"
+    }
+   ],
+   "objects": [
+    {
+     "key": "card",
+     "src": "assets/objects/2026-10-25/label_card.png",
+     "x": 540,
+     "y": 1300,
+     "w": 520,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -4,
+     "anim": "rise",
+     "float": 2
+    }
+   ],
+   "motion_rationale": "کارت یادداشت سفید = یک جمله‌ی رک و بی‌پرده؛ همان حرف بازاریاب برند که قرار نیست کسی گول بخورد",
+   "lines": [
+    {
+     "text": "بازاریابش:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "«نمی‌خواهیم کسی را *گول* بزنیم.»",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "bg": "graphite",
+   "spot_y": 1300,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "mask",
+     "src": "assets/objects/2026-11-08/mask.png",
+     "x": 540,
+     "y": 1300,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "zoom",
+     "float": 3
+    }
+   ],
+   "motion_rationale": "چرخش (drop): همان نقاب آغاز برمی‌گردد = یک ابزار، دو واکنش؛ مرز همین نقاب است",
+   "lines": [
+    {
+     "text": "یک ابزار، دو واکنش.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "مرز، *نقاب* است.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "fx": [
+    {
+     "type": "viewfinder",
+     "box": [
+      200,
+      1020,
+      880,
+      1500
+     ],
+     "t": 0.5
+    }
+   ],
+   "motion_rationale": "احتیاط یک بار: منظره‌یاب با نقطه‌ی ضبط = هنوز در حال تماشاییم؛ برای قضاوت درباره‌ی نتیجه زود است",
+   "lines": [
+    {
+     "text": "یک احتیاط: گربه‌ها تازه پخش شده‌اند.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "هنوز *نتیجه‌ای* نیست.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "این برداشت من است.",
+     "kind": "s",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "pencil",
+     "src": "assets/objects/2026-10-22/pencil.png",
+     "x": 540,
+     "y": 1290,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -14,
+     "anim": "slide_l"
+    }
+   ],
+   "motion_rationale": "مداد = چیزی که آشکارا کشیده و خیال شده (تصویرسازی، ایده، شخصیت)؛ جای درست ابزار",
+   "lines": [
+    {
+     "text": "هوش مصنوعی برای چیزی که پیداست خیالی است:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "طرح، ایده، *شخصیت*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "fx": [
+    {
+     "type": "words",
+     "mode": "pop",
+     "box": [
+      170,
+      1040,
+      910,
+      1480
+     ],
+     "seed": 5,
+     "size": 56,
+     "stagger": 0.08,
+     "words": [
+      "نظر مشتری",
+      "قبل و بعد",
+      "عکس غذا",
+      "تیم شما",
+      "ویترین"
+     ]
+    }
+   ],
+   "motion_rationale": "ابر چیزهای واقعی کسب‌وکار (نظر مشتری، قبل و بعد، عکس غذا، تیم، ویترین) = همان‌هایی که نباید جعل شوند",
+   "lines": [
+    {
+     "text": "نه برای جعل واقعیت:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "مغازه، غذا، *مشتری‌هایتان*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "photo",
+     "src": "assets/objects/2026-10-22/photo.png",
+     "x": 540,
+     "y": 1290,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": 3,
+     "anim": "drop"
+    }
+   ],
+   "motion_rationale": "عکس چاپی واقعی = چیز واقعی را همان‌طور که هست نشان بده",
+   "lines": [
+    {
+     "text": "این‌ها را با عکس *واقعی* نشان دهید.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "mask",
+     "src": "assets/objects/2026-11-08/mask.png",
+     "x": 540,
+     "y": 1300,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "fade"
+    }
+   ],
+   "motion_rationale": "بازگشت به نقاب آغاز، این بار روی کاغذ و روشن، زیر جمله‌ی آخر = قصه بخشیده می‌شود، نقاب نه",
+   "lines": [
+    {
+     "text": "مردم قصه را می‌بخشند.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*نقاب* را نه.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "bg": "primary",
+   "claim_type": "interpretation",
+   "motion_rationale": "کارت پایانی",
+   "logo": true,
+   "txt_top": 1080,
+   "lines": [
+    {
+     "text": "برای من بنویسید.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  }
+ ],
+ "caption": "مشکل این تبلیغ‌ها هوش مصنوعی نبود. وانمود کردن بود.\n\nکریسمس پارسال مک‌دونالدز هلند یک تبلیغ ۴۵ثانیه‌ای با هوش مصنوعی منتشر کرد: آدم‌های تقریباً واقعی، با زیرنویس «بدترین وقت سال». چند روز بعد، پس از موجی از واکنش‌های منفی («ترسناک»، «غیرواقعی»)، پایینش کشیدند. همان فصل، تبلیغ هوش‌مصنوعی کوکاکولا تماشاگرانش را حیوان گذاشته بود، نه آدم، و همان کامیون‌های قرمز همیشگی را آورده بود؛ در آزمون سیستم‌وان (System One) نمره‌ی کامل ۵٫۹ گرفت و در تداعی‌های بینندگان اصلاً اسمی از هوش مصنوعی نبود. خود سیستم‌وان موفقیتش را به ثبات خلاقانه و دارایی‌های چنددهه‌ای برند نسبت می‌دهد، نه به ابزار.\n\nو حالا فرش‌استپ (کلوروکس) سه تبلیغ ۱۵ثانیه‌ای با گربه‌های سخنگوی ساخته‌شده با هوش مصنوعی ساخته؛ از بریف تا نسخه‌ی نهایی در ۳۰ روز، با یک‌دهم هزینه‌ی تولید معمول. مدیر بازاریابی‌اش گفته: «نمی‌خواهیم کسی را گول بزنیم.» در فریمی که از این تبلیغ منتشر شده، برچسب «AI actors used» هم پیداست.\n\nبه نظر من مرز، ابزار نیست؛ چیزی است که خودش را واقعی جا می‌زند. چهره‌ی «تقریباً» انسانی چشم را به ایرادگیری می‌کشد (پژوهشگران Nielsen Norman Group به آن دره‌ی وهمی می‌گویند)، ولی گربه‌ی سخنگو از اول قصه است.\n\nحدودش را بگویم: این برداشت من از سه نمونه است، نه نتیجه‌ی یک پژوهش. تبلیغ فرش‌استپ تازه پخش شده و هنوز هیچ نتیجه‌ای از آن منتشر نشده. نقدهای آنلاین کوکاکولا هم کم نبود؛ آزمون سیستم‌وان فقط یک سنجه است. پژوهش دانشگاه ایالتی واشنگتن (۲۰۲۴، بیش از ۱۰۰۰ بزرگسال آمریکایی) هم نشان داد آوردن واژه‌ی «هوش مصنوعی» در توضیح محصول اعتماد احساسی و قصد خرید را پایین آورد؛ ولی آن درباره‌ی توضیح محصول است، نه تبلیغ. منابع: Marketing Dive، NBC News، TechRadar، سیستم‌وان، Nielsen Norman Group. فریم‌های تبلیغ‌ها آپلود مالک و متعلق به صاحبانشان‌اند؛ اشیای این ریل (نقاب و دیگر اشیا) آشکارا با هوش مصنوعی ساخته شده‌اند.\n\nبرای صاحب کافه، سالن یا مغازه: از هوش مصنوعی برای چیزی استفاده کنید که پیداست خیالی است؛ تصویرسازی، ایده، شخصیت. ولی مغازه، غذا، تیم، نظر مشتری و «قبل و بعد» را با عکس واقعی نشان دهید.\n\nشما کجا از هوش مصنوعی استفاده می‌کنید، و آیا مشتری‌تان می‌داند؟ برای من بنویسید.\n\n— بهنود کاویان",
+ "hashtags": [
+  "#بازاریابی",
+  "#تبلیغات",
+  "#branding",
+  "#aimarketing"
+ ],
+ "sources": [
+  {
+   "publisher": "Marketing Dive",
+   "title": "How Fresh Step used AI to go from brief to ads at one-tenth the cost",
+   "date": "2026-11-05",
+   "url": "https://marketingdive.com/news/how-fresh-step-used-ai-to-go-from-brief-to-ads-at-one-tenth-the-cost/873688"
+  },
+  {
+   "publisher": "NBC News",
+   "title": "Not lovin' it: McDonald's pulls AI-generated Christmas ad after social media backlash",
+   "date": "2025-12-10",
+   "url": "https://www.nbcnews.com/world/europe/mcdonalds-ai-generated-christmas-advert-social-media-backlash-rcna248590"
+  },
+  {
+   "publisher": "TechRadar",
+   "title": "McDonald's pulls AI-generated Christmas ad after backlash over soulless visuals and holiday chaos",
+   "date": "2025-12-10",
+   "url": "https://www.techradar.com/ai-platforms-assistants/mcdonalds-pulls-ai-generated-christmas-ad-after-backlash-over-soulless-visuals-and-holiday-chaos"
+  },
+  {
+   "publisher": "System1",
+   "title": "AI or No AI, Coke Gets the Christmas Love",
+   "date": "2025-11-20",
+   "url": "https://system1group.com/ad-of-the-week/ai-or-no-ai-coke-gets-the-christmas-love"
+  },
+  {
+   "publisher": "Nielsen Norman Group",
+   "title": "Why AI-Generated Holiday Ads Fail, and What They Teach Us About Using AI in UX Work",
+   "date": "2025-12-19",
+   "url": "https://www.nngroup.com/articles/ai-ad/"
+  },
+  {
+   "publisher": "Washington State University",
+   "title": "Using the term 'artificial intelligence' in product descriptions reduces purchase intentions",
+   "date": "2024-07-30",
+   "url": "https://news.wsu.edu/press-release/2024/07/30/using-the-term-artificial-intelligence-in-product-descriptions-reduces-purchase-intentions/"
+  }
+ ],
+ "cta": "برای من بنویسید.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S9"
+ },
+ "status": "DRAFT",
+ "style": "editorial",
+ "lang": "fa"
+}
