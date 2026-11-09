@@ -1,0 +1,647 @@
+{
+ "reel_id": "2026-11-09_FA",
+ "date": "2026-11-09",
+ "topic": "«هزینه‌ها بالا رفته» دیگر کار نمی‌کند؛ وقتی همه همین را می‌گویند، مشتری بهانه می‌شنود",
+ "pillar": "pricing_communication",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://insideretail.us/?p=89821",
+     "publisher": "Inside Retail US, republished from The Conversation (Damavandi, Antia, Kopalle)",
+     "event_date": "2026-09-08",
+     "retrieved_at": "2026-11-09T04:30:00Z",
+     "claim": "'In times of prolonged inflation, like today, cost-based justifications may not be seen as fair anymore.' 'When every company points to higher costs ... customers typically see these explanations as empty excuses.'"
+    }
+   ],
+   "objects": [
+    {
+     "key": "mega",
+     "src": "assets/objects/2026-11-06/megaphone.png",
+     "x": 540,
+     "y": 1290,
+     "w": 600,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "slide_l",
+     "vibrate": 2
+    }
+   ],
+   "motion_rationale": "بلندگو = همه همان یک جمله را بلند تکرار می‌کنند؛ همین بلندگو در پایان (S14) برمی‌گردد و خاموش کنار می‌رود",
+   "lines": [
+    {
+     "text": "همه می‌گویند: «هزینه‌ها بالا رفته.»",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "برای همین *کسی نمی‌شنود*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "bg": "graphite",
+   "spot_y": 1260,
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://insideretail.us/?p=89821",
+     "publisher": "Inside Retail US, republished from The Conversation (Damavandi, Antia, Kopalle)",
+     "event_date": "2026-09-08",
+     "retrieved_at": "2026-11-09T04:30:00Z",
+     "claim": "'In times of prolonged inflation, like today, cost-based justifications may not be seen as fair anymore.' 'When every company points to higher costs ... customers typically see these explanations as empty excuses.'"
+    }
+   ],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "fade",
+     "box": [
+      150,
+      1020,
+      930,
+      1480
+     ],
+     "seed": 4,
+     "size": 58,
+     "words": [
+      "تورم",
+      "اجاره",
+      "دستمزد",
+      "سوخت",
+      "حمل‌ونقل",
+      "مواد اولیه",
+      "بهانه"
+     ],
+     "keep": [
+      "بهانه"
+     ],
+     "keep_at": [
+      540,
+      1260
+     ]
+    }
+   ],
+   "motion_rationale": "ابر دلیل‌های آشنای گرانی (تورم، اجاره، دستمزد، سوخت…) محو می‌شوند و فقط «بهانه» می‌ماند = آنچه مشتری از جمله‌ی تکراری می‌شنود",
+   "lines": [
+    {
+     "text": "هر برند، همان یک جمله.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "مشتری فقط *بهانه* می‌شنود.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://eml.berkeley.edu/~saez/course131/Kahneman-FairnessConstraintProfit-1986.pdf",
+     "publisher": "American Economic Review (Kahneman, Knetsch, Thaler)",
+     "event_date": "1986-09",
+     "retrieved_at": "2026-11-09T04:30:00Z",
+     "claim": "Hardware store raises snow shovels from $15 to $20 the morning after a large snowstorm: 82% unfair (N=107)."
+    }
+   ],
+   "objects": [
+    {
+     "key": "shovel",
+     "src": "assets/objects/2026-11-09/snow_shovel.png",
+     "x": 540,
+     "y": 1290,
+     "w": 600,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "drop",
+     "rot": -4
+    }
+   ],
+   "motion_rationale": "پاروی برف = آزمایش ۱۹۸۶: گران کردن بعد از طوفان؛ پارو در S11 برمی‌گردد (طوفان نسازید)",
+   "lines": [
+    {
+     "text": "۱۹۸۶. فردای برف، پارو گران می‌شود.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "۸۲٪ گفتند: *ناعادلانه*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://eml.berkeley.edu/~saez/course131/Kahneman-FairnessConstraintProfit-1986.pdf",
+     "publisher": "American Economic Review (Kahneman, Knetsch, Thaler)",
+     "event_date": "1986-09",
+     "retrieved_at": "2026-11-09T04:30:00Z",
+     "claim": "Grocer raises lettuce price after the wholesale price rose because of a shortage: 79% acceptable (N=101)."
+    }
+   ],
+   "objects": [
+    {
+     "key": "lettuce",
+     "src": "assets/objects/2026-11-09/lettuce.png",
+     "x": 540,
+     "y": 1290,
+     "w": 520,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "rise",
+     "float": 3,
+     "color": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "motion_rationale": "کاهو (خودِ محصولِ داستان، رنگی) = گرانیِ منتقل‌شده از عمده‌فروش که منصفانه پذیرفته شد",
+   "lines": [
+    {
+     "text": "کاهو گران می‌شود؛ عمده‌فروش گران داده.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "۷۹٪ گفتند: *قبول*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://eml.berkeley.edu/~saez/course131/Kahneman-FairnessConstraintProfit-1986.pdf",
+     "publisher": "American Economic Review (Kahneman, Knetsch, Thaler)",
+     "event_date": "1986-09",
+     "retrieved_at": "2026-11-09T04:30:00Z",
+     "claim": "Hardware store raises snow shovels from $15 to $20 the morning after a large snowstorm: 82% unfair (N=107)."
+    },
+    {
+     "url": "https://eml.berkeley.edu/~saez/course131/Kahneman-FairnessConstraintProfit-1986.pdf",
+     "publisher": "American Economic Review (Kahneman, Knetsch, Thaler)",
+     "event_date": "1986-09",
+     "retrieved_at": "2026-11-09T04:30:00Z",
+     "claim": "Grocer raises lettuce price after the wholesale price rose because of a shortage: 79% acceptable (N=101)."
+    }
+   ],
+   "objects": [
+    {
+     "key": "scale",
+     "src": "assets/objects/2026-10-22/scale.png",
+     "x": 540,
+     "y": 1300,
+     "w": 520,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "fade"
+    }
+   ],
+   "motion_rationale": "ترازو = مشتری دلیل را می‌سنجید؛ دلیل، حکم را عوض می‌کرد",
+   "lines": [
+    {
+     "text": "دلیل، حکم را عوض می‌کرد.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "و هزینه *منصفانه‌ترین* دلیل بود.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://insideretail.us/?p=89821",
+     "publisher": "Inside Retail US, republished from The Conversation (Damavandi, Antia, Kopalle)",
+     "event_date": "2026-09-08",
+     "retrieved_at": "2026-11-09T04:30:00Z",
+     "claim": "'In times of prolonged inflation, like today, cost-based justifications may not be seen as fair anymore.' 'When every company points to higher costs ... customers typically see these explanations as empty excuses.'"
+    }
+   ],
+   "objects": [
+    {
+     "key": "tag",
+     "src": "assets/objects/2026-10-25/price_tag.png",
+     "x": 540,
+     "y": 1290,
+     "w": 480,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -12,
+     "anim": "drop",
+     "float": 2
+    }
+   ],
+   "motion_rationale": "چرخش (drop): برچسب قیمتِ خالی می‌افتد = همان دلیلِ روی برچسب دیگر کار نمی‌کند",
+   "lines": [
+    {
+     "text": "حالا، بعد از سال‌ها گرانی،",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "همان دلیل *کار نمی‌کند*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://haslam.utk.edu/news/ut-haslam-researcher-finds-messaging-matters-in-price-increase-notifications/",
+     "publisher": "University of Tennessee, Haslam College of Business",
+     "event_date": "2026-07-14",
+     "retrieved_at": "2026-11-09T04:30:00Z",
+     "claim": "10-month field experiment, 1,600+ customers of a Canadian self-storage company (Journal of Marketing): cost and quality justifications 'on par with providing no justification at all'; market justification reduced attrition by 29.5% vs no justification, regardless of specificity."
+    }
+   ],
+   "objects": [
+    {
+     "key": "key",
+     "src": "assets/objects/2026-10-24/key.png",
+     "x": 540,
+     "y": 1290,
+     "w": 440,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -8,
+     "anim": "slide_r"
+    }
+   ],
+   "motion_rationale": "کلید = انبار اجاره‌ای آزمایش میدانی؛ همین کلید در S8 ادامه پیدا می‌کند",
+   "lines": [
+    {
+     "text": "یک آزمایش میدانی، یک انبار اجاره‌ای:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "دلیل هزینه با *سکوت* فرقی نداشت.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://haslam.utk.edu/news/ut-haslam-researcher-finds-messaging-matters-in-price-increase-notifications/",
+     "publisher": "University of Tennessee, Haslam College of Business",
+     "event_date": "2026-07-14",
+     "retrieved_at": "2026-11-09T04:30:00Z",
+     "claim": "10-month field experiment, 1,600+ customers of a Canadian self-storage company (Journal of Marketing): cost and quality justifications 'on par with providing no justification at all'; market justification reduced attrition by 29.5% vs no justification, regardless of specificity."
+    }
+   ],
+   "objects": [
+    {
+     "key": "key",
+     "src": "assets/objects/2026-10-24/key.png",
+     "x": 540,
+     "y": 1290,
+     "w": 440,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -8,
+     "anim": "zoom",
+     "float": 3
+    }
+   ],
+   "fx": [
+    {
+     "type": "rings",
+     "x": 540,
+     "y": 1290,
+     "R": 380,
+     "n": 5,
+     "period": 1.6,
+     "inward": true,
+     "t": 0.6
+    }
+   ],
+   "motion_rationale": "همان کلید با حلقه‌های رو به داخل = تقاضای بیشتر برای جای کمتر؛ دلیلی که واقعاً در بازار هست",
+   "lines": [
+    {
+     "text": "دلیل بازار: تقاضا بیشتر، جا کمتر.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*۳۰٪* کمتر رفتند.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://insideretail.us/?p=89821",
+     "publisher": "Inside Retail US, republished from The Conversation (Damavandi, Antia, Kopalle)",
+     "event_date": "2026-09-08",
+     "retrieved_at": "2026-11-09T04:30:00Z",
+     "claim": "'In times of prolonged inflation, like today, cost-based justifications may not be seen as fair anymore.' 'When every company points to higher costs ... customers typically see these explanations as empty excuses.'"
+    }
+   ],
+   "objects": [
+    {
+     "key": "stamp",
+     "src": "assets/objects/2026-10-29/stamp.png",
+     "x": 540,
+     "y": 1290,
+     "w": 400,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop"
+    }
+   ],
+   "motion_rationale": "مهر = همان جمله که روی قیمت همه کوبیده می‌شود؛ تکراری و بی‌صاحب",
+   "lines": [
+    {
+     "text": "جمله‌ای که همه مهر می‌زنند،",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "مال *هیچ‌کس* نیست.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "graphite",
+   "claim_type": "interpretation",
+   "fx": [
+    {
+     "type": "viewfinder",
+     "box": [
+      200,
+      1030,
+      880,
+      1500
+     ],
+     "t": 0.5
+    }
+   ],
+   "motion_rationale": "احتیاط یک بار: منظره‌یاب = فقط یک قاب دیدیم؛ یک شرکت، یک صنعت",
+   "lines": [
+    {
+     "text": "یک شرکت، یک پژوهش.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*نشانه* است، نه قانون.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://eml.berkeley.edu/~saez/course131/Kahneman-FairnessConstraintProfit-1986.pdf",
+     "publisher": "American Economic Review (Kahneman, Knetsch, Thaler)",
+     "event_date": "1986-09",
+     "retrieved_at": "2026-11-09T04:30:00Z",
+     "claim": "Hardware store raises snow shovels from $15 to $20 the morning after a large snowstorm: 82% unfair (N=107)."
+    }
+   ],
+   "objects": [
+    {
+     "key": "shovel",
+     "src": "assets/objects/2026-11-09/snow_shovel.png",
+     "x": 540,
+     "y": 1290,
+     "w": 600,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "slide_l",
+     "rot": 6
+    }
+   ],
+   "motion_rationale": "بازگشت پاروی برف = کمبودِ ساختگی همان گرانیِ بعد از طوفان است که ۸۲٪ ناعادلانه دانستند",
+   "lines": [
+    {
+     "text": "ولی *طوفان* نسازید.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "کمبود ساختگی همان پاروی گران است.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "lens",
+     "src": "assets/objects/2026-10-22/magnifier.png",
+     "x": 540,
+     "y": 1290,
+     "w": 480,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -10,
+     "anim": "slide_r",
+     "path": [
+      [
+       0.6,
+       600,
+       1290
+      ],
+      [
+       2.2,
+       480,
+       1260
+      ],
+      [
+       3.4,
+       560,
+       1300
+      ]
+     ]
+    }
+   ],
+   "motion_rationale": "ذره‌بین = دلیلی که مشتری خودش می‌تواند وارسی کند",
+   "lines": [
+    {
+     "text": "دلیل *راست* را بگویید،",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "که مشتری خودش ببیند.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "ear",
+     "src": "assets/objects/2026-11-06/ear_trumpet.png",
+     "x": 540,
+     "y": 1290,
+     "w": 600,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "slide_r"
+    }
+   ],
+   "motion_rationale": "شیپور گوش = مشتری هنوز گوش می‌دهد، ولی نه به تکرار",
+   "lines": [
+    {
+     "text": "مشتری هنوز گوش می‌دهد.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "فقط نه به *تکرار*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "mega",
+     "src": "assets/objects/2026-11-06/megaphone.png",
+     "x": 540,
+     "y": 1290,
+     "w": 600,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "fade",
+     "exit": [
+      "right",
+      2.6
+     ]
+    }
+   ],
+   "motion_rationale": "بازگشت بلندگوی آغاز که از قاب بیرون می‌رود = جمله‌ی همه را کنار بگذارید",
+   "lines": [
+    {
+     "text": "جمله‌ی همه را قرض نگیرید.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*دلیل خودتان* را بگویید.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "bg": "primary",
+   "claim_type": "interpretation",
+   "motion_rationale": "کارت پایانی",
+   "logo": true,
+   "txt_top": 1080,
+   "lines": [
+    {
+     "text": "برای من بنویسید.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  }
+ ],
+ "caption": "همه می‌گویند «هزینه‌ها بالا رفته». برای همین دیگر کسی نمی‌شنود.\n\nسال ۱۹۸۶ کانمن، نِچ و تیلر از مردم پرسیدند: فروشگاهی فردای یک برف سنگین قیمت پارو را از ۱۵ به ۲۰ دلار می‌برد. ۸۲٪ گفتند ناعادلانه است. ولی وقتی بقال قیمت کاهو را بالا برد چون قیمت عمده‌فروشی بالا رفته بود، ۷۹٪ گفتند قابل قبول است. دلیل، حکم را عوض می‌کرد؛ و «هزینه» منصفانه‌ترین دلیل بود.\n\nحالا یک آزمایش میدانی ۱۰ ماهه با بیش از ۱۶۰۰ مشتری یک شرکت انبار اجاره‌ای در کانادا (Journal of Marketing، ۲۰۲۶) نتیجه‌ی دیگری گرفت: پیام گرانی با دلیل «هزینه» یا «کیفیت» در نگه داشتن مشتری با هیچ دلیلی فرقی نداشت. دلیل «بازار» (تقاضای بیشتر، رقابت کمتر) ریزش را ۲۹٫۵٪ نسبت به پیام بی‌دلیل کم کرد، و جزئی‌تر کردن پیام این نتیجه را عوض نکرد. خود پژوهشگرها نوشته‌اند در تورم طولانی، وقتی همه به هزینه اشاره می‌کنند، مشتری آن را بهانه‌ی توخالی می‌بیند.\n\nبه نظر من مشتری دیگر خود دلیل را نمی‌سنجد؛ تکراری بودنش را می‌شنود. ولی این مجوز ساختن «تقاضا» یا «کمبود» نیست؛ کمبود ساختگی همان پاروی گران بعد از طوفان است. دلیلی بگویید که درباره‌ی بازار و کسب‌وکار خودتان راست است و مشتری خودش می‌تواند ببیند.\n\nحدودش: این یک پژوهش است، با یک شرکت و در یک صنعت؛ نتیجه‌اش برای کافه یا فروشگاه شما قطعی نیست. عدد ۳۰٪ روی تصویر گرد شده‌ی ۲۹٫۵٪ است. منابع: The Conversation (بازنشر Inside Retail)، دانشگاه تنسی (Haslam)، Subscription Insider، و مقاله‌ی American Economic Review (۱۹۸۶). اشیای این ریل (پارو، کاهو و بقیه) آشکارا با هوش مصنوعی ساخته شده‌اند.\n\nآخرین بار که قیمتتان را بالا بردید، به مشتری چه گفتید؛ و اگر جای او بودید، باورش می‌کردید؟ برای من بنویسید.\n\n— بهنود کاویان",
+ "hashtags": [
+  "#برندینگ",
+  "#بازاریابی",
+  "#pricingstrategy",
+  "#قیمت_گذاری"
+ ],
+ "sources": [
+  {
+   "publisher": "Inside Retail US (republished from The Conversation)",
+   "title": "Shoppers are more skeptical about companies' justifications for price hikes",
+   "date": "2026-09-08",
+   "url": "https://insideretail.us/?p=89821"
+  },
+  {
+   "publisher": "University of Tennessee, Haslam College of Business",
+   "title": "UT Haslam researcher finds messaging matters in price increase notifications",
+   "date": "2026-07-14",
+   "url": "https://haslam.utk.edu/news/ut-haslam-researcher-finds-messaging-matters-in-price-increase-notifications/"
+  },
+  {
+   "publisher": "Subscription Insider",
+   "title": "The reason you give for a price increase can affect churn",
+   "date": "2026-07-15",
+   "url": "https://www.subscriptioninsider.com/blog/price-increase-messaging-subscription-churn-news"
+  },
+  {
+   "publisher": "American Economic Review 76(4)",
+   "title": "Fairness as a Constraint on Profit Seeking: Entitlements in the Market (Kahneman, Knetsch, Thaler)",
+   "date": "1986-09",
+   "url": "https://eml.berkeley.edu/~saez/course131/Kahneman-FairnessConstraintProfit-1986.pdf"
+  }
+ ],
+ "cta": "برای من بنویسید.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S6"
+ },
+ "status": "DRAFT",
+ "style": "editorial",
+ "lang": "fa"
+}
