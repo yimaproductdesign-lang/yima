@@ -1,0 +1,442 @@
+{
+ "date": "2026-11-10",
+ "stage": "1-evening",
+ "retrieved_at": "2026-11-09T21:00+04:00",
+ "scope": "branding, brand strategy, marketing only",
+ "method": "WebSearch + WebFetch (Unilever newsroom, Spiegel Research Center, Paperity/Psychonomic Science record, Marketing Dive, DLA Piper, MediaPost, Ads of the World, Creative Bloq, Beast, Edelman, GlobeNewswire, Creative Boom, Food Manufacture, Adelaide University, Packaging Europe, Campaign US, Spectrum News, Brand New, Marketing Week index, B2the7). Failed/unused: The Grocer Hovis article (site error), Marketing Week Hovis article (site error), Wikipedia pratfall page (permission timeout; replaced by Paperity record), Marketing Week McDonald's story (only a teaser seen).",
+ "weights": {
+  "freshness": 10,
+  "growth": 15,
+  "reach": 15,
+  "qualified_followers": 15,
+  "regional_business": 15,
+  "audience_psychology": 10,
+  "commercial_utility": 10,
+  "originality": 5,
+  "verifiability": 5
+ },
+ "candidates": [
+  {
+   "id": "C1",
+   "title": "The perfect five stars sells less: a visible flaw is what makes a brand believable (Dove r/eal reviews 2026 + Spiegel ratings research + pratfall effect 1966 + Oct 2026 FTC fake-review actions)",
+   "class": "evergreen (with emerging campaign evidence + breaking enforcement spark)",
+   "sources": [
+    {
+     "url": "https://www.unilever.com/news/news-search/2026/how-dove-turned-reddits-unfiltered-honesty-into-unmissable-marketing/",
+     "publisher": "Unilever (official newsroom)",
+     "event_date": "2026-05-12 (campaign launched Feb 2026)",
+     "claim": "Dove 'r/eal Reviews': invited Redditors to try the Intensive Repair 10-in-1 Serum Hair Mask and published the first 50 reviews unedited, with permission, including negative ones (e.g. 'it kinda smells like expired hotel shampoo', which 'still made the campaign'), on NYC out-of-home, social and a Manhattan pop-up. Reported: over 1 billion impressions, hour-long pop-up queues, 150+ UGC pieces; mask sales up (no figure). Emily Barfoot: 'Transparency wasn't a risk. It was our strategy.'",
+     "retrieved": "2026-11-09T21:00+04:00"
+    },
+    {
+     "url": "https://spiegel.medill.northwestern.edu/How-Online-Reviews-Influence-Sales",
+     "publisher": "Medill Spiegel Research Center, Northwestern University",
+     "event_date": "2017 (page updated 2025-12-04)",
+     "claim": "Purchase likelihood typically peaks at average ratings of 4.0-4.7 and declines as ratings approach 5.0 ('too good to be true'). A product with five reviews is 270% more likely to be bought than one with none. Sample size not stated on the page.",
+     "retrieved": "2026-11-09T21:00+04:00"
+    },
+    {
+     "url": "https://paperity.org/p/59814503/the-effect-of-a-pratfall-on-increasing-interpersonal-attractiveness",
+     "publisher": "Psychonomic Science 4(6):227-228 (Aronson, Willerman, Floyd), doi 10.3758/BF03342263",
+     "event_date": "1966",
+     "claim": "48 male students heard a taped quiz candidate, high or average ability, with or without spilling coffee. The blunder raised liking for the highly capable candidate and lowered it for the average one; the blunder alone had no significant effect. A flaw only helps when competence is already clear.",
+     "retrieved": "2026-11-09T21:00+04:00"
+    },
+    {
+     "url": "https://www.marketingdive.com/news/best-brand-campaigns-h1-2026-sold-honesty-consumers-buying/819960/",
+     "publisher": "Marketing Dive (Chris Kelly)",
+     "event_date": "2026-07-07",
+     "claim": "H1 2026 best campaigns sold candour (Dove r/eal reviews won six Cannes Lions; Burger King retired its mascot; Aerie rejected AI content). Method1's Allison Arling-Giorgi: 'The pratfall effect basically allows you to admit a flaw.'",
+     "retrieved": "2026-11-09T21:00+04:00"
+    },
+    {
+     "url": "https://www.dlapiper.com/en/insights/publications/2026/11/ftcs-actions-against-fake-reviews",
+     "publisher": "DLA Piper (law-firm analysis)",
+     "event_date": "2026-10-13 / 2026-10-22 (published 2026-11-02)",
+     "claim": "FTC complaints (allegations, not findings) in Oct 2026 include fabricated positive reviews and suppressing negative reviews (refunds conditioned on non-disparagement, fake BBB pages). Enforcement of the Consumer Reviews and Testimonials Rule is active.",
+     "retrieved": "2026-11-09T21:00+04:00"
+    }
+   ],
+   "scores": {
+    "freshness": 6,
+    "growth": 12,
+    "reach": 14,
+    "qualified_followers": 14,
+    "regional_business": 14,
+    "audience_psychology": 10,
+    "commercial_utility": 10,
+    "originality": 4,
+    "verifiability": 5
+   },
+   "lenses": {
+    "verification": "Dove numbers are Unilever self-reported (impressions, queues); no sales figure: say so. Spiegel 4.0-4.7 is a 2017 analysis, sample not on page: say 'research' not 'all shoppers'. Pratfall original N=48 men, 1966; key caveat: flaw helps ONLY when competence is clear (average candidate lost liking): this caveat is the story, not a footnote. FTC items are allegations; caption only, no names of alleged schemes on screen.",
+    "audience_psychology": "Every owner fears the one-star review and is tempted to hide or delete it; the reveal that perfection reads as fake is counter-intuitive and relieving. Strong save/share: 'send to the person who deletes bad reviews'.",
+    "brand_fit": "Brand trust, communication, reviews: core marketing; daily utility for small businesses on Instagram/Google Maps in Persian and international markets. Different from 11-06 (loud vs real reactions) and 11-08 (being fooled by AI): this is about showing your own flaw on purpose."
+   },
+   "story_gate": "Tension: you hide the flaw to look trustworthy, the hiding makes you less trustworthy. Image: a spilled coffee cup (the 1966 pratfall) and a 5-star row with one star dimmed.",
+   "total": 89
+  },
+  {
+   "id": "C2",
+   "title": "John Lewis 2026 Christmas ad mauled online but tests 5.6 stars on System1 (61% felt happy)",
+   "class": "breaking",
+   "sources": [
+    {
+     "url": "https://www.creativebloq.com/news/the-john-lewis-christmas-advert-is-getting-a-mauling",
+     "publisher": "Creative Bloq",
+     "event_date": "2026-11-05",
+     "claim": "'Gloria and Pickles' (Saatchi & Saatchi) criticised as materialistic; System1 5.6 stars, strongest since 2019; 61% felt happy.",
+     "retrieved": "2026-11-09T21:00+04:00"
+    }
+   ],
+   "scores": {
+    "freshness": 10,
+    "growth": 12,
+    "reach": 12,
+    "qualified_followers": 10,
+    "regional_business": 6,
+    "audience_psychology": 8,
+    "commercial_utility": 6,
+    "originality": 2,
+    "verifiability": 4
+   },
+   "lenses": {
+    "verification": "System1 figure reported second-hand.",
+    "audience_psychology": "Fun controversy.",
+    "brand_fit": "Repeats 11-06 angle (loud reaction vs real); UK-centric."
+   },
+   "gate": "fail: repetition",
+   "total": 70
+  },
+  {
+   "id": "C5",
+   "title": "Ehrenberg-Bass: modernise packaging only when likeability has measurably declined (Tropicana -20%, Bahlsen -12%)",
+   "class": "evergreen",
+   "sources": [
+    {
+     "url": "https://adelaide.edu.au/about/news/2026/reducing-risks-when-modernising-packaging/",
+     "publisher": "Adelaide University / J. Retailing & Consumer Services",
+     "event_date": "2026-04-07",
+     "claim": "58% of marketers say modernisation was the main aim of their last redesign; Tropicana 2009 -20% in a month; Bahlsen 2021 ~-12%.",
+     "retrieved": "2026-11-09T21:00+04:00"
+    }
+   ],
+   "scores": {
+    "freshness": 3,
+    "growth": 8,
+    "reach": 11,
+    "qualified_followers": 13,
+    "regional_business": 12,
+    "audience_psychology": 7,
+    "commercial_utility": 9,
+    "originality": 1,
+    "verifiability": 5
+   },
+   "lenses": {
+    "verification": "Peer-reviewed.",
+    "audience_psychology": "Good.",
+    "brand_fit": "Strong, but repeats 10-24 and 10-26."
+   },
+   "gate": "fail: repetition",
+   "total": 69
+  },
+  {
+   "id": "C9",
+   "title": "Edelman 2026: two-thirds say a brand's home-country HQ is important or a deal breaker (+5 since 2023)",
+   "class": "emerging",
+   "sources": [
+    {
+     "url": "https://www.edelman.com/trust/2026/trust-barometer/special-report-brands",
+     "publisher": "Edelman Trust Barometer Special Report",
+     "event_date": "fielded 2026-04-23 to 05-11",
+     "claim": "88% say trusting the brand is important/critical (on par with quality 89%); 66% hesitant to trust people different from them.",
+     "retrieved": "2026-11-09T21:00+04:00"
+    }
+   ],
+   "scores": {
+    "freshness": 5,
+    "growth": 8,
+    "reach": 10,
+    "qualified_followers": 11,
+    "regional_business": 11,
+    "audience_psychology": 8,
+    "commercial_utility": 6,
+    "originality": 3,
+    "verifiability": 4
+   },
+   "lenses": {
+    "verification": "Survey; country breakdown not read.",
+    "audience_psychology": "Insularity angle is politically sensitive for a diaspora audience.",
+    "brand_fit": "Fits, but risky framing and abstract image."
+   },
+   "gate": "weak: story gate + sensitivity",
+   "total": 66
+  },
+  {
+   "id": "C3",
+   "title": "Siemens Healthineers drops 'Siemens' (becomes Healthineers) and spins IVD into 'Olyrian Diagnostics'",
+   "class": "breaking",
+   "sources": [
+    {
+     "url": "https://globenewswire.com/news-release/2026/11/05/3396018/0/en/siemens-healthineers-to-rebrand-in-vitro-diagnostics-business-as-olyrian-diagnostics.html",
+     "publisher": "GlobeNewswire (company release)",
+     "event_date": "2026-11-05",
+     "claim": "IVD carve-out named Olyrian Diagnostics; parent renamed Healthineers; transition to mid-2028; 16bn tests a year.",
+     "retrieved": "2026-11-09T21:00+04:00"
+    }
+   ],
+   "scores": {
+    "freshness": 10,
+    "growth": 8,
+    "reach": 7,
+    "qualified_followers": 10,
+    "regional_business": 8,
+    "audience_psychology": 6,
+    "commercial_utility": 7,
+    "originality": 4,
+    "verifiability": 5
+   },
+   "lenses": {
+    "verification": "Official release; no rationale for dropping Siemens given.",
+    "audience_psychology": "Abstract B2B.",
+    "brand_fit": "Naming/architecture fits, but weak concrete image."
+   },
+   "gate": "fail: story gate (no concrete image)",
+   "total": 65
+  },
+  {
+   "id": "C7",
+   "title": "Fanta swaps borrowed horror licences for its own 'Haunted Universe' IP",
+   "class": "emerging",
+   "sources": [
+    {
+     "url": "https://news.designrush.com/fanta-haunted-universe-halloween-2026",
+     "publisher": "DesignRush",
+     "event_date": "2026-08",
+     "claim": "After two years of licensed horror collabs, Fanta built four original monsters as a long-term platform.",
+     "retrieved": "2026-11-09T21:00+04:00"
+    }
+   ],
+   "scores": {
+    "freshness": 6,
+    "growth": 9,
+    "reach": 11,
+    "qualified_followers": 11,
+    "regional_business": 8,
+    "audience_psychology": 7,
+    "commercial_utility": 8,
+    "originality": 1,
+    "verifiability": 4
+   },
+   "lenses": {
+    "verification": "Only listing-level read.",
+    "audience_psychology": "Good.",
+    "brand_fit": "Repeats 11-01 (borrowed fame)."
+   },
+   "gate": "fail: repetition",
+   "total": 65
+  },
+  {
+   "id": "C10",
+   "title": "McDonald's reviewing its marketing calendar after 'jumping around' on partnership campaigns",
+   "class": "breaking (unverified)",
+   "sources": [
+    {
+     "url": "https://www.marketingweek.com/marketing-news/",
+     "publisher": "Marketing Week (news index teaser only)",
+     "event_date": "2026-11 (undated)",
+     "claim": "Teaser only; article not retrieved.",
+     "retrieved": "2026-11-09T21:00+04:00"
+    }
+   ],
+   "scores": {
+    "freshness": 9,
+    "growth": 7,
+    "reach": 12,
+    "qualified_followers": 10,
+    "regional_business": 8,
+    "audience_psychology": 6,
+    "commercial_utility": 8,
+    "originality": 3,
+    "verifiability": 1
+   },
+   "lenses": {
+    "verification": "Full article not read; cannot be used.",
+    "audience_psychology": "-",
+    "brand_fit": "Overlaps 11-01."
+   },
+   "gate": "fail: unverified",
+   "total": 64
+  },
+  {
+   "id": "C12",
+   "title": "Adobe: AI-referred shoppers bring 83% more revenue per visit (Sept 2026)",
+   "class": "commercial",
+   "sources": [
+    {
+     "url": "https://www.b2the7.com/news-blog/marketing-trends-november-9-2026",
+     "publisher": "B2the7 roundup citing Adobe",
+     "event_date": "2026-11-09",
+     "claim": "AI-referred visitors 83% more revenue per visit in Sept 2026; AI traffic forecast +159% on Thanksgiving.",
+     "retrieved": "2026-11-09T21:00+04:00"
+    }
+   ],
+   "scores": {
+    "freshness": 10,
+    "growth": 11,
+    "reach": 9,
+    "qualified_followers": 9,
+    "regional_business": 7,
+    "audience_psychology": 4,
+    "commercial_utility": 8,
+    "originality": 3,
+    "verifiability": 3
+   },
+   "lenses": {
+    "verification": "Second-hand; Adobe primary not read.",
+    "audience_psychology": "Dry stat.",
+    "brand_fit": "Ecommerce/AI search, edge of scope; no story image."
+   },
+   "gate": "fail: story gate",
+   "total": 64
+  },
+  {
+   "id": "C6",
+   "title": "Coca-Cola's unified packaging makes Zero Sugar and regular look alike: the 'confusion cost'",
+   "class": "emerging",
+   "sources": [
+    {
+     "url": "https://www.packagingeurope.com/how-will-consumers-respond-to-coca-colas-packaging-rebrand/",
+     "publisher": "Packaging Europe (interview, Fernando Arendar)",
+     "event_date": "2026-07-30",
+     "claim": "Designer opinion; only anecdotal consumer evidence (a TikTok post).",
+     "retrieved": "2026-11-09T21:00+04:00"
+    }
+   ],
+   "scores": {
+    "freshness": 5,
+    "growth": 8,
+    "reach": 12,
+    "qualified_followers": 10,
+    "regional_business": 10,
+    "audience_psychology": 7,
+    "commercial_utility": 7,
+    "originality": 2,
+    "verifiability": 2
+   },
+   "lenses": {
+    "verification": "Anecdotal only; cannot be called a trend.",
+    "audience_psychology": "Relatable.",
+    "brand_fit": "Overlaps 10-30."
+   },
+   "gate": "fail: verifiability + repetition",
+   "total": 63
+  },
+  {
+   "id": "C8",
+   "title": "Refresh season: 7UP turns its logo sideways for 'lime-forward'; Waterloo picks 'evolution vs revolution' after eye-tracking",
+   "class": "emerging",
+   "sources": [
+    {
+     "url": "https://campaignlive.com/article/new-crop-brand-refreshes-arrived-will-public-sold-them/1969133",
+     "publisher": "Campaign US",
+     "event_date": "2026 (undated)",
+     "claim": "7UP first refresh in 15 years; Waterloo tested 3 concepts with eye-tracking, +17% household penetration H1 2026; Motto's Sunny Bonnell: 'Brand equity is accumulated familiarity.'",
+     "retrieved": "2026-11-09T21:00+04:00"
+    }
+   ],
+   "scores": {
+    "freshness": 5,
+    "growth": 7,
+    "reach": 9,
+    "qualified_followers": 11,
+    "regional_business": 9,
+    "audience_psychology": 6,
+    "commercial_utility": 7,
+    "originality": 2,
+    "verifiability": 3
+   },
+   "lenses": {
+    "verification": "Article undated.",
+    "audience_psychology": "Moderate.",
+    "brand_fit": "Overlaps 10-24/11-07."
+   },
+   "gate": "fail: repetition",
+   "total": 59
+  },
+  {
+   "id": "C4",
+   "title": "Allied Bakeries renamed Hovis Bakeries after buying its rival; BrandOpus identity 'with no wheat in sight'",
+   "class": "emerging",
+   "sources": [
+    {
+     "url": "https://www.creativeboom.com/news/hovis-and-kingsmill-are-now-one-business-and-brandopus-has-given-it-an-identity-with-no-wheat-in-sight/",
+     "publisher": "Creative Boom",
+     "event_date": "2026-07-13",
+     "claim": "Combined Hovis/Kingsmill business (~35% UK share); Kingsmill sales -31.5% in 52 weeks; identity avoids wheat imagery.",
+     "retrieved": "2026-11-09T21:00+04:00"
+    },
+    {
+     "url": "https://www.foodmanufacture.co.uk/Article/2026/07/08/allied-bakeries-and-hovis-group-will-operate-as-hovis-bakeries/",
+     "publisher": "Food Manufacture",
+     "event_date": "2026-07-08",
+     "claim": "ABF renamed Allied Bakeries as Hovis Bakeries on completion; reason for the name not stated.",
+     "retrieved": "2026-11-09T21:00+04:00"
+    }
+   ],
+   "scores": {
+    "freshness": 5,
+    "growth": 6,
+    "reach": 7,
+    "qualified_followers": 11,
+    "regional_business": 7,
+    "audience_psychology": 6,
+    "commercial_utility": 7,
+    "originality": 4,
+    "verifiability": 4
+   },
+   "lenses": {
+    "verification": "Why Hovis name won is not stated; would require speculation.",
+    "audience_psychology": "Moderate.",
+    "brand_fit": "Naming fits; UK-specific."
+   },
+   "gate": "weak: key 'why' unverified",
+   "total": 57
+  },
+  {
+   "id": "C11",
+   "title": "Cleveland airports rebrand keeps the blue-green palette ('Where the Land Meets the Sky')",
+   "class": "breaking",
+   "sources": [
+    {
+     "url": "https://spectrumnews1.com/oh/cincinnati/news/2026/11/05/cleveland-airports-rebrand-with-new-logo",
+     "publisher": "Spectrum News",
+     "event_date": "2026-11-05",
+     "claim": "New identities for Cleveland Hopkins and Burke Lakefront; agency, cost and reaction not reported.",
+     "retrieved": "2026-11-09T21:00+04:00"
+    }
+   ],
+   "scores": {
+    "freshness": 10,
+    "growth": 3,
+    "reach": 4,
+    "qualified_followers": 7,
+    "regional_business": 4,
+    "audience_psychology": 3,
+    "commercial_utility": 4,
+    "originality": 2,
+    "verifiability": 4
+   },
+   "lenses": {
+    "verification": "Thin.",
+    "audience_psychology": "Low.",
+    "brand_fit": "Local, no tension."
+   },
+   "gate": "fail: story gate",
+   "total": 41
+  }
+ ],
+ "pick": "C1",
+ "pick_reason": "Highest total and strongest story gate: a counter-intuitive tension (hiding the flaw is what makes you look untrustworthy) with concrete images (the spilled coffee cup of the 1966 pratfall study; a five-star row with one star dimmed; Dove printing a 'smells like expired hotel shampoo' review on its own ad). Universal for Persian and international small-business owners who live on Instagram and map reviews. Evergreen core with 2026 campaign evidence and an Oct-Nov 2026 enforcement spark. No overlap with the last 7 days.",
+ "scores_note": "growth, reach, qualified-follower, regional, psychology, utility and originality are estimates; verifiability and freshness are judged from sources. Several strong candidates (C5, C7, C2) failed only on repetition of recent topics."
+}
