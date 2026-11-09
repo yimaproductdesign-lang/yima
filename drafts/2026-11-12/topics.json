@@ -1,5 +1,5 @@
 {
- "date": "2026-11-10",
+ "date": "2026-11-12",
  "T": {
   "topic_fa": "پنج ستاره‌ی کامل کمتر می‌فروشد: عیبی که خودتان نشان می‌دهید، برندتان را باورپذیر می‌کند",
   "topic_en": "A perfect five stars sells less: the flaw you show is what makes your brand believable",
@@ -60,7 +60,7 @@
    {
     "object": "row of five stars, the fifth one slightly dimmed (monochrome, teal on the 4.7 mark)",
     "line_idea": "Hook: the perfect five stars scares customers; buying peaks around 4.7",
-    "reuse_path_or_new": "new: assets/objects/2026-11-10/stars_row.png"
+    "reuse_path_or_new": "new: assets/objects/2026-11-12/stars_row.png"
    },
    {
     "object": "smartphone showing a blank review screen",
@@ -85,7 +85,7 @@
    {
     "object": "jar of hair mask, plain white-and-gold, unbranded (natural colour: the product in the story)",
     "line_idea": "Dove put the first 50 Reddit reviews on its own ads, unedited",
-    "reuse_path_or_new": "new: assets/objects/2026-11-10/hair_mask_jar.png (colour; or use T-a/T-b if uploaded)"
+    "reuse_path_or_new": "new: assets/objects/2026-11-12/hair_mask_jar.png (colour; or use T-a/T-b if uploaded)"
    },
    {
     "object": "megaphone",
@@ -95,7 +95,7 @@
    {
     "object": "tipped-over coffee cup with a spill",
     "line_idea": "1966: a capable quiz candidate spills coffee and becomes more likeable",
-    "reuse_path_or_new": "new: assets/objects/2026-11-10/spilled_cup.png (base: assets/objects/2026-10-29/cup.png)"
+    "reuse_path_or_new": "new: assets/objects/2026-11-12/spilled_cup.png (base: assets/objects/2026-10-29/cup.png)"
    },
    {
     "object": "trophy",
@@ -110,7 +110,7 @@
    {
     "object": "kintsugi bowl (crack mended with gold, monochrome with teal seam)",
     "line_idea": "Don't delete the 3-star review: answer it and show what you fixed",
-    "reuse_path_or_new": "new: assets/objects/2026-11-10/kintsugi_bowl.png"
+    "reuse_path_or_new": "new: assets/objects/2026-11-12/kintsugi_bowl.png"
    },
    {
     "object": "row of five stars (return)",
