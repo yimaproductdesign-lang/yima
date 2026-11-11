@@ -31,5 +31,21 @@ One topic per day in **branding, brand strategy or marketing**, two reels on the
 - `drafts/DATE/reel_02.json`: English, `"lang": "en"`, copy rules `copywriting_en.md` (written natively, not translated), CTA «Write to me.», signature «Behnood Kavian», Latin font Inter (`assets/fonts/inter`, OFL).
 Reference samples: `samples/sample_reel.json` (fa), `samples/sample_reel_en.json` (en). The renderer switches direction, font and signature by `lang`; QA lints each language with its own rules.
 
+### Topic selection (owner's rule from 2026-11-11, overrides older scoring)
+Owner feedback: «موضوعاتت جذاب نیستن برای مخاطب‌ها. مخاطب موضوعات خاص میخواد و ترند و جذاب.» Recent topics were principle/research-led (e.g. "a perfect five stars sells less", "'our costs went up' stopped working"); that style is no longer the main topic.
+
+Every topic must be one of these three types (rotate; no type more than twice in a row):
+1. **Famous-brand controversy** — a rebrand, logo, ad, packaging or naming move by a brand people already know that sparked real public reaction in the last ~14 days (backlash, reversal, mockery, sell-out, boycott, lawsuit).
+2. **Viral trend brands jumped on** — a meme, format, product craze or cultural moment hot on Instagram/TikTok/X right now, and what the brands that rode it (or flopped) did.
+3. **Secret behind a familiar brand** — the hidden story, origin or design decision behind a brand/logo/product everyone knows ("why X's logo has…", "the mistake that made Y famous"). Evergreen is fine here, but it must be surprising and little known.
+
+Rules:
+- The hook names the famous brand or the trend in the first line and opens a curiosity gap. Test: "would someone send this to a friend?" If not, drop it.
+- Brands must be recognisable to both a Persian-speaking and an international audience (global brands; well-known regional brands welcome). No obscure B2B firms, local agencies or niche studies as the main subject.
+- Research and studies are allowed only as the "why it happened" layer, never as the topic itself.
+- Virality needs evidence: number of outlets covering it, social reactions quoted in coverage, or search interest. Label estimates; never call something viral without that evidence.
+- Score /100: trend/virality 25, brand recognition 20, curiosity/surprise 15, story/drama (clear conflict + concrete image) 15, freshness 10, lesson for business owners 10, verifiability 5.
+- Still in scope: branding, brand strategy, marketing. Still never fabricate, never mock private individuals, never name the UAE, Dubai or any emirate.
+
 ## Voice-over (Azure Speech)
 **English reel only** (owner: the Persian reel stays as it is, music without voice). `reel_voice.py` adds a male narrator per scene and ducks the music under it. Voice: `en-US-AndrewNeural`; rate -6 %, pitch -3 % for a soft, warm read. Enable with `"voice": {"enabled": true}` in the reel JSON; a scene can set `"vo"` to the exact spoken sentence (e.g. numbers written out, smoother spoken order). Scene length grows to fit the voice. Requires `AZURE_SPEECH_KEY` and `AZURE_SPEECH_REGION` in the environment and network access to `<region>.tts.speech.microsoft.com`; without them the reel renders without a voice (QA blocks a reel that requested a voice and did not get one). Clips are cached in `out/_vo_cache/`.
