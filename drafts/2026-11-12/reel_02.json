@@ -1,0 +1,668 @@
+{
+ "reel_id": "2026-11-12_EN",
+ "date": "2026-11-12",
+ "topic": "Dove advertised its bad reviews: a perfect five stars sells less; the flaw you show makes your brand believable",
+ "pillar": "brand_trust_reviews",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "graphite",
+   "spot_y": 1280,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.unilever.com/news/news-search/2026/how-dove-turned-reddits-unfiltered-honesty-into-unmissable-marketing/",
+     "publisher": "Unilever (official newsroom)",
+     "event_date": "2026-05-12",
+     "retrieved_at": "2026-11-12T03:30:00Z",
+     "claim": "Dove published the first 50 Reddit reviews of its Intensive Repair hair mask unedited, with permission, on out-of-home billboards across New York City and social; one read 'it kinda smells like expired hotel shampoo'."
+    },
+    {
+     "url": "https://marketingdive.com/news/dove-lets-redditors-do-the-talking-in-transparency-focused-campaign/811642",
+     "publisher": "Marketing Dive",
+     "event_date": "2026-02-10",
+     "retrieved_at": "2026-11-12T03:30:00Z",
+     "claim": "First 50 Reddit reviews 'regardless of opinion', unaltered, used with permission; launched with a Flatiron Plaza pop-up, Feb 5-6, 2026."
+    }
+   ],
+   "objects": [
+    {
+     "key": "jar",
+     "src": "assets/objects/2026-11-12/hair_mask_jar.png",
+     "x": 540,
+     "y": 1280,
+     "w": 430,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "anim": "rise",
+     "float": 3
+    }
+   ],
+   "motion_rationale": "قوطی ماسک مو (خودِ محصول داستان، رنگی، بی‌برند) زیر نور موضعی = همان محصولی که داو نقدهای بدش را تبلیغ کرد؛ در S14 برمی‌گردد",
+   "lines": [
+    {
+     "text": "Dove ran its own bad reviews",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "as *ads*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.unilever.com/news/news-search/2026/how-dove-turned-reddits-unfiltered-honesty-into-unmissable-marketing/",
+     "publisher": "Unilever (official newsroom)",
+     "event_date": "2026-05-12",
+     "retrieved_at": "2026-11-12T03:30:00Z",
+     "claim": "Dove published the first 50 Reddit reviews of its Intensive Repair hair mask unedited, with permission, on out-of-home billboards across New York City and social; one read 'it kinda smells like expired hotel shampoo'."
+    }
+   ],
+   "objects": [
+    {
+     "key": "mega",
+     "src": "assets/objects/2026-11-06/megaphone.png",
+     "x": 540,
+     "y": 1300,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "slide_l",
+     "vibrate": 2
+    }
+   ],
+   "motion_rationale": "بلندگو = نقد منفی را خودشان بلند و در خیابان گفتند",
+   "lines": [
+    {
+     "text": "One review:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "\"it kinda smells like *expired* hotel shampoo.\"",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "eraser",
+     "src": "assets/objects/2026-10-22/eraser.png",
+     "x": 540,
+     "y": 1290,
+     "w": 520,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -8,
+     "anim": "slide_r",
+     "path": [
+      [
+       0.5,
+       620,
+       1290
+      ],
+      [
+       1.6,
+       460,
+       1300
+      ],
+      [
+       2.7,
+       600,
+       1285
+      ]
+     ]
+    }
+   ],
+   "motion_rationale": "پاک‌کن که رفت‌وبرگشت می‌کند = ما نقد بد را پاک می‌کنیم",
+   "lines": [
+    {
+     "text": "Most of us do the opposite.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "We *delete* the bad one.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://spiegel.medill.northwestern.edu/How-Online-Reviews-Influence-Sales",
+     "publisher": "Medill Spiegel Research Center, Northwestern University",
+     "event_date": "2017 (page updated 2025)",
+     "retrieved_at": "2026-11-12T03:30:00Z",
+     "claim": "Purchase likelihood typically peaks at ratings in the 4.0-4.7 range and falls as ratings approach 5.0 ('too good to be true')."
+    }
+   ],
+   "objects": [
+    {
+     "key": "stars",
+     "src": "assets/objects/2026-11-12/stars_row.png",
+     "x": 540,
+     "y": 1260,
+     "w": 820,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "pop"
+    }
+   ],
+   "motion_rationale": "ردیف پنج ستاره‌ی براق = امتیاز کامل؛ کمالی که بدگمانی می‌آورد",
+   "lines": [
+    {
+     "text": "But a perfect five stars",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "makes buyers *wary*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "bg": "graphite",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://spiegel.medill.northwestern.edu/How-Online-Reviews-Influence-Sales",
+     "publisher": "Medill Spiegel Research Center, Northwestern University",
+     "event_date": "2017 (page updated 2025)",
+     "retrieved_at": "2026-11-12T03:30:00Z",
+     "claim": "Purchase likelihood typically peaks at ratings in the 4.0-4.7 range and falls as ratings approach 5.0 ('too good to be true')."
+    }
+   ],
+   "fx": [
+    {
+     "type": "labels",
+     "items": [
+      {
+       "text": "4.7",
+       "x": 380,
+       "y": 1260,
+       "size": 170,
+       "acc": true,
+       "move": "down",
+       "t": 1.6
+      },
+      {
+       "text": "5.0",
+       "x": 700,
+       "y": 1260,
+       "size": 170,
+       "move": "up",
+       "t": 1.6
+      }
+     ]
+    }
+   ],
+   "motion_rationale": "عدد به‌جای شیء: ۴٫۷ با رنگ برند پایین می‌نشیند، ۵٫۰ بالا می‌رود و کم‌رنگ می‌شود = اوج خرید پیش از امتیاز کامل است",
+   "lines": [
+    {
+     "text": "Buying tends to peak",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "between 4 and *4.7*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://spiegel.medill.northwestern.edu/How-Online-Reviews-Influence-Sales",
+     "publisher": "Medill Spiegel Research Center, Northwestern University",
+     "event_date": "2017 (page updated 2025)",
+     "retrieved_at": "2026-11-12T03:30:00Z",
+     "claim": "Purchase likelihood typically peaks at ratings in the 4.0-4.7 range and falls as ratings approach 5.0 ('too good to be true')."
+    }
+   ],
+   "objects": [
+    {
+     "key": "mask",
+     "src": "assets/objects/2026-11-08/mask.png",
+     "x": 540,
+     "y": 1290,
+     "w": 520,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "fade",
+     "float": 2
+    }
+   ],
+   "motion_rationale": "نقاب سفید بی‌نقص = بی‌عیبی که ساختگی به نظر می‌رسد",
+   "lines": [
+    {
+     "text": "Flawless",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "looks *edited*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "lens",
+     "src": "assets/objects/2026-10-22/magnifier.png",
+     "x": 540,
+     "y": 1290,
+     "w": 480,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -10,
+     "anim": "slide_r",
+     "path": [
+      [
+       0.6,
+       620,
+       1290
+      ],
+      [
+       2.0,
+       460,
+       1260
+      ],
+      [
+       3.2,
+       580,
+       1310
+      ]
+     ]
+    }
+   ],
+   "motion_rationale": "ذره‌بین که می‌گردد = مشتری دنبال ایراد می‌گردد",
+   "lines": [
+    {
+     "text": "Shoppers hunt for the catch.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "No catch? You *hid* it.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://paperity.org/p/59814503/the-effect-of-a-pratfall-on-increasing-interpersonal-attractiveness",
+     "publisher": "Psychonomic Science 4(6) (Aronson, Willerman, Floyd)",
+     "event_date": "1966",
+     "retrieved_at": "2026-11-12T03:30:00Z",
+     "claim": "48 male students heard a taped quiz candidate (superior: 92% correct, or average: 30%), with or without a coffee-spilling blunder. The blunder raised liking for the superior candidate and lowered it for the average one."
+    }
+   ],
+   "objects": [
+    {
+     "key": "cup",
+     "src": "assets/objects/2026-11-12/spilled_cup.png",
+     "x": 540,
+     "y": 1290,
+     "w": 620,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "drop",
+     "rot": -3
+    }
+   ],
+   "motion_rationale": "چرخش ایده (drop): فنجان واژگون و قهوه‌ی ریخته = خطای آزمایش ۱۹۶۶ که آدم توانا را دوست‌داشتنی‌تر کرد",
+   "lines": [
+    {
+     "text": "1966. A quiz star spills coffee.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "People like him *more*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://paperity.org/p/59814503/the-effect-of-a-pratfall-on-increasing-interpersonal-attractiveness",
+     "publisher": "Psychonomic Science 4(6) (Aronson, Willerman, Floyd)",
+     "event_date": "1966",
+     "retrieved_at": "2026-11-12T03:30:00Z",
+     "claim": "48 male students heard a taped quiz candidate (superior: 92% correct, or average: 30%), with or without a coffee-spilling blunder. The blunder raised liking for the superior candidate and lowered it for the average one."
+    }
+   ],
+   "objects": [
+    {
+     "key": "trophy",
+     "src": "assets/objects/2026-10-24/trophy.png",
+     "x": 540,
+     "y": 1270,
+     "w": 360,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise"
+    }
+   ],
+   "motion_rationale": "جام = شرط ماجرا: فقط برای آدمِ از پیش عالی کار کرد",
+   "lines": [
+    {
+     "text": "Only because he was *brilliant*.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "The average guy lost points.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://paperity.org/p/59814503/the-effect-of-a-pratfall-on-increasing-interpersonal-attractiveness",
+     "publisher": "Psychonomic Science 4(6) (Aronson, Willerman, Floyd)",
+     "event_date": "1966",
+     "retrieved_at": "2026-11-12T03:30:00Z",
+     "claim": "48 male students heard a taped quiz candidate (superior: 92% correct, or average: 30%), with or without a coffee-spilling blunder. The blunder raised liking for the superior candidate and lowered it for the average one."
+    },
+    {
+     "url": "https://spiegel.medill.northwestern.edu/How-Online-Reviews-Influence-Sales",
+     "publisher": "Medill Spiegel Research Center, Northwestern University",
+     "event_date": "2017 (page updated 2025)",
+     "retrieved_at": "2026-11-12T03:30:00Z",
+     "claim": "Purchase likelihood typically peaks at ratings in the 4.0-4.7 range and falls as ratings approach 5.0 ('too good to be true')."
+    }
+   ],
+   "fx": [
+    {
+     "type": "viewfinder",
+     "box": [
+      200,
+      1040,
+      880,
+      1500
+     ],
+     "t": 0.5
+    }
+   ],
+   "motion_rationale": "احتیاط یک بار: منظره‌یاب = فقط یک قاب کوچک دیدیم؛ آزمایش قدیمی و کوچک",
+   "lines": [
+    {
+     "text": "Old lab study. 48 students.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "A *clue*, not a law.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "bg": "graphite",
+   "spot_y": 1300,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "scale",
+     "src": "assets/objects/2026-10-22/scale.png",
+     "x": 540,
+     "y": 1300,
+     "w": 520,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "fade"
+    }
+   ],
+   "motion_rationale": "ترازو = مشتری عیب را کنار باقی کیفیت می‌سنجد؛ اول کفه‌ی کیفیت باید سنگین باشد",
+   "lines": [
+    {
+     "text": "Be *good* first.",
+     "kind": "h",
+     "dim": false
+    },
+    {
+     "text": "Then let the flaw show.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "bowl",
+     "src": "assets/objects/2026-11-12/kintsugi_bowl.png",
+     "x": 540,
+     "y": 1290,
+     "w": 600,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "rise",
+     "color": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "motion_rationale": "کاسه‌ی کینتسوگی با درز طلایی = ترک را پنهان نکن، تعمیرش را نشان بده (پاسخ به نقد سه‌ستاره)",
+   "lines": [
+    {
+     "text": "Don't delete the three-star review.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*Answer* it. Show the fix.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://www.dlapiper.com/en/insights/publications/2026/11/ftcs-actions-against-fake-reviews",
+     "publisher": "DLA Piper",
+     "event_date": "2026-11-02",
+     "retrieved_at": "2026-11-12T03:30:00Z",
+     "claim": "FTC complaints (allegations) in October 2026 involve fabricated positive reviews and suppression of negative reviews; the Consumer Reviews and Testimonials Rule is being enforced."
+    }
+   ],
+   "objects": [
+    {
+     "key": "phone",
+     "src": "assets/objects/2026-10-25/phone.png",
+     "x": 540,
+     "y": 1290,
+     "w": 420,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -6,
+     "anim": "drop"
+    }
+   ],
+   "motion_rationale": "گوشی = جایی که نقد ساخته یا پنهان می‌شود؛ هر دو همان فریب",
+   "lines": [
+    {
+     "text": "Fake reviews, hidden reviews:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "same *lie*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://spiegel.medill.northwestern.edu/How-Online-Reviews-Influence-Sales",
+     "publisher": "Medill Spiegel Research Center, Northwestern University",
+     "event_date": "2017 (page updated 2025)",
+     "retrieved_at": "2026-11-12T03:30:00Z",
+     "claim": "Purchase likelihood typically peaks at ratings in the 4.0-4.7 range and falls as ratings approach 5.0 ('too good to be true')."
+    }
+   ],
+   "objects": [
+    {
+     "key": "jar",
+     "src": "assets/objects/2026-11-12/hair_mask_jar.png",
+     "x": 540,
+     "y": 1280,
+     "w": 430,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "anim": "fade"
+    }
+   ],
+   "motion_rationale": "بازگشت قوطی آغاز = برندی که عیبش را نشان داد و باور شد",
+   "lines": [
+    {
+     "text": "A 4.7 people believe",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "beats a 5 nobody *trusts*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "bg": "primary",
+   "claim_type": "interpretation",
+   "motion_rationale": "کارت پایانی",
+   "logo": true,
+   "txt_top": 1080,
+   "lines": [
+    {
+     "text": "Write to me.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  }
+ ],
+ "caption": "Dove ran bad reviews of its own product as ads. And the mask sold more.\n\nIn February 2026, Dove asked Redditors to try its Intensive Repair hair mask, then ran the first 50 reviews, whatever they said, unedited and with permission, on New York billboards and social. One read: \"it kinda smells like expired hotel shampoo.\" It stayed in. Unilever reports more than a billion impressions, hour-long queues at the pop-up and higher mask sales (no figure given). The campaign won six Cannes Lions.\n\nWhy did it work? Northwestern's Spiegel Research Center found purchase likelihood typically peaks at ratings between 4.0 and 4.7 and falls as they approach 5.0: perfect looks too good to be true. And in a classic 1966 study, a quiz candidate who spilled coffee became more likeable, but only if he was already excellent. The average candidate who did the same lost points.\n\nMy take: that condition is the whole story. A flaw only helps once your quality is obvious. Be good first. Then don't delete the three-star review; answer it and show what you changed. And never fake a flaw or a review; regulators are already going after fake reviews and suppressed negative ones.\n\nThe limits: the 1966 study is small and old (48 male students, taped audio); the Spiegel data is about online shopping, and \"typically\" means not always; Dove's numbers are Unilever's own. Sources: Unilever, Marketing Dive, Spiegel Research Center, Psychonomic Science (1966), DLA Piper. The objects in this reel are AI-generated; the jar is an unbranded stand-in.\n\nWhat's the worst review anyone ever left you, and what did you do with it? Write to me.\n\n— Behnood Kavian",
+ "hashtags": [
+  "#marketing",
+  "#branding",
+  "#customerreviews",
+  "#consumerpsychology"
+ ],
+ "sources": [
+  {
+   "publisher": "Unilever",
+   "title": "How Dove turned Reddit's unfiltered honesty into unmissable marketing",
+   "date": "2026-05-12",
+   "url": "https://www.unilever.com/news/news-search/2026/how-dove-turned-reddits-unfiltered-honesty-into-unmissable-marketing/"
+  },
+  {
+   "publisher": "Marketing Dive",
+   "title": "Dove lets Redditors do the talking in transparency-focused campaign",
+   "date": "2026-02-10",
+   "url": "https://marketingdive.com/news/dove-lets-redditors-do-the-talking-in-transparency-focused-campaign/811642"
+  },
+  {
+   "publisher": "Unilever",
+   "title": "Take a look at Unilever's 2026 Cannes Lions-winning campaigns",
+   "date": "2026-07-07",
+   "url": "https://www.unilever.com/news/news-search/2026/take-a-look-at-unilevers-2026-cannes-lionswinning-campaigns/"
+  },
+  {
+   "publisher": "Medill Spiegel Research Center, Northwestern University",
+   "title": "How Online Reviews Influence Sales",
+   "date": "2017 (updated 2025)",
+   "url": "https://spiegel.medill.northwestern.edu/How-Online-Reviews-Influence-Sales"
+  },
+  {
+   "publisher": "Psychonomic Science 4(6):227-228 (Aronson, Willerman, Floyd)",
+   "title": "The effect of a pratfall on increasing interpersonal attractiveness",
+   "date": "1966",
+   "url": "https://paperity.org/p/59814503/the-effect-of-a-pratfall-on-increasing-interpersonal-attractiveness"
+  },
+  {
+   "publisher": "DLA Piper",
+   "title": "FTC's actions against fake reviews",
+   "date": "2026-11-02",
+   "url": "https://www.dlapiper.com/en/insights/publications/2026/11/ftcs-actions-against-fake-reviews"
+  }
+ ],
+ "cta": "Write to me.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S8"
+ },
+ "status": "DRAFT",
+ "style": "editorial",
+ "lang": "en"
+}
