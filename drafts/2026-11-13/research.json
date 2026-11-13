@@ -1,0 +1,28 @@
+{
+ "date": "2026-11-13",
+ "stage": "2-morning (stage 1 output missing; research done in this run)",
+ "retrieved_at": "2026-11-13T01:00+04:00",
+ "scope": "branding, brand strategy, marketing only; owner's topic rule of 2026-11-11 (types: famous-brand controversy / viral trend / brand secret)",
+ "type_rotation": "2026-11-12 was a famous brand's surprising move (Dove, type 1/3). Today type 1 again (allowed: max twice in a row); next run should prefer type 2 or 3.",
+ "method": "WebSearch + WebFetch. Fetched: Yahoo Entertainment (Skims), Global News, FashionUnited, Yahoo/The Independent, Creative Bloq (John Lewis), Primetimer (John Lewis). Failed: NBC News and Today.com (robots), CBC (client error), The New Daily (client error); BBC not searchable from here.",
+ "weights": {"trend_virality": 25, "brand_recognition": 20, "curiosity_surprise": 15, "story_drama": 15, "freshness": 10, "business_lesson": 10, "verifiability": 5},
+ "candidates": [
+  {"id": "C1", "title": "Skims' $148 advent calendar of hair ties and keychains; refunds after unboxing backlash", "type": 1, "dates": "launched 2026-10-29; refunds reported 2026-11-09/10",
+   "evidence_of_virality": "Kayla Ryan TikTok unboxing 18.9M (FashionUnited) to 22M+ (Global News) views; covered by NBC, Today, Global News, CBC, Fox, Yahoo/Independent, FashionUnited, Marie Claire AU, LA Mag and others (10+ outlets seen in search results)",
+   "scores": {"trend_virality": 23, "brand_recognition": 18, "curiosity_surprise": 13, "story_drama": 14, "freshness": 10, "business_lesson": 9, "verifiability": 5}, "total": 92, "picked": true},
+  {"id": "C2", "title": "John Lewis 'Gloria and Pickles' Christmas ad: public mauling vs. best System1 score since 2019", "type": 1, "dates": "2026-11-03/05",
+   "evidence_of_virality": "Creative Bloq, Primetimer, regional UK press, X trending page; '20x dislikes' claim is from a single X user (unverified)",
+   "scores": {"trend_virality": 20, "brand_recognition": 11, "curiosity_surprise": 13, "story_drama": 12, "freshness": 10, "business_lesson": 9, "verifiability": 4}, "total": 79, "picked": false, "note": "strong paradox (backlash vs. testing); weaker recognition for a Persian-speaking audience; good backup"},
+  {"id": "C3", "title": "Converse pulls ad over alleged KKK imagery", "type": 1, "dates": "2026-09-19", "scores_total_estimate": 55, "picked": false, "note": "outside 14-day window; sensitive"},
+  {"id": "C4", "title": "Callaway x Good Good ad criticised (Adweek)", "type": 1, "dates": "not verified", "scores_total_estimate": 45, "picked": false, "note": "niche golf audience; not researched further"},
+  {"id": "C5", "title": "CD Projekt Red new logo backlash (Creative Bloq)", "type": 1, "dates": "not verified", "scores_total_estimate": 50, "picked": false, "note": "date not confirmed in this run"},
+  {"id": "C6", "title": "Prediction markets' midterm marketing push (Adweek)", "type": 2, "scores_total_estimate": 40, "picked": false, "note": "brand recognition low; politics-adjacent"},
+  {"id": "C7", "title": "November TikTok/Instagram trend roundups (SocialPilot, SocialBee, Pepper Agency)", "type": 2, "scores_total_estimate": 45, "picked": false, "note": "generic roundups, no single brand story verified"},
+  {"id": "C8", "title": "Jaguar 'Copy Nothing' rebrand follow-up", "type": 1, "scores_total_estimate": 40, "picked": false, "note": "stale (2024-25); covered widely before"},
+  {"id": "C9", "title": "Cracker Barrel logo reversal", "type": 1, "scores_total_estimate": 38, "picked": false, "note": "2025, stale"},
+  {"id": "C10", "title": "Chanel 2021 advent calendar (precedent cited by FashionUnited)", "type": 3, "scores_total_estimate": 50, "picked": false, "note": "used only as background, not on screen"}
+ ],
+ "scoring_note": "Scores are editorial estimates, not measured data. C3-C10 were screened out early and given rough totals only.",
+ "brand_fit_gate": "C1 passes: global brand, pricing/brand promise lesson for any business owner. No private individual mocked (the creator is quoted only via press, not named on screen).",
+ "story_gate": "C1 passes: concrete object (calendar of small doors), clear conflict (price vs contents), resolution (refunds)."
+}

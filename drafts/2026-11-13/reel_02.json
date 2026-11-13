@@ -1,0 +1,661 @@
+{
+ "reel_id": "2026-11-13_EN",
+ "date": "2026-11-13",
+ "topic": "Skims' $148 advent calendar was full of hair ties: a price is a promise, and the unboxing makes the gap public",
+ "pillar": "pricing_brand_promise",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.yahoo.com/entertainment/articles/kim-kardashian-skims-offers-refunds-200823739.html",
+     "publisher": "Yahoo Entertainment (via Where Is The Buzz; statement to Today.com)",
+     "event_date": "2026-11-09",
+     "retrieved_at": "2026-11-13T01:20:00Z",
+     "claim": "Skims 'Accessories Advent Calendar', released Oct 29, $148 (US) / £158 (UK), 12 days of surprises; contents: bear keychain, hair elastics, satin scrunchies, bobby pins, hair clips, bra-elastic headbands, comb keychain, logo keychain, logo squishy toy; no clothing."
+    },
+    {
+     "url": "https://globalnews.ca/news/12144875/skims-refund-advent-calendar-kim-kardashian/",
+     "publisher": "Global News (Rachel Goodman)",
+     "event_date": "2026-11-10",
+     "retrieved_at": "2026-11-13T01:20:00Z",
+     "claim": "Skims: 'the calendar didn't meet expectations and we have personally contacted every customer' and 'offered them a choice of a full refund or a SKIMS credit'. Kayla Ryan's unboxing TikTok had over 22 million views; another review over 8 million."
+    }
+   ],
+   "objects": [
+    {
+     "key": "cal",
+     "src": "assets/objects/2026-11-13/advent_calendar.png",
+     "x": 540,
+     "y": 1290,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "anim": "rise",
+     "float": 3
+    }
+   ],
+   "motion_rationale": "جعبه‌ی کشویی تقویم (خودِ محصول داستان، رنگی، بی‌برند) زیر نور موضعی؛ در S13 برمی‌گردد",
+   "lines": [
+    {
+     "text": "Kim Kardashian's Skims",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "sold a *$148* advent calendar.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.yahoo.com/entertainment/articles/kim-kardashian-skims-offers-refunds-200823739.html",
+     "publisher": "Yahoo Entertainment (via Where Is The Buzz; statement to Today.com)",
+     "event_date": "2026-11-09",
+     "retrieved_at": "2026-11-13T01:20:00Z",
+     "claim": "Skims 'Accessories Advent Calendar', released Oct 29, $148 (US) / £158 (UK), 12 days of surprises; contents: bear keychain, hair elastics, satin scrunchies, bobby pins, hair clips, bra-elastic headbands, comb keychain, logo keychain, logo squishy toy; no clothing."
+    }
+   ],
+   "objects": [
+    {
+     "key": "hair",
+     "src": "assets/objects/2026-11-13/hair_accessories.png",
+     "x": 540,
+     "y": 1300,
+     "w": 640,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "anim": "drop"
+    }
+   ],
+   "motion_rationale": "کش مو، اسکرانچی و سنجاق که روی کاغذ می‌ریزند = همان چیزی که پشت درها بود",
+   "lines": [
+    {
+     "text": "Behind the doors:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "hair ties, clips, a *keychain*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://globalnews.ca/news/12144875/skims-refund-advent-calendar-kim-kardashian/",
+     "publisher": "Global News (Rachel Goodman)",
+     "event_date": "2026-11-10",
+     "retrieved_at": "2026-11-13T01:20:00Z",
+     "claim": "Skims: 'the calendar didn't meet expectations and we have personally contacted every customer' and 'offered them a choice of a full refund or a SKIMS credit'. Kayla Ryan's unboxing TikTok had over 22 million views; another review over 8 million."
+    },
+    {
+     "url": "https://fashionunited.uk/news/fashion/skims-advent-calendar-backlash-tests-the-limits-of-brand-led-pricing/2026110991265",
+     "publisher": "FashionUnited (Renan Botelho de Carvalho)",
+     "event_date": "2026-11-09",
+     "retrieved_at": "2026-11-13T01:20:00Z",
+     "claim": "Kayla Ryan's TikTok unboxing: over 18.9 million views; backlash framed as a test of how much premium a brand name can support outside its category."
+    }
+   ],
+   "objects": [
+    {
+     "key": "phone",
+     "src": "assets/objects/2026-10-25/phone.png",
+     "x": 540,
+     "y": 1290,
+     "w": 420,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -6,
+     "anim": "drop",
+     "vibrate": 2
+    }
+   ],
+   "motion_rationale": "گوشی که می‌لرزد = آنباکسینگ جلوی دوربین و میلیون‌ها بازدید",
+   "lines": [
+    {
+     "text": "Buyers filmed the unboxing.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*Millions* watched.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://globalnews.ca/news/12144875/skims-refund-advent-calendar-kim-kardashian/",
+     "publisher": "Global News (Rachel Goodman)",
+     "event_date": "2026-11-10",
+     "retrieved_at": "2026-11-13T01:20:00Z",
+     "claim": "Skims: 'the calendar didn't meet expectations and we have personally contacted every customer' and 'offered them a choice of a full refund or a SKIMS credit'. Kayla Ryan's unboxing TikTok had over 22 million views; another review over 8 million."
+    },
+    {
+     "url": "https://yahoo.com/entertainment/celebrity/fashion/articles/kim-kardashian-lingerie-brand-forced-111754685.html",
+     "publisher": "Yahoo (The Independent syndication)",
+     "event_date": "2026-11-10",
+     "retrieved_at": "2026-11-13T01:20:00Z",
+     "claim": "None of the brand's underwear was included; Skims said the calendar 'didn't meet expectations', offered full refund or store credit, and disabled the product page; no plans to restock."
+    }
+   ],
+   "objects": [
+    {
+     "key": "stamp",
+     "src": "assets/objects/2026-10-29/stamp.png",
+     "x": 540,
+     "y": 1270,
+     "w": 360,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop"
+    }
+   ],
+   "motion_rationale": "مُهر که پایین می‌آید = تصمیم رسمی: بازپرداخت یا اعتبار برای همه",
+   "lines": [
+    {
+     "text": "Skims apologized",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "and offered *every* buyer a refund.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://fashionunited.uk/news/fashion/skims-advent-calendar-backlash-tests-the-limits-of-brand-led-pricing/2026110991265",
+     "publisher": "FashionUnited (Renan Botelho de Carvalho)",
+     "event_date": "2026-11-09",
+     "retrieved_at": "2026-11-13T01:20:00Z",
+     "claim": "Kayla Ryan's TikTok unboxing: over 18.9 million views; backlash framed as a test of how much premium a brand name can support outside its category."
+    }
+   ],
+   "objects": [
+    {
+     "key": "tag",
+     "src": "assets/objects/2026-10-25/price_tag.png",
+     "x": 540,
+     "y": 1290,
+     "w": 520,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop",
+     "rot": -8
+    }
+   ],
+   "motion_rationale": "چرخش ایده (drop): برچسب قیمتِ خالی = مشکل خودِ قیمت بود، نه کالا؛ در S6 و S7 ادامه دارد",
+   "lines": [
+    {
+     "text": "But hair ties weren't the problem.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "The *price tag* was.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "squishy",
+     "src": "assets/objects/2026-11-13/squishy_keychain.png",
+     "x": 540,
+     "y": 1290,
+     "w": 330,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "pop",
+     "float": 5
+    }
+   ],
+   "motion_rationale": "جاکلیدی فشاری کوچک و بامزه = همین اقلام با قیمت دیگر، هدیه‌ای بامزه بودند",
+   "lines": [
+    {
+     "text": "Same box, lower price:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "a *cute* gift.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "bg": "graphite",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.yahoo.com/entertainment/articles/kim-kardashian-skims-offers-refunds-200823739.html",
+     "publisher": "Yahoo Entertainment (via Where Is The Buzz; statement to Today.com)",
+     "event_date": "2026-11-09",
+     "retrieved_at": "2026-11-13T01:20:00Z",
+     "claim": "Skims 'Accessories Advent Calendar', released Oct 29, $148 (US) / £158 (UK), 12 days of surprises; contents: bear keychain, hair elastics, satin scrunchies, bobby pins, hair clips, bra-elastic headbands, comb keychain, logo keychain, logo squishy toy; no clothing."
+    }
+   ],
+   "objects": [
+    {
+     "key": "tag",
+     "src": "assets/objects/2026-10-25/price_tag.png",
+     "x": 560,
+     "y": 1385,
+     "w": 400,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "fade",
+     "rot": 6
+    }
+   ],
+   "fx": [
+    {
+     "type": "labels",
+     "items": [
+      {
+       "text": "$148",
+       "x": 540,
+       "y": 1070,
+       "size": 170,
+       "acc": true,
+       "move": "down",
+       "t": 1.4
+      }
+     ]
+    }
+   ],
+   "motion_rationale": "عدد ۱۴۸ بالای برچسب قیمتِ برگشته پایین می‌نشیند = قیمت یک قول است",
+   "lines": [
+    {
+     "text": "A price isn't just a number.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "It's a *promise*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://yahoo.com/entertainment/celebrity/fashion/articles/kim-kardashian-lingerie-brand-forced-111754685.html",
+     "publisher": "Yahoo (The Independent syndication)",
+     "event_date": "2026-11-10",
+     "retrieved_at": "2026-11-13T01:20:00Z",
+     "claim": "None of the brand's underwear was included; Skims said the calendar 'didn't meet expectations', offered full refund or store credit, and disabled the product page; no plans to restock."
+    }
+   ],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "fade",
+     "words": [
+      "bra",
+      "briefs",
+      "bodysuit",
+      "lingerie",
+      "shapewear",
+      "hair tie"
+     ],
+     "keep": [
+      "hair tie"
+     ],
+     "box": [
+      130,
+      1040,
+      950,
+      1480
+     ],
+     "size": 56,
+     "seed": 7
+    }
+   ],
+   "motion_rationale": "کلمه‌های لباس زیر محو می‌شوند و فقط «کش مو» می‌ماند = برند لباس زیر، لباس زیر را جا انداخت",
+   "lines": [
+    {
+     "text": "And a lingerie brand",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*left out* the lingerie.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "bg": "graphite",
+   "spot_y": 1300,
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://journals.sagepub.com/doi/10.1177/002224378001700405",
+     "publisher": "Journal of Marketing Research 17(4) (Richard L. Oliver)",
+     "event_date": "1980",
+     "retrieved_at": "2026-11-13T01:20:00Z",
+     "claim": "Expectation-disconfirmation model: satisfaction is a function of expectations and of how far performance confirms or falls short of them (simplified on screen as 'what you got minus what you expected')."
+    }
+   ],
+   "objects": [
+    {
+     "key": "scale",
+     "src": "assets/objects/2026-10-22/scale.png",
+     "x": 540,
+     "y": 1300,
+     "w": 520,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "fade"
+    }
+   ],
+   "motion_rationale": "ترازو = رضایت، سنجیدنِ آنچه گرفتی با آنچه انتظار داشتی",
+   "lines": [
+    {
+     "text": "Satisfaction is simple math:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "what you got, *minus* what you expected.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://fashionunited.uk/news/fashion/skims-advent-calendar-backlash-tests-the-limits-of-brand-led-pricing/2026110991265",
+     "publisher": "FashionUnited (Renan Botelho de Carvalho)",
+     "event_date": "2026-11-09",
+     "retrieved_at": "2026-11-13T01:20:00Z",
+     "claim": "Kayla Ryan's TikTok unboxing: over 18.9 million views; backlash framed as a test of how much premium a brand name can support outside its category."
+    }
+   ],
+   "objects": [
+    {
+     "key": "mega",
+     "src": "assets/objects/2026-11-06/megaphone.png",
+     "x": 540,
+     "y": 1300,
+     "w": 540,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "slide_l",
+     "vibrate": 2
+    }
+   ],
+   "motion_rationale": "بلندگو = هر آنباکسینگ حالا نقدی است که بلند گفته می‌شود",
+   "lines": [
+    {
+     "text": "Now every unboxing",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "is a *public* review.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "bg": "graphite",
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://globalnews.ca/news/12144875/skims-refund-advent-calendar-kim-kardashian/",
+     "publisher": "Global News (Rachel Goodman)",
+     "event_date": "2026-11-10",
+     "retrieved_at": "2026-11-13T01:20:00Z",
+     "claim": "Skims: 'the calendar didn't meet expectations and we have personally contacted every customer' and 'offered them a choice of a full refund or a SKIMS credit'. Kayla Ryan's unboxing TikTok had over 22 million views; another review over 8 million."
+    },
+    {
+     "url": "https://fashionunited.uk/news/fashion/skims-advent-calendar-backlash-tests-the-limits-of-brand-led-pricing/2026110991265",
+     "publisher": "FashionUnited (Renan Botelho de Carvalho)",
+     "event_date": "2026-11-09",
+     "retrieved_at": "2026-11-13T01:20:00Z",
+     "claim": "Kayla Ryan's TikTok unboxing: over 18.9 million views; backlash framed as a test of how much premium a brand name can support outside its category."
+    }
+   ],
+   "fx": [
+    {
+     "type": "viewfinder",
+     "box": [
+      200,
+      1040,
+      880,
+      1500
+     ],
+     "t": 0.5
+    }
+   ],
+   "motion_rationale": "احتیاط یک بار: منظره‌یاب = فقط قابِ واکنش‌ها را دیده‌ایم، نه عدد فروش و ضرر",
+   "lines": [
+    {
+     "text": "We don't know the sales hit.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "Only the *reaction*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "cal",
+     "src": "assets/objects/2026-11-13/advent_calendar.png",
+     "x": 540,
+     "y": 1290,
+     "w": 520,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "anim": "fade"
+    },
+    {
+     "key": "lens",
+     "src": "assets/objects/2026-10-22/magnifier.png",
+     "x": 540,
+     "y": 1300,
+     "w": 380,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -10,
+     "anim": "slide_r",
+     "path": [
+      [
+       0.6,
+       700,
+       1250
+      ],
+      [
+       2.0,
+       470,
+       1320
+      ],
+      [
+       3.2,
+       640,
+       1360
+      ]
+     ]
+    }
+   ],
+   "motion_rationale": "ذره‌بین روی کشوهای تقویم = پیش از قیمت‌گذاری، پشت هر در را بسنج",
+   "lines": [
+    {
+     "text": "Before you price it, ask:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "what's behind *each door*?",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "cal",
+     "src": "assets/objects/2026-11-13/advent_calendar.png",
+     "x": 540,
+     "y": 1290,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "anim": "rise"
+    }
+   ],
+   "motion_rationale": "بازگشت جعبه‌ی آغاز زیر نور = بسته قول می‌دهد، داخلش باید پای قول بایستد",
+   "lines": [
+    {
+     "text": "A beautiful box makes a promise.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "What's *inside* has to keep it.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "bg": "primary",
+   "claim_type": "interpretation",
+   "motion_rationale": "کارت پایانی",
+   "logo": true,
+   "txt_top": 1080,
+   "lines": [
+    {
+     "text": "Write to me.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  }
+ ],
+ "caption": "Kim Kardashian's Skims sold a $148 advent calendar. Behind the doors: hair ties.\n\nThe Skims accessories calendar launched at the end of October: $148 in the US, £158 in the UK, sold as \"12 days of fun surprises\". Inside were hair elastics, scrunchies, bobby pins, clips, keychains and a squishy toy. No clothing, not even underwear. One creator's TikTok unboxing passed 18 million views. Skims said that \"for some, the calendar didn't meet expectations\", contacted every buyer and offered a full refund or store credit.\n\nMy take: hair ties weren't the problem. At a different price, the same box is a cute gift. A price is a promise, and a brand known for lingerie left out the lingerie. Richard Oliver's classic 1980 model says satisfaction depends on the gap between what you expected and what you got. The price set the expectation; the unboxing showed the gap to millions.\n\nThe limits: Skims hasn't published any sales or cost figures; view counts differ by outlet (18.9 to over 22 million); \"what you got minus what you expected\" is a simplification of that model. Sources: Global News, FashionUnited, Yahoo/The Independent, Journal of Marketing Research. The objects in this reel are AI-generated; the calendar box is an unbranded stand-in.\n\nIf someone opened your product on camera today, which door would feel emptier than its price? Write to me.\n\n— Behnood Kavian",
+ "hashtags": [
+  "#marketing",
+  "#branding",
+  "#skims",
+  "#adventcalendar"
+ ],
+ "sources": [
+  {
+   "publisher": "Yahoo Entertainment (Where Is The Buzz; Skims statement to Today.com)",
+   "title": "Kim Kardashian's Skims Offers Refunds After $148 Advent Calendar Sparks Backlash",
+   "date": "2026-11-09",
+   "url": "https://www.yahoo.com/entertainment/articles/kim-kardashian-skims-offers-refunds-200823739.html"
+  },
+  {
+   "publisher": "Global News",
+   "title": "SKIMS to refund $148 advent calendar filled with hair ties, bobby pins",
+   "date": "2026-11-10",
+   "url": "https://globalnews.ca/news/12144875/skims-refund-advent-calendar-kim-kardashian/"
+  },
+  {
+   "publisher": "FashionUnited",
+   "title": "Skims' advent calendar backlash tests the limits of brand-led pricing",
+   "date": "2026-11-09",
+   "url": "https://fashionunited.uk/news/fashion/skims-advent-calendar-backlash-tests-the-limits-of-brand-led-pricing/2026110991265"
+  },
+  {
+   "publisher": "Yahoo (The Independent)",
+   "title": "Kim Kardashian's lingerie brand forced to offer refunds for 'absolute joke' £158 advent calendar",
+   "date": "2026-11-10",
+   "url": "https://yahoo.com/entertainment/celebrity/fashion/articles/kim-kardashian-lingerie-brand-forced-111754685.html"
+  },
+  {
+   "publisher": "Journal of Marketing Research 17(4):460-469 (Richard L. Oliver)",
+   "title": "A Cognitive Model of the Antecedents and Consequences of Satisfaction Decisions",
+   "date": "1980",
+   "url": "https://journals.sagepub.com/doi/10.1177/002224378001700405"
+  }
+ ],
+ "cta": "Write to me.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S5"
+ },
+ "status": "DRAFT",
+ "style": "editorial",
+ "lang": "en"
+}
