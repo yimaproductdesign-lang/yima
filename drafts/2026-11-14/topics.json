@@ -61,7 +61,7 @@
    }
   ],
   "music_mood": "dark",
-  "framing_note": "Type 3 (secret behind a familiar brand). Safe claims only: red Santas existed decades before 1931 (Nast 1881, White Rock 1915/1923); Coca-Cola says itself it didn't create Santa; Sundblom painted Coke's Santa every year 1931-1964 (33 years); the myth that Coke 'made him red' is what the world believes. Do NOT claim Coke chose red to match its logo, and do NOT say Coke contributed nothing (it shaped the warm face and made him universal). One number on screen: 33 years. Lesson for business owners: you don't need to be first; pick one asset and repeat it until people can't imagine it without you. Never generate the Coca-Cola logo, Santa likeness from Sundblom, or any real face with AI; real ads only from owner uploads, framed and credited. Caption: sources + 'editorial use; images belong to their owners'. No UAE/Dubai/emirate anywhere. Owner uploads: T-b proves the red suit in 1902; T-a is Coke's 1930s Sundblom Santa; T-d shows the same Santa today. Sequence T-b (1902) -> T-a (1930s) -> T-d (today) carries the whole argument.",
+  "framing_note": "Type 3 (secret behind a familiar brand). Safe claims only: red Santas existed decades before 1931 (Nast 1881, White Rock 1915/1923); Coca-Cola says itself it didn't create Santa; Sundblom painted Coke's Santa every year 1931-1964 (33 years); the myth that Coke 'made him red' is what the world believes. Do NOT claim Coke chose red to match its logo, and do NOT say Coke contributed nothing (it shaped the warm face and made him universal). One number on screen: 33 years. Lesson for business owners: you don't need to be first; pick one asset and repeat it until people can't imagine it without you. Never generate the Coca-Cola logo, Santa likeness from Sundblom, or any real face with AI; real ads only from owner uploads, framed and credited. Caption: sources + 'editorial use; images belong to their owners'. No UAE/Dubai/emirate anywhere. Owner uploads: T-b proves the red suit in 1902; T-a is Coke's 1930s Sundblom Santa; T-d shows the same Santa today. Sequence T-b (1902) -> T-a (1930s) -> T-d (today) carries the whole argument. Owner added T-e (Sundblom, collage) and T-f (Coke's 1930 department-store Santa). Possible order: T-b 1902 -> T-f 1930 -> T-a Sundblom 1930s (+T-e the painter) -> T-d today.",
   "image_requests": [
    {
     "id": "T-a",
@@ -93,10 +93,17 @@
    },
    {
     "id": "T-e",
-    "description": "owner extra upload: man in shirt and tie (presumably illustrator Haddon Sundblom) at an easel, beside a Sundblom Santa drinking a Coke bottle",
+    "description": "owner extra upload: illustrator Haddon Sundblom (identity confirmed by owner 2026-11-13) at an easel, beside a Sundblom Santa drinking a Coke bottle",
     "page_url": "owner upload (source page not given)",
     "scene_idea": "'one painter, the same Santa, every year' (33 years)",
-    "status": "received 2026-11-13; 548x401 (very small). CAUTION: visibly a COLLAGE (Santa cut out and pasted beside the photo; edges and lighting don't match), not one historical photograph, and the man's identity is not verified. Use only small and framed, never described on screen or in the caption as a photo of Sundblom painting Santa; if used, caption 'collage; owner archive'. Preferred: use the paintbrush object for this line instead and keep T-e as a fallback."
+    "status": "received 2026-11-13; 548x401 (very small). Identity: Haddon Sundblom per owner. Still a COLLAGE (Santa pasted beside the photo): may be used small and framed to show 'the painter', labelled in caption as 'Haddon Sundblom (collage, owner archive)'; never presented as one photo of him painting this Santa."
+   },
+   {
+    "id": "T-f",
+    "description": "owner extra upload: Coca-Cola trading card '1930': red-suited Santa drinking a Coke in a crowded department store (painting commonly attributed to Fred Mizen; attribution not verified this run)",
+    "page_url": "owner upload (source page not given)",
+    "scene_idea": "Coke was already using a red Santa in 1930, one year before Sundblom: Coke didn't invent him, it picked up what already existed and then never let go. Framed on a dark scene; credit 'Coca-Cola, 1930 (card reproduction)'.",
+    "status": "received 2026-11-13; small image, show framed at small/medium size only. On screen say only '1930' (printed on the card); do not name the painter unless verified."
    }
   ],
   "object_plan": [
