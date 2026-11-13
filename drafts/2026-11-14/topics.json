@@ -1,0 +1,148 @@
+{
+ "date": "2026-11-14",
+ "T": {
+  "topic_fa": "کوکاکولا بابانوئل قرمز را اختراع نکرد؛ فقط ۳۳ سال پشت سر هم همان یکی را کشید، تا دنیا اسمش را به نام کوکاکولا بنویسد",
+  "topic_en": "Coca-Cola didn't invent the red Santa. It just painted the same one for 33 years, until the world gave Coke the credit",
+  "topic_type": 3,
+  "pillar": "brand_assets_consistency",
+  "central_tension_fa": "همه فکر می‌کنند کوکاکولا لباس بابانوئل را به رنگ برندش قرمز کرد. ولی بابانوئل قرمز دهه‌ها پیش از ۱۹۳۱ وجود داشت، حتی در تبلیغ یک نوشابه‌ی دیگر. کوکاکولا اولین نبود؛ فقط هر سال، ۳۳ سال، همان یک چهره را تکرار کرد. مالکیت با اختراع به دست نمی‌آید؛ با تکرار به دست می‌آید.",
+  "central_tension_en": "Everyone believes Coca-Cola dressed Santa in its brand red. But red Santas existed decades before 1931, even in another soda's ads. Coke wasn't first. It was relentless: the same Santa, every year, for 33 years. You don't own an idea by inventing it. You own it by repeating it.",
+  "working_hook_fa": "کوکاکولا بابانوئل را قرمز نکرد. ولی همه‌ی دنیا فکر می‌کنند کرد.",
+  "working_hook_en": "Coca-Cola didn't make Santa red. So why does the whole world think it did?",
+  "cover_idea": {
+   "kicker_fa": "بابانوئلِ کوکاکولا",
+   "kicker_en": "Coca-Cola's Santa",
+   "title_fa": [
+    "کوکاکولا",
+    "بابانوئل را *قرمز* نکرد"
+   ],
+   "title_en": [
+    "Coke didn't",
+    "make Santa *red*"
+   ],
+   "object": "red Santa hat (color) + glass soda bottle (unbranded)"
+  },
+  "key_sources": [
+   {
+    "url": "https://www.coca-cola.com/us/en/about-us/faq/did-coca-cola-create-santa-claus",
+    "publisher": "The Coca-Cola Company (official FAQ)",
+    "date": "undated (retrieved 2026-11-13)",
+    "claim": "Coca-Cola did not create the legend of Santa Claus; its 1931 Sundblom ads helped shape his modern look"
+   },
+   {
+    "url": "https://www.logicallyfacts.com/en/fact-check/true-coca-cola-played-a-part-in-santa-s-iconic-red-image",
+    "publisher": "Logically Facts",
+    "date": "2020-12-22",
+    "claim": "Red outfits existed before; Sundblom's Santa ran in Coca-Cola ads 1931-1964 in major magazines, billboards, calendars, store displays"
+   },
+   {
+    "url": "https://theferret.scot/fact-check-coca-cola-red-santa-claus-christmas/",
+    "publisher": "The Ferret",
+    "date": "2017-12-25",
+    "claim": "Red-suited Santa existed since at least the 19th century"
+   },
+   {
+    "url": "https://kgw.com/article/news/verify/holiday-verify/coca-cola-did-not-invent-santa-claus-modern-image-costume-red-suit/536-d4c9529c-e97d-48e5-92e2-912c7ee609fc",
+    "publisher": "KGW / VERIFY",
+    "date": "undated",
+    "claim": "White Rock used the modern Santa in 1915 and 1923 ads; Coca-Cola popularised him through repetition"
+   },
+   {
+    "url": "https://blogs.loc.gov/loc/2020/12/a-visit-from-santa-who-you-might-not-recognize/",
+    "publisher": "Library of Congress blog",
+    "date": "2020-12",
+    "claim": "Nast's 'Merry Old Santa Claus' (Harper's Weekly, 1 Jan 1881) credited with the red coat; Moore's poem never mentions red"
+   },
+   {
+    "url": "https://www.kiro7.com/news/trending/coke-rings-season-with-coca-cola-holiday-caravan/FCT4JWEXWNHHVEKMJTNXWHI7PI/",
+    "publisher": "KIRO 7",
+    "date": "2026-11-11",
+    "claim": "Seasonal spark: Coca-Cola Holiday Caravan returns; 'share a Coke with Santa'"
+   }
+  ],
+  "music_mood": "dark",
+  "framing_note": "Type 3 (secret behind a familiar brand). Safe claims only: red Santas existed decades before 1931 (Nast 1881, White Rock 1915/1923); Coca-Cola says itself it didn't create Santa; Sundblom painted Coke's Santa every year 1931-1964 (33 years); the myth that Coke 'made him red' is what the world believes. Do NOT claim Coke chose red to match its logo, and do NOT say Coke contributed nothing (it shaped the warm face and made him universal). One number on screen: 33 years. Lesson for business owners: you don't need to be first; pick one asset and repeat it until people can't imagine it without you. Never generate the Coca-Cola logo, Santa likeness from Sundblom, or any real face with AI; real ads only from owner uploads, framed and credited. Caption: sources + 'editorial use; images belong to their owners'. No UAE/Dubai/emirate anywhere.",
+  "image_requests": [
+   {
+    "id": "T-a",
+    "description": "یکی از نقاشی‌های بابانوئل هادون ساندبلوم برای تبلیغ کوکاکولا (ترجیحاً ۱۹۳۱ یا هر تبلیغ قدیمی بابانوئل با بطری کوکاکولا) از صفحه‌ی رسمی کوکاکولا",
+    "page_url": "https://www.coca-colacompany.com/company/history/five-things-you-never-knew-about-santa-claus-and-coca-cola",
+    "scene_idea": "صحنه‌ی «همان بابانوئلی که همه می‌شناسند» و صحنه‌ی ۳۳ سال تکرار؛ قاب‌دار روی زمینه‌ی تیره. (این صفحه برای ایجنت باز نشد؛ اگر صفحه تصویری نداشت، از T-a بگذر)"
+   },
+   {
+    "id": "T-b",
+    "description": "جلد کریسمس مجله‌ی Puck سال ۱۹۰۲ (بابانوئل با کیسه‌ی اسباب‌بازی از پنجره وارد می‌شود)؛ فقط اگر بابانوئل در تصویر لباس قرمز دارد",
+    "page_url": "https://www.theodorerooseveltcenter.org/digital-library/o276284/",
+    "scene_idea": "اثبات: بابانوئل قرمز ۲۹ سال پیش از کوکاکولا؛ قاب‌دار، کنار تاریخ ۱۹۰۲"
+   },
+   {
+    "id": "T-c",
+    "description": "نقاشی «Merry Old Santa Claus» توماس نست (هارپرز ویکلی، ۱ ژانویه‌ی ۱۸۸۱) از وبلاگ کتابخانه‌ی کنگره",
+    "page_url": "https://blogs.loc.gov/loc/2020/12/a-visit-from-santa-who-you-might-not-recognize/",
+    "scene_idea": "«پنجاه سال پیش از کوکاکولا»؛ ریشه‌ی چهره‌ی امروزی بابانوئل؛ قاب‌دار روی زمینه‌ی کاغذ"
+   }
+  ],
+  "object_plan": [
+   {
+    "object": "red Santa hat (natural colour; the red IS the subject)",
+    "line_idea": "hook/cover: the red everyone thinks Coke invented",
+    "reuse_path_or_new": "new: assets/objects/2026-11-14/santa_hat.png"
+   },
+   {
+    "object": "classic glass soda bottle, unbranded, no logo (colour)",
+    "line_idea": "the brand that gets the credit",
+    "reuse_path_or_new": "new: assets/objects/2026-11-14/glass_bottle.png"
+   },
+   {
+    "object": "old photograph",
+    "line_idea": "red Santas existed decades before 1931",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/photo.png"
+   },
+   {
+    "object": "magnifier",
+    "line_idea": "look closer at the history: Coke wasn't first",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/magnifier.png"
+   },
+   {
+    "object": "vintage 1930s magazine, blank cover, no text",
+    "line_idea": "the ads ran in every big magazine, every December",
+    "reuse_path_or_new": "new: assets/objects/2026-11-14/vintage_magazine.png"
+   },
+   {
+    "object": "artist's paintbrush with red paint",
+    "line_idea": "one painter, the same Santa, every year",
+    "reuse_path_or_new": "new: assets/objects/2026-11-14/paintbrush.png"
+   },
+   {
+    "object": "tear-off wall calendar (pages flying, 33 years)",
+    "line_idea": "33 years of the same face",
+    "reuse_path_or_new": "new: assets/objects/2026-11-14/tearoff_calendar.png (fallback reuse: assets/objects/2026-10-22/watch.png)"
+   },
+   {
+    "object": "worn stone step",
+    "line_idea": "repetition wears a groove in memory",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-26/worn_stone.png"
+   },
+   {
+    "object": "rubber stamp",
+    "line_idea": "the world stamped Coke's name on Santa",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-29/stamp.png"
+   },
+   {
+    "object": "trophy",
+    "line_idea": "the credit goes to whoever never stops, not whoever was first",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-24/trophy.png"
+   },
+   {
+    "object": "megaphone",
+    "line_idea": "inventors whisper once; owners repeat",
+    "reuse_path_or_new": "reuse: assets/objects/2026-11-06/megaphone.png"
+   },
+   {
+    "object": "red toy delivery truck (colour, unbranded)",
+    "line_idea": "ending: your one asset, every year, until it's yours (callback to the Christmas trucks)",
+    "reuse_path_or_new": "new: assets/objects/2026-11-14/toy_truck.png"
+   }
+  ]
+ }
+}

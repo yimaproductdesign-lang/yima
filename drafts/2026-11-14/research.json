@@ -1,0 +1,470 @@
+{
+ "date": "2026-11-14",
+ "stage": "1-evening",
+ "retrieved_at": "2026-11-13T16:55Z-17:15Z (WebSearch + WebFetch, this run)",
+ "scope": "branding, brand strategy, marketing only",
+ "type_rotation": "2026-11-12 (Dove) and 2026-11-13 (Skims) were type 1; README allows no type more than twice in a row, so today must be type 2 or 3. Type 2 search (TikTok/IG trend roundups: SocialPilot, Startups.co.uk, NapoleonCat, Volume, Favoured) found no verified brand activations this week, so type 3 (secret behind a familiar brand) wins.",
+ "method": "Searched trend roundups, trade press (Marketing Dive brand-strategy feed, Marketing Brew), Christmas-ad coverage, rebrand backlash, and fact-checks; fetched primary/official pages where possible. Pages that failed to load are marked 'headline only'.",
+ "weights": {
+  "trend_virality": 25,
+  "brand_recognition": 20,
+  "curiosity_surprise": 15,
+  "story_drama": 15,
+  "freshness": 10,
+  "business_lesson": 10,
+  "verifiability": 5
+ },
+ "weights_note": "Owner's rule (README, 2026-11-11) overrides the older scoring in the scheduled prompt; legacy lenses (verification, audience psychology, brand fit) recorded for the pick.",
+ "candidates": [
+  {
+   "id": "C1",
+   "title": "Coca-Cola didn't invent the red Santa; 33 years of repeating Sundblom's Santa made the world credit it",
+   "type": 3,
+   "class": "evergreen (seasonal spark)",
+   "event_date": "Sundblom ads 1931-1964; spark: Coca-Cola Holiday Caravan announced 2026-11-11",
+   "sources": [
+    {
+     "url": "https://www.coca-cola.com/us/en/about-us/faq/did-coca-cola-create-santa-claus",
+     "publisher": "The Coca-Cola Company (official FAQ)",
+     "date": "undated",
+     "claim": "'Coca-Cola did not create the legend of Santa Claus' but its advertising 'did play a big role in shaping' him; commissioned Haddon Sundblom in 1931",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    },
+    {
+     "url": "https://www.logicallyfacts.com/en/fact-check/true-coca-cola-played-a-part-in-santa-s-iconic-red-image",
+     "publisher": "Logically Facts",
+     "date": "2020-12-22",
+     "claim": "Red outfits existed before Coca-Cola's campaign; Sundblom's Santa ran in Coca-Cola ads 1931-1964 in Saturday Evening Post, National Geographic, The New Yorker etc., and on billboards, calendars, store displays",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    },
+    {
+     "url": "https://theferret.scot/fact-check-coca-cola-red-santa-claus-christmas/",
+     "publisher": "The Ferret (Ferret Fact Service)",
+     "date": "2017-12-25",
+     "claim": "Verdict false: red-suited Santa existed since at least the 19th century (e.g. 1868 'Sugar Plums' confectionery ad; Nast 1881)",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    },
+    {
+     "url": "https://kgw.com/article/news/verify/holiday-verify/coca-cola-did-not-invent-santa-claus-modern-image-costume-red-suit/536-d4c9529c-e97d-48e5-92e2-912c7ee609fc",
+     "publisher": "KGW / VERIFY",
+     "date": "undated",
+     "claim": "White Rock used the modern Santa in ads in 1915 and 1923; Coca-Cola led the popularisation through repetition",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    },
+    {
+     "url": "https://whiterockbeverages.com/news/ho-ho-ho-setting-the-facts-straight",
+     "publisher": "White Rock Beverages (official)",
+     "date": "Dec 23, year not shown",
+     "claim": "White Rock ran Santa ads in 1915-16 (b/w) and colour ads in 1923-25 'indistinguishable from Coke's 1930' ads",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    },
+    {
+     "url": "https://blogs.loc.gov/loc/2020/12/a-visit-from-santa-who-you-might-not-recognize/",
+     "publisher": "Library of Congress blog",
+     "date": "2020-12",
+     "claim": "Moore's 1823 poem never mentions red; Nast's drawings (Merry Old Santa Claus, Harper's Weekly, 1 Jan 1881) credited with the red coat",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    },
+    {
+     "url": "https://www.kiro7.com/news/trending/coke-rings-season-with-coca-cola-holiday-caravan/FCT4JWEXWNHHVEKMJTNXWHI7PI/",
+     "publisher": "KIRO 7 / Cox Media Group",
+     "date": "2026-11-11",
+     "claim": "Coca-Cola Holiday Caravan returns across North America; 'share a Coke with Santa' at stops (seasonal spark only)",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    }
+   ],
+   "claim": "The myth that Coca-Cola dressed Santa in its brand red is one of the most shared brand 'facts'; the truth (red Santa predates 1931; Coke owned him by repeating him for 33 years) is a surprising, verifiable reversal.",
+   "evidence_of_virality": "Evergreen myth: fact-checked by at least four outlets (Ferret, Logically, VERIFY/KGW, The Hustle) and answered on Coca-Cola's own FAQ pages in several countries (US, GB, IE, PK, PL, AT seen in search) = recurring public curiosity every December (estimate, no search-volume data pulled). Seasonal relevance: Christmas ad season and Holiday Caravan (2026-11-11).",
+   "scores": {
+    "trend_virality": 17,
+    "brand_recognition": 20,
+    "curiosity_surprise": 14,
+    "story_drama": 14,
+    "freshness": 6,
+    "business_lesson": 9,
+    "verifiability": 5
+   },
+   "total": 85,
+   "scores_are_estimates": "trend_virality, curiosity, story and lesson are editorial estimates; not measured",
+   "lenses": {
+    "red_team": "Do not say Coca-Cola 'chose red to match its logo' (unsupported) or that Coke 'had nothing to do with it' (also wrong: it shaped the face and popularised the image). Safe claim: red Santas existed decades before 1931; Coca-Cola didn't invent him; its ads repeated one Santa every year 1931-1964, and now the world credits Coke. Avoid citing exact earliest-year 'firsts' on screen; use 'decades before'. Coca-Cola appeared as a nuance in 2026-11-08 (AI ad); today's angle (ownership through repetition) is different.",
+    "audience_psychology": "'Everything you knew is wrong' about a childhood icon + a giant brand = high share/save impulse; viewer feels smart sharing it. Persian audience knows Baba Noel and Coca-Cola; international audience entering Christmas season.",
+    "brand_fit": "Pure brand strategy: distinctive assets, consistency, owning a moment/colour, 'you don't need to be first, you need to be consistent'. Fits Behnood's strategist voice; usable lesson for small business owners."
+   },
+   "picked": true
+  },
+  {
+   "id": "C2",
+   "title": "Maybelline rewrites its 35-year-old tagline: 'Maybe. We're born with it. Maybe. It's Maybelline.'",
+   "type": 1,
+   "class": "breaking",
+   "event_date": "2026-11-10",
+   "sources": [
+    {
+     "url": "https://www.marketingbrew.com/stories/maybe-it-s-maybelline-tagline-update-strategy",
+     "publisher": "Marketing Brew",
+     "date": "2026-11-10",
+     "claim": "Pronoun/punctuation change from 'she' to 'we'; Miley Cyrus 45s spot; brand president Sandrine Jolly on ambiguity of the original",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    },
+    {
+     "url": "https://www.adweek.com/creativity/maybelline-rewrites-its-35-year-old-tagline-for-gen-z/",
+     "publisher": "Adweek",
+     "date": "2026-11",
+     "claim": "headline only (page not readable)",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    }
+   ],
+   "claim": "A tiny edit to an iconic line; tests how much a heritage asset can change.",
+   "evidence_of_virality": "Covered by Adweek, Marketing Brew, Marketing Dive, Hypebae, Complex, Cosmetics Business; no measured public backlash found.",
+   "scores": {
+    "trend_virality": 14,
+    "brand_recognition": 17,
+    "curiosity_surprise": 11,
+    "story_drama": 9,
+    "freshness": 10,
+    "business_lesson": 9,
+    "verifiability": 5
+   },
+   "total": 75,
+   "scores_are_estimates": "trend_virality, curiosity, story and lesson are editorial estimates; not measured",
+   "note": "Strong runner-up for a later day; blocked today by type rotation (type 1 ran 2026-11-12 and 2026-11-13).",
+   "picked": false
+  },
+  {
+   "id": "C3",
+   "title": "BMW's roundel is not a propeller; a 1929 BMW ad created the myth",
+   "type": 3,
+   "class": "evergreen",
+   "event_date": "1917 logo; 1929 ad; Carscoops recap 2026-09",
+   "sources": [
+    {
+     "url": "https://www.carscoops.com/2026/09/bmws-logo-story/",
+     "publisher": "Carscoops",
+     "date": "2026-09",
+     "claim": "Badge isn't a spinning propeller (headline; not fetched)",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    },
+    {
+     "url": "https://creativebloq.com/news/bmw-logo-explained",
+     "publisher": "Creative Bloq",
+     "date": "undated",
+     "claim": "BMW reveals the truth behind its logo (search result only)",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    }
+   ],
+   "claim": "Famous logo myth started by the brand's own ad.",
+   "evidence_of_virality": "Evergreen, widely fact-checked (Africa Check, The Drive, Autoblog). Not trending now.",
+   "scores": {
+    "trend_virality": 9,
+    "brand_recognition": 19,
+    "curiosity_surprise": 13,
+    "story_drama": 11,
+    "freshness": 4,
+    "business_lesson": 8,
+    "verifiability": 4
+   },
+   "total": 68,
+   "scores_are_estimates": "trend_virality, curiosity, story and lesson are editorial estimates; not measured",
+   "note": "Idea overlaps 2026-11-05 (monocle that never was: false brand memory). Not fetched in full.",
+   "picked": false
+  },
+  {
+   "id": "C4",
+   "title": "GTA VI launches 19 Nov 2026: the cultural moment brands will try to ride",
+   "type": 2,
+   "class": "emerging",
+   "event_date": "release 2026-11-19",
+   "sources": [
+    {
+     "url": "https://favoured.co.uk/november-2026-trend-report/",
+     "publisher": "Favoured",
+     "date": "2026-11",
+     "claim": "GTA VI scheduled for 19 Nov 2026; brands advised to ride cultural moments (hypothetical examples only)",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    },
+    {
+     "url": "https://www.llllitl.fr/2026/11/gta-vi-marketing-campaign/",
+     "publisher": "llllitl",
+     "date": "2026-11",
+     "claim": "GTA VI marketing timeline (search result only)",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    }
+   ],
+   "claim": "Biggest entertainment launch of the year; brand activations not yet verified.",
+   "evidence_of_virality": "No verified brand activations found; revisit after 19 Nov.",
+   "scores": {
+    "trend_virality": 20,
+    "brand_recognition": 18,
+    "curiosity_surprise": 8,
+    "story_drama": 5,
+    "freshness": 9,
+    "business_lesson": 6,
+    "verifiability": 2
+   },
+   "total": 68,
+   "scores_are_estimates": "trend_virality, curiosity, story and lesson are editorial estimates; not measured",
+   "note": "Good type-2 candidate for ~20-23 Nov once real brand moves exist.",
+   "picked": false
+  },
+  {
+   "id": "C5",
+   "title": "John Lewis 2026 Christmas ad: '20x more dislikes than likes'",
+   "type": 1,
+   "class": "breaking",
+   "event_date": "2026-11",
+   "sources": [
+    {
+     "url": "https://www.primetimer.com/features/john-lewis-christmas-advert-2026-garners-whopping-20x-more-dislikes-than-likes-as-concept-sparks-online-backlash",
+     "publisher": "Primetimer",
+     "date": "2026-11",
+     "claim": "Online backlash; dislikes vastly outnumber likes (headline only)",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    },
+    {
+     "url": "https://www.fashiontimes.co.uk/john-lewis-christmas-advert-backlash-2026-1767078",
+     "publisher": "Fashion Times UK",
+     "date": "2026-11",
+     "claim": "Backlash over 'horrid kids' and materialistic storyline (headline only)",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    }
+   ],
+   "claim": "Christmas ad backlash.",
+   "evidence_of_virality": "Several UK outlets; UK-centric brand, weak for Persian audience.",
+   "scores": {
+    "trend_virality": 18,
+    "brand_recognition": 11,
+    "curiosity_surprise": 8,
+    "story_drama": 11,
+    "freshness": 9,
+    "business_lesson": 7,
+    "verifiability": 4
+   },
+   "total": 68,
+   "scores_are_estimates": "trend_virality, curiosity, story and lesson are editorial estimates; not measured",
+   "note": "Type 1, blocked by rotation; also a candidate on 2026-11-13.",
+   "picked": false
+  },
+  {
+   "id": "C6",
+   "title": "Waitrose Christmas ad 2026 praised as the anti-John Lewis",
+   "type": 1,
+   "class": "breaking",
+   "event_date": "2026-11",
+   "sources": [
+    {
+     "url": "https://www.nationalworld.com/recommended/waitrose-christmas-advert-cute-fans-supermarket-best-festive-ad-unlike-john-lewis-9341595",
+     "publisher": "NationalWorld",
+     "date": "2026-11",
+     "claim": "Fans call it the best festive ad, unlike John Lewis (headline only)",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    }
+   ],
+   "claim": "Positive reaction contrast.",
+   "evidence_of_virality": "UK press only.",
+   "scores": {
+    "trend_virality": 11,
+    "brand_recognition": 8,
+    "curiosity_surprise": 6,
+    "story_drama": 7,
+    "freshness": 9,
+    "business_lesson": 6,
+    "verifiability": 3
+   },
+   "total": 50,
+   "scores_are_estimates": "trend_virality, curiosity, story and lesson are editorial estimates; not measured",
+   "picked": false
+  },
+  {
+   "id": "C7",
+   "title": "Svedka invites consumers to make its next Super Bowl ad after AI-ad backlash",
+   "type": 1,
+   "class": "emerging",
+   "event_date": "2026-11-02",
+   "sources": [
+    {
+     "url": "https://www.marketingdive.com/topic/brand-strategy/",
+     "publisher": "Marketing Dive (topic page)",
+     "date": "2026-11-02",
+     "claim": "Svedka shifts strategy after criticism of its AI-produced 2026 Super Bowl spot",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    }
+   ],
+   "claim": "AI backlash response.",
+   "evidence_of_virality": "Trade press only; AI-ad theme already used 2026-11-08.",
+   "scores": {
+    "trend_virality": 8,
+    "brand_recognition": 9,
+    "curiosity_surprise": 7,
+    "story_drama": 7,
+    "freshness": 8,
+    "business_lesson": 7,
+    "verifiability": 4
+   },
+   "total": 50,
+   "scores_are_estimates": "trend_virality, curiosity, story and lesson are editorial estimates; not measured",
+   "picked": false
+  },
+  {
+   "id": "C8",
+   "title": "Rao's turns 'limited time offer' into 'how many meals are left with loved ones'",
+   "type": 1,
+   "class": "emerging",
+   "event_date": "2026-11-10",
+   "sources": [
+    {
+     "url": "https://www.marketingdive.com/topic/brand-strategy/",
+     "publisher": "Marketing Dive (topic page)",
+     "date": "2026-11-10",
+     "claim": "Rao's brand-building campaign asks people to slow down meals",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    }
+   ],
+   "claim": "Emotional reframe of scarcity.",
+   "evidence_of_virality": "Trade press only; brand not globally known.",
+   "scores": {
+    "trend_virality": 6,
+    "brand_recognition": 6,
+    "curiosity_surprise": 9,
+    "story_drama": 8,
+    "freshness": 9,
+    "business_lesson": 8,
+    "verifiability": 3
+   },
+   "total": 49,
+   "scores_are_estimates": "trend_virality, curiosity, story and lesson are editorial estimates; not measured",
+   "picked": false
+  },
+  {
+   "id": "C9",
+   "title": "'What's up brah?' Randy Marsh meme",
+   "type": 2,
+   "class": "emerging",
+   "event_date": "wave from early Oct 2026",
+   "sources": [
+    {
+     "url": "https://napoleoncat.com/blog/trending-memes/",
+     "publisher": "NapoleonCat",
+     "date": "2026-11-01",
+     "claim": "Meme trending; one edit 33.9K likes / 600K+ plays in a week; no brands named",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    }
+   ],
+   "claim": "Meme with no verified brand use.",
+   "evidence_of_virality": "No brands found using it.",
+   "scores": {
+    "trend_virality": 10,
+    "brand_recognition": 4,
+    "curiosity_surprise": 5,
+    "story_drama": 3,
+    "freshness": 8,
+    "business_lesson": 3,
+    "verifiability": 3
+   },
+   "total": 36,
+   "scores_are_estimates": "trend_virality, curiosity, story and lesson are editorial estimates; not measured",
+   "picked": false
+  },
+  {
+   "id": "C10",
+   "title": "Starbucks 2026 holiday cups",
+   "type": 2,
+   "class": "breaking",
+   "event_date": "2026-11",
+   "sources": [
+    {
+     "url": "https://www.nbcnewyork.com/entertainment/the-scene/starbucks-holiday-cups-designs-2026/6568447/",
+     "publisher": "NBC New York",
+     "date": "2026-11",
+     "claim": "New holiday cup designs (headline only; official Starbucks page failed to load)",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    }
+   ],
+   "claim": "Annual ritual; no controversy found.",
+   "evidence_of_virality": "Local TV coverage; no evidence of unusual reaction.",
+   "scores": {
+    "trend_virality": 11,
+    "brand_recognition": 20,
+    "curiosity_surprise": 5,
+    "story_drama": 5,
+    "freshness": 9,
+    "business_lesson": 6,
+    "verifiability": 2
+   },
+   "total": 58,
+   "scores_are_estimates": "trend_virality, curiosity, story and lesson are editorial estimates; not measured",
+   "picked": false
+  },
+  {
+   "id": "C11",
+   "title": "Business-creator formats this week ('exact word-for-word script', red-arrow walkthroughs)",
+   "type": 2,
+   "class": "emerging",
+   "event_date": "measured 2026-11-12",
+   "sources": [
+    {
+     "url": "https://tryvolume.app/working/business-and-marketing",
+     "publisher": "Volume",
+     "date": "2026-11-12",
+     "claim": "507 posts / 307 accounts; 'exact script' format median 20x usual reach; creators, not brands",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    }
+   ],
+   "claim": "Formats, not a brand story.",
+   "evidence_of_virality": "Measured multiples on creator accounts.",
+   "scores": {
+    "trend_virality": 12,
+    "brand_recognition": 2,
+    "curiosity_surprise": 6,
+    "story_drama": 3,
+    "freshness": 10,
+    "business_lesson": 6,
+    "verifiability": 3
+   },
+   "total": 42,
+   "scores_are_estimates": "trend_virality, curiosity, story and lesson are editorial estimates; not measured",
+   "note": "Useful for reel FORMAT (zero-intro list, stark headline), not as topic.",
+   "picked": false
+  },
+  {
+   "id": "C12",
+   "title": "Coca-Cola AI 'Holidays Are Coming' ads roasted (2024/2025)",
+   "type": 1,
+   "class": "evergreen-ish",
+   "event_date": "2024-11, 2025-11",
+   "sources": [
+    {
+     "url": "https://www.marketingdive.com/news/why-coca-cola-keeps-pushing-limits-generative-ai-despite-backlash/804739/",
+     "publisher": "Marketing Dive",
+     "date": "2025-11",
+     "claim": "Coca-Cola keeps pushing generative AI despite backlash (headline)",
+     "retrieved": "2026-11-13T16:5x-17:1xZ (this run)"
+    }
+   ],
+   "claim": "AI ad backlash.",
+   "evidence_of_virality": "Old news; no 2026 version verified.",
+   "scores": {
+    "trend_virality": 8,
+    "brand_recognition": 20,
+    "curiosity_surprise": 4,
+    "story_drama": 8,
+    "freshness": 2,
+    "business_lesson": 6,
+    "verifiability": 4
+   },
+   "total": 52,
+   "scores_are_estimates": "trend_virality, curiosity, story and lesson are editorial estimates; not measured",
+   "note": "Excluded: same angle used 2026-11-08.",
+   "picked": false
+  }
+ ],
+ "brand_fit_gate": "C1 passes: global brand known to Persian and international viewers; lesson = consistency/distinctive assets; no UAE reference; no private individuals.",
+ "story_gate": "C1: tension 'everyone credits Coke for inventing the red Santa; Coke just never stopped painting him' + concrete image (a red Santa hat beside a glass soda bottle). Strongest tension and image among type 2/3 candidates.",
+ "unread_pages": [
+  "coca-colacompany.com Sundblom history page (client_error)",
+  "Adweek Maybelline",
+  "Marketing Week Coca-Cola Christmas",
+  "about.starbucks.com holiday 2026",
+  "loc.gov item 2011649408"
+ ]
+}
