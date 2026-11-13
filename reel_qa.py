@@ -148,6 +148,15 @@ def main(reel_path, out_dir):
             elif sg["b"] > S["y1"] or ("DoranFaNum" if lang == "fa" else CFG["fonts"]["latin"]["family"]) not in sg["font"]: crit.append(f"{sc['id']}: signature outside safe area or wrong font")
             if not any(L["cta"].rstrip(".") in l["text"] for l in sc.get("lines", [])): warn.append(f"{sc['id']}: end card CTA should be «{L['cta']}»")
     if (reel.get("voice") or {}).get("enabled") and not str(met.get("voice", "")).startswith("voice ok"): crit.append(f"voice-over requested but missing: {met.get('voice', 'not run')}")
+    # hook cover (owner, 2026-11-13): a designed cover is required and is frame 0 of the video
+    if not reel.get("cover"): crit.append("no hook cover: add reel['cover'] (kicker + 2-3 short title lines + object); see README 'Hook cover'")
+    else:
+        cm = out / "cover_metrics.json"
+        if not cm.exists(): crit.append("cover not rendered (cover_render.py did not run)")
+        else:
+            cmet = json.loads(cm.read_text())
+            for iss in cmet.get("issues", []): crit.append(f"cover: {iss}")
+            if sum(len(t.replace('*', '').split()) for t in reel["cover"]["title"]) > 7: warn.append("cover title longer than 7 words")
     score = max(0, 100 - 15 * len(crit) - 2 * len(warn))
     status = "READY_FOR_REVIEW" if not crit and score >= CFG["qa"]["mandatory_threshold"] else "BLOCKED_QA"
     rep = {"reel_id": rid, "status": status, "score": score, "critical": crit, "warnings": warn,

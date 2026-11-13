@@ -59,7 +59,7 @@ def schedule(reel):
                        "objects": sc.get("objects"), "fx": sc.get("fx"), "style": sc.get("style", reel.get("style")), "spot_y": sc.get("spot_y"),
                        "txt_align": sc.get("txt_align", "start"), "vo_dur": sc.get("vo_dur", 0)})
         prev_end = end
-    tmax = (reel.get("target_s") or [40, 60])[1]
+    tmax = (reel.get("target_s") or [40, 60])[1] - (0.4 if reel.get("cover") else 0)  # leave room for the 0.4 s hook cover
     total = scenes[-1]["end"] if scenes else 0
     if total > tmax and not any("start" in s or "end" in s for s in reel["scenes"]):
         mins = []
@@ -364,6 +364,9 @@ def main(reel_path, out_dir):
                     "-movflags", "+faststart", "-shortest", str(mp4)], check=True)
     shutil.rmtree(out / "frames")
     print("rendered", mp4, f"{total:.1f}s", mp4.stat().st_size // 1024, "KB")
+    if reel.get("cover"):  # hook cover = cover.png and the first 0.4 s of the video (see cover_render.py)
+        import cover_render
+        cover_render.main(reel_path, out_dir, prepend=True)
 
 
 if __name__ == "__main__":

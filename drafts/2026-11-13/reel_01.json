@@ -675,5 +675,28 @@
  },
  "status": "DRAFT",
  "style": "editorial",
- "lang": "fa"
+ "lang": "fa",
+ "cover": {
+  "bg": "paper",
+  "kicker": "تقویم کریسمس اسکیمز",
+  "title": [
+   "۱۴۸ دلار",
+   "برای *کش مو*؟"
+  ],
+  "objects": [
+   {
+    "src": "assets/objects/2026-11-13/advent_calendar.png",
+    "x": 440,
+    "y": 1180,
+    "w": 620
+   },
+   {
+    "src": "assets/objects/2026-11-13/hair_accessories.png",
+    "x": 770,
+    "y": 1390,
+    "w": 460,
+    "rot": -4
+   }
+  ]
+ }
 }

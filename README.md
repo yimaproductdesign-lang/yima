@@ -49,3 +49,18 @@ Rules:
 
 ## Voice-over (Azure Speech)
 **English reel only** (owner: the Persian reel stays as it is, music without voice). `reel_voice.py` adds a male narrator per scene and ducks the music under it. Voice: `en-US-AndrewNeural`; rate -6 %, pitch -3 % for a soft, warm read. Enable with `"voice": {"enabled": true}` in the reel JSON; a scene can set `"vo"` to the exact spoken sentence (e.g. numbers written out, smoother spoken order). Scene length grows to fit the voice. Requires `AZURE_SPEECH_KEY` and `AZURE_SPEECH_REGION` in the environment and network access to `<region>.tts.speech.microsoft.com`; without them the reel renders without a voice (QA blocks a reel that requested a voice and did not get one). Clips are cached in `out/_vo_cache/`.
+
+## Hook cover (owner, 2026-11-13: «ریل‌ها کاوری که قلابشان کند ندارند»)
+Every reel JSON has a `"cover"` block; without it `reel_qa.py` blocks the reel.
+```json
+"cover": {"bg": "paper", "kicker": "Skims' advent calendar",
+          "title": ["$148", "for *hair ties*?"],
+          "objects": [{"src": "assets/objects/DATE/x.png", "x": 440, "y": 1180, "w": 620, "rot": 0}]}
+```
+- `reel_render.py` calls `cover_render.py` automatically: it writes `cover.png` and puts the cover as the **first 0.4 s of the video** (frame 0 = hook, so feed, trial-reel and grid thumbnails are never an empty frame). The scene timing leaves room for it (max 60 s total).
+- **Title:** the hook in at most ~6 words over 2-3 short lines, set huge (auto-fit, 110-168px, QA blocks below 110px). A question, a shocking number or a contradiction, with the brand or the number visible. One or two `*key*` words in accent. It does not have to repeat S1 word for word; S1 then answers or continues it.
+- **Kicker:** the brand/subject in a few words (e.g. «تقویم کریسمس اسکیمز»).
+- **Image:** one or two large concrete objects (the product of the story, natural colour), or a framed owner upload; centred y≈1150-1450, inside the profile-grid crop (3:4, y 240-1680). QA blocks overlap with the title or anything below 1680.
+- `paper` is the default background (stands out in the dark grid); use `graphite` when the object needs it.
+- **Owner:** when posting, choose `cover.png` as the custom cover (Edit cover → Add from camera roll); post the Persian reel the normal way too (not only as a trial reel), with its own `cover.png`.
+- Evidence so far (Instagram, 30 days to 2026-11-12): the best reels (Apple logo 1.1K, orange with a straw 687, "Same box. Less chocolate." 441) had a complete short line and one big object visible in the grid; covers cut mid-sentence ("sold a $148", "as ads.") and blank-frame trial reels got almost nothing.

@@ -155,6 +155,12 @@ If someone opened your product on camera today, which door would feel emptier th
 — Behnood Kavian"""
 
 
+COVER_OBJ = [{"src": f"assets/objects/{D}/advent_calendar.png", "x": 440, "y": 1180, "w": 620},
+             {"src": f"assets/objects/{D}/hair_accessories.png", "x": 770, "y": 1390, "w": 460, "rot": -4}]
+COVER = {"fa": {"bg": "paper", "kicker": "تقویم کریسمس اسکیمز", "title": ["۱۴۸ دلار", "برای *کش مو*؟"], "objects": COVER_OBJ},
+         "en": {"bg": "paper", "kicker": "Skims' advent calendar", "title": ["$148", "for *hair ties*?"], "objects": COVER_OBJ}}
+
+
 def build(lang):
     copy = FA if lang == "fa" else EN
     scenes = []
@@ -178,6 +184,7 @@ def build(lang):
          "hashtags": ["#برندینگ", "#بازاریابی", "#skims", "#adventcalendar"] if lang == "fa" else ["#marketing", "#branding", "#skims", "#adventcalendar"],
          "sources": SOURCES, "cta": "برای من بنویسید." if lang == "fa" else "Write to me.",
          "audio": {"mode": "generative", "mood": "dark", "drop_scene": "S5"}, "status": "DRAFT", "style": "editorial", "lang": lang}
+    r["cover"] = COVER[lang]
     if lang == "en" and VOICE:
         r["voice"] = {"enabled": True, "voice": "en-US-AndrewNeural", "rate": "-6%", "pitch": "-3%"}
     return r
