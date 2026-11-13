@@ -32,22 +32,24 @@
    ],
    "objects": [
     {
-     "key": "cal",
-     "src": "assets/objects/2026-11-13/advent_calendar.png",
+     "key": "logo",
+     "src": "assets/objects/2026-11-13/skims_logo_card.png",
      "x": 540,
-     "y": 1290,
-     "w": 560,
-     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "y": 1250,
+     "w": 680,
+     "frame": true,
+     "ar": 1.78,
      "color": [
       0,
       0,
       0
      ],
-     "anim": "rise",
-     "float": 3
+     "credit": "SKIMS (official logo; owner upload T-a)",
+     "source_url": "https://skims.com/pages/nikeskims",
+     "anim": "rise"
     }
    ],
-   "motion_rationale": "جعبه‌ی کشویی تقویم (خودِ محصول داستان، رنگی، بی‌برند) زیر نور موضعی؛ در S13 برمی‌گردد",
+   "motion_rationale": "لوگوی واقعی اسکیمز (آپلود مالک) در قاب، روی صحنه‌ی تیره = برند را همان لحظه که نامش می‌آید نشان بده",
    "lines": [
     {
      "text": "Kim Kardashian's Skims",
@@ -76,11 +78,25 @@
    ],
    "objects": [
     {
+     "key": "cal",
+     "src": "assets/objects/2026-11-13/advent_calendar.png",
+     "x": 320,
+     "y": 1240,
+     "w": 400,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "anim": "fade"
+    },
+    {
      "key": "hair",
      "src": "assets/objects/2026-11-13/hair_accessories.png",
-     "x": 540,
-     "y": 1300,
-     "w": 640,
+     "x": 760,
+     "y": 1390,
+     "w": 400,
      "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
      "color": [
       0,
@@ -90,7 +106,7 @@
      "anim": "drop"
     }
    ],
-   "motion_rationale": "کش مو، اسکرانچی و سنجاق که روی کاغذ می‌ریزند = همان چیزی که پشت درها بود",
+   "motion_rationale": "جعبه‌ی کشویی تقویم (بی‌برند، رنگی) و کش موهایی که کنارش می‌ریزند = همان چیزی که پشت درها بود؛ تقویم در S12 و S13 برمی‌گردد",
    "lines": [
     {
      "text": "Behind the doors:",
@@ -270,7 +286,61 @@
   {
    "id": "S7",
    "bg": "graphite",
+   "spot_y": 1285,
    "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.yahoo.com/entertainment/articles/kim-kardashian-skims-offers-refunds-200823739.html",
+     "publisher": "Yahoo Entertainment (via Where Is The Buzz; statement to Today.com)",
+     "event_date": "2026-11-09",
+     "retrieved_at": "2026-11-13T01:20:00Z",
+     "claim": "Skims 'Accessories Advent Calendar', released Oct 29, $148 (US) / £158 (UK), 12 days of surprises; contents: bear keychain, hair elastics, satin scrunchies, bobby pins, hair clips, bra-elastic headbands, comb keychain, logo keychain, logo squishy toy; no clothing."
+    },
+    {
+     "url": "https://yahoo.com/entertainment/celebrity/fashion/articles/kim-kardashian-lingerie-brand-forced-111754685.html",
+     "publisher": "Yahoo (The Independent syndication)",
+     "event_date": "2026-11-10",
+     "retrieved_at": "2026-11-13T01:20:00Z",
+     "claim": "None of the brand's underwear was included; Skims said the calendar 'didn't meet expectations', offered full refund or store credit, and disabled the product page; no plans to restock."
+    }
+   ],
+   "objects": [
+    {
+     "key": "nikeskims",
+     "src": "incoming/2026-11-13/T-b_nikeskims.png",
+     "x": 540,
+     "y": 1270,
+     "w": 560,
+     "frame": true,
+     "ar": 1.0,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "NikeSKIMS product photo (SKIMS / Nike; owner upload T-b)",
+     "source_url": "https://skims.com/pages/nikeskims",
+     "anim": "zoom"
+    }
+   ],
+   "motion_rationale": "عکس واقعی محصول نایکی‌اسکیمز (آپلود مالک) در قاب روی صحنه‌ی تیره = این چیزی است که اسکیمز می‌فروشد؛ و در تقویم نبود",
+   "lines": [
+    {
+     "text": "And a clothing brand",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*left out* the clothes.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "bg": "paper",
+   "claim_type": "interpretation",
    "evidence": [
     {
      "url": "https://www.yahoo.com/entertainment/articles/kim-kardashian-skims-offers-refunds-200823739.html",
@@ -288,7 +358,7 @@
      "y": 1385,
      "w": 400,
      "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
-     "anim": "fade",
+     "anim": "drop",
      "rot": 6
     }
    ],
@@ -308,7 +378,7 @@
      ]
     }
    ],
-   "motion_rationale": "عدد ۱۴۸ بالای برچسب قیمتِ برگشته پایین می‌نشیند = قیمت یک قول است",
+   "motion_rationale": "برچسب قیمت برمی‌گردد و عدد ۱۴۸ بالایش می‌نشیند = قیمت یک قول است",
    "lines": [
     {
      "text": "A price isn't just a number.",
@@ -317,58 +387,6 @@
     },
     {
      "text": "It's a *promise*.",
-     "kind": "h",
-     "dim": false
-    }
-   ]
-  },
-  {
-   "id": "S8",
-   "bg": "paper",
-   "claim_type": "fact",
-   "evidence": [
-    {
-     "url": "https://yahoo.com/entertainment/celebrity/fashion/articles/kim-kardashian-lingerie-brand-forced-111754685.html",
-     "publisher": "Yahoo (The Independent syndication)",
-     "event_date": "2026-11-10",
-     "retrieved_at": "2026-11-13T01:20:00Z",
-     "claim": "None of the brand's underwear was included; Skims said the calendar 'didn't meet expectations', offered full refund or store credit, and disabled the product page; no plans to restock."
-    }
-   ],
-   "fx": [
-    {
-     "type": "words",
-     "mode": "fade",
-     "words": [
-      "bra",
-      "briefs",
-      "bodysuit",
-      "lingerie",
-      "shapewear",
-      "hair tie"
-     ],
-     "keep": [
-      "hair tie"
-     ],
-     "box": [
-      130,
-      1040,
-      950,
-      1480
-     ],
-     "size": 56,
-     "seed": 7
-    }
-   ],
-   "motion_rationale": "کلمه‌های لباس زیر محو می‌شوند و فقط «کش مو» می‌ماند = برند لباس زیر، لباس زیر را جا انداخت",
-   "lines": [
-    {
-     "text": "And a lingerie brand",
-     "kind": "b",
-     "dim": false
-    },
-    {
-     "text": "*left out* the lingerie.",
      "kind": "h",
      "dim": false
     }
@@ -610,7 +628,7 @@
    ]
   }
  ],
- "caption": "Kim Kardashian's Skims sold a $148 advent calendar. Behind the doors: hair ties.\n\nThe Skims accessories calendar launched at the end of October: $148 in the US, £158 in the UK, sold as \"12 days of fun surprises\". Inside were hair elastics, scrunchies, bobby pins, clips, keychains and a squishy toy. No clothing, not even underwear. One creator's TikTok unboxing passed 18 million views. Skims said that \"for some, the calendar didn't meet expectations\", contacted every buyer and offered a full refund or store credit.\n\nMy take: hair ties weren't the problem. At a different price, the same box is a cute gift. A price is a promise, and a brand known for lingerie left out the lingerie. Richard Oliver's classic 1980 model says satisfaction depends on the gap between what you expected and what you got. The price set the expectation; the unboxing showed the gap to millions.\n\nThe limits: Skims hasn't published any sales or cost figures; view counts differ by outlet (18.9 to over 22 million); \"what you got minus what you expected\" is a simplification of that model. Sources: Global News, FashionUnited, Yahoo/The Independent, Journal of Marketing Research. The objects in this reel are AI-generated; the calendar box is an unbranded stand-in.\n\nIf someone opened your product on camera today, which door would feel emptier than its price? Write to me.\n\n— Behnood Kavian",
+ "caption": "Kim Kardashian's Skims sold a $148 advent calendar. Behind the doors: hair ties.\n\nThe Skims accessories calendar launched at the end of October: $148 in the US, £158 in the UK, sold as \"12 days of fun surprises\". Inside were hair elastics, scrunchies, bobby pins, clips, keychains and a squishy toy. No clothing, not even underwear. One creator's TikTok unboxing passed 18 million views. Skims said that \"for some, the calendar didn't meet expectations\", contacted every buyer and offered a full refund or store credit.\n\nMy take: hair ties weren't the problem. At a different price, the same box is a cute gift. And a clothing brand left out the clothes. A price is a promise. Richard Oliver's classic 1980 model says satisfaction depends on the gap between what you expected and what you got. The price set the expectation; the unboxing showed the gap to millions.\n\nThe limits: Skims hasn't published any sales or cost figures; view counts differ by outlet (18.9 to over 22 million); \"what you got minus what you expected\" is a simplification of that model. Sources: Global News, FashionUnited, Yahoo/The Independent, Journal of Marketing Research. The objects in this reel are AI-generated; the calendar box is an unbranded stand-in. The SKIMS logo and the NikeSKIMS photo belong to their owners and are shown for commentary.\n\nIf someone opened your product on camera today, which door would feel emptier than its price? Write to me.\n\n— Behnood Kavian",
  "hashtags": [
   "#marketing",
   "#branding",

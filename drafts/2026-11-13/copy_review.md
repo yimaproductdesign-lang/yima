@@ -45,3 +45,11 @@ Fluency: S3 "Buyers opened it on camera" repeated later in S10 ("opens on camera
 - Opinion is marked ("به نظر من" / "My take") in captions; on screen S5-S7 are interpretation.
 - No sales or loss figures exist; caveat once on screen (S11), fully in caption.
 - Creator not named on screen; no mocking of private individuals.
+
+## Owner uploads (added after first delivery, 2026-11-13)
+The owner sent two images and asked for them to be used in both reels. Saved as `incoming/2026-11-13/T-a_skims_logo.png` (SKIMS logo) and `T-b_nikeskims.png` (NikeSKIMS product photo, real model, owner's own upload). Both are used as framed footage on dark scenes, in natural colour:
+- **S1** (hook): the SKIMS logo replaces the calendar, so the brand is shown the moment it is named. The calendar moves to S2, beside the hair ties (it still closes the reel in S12-S13).
+- **S7** (new order): the NikeSKIMS photo shows what the brand actually sells. To keep the dark/paper rhythm, the "price is a promise" scene moved to S8 (paper, price tag + number).
+- **Copy change for accuracy:** "a lingerie brand left out the lingerie" became "a clothing brand left out the clothes" / «یک برند پوشاک، پوشاک را جا انداخت.» The photo is activewear, not lingerie, and the sources say "none are clothing". Captions updated the same way and now note that the logo and photo belong to their owners and are shown for commentary.
+- source_url for both: skims.com/pages/nikeskims (official NikeSKIMS page). The exact page the owner took the images from was not given; please confirm.
+- The "words fade" visual (lingerie words) was dropped; S7's photo now carries that idea.

@@ -39,12 +39,16 @@ TAG = lambda **kw: obj("tag", "2026-10-25/price_tag", **{"w": 520, "y": 1290, **
 WORDS = {"fa": (["سوتین", "شورت", "بادی", "لباس زیر", "گن", "کش مو"], ["کش مو"]),
          "en": (["bra", "briefs", "bodysuit", "lingerie", "shapewear", "hair tie"], ["hair tie"])}
 PRICE = {"fa": "۱۴۸ دلار", "en": "$148"}
+LOGO = {"key": "logo", "src": "assets/objects/2026-11-13/skims_logo_card.png", "x": 540, "y": 1250, "w": 680, "frame": True, "ar": 1.78,
+        "color": [0, 0, 0], "credit": "SKIMS (official logo; owner upload T-a)", "source_url": "https://skims.com/pages/nikeskims", "anim": "rise"}
+PHOTO = {"key": "nikeskims", "src": "incoming/2026-11-13/T-b_nikeskims.png", "x": 540, "y": 1270, "w": 560, "frame": True, "ar": 1.0,
+         "color": [0, 0, 0], "credit": "NikeSKIMS product photo (SKIMS / Nike; owner upload T-b)", "source_url": "https://skims.com/pages/nikeskims", "anim": "zoom"}
 
 
 def fx_for(sid, lang):
-    if sid == "S7":
-        return [{"type": "labels", "items": [{"text": PRICE[lang], "x": 540, "y": 1070, "size": 170, "acc": True, "move": "down", "t": 1.4}]}]
     if sid == "S8":
+        return [{"type": "labels", "items": [{"text": PRICE[lang], "x": 540, "y": 1070, "size": 170, "acc": True, "move": "down", "t": 1.4}]}]
+    if sid == "S8_words_unused":
         w, k = WORDS[lang]
         return [{"type": "words", "mode": "fade", "words": w, "keep": k, "box": [130, 1040, 950, 1480], "size": 56, "seed": 7}]
     if sid == "S11":
@@ -54,10 +58,10 @@ def fx_for(sid, lang):
 
 # (id, bg, spot_y, claim_type, evidence, objects, fx, rationale)
 PLAN = [
-    ("S1", "graphite", 1290, "fact", [E_YH, E_GN], [CAL(anim="rise", float=3)], None,
-     "جعبه‌ی کشویی تقویم (خودِ محصول داستان، رنگی، بی‌برند) زیر نور موضعی؛ در S13 برمی‌گردد"),
-    ("S2", "paper", None, "fact", [E_YH], [HAIR(anim="drop")], None,
-     "کش مو، اسکرانچی و سنجاق که روی کاغذ می‌ریزند = همان چیزی که پشت درها بود"),
+    ("S1", "graphite", 1290, "fact", [E_YH, E_GN], [LOGO], None,
+     "لوگوی واقعی اسکیمز (آپلود مالک) در قاب، روی صحنه‌ی تیره = برند را همان لحظه که نامش می‌آید نشان بده"),
+    ("S2", "paper", None, "fact", [E_YH], [CAL(anim="fade", x=320, y=1240, w=400), HAIR(anim="drop", x=760, y=1390, w=400)], None,
+     "جعبه‌ی کشویی تقویم (بی‌برند، رنگی) و کش موهایی که کنارش می‌ریزند = همان چیزی که پشت درها بود؛ تقویم در S12 و S13 برمی‌گردد"),
     ("S3", "graphite", 1290, "fact", [E_GN, E_FU], [obj("phone", "2026-10-25/phone", w=420, y=1290, rot=-6, anim="drop", vibrate=2)], None,
      "گوشی که می‌لرزد = آنباکسینگ جلوی دوربین و میلیون‌ها بازدید"),
     ("S4", "paper", None, "fact", [E_GN, E_YI], [obj("stamp", "2026-10-29/stamp", w=360, y=1270, anim="drop")], None,
@@ -66,10 +70,10 @@ PLAN = [
      "چرخش ایده (drop): برچسب قیمتِ خالی = مشکل خودِ قیمت بود، نه کالا؛ در S6 و S7 ادامه دارد"),
     ("S6", "paper", None, "interpretation", None, [KEY(anim="pop", float=5)], None,
      "جاکلیدی فشاری کوچک و بامزه = همین اقلام با قیمت دیگر، هدیه‌ای بامزه بودند"),
-    ("S7", "graphite", None, "fact", [E_YH], [TAG(anim="fade", x=560, y=1385, rot=6, w=400)], "S7",
-     "عدد ۱۴۸ بالای برچسب قیمتِ برگشته پایین می‌نشیند = قیمت یک قول است"),
-    ("S8", "paper", None, "fact", [E_YI], None, "S8",
-     "کلمه‌های لباس زیر محو می‌شوند و فقط «کش مو» می‌ماند = برند لباس زیر، لباس زیر را جا انداخت"),
+    ("S7", "graphite", 1285, "fact", [E_YH, E_YI], [PHOTO], None,
+     "عکس واقعی محصول نایکی‌اسکیمز (آپلود مالک) در قاب روی صحنه‌ی تیره = این چیزی است که اسکیمز می‌فروشد؛ و در تقویم نبود"),
+    ("S8", "paper", None, "interpretation", [E_YH], [TAG(anim="drop", x=560, y=1385, rot=6, w=400)], "S8",
+     "برچسب قیمت برمی‌گردد و عدد ۱۴۸ بالایش می‌نشیند = قیمت یک قول است"),
     ("S9", "graphite", 1300, "interpretation", [E_OL], [obj("scale", "2026-10-22/scale", w=520, y=1300, anim="fade")], None,
      "ترازو = رضایت، سنجیدنِ آنچه گرفتی با آنچه انتظار داشتی"),
     ("S10", "paper", None, "interpretation", [E_FU], [obj("mega", "2026-11-06/megaphone", w=540, y=1300, credit=AI_NEW, anim="slide_l", vibrate=2)], None,
@@ -90,8 +94,8 @@ FA = {
     "S4": [("اسکیمز عذرخواهی کرد", "b"), ("و به *همه* پیشنهاد بازپرداخت داد.", "h")],
     "S5": [("ولی مشکل، کش مو نبود.", "b"), ("مشکل *برچسب قیمت* بود.", "h")],
     "S6": [("همین جعبه، ارزان‌تر،", "b"), ("می‌شد هدیه‌ای *بامزه*.", "h")],
-    "S7": [("قیمت فقط یک عدد نیست.", "b"), ("یک *قول* است.", "h")],
-    "S8": [("و یک برند لباس زیر،", "b"), ("لباس زیر را *جا انداخت*.", "h")],
+    "S7": [("و یک برند پوشاک،", "b"), ("*پوشاک* را جا انداخت.", "h")],
+    "S8": [("قیمت فقط یک عدد نیست.", "b"), ("یک *قول* است.", "h")],
     "S9": [("رضایت، یک تفریق ساده است:", "b"), ("آنچه گرفتی، *منهای* آنچه انتظار داشتی.", "h")],
     "S10": [("حالا هر جعبه‌ای که باز می‌شود،", "b"), ("یک نقد *عمومی* است.", "h")],
     "S11": [("از فروش و ضررش خبر نداریم.", "b"), ("فقط *واکنش‌ها* را دیده‌ایم.", "h")],
@@ -106,8 +110,8 @@ EN = {
     "S4": [("Skims apologized", "b"), ("and offered *every* buyer a refund.", "h")],
     "S5": [("But hair ties weren't the problem.", "b"), ("The *price tag* was.", "h")],
     "S6": [("Same box, lower price:", "b"), ("a *cute* gift.", "h")],
-    "S7": [("A price isn't just a number.", "b"), ("It's a *promise*.", "h")],
-    "S8": [("And a lingerie brand", "b"), ("*left out* the lingerie.", "h")],
+    "S7": [("And a clothing brand", "b"), ("*left out* the clothes.", "h")],
+    "S8": [("A price isn't just a number.", "b"), ("It's a *promise*.", "h")],
     "S9": [("Satisfaction is simple math:", "b"), ("what you got, *minus* what you expected.", "h")],
     "S10": [("Now every unboxing", "b"), ("is a *public* review.", "h")],
     "S11": [("We don't know the sales hit.", "b"), ("Only the *reaction*.", "h")],
@@ -130,9 +134,9 @@ CAP_FA = """اسکیمز، برند کیم کارداشیان، یک تقویم 
 
 تقویم «اکسسوری» اسکیمز آخر اکتبر عرضه شد: ۱۴۸ دلار در آمریکا و ۱۵۸ پوند در بریتانیا، با وعده‌ی «دوازده روز سورپرایز». داخلش کش مو، اسکرانچی، سنجاق سر، گیره، جاکلیدی و یک عروسک فشاری بود؛ هیچ لباسی، حتی یک لباس زیر، در کار نبود. ویدیوی آنباکسینگ یکی از اینفلوئنسرها در تیک‌تاک بیش از ۱۸ میلیون بار دیده شد. اسکیمز گفت تقویم «برای بعضی‌ها انتظارات را برآورده نکرد»، با همه‌ی خریدارها تماس گرفت و بازپرداخت کامل یا اعتبار خرید پیشنهاد داد.
 
-به نظر من مشکل، کش مو نبود. همین اقلام با قیمت دیگری هدیه‌ای بامزه بودند. قیمت یک قول است، و برندی که با لباس زیر شناخته می‌شود، لباس زیر را جا انداخت. مدل کلاسیک ریچارد اولیور (۱۹۸۰) می‌گوید رضایت به فاصله‌ی «آنچه انتظار داشتی» و «آنچه گرفتی» بستگی دارد. قیمت بالا انتظار را بالا برد، و آنباکسینگ این فاصله را جلوی میلیون‌ها نفر گذاشت.
+به نظر من مشکل، کش مو نبود. همین اقلام با قیمت دیگری هدیه‌ای بامزه بودند. و برندی که لباس می‌فروشد، در تقویمش هیچ لباسی نگذاشت. قیمت یک قول است. مدل کلاسیک ریچارد اولیور (۱۹۸۰) می‌گوید رضایت به فاصله‌ی «آنچه انتظار داشتی» و «آنچه گرفتی» بستگی دارد. قیمت بالا انتظار را بالا برد، و آنباکسینگ این فاصله را جلوی میلیون‌ها نفر گذاشت.
 
-حدودش: از فروش یا ضرر مالی اسکیمز عددی منتشر نشده؛ آمار بازدیدها در گزارش‌های مختلف فرق دارد (۱۸٫۹ تا بیش از ۲۲ میلیون)؛ «رضایت = گرفته منهای انتظار» ساده‌شده‌ی آن مدل است. منابع: Global News، FashionUnited، Yahoo/The Independent و Journal of Marketing Research. اشیای این ریل با هوش مصنوعی ساخته شده‌اند و جعبه‌ی تقویم بی‌برند و نمایشی است.
+حدودش: از فروش یا ضرر مالی اسکیمز عددی منتشر نشده؛ آمار بازدیدها در گزارش‌های مختلف فرق دارد (۱۸٫۹ تا بیش از ۲۲ میلیون)؛ «رضایت = گرفته منهای انتظار» ساده‌شده‌ی آن مدل است. منابع: Global News، FashionUnited، Yahoo/The Independent و Journal of Marketing Research. اشیای این ریل با هوش مصنوعی ساخته شده‌اند و جعبه‌ی تقویم بی‌برند و نمایشی است. لوگو و عکس نایکی‌اسکیمز متعلق به صاحبانشان است و فقط برای نقد و تحلیل نشان داده شده.
 
 اگر امروز محصولتان را جلوی دوربین باز کنند، کدام در خالی‌تر از قیمتش است؟ برای من بنویسید.
 
@@ -142,9 +146,9 @@ CAP_EN = """Kim Kardashian's Skims sold a $148 advent calendar. Behind the doors
 
 The Skims accessories calendar launched at the end of October: $148 in the US, £158 in the UK, sold as "12 days of fun surprises". Inside were hair elastics, scrunchies, bobby pins, clips, keychains and a squishy toy. No clothing, not even underwear. One creator's TikTok unboxing passed 18 million views. Skims said that "for some, the calendar didn't meet expectations", contacted every buyer and offered a full refund or store credit.
 
-My take: hair ties weren't the problem. At a different price, the same box is a cute gift. A price is a promise, and a brand known for lingerie left out the lingerie. Richard Oliver's classic 1980 model says satisfaction depends on the gap between what you expected and what you got. The price set the expectation; the unboxing showed the gap to millions.
+My take: hair ties weren't the problem. At a different price, the same box is a cute gift. And a clothing brand left out the clothes. A price is a promise. Richard Oliver's classic 1980 model says satisfaction depends on the gap between what you expected and what you got. The price set the expectation; the unboxing showed the gap to millions.
 
-The limits: Skims hasn't published any sales or cost figures; view counts differ by outlet (18.9 to over 22 million); "what you got minus what you expected" is a simplification of that model. Sources: Global News, FashionUnited, Yahoo/The Independent, Journal of Marketing Research. The objects in this reel are AI-generated; the calendar box is an unbranded stand-in.
+The limits: Skims hasn't published any sales or cost figures; view counts differ by outlet (18.9 to over 22 million); "what you got minus what you expected" is a simplification of that model. Sources: Global News, FashionUnited, Yahoo/The Independent, Journal of Marketing Research. The objects in this reel are AI-generated; the calendar box is an unbranded stand-in. The SKIMS logo and the NikeSKIMS photo belong to their owners and are shown for commentary.
 
 If someone opened your product on camera today, which door would feel emptier than its price? Write to me.
 
