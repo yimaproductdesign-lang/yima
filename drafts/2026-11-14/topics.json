@@ -61,25 +61,35 @@
    }
   ],
   "music_mood": "dark",
-  "framing_note": "Type 3 (secret behind a familiar brand). Safe claims only: red Santas existed decades before 1931 (Nast 1881, White Rock 1915/1923); Coca-Cola says itself it didn't create Santa; Sundblom painted Coke's Santa every year 1931-1964 (33 years); the myth that Coke 'made him red' is what the world believes. Do NOT claim Coke chose red to match its logo, and do NOT say Coke contributed nothing (it shaped the warm face and made him universal). One number on screen: 33 years. Lesson for business owners: you don't need to be first; pick one asset and repeat it until people can't imagine it without you. Never generate the Coca-Cola logo, Santa likeness from Sundblom, or any real face with AI; real ads only from owner uploads, framed and credited. Caption: sources + 'editorial use; images belong to their owners'. No UAE/Dubai/emirate anywhere.",
+  "framing_note": "Type 3 (secret behind a familiar brand). Safe claims only: red Santas existed decades before 1931 (Nast 1881, White Rock 1915/1923); Coca-Cola says itself it didn't create Santa; Sundblom painted Coke's Santa every year 1931-1964 (33 years); the myth that Coke 'made him red' is what the world believes. Do NOT claim Coke chose red to match its logo, and do NOT say Coke contributed nothing (it shaped the warm face and made him universal). One number on screen: 33 years. Lesson for business owners: you don't need to be first; pick one asset and repeat it until people can't imagine it without you. Never generate the Coca-Cola logo, Santa likeness from Sundblom, or any real face with AI; real ads only from owner uploads, framed and credited. Caption: sources + 'editorial use; images belong to their owners'. No UAE/Dubai/emirate anywhere. Owner uploads: T-b proves the red suit in 1902; T-a is Coke's 1930s Sundblom Santa; T-d shows the same Santa today. Sequence T-b (1902) -> T-a (1930s) -> T-d (today) carries the whole argument.",
   "image_requests": [
    {
     "id": "T-a",
     "description": "یکی از نقاشی‌های بابانوئل هادون ساندبلوم برای تبلیغ کوکاکولا (ترجیحاً ۱۹۳۱ یا هر تبلیغ قدیمی بابانوئل با بطری کوکاکولا) از صفحه‌ی رسمی کوکاکولا",
     "page_url": "https://www.coca-colacompany.com/company/history/five-things-you-never-knew-about-santa-claus-and-coca-cola",
-    "scene_idea": "صحنه‌ی «همان بابانوئلی که همه می‌شناسند» و صحنه‌ی ۳۳ سال تکرار؛ قاب‌دار روی زمینه‌ی تیره. (این صفحه برای ایجنت باز نشد؛ اگر صفحه تصویری نداشت، از T-a بگذر)"
+    "scene_idea": "صحنه‌ی «همان بابانوئلی که همه می‌شناسند» و صحنه‌ی ۳۳ سال تکرار؛ قاب‌دار روی زمینه‌ی تیره. (این صفحه برای ایجنت باز نشد؛ اگر صفحه تصویری نداشت، از T-a بگذر)",
+    "status": "received 2026-11-13: Sundblom Santa, Coca-Cola ad in The Saturday Evening Post ('My hat's off to the pause that refreshes'); 720x925, below 1080 short side: show framed at small/medium size only, no upscaling >2x. Credit: The Coca-Cola Company / Haddon Sundblom"
    },
    {
     "id": "T-b",
     "description": "جلد کریسمس مجله‌ی Puck سال ۱۹۰۲ (بابانوئل با کیسه‌ی اسباب‌بازی از پنجره وارد می‌شود)؛ فقط اگر بابانوئل در تصویر لباس قرمز دارد",
     "page_url": "https://www.theodorerooseveltcenter.org/digital-library/o276284/",
-    "scene_idea": "اثبات: بابانوئل قرمز ۲۹ سال پیش از کوکاکولا؛ قاب‌دار، کنار تاریخ ۱۹۰۲"
+    "scene_idea": "اثبات: بابانوئل قرمز ۲۹ سال پیش از کوکاکولا؛ قاب‌دار، کنار تاریخ ۱۹۰۲",
+    "status": "received 2026-11-13: Puck cover, 3 Dec 1902, Frank A. Nankivell; Santa clearly in a RED suit with white fur (verified by eye). 1216x1600. Credit: Puck / Library of Congress (no known restrictions). Key proof scene: red Santa 29 years before Coke's 1931 ads"
    },
    {
     "id": "T-c",
     "description": "نقاشی «Merry Old Santa Claus» توماس نست (هارپرز ویکلی، ۱ ژانویه‌ی ۱۸۸۱) از وبلاگ کتابخانه‌ی کنگره",
     "page_url": "https://blogs.loc.gov/loc/2020/12/a-visit-from-santa-who-you-might-not-recognize/",
-    "scene_idea": "«پنجاه سال پیش از کوکاکولا»؛ ریشه‌ی چهره‌ی امروزی بابانوئل؛ قاب‌دار روی زمینه‌ی کاغذ"
+    "scene_idea": "«پنجاه سال پیش از کوکاکولا»؛ ریشه‌ی چهره‌ی امروزی بابانوئل؛ قاب‌دار روی زمینه‌ی کاغذ",
+    "status": "not received; optional"
+   },
+   {
+    "id": "T-d",
+    "description": "owner extra upload: modern Coca-Cola 'share the happiness' postcard, Sundblom-style Santa holding bottles, red Coca-Cola truck behind",
+    "page_url": "owner upload (source page not given)",
+    "scene_idea": "ending/callback: the same face, still there today, with the trucks = 'repeat until it is yours'. Framed, credit 'Coca-Cola'. 825x578: small/medium framed only",
+    "status": "received 2026-11-13"
    }
   ],
   "object_plan": [
