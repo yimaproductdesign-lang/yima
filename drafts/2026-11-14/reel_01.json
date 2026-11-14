@@ -1,0 +1,720 @@
+{
+ "reel_id": "2026-11-14_FA",
+ "date": "2026-11-14",
+ "topic": "کوکاکولا بابانوئل را قرمز نکرد؛ ۳۳ سال همان یکی را تکرار کرد تا دنیا اسمش را به نام کوکاکولا بنویسد",
+ "pillar": "brand_assets_consistency",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "graphite",
+   "spot_y": 1270,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.coca-cola.com/us/en/about-us/faq/did-coca-cola-create-santa-claus",
+     "publisher": "The Coca-Cola Company (official FAQ)",
+     "event_date": "undated",
+     "retrieved_at": "2026-11-13T17:00:00Z",
+     "claim": "Coca-Cola did not create the legend of Santa Claus; its advertising, starting with Haddon Sundblom's 1931 Santa, helped shape his modern image."
+    },
+    {
+     "url": "https://thehustle.co/12222020-coca-cola",
+     "publisher": "The Hustle",
+     "event_date": "2020-12-22",
+     "retrieved_at": "2026-11-14T04:30:00Z",
+     "claim": "Sundblom's first Coke Santa 1931, last 1964 (over three decades); Coke did not invent Santa; the red is not a deliberate brand-colour choice."
+    }
+   ],
+   "objects": [
+    {
+     "key": "ta",
+     "src": "incoming/2026-11-14/T-a.png",
+     "x": 540,
+     "y": 1320,
+     "w": 360,
+     "frame": true,
+     "ar": 0.778,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "The Coca-Cola Company / Haddon Sundblom (Saturday Evening Post ad; owner upload T-a)",
+     "source_url": "https://www.coca-colacompany.com/company/history/five-things-you-never-knew-about-santa-claus-and-coca-cola",
+     "anim": "rise"
+    }
+   ],
+   "motion_rationale": "تبلیغ واقعی ساندبلوم برای کوکاکولا (آپلود مالک) در قاب روی صحنه‌ی تیره = همان بابانوئلی که همه به اسم کوکاکولا می‌شناسند؛ در پایان با T-d برمی‌گردیم",
+   "lines": [
+    {
+     "text": "کوکاکولا بابانوئل را قرمز نکرد.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "پس چرا *همه* فکر می‌کنند کرد؟",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://thehustle.co/12222020-coca-cola",
+     "publisher": "The Hustle",
+     "event_date": "2020-12-22",
+     "retrieved_at": "2026-11-14T04:30:00Z",
+     "claim": "Sundblom's first Coke Santa 1931, last 1964 (over three decades); Coke did not invent Santa; the red is not a deliberate brand-colour choice."
+    }
+   ],
+   "objects": [
+    {
+     "key": "hat",
+     "src": "assets/objects/2026-11-14/santa_hat.png",
+     "x": 540,
+     "y": 1300,
+     "w": 400,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "anim": "pop",
+     "float": 5
+    }
+   ],
+   "motion_rationale": "کلاه قرمز بابانوئل با رنگ طبیعی = خودِ «قرمز»ی که افسانه به کوکاکولا نسبت می‌دهد؛ در S12 برمی‌گردد",
+   "lines": [
+    {
+     "text": "روایت معروف این است:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "کوکاکولا لباسش را *قرمزِ برند* کرد.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "bg": "graphite",
+   "spot_y": 1270,
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.theodorerooseveltcenter.org/digital-library/o276284/",
+     "publisher": "Theodore Roosevelt Center / Library of Congress (Puck, 3 Dec 1902)",
+     "event_date": "1902-12-03",
+     "retrieved_at": "2026-11-13T17:00:00Z",
+     "claim": "Puck Christmas cover 1902 (Frank A. Nankivell) shows Santa in a red suit with white fur (verified by eye on owner upload T-b)."
+    },
+    {
+     "url": "https://kgw.com/article/news/verify/holiday-verify/coca-cola-did-not-invent-santa-claus-modern-image-costume-red-suit/536-d4c9529c-e97d-48e5-92e2-912c7ee609fc",
+     "publisher": "KGW / VERIFY",
+     "event_date": "undated",
+     "retrieved_at": "2026-11-14T04:30:00Z",
+     "claim": "White Rock used the modern Santa in a 1915 mineral-water ad and a 1923 ginger-ale ad; Nast's red-and-white scheme was common about 50 years before Coke; Coca-Cola popularised the image but did not invent it."
+    }
+   ],
+   "objects": [
+    {
+     "key": "tb",
+     "src": "incoming/2026-11-14/T-b.png",
+     "x": 540,
+     "y": 1270,
+     "w": 430,
+     "frame": true,
+     "ar": 0.76,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "Puck, 3 Dec 1902, Frank A. Nankivell / Library of Congress (owner upload T-b)",
+     "source_url": "https://www.theodorerooseveltcenter.org/digital-library/o276284/",
+     "anim": "zoom"
+    }
+   ],
+   "motion_rationale": "جلد پاک ۱۹۰۲ (آپلود مالک) در قاب = سند: بابانوئل ۲۹ سال پیش از ۱۹۳۱ قرمز پوشیده بود",
+   "lines": [
+    {
+     "text": "این بابانوئل سال ۱۹۰۲ است.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "همان وقت هم *قرمز* بود.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://kgw.com/article/news/verify/holiday-verify/coca-cola-did-not-invent-santa-claus-modern-image-costume-red-suit/536-d4c9529c-e97d-48e5-92e2-912c7ee609fc",
+     "publisher": "KGW / VERIFY",
+     "event_date": "undated",
+     "retrieved_at": "2026-11-14T04:30:00Z",
+     "claim": "White Rock used the modern Santa in a 1915 mineral-water ad and a 1923 ginger-ale ad; Nast's red-and-white scheme was common about 50 years before Coke; Coca-Cola popularised the image but did not invent it."
+    },
+    {
+     "url": "https://whiterockbeverages.com/news/ho-ho-ho-setting-the-facts-straight",
+     "publisher": "White Rock Beverages (official)",
+     "event_date": "undated",
+     "retrieved_at": "2026-11-13T17:00:00Z",
+     "claim": "White Rock ran Santa ads in 1915-16 and colour Santa ads in 1923-25."
+    }
+   ],
+   "objects": [
+    {
+     "key": "photo",
+     "src": "assets/objects/2026-10-22/photo.png",
+     "x": 540,
+     "y": 1290,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -3,
+     "anim": "fade"
+    },
+    {
+     "key": "lens",
+     "src": "assets/objects/2026-10-22/magnifier.png",
+     "x": 540,
+     "y": 1300,
+     "w": 360,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -10,
+     "anim": "slide_r",
+     "path": [
+      [
+       0.6,
+       720,
+       1250
+      ],
+      [
+       2.0,
+       470,
+       1320
+      ],
+      [
+       3.2,
+       620,
+       1340
+      ]
+     ]
+    }
+   ],
+   "motion_rationale": "ذره‌بین روی عکس قدیمی = دقیق‌تر به تاریخ نگاه کن: یک نوشابه‌ی دیگر زودتر بابانوئل را در تبلیغش آورد",
+   "lines": [
+    {
+     "text": "حتی یک نوشابه‌ی رقیب",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*زودتر* در تبلیغش آوردش.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://www.coca-cola.com/us/en/about-us/faq/did-coca-cola-create-santa-claus",
+     "publisher": "The Coca-Cola Company (official FAQ)",
+     "event_date": "undated",
+     "retrieved_at": "2026-11-13T17:00:00Z",
+     "claim": "Coca-Cola did not create the legend of Santa Claus; its advertising, starting with Haddon Sundblom's 1931 Santa, helped shape his modern image."
+    },
+    {
+     "url": "https://www.logicallyfacts.com/en/fact-check/true-coca-cola-played-a-part-in-santa-s-iconic-red-image",
+     "publisher": "Logically Facts",
+     "event_date": "2020-12-22",
+     "retrieved_at": "2026-11-14T04:30:00Z",
+     "claim": "Red-suited Santas existed before Coca-Cola's campaign; Sundblom painted Santa for Coca-Cola ads from 1931 to 1964, run in the Saturday Evening Post, The New Yorker, National Geographic etc. and on billboards, posters, calendars and store displays."
+    }
+   ],
+   "fx": [
+    {
+     "type": "rings",
+     "x": 540,
+     "y": 1290,
+     "n": 6
+    }
+   ],
+   "motion_rationale": "چرخش ایده (drop): حلقه‌هایی که پشت سر هم از یک نقطه بیرون می‌زنند = تکرار بی‌وقفه، نه اختراع",
+   "lines": [
+    {
+     "text": "کوکاکولا اول نبود.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "فقط *دست برنداشت*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.logicallyfacts.com/en/fact-check/true-coca-cola-played-a-part-in-santa-s-iconic-red-image",
+     "publisher": "Logically Facts",
+     "event_date": "2020-12-22",
+     "retrieved_at": "2026-11-14T04:30:00Z",
+     "claim": "Red-suited Santas existed before Coca-Cola's campaign; Sundblom painted Santa for Coca-Cola ads from 1931 to 1964, run in the Saturday Evening Post, The New Yorker, National Geographic etc. and on billboards, posters, calendars and store displays."
+    },
+    {
+     "url": "https://thehustle.co/12222020-coca-cola",
+     "publisher": "The Hustle",
+     "event_date": "2020-12-22",
+     "retrieved_at": "2026-11-14T04:30:00Z",
+     "claim": "Sundblom's first Coke Santa 1931, last 1964 (over three decades); Coke did not invent Santa; the red is not a deliberate brand-colour choice."
+    }
+   ],
+   "objects": [
+    {
+     "key": "roller",
+     "src": "assets/objects/2026-10-26/paint_roller.png",
+     "x": 540,
+     "y": 1300,
+     "w": 560,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "rot": -12,
+     "anim": "slide_l",
+     "path": [
+      [
+       0.4,
+       380,
+       1330
+      ],
+      [
+       1.6,
+       700,
+       1270
+      ],
+      [
+       2.8,
+       460,
+       1320
+      ]
+     ]
+    }
+   ],
+   "motion_rationale": "غلتک رنگ که رفت‌وبرگشت می‌کند = همان تصویر را بارها و بارها روی دیوار کشیدن؛ ۳۳ سال یک نقاش",
+   "lines": [
+    {
+     "text": "یک نقاش، یک بابانوئل،",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*۳۳ سال* پشت سر هم.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "bg": "graphite",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.logicallyfacts.com/en/fact-check/true-coca-cola-played-a-part-in-santa-s-iconic-red-image",
+     "publisher": "Logically Facts",
+     "event_date": "2020-12-22",
+     "retrieved_at": "2026-11-14T04:30:00Z",
+     "claim": "Red-suited Santas existed before Coca-Cola's campaign; Sundblom painted Santa for Coca-Cola ads from 1931 to 1964, run in the Saturday Evening Post, The New Yorker, National Geographic etc. and on billboards, posters, calendars and store displays."
+    }
+   ],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "pop",
+     "words": [
+      "مجله",
+      "بیلبورد",
+      "تقویم",
+      "پوستر",
+      "ویترین",
+      "کارت پستال"
+     ],
+     "keep": [
+      "تقویم"
+     ],
+     "box": [
+      110,
+      1000,
+      970,
+      1540
+     ],
+     "size": 54,
+     "seed": 5
+    }
+   ],
+   "motion_rationale": "ابر کلمه‌های رسانه‌ها (مجله، بیلبورد، تقویم…) که شلوغ می‌شوند = همان چهره در همه‌جا، هر کریسمس",
+   "lines": [
+    {
+     "text": "مجله، بیلبورد، تقویم.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "هر *کریسمس*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "stone",
+     "src": "assets/objects/2026-10-26/worn_stone.png",
+     "x": 540,
+     "y": 1300,
+     "w": 600,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise"
+    }
+   ],
+   "motion_rationale": "سنگ پله‌ی ساییده = تکرار طولانی در حافظه شیار می‌اندازد",
+   "lines": [
+    {
+     "text": "یک چیز را آن‌قدر تکرار کن",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "تا در ذهن‌ها *شیار* بیندازد.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://www.coca-cola.com/us/en/about-us/faq/did-coca-cola-create-santa-claus",
+     "publisher": "The Coca-Cola Company (official FAQ)",
+     "event_date": "undated",
+     "retrieved_at": "2026-11-13T17:00:00Z",
+     "claim": "Coca-Cola did not create the legend of Santa Claus; its advertising, starting with Haddon Sundblom's 1931 Santa, helped shape his modern image."
+    },
+    {
+     "url": "https://kgw.com/article/news/verify/holiday-verify/coca-cola-did-not-invent-santa-claus-modern-image-costume-red-suit/536-d4c9529c-e97d-48e5-92e2-912c7ee609fc",
+     "publisher": "KGW / VERIFY",
+     "event_date": "undated",
+     "retrieved_at": "2026-11-14T04:30:00Z",
+     "claim": "White Rock used the modern Santa in a 1915 mineral-water ad and a 1923 ginger-ale ad; Nast's red-and-white scheme was common about 50 years before Coke; Coca-Cola popularised the image but did not invent it."
+    }
+   ],
+   "objects": [
+    {
+     "key": "stamp",
+     "src": "assets/objects/2026-10-29/stamp.png",
+     "x": 540,
+     "y": 1290,
+     "w": 360,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop"
+    }
+   ],
+   "motion_rationale": "مُهری که پایین می‌آید = دنیا اسم کوکاکولا را پای بابانوئل زد",
+   "lines": [
+    {
+     "text": "حالا دنیا",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "*اسم کوکاکولا* را رویش می‌نویسد.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "trophy",
+     "src": "assets/objects/2026-10-24/trophy.png",
+     "x": 540,
+     "y": 1300,
+     "w": 380,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise"
+    }
+   ],
+   "motion_rationale": "جام = اعتبار و جایزه به کسی می‌رسد که دست نکشید، نه به اولی",
+   "lines": [
+    {
+     "text": "اعتبار به اولی نمی‌رسد.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "به کسی می‌رسد که *تکرار کرد*.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "bg": "graphite",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.coca-cola.com/us/en/about-us/faq/did-coca-cola-create-santa-claus",
+     "publisher": "The Coca-Cola Company (official FAQ)",
+     "event_date": "undated",
+     "retrieved_at": "2026-11-13T17:00:00Z",
+     "claim": "Coca-Cola did not create the legend of Santa Claus; its advertising, starting with Haddon Sundblom's 1931 Santa, helped shape his modern image."
+    },
+    {
+     "url": "https://www.logicallyfacts.com/en/fact-check/true-coca-cola-played-a-part-in-santa-s-iconic-red-image",
+     "publisher": "Logically Facts",
+     "event_date": "2020-12-22",
+     "retrieved_at": "2026-11-14T04:30:00Z",
+     "claim": "Red-suited Santas existed before Coca-Cola's campaign; Sundblom painted Santa for Coca-Cola ads from 1931 to 1964, run in the Saturday Evening Post, The New Yorker, National Geographic etc. and on billboards, posters, calendars and store displays."
+    }
+   ],
+   "fx": [
+    {
+     "type": "viewfinder",
+     "box": [
+      200,
+      1060,
+      880,
+      1500
+     ],
+     "t": 0.5
+    }
+   ],
+   "motion_rationale": "احتیاط یک بار: منظره‌یاب = قاب را دقیق کن؛ کوکاکولا چهره‌ی امروزی را شکل داد، رنگ را نه",
+   "lines": [
+    {
+     "text": "ولی انصاف بدهیم: کوکاکولا",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "چهره را ساخت، نه *رنگ* را.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "objects": [
+    {
+     "key": "hat",
+     "src": "assets/objects/2026-11-14/santa_hat.png",
+     "x": 540,
+     "y": 1300,
+     "w": 420,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "anim": "drop",
+     "rot": -6
+    }
+   ],
+   "motion_rationale": "بازگشت کلاه قرمز = قرمز مال کوکاکولا نبود، ولی حالا به نامش است: مالکیت با تکرار",
+   "lines": [
+    {
+     "text": "لازم نیست اختراعش کنید.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "باید *صاحبش* شوید.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "bg": "graphite",
+   "spot_y": 1290,
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://www.coca-cola.com/us/en/about-us/faq/did-coca-cola-create-santa-claus",
+     "publisher": "The Coca-Cola Company (official FAQ)",
+     "event_date": "undated",
+     "retrieved_at": "2026-11-13T17:00:00Z",
+     "claim": "Coca-Cola did not create the legend of Santa Claus; its advertising, starting with Haddon Sundblom's 1931 Santa, helped shape his modern image."
+    }
+   ],
+   "objects": [
+    {
+     "key": "td",
+     "src": "incoming/2026-11-14/T-d.png",
+     "x": 540,
+     "y": 1290,
+     "w": 700,
+     "frame": true,
+     "ar": 1.427,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "Coca-Cola holiday postcard (owner upload T-d)",
+     "source_url": "https://www.coca-cola.com/us/en/about-us/faq/did-coca-cola-create-santa-claus",
+     "anim": "rise"
+    }
+   ],
+   "motion_rationale": "بستن دایره با همان چهره‌ی امروز (آپلود مالک) کنار کامیون = یک دارایی را انتخاب کن و آن‌قدر تکرار کن که مال تو شود",
+   "lines": [
+    {
+     "text": "یک چیز را انتخاب کنید.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "آن‌قدر تکرار کنید که *مال شما* شود.",
+     "kind": "h",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "bg": "primary",
+   "claim_type": "interpretation",
+   "motion_rationale": "کارت پایانی",
+   "logo": true,
+   "txt_top": 1080,
+   "lines": [
+    {
+     "text": "برای من بنویسید.",
+     "kind": "b",
+     "dim": false
+    }
+   ]
+  }
+ ],
+ "caption": "کوکاکولا بابانوئل را قرمز نکرد. پس چرا همه فکر می‌کنند کرد؟\n\nبابانوئل قرمزپوش دهه‌ها پیش از کوکاکولا وجود داشت. جلد کریسمس مجله‌ی «پاک» در ۱۹۰۲ او را با لباس قرمز و خز سفید نشان می‌دهد. نوشابه‌ی وایت‌راک هم در ۱۹۱۵ و ۱۹۲۳ بابانوئل را در تبلیغش آورد. خود کوکاکولا هم در صفحه‌ی رسمی‌اش می‌گوید بابانوئل را اختراع نکرده است.\n\nکاری که کوکاکولا کرد ساده‌تر و سخت‌تر بود: از ۱۹۳۱ تا ۱۹۶۴، یعنی ۳۳ سال، هادون ساندبلوم همان بابانوئل را برایش کشید؛ در مجله‌ها، روی بیلبورد، تقویم و ویترین مغازه‌ها. به نظر من درسش برای هر برندی روشن است: لازم نیست اولین باشید. یک چیز را انتخاب کنید و آن‌قدر تکرارش کنید که مردم نتوانند بدون شما تصورش کنند.\n\nحدودش: کوکاکولا در ساختن چهره‌ی گرم و امروزی بابانوئل و جهانی‌کردنش واقعاً نقش داشت؛ فقط رنگ قرمز را اختراع نکرد. این‌که دقیقاً چرا دنیا قرمز را به کوکاکولا نسبت می‌دهد اندازه‌گیری نشده و «تکرار» تفسیر من است. منابع: صفحه‌ی رسمی کوکاکولا، Logically Facts، KGW/VERIFY، وایت‌راک، The Hustle و کتابخانه‌ی کنگره (جلد پاک). تصویرهای تبلیغ و کارت پستال متعلق به کوکاکولا و جلد پاک از آرشیو کتابخانه‌ی کنگره است و فقط برای تحلیل نشان داده شده؛ اشیای دیگر ریل با هوش مصنوعی ساخته شده‌اند.\n\nبرند شما کدام یک چیز را آن‌قدر تکرار کرده که دیگر مال خودش شده باشد؟ برای من بنویسید.\n\n— بهنود کاویان",
+ "hashtags": [
+  "#برندینگ",
+  "#بازاریابی",
+  "#cocacola",
+  "#santaclaus"
+ ],
+ "sources": [
+  {
+   "publisher": "The Coca-Cola Company",
+   "title": "Did Coca-Cola create Santa Claus? (FAQ)",
+   "date": "undated (retrieved 2026-11-13)",
+   "url": "https://www.coca-cola.com/us/en/about-us/faq/did-coca-cola-create-santa-claus"
+  },
+  {
+   "publisher": "Logically Facts",
+   "title": "True: Coca-Cola played a part in Santa's iconic red image",
+   "date": "2020-12-22",
+   "url": "https://www.logicallyfacts.com/en/fact-check/true-coca-cola-played-a-part-in-santa-s-iconic-red-image"
+  },
+  {
+   "publisher": "KGW / VERIFY",
+   "title": "Coca-Cola did not invent Santa Claus' modern image",
+   "date": "undated (retrieved 2026-11-14)",
+   "url": "https://kgw.com/article/news/verify/holiday-verify/coca-cola-did-not-invent-santa-claus-modern-image-costume-red-suit/536-d4c9529c-e97d-48e5-92e2-912c7ee609fc"
+  },
+  {
+   "publisher": "White Rock Beverages",
+   "title": "Ho Ho Ho: setting the facts straight",
+   "date": "undated (retrieved 2026-11-13)",
+   "url": "https://whiterockbeverages.com/news/ho-ho-ho-setting-the-facts-straight"
+  },
+  {
+   "publisher": "The Hustle",
+   "title": "Did Coca-Cola create Santa Claus?",
+   "date": "2020-12-22",
+   "url": "https://thehustle.co/12222020-coca-cola"
+  },
+  {
+   "publisher": "Theodore Roosevelt Center / Library of Congress",
+   "title": "Puck, Christmas cover, 3 December 1902 (Frank A. Nankivell)",
+   "date": "1902-12-03",
+   "url": "https://www.theodorerooseveltcenter.org/digital-library/o276284/"
+  },
+  {
+   "publisher": "The Ferret",
+   "title": "Fact check: did Coca-Cola make Santa red?",
+   "date": "2017-12-25",
+   "url": "https://theferret.scot/fact-check-coca-cola-red-santa-claus-christmas/"
+  }
+ ],
+ "cta": "برای من بنویسید.",
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S5"
+ },
+ "status": "DRAFT",
+ "style": "editorial",
+ "lang": "fa",
+ "cover": {
+  "bg": "paper",
+  "kicker": "بابانوئلِ کوکاکولا",
+  "title": [
+   "کوکاکولا",
+   "بابانوئل را *قرمز* نکرد"
+  ],
+  "objects": [
+   {
+    "src": "assets/objects/2026-11-14/santa_hat.png",
+    "x": 540,
+    "y": 1300,
+    "w": 560,
+    "rot": -4
+   }
+  ]
+ }
+}
