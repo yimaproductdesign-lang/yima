@@ -1,147 +1,148 @@
 {
  "date": "2026-11-24",
  "T": {
-  "topic_fa": "مک‌دونالد این کریسمس به بچه‌ها نمی‌فروشد؛ کوین «تنها در خانه» را ۳۶ سال بعد برگرداند تا به بزرگ‌ترها کودکیِ خودشان را بفروشد",
-  "topic_en": "McDonald's brought back Home Alone's Kevin 36 years later. The ad isn't for kids: it sells grown-ups the child they used to be",
-  "topic_type": 2,
-  "pillar": "positioning_nostalgia_consumer_behaviour",
-  "central_tension_fa": "همه فکر می‌کنند فست‌فود برای بچه‌ها تبلیغ می‌کند؛ ولی بزرگ‌ترین تبلیغ کریسمس مک‌دونالد برای آدم‌های چهل‌ساله است. تیتر خودشان: «بزرگ‌سالی را پشت سر بگذار». محصول برگر نیست؛ برگشتن به ده‌سالگی است، و جوراب یادگاری رسیدِ این سفر است.",
-  "central_tension_en": "Everyone assumes fast food advertises to kids. McDonald's biggest Christmas ad is aimed at forty-year-olds; its own headline says 'Leave Adulthood Behind'. The product isn't the burger. It's a trip back to being ten, and the collectible socks are the souvenir.",
-  "working_hook_fa": "مک‌دونالد کوینِ «تنها در خانه» را برگرداند. ولی این تبلیغ برای بچه‌ها نیست؛ برای شماست.",
-  "working_hook_en": "McDonald's just brought Kevin back. This ad isn't for kids. It's for the kid you were.",
+  "topic_fa": "دیور و پرادا، کریسمس ۲۰۲۶: پرادا با مداد کشید و تشویق شد؛ فیلم دیور را استادِ انیمیشن دستی ساخت، ولی به‌خاطر یک دستِ شش‌انگشتی متهم شد که کارِ هوش مصنوعی است",
+  "topic_en": "Prada drew its Christmas film by hand and got applause. Dior hired a master of hand-drawn animation and got accused of AI over a six-fingered hand",
+  "topic_type": 1,
+  "pillar": "brand_trust_luxury_positioning",
+  "central_tension_fa": "فکر می‌کنیم کارِ واقعی خودش دیده می‌شود؛ ولی در فیدی پر از هوش مصنوعی، حتی کارِ دستیِ یک استاد هم مشکوک است. حالا لوکس‌ترین چیز در تبلیغ، اثباتِ این است که آدم ساختش: پرادا مداد را نشان داد، دیور مجبور شد توضیح بدهد.",
+  "central_tension_en": "We assume real craft speaks for itself. In a feed full of AI, even a master's hand-drawn work looks suspect. The most luxurious thing an ad can show now is proof a human made it: Prada showed the pencil, Dior had to explain the fingers.",
+  "working_hook_fa": "دیور استادِ انیمیشن دستی را استخدام کرد. اینترنت گفت: «این هوش مصنوعی است.» مشکل یک انگشت بود.",
+  "working_hook_en": "Dior hired a master of hand-drawn animation. The internet counted six fingers and called it AI.",
   "cover_idea": {
-   "kicker_fa": "تنها در خانه",
-   "kicker_en": "HOME ALONE",
+   "kicker_fa": "دیور در برابر پرادا",
+   "kicker_en": "DIOR vs PRADA",
    "title_fa": [
-    "کودکیِ *شما*",
-    "روی منو"
+    "*شش* انگشت",
+    "و یک اتهام"
    ],
    "title_en": [
-    "Your *childhood*",
-    "is on the menu"
+    "*Six* fingers,",
+    "one accusation"
    ],
-   "object": "pair of novelty Christmas socks (color, unbranded) or owner's T-a meal photo"
+   "object": "wooden artist's hand mannequin (monochrome) with a pencil"
   },
   "key_sources": [
    {
-    "url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/mcdonalds-home-alone-meal.html",
-    "publisher": "McDonald's Corporation",
-    "date": "2026-11-17",
-    "claim": "Release title 'Leave Adulthood Behind with the Home Alone Meal'; US from Dec 1; Little Nero's Pizza McShaker Fries, four collectible socks; Flatley: 'Bringing together two icons people already love, McDonald's and Home Alone'"
+    "url": "https://www.fastcompany.com/91636722/dior-holiday-ad-is-triggering-yet-another-ai-debate",
+    "publisher": "Fast Company",
+    "date": "2026-11-06",
+    "claim": "Dior 'Night in Color' by Sylvain Chomet; viewers flag warped lettering, lazy eye, misplaced finger bone; Jonathan Anderson to WWD: 'all hand-drawn using techniques that go back to the 1940s'"
    },
    {
-    "url": "https://news.designrush.com/mcdonalds-wk-toronto-home-alone-meal-macaulay-culkin",
-    "publisher": "DesignRush",
-    "date": "2026-11-18",
-    "claim": "60s film by Wieden+Kennedy Toronto, dir. Ramy Youssef & Amir Farhang; Kevin alone after closing in a snowstorm runs kitchen, counter and drive-thru; 47 markets; UK Nov 17, Canada Nov 24, Australia Nov 25, US Dec 1"
+    "url": "https://www.avclub.com/christian-diors-night-in-color-animated-short-alleged-ai-use",
+    "publisher": "The A.V. Club (citing Variety)",
+    "date": "2026-11-07",
+    "claim": "Chomet: ~20 artists, seven months; 'automated interpolation' for 'a very small part'; 'You might see six or seven fingers because you're trying to convey movement'; voices incl. Rihanna, Robert Pattinson"
    },
    {
-    "url": "https://www.adweek.com/creativity/macaulay-culkin-is-home-alone-again-this-time-in-mcdonalds/",
-    "publisher": "Adweek",
-    "date": "2026-11-17",
-    "claim": "Culkin reprises Kevin in an 'empty McDonald's'; tied to the film's 36th anniversary (teaser only; paywall)"
+    "url": "https://www.creativebloq.com/news/diors-christmas-ad-is-the-opposite-to-pradas-classy-animation",
+    "publisher": "Creative Bloq",
+    "date": "2026-11-05",
+    "claim": "Dior ad seen as the opposite of Prada's; X post 4 Nov 'am i the only one noticing this is ai?'"
    },
    {
-    "url": "https://www.ibtimes.co.uk/macaulay-culkin-returns-kevin-home-alone-mcdonalds-campaign-1833214",
-    "publisher": "IBTimes UK",
-    "date": "2026-11-18",
-    "claim": "Fans on X praise the ad's nostalgia ('Feel like Christmas in 1992' headline); no counts given"
+    "url": "https://fashionunited.uk/news/culture/dior-animated-film-suspected-of-using-ai-luxury-urged-to-prove-its-craftsmanship/2026110991274",
+    "publisher": "FashionUnited",
+    "date": "2026-11-09",
+    "claim": "'Luxury urged to prove its craftsmanship'; Chomet on Dior Instagram: 'we work just like in the 1940s'"
    },
    {
-    "url": "https://www.adsoftheworld.com/campaigns/macaulay-culkin-reprises-his-role-as-kevin-mccallister",
-    "publisher": "Ads of the World",
-    "date": "2026-11",
-    "claim": "Credits: W+K Toronto, Caviar; Paloma Azulay (VP Global Brand Marketing): 'The best brand partnerships don't just bring two familiar names together.'"
+    "url": "https://www.euronews.com/2026/11/02/prada-champions-the-human-touch-and-not-ai-slop-for-their-new-christmas-campaign",
+    "publisher": "Euronews",
+    "date": "2026-11-02",
+    "claim": "'Drawing Prada: Animated By Hand', led by John Pomeroy; every frame hand-drawn over live action; Pomeroy: 'I learnt my craft with pencil and paper'"
    },
    {
-    "url": "https://www.restaurantbusinessonline.com/marketing/mcdonalds-coming-out-minecraft-movie-happy-meal-one-adults",
-    "publisher": "Restaurant Business",
-    "date": "2025",
-    "claim": "Pattern context: McDonald's Minecraft Movie meal made for adults (headline level, not read in full)"
+    "url": "https://www.fastcompany.com/91632291/prada-ad-luxury-brands-all-in-on-handmade-ads",
+    "publisher": "Fast Company",
+    "date": "2026-10-30",
+    "claim": "'As AI slop floods feeds, luxury brands are going all in on handmade ads'; ex-Disney animator Pomeroy"
+   },
+   {
+    "url": "https://respondology.com/blog/social-media-strategies/what-audiences-really-think-of-the-first-big-holiday-ads-of-2026/",
+    "publisher": "Respondology",
+    "date": "2026-11-13 (updated 11-20)",
+    "claim": "15,000 IG/TikTok comments: Prada sentiment 93/100, Dior 82; few AI-suspicion comments on Dior but high engagement; a hand-drawn-animation comment drew 1,709 likes"
    }
   ],
   "music_mood": "dark",
-  "framing_note": "Type 2. Spine: (1) Kevin is back, alone in a closed McDonald's on Christmas, 36 years later; (2) the twist: look who it's for - the release literally says 'Leave Adulthood Behind'; (3) why: adults are the new Happy Meal customer (McDonaldland adult meal, Minecraft meal) - nostalgia lets a grown-up buy back a feeling; (4) the souvenir: socks, a cheap object that makes the memory physical and collectible; (5) lesson: find the memory your customer already owns and give them a door back into it. One number on screen: 36 (years). Music: 'dark' per rule (strategy angle), keep it warm-dark, not horror. DO NOT: show Macaulay Culkin's face or any frame of him (public figure photo rule) - use the meal, socks and fries packshots only; reproduce the Home Alone 'scream' pose or film stills/characters; AI-generate McDonald's arches or the Home Alone logo; say it is viral by numbers (no counts exist); use the '7 weeks after vowing own IP' claim (single paraphrased source, contradicted by Adweek); repeat yesterday's 'fictional brand made real' angle (Little Nero's fries: mention at most as a detail). Availability differs by market (US Dec 1): never imply it's on sale everywhere. Caption: sources + 'editorial use; images belong to their owners'. Never name the UAE, Dubai or any emirate.",
+  "framing_note": "Type 1. Spine: (1) same Christmas, two luxury houses, both choose animation; (2) Prada: an ex-Disney animator, pencil on paper, applause ('anti-AI-slop'); (3) Dior: Sylvain Chomet, a famous hand-drawn director, star voices, seven months... and viewers count six fingers; (4) the denial: 'techniques from the 1940s', 'fingers blur because they move', but a small automated step is admitted; (5) the turn: proof is the new luxury - Prada showed its pencil, Dior had to explain itself; (6) lesson: don't just make it by hand, show the hands (process, sketches, names). One number on screen: 6 (fingers). NEVER state Dior used AI: accusation vs denial only. Do not use Ben Wild's LinkedIn claim or the 'Dior deleted comments' allegation (unverified). Do not name private individuals who posted. No AI-generated imitations of either film, characters, Dior/Prada logos, or Rihanna/Pattinson likeness; real frames only from owner uploads, framed and credited ('Dior', 'Prada'). No photos of real actors' faces. Caption: sources + 'editorial use; images belong to their owners'. Never name the UAE, Dubai or any emirate.",
   "image_requests": [
    {
     "id": "T-a",
-    "description": "عکس اصلی خبر رسمی مک‌دونالد: «منوی تنها در خانه» با جوراب‌ها (بزرگ‌ترین تصویر بالای صفحه؛ بدون عکس بازیگر)",
-    "page_url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/mcdonalds-home-alone-meal.html",
-    "scene_idea": "صحنه‌ی چرخش: «محصول برگر نیست» — منو و جوراب قاب‌دار روی زمینه‌ی تیره"
+    "description": "تصویر اصلی خبر Euronews از کمپین «Drawing Prada»؛ اگر می‌شود قابی که فقط طراحی مدادی دیده شود، بدون چهره‌ی واقعی بازیگر",
+    "page_url": "https://www.euronews.com/2026/11/02/prada-champions-the-human-touch-and-not-ai-slop-for-their-new-christmas-campaign",
+    "scene_idea": "صحنه‌ی پرادا: «مداد را نشان داد» — قاب‌دار روی زمینه‌ی کاغذی"
    },
    {
     "id": "T-b",
-    "description": "تصویر «Home Alone Sock options» (چهار طرح جوراب یادگاری) از همان صفحه",
-    "page_url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/mcdonalds-home-alone-meal.html",
-    "scene_idea": "صحنه‌ی یادگاری: «جوراب، رسیدِ سفر به کودکی»"
+    "description": "پوستر رسمی فیلم دیور «Les Couleurs de la nuit / Night in Color» (Credits: Dior) از مقاله‌ی FashionUnited",
+    "page_url": "https://fashionunited.uk/news/culture/dior-animated-film-suspected-of-using-ai-luxury-urged-to-prove-its-craftsmanship/2026110991274",
+    "scene_idea": "صحنه‌ی دیور: «استاد انیمیشن دستی، هفت ماه کار» — قاب‌دار روی زمینه‌ی تیره"
    },
    {
     "id": "T-c",
-    "description": "عکس محصول منوی تنها در خانه از خبر رسمی مک‌دونالد استرالیا (فقط بسته‌بندی/غذا، بدون آدم)",
-    "page_url": "https://www.mcdonalds.com/au/en-au/newsroom/article/Maccas-launches-the-home-alone-meal.html",
-    "scene_idea": "صحنه‌ی «۴۷ کشور»: همان خاطره در بسته‌بندی‌های مختلف"
+    "description": "تصویر اصلی مقاله‌ی Creative Bloq (قابی از تبلیغ کریسمس دیور، Image credit: Dior)",
+    "page_url": "https://www.creativebloq.com/news/diors-christmas-ad-is-the-opposite-to-pradas-classy-animation",
+    "scene_idea": "صحنه‌ی اتهام: «اینترنت انگشت‌ها را شمرد» — قاب با ذره‌بین روی آن"
    }
   ],
   "object_plan": [
    {
-    "object": "novelty Christmas socks pair (color, unbranded, product)",
-    "line_idea": "جوراب یادگاری: رسید سفر به کودکی (کاور و پایان)",
-    "reuse_path_or_new": "new: assets/objects/2026-11-24/xmas_socks.png (existing socks_stack is plain; reuse only as fallback: assets/objects/2026-11-03/socks_stack.png)"
+    "object": "wooden artist's hand mannequin (monochrome)",
+    "line_idea": "شش انگشت: تصویر اصلی اتهام (کاور و پایان)",
+    "reuse_path_or_new": "new: assets/objects/2026-11-24/hand_mannequin.png"
    },
    {
-    "object": "VHS cassette (monochrome)",
-    "line_idea": "۱۹۹۰: فیلمی که با آن بزرگ شدیم",
-    "reuse_path_or_new": "new: vhs_tape.png"
+    "object": "pencil",
+    "line_idea": "پرادا با مداد کشید",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/pencil.png"
    },
    {
-    "object": "old photograph",
-    "line_idea": "کودکی‌ای که یادتان مانده",
-    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/photo.png"
+    "object": "magnifier",
+    "line_idea": "اینترنت با ذره‌بین انگشت‌ها را شمرد",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/magnifier.png"
    },
    {
-    "object": "pocket watch",
-    "line_idea": "۳۶ سال بعد",
+    "object": "eraser",
+    "line_idea": "هر خطای کوچک حالا مدرک است",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/eraser.png"
+   },
+   {
+    "object": "balance scale",
+    "line_idea": "دو برند، یک کریسمس: تشویق در برابر اتهام",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/scale.png"
+   },
+   {
+    "object": "watch",
+    "line_idea": "هفت ماه کار، بیست هنرمند",
     "reuse_path_or_new": "reuse: assets/objects/2026-10-22/watch.png"
    },
    {
-    "object": "suitcase",
-    "line_idea": "خانواده رفت سفر، کوین تنها ماند",
-    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/suitcase.png"
+    "object": "theatre mask",
+    "line_idea": "سوءظن: «این واقعی نیست»",
+    "reuse_path_or_new": "reuse: assets/objects/2026-11-08/mask.png"
    },
    {
-    "object": "house key",
-    "line_idea": "کلیدِ در برگشت به کودکی",
-    "reuse_path_or_new": "reuse: assets/objects/2026-10-24/key.png"
+    "object": "rubber stamp",
+    "line_idea": "مُهر «دست‌ساز»: ادعا کافی نیست، باید ثابت کنی",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-29/stamp.png"
    },
    {
-    "object": "miniature house",
-    "line_idea": "تنها در خانه / خانه‌ی خاطره",
-    "reuse_path_or_new": "reuse: assets/objects/2026-10-29/mini_house.png"
+    "object": "flip book of paper sheets (monochrome)",
+    "line_idea": "انیمیشن دستی: هزاران برگ، یک حرکت (انگشت‌ها در حرکت محو می‌شوند)",
+    "reuse_path_or_new": "new: flip_book.png"
    },
    {
-    "object": "Santa hat",
-    "line_idea": "کریسمس، فصل تبلیغ‌های احساسی",
-    "reuse_path_or_new": "reuse: assets/objects/2026-11-14/santa_hat.png"
+    "object": "artist's sketchbook with pencil sketches, no recognisable characters (monochrome)",
+    "line_idea": "اثبات: پشت‌صحنه و طرح‌ها را نشان بده",
+    "reuse_path_or_new": "new: sketchbook.png"
    },
    {
-    "object": "blank fries carton (color, no logo, product)",
-    "line_idea": "برگر و سیب‌زمینی بهانه‌اند",
-    "reuse_path_or_new": "new: assets/objects/2026-11-24/fries_carton_blank.png"
-   },
-   {
-    "object": "snow globe with a small house (monochrome)",
-    "line_idea": "خاطره‌ای که در شیشه منجمد شده و مک‌دونالد تکانش می‌دهد",
-    "reuse_path_or_new": "new: snow_globe.png"
-   },
-   {
-    "object": "children's toy figure / tin toy (monochrome, generic)",
-    "line_idea": "مشتری واقعی: بچه‌ای که حالا چهل‌ساله است (هپی‌میل برای بزرگ‌ترها)",
-    "reuse_path_or_new": "new: tin_toy.png"
-   },
-   {
-    "object": "paper receipt",
-    "line_idea": "جوراب، رسیدِ این سفر",
-    "reuse_path_or_new": "new: receipt.png (or text-only words fx)"
+    "object": "luxury shopping bag mockup (color, blank, no logo)",
+    "line_idea": "لوکس یعنی چه؟ حالا: اثباتِ دستِ آدم",
+    "reuse_path_or_new": "new mockup: assets/mockups/2026-11-24/luxury_bag_blank.png"
    }
   ]
  }
