@@ -1,0 +1,148 @@
+{
+ "date": "2026-11-24",
+ "T": {
+  "topic_fa": "مک‌دونالد این کریسمس به بچه‌ها نمی‌فروشد؛ کوین «تنها در خانه» را ۳۶ سال بعد برگرداند تا به بزرگ‌ترها کودکیِ خودشان را بفروشد",
+  "topic_en": "McDonald's brought back Home Alone's Kevin 36 years later. The ad isn't for kids: it sells grown-ups the child they used to be",
+  "topic_type": 2,
+  "pillar": "positioning_nostalgia_consumer_behaviour",
+  "central_tension_fa": "همه فکر می‌کنند فست‌فود برای بچه‌ها تبلیغ می‌کند؛ ولی بزرگ‌ترین تبلیغ کریسمس مک‌دونالد برای آدم‌های چهل‌ساله است. تیتر خودشان: «بزرگ‌سالی را پشت سر بگذار». محصول برگر نیست؛ برگشتن به ده‌سالگی است، و جوراب یادگاری رسیدِ این سفر است.",
+  "central_tension_en": "Everyone assumes fast food advertises to kids. McDonald's biggest Christmas ad is aimed at forty-year-olds; its own headline says 'Leave Adulthood Behind'. The product isn't the burger. It's a trip back to being ten, and the collectible socks are the souvenir.",
+  "working_hook_fa": "مک‌دونالد کوینِ «تنها در خانه» را برگرداند. ولی این تبلیغ برای بچه‌ها نیست؛ برای شماست.",
+  "working_hook_en": "McDonald's just brought Kevin back. This ad isn't for kids. It's for the kid you were.",
+  "cover_idea": {
+   "kicker_fa": "تنها در خانه",
+   "kicker_en": "HOME ALONE",
+   "title_fa": [
+    "کودکیِ *شما*",
+    "روی منو"
+   ],
+   "title_en": [
+    "Your *childhood*",
+    "is on the menu"
+   ],
+   "object": "pair of novelty Christmas socks (color, unbranded) or owner's T-a meal photo"
+  },
+  "key_sources": [
+   {
+    "url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/mcdonalds-home-alone-meal.html",
+    "publisher": "McDonald's Corporation",
+    "date": "2026-11-17",
+    "claim": "Release title 'Leave Adulthood Behind with the Home Alone Meal'; US from Dec 1; Little Nero's Pizza McShaker Fries, four collectible socks; Flatley: 'Bringing together two icons people already love, McDonald's and Home Alone'"
+   },
+   {
+    "url": "https://news.designrush.com/mcdonalds-wk-toronto-home-alone-meal-macaulay-culkin",
+    "publisher": "DesignRush",
+    "date": "2026-11-18",
+    "claim": "60s film by Wieden+Kennedy Toronto, dir. Ramy Youssef & Amir Farhang; Kevin alone after closing in a snowstorm runs kitchen, counter and drive-thru; 47 markets; UK Nov 17, Canada Nov 24, Australia Nov 25, US Dec 1"
+   },
+   {
+    "url": "https://www.adweek.com/creativity/macaulay-culkin-is-home-alone-again-this-time-in-mcdonalds/",
+    "publisher": "Adweek",
+    "date": "2026-11-17",
+    "claim": "Culkin reprises Kevin in an 'empty McDonald's'; tied to the film's 36th anniversary (teaser only; paywall)"
+   },
+   {
+    "url": "https://www.ibtimes.co.uk/macaulay-culkin-returns-kevin-home-alone-mcdonalds-campaign-1833214",
+    "publisher": "IBTimes UK",
+    "date": "2026-11-18",
+    "claim": "Fans on X praise the ad's nostalgia ('Feel like Christmas in 1992' headline); no counts given"
+   },
+   {
+    "url": "https://www.adsoftheworld.com/campaigns/macaulay-culkin-reprises-his-role-as-kevin-mccallister",
+    "publisher": "Ads of the World",
+    "date": "2026-11",
+    "claim": "Credits: W+K Toronto, Caviar; Paloma Azulay (VP Global Brand Marketing): 'The best brand partnerships don't just bring two familiar names together.'"
+   },
+   {
+    "url": "https://www.restaurantbusinessonline.com/marketing/mcdonalds-coming-out-minecraft-movie-happy-meal-one-adults",
+    "publisher": "Restaurant Business",
+    "date": "2025",
+    "claim": "Pattern context: McDonald's Minecraft Movie meal made for adults (headline level, not read in full)"
+   }
+  ],
+  "music_mood": "dark",
+  "framing_note": "Type 2. Spine: (1) Kevin is back, alone in a closed McDonald's on Christmas, 36 years later; (2) the twist: look who it's for - the release literally says 'Leave Adulthood Behind'; (3) why: adults are the new Happy Meal customer (McDonaldland adult meal, Minecraft meal) - nostalgia lets a grown-up buy back a feeling; (4) the souvenir: socks, a cheap object that makes the memory physical and collectible; (5) lesson: find the memory your customer already owns and give them a door back into it. One number on screen: 36 (years). Music: 'dark' per rule (strategy angle), keep it warm-dark, not horror. DO NOT: show Macaulay Culkin's face or any frame of him (public figure photo rule) - use the meal, socks and fries packshots only; reproduce the Home Alone 'scream' pose or film stills/characters; AI-generate McDonald's arches or the Home Alone logo; say it is viral by numbers (no counts exist); use the '7 weeks after vowing own IP' claim (single paraphrased source, contradicted by Adweek); repeat yesterday's 'fictional brand made real' angle (Little Nero's fries: mention at most as a detail). Availability differs by market (US Dec 1): never imply it's on sale everywhere. Caption: sources + 'editorial use; images belong to their owners'. Never name the UAE, Dubai or any emirate.",
+  "image_requests": [
+   {
+    "id": "T-a",
+    "description": "عکس اصلی خبر رسمی مک‌دونالد: «منوی تنها در خانه» با جوراب‌ها (بزرگ‌ترین تصویر بالای صفحه؛ بدون عکس بازیگر)",
+    "page_url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/mcdonalds-home-alone-meal.html",
+    "scene_idea": "صحنه‌ی چرخش: «محصول برگر نیست» — منو و جوراب قاب‌دار روی زمینه‌ی تیره"
+   },
+   {
+    "id": "T-b",
+    "description": "تصویر «Home Alone Sock options» (چهار طرح جوراب یادگاری) از همان صفحه",
+    "page_url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/mcdonalds-home-alone-meal.html",
+    "scene_idea": "صحنه‌ی یادگاری: «جوراب، رسیدِ سفر به کودکی»"
+   },
+   {
+    "id": "T-c",
+    "description": "عکس محصول منوی تنها در خانه از خبر رسمی مک‌دونالد استرالیا (فقط بسته‌بندی/غذا، بدون آدم)",
+    "page_url": "https://www.mcdonalds.com/au/en-au/newsroom/article/Maccas-launches-the-home-alone-meal.html",
+    "scene_idea": "صحنه‌ی «۴۷ کشور»: همان خاطره در بسته‌بندی‌های مختلف"
+   }
+  ],
+  "object_plan": [
+   {
+    "object": "novelty Christmas socks pair (color, unbranded, product)",
+    "line_idea": "جوراب یادگاری: رسید سفر به کودکی (کاور و پایان)",
+    "reuse_path_or_new": "new: assets/objects/2026-11-24/xmas_socks.png (existing socks_stack is plain; reuse only as fallback: assets/objects/2026-11-03/socks_stack.png)"
+   },
+   {
+    "object": "VHS cassette (monochrome)",
+    "line_idea": "۱۹۹۰: فیلمی که با آن بزرگ شدیم",
+    "reuse_path_or_new": "new: vhs_tape.png"
+   },
+   {
+    "object": "old photograph",
+    "line_idea": "کودکی‌ای که یادتان مانده",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/photo.png"
+   },
+   {
+    "object": "pocket watch",
+    "line_idea": "۳۶ سال بعد",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/watch.png"
+   },
+   {
+    "object": "suitcase",
+    "line_idea": "خانواده رفت سفر، کوین تنها ماند",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/suitcase.png"
+   },
+   {
+    "object": "house key",
+    "line_idea": "کلیدِ در برگشت به کودکی",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-24/key.png"
+   },
+   {
+    "object": "miniature house",
+    "line_idea": "تنها در خانه / خانه‌ی خاطره",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-29/mini_house.png"
+   },
+   {
+    "object": "Santa hat",
+    "line_idea": "کریسمس، فصل تبلیغ‌های احساسی",
+    "reuse_path_or_new": "reuse: assets/objects/2026-11-14/santa_hat.png"
+   },
+   {
+    "object": "blank fries carton (color, no logo, product)",
+    "line_idea": "برگر و سیب‌زمینی بهانه‌اند",
+    "reuse_path_or_new": "new: assets/objects/2026-11-24/fries_carton_blank.png"
+   },
+   {
+    "object": "snow globe with a small house (monochrome)",
+    "line_idea": "خاطره‌ای که در شیشه منجمد شده و مک‌دونالد تکانش می‌دهد",
+    "reuse_path_or_new": "new: snow_globe.png"
+   },
+   {
+    "object": "children's toy figure / tin toy (monochrome, generic)",
+    "line_idea": "مشتری واقعی: بچه‌ای که حالا چهل‌ساله است (هپی‌میل برای بزرگ‌ترها)",
+    "reuse_path_or_new": "new: tin_toy.png"
+   },
+   {
+    "object": "paper receipt",
+    "line_idea": "جوراب، رسیدِ این سفر",
+    "reuse_path_or_new": "new: receipt.png (or text-only words fx)"
+   }
+  ]
+ }
+}
