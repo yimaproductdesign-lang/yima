@@ -1,0 +1,44 @@
+{
+ "date": "2026-11-25",
+ "T": {
+  "topic_fa": "راز اسم «بلک فرایدی»: پلیس فیلادلفیا این اسم را از سر کلافگی گذاشت، مغازه‌دارها خواستند عوضش کنند به «جمعه‌ی بزرگ» و شکست خوردند؛ سال‌ها بعد به‌جای عوض‌کردن اسم، معنایش را عوض کردند",
+  "topic_en": "Black Friday was a cop's complaint. Shops tried to rename it 'Big Friday' and failed. Decades later they kept the name and rewrote what it meant",
+  "topic_type": 3,
+  "pillar": "naming_brand_meaning",
+  "central_tension_fa": "فکر می‌کنیم اسم برند را خودمان انتخاب می‌کنیم؛ ولی اسم را مردم می‌گذارند. مغازه‌دارها نتوانستند اسمی را که از آن متنفر بودند پاک کنند؛ فقط توانستند داستانش را عوض کنند، و همان اسم بدنام شد بزرگ‌ترین برند خرید دنیا.",
+  "central_tension_en": "We think we choose our brand's name. The public does. The shops couldn't erase a name they hated; they could only rewrite its story, and the insult became the biggest shopping brand in the world.",
+  "working_hook_fa": "اسم «بلک فرایدی» را فروشنده‌ها نگذاشتند. پلیس گذاشت، و منظورش تعریف نبود.",
+  "working_hook_en": "Black Friday wasn't named by a marketer. It was named by the police, and they didn't mean it kindly.",
+  "cover_idea": {
+   "kicker_fa": "راز اسم بلک فرایدی",
+   "kicker_en": "Why 'Black' Friday?",
+   "title_fa": ["این اسم را", "*پلیس* گذاشت"],
+   "title_en": ["Named by", "the *police*"],
+   "object": "chrome police whistle on a lanyard (monochrome), large, centred"
+  },
+  "key_sources": [
+   {"url": "https://www.history.com/articles/black-friday-thanksgiving-origins-history", "publisher": "History.com (Sarah Pruitt, updated 2026-09-09)", "date": "2015-11-23", "claim": "Philadelphia police used the term in the 1950s for the chaos of suburban shoppers and tourists before the Army-Navy game; by 1961 merchants 'tried unsuccessfully to change it to Big Friday'; red-to-black is 'the officially sanctioned—but inaccurate—story', a late-1980s reinvention; not common nationwide as late as 1985"},
+   {"url": "https://www.britannica.com/story/why-is-it-called-black-friday", "publisher": "Encyclopaedia Britannica (Don Vaughan)", "date": "2022-11-18", "claim": "Philadelphia police, early 1960s: traffic jams, accidents, shoplifting; merchants tried 'Big Friday'; red-to-black profit idea 'untrue'; term grew nationwide only in the late 1980s when merchants spread that narrative"},
+   {"url": "https://www.marketplace.org/story/2014/11/26/why-it-called-black-friday", "publisher": "Marketplace (APM)", "date": "2014-11-27", "claim": "Researcher Bonnie Taylor-Blake: probably coined by a Philadelphia traffic cop; a 1961 PR newsletter reported merchants wanting 'Big Friday'; 'The effort failed'; red-to-black is 'an invented explanation'"},
+   {"url": "https://www.cbsnews.com/philadelphia/news/the-little-known-philadelphia-origins-of-black-friday", "publisher": "CBS Philadelphia (KYW)", "date": "2011-11-25", "claim": "Coined by Philadelphia police 'because they hated it'; a Strawbridge's executive later 'invented a new explanation' (profits into the black); retail historian Michael Lisicky"}
+  ],
+  "music_mood": "dark",
+  "framing_note": "Type 3 (secret behind a familiar name), pegged to Black Friday on 27 Nov. Spine: (1) this week every shop, app and inbox says 'Black Friday'; (2) the name came from Philadelphia police, more than 60 years ago: crowds, traffic, shoplifting, 12-hour shifts; 'black' = a bad day; (3) shopkeepers hated it and tried 'Big Friday' (by 1961). Nobody used it; (4) decades later, the turn: they stopped fighting the name and gave it a new story, 'the day the books go from red ink to black ink'. Historians call that story invented; it still won; (5) today the insult is a global retail brand; (6) lesson: you can't delete a name people already use; you can change what it means. Tell customers the story before they write it. Safe wording only: no single named coiner; coinage 'more than 60 years ago' (sources say 1950s / early 1960s / 1966); the profit story 'decades later' or 'in the 1980s'; never cite a first-print publication; never say Black Friday is the busiest day of the year (contested). Do not show real police insignia, real people, or any store's logo. Patagonia's 2011 ad may appear only as a one-line aside, without the 30% sales claim. One number on screen: 1961 (or 'Big Friday' as the visual punchline). Never name the UAE, Dubai or any emirate.",
+  "image_requests": [],
+  "image_note": "No owner upload needed: the story is about a name, not a product, and the sources' photos are news/stock images, not official brand material. Reels use generated objects and words-as-image (fx: words) only.",
+  "object_plan": [
+   {"object": "chrome police whistle on a lanyard (no insignia)", "line_idea": "The name came from the police, as a complaint (cover + S2)", "reuse_path_or_new": "new: assets/objects/2026-11-25/whistle.png"},
+   {"object": "orange traffic cone", "line_idea": "Crowds, traffic jams, 12-hour shifts: 'black' meant a bad day", "reuse_path_or_new": "new: assets/objects/2026-11-25/traffic_cone.png"},
+   {"object": "stack of paper shopping bags", "line_idea": "Hordes of suburban shoppers flooding the city", "reuse_path_or_new": "new: assets/objects/2026-11-25/shopping_bags.png"},
+   {"object": "eraser", "line_idea": "Shopkeepers tried to erase the name", "reuse_path_or_new": "reuse: assets/objects/2026-10-22/eraser.png"},
+   {"object": "blank shop nameplate / sign (text 'Big Friday' set by renderer, not the model)", "line_idea": "'Big Friday': the rename nobody used", "reuse_path_or_new": "reuse: assets/objects/2026-10-31/nameplate.png"},
+   {"object": "rubber stamp", "line_idea": "You can't stamp a new name on what people already call you", "reuse_path_or_new": "reuse: assets/objects/2026-10-29/stamp.png"},
+   {"object": "old ledger book open with a red pen on it", "line_idea": "The new story: books go from red ink to black ink", "reuse_path_or_new": "new: assets/objects/2026-11-25/ledger_red_pen.png"},
+   {"object": "fountain pen with black ink", "line_idea": "Same word 'black', new meaning: profit", "reuse_path_or_new": "new: assets/objects/2026-11-25/fountain_pen.png"},
+   {"object": "paint roller", "line_idea": "They didn't change the name, they repainted its meaning", "reuse_path_or_new": "reuse: assets/objects/2026-10-26/paint_roller.png"},
+   {"object": "price tag", "line_idea": "Today the insult sells everything, everywhere", "reuse_path_or_new": "reuse: assets/objects/2026-10-25/price_tag.png"},
+   {"object": "megaphone", "line_idea": "The public names you; the name spreads by itself", "reuse_path_or_new": "reuse: assets/objects/2026-11-06/megaphone.png"},
+   {"object": "magnifier", "line_idea": "Lesson: find the name customers already use, then give it your story", "reuse_path_or_new": "reuse: assets/objects/2026-10-22/magnifier.png"}
+  ]
+ }
+}
