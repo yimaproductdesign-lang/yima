@@ -1,0 +1,450 @@
+{
+ "date": "2026-11-26",
+ "retrieved": "2026-11-25T~21:00-21:40+04:00",
+ "stage": "1 (evening)",
+ "method": "WebSearch (standard + extended) for brand news 2026-11-10..25; four WebFetch sub-agent runs read 16 pages (Marketing Dive listing + 4 articles, Marketing Brew x2, Creative Bloq article, Fashion Biznes, MediaPost, maybelline.com, FoodNavigator, The Grocer, IBTimes, Inc., Yahoo, Modern Retail, Kantar, B&T). C6-C12 partly from search results or listing headlines only (marked).",
+ "failed_fetches": [
+  "https://www.creativebloq.com/news (listing page; permission error, not retried)"
+ ],
+ "scoring_rule": "README 'Topic selection' rubric (owner rule 2026-11-11, overrides the stage-prompt rubric): virality 25, recognition 20, curiosity 15, story 15, freshness 10, lesson 10, verifiability 5. All sub-scores except verifiability are estimates.",
+ "stage_prompt_rubric_for_top2": {
+  "_note": "estimates, stage-prompt weights",
+  "C1": {
+   "freshness_10": 7,
+   "growth_15": 12,
+   "reach_15": 14,
+   "qualified_follower_15": 13,
+   "regional_relevance_15": 12,
+   "psychology_10": 9,
+   "commercial_utility_10": 9,
+   "originality_5": 4,
+   "verifiability_5": 5,
+   "total": 85
+  },
+  "C2": {
+   "freshness_10": 8,
+   "growth_15": 9,
+   "reach_15": 12,
+   "qualified_follower_15": 11,
+   "regional_relevance_15": 11,
+   "psychology_10": 7,
+   "commercial_utility_10": 8,
+   "originality_5": 4,
+   "verifiability_5": 4,
+   "total": 74
+  }
+ },
+ "type_rotation": {
+  "2026-11-23": 2,
+  "2026-11-24": 1,
+  "2026-11-25": 3,
+  "2026-11-26": 1
+ },
+ "recent_topics_checked": [
+  "2026-11-25 Black Friday name origin",
+  "2026-11-24 Dior/Prada AI accusation",
+  "2026-11-23 Burger King x GTA VI",
+  "2026-11-14 Coca-Cola red Santa",
+  "2026-11-13 Skims advent calendar",
+  "2026-11-12 five stars"
+ ],
+ "candidates": [
+  {
+   "id": "C1",
+   "title": "Maybelline rewrites its 35-year-old tagline: 'Maybe she's born with it. Maybe it's Maybelline.' becomes 'Maybe. We're born with it. Maybe. It's Maybelline.' Two full stops and one pronoun spark a social storm",
+   "brand": "Maybelline New York (L'Oréal)",
+   "sources": [
+    {
+     "url": "https://www.marketingbrew.com/stories/punctuation-changes-maybelline-iconic-tagline-response",
+     "publisher": "Marketing Brew (Kristina Monllos)",
+     "date": "2026-11-13",
+     "claim": "PeakMetrics: mentions on X, Reddit, TikTok, Instagram peaked at 68x typical volume two days after debut; sentiment 48% negative, 28% positive, 24% neutral; ~a quarter object to wording/punctuation; 38% jokes or sarcasm; 59% framed it as forced inclusivity or political messaging. Copywriter quoted: 'It's so confusing.'"
+    },
+    {
+     "url": "https://www.creativebloq.com/news/maybellines-new-slogan-is-a-crime-against-copywriting",
+     "publisher": "Creative Bloq (Daniel John)",
+     "date": "2026-11-17",
+     "claim": "'Four sentences where there used to be two'; brand president Sandrine Jolly (via WWD): the original was 'giving ambiguity – it was more of a question.'"
+    },
+    {
+     "url": "https://www.marketingdive.com/news/maybelline-updates-maybe-tagline-as-beauty-perceptions-evolve/874376/",
+     "publisher": "Marketing Dive (Peter Adams)",
+     "date": "2026-11-11",
+     "claim": "Tagline in use since 1991; punctuation makes it 'more like a declaration'; 'we're' replaces 'she's' to include all women; change is permanent; platform 'The Beauty of Infinite Possibility' with Miley Cyrus."
+    },
+    {
+     "url": "https://www.marketingbrew.com/stories/maybe-it-s-maybelline-tagline-update-strategy",
+     "publisher": "Marketing Brew (Kristina Monllos)",
+     "date": "2026-11-10",
+     "claim": "Allen Adamson: 'It's such an iconic set of words, and so hardwired to Maybelline that they can't walk away from it.'"
+    },
+    {
+     "url": "https://www.maybelline.com/maybe-were-born-with-it",
+     "publisher": "Maybelline (official)",
+     "date": "2026-11",
+     "claim": "Official: 'At Maybelline, \"Maybe\" means possibility.' H1 'MAYBE. WE'RE BORN WITH IT.'"
+    },
+    {
+     "url": "https://fashionbiznes.pl/jedno-slowo-dwie-kropki-i-burza-w-sieci-maybelline-zmienia-kultowe-haslo-po-35-latach/",
+     "publisher": "Fashion Biznes (Katarzyna Wendzonka)",
+     "date": "2026-11-16",
+     "claim": "'One word, two dots and a storm online'; notes early negative sentiment is not proof of sales effect."
+    },
+    {
+     "url": "https://www.mediapost.com/publications/article/419453/maybelline-changes-up-tagline.html",
+     "publisher": "MediaPost",
+     "date": "2026-11 (no date in fetched text)",
+     "claim": "'Social media users were quick to criticize'; cites NYT (Jared Watson, NYU Stern) and Forbes ('polarizing'); some critics wondered if AI wrote it; original first heard in a Finish Matte ad with Christy Turlington (per Forbes)."
+    }
+   ],
+   "event_date": "2026-11-10 launch; reaction 11-11 to 11-17",
+   "classification": "breaking -> emerging (controversy, verified by social-listening data reported in 2 outlets)",
+   "topic_type": "1",
+   "read_method": "WebFetch via sub-agents (all HTTP 200)",
+   "scores_estimate": {
+    "trend_virality_25": 22,
+    "brand_recognition_20": 19,
+    "curiosity_15": 14,
+    "story_15": 14,
+    "freshness_10": 7,
+    "lesson_10": 9,
+    "verifiability_5": 5,
+    "total_100": 90
+   },
+   "retrieved": "2026-11-25T~21:00-21:40+04:00"
+  },
+  {
+   "id": "C2",
+   "title": "CeraVe becomes 'The Official Moisturizer of Arrakis' for Dune: Part Three (release 18 Dec); first film partnership",
+   "brand": "CeraVe x Dune",
+   "sources": [
+    {
+     "url": "https://www.marketingdive.com/news/how-ceraves-dune-deal-takes-the-brands-social-first-playbook-global/874654/",
+     "publisher": "Marketing Dive (Chris Kelly)",
+     "date": "2026-11-16",
+     "claim": "'Precious Resource' spot swaps spice for CeraVe; 'Sandworm Wrangler' video; social-first; no engagement numbers"
+    }
+   ],
+   "event_date": "2026-11-13/16",
+   "classification": "emerging (no virality numbers found)",
+   "topic_type": "2",
+   "read_method": "WebFetch + search",
+   "scores_estimate": {
+    "trend_virality_25": 14,
+    "brand_recognition_20": 18,
+    "curiosity_15": 12,
+    "story_15": 12,
+    "freshness_10": 8,
+    "lesson_10": 9,
+    "verifiability_5": 4,
+    "total_100": 77
+   },
+   "retrieved": "2026-11-25T~21:00-21:40+04:00"
+  },
+  {
+   "id": "C3",
+   "title": "Gap's 'Give Your Gift' choir ad ('I'll Be There') praised as 'no AI, just humans'",
+   "brand": "Gap",
+   "sources": [
+    {
+     "url": "https://www.inc.com/ali-donaldson/gap-viral-holiday-ad-nostalgia-marketing/91433597",
+     "publisher": "Inc. (Ali Donaldson)",
+     "date": "2026-11-09",
+     "claim": "2.5M+ views and thousands of comments within days"
+    },
+    {
+     "url": "https://ibtimes.co.uk/gap-2026-holiday-ad-jackson-5-choirs-1830820",
+     "publisher": "IBTimes UK",
+     "date": "2026-11-08",
+     "claim": "Released 3 Nov; Threads users say it made them cry"
+    }
+   ],
+   "event_date": "2026-11-03",
+   "classification": "emerging; 'no-AI' angle overlaps 2026-11-24 topic",
+   "topic_type": "2",
+   "read_method": "WebFetch",
+   "scores_estimate": {
+    "trend_virality_25": 17,
+    "brand_recognition_20": 18,
+    "curiosity_15": 8,
+    "story_15": 10,
+    "freshness_10": 5,
+    "lesson_10": 7,
+    "verifiability_5": 5,
+    "total_100": 70
+   },
+   "retrieved": "2026-11-25T~21:00-21:40+04:00"
+  },
+  {
+   "id": "C4",
+   "title": "Coca-Cola drops generative AI for its 2026 holiday ads after two divisive years",
+   "brand": "Coca-Cola",
+   "sources": [
+    {
+     "url": "https://www.marketingdive.com/news/coca-cola-pivots-from-divisive-ai-generated-ads-for-holiday-campaign/875215/",
+     "publisher": "Marketing Dive (Chris Kelly)",
+     "date": "2026-11-19",
+     "claim": "'Enjoy Joy' spots pivot away from gen AI; earlier AI ads 'proved divisive' despite 'exceeding internal benchmarks'"
+    }
+   ],
+   "event_date": "2026-11-19",
+   "classification": "breaking; repeats AI theme (11-24) and Coke (11-14)",
+   "topic_type": "1",
+   "read_method": "WebFetch",
+   "scores_estimate": {
+    "trend_virality_25": 15,
+    "brand_recognition_20": 20,
+    "curiosity_15": 9,
+    "story_15": 11,
+    "freshness_10": 9,
+    "lesson_10": 8,
+    "verifiability_5": 5,
+    "total_100": 77
+   },
+   "retrieved": "2026-11-25T~21:00-21:40+04:00"
+  },
+  {
+   "id": "C5",
+   "title": "Nestlé pauses Quality Street paper tub after 2024-25 trials",
+   "brand": "Quality Street",
+   "sources": [
+    {
+     "url": "https://www.foodnavigator.com/Article/2026/11/10/nestle-scraps-quality-street-paper-tubs-but-does-not-rule-out-return/",
+     "publisher": "FoodNavigator (Donna Eastlake)",
+     "date": "2026-11-10",
+     "claim": "'We won't be trialling our Quality Street paper tub this year'; no reason given; no consumer reaction reported"
+    },
+    {
+     "url": "https://www.thegrocer.co.uk/news/quality-street-paper-tubs-scrapped-by-nestle-and-tesco-after-two-year-trial/725709.article",
+     "publisher": "The Grocer",
+     "date": "2026-11 (no date in text)",
+     "claim": "~200,000 prototypes in Tesco, Oct 2024"
+    }
+   ],
+   "event_date": "2026-11-10",
+   "classification": "emerging; UK-centric, low reaction",
+   "topic_type": "1",
+   "read_method": "WebFetch",
+   "scores_estimate": {
+    "trend_virality_25": 7,
+    "brand_recognition_20": 12,
+    "curiosity_15": 7,
+    "story_15": 8,
+    "freshness_10": 7,
+    "lesson_10": 8,
+    "verifiability_5": 5,
+    "total_100": 54
+   },
+   "retrieved": "2026-11-25T~21:00-21:40+04:00"
+  },
+  {
+   "id": "C6",
+   "title": "Jell-O's new creative platform, largest investment in over a decade",
+   "brand": "Jell-O",
+   "sources": [
+    {
+     "url": "https://www.marketingdive.com/news/how-jell-o-new-creative-platform-looks-to-shift-consumer-perceptions/875220/",
+     "publisher": "Marketing Dive",
+     "date": "2026-11-23",
+     "claim": "Johannes Leonardo's first campaign (headline only read)"
+    }
+   ],
+   "event_date": "2026-11-23",
+   "classification": "emerging; US-only recognition",
+   "topic_type": "1",
+   "read_method": "listing page only",
+   "scores_estimate": {
+    "trend_virality_25": 5,
+    "brand_recognition_20": 9,
+    "curiosity_15": 6,
+    "story_15": 6,
+    "freshness_10": 9,
+    "lesson_10": 7,
+    "verifiability_5": 3,
+    "total_100": 45
+   },
+   "retrieved": "2026-11-25T~21:00-21:40+04:00"
+  },
+  {
+   "id": "C7",
+   "title": "Burger King feedback campaign takes aim at its own restaurants",
+   "brand": "Burger King",
+   "sources": [
+    {
+     "url": "https://www.marketingdive.com/news/burger-kings-push-for-consumer-feedback-takes-aim-at-its-own-restaurants/874704/",
+     "publisher": "Marketing Dive",
+     "date": "2026-11-17",
+     "claim": "headline only"
+    }
+   ],
+   "event_date": "2026-11-17",
+   "classification": "emerging; BK covered 11-23",
+   "topic_type": "1",
+   "read_method": "listing page only",
+   "scores_estimate": {
+    "trend_virality_25": 8,
+    "brand_recognition_20": 18,
+    "curiosity_15": 9,
+    "story_15": 9,
+    "freshness_10": 8,
+    "lesson_10": 8,
+    "verifiability_5": 3,
+    "total_100": 63
+   },
+   "retrieved": "2026-11-25T~21:00-21:40+04:00"
+  },
+  {
+   "id": "C8",
+   "title": "Carl's Jr. hires David&Goliath, turns to 'boldness'",
+   "brand": "Carl's Jr.",
+   "sources": [
+    {
+     "url": "https://www.marketingdive.com/news/carls-jr-taps-davidgoliath-as-marketing-focus-turns-to-boldness/875471/",
+     "publisher": "Marketing Dive",
+     "date": "2026-11-23",
+     "claim": "headline only"
+    }
+   ],
+   "event_date": "2026-11-23",
+   "classification": "emerging; low recognition outside US",
+   "topic_type": "1",
+   "read_method": "listing page only",
+   "scores_estimate": {
+    "trend_virality_25": 3,
+    "brand_recognition_20": 8,
+    "curiosity_15": 4,
+    "story_15": 5,
+    "freshness_10": 9,
+    "lesson_10": 5,
+    "verifiability_5": 3,
+    "total_100": 37
+   },
+   "retrieved": "2026-11-25T~21:00-21:40+04:00"
+  },
+  {
+   "id": "C9",
+   "title": "Anti-Black-Friday brand campaigns (repair, closed stores)",
+   "brand": "various",
+   "sources": [
+    {
+     "url": "https://www.glossy.co/fashion/anti-black-friday-brands-take-alternative-approaches-to-the-shopping-holiday/",
+     "publisher": "Glossy",
+     "date": "search result only",
+     "claim": "not fetched"
+    }
+   ],
+   "event_date": "seasonal",
+   "classification": "evergreen; repeats 11-25 Black Friday",
+   "topic_type": "2",
+   "read_method": "search only",
+   "scores_estimate": {
+    "trend_virality_25": 10,
+    "brand_recognition_20": 10,
+    "curiosity_15": 6,
+    "story_15": 8,
+    "freshness_10": 8,
+    "lesson_10": 8,
+    "verifiability_5": 2,
+    "total_100": 52
+   },
+   "retrieved": "2026-11-25T~21:00-21:40+04:00"
+  },
+  {
+   "id": "C10",
+   "title": "Starbucks 2026 holiday cups",
+   "brand": "Starbucks",
+   "sources": [
+    {
+     "url": "https://www.nbcnewyork.com/entertainment/the-scene/starbucks-holiday-cups-designs-2026/6568447/",
+     "publisher": "NBC New York",
+     "date": "search result only",
+     "claim": "designs launched; no controversy found"
+    }
+   ],
+   "event_date": "2026-11",
+   "classification": "unverified reaction",
+   "topic_type": "2",
+   "read_method": "search only",
+   "scores_estimate": {
+    "trend_virality_25": 6,
+    "brand_recognition_20": 20,
+    "curiosity_15": 4,
+    "story_15": 5,
+    "freshness_10": 6,
+    "lesson_10": 5,
+    "verifiability_5": 2,
+    "total_100": 48
+   },
+   "retrieved": "2026-11-25T~21:00-21:40+04:00"
+  },
+  {
+   "id": "C11",
+   "title": "Godrej 'GI' mark compared with an Australian agency logo",
+   "brand": "Godrej",
+   "sources": [
+    {
+     "url": "https://www.businesstoday.in/latest/corporate/story/why-change-something-when-experts-weigh-in-on-godrej-groups-logo-row-527943-2026-04-29",
+     "publisher": "Business Today",
+     "date": "2026-04-29",
+     "claim": "search result only"
+    }
+   ],
+   "event_date": "2026-04",
+   "classification": "stale (7 months)",
+   "topic_type": "1",
+   "read_method": "search only",
+   "scores_estimate": {
+    "trend_virality_25": 4,
+    "brand_recognition_20": 10,
+    "curiosity_15": 9,
+    "story_15": 9,
+    "freshness_10": 1,
+    "lesson_10": 8,
+    "verifiability_5": 3,
+    "total_100": 44
+   },
+   "retrieved": "2026-11-25T~21:00-21:40+04:00"
+  },
+  {
+   "id": "C12",
+   "title": "Rao's 'Make Time' asks people to slow down meals",
+   "brand": "Rao's",
+   "sources": [
+    {
+     "url": "https://www.marketingdive.com/news/raos-heats-up-brand-building-with-a-request-to-slow-down-meals/874122/",
+     "publisher": "Marketing Dive",
+     "date": "2026-11-10",
+     "claim": "headline only"
+    }
+   ],
+   "event_date": "2026-11-10",
+   "classification": "evergreen; low recognition",
+   "topic_type": "1",
+   "read_method": "listing page only",
+   "scores_estimate": {
+    "trend_virality_25": 3,
+    "brand_recognition_20": 7,
+    "curiosity_15": 6,
+    "story_15": 6,
+    "freshness_10": 6,
+    "lesson_10": 7,
+    "verifiability_5": 3,
+    "total_100": 38
+   },
+   "retrieved": "2026-11-25T~21:00-21:40+04:00"
+  }
+ ],
+ "lenses": {
+  "verification_red_team": "C1 facts agree across Marketing Dive, Marketing Brew, Creative Bloq, B&T, MediaPost and the official page. The 68x / 48% numbers are PeakMetrics data reported by Marketing Brew (and re-cited by Fashion Biznes), not independently audited: say 'one social-listening firm counted' if used. No sales effect is known; do not claim it failed commercially. 1991 = first use per sources (MediaPost/Forbes attribute first airing to a Finish Matte ad); do not name the writer (no source). 59% of negative posts framed it politically: do NOT take a political side; the reel's angle is copy craft (rhythm, ambiguity), and that framing is stated as a minority-of-the-story fact only in the caption if at all. Risk of overlap with 11-25 ('kept the name, changed the meaning'): angle tomorrow is different — editing a line people can sing, and the doubt that was the asset.",
+  "audience_psychology": "Everyone can hum the line, in Persian- and English-speaking markets alike (Maybelline is widely sold and advertised in both). Curiosity gap: 'two dots made millions angry.' Shareable: people will test reading it aloud. Mild humour fits the voice (Creative Bloq: 'hostage reading out a statement').",
+  "brand_fit": "Pure brand strategy and copywriting: slogan equity, distinctive assets, sound and rhythm, when to update a legacy line. Gives business owners a concrete rule: before 'fixing' your famous line, find out what people actually remember about it. Passes the gate; no private individuals; Miley Cyrus not shown."
+ },
+ "gates": {
+  "brand_fit": "C1 pass, C2 pass, C3 pass (but AI overlap), C4 fail (repeat AI + Coke within 14 days), C9 fail (repeat Black Friday)",
+  "story": "C1 has the strongest central tension (the line worked because it was a question; the brand turned it into a statement) and the most concrete image (two full stops; a mascara wand drawing a dot). C2 has a strong image (cream jar in sand) but weak tension and no virality evidence."
+ },
+ "winner": {
+  "id": "C1",
+  "why": "Highest score (90/100 estimate), verified social-listening evidence, global recognition, fresh (launched 10 Nov, reaction through 17 Nov), and a lesson every business owner can use. Runner-up: C2 CeraVe x Dune (77) — keep for nearer the 18 Dec release."
+ }
+}

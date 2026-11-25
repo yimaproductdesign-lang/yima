@@ -1,0 +1,47 @@
+{
+ "date": "2026-11-26",
+ "T": {
+  "topic_fa": "میبلین بعد از ۳۵ سال شعار معروفش را عوض کرد: «شاید ذاتی است، شاید میبلین است» با دو نقطه و یک ضمیر تازه شد یک بیانیه، و اینترنت شلوغ شد",
+  "topic_en": "Maybelline rewrote its 35-year-old line. Two full stops and one pronoun turned the most hummable question in beauty into a statement, and the internet pushed back",
+  "topic_type": 1,
+  "pillar": "slogan_equity_copywriting",
+  "central_tension_fa": "فکر می‌کنیم شعار با پیام واضح‌تر قوی‌تر می‌شود؛ ولی قدرت این شعار در شکش بود. «شاید» یک سؤال بود با چشمک. میبلین سؤال را با دو نقطه بست، و مردم حس کردند چیزی را که بلد بودند بخوانند از دستشان گرفته‌اند.",
+  "central_tension_en": "We think a clearer message makes a stronger slogan. This one was strong because it was a question with a wink. Maybelline closed the question with two full stops, and people felt a line they could sing had been taken from them.",
+  "working_hook_fa": "میبلین فقط دو نقطه به شعارش اضافه کرد. همین کافی بود.",
+  "working_hook_en": "Maybelline added two full stops to its slogan. That was enough.",
+  "cover_idea": {
+   "kicker_fa": "شعار تازه‌ی میبلین",
+   "kicker_en": "Maybelline's new slogan",
+   "title_fa": ["دو *نقطه*", "۳۵ سال را", "به هم زد"],
+   "title_en": ["Two *full stops*.", "35 years."],
+   "object": "mascara tube, natural colour, large, with the wand drawing a big dot (T-c packshot if uploaded)"
+  },
+  "key_sources": [
+   {"url": "https://www.marketingdive.com/news/maybelline-updates-maybe-tagline-as-beauty-perceptions-evolve/874376/", "publisher": "Marketing Dive", "date": "2026-11-11", "claim": "Old: 'Maybe she's born with it. Maybe it's Maybelline.' (since 1991). New: 'Maybe. We're born with it. Maybe. It's Maybelline.' Punctuation makes it 'more like a declaration'; 'we're' to include all women; permanent change."},
+   {"url": "https://www.marketingbrew.com/stories/punctuation-changes-maybelline-iconic-tagline-response", "publisher": "Marketing Brew", "date": "2026-11-13", "claim": "PeakMetrics: mentions peaked at 68x typical volume; 48% negative, 28% positive, 24% neutral; ~a quarter object to wording/punctuation; 38% jokes or sarcasm."},
+   {"url": "https://www.creativebloq.com/news/maybellines-new-slogan-is-a-crime-against-copywriting", "publisher": "Creative Bloq", "date": "2026-11-17", "claim": "'Four sentences where there used to be two'; brand president: the original was 'giving ambiguity – it was more of a question.'"},
+   {"url": "https://www.maybelline.com/maybe-were-born-with-it", "publisher": "Maybelline (official)", "date": "2026-11", "claim": "'At Maybelline, \"Maybe\" means possibility.'"},
+   {"url": "https://www.marketingbrew.com/stories/maybe-it-s-maybelline-tagline-update-strategy", "publisher": "Marketing Brew", "date": "2026-11-10", "claim": "Allen Adamson: the words are 'so hardwired to Maybelline that they can't walk away from it.'"}
+  ],
+  "music_mood": "dark",
+  "framing_note": "Type 1 (famous-brand controversy). Spine: (1) everyone can sing it: 'Maybe she's born with it. Maybe it's Maybelline.' (2) The trick was the doubt: born with it, or makeup? A question with a wink; even the brand president says the old line was 'more of a question'. (3) Nov 2026: 'Maybe. We're born with it. Maybe. It's Maybelline.' One pronoun, two full stops; two sentences became four. (4) Reaction: one social-listening firm counted mentions at 68x normal, about half negative; many joked it reads like a hostage statement (attribute as a critic's line, not ours). (5) Why it hurt: you can't punctuate a jingle; people don't read a slogan, they sing it; the full stop killed the rhythm and the question. (6) Fair side, once: the brand's intent ('we' = every woman; 'maybe' = possibility) is reasonable, and no one knows yet if it hurts sales. (7) Lesson: before you fix your famous line, find out what people actually remember about it; often the flaw is the asset. Rules: show the words as typography (the renderer sets them; never an AI-drawn logo); no Miley Cyrus or any face; do not take a political side on the 'inclusivity' framing (keep it out of the on-screen copy; caption may mention critics framed it politically, neutrally); say 'one social-listening firm' not 'everyone hated it'; do not name who wrote the 1991 line. Distinguish from 2026-11-25 (Black Friday name): that was about a name the public gave; this is about a brand editing its own sung line. Never name the UAE, Dubai or any emirate.",
+  "image_requests": [
+   {"id": "T-a", "description": "اسکرین‌شات بالای صفحه‌ی رسمی کمپین که تیتر «MAYBE. WE'RE BORN WITH IT.» در آن دیده می‌شود (فقط بخش نوشته، بدون چهره اگر ممکن است)", "page_url": "https://www.maybelline.com/maybe-were-born-with-it", "scene_idea": "S4-S5: the real new line, framed on dark, then the two full stops highlighted in teal"},
+   {"id": "T-b", "description": "لوگوی رسمی «MAYBELLINE NEW YORK» از سربرگ همان سایت (PNG یا اسکرین‌شات با کیفیت)", "page_url": "https://www.maybelline.com/maybe-were-born-with-it", "scene_idea": "S1 and end of reel: the brand everyone knows, on a mascara/compact mockup"},
+   {"id": "T-c", "description": "عکس محصول ریمل Lash Sensational Sky High (تصویر بسته‌بندی روی زمینه‌ی سفید) از همان صفحه", "page_url": "https://www.maybelline.com/maybe-were-born-with-it", "scene_idea": "Cover + S2: the product in natural colour; its wand 'draws' the full stop"}
+  ],
+  "object_plan": [
+   {"object": "mascara tube with wand (natural colour; product of the story)", "line_idea": "Cover / 'Maybe it's Maybelline': the line everyone can sing", "reuse_path_or_new": "new: assets/objects/2026-11-26/mascara.png (or T-c upload)"},
+   {"object": "vintage 1990s CRT television", "line_idea": "1991: the line was born in a TV ad and stayed for 35 years", "reuse_path_or_new": "new: assets/objects/2026-11-26/crt_tv.png"},
+   {"object": "open compact mirror", "line_idea": "The wink: born with it, or makeup? The doubt was the point", "reuse_path_or_new": "new: assets/objects/2026-11-26/compact_mirror.png"},
+   {"object": "metronome", "line_idea": "A slogan is sung, not read: the rhythm is the asset", "reuse_path_or_new": "new: assets/objects/2026-11-26/metronome.png"},
+   {"object": "rubber stamp", "line_idea": "Two full stops stamped a question into a statement", "reuse_path_or_new": "reuse: assets/objects/2026-10-29/stamp.png"},
+   {"object": "pencil", "line_idea": "One edit: 'she's' became 'we're'", "reuse_path_or_new": "reuse: assets/objects/2026-10-22/pencil.png"},
+   {"object": "eraser", "line_idea": "They erased the question mark that was never written", "reuse_path_or_new": "reuse: assets/objects/2026-10-22/eraser.png"},
+   {"object": "megaphone", "line_idea": "Mentions jumped to 68x normal, about half negative", "reuse_path_or_new": "reuse: assets/objects/2026-11-06/megaphone.png"},
+   {"object": "ear trumpet", "line_idea": "People heard it before they read it; say it aloud and you hear the break", "reuse_path_or_new": "reuse: assets/objects/2026-11-06/ear_trumpet.png"},
+   {"object": "magnifier", "line_idea": "Lesson: look closely at what people actually remember before you fix it", "reuse_path_or_new": "reuse: assets/objects/2026-10-22/magnifier.png"},
+   {"object": "red lipstick, uncapped (natural colour)", "line_idea": "Fair side: the brand wanted 'we', every woman, not one face", "reuse_path_or_new": "new: assets/objects/2026-11-26/lipstick.png"}
+  ]
+ }
+}
