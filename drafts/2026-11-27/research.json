@@ -1,0 +1,461 @@
+{
+ "date": "2026-11-27",
+ "retrieved": "2026-11-26T20:50-21:25+04:00",
+ "stage": 1,
+ "method": "WebSearch (8 queries) + WebFetch via fetch agents (Creative Bloq branding/rebrand listings, It's Nice That, Creative Boom, Marketing Dive listing + 2 articles, Visa official pages x3, D Magazine 1977, Fast Company 2014, Encyclopedia.com, ContentGrip, MediaNews4U, DesignRush, Pepper Agency, Rebrand Log). Items marked 'headline only' were not read beyond the listing.",
+ "failed_fetches": [
+  "https://www.britannica.com/money/Visa-Inc (client error)",
+  "Rebrand Log page truncated after first 20 entries (all small B2B firms)"
+ ],
+ "scoring_rule": "README 'Topic selection' rubric (owner rule 2026-11-11): virality 25, recognition 20, curiosity 15, story 15, freshness 10, lesson 10, verifiability 5. All sub-scores except verifiability are estimates.",
+ "stage_prompt_rubric_for_top2": {
+  "_note": "stage-prompt /100 rubric, estimates",
+  "C1": {
+   "freshness_10": 6,
+   "growth_15": 7,
+   "reach_15": 14,
+   "qualified_follower_15": 13,
+   "regional_business_relevance_15": 13,
+   "audience_psychology_10": 8,
+   "commercial_utility_10": 8,
+   "originality_5": 5,
+   "verifiability_5": 5,
+   "total": 79
+  },
+  "C3": {
+   "freshness_10": 8,
+   "growth_15": 8,
+   "reach_15": 12,
+   "qualified_follower_15": 12,
+   "regional_business_relevance_15": 11,
+   "audience_psychology_10": 8,
+   "commercial_utility_10": 9,
+   "originality_5": 4,
+   "verifiability_5": 5,
+   "total": 77
+  }
+ },
+ "type_rotation": {
+  "2026-11-24": 1,
+  "2026-11-25": 3,
+  "2026-11-26": 1,
+  "2026-11-27": 3
+ },
+ "recent_topics_checked": [
+  "2026-11-20..26: Burger King x GTA (11-23), Dior vs Prada hand-drawn/AI (11-24), Black Friday name origin (11-25), Maybelline slogan punctuation (11-26)"
+ ],
+ "candidates": [
+  {
+   "id": "C1",
+   "title": "Visa refreshes its identity (announced 21 Oct 2026; design-press coverage 24 Nov): new standalone V, Visa Sans typeface, and a 'bar' device that brings back the bands of the 1958 BankAmericard logo. The hidden story: the bands were once the brand, and the name was the problem; in 1976 the stripes kept and the name was replaced by one that 'sounds the same in all languages'",
+   "brand": "Visa",
+   "topic_type": "3 (secret behind a familiar brand, with a fresh news spark)",
+   "sources": [
+    {
+     "url": "https://www.itsnicethat.com/articles/base-design-visa-brand-refresh-graphic-design-project-241126",
+     "publisher": "It's Nice That (Rob Alderson)",
+     "date": "2026-11-24",
+     "claim": "Base Design + Displaay: standalone V carrying the wingtip, 'progress bar' device inspired by the original logo's horizontal bands, Visa Sans (6 weights, 115 languages), new transaction sound; wordmark and blue/yellow unchanged; ~2 years; founded 1958 as BankAmericard, renamed Visa 1976."
+    },
+    {
+     "url": "https://www.creativeboom.com/news/visa-has-a-new-look-by-base-design-so-whats-actually-changed/",
+     "publisher": "Creative Boom (Katy Cowan)",
+     "date": "2026-11-24",
+     "claim": "1958 BankAmericard: name between a blue band and a gold one; bands kept in 1976, disappeared mid-2000s, now back as a single bar; new V drops the 2021 flag symbol. Min Lew: 'The challenge isn't recognition. It's relevance.' CMO Frank Cooper III: 'We have deep trust and recognition as a brand.' Author: most people probably won't notice."
+    },
+    {
+     "url": "https://corporate.visa.com/en/sites/visa-perspectives/innovation/how-do-brands-stay-recognizable-as-the-world-changes.html",
+     "publisher": "Visa (official)",
+     "date": "2026-10-21",
+     "claim": "'This is a refresh, not a reinvention. The Visa name, logo, purpose, and values aren't changing.'"
+    },
+    {
+     "url": "https://www.dmagazine.com/publications/d-magazine/1977/january/bankamericard-gets-a-visa/?ref=rtn",
+     "publisher": "D Magazine",
+     "date": "1977-01",
+     "claim": "The blue, white and gold bands caused confusion across cards with different names (Barclaycard, Carte Bleue, Chargex); call for 'a universal name with a universal meaning'; change affects 45 million cardholders and two million establishments."
+    },
+    {
+     "url": "https://africa.visa.com/about-visa/our_business/history-of-visa.html",
+     "publisher": "Visa (official history)",
+     "date": "2023-10 (page modified)",
+     "claim": "'1976 ... BankAmericard becomes Visa – a name that sounds the same in all languages.'"
+    },
+    {
+     "url": "https://corporate.visa.com/en/sites/visa-perspectives/company-news/dee-hock-in-memoriam.html",
+     "publisher": "Visa (Alfred F. Kelly Jr.)",
+     "date": "2022-07-20",
+     "claim": "Dee Hock turned to his internal team 'via a contest, to surface Visa'."
+    },
+    {
+     "url": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/visa-international",
+     "publisher": "International Directory of Company Histories (Thomas Derdak) via Encyclopedia.com",
+     "date": "2018",
+     "claim": "Name chosen because it implied no national identification, was easy to pronounce in any language and made no reference to a bank (dates rename 1977; Visa's own pages say 1976 — use 1976)."
+    },
+    {
+     "url": "https://www.fastcompany.com/3025258/why-visa-is-sick-of-gold",
+     "publisher": "Fast Company (John Brownlee)",
+     "date": "2014-01-29",
+     "claim": "2014 wordmark dropped the gold for the first time; reaction 'ambivalent at best, and hostile at worst'."
+    },
+    {
+     "url": "https://www.contentgrip.com/visa-visual-identity-refresh/",
+     "publisher": "ContentGrip (Nathan Cole)",
+     "date": "2026-10-28",
+     "claim": "Update detailed 21 Oct; standalone V takes over from the blue/white/yellow flag-like graphic; Cooper (via Business Insider): make it 'feel fresh, particularly for the next generation'."
+    }
+   ],
+   "event_date": "2026-10-21 (announcement); 2026-11-24 (design-press features)",
+   "classification": "evergreen + emerging (design-press coverage, no virality metrics)",
+   "read_method": "WebFetch (all URLs above read via fetch agent) + WebSearch",
+   "scores_estimate": {
+    "trend_virality_25": 12,
+    "brand_recognition_20": 20,
+    "curiosity_15": 14,
+    "story_15": 13,
+    "freshness_10": 7,
+    "lesson_10": 9,
+    "verifiability_5": 5,
+    "total_100": 80
+   },
+   "retrieved": "2026-11-26T20:50-21:25+04:00"
+  },
+  {
+   "id": "C2",
+   "title": "Coca-Cola's 'Enjoy Joy' holiday spots pivot away from generative AI after two years of divisive AI holiday ads",
+   "brand": "Coca-Cola",
+   "topic_type": "1",
+   "sources": [
+    {
+     "url": "https://www.marketingdive.com/news/coca-cola-pivots-from-divisive-ai-generated-ads-for-holiday-campaign/875215/",
+     "publisher": "Marketing Dive (Chris Kelly)",
+     "date": "2026-11-19",
+     "claim": "'the new spots pivot away from using generative artificial intelligence'; WPP Open X / Ogilvy; 270+ caravan stops; Q3 net revenue +7% to $13.4bn"
+    }
+   ],
+   "event_date": "2026-11-19",
+   "classification": "emerging",
+   "read_method": "WebFetch",
+   "scores_estimate": {
+    "trend_virality_25": 15,
+    "brand_recognition_20": 20,
+    "curiosity_15": 10,
+    "story_15": 12,
+    "freshness_10": 9,
+    "lesson_10": 8,
+    "verifiability_5": 5,
+    "total_100": 79
+   },
+   "gate_note": "repeats AI-ad theme (2026-11-08) and Coke (2026-11-14) within 14 days; Dior AI suspicion 2026-11-24",
+   "retrieved": "2026-11-26T20:50-21:25+04:00"
+  },
+  {
+   "id": "C3",
+   "title": "Burger King 'Rebuild My BK': after the president's public phone number drew 120,000 calls, BK asks customers which of its own restaurants are worst and need remodeling",
+   "brand": "Burger King",
+   "topic_type": "1/2",
+   "sources": [
+    {
+     "url": "https://www.marketingdive.com/news/burger-kings-push-for-consumer-feedback-takes-aim-at-its-own-restaurants/874704/",
+     "publisher": "Marketing Dive (Chris Kelly)",
+     "date": "2026-11-17",
+     "claim": "Runs to 5 Jan; 100 bonus Crowns per submission; 60%+ of footprint remodeled; US comps +8.4%; 120,000 calls per press materials"
+    },
+    {
+     "url": "https://news.designrush.com/burger-king-president-phone-number-customer-feedback",
+     "publisher": "DesignRush",
+     "date": "2026-02-20",
+     "claim": "President Tom Curtis's number shared on X on 17 Feb 2026"
+    }
+   ],
+   "event_date": "2026-11-17",
+   "classification": "emerging",
+   "read_method": "WebFetch",
+   "scores_estimate": {
+    "trend_virality_25": 13,
+    "brand_recognition_20": 19,
+    "curiosity_15": 12,
+    "story_15": 12,
+    "freshness_10": 8,
+    "lesson_10": 10,
+    "verifiability_5": 5,
+    "total_100": 79
+   },
+   "gate_note": "Burger King featured 2026-11-23 (GTA); wait a week",
+   "retrieved": "2026-11-26T20:50-21:25+04:00"
+  },
+  {
+   "id": "C4",
+   "title": "Sutherland Shire Council (Sydney) favours a wave logo over its Captain Cook crest; becomes a local culture-war row",
+   "brand": "Sutherland Shire Council",
+   "topic_type": "1",
+   "sources": [
+    {
+     "url": "https://www.creativebloq.com/news/sydneys-logo-controversy-shows-how-politics-can-get-in-the-way-of-good-design",
+     "publisher": "Creative Bloq (Tom May)",
+     "date": "2026-11-14",
+     "claim": "Cook emblem kept for civic/ceremonial use; wave (from 2017) for everyday; councillor motion and TV appearance"
+    }
+   ],
+   "event_date": "2026-11-14",
+   "classification": "emerging (local)",
+   "read_method": "WebFetch",
+   "scores_estimate": {
+    "trend_virality_25": 10,
+    "brand_recognition_20": 5,
+    "curiosity_15": 10,
+    "story_15": 12,
+    "freshness_10": 8,
+    "lesson_10": 6,
+    "verifiability_5": 5,
+    "total_100": 56
+   },
+   "gate_note": "fails recognition (local council) and is politically charged",
+   "retrieved": "2026-11-26T20:50-21:25+04:00"
+  },
+  {
+   "id": "C5",
+   "title": "MLB brand refresh by Mother Design with five bespoke typefaces",
+   "brand": "Major League Baseball",
+   "topic_type": "3",
+   "sources": [
+    {
+     "url": "https://www.itsnicethat.com/articles/mother-design-major-league-baseball-brand-refresh-graphic-design-project-161126",
+     "publisher": "It's Nice That",
+     "date": "2026-11-16",
+     "claim": "headline/snippet only (not fetched)"
+    }
+   ],
+   "event_date": "2026-11-16",
+   "classification": "emerging (unverified detail)",
+   "read_method": "search result only",
+   "scores_estimate": {
+    "trend_virality_25": 6,
+    "brand_recognition_20": 10,
+    "curiosity_15": 7,
+    "story_15": 7,
+    "freshness_10": 8,
+    "lesson_10": 6,
+    "verifiability_5": 2,
+    "total_100": 46
+   },
+   "gate_note": "weak recognition for Persian audience",
+   "retrieved": "2026-11-26T20:50-21:25+04:00"
+  },
+  {
+   "id": "C6",
+   "title": "Hershey's 90-minute brand film strategy",
+   "brand": "Hershey",
+   "topic_type": "2",
+   "sources": [
+    {
+     "url": "https://www.marketingdive.com/topic/brand-strategy/",
+     "publisher": "Marketing Dive (listing)",
+     "date": "2026-11-25",
+     "claim": "headline only: 'How Hershey strategized its brand film to be more than a 90-minute ad'"
+    }
+   ],
+   "event_date": "2026-11-25",
+   "classification": "emerging (headline only)",
+   "read_method": "listing page only",
+   "scores_estimate": {
+    "trend_virality_25": 8,
+    "brand_recognition_20": 15,
+    "curiosity_15": 10,
+    "story_15": 8,
+    "freshness_10": 10,
+    "lesson_10": 7,
+    "verifiability_5": 2,
+    "total_100": 60
+   },
+   "retrieved": "2026-11-26T20:50-21:25+04:00"
+  },
+  {
+   "id": "C7",
+   "title": "Jell-O's new creative platform to shift consumer perceptions",
+   "brand": "Jell-O (Kraft Heinz)",
+   "topic_type": "1/3",
+   "sources": [
+    {
+     "url": "https://www.marketingdive.com/topic/brand-strategy/",
+     "publisher": "Marketing Dive (listing)",
+     "date": "2026-11-23",
+     "claim": "headline only"
+    }
+   ],
+   "event_date": "2026-11-23",
+   "classification": "emerging (headline only)",
+   "read_method": "listing page only",
+   "scores_estimate": {
+    "trend_virality_25": 6,
+    "brand_recognition_20": 12,
+    "curiosity_15": 8,
+    "story_15": 7,
+    "freshness_10": 9,
+    "lesson_10": 7,
+    "verifiability_5": 2,
+    "total_100": 51
+   },
+   "retrieved": "2026-11-26T20:50-21:25+04:00"
+  },
+  {
+   "id": "C8",
+   "title": "Philadelphia (cream cheese) raises holiday spend amid brand revamp",
+   "brand": "Philadelphia",
+   "topic_type": "1",
+   "sources": [
+    {
+     "url": "https://www.marketingdive.com/topic/brand-strategy/",
+     "publisher": "Marketing Dive (listing)",
+     "date": "2026-11-23",
+     "claim": "headline only"
+    }
+   ],
+   "event_date": "2026-11-23",
+   "classification": "emerging (headline only)",
+   "read_method": "listing page only",
+   "scores_estimate": {
+    "trend_virality_25": 5,
+    "brand_recognition_20": 13,
+    "curiosity_15": 6,
+    "story_15": 6,
+    "freshness_10": 9,
+    "lesson_10": 6,
+    "verifiability_5": 2,
+    "total_100": 47
+   },
+   "retrieved": "2026-11-26T20:50-21:25+04:00"
+  },
+  {
+   "id": "C9",
+   "title": "Intuit sells Mailchimp to Bending Spoons",
+   "brand": "Mailchimp",
+   "topic_type": "1",
+   "sources": [
+    {
+     "url": "https://www.marketingdive.com/topic/brand-strategy/",
+     "publisher": "Marketing Dive (listing)",
+     "date": "2026-11-23",
+     "claim": "headline only"
+    }
+   ],
+   "event_date": "2026-11-23",
+   "classification": "breaking (business, not brand)",
+   "read_method": "listing page only",
+   "scores_estimate": {
+    "trend_virality_25": 8,
+    "brand_recognition_20": 12,
+    "curiosity_15": 7,
+    "story_15": 6,
+    "freshness_10": 10,
+    "lesson_10": 5,
+    "verifiability_5": 2,
+    "total_100": 50
+   },
+   "gate_note": "corporate deal, not branding; out of scope as main topic",
+   "retrieved": "2026-11-26T20:50-21:25+04:00"
+  },
+  {
+   "id": "C10",
+   "title": "Brands turn to handmade craft and many small creators for the holiday season",
+   "brand": "various",
+   "topic_type": "2",
+   "sources": [
+    {
+     "url": "https://www.marketingdive.com/topic/brand-strategy/",
+     "publisher": "Marketing Dive (listing)",
+     "date": "2026-11-25",
+     "claim": "headline only"
+    }
+   ],
+   "event_date": "2026-11-25",
+   "classification": "emerging trend (headline only)",
+   "read_method": "listing page only",
+   "scores_estimate": {
+    "trend_virality_25": 9,
+    "brand_recognition_20": 8,
+    "curiosity_15": 7,
+    "story_15": 6,
+    "freshness_10": 10,
+    "lesson_10": 8,
+    "verifiability_5": 2,
+    "total_100": 50
+   },
+   "gate_note": "overlaps 2026-11-24 hand-drawn vs AI",
+   "retrieved": "2026-11-26T20:50-21:25+04:00"
+  },
+  {
+   "id": "C11",
+   "title": "TikTok/Instagram November formats: Tate McRae 'Housewife' choreography, 'Money can't buy happiness, but...', tiny-text reveals",
+   "brand": "none named",
+   "topic_type": "2",
+   "sources": [
+    {
+     "url": "https://www.pepperagency.com/blog/tiktok-instagram-trends-for-november-2026-and-how-brands-can-actually-use-them",
+     "publisher": "Pepper Agency",
+     "date": "2026-11-02",
+     "claim": "lists formats; names no brand that used them"
+    }
+   ],
+   "event_date": "2026-11",
+   "classification": "emerging (no brand evidence)",
+   "read_method": "WebFetch",
+   "scores_estimate": {
+    "trend_virality_25": 12,
+    "brand_recognition_20": 3,
+    "curiosity_15": 6,
+    "story_15": 4,
+    "freshness_10": 7,
+    "lesson_10": 5,
+    "verifiability_5": 2,
+    "total_100": 39
+   },
+   "gate_note": "fails: no named brand rode it",
+   "retrieved": "2026-11-26T20:50-21:25+04:00"
+  },
+  {
+   "id": "C12",
+   "title": "Nothing teases a minimalist new wordmark; fans say 'it's giving Jaguar'",
+   "brand": "Nothing",
+   "topic_type": "1",
+   "sources": [
+    {
+     "url": "https://www.creativebloq.com/design/logos-icons/nothings-new-logo-is-giving-me-jaguar-flashbacks",
+     "publisher": "Creative Bloq (Natalie Fear)",
+     "date": "2026-01-20",
+     "claim": "teaser only; may be 'a bit of fun'"
+    }
+   ],
+   "event_date": "2026-01-20",
+   "classification": "stale",
+   "read_method": "WebFetch",
+   "scores_estimate": {
+    "trend_virality_25": 5,
+    "brand_recognition_20": 9,
+    "curiosity_15": 8,
+    "story_15": 6,
+    "freshness_10": 0,
+    "lesson_10": 6,
+    "verifiability_5": 3,
+    "total_100": 37
+   },
+   "gate_note": "10 months old",
+   "retrieved": "2026-11-26T20:50-21:25+04:00"
+  }
+ ],
+ "lenses": {
+  "verification_red_team": "C1: refresh facts agree across It's Nice That, Creative Boom, Visa's own page, ContentGrip and MediaNews4U. Visa's own page does NOT mention the V or the bar; those come from the agency-briefed design press (two independent outlets, same day). The bands-as-confusion fact is from a January 1977 D Magazine article (contemporary). 'Sounds the same in all languages' is Visa's own claim (say 'Visa says'). Naming: Visa says an internal contest under Dee Hock; Derdak says Hock chose it — say 'Visa's team picked', don't credit one person. Rename year: use 1976 (Visa). No source gives a meaning for the blue and gold (sky/hills lore is unsourced) — never claim one. Do not claim reaction or virality: Creative Boom says most people won't notice. Do not call the 'bar' the old logo; it is 'inspired by' the bands.",
+  "audience_psychology": "Everyone has a Visa card in their wallet and has never asked why it's called Visa. The surprise flips an assumption: we think the name is the brand; here the stripes were so recognisable that the same stripes under different names confused the world, so Visa sacrificed the name and kept the look. Then, 50 years later, it removed the stripes and brought them back as one line. Share test: 'did you know Visa wasn't Visa?' — yes.",
+  "brand_fit": "Pure branding (identity, naming, distinctive assets). Business lesson for any owner: know which part of your brand people actually recognise — it may be a colour or shape, not the name — and protect it while you change everything else. Works for Persian and English audiences (global brand). Calm, factual; no person featured."
+ },
+ "gates": {
+  "brand_fit": "C1 pass; C2 fail (AI theme + Coke repeat); C3 pass but Burger King used 4 days ago; C4 fail (recognition, political); C9 fail (scope); C11 fail (no brand); C12 fail (stale)",
+  "story": "C1: tension = 'the name was the problem, the stripes were the brand'; concrete image = a card with blue and gold bands and three different names stacked on it, then one name. C3: tension good (a brand asking where it's worst) but image weaker and brand recently used.",
+  "repeat_check": "C1 touches naming like 2026-11-25 (Black Friday), but the spine here is visual identity (bands, symbol, distinctive assets); keep the name as one beat, not the topic."
+ },
+ "winner": {
+  "id": "C1",
+  "why": "Highest score (80/100 README rubric, estimate; C2 and C3 at 79 but gated; 79 on stage rubric), global recognition, verifiable from official + contemporary 1977 sources, fresh spark (design press 24 Nov), strong surprise and a concrete image. Virality is low and labelled so; it wins as a type-3 'secret behind a familiar brand'. Runner-up: C3 Burger King 'Rebuild My BK' (79) — keep for next week."
+ }
+}

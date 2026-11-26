@@ -1,0 +1,149 @@
+{
+ "date": "2026-11-27",
+ "T": {
+  "topic_fa": "ویزا اول اسمش ویزا نبود: نوارهای آبی و طلایی کارت آن‌قدر شناخته شده بودند که در هر کشور با یک اسم دیگر چاپ می‌شدند؛ ویزا اسم را عوض کرد و نوارها را نگه داشت، و حالا بعد از ۵۰ سال همان نوارها به شکل یک خط برگشته‌اند",
+  "topic_en": "Visa wasn't always Visa. Its blue and gold stripes were so recognisable that every country printed them under a different name. So it changed the name and kept the stripes, and 50 years later the stripes are back as a single line",
+  "topic_type": 3,
+  "pillar": "distinctive_brand_assets_identity",
+  "central_tension_fa": "فکر می‌کنیم برند یعنی اسم؛ ولی در مورد ویزا نوارها برند بودند و اسم مشکل بود. یک ظاهر، چند اسم: بارکلی‌کارت، کارت بلو، چارجکس. برای این‌که دنیا یک برند ببیند، ویزا اسمش را فدا کرد، نه رنگ‌هایش را.",
+  "central_tension_en": "We think a brand is its name. For Visa, the stripes were the brand and the name was the problem: one look, many names (Barclaycard, Carte Bleue, Chargex). To become one brand worldwide, it sacrificed its name, not its colours.",
+  "working_hook_fa": "کارت ویزای توی کیف‌تان، اول اسمش ویزا نبود.",
+  "working_hook_en": "The Visa card in your wallet wasn't called Visa.",
+  "cover_idea": {
+   "kicker_fa": "راز کارت ویزا",
+   "kicker_en": "The secret behind Visa",
+   "title_fa": [
+    "اسم را",
+    "عوض کردند،",
+    "*نوارها* را نه"
+   ],
+   "title_en": [
+    "They changed the name.",
+    "Kept the *stripes*."
+   ],
+   "object": "a blank card with one blue band and one gold band (natural colour; mockup, no logo drawn by AI)"
+  },
+  "key_sources": [
+   {
+    "url": "https://www.creativeboom.com/news/visa-has-a-new-look-by-base-design-so-whats-actually-changed/",
+    "publisher": "Creative Boom",
+    "date": "2026-11-24",
+    "claim": "1958 BankAmericard: name between a blue band and a gold one; bands kept in 1976, gone by the mid-2000s, now back as a single bar. Min Lew (Base Design): 'The challenge isn't recognition. It's relevance.'"
+   },
+   {
+    "url": "https://www.itsnicethat.com/articles/base-design-visa-brand-refresh-graphic-design-project-241126",
+    "publisher": "It's Nice That",
+    "date": "2026-11-24",
+    "claim": "New standalone V, 'progress bar' device inspired by the original bands, Visa Sans (115 languages), new transaction sound; wordmark and blue/yellow unchanged."
+   },
+   {
+    "url": "https://www.dmagazine.com/publications/d-magazine/1977/january/bankamericard-gets-a-visa/?ref=rtn",
+    "publisher": "D Magazine",
+    "date": "1977-01",
+    "claim": "The blue, white and gold bands caused confusion across differently named cards (Barclaycard, Carte Bleue, Chargex); need for 'a universal name with a universal meaning'; 45 million cardholders affected."
+   },
+   {
+    "url": "https://africa.visa.com/about-visa/our_business/history-of-visa.html",
+    "publisher": "Visa (official)",
+    "date": "2023",
+    "claim": "'1976 ... BankAmericard becomes Visa – a name that sounds the same in all languages.'"
+   },
+   {
+    "url": "https://corporate.visa.com/en/sites/visa-perspectives/innovation/how-do-brands-stay-recognizable-as-the-world-changes.html",
+    "publisher": "Visa (official)",
+    "date": "2026-10-21",
+    "claim": "'This is a refresh, not a reinvention. The Visa name, logo, purpose, and values aren't changing.'"
+   },
+   {
+    "url": "https://www.fastcompany.com/3025258/why-visa-is-sick-of-gold",
+    "publisher": "Fast Company",
+    "date": "2014-01-29",
+    "claim": "2014: the wordmark dropped the gold for the first time."
+   }
+  ],
+  "music_mood": "dark",
+  "framing_note": "Type 3 (secret behind a familiar brand), news spark = the Oct 2026 refresh covered by design press on 24 Nov. Spine: (1) Hook: the card in your wallet wasn't called Visa. (2) 1958: BankAmericard, the name between a blue band and a gold band. (3) It spread abroad; partner banks kept the same bands but different names (Barclaycard, Carte Bleue, Chargex) — one look, many names, confusion (D Magazine 1977). (4) 1976: they kept the stripes and replaced the name with one that, Visa says, sounds the same in all languages; picked by Visa's own team (do not credit one person). (5) Later the stripes faded: the gold left the wordmark in 2014, the bands were gone. (6) Oct 2026: a new standalone V, a new typeface, and a single bar inspired by the original bands; Visa says it's 'a refresh, not a reinvention'. Agency line: 'The challenge isn't recognition. It's relevance.' (7) Lesson: find out which part of your brand people actually recognise — sometimes it's a colour or a shape, not your name — and protect it while everything else changes. Rules: never claim what blue/gold 'meant' (no source; skip the sky/hills lore); say 'inspired by' the bands, not 'the old logo returns'; no virality claim (Creative Boom: most people won't notice); no faces; show real marks only from owner uploads; the AI may draw blank cards/terminals only, never the Visa logo. Distinguish from 2026-11-25 (Black Friday name): the topic here is visual identity; the name is one beat. Never name the UAE, Dubai or any emirate.",
+  "image_requests": [
+   {
+    "id": "T-a",
+    "description": "عکس اصلی صفحه‌ی رسمی ویزا: کارت آبی ویزا روی بشقاب زرد، روی رومیزی چهارخانه‌ی زرد و سفید (فریم رسمی کمپین تازه)",
+    "page_url": "https://corporate.visa.com/en/sites/visa-perspectives/innovation/how-do-brands-stay-recognizable-as-the-world-changes.html",
+    "scene_idea": "S6: the 2026 refresh, framed on dark: same blue and yellow, a new look"
+   },
+   {
+    "id": "T-b",
+    "description": "عکس دستی که کارت آبی ویزا را به دستگاه بلیت/پرداخت بدون تماس می‌زند و نماد تازه‌ی «V» روی کارت دیده می‌شود (زیرنویس: V symbol)",
+    "page_url": "https://www.itsnicethat.com/articles/base-design-visa-brand-refresh-graphic-design-project-241126",
+    "scene_idea": "S6-S7: the new standalone V up close; teal highlight on the V"
+   },
+   {
+    "id": "T-c",
+    "description": "تصویر نمونه‌ی حروف تازه‌ی «Visa Sans» (حروف و اعداد آبی روی زمینه‌ی سفید) از همان مقاله",
+    "page_url": "https://www.itsnicethat.com/articles/base-design-visa-brand-refresh-graphic-design-project-241126",
+    "scene_idea": "S7: 'a name that sounds the same everywhere' now has its own letters, in 115 languages"
+   }
+  ],
+  "object_plan": [
+   {
+    "object": "blank credit card with one blue band and one gold band (natural colour mockup, no text)",
+    "line_idea": "Hook/cover: the stripes were the brand",
+    "reuse_path_or_new": "new: assets/mockups/2026-11-27/card_bands.png"
+   },
+   {
+    "object": "vintage manual card imprinter (1960s-70s 'knuckle-buster')",
+    "line_idea": "1958: the card that started it all, in a different era",
+    "reuse_path_or_new": "new: assets/objects/2026-11-27/imprinter.png"
+   },
+   {
+    "object": "old travel photo",
+    "line_idea": "It crossed borders: partner banks abroad",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/photo.png"
+   },
+   {
+    "object": "three stacked blank nameplates",
+    "line_idea": "One look, many names: Barclaycard, Carte Bleue, Chargex (typed by the renderer)",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-31/nameplate.png"
+   },
+   {
+    "object": "signpost with arrows pointing different ways",
+    "line_idea": "Confusion: same stripes, different names in every country",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/signpost.png"
+   },
+   {
+    "object": "ear trumpet",
+    "line_idea": "1976: a name that, Visa says, sounds the same in every language",
+    "reuse_path_or_new": "reuse: assets/objects/2026-11-06/ear_trumpet.png"
+   },
+   {
+    "object": "rubber stamp",
+    "line_idea": "They stamped one name on the world and kept the stripes",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-29/stamp.png"
+   },
+   {
+    "object": "paint roller",
+    "line_idea": "Over the years the stripes were painted out; the gold left in 2014",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-26/paint_roller.png"
+   },
+   {
+    "object": "eraser",
+    "line_idea": "The bands disappeared",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/eraser.png"
+   },
+   {
+    "object": "contactless card terminal (blank mockup, no logo)",
+    "line_idea": "2026: a new V for screens and taps, and the bands return as one line",
+    "reuse_path_or_new": "new: assets/mockups/2026-11-27/terminal.png (or T-b upload)"
+   },
+   {
+    "object": "key",
+    "line_idea": "'The challenge isn't recognition. It's relevance.' — they already own the key",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-24/key.png"
+   },
+   {
+    "object": "magnifier",
+    "line_idea": "Lesson: find out which part of your brand people really recognise before you change it",
+    "reuse_path_or_new": "reuse: assets/objects/2026-10-22/magnifier.png"
+   }
+  ]
+ }
+}
