@@ -1,0 +1,440 @@
+{
+  "date": "2026-11-29",
+  "retrieved": "2026-11-28T20:50-21:50+04:00",
+  "stage": 1,
+  "method": "WebSearch (~22 queries, standard + extended) and WebFetch via fetch agents. Read in full: Creative Bloq (John Lewis, Coke Zero, 7UP, MachineX, McClocks), DesignRush, The Drum, Marketing Dive (brand-strategy listing + Coca-Cola pivot), Marketing-Interactive (Luckin, June 2026 — out of window), Malay Mail, AsiaOne, Yahoo/Daily Beast (Mango), Inkbot, Agile Brand Guide, Yahoo Creators (Bearista 2025), Yahoo Shopping (NeeDoh), Forbes (partially verbatim; body via extraction summary), SBS, Seoul Economic Daily, Financial News, Inc., Open, TheIndustry.fashion, FashionUnited, Ideal Investisseur. Items marked 'headline only' were not read beyond the search result.",
+  "failed_fetches": [
+    "https://www.primetimer.com/... John Lewis 20x dislikes (client error)",
+    "https://www.cnn.com/2026/11/15/travel/namdaemun-scarf-man-seoul-south-korea-intl-hnk (robots disallowed)",
+    "https://www.marketingweek.com/mcdonalds-christmas-brand-link/ (client error)",
+    "https://www.creativebloq.com/news/is-this-the-most-controversial-font-since-comic-sans (permission timeout)"
+  ],
+  "scoring_rule": "README 'Topic selection' rubric (owner rule 2026-11-11): virality 25, recognition 20, curiosity 15, story 15, freshness 10, lesson 10, verifiability 5. All sub-scores except verifiability are estimates.",
+  "stage_prompt_rubric_for_top2": {
+    "C1": {
+      "freshness_10": 8,
+      "growth_15": 10,
+      "reach_15": 14,
+      "qualified_follower_15": 13,
+      "regional_business_relevance_15": 14,
+      "audience_psychology_10": 9,
+      "commercial_utility_10": 10,
+      "originality_5": 4,
+      "verifiability_5": 4,
+      "total_100": 86,
+      "note": "estimates except verifiability"
+    },
+    "C2": {
+      "freshness_10": 8,
+      "growth_15": 9,
+      "reach_15": 14,
+      "qualified_follower_15": 10,
+      "regional_business_relevance_15": 10,
+      "audience_psychology_10": 8,
+      "commercial_utility_10": 7,
+      "originality_5": 2,
+      "verifiability_5": 4,
+      "total_100": 72,
+      "note": "estimates except verifiability"
+    }
+  },
+  "type_rotation": {
+    "2026-11-23": 2,
+    "2026-11-24": 1,
+    "2026-11-25": 3,
+    "2026-11-26": 1,
+    "2026-11-27": 3,
+    "2026-11-28": 3,
+    "2026-11-29": "must be 1 or 2 (type 3 used twice in a row) -> 1"
+  },
+  "recent_topics_checked": [
+    "2026-11-22..28 drafts/*/topics.json: Burger King x GTA VI (11-23), Prada/Dior AI (11-24), Black Friday name (11-25), Maybelline slogan (11-26), Visa stripes (11-27), Hershey film (11-28). Older pricing topics: 11-03 (remembered prices), 11-09 (cost excuses), 11-13 (Skims price promise) — C1 differs: luxury price cut as a signal, not price perception."
+  ],
+  "candidates": [
+    {
+      "id": "C1",
+      "title": "Gucci quietly cut a Padlock bag 30% (EUR 3,500 -> 2,450) and other items; LVMH, which once said 'we're not Coca-Cola', is now discussing cuts; Hermes holds price and grows",
+      "brand": "Gucci / Louis Vuitton / Hermes",
+      "topic_type": 1,
+      "classification": "breaking -> emerging (reported 15-17 Nov, Korea follow-up 26 Nov)",
+      "sources": [
+        {
+          "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/11/17/gucci-price-cuts-break-luxurys-biggest-taboo-louis-vuitton-isnt-following/",
+          "publisher": "Forbes (contributor, CMO Network)",
+          "date": "2026-11-17",
+          "claim": "Headline: 'Gucci Price Cuts Break Luxury's Biggest Taboo. Louis Vuitton Isn't Following.' Some Gucci prices cut by 30% as middle-class shoppers retreat; cuts surfaced via shoppers, social accounts and Google price flags before any executive comment; Kering frames it as a 'price architecture' reset. Body details read via extraction summary — use only where corroborated."
+        },
+        {
+          "url": "https://en.sedaily.com/world/2026/11/16/gucci-cuts-bag-prices-30-percent-as-louis-vuitton-weighs",
+          "publisher": "Seoul Economic Daily",
+          "date": "2026-11-16",
+          "claim": "Padlock Crystal Small handbag: EUR 3,500 in France in July, now EUR 2,450 (-30%), per Bernstein, first reported by the Wall Street Journal. LVMH discussing responses such as price cuts; a year earlier its CFO Cecile Cabanis ruled out price adjustments and said the company 'was not Coca-Cola' (paraphrase, translated). Goldman Sachs estimates Louis Vuitton Q3 sales down 8%."
+        },
+        {
+          "url": "https://en.fnnews.com/news/202611161414371765",
+          "publisher": "Financial News (Korea)",
+          "date": "2026-11-17",
+          "claim": "Same Padlock figures (EUR 3,500 -> 2,450, -30%); 16 new bag styles at $2,000 or less on Gucci's US site. Cabanis quoted (translated): 'We are not Coca-Cola' (a year ago) vs now 'discussing bold and immediate measures, such as price cuts, internally.' LV holding prices out of concern that cuts could damage brand value."
+        },
+        {
+          "url": "https://www.theindustry.fashion/gucci-reportedly-cuts-prices-as-turnaround-pressure-builds/",
+          "publisher": "TheIndustry.fashion",
+          "date": "2026-11-17",
+          "claim": "Cuts on selected handbags, footwear and ready-to-wear; new Padlock price is a regular selling price, not a markdown; sneakers EUR 800 -> 560-595; Mercato tote reportedly 20-25% cheaper. Kering Q3 presentation: 'reshaping of product and price architecture, with targeted adjustments to improve perceived value, led by Handbags'. Flag credited to Bernstein's Luca Solca."
+        },
+        {
+          "url": "https://openthemagazine.com/lifestyle/quick-take-why-is-gucci-cutting-prices-seven-things-to-know-about-luxury-fashions-pricing-reset",
+          "publisher": "Open Magazine",
+          "date": "2026-11-16",
+          "claim": "Padlock figures (about 30%, per Bernstein's Luca Solca); cuts reported by WSJ; LVMH has not announced a broad price-cutting strategy for Louis Vuitton."
+        },
+        {
+          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008864176",
+          "publisher": "SBS (Korea, AI-translated)",
+          "date": "2026-11-26",
+          "claim": "'They said prices would never drop': Gucci, Boucheron, Van Cleef & Arpels cutting Korean prices; Gucci Mercato Small Tote 4.45M -> 3.5M won (~-21%); luxury department-store growth slowed from 40%+ (Q2) to ~10% (Oct); Prada CEO Andrea Guerra: 'The mere fact that pricing is being talked about means there is a problem.'"
+        },
+        {
+          "url": "https://fashionunited.com/news/business/kering-q3-revenue-remains-stable-as-jewelry-and-eyewear-offset-gucci-contraction/2026102375358",
+          "publisher": "FashionUnited",
+          "date": "2026-10-23",
+          "claim": "Gucci Q3 2026 revenue EUR 1.29bn, -4% reported, -6% comparable; retail -9% comparable. Luca de Meo: 'The recovery of Gucci remains our defining priority.'"
+        },
+        {
+          "url": "https://www.ideal-investisseur.fr/en/stock-news/hermes-growth-slowed-to-4-3-in-third-quarter-leather-goods-advance-by-10-8/27708.html",
+          "publisher": "Ideal Investisseur",
+          "date": "2026-10-22",
+          "claim": "Hermes Q3 2026 revenue +4.3% at constant rates to EUR 4,096m; leather goods and saddlery +10.8% to EUR 1,912m. (No price statement in this article.)"
+        }
+      ],
+      "scores_readme": {
+        "virality_25": 18,
+        "recognition_20": 20,
+        "curiosity_15": 13,
+        "story_15": 13,
+        "freshness_10": 8,
+        "lesson_10": 10,
+        "verifiability_5": 4,
+        "total_100": 86
+      },
+      "evidence_of_reach": "Covered by WSJ (as cited by 5 outlets read), Forbes, Inc., Seoul Economic Daily, Financial News, SBS, Open, TheIndustry; Forbes says social accounts and Google price flags surfaced it first. No social engagement counts found: 'viral' NOT claimed; call it 'widely reported'."
+    },
+    {
+      "id": "C2",
+      "title": "Coca-Cola's two Christmases: US 'Enjoy Joy' pivots away from AI ads (19 Nov) while UK runs the AI 'Holidays Are Coming' trucks for a third year",
+      "brand": "Coca-Cola",
+      "topic_type": 1,
+      "classification": "breaking",
+      "sources": [
+        {
+          "url": "https://www.marketingdive.com/news/coca-cola-pivots-from-divisive-ai-generated-ads-for-holiday-campaign/875215/",
+          "publisher": "Marketing Dive",
+          "date": "2026-11-19",
+          "claim": "'Enjoy Joy' moves away from the gen-AI ads of the last two holidays; real family scenes; Ogilvy/WPP Open X."
+        },
+        {
+          "url": "https://www.thedrum.com/opinion/coca-cola-wouldn-t-make-a-third-ai-christmas-ad-if-online-backlash-mattered-enough",
+          "publisher": "The Drum (opinion)",
+          "date": "2026-11-09",
+          "claim": "AI trucks back for a third run in the UK; author's System1 test 5.7 stars, 68% happy."
+        }
+      ],
+      "scores_readme": {
+        "virality_25": 15,
+        "recognition_20": 20,
+        "curiosity_15": 11,
+        "story_15": 11,
+        "freshness_10": 8,
+        "lesson_10": 7,
+        "verifiability_5": 4,
+        "total_100": 76
+      },
+      "gate": "Repeat risk: AI ads (11-08), AI accusation (11-24), Coca-Cola Santa (11-14). Runner-up."
+    },
+    {
+      "id": "C3",
+      "title": "CJ (GTA San Andreas, 2004) meme takes over the GTA VI launch; FairPrice, Visit Singapore, Life4Cuts join",
+      "brand": "GTA / regional brands",
+      "topic_type": 2,
+      "classification": "breaking",
+      "sources": [
+        {
+          "url": "https://www.asiaone.com/digital/carl-johnson-cj-viral-meme-trend-singapore-gta-6",
+          "publisher": "AsiaOne",
+          "date": "2026-11-28",
+          "claim": "13 Nov X post with AI CJ images: 14M+ views, 777,000 likes; brand posts 27 Nov."
+        },
+        {
+          "url": "https://www.malaymail.com/news/tech-gadgets/2026/11/28/singapore-brands-jump-on-cj-meme-bandwagon-after-gta-vi-release/245162",
+          "publisher": "Malay Mail",
+          "date": "2026-11-28",
+          "claim": "Same story, brand captions quoted."
+        }
+      ],
+      "scores_readme": {
+        "virality_25": 22,
+        "recognition_20": 16,
+        "curiosity_15": 12,
+        "story_15": 10,
+        "freshness_10": 10,
+        "lesson_10": 6,
+        "verifiability_5": 4,
+        "total_100": 80
+      },
+      "gate": "FAIL repeat: 2026-11-23 was 'brands jumping on GTA VI'. Also IP risk (AI images of a Rockstar character)."
+    },
+    {
+      "id": "C4",
+      "title": "John Lewis 'Gloria and Pickles' (Saatchi & Saatchi) mauled online (Piers Morgan: 'possibly the worst advert') while System1 gives 5.6 stars",
+      "brand": "John Lewis",
+      "topic_type": 1,
+      "classification": "emerging (4-5 Nov)",
+      "sources": [
+        {
+          "url": "https://www.creativebloq.com/news/the-john-lewis-christmas-advert-is-getting-a-mauling",
+          "publisher": "Creative Bloq",
+          "date": "2026-11-05",
+          "claim": "Boycott calls; critique of entitled kids."
+        },
+        {
+          "url": "https://news.designrush.com/john-lewis-saatchi-2026-christmas-ad-backlash",
+          "publisher": "DesignRush",
+          "date": "2026-11-04",
+          "claim": "System1 5.6 stars; OnePulse 68% liked."
+        }
+      ],
+      "scores_readme": {
+        "virality_25": 16,
+        "recognition_20": 9,
+        "curiosity_15": 9,
+        "story_15": 12,
+        "freshness_10": 4,
+        "lesson_10": 8,
+        "verifiability_5": 4,
+        "total_100": 62
+      },
+      "gate": "Fail: >14 days, low recognition for Persian audience, repeats 11-06 (loud minority)."
+    },
+    {
+      "id": "C5",
+      "title": "Mango holiday ad 'Last Night' draws UK ASA complaints; comments turned off on TikTok",
+      "brand": "Mango",
+      "topic_type": 1,
+      "classification": "breaking (23 Nov)",
+      "sources": [
+        {
+          "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/popular-clothing-brand-faces-backlash-212449672.html",
+          "publisher": "Yahoo / The Daily Beast",
+          "date": "2026-11-23",
+          "claim": "ASA received numerous complaints; ASA said model 'appears to be unhealthily thin'; no decision yet."
+        }
+      ],
+      "scores_readme": {
+        "virality_25": 14,
+        "recognition_20": 15,
+        "curiosity_15": 8,
+        "story_15": 11,
+        "freshness_10": 10,
+        "lesson_10": 7,
+        "verifiability_5": 4,
+        "total_100": 69
+      },
+      "gate": "Fail brand-fit/ethics: story centres on a real person's body; high risk of body commentary."
+    },
+    {
+      "id": "C6",
+      "title": "Coca-Cola's unified look makes Coke and Coke Zero hard to tell apart; flight attendant's TikTok on 'wrong Cokes'",
+      "brand": "Coca-Cola",
+      "topic_type": 1,
+      "classification": "emerging (11 Oct)",
+      "sources": [
+        {
+          "url": "https://www.creativebloq.com/news/the-coca-cola-rebrand-is-still-causing-confusion-three-months-on",
+          "publisher": "Creative Bloq",
+          "date": "2026-10-11",
+          "claim": "Black ribbon only Zero cue; diabetic commenters worried."
+        }
+      ],
+      "scores_readme": {
+        "virality_25": 12,
+        "recognition_20": 20,
+        "curiosity_15": 10,
+        "story_15": 11,
+        "freshness_10": 3,
+        "lesson_10": 8,
+        "verifiability_5": 4,
+        "total_100": 68
+      },
+      "gate": "Fail repeat: 2026-10-30 (consistency makes products disappear); stale."
+    },
+    {
+      "id": "C7",
+      "title": "NeeDoh squishy craze; Target x LAVA Lamp collab (19 Nov); queues and resale",
+      "brand": "Schylling NeeDoh / Target",
+      "topic_type": 2,
+      "classification": "emerging",
+      "sources": [
+        {
+          "url": "https://shopping.yahoo.com/toys-games/articles/york-shoppers-wait-hours-toy-154500251.html",
+          "publisher": "Yahoo Shopping / When In Your State (AI-assisted)",
+          "date": "2026-11-25",
+          "claim": "Lines, resale up to $25; CEO: a year's inventory sold in first nine weeks of 2026 (via Business Insider, not read)."
+        }
+      ],
+      "scores_readme": {
+        "virality_25": 15,
+        "recognition_20": 8,
+        "curiosity_15": 9,
+        "story_15": 8,
+        "freshness_10": 7,
+        "lesson_10": 6,
+        "verifiability_5": 3,
+        "total_100": 56
+      },
+      "gate": "Fail recognition (weak for Persian audience); mixed-date evidence."
+    },
+    {
+      "id": "C8",
+      "title": "Life after Labubu: Pop Mart sales fall as the craze fades",
+      "brand": "Pop Mart / Labubu",
+      "topic_type": 2,
+      "classification": "emerging",
+      "sources": [
+        {
+          "url": "https://www.scmp.com/business/companies/article/3374342/life-after-labubu-pop-mart-struggles-relevance-its-toy-sales-plummet",
+          "publisher": "SCMP",
+          "date": "headline only, not read",
+          "claim": "Pop Mart struggles for relevance as toy sales plummet."
+        }
+      ],
+      "scores_readme": {
+        "virality_25": 13,
+        "recognition_20": 16,
+        "curiosity_15": 10,
+        "story_15": 10,
+        "freshness_10": 5,
+        "lesson_10": 8,
+        "verifiability_5": 2,
+        "total_100": 64
+      },
+      "gate": "Not verified (headline only); revisit with full read."
+    },
+    {
+      "id": "C9",
+      "title": "7UP becomes '7UP Lime Lemon' with new retro identity",
+      "brand": "7UP",
+      "topic_type": 1,
+      "classification": "evergreen-ish (Aug 2026)",
+      "sources": [
+        {
+          "url": "https://www.creativebloq.com/design/branding/the-new-7up-rebrand-is-bound-to-be-contentious",
+          "publisher": "Creative Bloq",
+          "date": "2026-08-11",
+          "claim": "Prediction of controversy; no measured reaction."
+        }
+      ],
+      "scores_readme": {
+        "virality_25": 6,
+        "recognition_20": 15,
+        "curiosity_15": 9,
+        "story_15": 7,
+        "freshness_10": 2,
+        "lesson_10": 6,
+        "verifiability_5": 4,
+        "total_100": 49
+      },
+      "gate": "Fail freshness and reaction evidence."
+    },
+    {
+      "id": "C10",
+      "title": "Jaguar Type 01 ($130k) arrives two years after 'Copy Nothing' rebrand; internet divided",
+      "brand": "Jaguar",
+      "topic_type": 1,
+      "classification": "emerging (7 Oct)",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/07/jaguar-electric-vehicle-autos-type-01.html",
+          "publisher": "CNBC",
+          "date": "2026-10-07",
+          "claim": "headline only (search result)"
+        }
+      ],
+      "scores_readme": {
+        "virality_25": 15,
+        "recognition_20": 18,
+        "curiosity_15": 10,
+        "story_15": 12,
+        "freshness_10": 2,
+        "lesson_10": 8,
+        "verifiability_5": 2,
+        "total_100": 67
+      },
+      "gate": "Fail freshness (>7 weeks); not read beyond search result."
+    },
+    {
+      "id": "C11",
+      "title": "McDonald's 'McClocks' minimalist print ads (Leo Burnett Germany, 2018) resurface on r/DesignPorn",
+      "brand": "McDonald's",
+      "topic_type": 3,
+      "classification": "hidden_gem / evergreen",
+      "sources": [
+        {
+          "url": "https://www.creativebloq.com/design/print-design-publishing/ingenious-mcdonalds-print-ads-are-going-viral-again",
+          "publisher": "Creative Bloq",
+          "date": "2026-05-05",
+          "claim": "5.4k upvotes; products hidden in clock graduations."
+        }
+      ],
+      "scores_readme": {
+        "virality_25": 8,
+        "recognition_20": 20,
+        "curiosity_15": 11,
+        "story_15": 6,
+        "freshness_10": 2,
+        "lesson_10": 7,
+        "verifiability_5": 4,
+        "total_100": 58
+      },
+      "gate": "Fail rotation (type 3 used 11-27 and 11-28) and weak conflict."
+    },
+    {
+      "id": "C12",
+      "title": "Starbucks Bearista cup frenzy",
+      "brand": "Starbucks",
+      "topic_type": 2,
+      "classification": "stale (Nov 2025)",
+      "sources": [
+        {
+          "url": "https://creators.yahoo.com/lifestyle/story/this-starbucks-holiday-merch-is-the-new-labubu--and-fans-say-the-launch-was-a-bloodbath-214008744.html",
+          "publisher": "Yahoo Creators",
+          "date": "2025-11-07",
+          "claim": "Sold out instantly; Starbucks apologised."
+        }
+      ],
+      "scores_readme": {
+        "virality_25": 10,
+        "recognition_20": 20,
+        "curiosity_15": 8,
+        "story_15": 10,
+        "freshness_10": 0,
+        "lesson_10": 7,
+        "verifiability_5": 4,
+        "total_100": 59
+      },
+      "gate": "Fail freshness (a year old)."
+    }
+  ],
+  "lenses": {
+    "verification_red_team": "C1: Padlock EUR 3,500 -> 2,450 (France, July -> Nov) agrees across Sedaily, FNNews, Inc., Open, TheIndustry; origin is Bernstein (Luca Solca) / WSJ — attribute as 'reported', Gucci made no announcement and no official Gucci statement on the cuts was found; Kering's own wording: 'targeted adjustments to improve perceived value, led by Handbags' (Q3 presentation, via TheIndustry). Not all Gucci prices fell: say 'some bags, shoes and clothes'. 'We're not Coca-Cola' is LVMH CFO Cecile Cabanis, a year ago, via translated Korean press (FNNews quotes it, Sedaily paraphrases) and Forbes summary — use as 'LVMH's finance chief said, a year ago' and keep the wording exactly 'We're not Coca-Cola'. LV has NOT cut prices: say 'discussing' only. Gucci Q3 -6% comparable (FashionUnited, primary-reported). Hermes leather goods +10.8% Q3 (Ideal Investisseur). Do not claim '13 quarters of decline' (Forbes summary citing WSJ, unread) or Bain customer counts on screen. Do not call it viral.",
+    "audience_psychology": "Everyone knows Gucci; everyone has a gut rule that 'luxury never goes on sale'. A 30% cut breaks that rule and triggers two opposite feelings: the would-be buyer ('finally') and the owner ('so mine is worth less'). The Coca-Cola line is a quotable villain line that turns. Persian-speaking viewers know Gucci, LV and Hermes and live with price shocks; business owners face the 'should I discount?' question every week. Share test: 'Gucci cut its bag price 30% and LV's CFO once said we're not Coca-Cola' — yes.",
+    "brand_fit": "Pure pricing/communication strategy and positioning: price as a brand signal, discount vs desire. Behnood's voice (strategist with a stance) can take a side: a cut fixes a price problem, not a desire problem. Lesson works for a cafe or a clinic as well as luxury."
+  },
+  "gates": {
+    "brand_fit": "C1 pass; C2 pass but repeat-heavy; C3 fail repeat (GTA 11-23); C4 fail freshness/recognition; C5 fail ethics (real person's body); C6 fail repeat; C7 fail recognition; C8 fail verification; C9/C10/C12 fail freshness; C11 fail rotation.",
+    "story": "C1 tension: 'In luxury the price IS the product. Gucci cut it 30%; Hermes kept its prices and its leather goods grew 10.8%.' Concrete image: a padlock (the bag's name) hanging from a price tag with the old price crossed out. Conflict: Gucci cuts vs LV 'we're not Coca-Cola' vs Hermes holds."
+  },
+  "winner": {
+    "id": "C1",
+    "why": "Highest on both rubrics (README 86, stage 86, estimates), global famous brand with a clear rule-break, three-brand conflict, concrete object (Padlock), every on-screen claim sourced from 2+ outlets, and a lesson every business owner can use. Runner-up C2 (Coca-Cola two Christmases) held back for AI-topic fatigue."
+  }
+}

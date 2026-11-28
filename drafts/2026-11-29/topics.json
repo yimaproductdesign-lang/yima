@@ -1,0 +1,155 @@
+{
+  "date": "2026-11-29",
+  "T": {
+    "topic_fa": "گوچی بی‌سروصدا قیمت کیف «پدلاک» را ۳۰٪ پایین آورد. لویی ویتون که پارسال گفته بود «ما کوکاکولا نیستیم»، حالا درباره‌ی کاهش قیمت حرف می‌زند. و هرمس قیمتش را نگه داشت و رشد کرد",
+    "topic_en": "Gucci quietly cut its Padlock bag by 30%. Louis Vuitton's owner once said 'We're not Coca-Cola' and is now discussing cuts. Hermès held its prices and its leather goods grew 10.8%",
+    "topic_type": 1,
+    "pillar": "pricing_strategy_luxury_positioning",
+    "central_tension_fa": "در بیشتر بازارها قیمت کمتر یعنی مشتری بیشتر؛ در لاکچری قیمت خودش محصول است. تخفیف به خریدار تازه می‌گوید «حالا بخر» و به کسی که دیروز خریده می‌گوید «گران خریدی». مشکل گوچی قیمت نبود، خواستنی‌بودن بود؛ و تخفیف قیمت را درست می‌کند، نه خواستن را.",
+    "central_tension_en": "Everywhere else a lower price wins customers. In luxury the price is the product. A cut tells new buyers 'now' and tells yesterday's buyers 'you overpaid'. Gucci's problem wasn't price, it was desire, and a discount fixes price, not desire.",
+    "working_hook_fa": "گوچی قیمت کیفش را ۳۰٪ کم کرد. در دنیای لاکچری، این یک اعتراف است.",
+    "working_hook_en": "Gucci just cut a bag's price by 30%. In luxury, that's a confession.",
+    "cover_idea": {
+      "kicker_fa": "جنجال قیمت گوچی",
+      "kicker_en": "Gucci's price cut",
+      "title_fa": [
+        "گوچی *ارزان* شد.",
+        "این خبر خوبی",
+        "نیست"
+      ],
+      "title_en": [
+        "Gucci got *cheaper*.",
+        "That's not good news."
+      ],
+      "object": "a heavy padlock hanging from a blank luxury price tag, the old price struck through (monochrome; no logo drawn by AI)"
+    },
+    "key_sources": [
+      {
+        "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/11/17/gucci-price-cuts-break-luxurys-biggest-taboo-louis-vuitton-isnt-following/",
+        "publisher": "Forbes (contributor, CMO Network)",
+        "date": "2026-11-17",
+        "claim": "Headline: 'Gucci Price Cuts Break Luxury's Biggest Taboo. Louis Vuitton Isn't Following.' Some Gucci prices cut by 30% as middle-class shoppers retreat; cuts surfaced via shoppers, social accounts and Google price flags before any executive comment; Kering frames it as a 'price architecture' reset. Body details read via extraction summary — use only where corroborated."
+      },
+      {
+        "url": "https://en.sedaily.com/world/2026/11/16/gucci-cuts-bag-prices-30-percent-as-louis-vuitton-weighs",
+        "publisher": "Seoul Economic Daily",
+        "date": "2026-11-16",
+        "claim": "Padlock Crystal Small handbag: EUR 3,500 in France in July, now EUR 2,450 (-30%), per Bernstein, first reported by the Wall Street Journal. LVMH discussing responses such as price cuts; a year earlier its CFO Cecile Cabanis ruled out price adjustments and said the company 'was not Coca-Cola' (paraphrase, translated). Goldman Sachs estimates Louis Vuitton Q3 sales down 8%."
+      },
+      {
+        "url": "https://en.fnnews.com/news/202611161414371765",
+        "publisher": "Financial News (Korea)",
+        "date": "2026-11-17",
+        "claim": "Same Padlock figures (EUR 3,500 -> 2,450, -30%); 16 new bag styles at $2,000 or less on Gucci's US site. Cabanis quoted (translated): 'We are not Coca-Cola' (a year ago) vs now 'discussing bold and immediate measures, such as price cuts, internally.' LV holding prices out of concern that cuts could damage brand value."
+      },
+      {
+        "url": "https://www.theindustry.fashion/gucci-reportedly-cuts-prices-as-turnaround-pressure-builds/",
+        "publisher": "TheIndustry.fashion",
+        "date": "2026-11-17",
+        "claim": "Cuts on selected handbags, footwear and ready-to-wear; new Padlock price is a regular selling price, not a markdown; sneakers EUR 800 -> 560-595; Mercato tote reportedly 20-25% cheaper. Kering Q3 presentation: 'reshaping of product and price architecture, with targeted adjustments to improve perceived value, led by Handbags'. Flag credited to Bernstein's Luca Solca."
+      },
+      {
+        "url": "https://openthemagazine.com/lifestyle/quick-take-why-is-gucci-cutting-prices-seven-things-to-know-about-luxury-fashions-pricing-reset",
+        "publisher": "Open Magazine",
+        "date": "2026-11-16",
+        "claim": "Padlock figures (about 30%, per Bernstein's Luca Solca); cuts reported by WSJ; LVMH has not announced a broad price-cutting strategy for Louis Vuitton."
+      },
+      {
+        "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008864176",
+        "publisher": "SBS (Korea, AI-translated)",
+        "date": "2026-11-26",
+        "claim": "'They said prices would never drop': Gucci, Boucheron, Van Cleef & Arpels cutting Korean prices; Gucci Mercato Small Tote 4.45M -> 3.5M won (~-21%); luxury department-store growth slowed from 40%+ (Q2) to ~10% (Oct); Prada CEO Andrea Guerra: 'The mere fact that pricing is being talked about means there is a problem.'"
+      },
+      {
+        "url": "https://fashionunited.com/news/business/kering-q3-revenue-remains-stable-as-jewelry-and-eyewear-offset-gucci-contraction/2026102375358",
+        "publisher": "FashionUnited",
+        "date": "2026-10-23",
+        "claim": "Gucci Q3 2026 revenue EUR 1.29bn, -4% reported, -6% comparable; retail -9% comparable. Luca de Meo: 'The recovery of Gucci remains our defining priority.'"
+      },
+      {
+        "url": "https://www.ideal-investisseur.fr/en/stock-news/hermes-growth-slowed-to-4-3-in-third-quarter-leather-goods-advance-by-10-8/27708.html",
+        "publisher": "Ideal Investisseur",
+        "date": "2026-10-22",
+        "claim": "Hermes Q3 2026 revenue +4.3% at constant rates to EUR 4,096m; leather goods and saddlery +10.8% to EUR 1,912m. (No price statement in this article.)"
+      }
+    ],
+    "music_mood": "dark",
+    "framing_note": "Type 1 (famous-brand move with public reaction), sparked 15-17 Nov (WSJ/Bernstein), Korea follow-up 26 Nov. Spine: (1) Hook: Gucci cut a bag 30%; in luxury that's a confession. (2) The bag: Padlock, EUR 3,500 in July, EUR 2,450 now (France) — the one number on screen is 30% (or the two prices as one comparison). (3) Nobody announced it; analysts and shoppers spotted it. Kering calls it 'targeted adjustments to improve perceived value'. (4) Luxury's unwritten rule: never get cheaper; the price is part of what you buy. (5) Two messages from one cut: 'buy now' to newcomers, 'you overpaid' to owners. (6) Louis Vuitton's owner, a year ago: 'We're not Coca-Cola.' Now it is discussing cuts (has NOT cut). (7) Hermès didn't cut; its leather goods grew 10.8% last quarter. (8) Lesson: before you discount, ask whether you have a price problem or a desire problem. A discount fixes the first, never the second. Rules: say 'reported' / 'analysts spotted', never 'Gucci announced'; 'some bags, shoes and clothes', never 'Gucci slashed all prices'; LV 'is discussing', never 'LV cut'; do not call it viral; do not put Bain customer numbers, '13 quarters' or share-price numbers on screen (not read at primary level). No AI-drawn Gucci, LV or Hermès logos, monograms or bag designs; real bag image or logo only from owner uploads (T-a, T-b), framed and credited; any price-tag mockup is blank + official logo per motion.md §9 and captioned as an editorial mockup. Not financial advice; no recommendation to buy or not buy. Distinct from 11-03/11-09/11-13 (price perception) — this is price as a brand signal. Never name the UAE, Dubai or any emirate.",
+    "image_requests": [
+      {
+        "id": "T-a",
+        "description": "عکس اصلی بالای مقاله (کیف گوچی؛ زیرنویس: A Gucci bag، منبع X) را ذخیره کن",
+        "page_url": "https://openthemagazine.com/lifestyle/quick-take-why-is-gucci-cutting-prices-seven-things-to-know-about-luxury-fashions-pricing-reset",
+        "scene_idea": "S2: 'this bag' — the real Gucci bag framed on a dark scene before the price drop appears"
+      },
+      {
+        "id": "T-b",
+        "description": "لوگوی رسمی GUCCI (نوشته‌ی سربرگ سایت؛ ترجیحاً PNG یا SVG با کیفیت، یا اسکرین‌شات تمیز از سربرگ)",
+        "page_url": "https://www.gucci.com/",
+        "scene_idea": "S3/S5: blank luxury price-tag mockup with the official wordmark, old price struck through (editorial mockup)"
+      }
+    ],
+    "object_plan": [
+      {
+        "object": "heavy padlock hanging from a price tag",
+        "line_idea": "Hook/cover: the Padlock bag got cheaper — a lock that no longer holds the price",
+        "reuse_path_or_new": "reuse padlock: assets/objects/2026-11-28/padlock.png + price_tag: assets/objects/2026-10-25/price_tag.png (composite)"
+      },
+      {
+        "object": "price tag with the old price struck through",
+        "line_idea": "EUR 3,500 in July, EUR 2,450 now: 30% less",
+        "reuse_path_or_new": "reuse: assets/objects/2026-10-25/price_tag.png (+ renderer strike-through fx)"
+      },
+      {
+        "object": "magnifier",
+        "line_idea": "Nobody announced it; analysts and shoppers spotted it",
+        "reuse_path_or_new": "reuse: assets/objects/2026-10-22/magnifier.png"
+      },
+      {
+        "object": "velvet ring box, closed",
+        "line_idea": "Luxury's unwritten rule: the price is part of what you buy",
+        "reuse_path_or_new": "new (ring box); or reuse ring: assets/objects/2026-10-29/ring.png"
+      },
+      {
+        "object": "balance scale tipping",
+        "line_idea": "One cut, two messages: 'buy now' for newcomers, 'you overpaid' for owners",
+        "reuse_path_or_new": "reuse: assets/objects/2026-10-22/scale.png"
+      },
+      {
+        "object": "receipt, crumpled",
+        "line_idea": "The person who bought it in July",
+        "reuse_path_or_new": "new (crumpled receipt)"
+      },
+      {
+        "object": "soda bottle, plain and unbranded (glass contour, no logo)",
+        "line_idea": "'We're not Coca-Cola' — LVMH's finance chief, a year ago",
+        "reuse_path_or_new": "new (unbranded glass soda bottle; never a Coca-Cola logo)"
+      },
+      {
+        "object": "megaphone lying silent",
+        "line_idea": "Now Louis Vuitton is discussing cuts — quietly",
+        "reuse_path_or_new": "reuse: assets/objects/2026-11-06/megaphone.png"
+      },
+      {
+        "object": "orange gift box with ribbon, untouched",
+        "line_idea": "Hermès didn't cut; its leather goods grew 10.8%",
+        "reuse_path_or_new": "new (plain orange box, no logo, no 'H')"
+      },
+      {
+        "object": "key",
+        "line_idea": "Price opens the door; desire is what makes people walk in",
+        "reuse_path_or_new": "reuse: assets/objects/2026-10-24/key.png"
+      },
+      {
+        "object": "eraser",
+        "line_idea": "A discount erases a price, not the reason people stopped wanting it",
+        "reuse_path_or_new": "reuse: assets/objects/2026-10-22/eraser.png"
+      },
+      {
+        "object": "padlock closed again (loop back to opener)",
+        "line_idea": "Close: price problem or desire problem? Write to me.",
+        "reuse_path_or_new": "reuse: assets/objects/2026-11-28/padlock.png (same key as opener)"
+      }
+    ]
+  }
+}
