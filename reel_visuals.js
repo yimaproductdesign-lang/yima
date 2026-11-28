@@ -63,6 +63,8 @@ function updateVis(s, u, dur) {
         case 'zoom': st.sc = .82 + .18 * p; st.op = p; break;
         case 'slide_r': st.x += (1 - p) * 900; break;
         case 'slide_l': st.x -= (1 - p) * 900; break;
+        case 'swing': st.rot += Math.sin(u * 3.2) * 9 * Math.exp(-.35 * u); st.y -= (1 - p) * 220; st.op = clamp((u - d) / .25); break;
+        case 'spin': st.rot += (1 - p) * -180; st.sc = .5 + .5 * p; st.op = p; break;
         case 'pop': st.sc = p < 1 ? .6 + .4 * p + .06 * Math.sin(Math.PI * p) : 1; st.op = clamp(p * 2); break;
         default: st.op = p;
       }
@@ -110,6 +112,76 @@ function scatter(n, box, seed) { // jittered grid positions inside box [x0,y0,x1
   return out;
 }
 const FXS = {
+  // big number counting up, optional bar that fills to the value (value/max); label under it
+  counter: {
+    init(f, C, dark) { this.f = f; this.C = C; const acc = f.acc ? (dark ? '#8FB8C4' : C.acc) : C.fg;
+      this.n = word('', f.x || 540, f.y || 1150, f.size || 190, acc, 800); this.n.style.letterSpacing = '-.02em';
+      if (f.label) this.l = word(f.label, f.x || 540, (f.y || 1150) + (f.size || 190) * .85, f.label_size || 52, dark ? '#C9D2D3' : C.fg, 500);
+      if (f.bar) { this.svg = document.createElementNS(NS, 'svg'); this.svg.setAttribute('viewBox', '0 0 1080 1920'); this.svg.setAttribute('class', 'fxsvg'); fx.appendChild(this.svg);
+        const [x0, x1, y] = f.bar, hh = f.bar_h || 22; this.track = el('rect', { x: x0, y: y - hh / 2, width: x1 - x0, height: hh, rx: hh / 2, fill: dark ? 'rgba(255,255,255,.14)' : 'rgba(41,46,50,.12)' }, this.svg);
+        this.fill = el('rect', { x: x0, y: y - hh / 2, width: 0, height: hh, rx: hh / 2, fill: acc }, this.svg); } },
+    update(u, dur, a) { const f = this.f, t0 = f.t || .3, p = easeIO(clamp((u - t0) / (f.dur || 1.4))), v = (f.from || 0) + ((f.to || 0) - (f.from || 0)) * p;
+      const pre = f.prefix || '', suf = f.suffix || '', txt = pre + (f.dec ? v.toFixed(f.dec) : f.comma ? Math.round(v).toLocaleString('en-US') : Math.round(v)) + suf;
+      this.n.textContent = txt; const q = ease(clamp((u - t0 + .2) / .4)); this.n.style.opacity = a * q;
+      const land = clamp((u - t0 - (f.dur || 1.4)) / .25), bump = land > 0 && land < 1 ? 1 + .08 * Math.sin(Math.PI * land) : 1;
+      this.n.style.transform = `translate(-50%,-50%) scale(${(.9 + .1 * q) * bump})`;
+      if (this.l) { const r = ease(clamp((u - t0 - .4) / .5)); this.l.style.opacity = a * r; this.l.style.transform = `translate(-50%,-50%) translateY(${(1 - r) * 16}px)`; }
+      if (this.fill) { const [x0, x1] = f.bar, rtl = document.documentElement.dir === 'rtl', w = (x1 - x0) * ((f.to || 0) / (f.max || 100)) * p;
+        this.fill.setAttribute('width', w); this.fill.setAttribute('x', rtl ? x1 - w : x0); this.track.setAttribute('opacity', a); this.fill.setAttribute('opacity', a); } }
+  },
+  // timeline: a rule draws across, dots pop in order with labels; the active item glows (chronology reads right-to-left in Persian)
+  timeline: {
+    init(f, C, dark) { this.f = f; this.svg = document.createElementNS(NS, 'svg'); this.svg.setAttribute('viewBox', '0 0 1080 1920'); this.svg.setAttribute('class', 'fxsvg'); fx.appendChild(this.svg);
+      const y = f.y || 1250, n = f.items.length, x0 = f.x0 || 150, x1 = f.x1 || 930, rtl = document.documentElement.dir === 'rtl', acc = dark ? '#8FB8C4' : C.acc;
+      this.xs = f.items.map((_, i) => { const x = x0 + (x1 - x0) * (n === 1 ? .5 : i / (n - 1)); return rtl ? 1080 - x : x; });
+      this.line = el('line', { x1: rtl ? x1 : x0, y1: y, x2: rtl ? x1 : x0, y2: y, stroke: C.fg, 'stroke-width': 4, opacity: .55 }, this.svg);
+      this.lx = [rtl ? 1080 - x0 : x0, rtl ? 1080 - x1 : x1];
+      this.ds = f.items.map((it, i) => { const act = i === f.active; return { act, c: el('circle', { cx: this.xs[i], cy: y, r: act ? 20 : 13, fill: act ? acc : C.fg, opacity: 0 }, this.svg),
+        h: act ? el('circle', { cx: this.xs[i], cy: y, r: 20, fill: 'none', stroke: acc, 'stroke-width': 3, opacity: 0 }, this.svg) : null,
+        w: word(it.label, this.xs[i], y + (i % 2 ? -78 : 78) * (f.stagger_y === false ? -1 : 1) * (f.flip ? -1 : 1), act ? (f.size || 50) * 1.2 : (f.size || 50), act ? acc : C.fg, act ? 800 : 500),
+        n: it.note ? word(it.note, this.xs[i], y + (i % 2 ? -140 : 140) * (f.flip ? -1 : 1), f.note_size || 38, dark ? '#C9D2D3' : C.fg, 400) : null }; });
+      this.y = y; },
+    update(u, dur, a) { const f = this.f, t0 = f.t || .2, span = f.span || Math.min(2.6, dur - 1.2), p = easeIO(clamp((u - t0) / span)), n = this.ds.length;
+      this.line.setAttribute('x2', this.lx[0] + (this.lx[1] - this.lx[0]) * p); this.line.setAttribute('opacity', .55 * a);
+      this.ds.forEach((d, i) => { const ti = t0 + span * (n === 1 ? 0 : i / (n - 1)) - .05, q = clamp((u - ti) / .35), b = backOut(q);
+        d.c.setAttribute('opacity', a * clamp(q * 2)); d.c.setAttribute('r', (d.act ? 20 : 13) * b);
+        d.w.style.opacity = a * ease(q); d.w.style.transform = `translate(-50%,-50%) translateY(${(1 - ease(q)) * 18}px)`;
+        if (d.n) { const r = ease(clamp((u - ti - .25) / .4)); d.n.style.opacity = a * r * .9; d.n.style.transform = 'translate(-50%,-50%)'; }
+        if (d.h) { const ph = ((u - ti) % 1.3) / 1.3; d.h.setAttribute('r', 20 + 46 * ph); d.h.setAttribute('opacity', q >= 1 ? a * (1 - ph) * .8 : 0); } }); }
+  },
+  // a word stamped onto the scene: drops from big scale, lands with a jolt inside a rough border (rejection, verdict)
+  slam: {
+    init(f, C, dark) { this.f = f; const col = f.color || (dark ? '#E9C9C3' : '#9B2C2C');
+      this.box = document.createElement('div'); this.box.className = 'fxw'; this.box.textContent = f.text; Object.assign(this.box.style, { left: (f.x || 540) + 'px', top: (f.y || 1200) + 'px', fontSize: (f.size || 120) + 'px', fontWeight: 800, color: col,
+        border: `${f.bw || 10}px solid ${col}`, borderRadius: '14px', padding: '.08em .32em .02em', letterSpacing: '.02em' }); fx.appendChild(this.box); },
+    update(u, dur, a) { const f = this.f, t0 = f.t || .5, k = clamp((u - t0) / .2), sc = k < 1 ? 2.6 - 1.6 * easeIn(k) : 1 + .05 * Math.exp(-8 * (u - t0 - .2)) * Math.sin((u - t0 - .2) * 40);
+      this.box.style.opacity = a * clamp(k * 3) * (f.op || .92); this.box.style.transform = `translate(-50%,-50%) rotate(${f.rot ?? -8}deg) scale(${sc})`; }
+  },
+  // a strip of film frames sliding through (cinema); frames can hold a short word each
+  filmstrip: {
+    init(f, C, dark) { this.f = f; this.svg = document.createElementNS(NS, 'svg'); this.svg.setAttribute('viewBox', '0 0 1080 1920'); this.svg.setAttribute('class', 'fxsvg'); fx.appendChild(this.svg);
+      const y = f.y || 1250, H = f.h || 300, fw = H * 1.25, n = 9; this.g = el('g', {}, this.svg); const ink = dark ? '#0E1A20' : '#1E2326', hole = dark ? '#3A4A52' : '#F3F0E9';
+      el('rect', { x: -fw * 2, y: y - H / 2, width: fw * (n + 4), height: H, fill: ink }, this.g);
+      for (let i = -2; i < n + 2; i++) { el('rect', { x: i * fw + fw * .08, y: y - H / 2 + H * .16, width: fw * .84, height: H * .68, rx: 8, fill: dark ? '#22343D' : '#3B4247' }, this.g);
+        for (let j = 0; j < 4; j++) { el('rect', { x: i * fw + j * fw / 4 + fw * .07, y: y - H / 2 + H * .04, width: fw * .1, height: H * .07, rx: 3, fill: hole }, this.g); el('rect', { x: i * fw + j * fw / 4 + fw * .07, y: y + H / 2 - H * .11, width: fw * .1, height: H * .07, rx: 3, fill: hole }, this.g); } }
+      this.fw = fw; this.ws = (f.words || []).map((t, i) => word(t, 0, y, f.size || 54, '#F3F0E9', 700)); },
+    update(u, dur, a) { const f = this.f, sp = f.speed || 120, off = -((u * sp) % this.fw) - this.fw * .5, rot = f.rot ?? -6, y = f.y || 1250;
+      this.g.setAttribute('transform', `rotate(${rot} 540 ${y}) translate(${off} 0)`); this.g.setAttribute('opacity', a * ease(clamp(u / .4)));
+      this.ws.forEach((w, i) => { const x = (i + 1) * this.fw + this.fw * .5 + off; const r = rot * Math.PI / 180; const X = 540 + (x - 540) * Math.cos(r), Y = y + (x - 540) * Math.sin(r);
+        w.style.left = X + 'px'; w.style.top = Y + 'px'; w.style.opacity = a * ease(clamp((u - .2 - i * .15) / .4)); w.style.transform = `translate(-50%,-50%) rotate(${rot}deg)`; }); }
+  },
+  // split comparison: two big values side by side with labels, a divider draws between (critics vs audience)
+  versus: {
+    init(f, C, dark) { this.f = f; const y = f.y || 1200, acc = dark ? '#8FB8C4' : C.acc, rtl = document.documentElement.dir === 'rtl', xa = rtl ? 790 : 290, xb = rtl ? 290 : 790;
+      this.svg = document.createElementNS(NS, 'svg'); this.svg.setAttribute('viewBox', '0 0 1080 1920'); this.svg.setAttribute('class', 'fxsvg'); fx.appendChild(this.svg);
+      this.div = el('line', { x1: 540, y1: y - 170, x2: 540, y2: y - 170, stroke: C.fg, 'stroke-width': 3, opacity: .5 }, this.svg);
+      this.A = { n: word('', xa, y, f.size || 170, C.fg, 800), l: word(f.a.label, xa, y + (f.size || 170) * .72, 54, C.fg, 500), v: f.a.value };
+      this.B = { n: word('', xb, y, f.size || 170, acc, 800), l: word(f.b.label, xb, y + (f.size || 170) * .72, 54, acc, 700), v: f.b.value }; this.y = y; this.suf = f.suffix || ''; },
+    update(u, dur, a) { const f = this.f, y = this.y, d = easeIO(clamp((u - .2) / .7)); this.div.setAttribute('y2', y - 170 + 380 * d); this.div.setAttribute('opacity', .5 * a);
+      [[this.A, f.ta || .5], [this.B, f.tb || 1.5]].forEach(([S, t0]) => { const p = easeIO(clamp((u - t0) / 1.0)), q = ease(clamp((u - t0) / .3));
+        S.n.textContent = Math.round(S.v * p) + this.suf; S.n.style.opacity = a * q; S.n.style.transform = `translate(-50%,-50%) scale(${.85 + .15 * backOut(clamp((u - t0) / .5))})`;
+        const r = ease(clamp((u - t0 - .5) / .4)); S.l.style.opacity = a * r; S.l.style.transform = `translate(-50%,-50%) translateY(${(1 - r) * 14}px)`; }); }
+  },
   // words of the topic as a visual. mode: fade (forgetting) | absorb (into target) | sift (fall, only keep stays) | lens (magnifier reveals) | pop (chaotic choices)
   words: {
     init(f, C, dark) {

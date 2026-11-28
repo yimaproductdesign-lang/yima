@@ -1,0 +1,749 @@
+{
+ "reel_id": "2026-11-28_EN",
+ "date": "2026-11-28",
+ "lang": "en",
+ "style": "editorial",
+ "motion": "v2",
+ "topic": "Hershey's founder refused to advertise; now his life is a film critics call product placement and audiences love",
+ "pillar": "brand_storytelling_content_marketing",
+ "format": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "audio": {
+  "mode": "generative",
+  "mood": "dark",
+  "drop_scene": "S8"
+ },
+ "cover": {
+  "bg": "graphite",
+  "kicker": "The secret behind Hershey's",
+  "title": [
+   "He refused ads.",
+   "Now he's *a film*."
+  ],
+  "objects": [
+   {
+    "src": "assets/objects/2026-10-25/chocolate_whole.png",
+    "x": 560,
+    "y": 1300,
+    "w": 600,
+    "rot": -8
+   },
+   {
+    "src": "assets/objects/2026-10-31/ticket.png",
+    "x": 520,
+    "y": 1220,
+    "w": 500,
+    "rot": 10
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "bg": "graphite",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.britannica.com/biography/Milton-Snavely-Hershey",
+     "publisher": "Britannica",
+     "event_date": "n/a",
+     "retrieved_at": "2026-11-27T21:00:00+04:00",
+     "claim": "Philadelphia shop failed; New York failed; fresh-milk caramels; sold caramel company 1900 for $1,000,000; grew despite his refusal to advertise."
+    },
+    {
+     "url": "https://www.marketingdive.com/news/how-hershey-strategized-its-brand-film-to-be-more-than-a-90-minute-ad/875365/",
+     "publisher": "Marketing Dive",
+     "event_date": "2026-11-25",
+     "retrieved_at": "2026-11-27T20:58:00+04:00",
+     "claim": "Hershey film in theaters 25 Nov; made with the Hershey entities; 'not ... a 90-minute commercial'."
+    }
+   ],
+   "motion_rationale": "بلیت سینما که روی شکلات می‌افتد = تناقض قلاب: مردی که تبلیغ نمی‌کرد، حالا مردم برای تبلیغش بلیت می‌خرند",
+   "lines": [
+    {
+     "text": "Hershey's founder refused to advertise.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "Now people buy *tickets* to watch his ad.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "objects": [
+    {
+     "key": "choc",
+     "src": "assets/objects/2026-10-25/chocolate_whole.png",
+     "x": 560,
+     "y": 1250,
+     "w": 640,
+     "rot": -8,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise"
+    },
+    {
+     "key": "ticket",
+     "src": "assets/objects/2026-10-31/ticket.png",
+     "x": 520,
+     "y": 1190,
+     "w": 590,
+     "rot": 10,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop",
+     "delay": 0.5,
+     "z": 2
+    }
+   ],
+   "spot_y": 1260,
+   "shake": [
+    0.75,
+    10
+   ]
+  },
+  {
+   "id": "S2",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.biography.com/business-leaders/milton-hershey",
+     "publisher": "Biography.com",
+     "event_date": "2026-11-24",
+     "retrieved_at": "2026-11-27T21:00:00+04:00",
+     "claim": "'Give them quality. That's the best kind of advertising in the world.'"
+    }
+   ],
+   "motion_rationale": "ترازو = «کیفیت» به‌جای فریاد؛ جمله‌ی خودش که کیفیت را بهترین تبلیغ می‌دانست",
+   "lines": [
+    {
+     "text": "His rule:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "“Give them quality. That's the best kind of *advertising*.”",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "objects": [
+    {
+     "key": "scale",
+     "src": "assets/objects/2026-10-22/scale.png",
+     "x": 540,
+     "y": 1250,
+     "w": 661,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "swing"
+    }
+   ],
+   "cam": {
+    "push": 0.06
+   }
+  },
+  {
+   "id": "S3",
+   "bg": "graphite",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.thehersheycompany.com/en_us/our-story/milton-hershey.html",
+     "publisher": "The Hershey Company",
+     "event_date": "n/a",
+     "retrieved_at": "2026-11-27T21:00:00+04:00",
+     "claim": "First two candy companies failed; first ended in bankruptcy."
+    },
+    {
+     "url": "https://www.britannica.com/biography/Milton-Snavely-Hershey",
+     "publisher": "Britannica",
+     "event_date": "n/a",
+     "retrieved_at": "2026-11-27T21:00:00+04:00",
+     "claim": "Philadelphia shop failed; New York failed; fresh-milk caramels; sold caramel company 1900 for $1,000,000; grew despite his refusal to advertise."
+    }
+   ],
+   "motion_rationale": "قفل سنگین که روی در مغازه تاب می‌خورد = ورشکستگی؛ لرزش دوربین لحظه‌ی سقوط است",
+   "lines": [
+    {
+     "text": "But before the chocolate,",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "he went *broke*.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "objects": [
+    {
+     "key": "lock",
+     "src": "assets/objects/2026-11-28/padlock.png",
+     "x": 540,
+     "y": 1240,
+     "w": 496,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "swing"
+    }
+   ],
+   "spot_y": 1270,
+   "shake": [
+    0.55,
+    14
+   ],
+   "wipe": "v"
+  },
+  {
+   "id": "S4",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.britannica.com/biography/Milton-Snavely-Hershey",
+     "publisher": "Britannica",
+     "event_date": "n/a",
+     "retrieved_at": "2026-11-27T21:00:00+04:00",
+     "claim": "Philadelphia shop failed; New York failed; fresh-milk caramels; sold caramel company 1900 for $1,000,000; grew despite his refusal to advertise."
+    },
+    {
+     "url": "https://www.thehersheycompany.com/en_us/our-story/milton-hershey.html",
+     "publisher": "The Hershey Company",
+     "event_date": "n/a",
+     "retrieved_at": "2026-11-27T21:00:00+04:00",
+     "claim": "First two candy companies failed; first ended in bankruptcy."
+    }
+   ],
+   "motion_rationale": "خط زمانی که نقطه‌به‌نقطه پیش می‌رود = دو شکست پشت سر هم، و نقطه‌ی سوم (لنکستر) که روشن می‌ماند",
+   "lines": [
+    {
+     "text": "His first candy shop failed.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "So did the *second*.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "fx": [
+    {
+     "type": "timeline",
+     "y": 1290,
+     "x0": 250,
+     "x1": 830,
+     "items": [
+      {
+       "label": "Philadelphia",
+       "note": "failed"
+      },
+      {
+       "label": "New York",
+       "note": "failed"
+      },
+      {
+       "label": "Lancaster",
+       "note": "caramels"
+      }
+     ],
+     "active": 2,
+     "t": 0.3,
+     "span": 2.2,
+     "size": 58,
+     "note_size": 44
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "bg": "graphite",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.britannica.com/biography/Milton-Snavely-Hershey",
+     "publisher": "Britannica",
+     "event_date": "n/a",
+     "retrieved_at": "2026-11-27T21:00:00+04:00",
+     "claim": "Philadelphia shop failed; New York failed; fresh-milk caramels; sold caramel company 1900 for $1,000,000; grew despite his refusal to advertise."
+    }
+   ],
+   "motion_rationale": "لیوان شیر (تک‌رنگ) = همان ایده‌ی ساده: کارامل با شیر تازه",
+   "lines": [
+    {
+     "text": "Then one simple idea:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "caramels made with *fresh milk*.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "objects": [
+    {
+     "key": "milk",
+     "src": "assets/objects/2026-10-24/juice_glass.png",
+     "x": 540,
+     "y": 1290,
+     "w": 300,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "rise",
+     "push": 0.08
+    }
+   ],
+   "spot_y": 1270
+  },
+  {
+   "id": "S6",
+   "bg": "paper",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.britannica.com/biography/Milton-Snavely-Hershey",
+     "publisher": "Britannica",
+     "event_date": "n/a",
+     "retrieved_at": "2026-11-27T21:00:00+04:00",
+     "claim": "Philadelphia shop failed; New York failed; fresh-milk caramels; sold caramel company 1900 for $1,000,000; grew despite his refusal to advertise."
+    }
+   ],
+   "motion_rationale": "شمارنده‌ای که تا یک میلیون دلار بالا می‌رود = فروش کارخانه‌ی کارامل در ۱۹۰۰ و شرط‌بندی روی شکلات",
+   "lines": [
+    {
+     "text": "He sold the caramel company",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "and bet it all on *chocolate*.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "fx": [
+    {
+     "type": "counter",
+     "x": 540,
+     "y": 1180,
+     "size": 170,
+     "acc": true,
+     "t": 0.4,
+     "dur": 1.5,
+     "bar": [
+      150,
+      930,
+      1420
+     ],
+     "max": 1000000,
+     "to": 1000000,
+     "prefix": "$",
+     "suffix": "",
+     "comma": true,
+     "label": "1900"
+    }
+   ],
+   "flash": false
+  },
+  {
+   "id": "S7",
+   "bg": "graphite",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.britannica.com/biography/Milton-Snavely-Hershey",
+     "publisher": "Britannica",
+     "event_date": "n/a",
+     "retrieved_at": "2026-11-27T21:00:00+04:00",
+     "claim": "Philadelphia shop failed; New York failed; fresh-milk caramels; sold caramel company 1900 for $1,000,000; grew despite his refusal to advertise."
+    }
+   ],
+   "motion_rationale": "شکلات رنگی در نور و بلندگوی خاموشِ وارونه در گوشه = شرکت بزرگ شد بی‌آن‌که فریاد بزند",
+   "lines": [
+    {
+     "text": "The company grew fast",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "while he *refused* to advertise.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "objects": [
+    {
+     "key": "choc",
+     "src": "assets/objects/2026-10-25/chocolate_gap.png",
+     "x": 540,
+     "y": 1250,
+     "w": 660,
+     "rot": 6,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "zoom"
+    },
+    {
+     "key": "mega",
+     "src": "assets/objects/2026-11-06/megaphone.png",
+     "x": 800,
+     "y": 1450,
+     "w": 354,
+     "rot": 160,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "fade",
+     "delay": 0.8,
+     "blur": [
+      0,
+      3,
+      1.2,
+      3
+     ]
+    }
+   ],
+   "spot_y": 1280
+  },
+  {
+   "id": "S8",
+   "bg": "primary",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.marketingdive.com/news/how-hershey-strategized-its-brand-film-to-be-more-than-a-90-minute-ad/875365/",
+     "publisher": "Marketing Dive",
+     "event_date": "2026-11-25",
+     "retrieved_at": "2026-11-27T20:58:00+04:00",
+     "claim": "Hershey film in theaters 25 Nov; made with the Hershey entities; 'not ... a 90-minute commercial'."
+    }
+   ],
+   "motion_rationale": "نوار فیلم که از قاب رد می‌شود (لحظه‌ی چرخش، drop) = زندگی او حالا روی پرده‌ی سینماست",
+   "lines": [
+    {
+     "text": "Now, over a century later,",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "his life is on the *big screen*.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "fx": [
+    {
+     "type": "filmstrip",
+     "y": 1270,
+     "h": 300,
+     "rot": -7,
+     "speed": 150,
+     "words": [
+      "1876",
+      "1900",
+      "2026"
+     ],
+     "size": 50
+    }
+   ],
+   "flash": true,
+   "shake": [
+    0.05,
+    8
+   ],
+   "wipe": "iris"
+  },
+  {
+   "id": "S9",
+   "bg": "paper",
+   "claim_type": "quote",
+   "evidence": [
+    {
+     "url": "https://www.rottentomatoes.com/m/hershey",
+     "publisher": "Rotten Tomatoes",
+     "event_date": "2026-11-27",
+     "retrieved_at": "2026-11-27T20:58:00+04:00",
+     "claim": "Tomatometer 17% (18 reviews), Popcornmeter 90% (100+ verified); THR: 'essentially serves as a feature-length product placement'."
+    }
+   ],
+   "motion_rationale": "مهر قرمز که روی صحنه کوبیده می‌شود = حکم منتقد: «تبلیغ»",
+   "lines": [
+    {
+     "text": "His company helped make it.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "One critic called it feature-length *product placement*.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "fx": [
+    {
+     "type": "slam",
+     "text": "AD?",
+     "x": 540,
+     "y": 1260,
+     "size": 150,
+     "t": 1.1,
+     "rot": -8
+    }
+   ],
+   "shake": [
+    1.25,
+    12
+   ]
+  },
+  {
+   "id": "S10",
+   "bg": "graphite",
+   "claim_type": "fact",
+   "evidence": [
+    {
+     "url": "https://www.rottentomatoes.com/m/hershey",
+     "publisher": "Rotten Tomatoes",
+     "event_date": "2026-11-27",
+     "retrieved_at": "2026-11-27T20:58:00+04:00",
+     "claim": "Tomatometer 17% (18 reviews), Popcornmeter 90% (100+ verified); THR: 'essentially serves as a feature-length product placement'."
+    }
+   ],
+   "motion_rationale": "دو عدد کنار هم که می‌شمارند = شکاف منتقد و تماشاگر؛ رنگ تأکید روی ۹۰",
+   "lines": [
+    {
+     "text": "Early scores:",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "Audiences *loved* it.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "fx": [
+    {
+     "type": "versus",
+     "y": 1230,
+     "size": 180,
+     "suffix": "%",
+     "a": {
+      "value": 17,
+      "label": "critics"
+     },
+     "b": {
+      "value": 90,
+      "label": "audiences"
+     },
+     "ta": 0.5,
+     "tb": 1.6
+    }
+   ],
+   "wipe": "v"
+  },
+  {
+   "id": "S11",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://www.rottentomatoes.com/m/hershey",
+     "publisher": "Rotten Tomatoes",
+     "event_date": "2026-11-27",
+     "retrieved_at": "2026-11-27T20:58:00+04:00",
+     "claim": "Tomatometer 17% (18 reviews), Popcornmeter 90% (100+ verified); THR: 'essentially serves as a feature-length product placement'."
+    }
+   ],
+   "motion_rationale": "بازگشت بلیت = از آگهی فرار می‌کنیم ولی برای داستان بلیت می‌خریم",
+   "lines": [
+    {
+     "text": "We skip ads.",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "We buy *tickets* for stories.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "objects": [
+    {
+     "key": "ticket",
+     "src": "assets/objects/2026-10-31/ticket.png",
+     "x": 540,
+     "y": 1240,
+     "w": 640,
+     "rot": -6,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-lite-image)",
+     "anim": "drop",
+     "float": 6
+    }
+   ],
+   "cam": {
+    "push": 0.07
+   }
+  },
+  {
+   "id": "S12",
+   "bg": "graphite",
+   "claim_type": "interpretation",
+   "evidence": [
+    {
+     "url": "https://www.thehersheycompany.com/en_us/our-story/milton-hershey.html",
+     "publisher": "The Hershey Company",
+     "event_date": "n/a",
+     "retrieved_at": "2026-11-27T21:00:00+04:00",
+     "claim": "First two candy companies failed; first ended in bankruptcy."
+    }
+   ],
+   "motion_rationale": "قفل ورشکستگی برمی‌گردد (بستن دایره با S3) = داستانی که می‌خریم همان شکست است",
+   "lines": [
+    {
+     "text": "And the story we pay for",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "is the *failure*, not the boast.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "objects": [
+    {
+     "key": "lock",
+     "src": "assets/objects/2026-11-28/padlock.png",
+     "x": 540,
+     "y": 1250,
+     "w": 519,
+     "credit": "AI-generated object (Figma, gemini-3.1-flash-image)",
+     "anim": "rise",
+     "tilt": -12,
+     "tilt_t": 1.2
+    }
+   ],
+   "spot_y": 1280
+  },
+  {
+   "id": "S13",
+   "bg": "paper",
+   "claim_type": "interpretation",
+   "evidence": [],
+   "motion_rationale": "ادعاهای تکراری (بهترین، شماره‌ی یک…) محو می‌شوند و فقط «اولین شکست» می‌ماند و بزرگ می‌شود = بهترین تبلیغ شاید همان چیزی باشد که پنهانش می‌کنید",
+   "lines": [
+    {
+     "text": "The failure you hide",
+     "kind": "b",
+     "dim": false
+    },
+    {
+     "text": "might be your best *ad*.",
+     "kind": "h",
+     "dim": false
+    }
+   ],
+   "fx": [
+    {
+     "type": "words",
+     "mode": "fade",
+     "words": [
+      "the best",
+      "No. 1",
+      "our first failure",
+      "unbeatable",
+      "premium"
+     ],
+     "keep": [
+      "our first failure"
+     ],
+     "keep_at": [
+      540,
+      1260
+     ],
+     "box": [
+      150,
+      1060,
+      930,
+      1470
+     ],
+     "size": 54,
+     "seed": 3,
+     "t0": 0.9
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "bg": "primary",
+   "claim_type": "interpretation",
+   "evidence": [],
+   "motion_rationale": "کارت پایانی",
+   "lines": [
+    {
+     "text": "Write to me.",
+     "kind": "b",
+     "dim": false
+    }
+   ],
+   "logo": true,
+   "txt_top": 1080
+  }
+ ],
+ "caption": "Hershey's founder refused to advertise. Now people buy cinema tickets to watch his ad.\n\nMilton Hershey's rule was simple: \"Give them quality. That's the best kind of advertising in the world.\" His company grew fast while he refused to advertise. But before the chocolate came failure: his first candy business in Philadelphia ended in bankruptcy, and a second attempt in New York failed too. Then fresh-milk caramels worked. In 1900 he sold the caramel company for $1 million and bet it all on chocolate.\n\nThis week a film about his life opened in cinemas, made in partnership with the Hershey entities. The Hollywood Reporter's critic called it \"feature-length product placement.\" Early scores: 17% from critics, 90% from audiences.\n\nMy take: we skip ads, but we pay for stories. And the story people pay for is rarely \"we're the best.\" It's the part where you went broke.\n\nLimits: the scores are early and small (18 reviews, 100+ audience ratings as of 27 Nov) and will move. I found no box office figures, and none of the sources I read name the film's budget or funder. \"Refused to advertise\" was his stance; the company still promoted itself in unusual ways, like a painted delivery car. Sources: Marketing Dive, Hershey's official blog and history, Rotten Tomatoes, Britannica, Biography.com. Objects in the reel are AI-generated.\n\nWhat failure is your brand hiding? Write to me.\n\n— Behnood Kavian",
+ "hashtags": [
+  "#branding",
+  "#marketing",
+  "#hersheys",
+  "#brandstorytelling"
+ ],
+ "sources": [
+  {
+   "publisher": "Marketing Dive",
+   "title": "How Hershey strategized its brand film to be more than a 90-minute ad",
+   "date": "2026-11-25",
+   "url": "https://www.marketingdive.com/news/how-hershey-strategized-its-brand-film-to-be-more-than-a-90-minute-ad/875365/"
+  },
+  {
+   "publisher": "The Hershey Company",
+   "title": "From Story to Screen: Bringing Milton Hershey's Legacy to New Generations",
+   "date": "2026-11",
+   "url": "https://www.thehersheycompany.com/en_us/home/newsroom/blog/from-story-to-screen-bringing-milton-hersheys-legacy-to-new-generations.html"
+  },
+  {
+   "publisher": "Rotten Tomatoes",
+   "title": "Hershey (2026)",
+   "date": "retrieved 2026-11-27",
+   "url": "https://www.rottentomatoes.com/m/hershey"
+  },
+  {
+   "publisher": "Encyclopaedia Britannica",
+   "title": "Milton Snavely Hershey",
+   "date": "retrieved 2026-11-27",
+   "url": "https://www.britannica.com/biography/Milton-Snavely-Hershey"
+  },
+  {
+   "publisher": "The Hershey Company",
+   "title": "Milton Hershey",
+   "date": "retrieved 2026-11-27",
+   "url": "https://www.thehersheycompany.com/en_us/our-story/milton-hershey.html"
+  },
+  {
+   "publisher": "Biography.com",
+   "title": "Milton Hershey",
+   "date": "2026-11-24",
+   "url": "https://www.biography.com/business-leaders/milton-hershey"
+  }
+ ],
+ "cta": "Write to me.",
+ "status": "DRAFT"
+}

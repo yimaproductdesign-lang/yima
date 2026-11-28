@@ -57,7 +57,8 @@ def schedule(reel):
         scenes.append({"id": sc["id"], "start": start, "end": end, "theme": THEME[sc["bg"]], "bg": sc["bg"], "lines": lines,
                        "txt_top": sc.get("txt_top", 330), "motif": sc.get("motif"), "logo": sc.get("logo", False), "image": sc.get("image"),
                        "objects": sc.get("objects"), "fx": sc.get("fx"), "style": sc.get("style", reel.get("style")), "spot_y": sc.get("spot_y"),
-                       "txt_align": sc.get("txt_align", "start"), "vo_dur": sc.get("vo_dur", 0)})
+                       "txt_align": sc.get("txt_align", "start"), "vo_dur": sc.get("vo_dur", 0),
+                       "shake": sc.get("shake"), "flash": sc.get("flash", False), "cam": sc.get("cam"), "wipe": sc.get("wipe")})
         prev_end = end
     tmax = (reel.get("target_s") or [40, 60])[1] - (0.4 if reel.get("cover") else 0)  # leave room for the 0.4 s hook cover
     total = scenes[-1]["end"] if scenes else 0
@@ -254,17 +255,53 @@ function build(si){
   if(window.buildVis)buildVis(s,si);
   if(s.image){imgwrap.style.display='block';bgimg.src=s.image.url;const h=C.bg,r=parseInt(h.slice(1,3),16),g=parseInt(h.slice(3,5),16),b=parseInt(h.slice(5,7),16),c=a=>`rgba(${r},${g},${b},${a})`;tint.style.background=`linear-gradient(180deg,${c(.9)} 0%,${c(.8)} 45%,${c(.6)} 70%,${c(.85)} 100%)`;}else{imgwrap.style.display='none';}
 }
+const cam=document.getElementById('cam'),wipe=document.getElementById('wipe'),wipe2=document.getElementById('wipe2'),flash=document.getElementById('flash'),grain=document.getElementById('grain');
+if(V2){stage.classList.add('v2');grain.style.display='block';}
+const easeIn=x=>x*x*x,backOut=x=>{const c=1.4;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
+const WT=.34; // wipe half-length (s)
+function wipeStyle(k,sc){return (sc&&sc.wipe)||['h','v','iris','h','v'][k%5];}
+function setWipe(p,phase,color,style){ // phase 'cover' p:0->1 panel grows; 'reveal' p:0->1 panel leaves
+  wipe.style.display=wipe2.style.display='block';wipe.style.background=color;wipe2.style.background='#356C7C';
+  const R=(phase==='cover'),q=p*100,lead=7;
+  if(style==='v'){ if(R){wipe.style.clipPath=`inset(${100-q}% 0 0 0)`;wipe2.style.clipPath=`inset(${Math.max(0,100-q-lead)}% 0 0 0)`;}
+                   else{wipe.style.clipPath=`inset(0 0 ${q}% 0)`;wipe2.style.clipPath=`inset(0 0 ${Math.max(0,q-lead)}% 0)`;wipe2.style.opacity=1-p;} }
+  else if(style==='iris'){ const r=R?1500*easeIn(p):0; if(R){wipe.style.clipPath=`circle(${1450*p}px at 540px 1150px)`;wipe2.style.clipPath=`circle(${1450*p+90}px at 540px 1150px)`;wipe2.style.opacity=1;}
+                   else{wipe.style.clipPath='none';wipe.style.opacity=1-p;wipe2.style.display='none';} }
+  else { const rtl=document.documentElement.dir==='rtl';
+    if(R){wipe.style.clipPath=rtl?`inset(0 ${100-q}% 0 0)`:`inset(0 0 0 ${100-q}%)`;wipe2.style.clipPath=rtl?`inset(0 ${Math.max(0,100-q-lead)}% 0 0)`:`inset(0 0 0 ${Math.max(0,100-q-lead)}%)`;}
+    else{wipe.style.clipPath=rtl?`inset(0 0 0 ${q}%)`:`inset(0 ${q}% 0 0)`;wipe2.style.clipPath=rtl?`inset(0 0 0 ${Math.max(0,q-lead)}%)`:`inset(0 ${Math.max(0,q-lead)}% 0 0)`;wipe2.style.opacity=1-p;} }
+  if(R){wipe.style.opacity=1;wipe2.style.opacity=1;}
+}
 function render(t){
   let si=SC.findIndex(s=>t>=s.start&&t<s.end);if(si<0)si=SC.length-1;
   if(si!==cur)build(si);
   const s=SC[si],u=t-s.start,dur=s.end-s.start;
-  words.forEach(e=>{const tw=parseFloat(e.dataset.t),p=ease(clamp((u-tw)/.42)),em=e.dataset.em==='1';
+  if(V2){
+    // camera: slow push + drift; extra push into the cut; settle after it; optional shake
+    const cp=s.cam||{},push=cp.push??.045,dx=cp.dx??0,dy=cp.dy??-14;let sc=1+push*easeIO(clamp(u/dur)),tx=dx*u/dur,ty=dy*u/dur;
+    const nx=SC[si+1],pv=SC[si-1],toEnd=s.end-t;
+    if(nx&&toEnd<WT)sc+=.07*easeIn(1-toEnd/WT);
+    if(pv&&u<WT)sc+=.06*(1-ease(u/WT));
+    if(s.shake){const [st,amp]=s.shake,k=u-st;if(k>0&&k<.6){const a=amp*Math.exp(-6*k);tx+=Math.sin(k*90)*a;ty+=Math.cos(k*77)*a*.7;}}
+    cam.style.transform=`translate(${tx}px,${ty}px) scale(${sc})`;
+    wipe.style.display=wipe2.style.display='none';wipe.style.opacity=1;wipe2.style.opacity=1;
+    if(nx&&toEnd<WT)setWipe(easeIn(1-toEnd/WT),'cover',nx.theme.bg,wipeStyle(si,s));
+    else if(pv&&u<WT)setWipe(ease(u/WT),'reveal',s.theme.bg,wipeStyle(si-1,pv));
+    const fl=s.flash?Math.max(0,1-u/.22)*.55:0;flash.style.display=fl>0?'block':'none';flash.style.opacity=fl;
+    const fr=Math.floor(t*15),h=Math.sin(fr*12.9898)*43758.5453;grain.style.backgroundPosition=`${Math.floor((h-Math.floor(h))*512)}px ${Math.floor(((h*7)%1+1)%1*512)}px`;
+    grain.style.opacity=s.bg==='paper'?.06:.09;
+    stage.style.setProperty('--mk',s.bg==='paper'?'rgba(53,108,124,.22)':'#356C7C');
+  }
+  words.forEach(e=>{if(V2){const tw=parseFloat(e.dataset.t),k=clamp((u-tw)/.38),p=ease(k),em=e.dataset.em==='1';
+    e.style.opacity=clamp(k*2.2);e.style.transform=`translateY(${(1-backOut(k))*0.55*parseFloat(e.style.fontSize)}px) rotate(${(1-p)*(document.documentElement.dir==='rtl'?-3:3)}deg)`;e.style.filter=k<1?`blur(${(1-p)*4}px)`:'';
+    if(em)e.style.setProperty('--u',ease(clamp((u-tw-.25)/.35)));return;}const tw=parseFloat(e.dataset.t),p=ease(clamp((u-tw)/.42)),em=e.dataset.em==='1';
     const pop=em?1+.10*Math.sin(Math.PI*clamp((u-tw)/.5)):1;
     e.style.opacity=p;e.style.transform=`translateY(${(1-p)*30}px) scale(${pop})`;e.style.filter=`blur(${(1-p)*10}px)`;
     if(em)e.style.setProperty('--u',ease(clamp((u-tw-.3)/.4)));});
   const fade=Math.min(1,u/.14)*Math.min(1,(s.end-t)/.14);
   const mf=Math.min(s.m_in?Math.min(1,u/.14):1,s.m_out?Math.min(1,(s.end-t)/.14):1);
-  txt.style.opacity=fade;svg.style.opacity=mf;logo.style.opacity=fade;imgwrap.style.opacity=fade;
+  if(V2){const fi=SC[si-1]?1:Math.min(1,u/.14),fo=SC[si+1]?1:Math.min(1,(s.end-t)/.14);txt.style.opacity=fi*fo;svg.style.opacity=1;logo.style.opacity=fi*fo;imgwrap.style.opacity=1;}
+  else{txt.style.opacity=fade;svg.style.opacity=mf;logo.style.opacity=fade;imgwrap.style.opacity=fade;}
   if(s.image){bgimg.style.transform=`scale(${1+.08*u/dur})`;}
   if(window.updateVis)updateVis(s,u,dur);
   if(M)M.update(t-s.mstart,dur);
@@ -280,7 +317,7 @@ window.measure=function(){return {fit:window.__fit,words:words.map(e=>{const b=e
 VIS_JS = (ROOT / "reel_visuals.js").read_text(encoding="utf8")
 
 
-def page_html(scenes, lang="fa"):
+def page_html(scenes, lang="fa", v2=False):
     for s in scenes:
         s["theme"] = dict(s["theme"], logo_url=(ROOT / CFG["logo"]["files"][s["theme"]["logo"]]["path"]).as_uri())
         if s.get("image"):
@@ -313,6 +350,11 @@ html,body{{width:{W}px;height:{H}px;overflow:hidden;background:#000}}
 .fxlens{{position:absolute;filter:drop-shadow(0 30px 30px rgba(0,0,0,.3))}}
 .card{{position:absolute;width:300px;height:420px;border-radius:22px;box-shadow:0 30px 50px rgba(0,0,0,.25)}}
 #motif{{position:absolute;inset:0;width:{W}px;height:{H}px}}
+#cam{{position:absolute;inset:0;transform-origin:540px 1150px;will-change:transform}}
+#wipe,#wipe2,#flash{{position:absolute;inset:0;z-index:6;display:none;pointer-events:none}}#wipe2{{z-index:5}}#flash{{z-index:7;background:#fff}}
+#grain{{position:absolute;inset:-40px;z-index:8;pointer-events:none;display:none;background-image:url('{(ROOT / "assets/fx/grain.png").as_uri()}');mix-blend-mode:overlay}}
+.v2 .em::after{{bottom:6%;height:30%;border-radius:3px;z-index:-1;opacity:.9;background:var(--mk)}}
+.v2 .w.em{{z-index:0}}
 #txt{{position:absolute;left:{SAFE['x0']}px;right:{W - SAFE['x1']}px;top:330px;display:flex;flex-direction:column;align-items:center;gap:34px;direction:{DIR};text-align:center}}
 .ln{{display:flex;flex-wrap:wrap;justify-content:center;gap:0 .36em;line-height:1.4}}
 #txt.justify{{left:96px;right:96px;gap:22px}}
@@ -322,8 +364,8 @@ html,body{{width:{W}px;height:{H}px;overflow:hidden;background:#000}}
 .em::after{{content:'';position:absolute;right:0;left:0;bottom:-2px;height:7px;border-radius:4px;background:var(--ac);transform:scaleX(var(--u,0));transform-origin:{ORIG}}}
 #logo{{position:absolute;left:50%;top:760px;height:420px;width:auto;transform:translate(-50%,-50%);display:none}}
 #sig{{position:absolute;left:0;right:0;top:1380px;text-align:center;font-weight:500;font-size:56px;letter-spacing:.02em;display:none;direction:{DIR}}}
-</style></head><body><div id="stage"><div id="bgfx"></div><div id="imgwrap"><img id="bgimg"><div id="tint"></div></div><svg id="motif" viewBox="0 0 {W} {H}"></svg><div id="objlayer"></div><div id="fx"></div><div id="txt"></div><img id="logo"><div id="sig"></div></div>
-<script>const FAM='{FAM}';const SC={json.dumps(scenes, ensure_ascii=False)};const SAFE_TXT_H={txt_h};const SIG={json.dumps(CFG['signature']['text'] if lang == 'fa' else CFG['signature']['text_en'], ensure_ascii=False)};{JS}</script><script>{VIS_JS}</script></body></html>"""
+</style></head><body><div id="stage"><div id="cam"><div id="bgfx"></div><div id="imgwrap"><img id="bgimg"><div id="tint"></div></div><svg id="motif" viewBox="0 0 {W} {H}"></svg><div id="objlayer"></div><div id="fx"></div></div><div id="txt"></div><img id="logo"><div id="sig"></div><div id="wipe2"></div><div id="wipe"></div><div id="flash"></div><div id="grain"></div></div>
+<script>const V2={'true' if v2 else 'false'};const FAM='{FAM}';const SC={json.dumps(scenes, ensure_ascii=False)};const SAFE_TXT_H={txt_h};const SIG={json.dumps(CFG['signature']['text'] if lang == 'fa' else CFG['signature']['text_en'], ensure_ascii=False)};{JS}</script><script>{VIS_JS}</script></body></html>"""
 
 
 def main(reel_path, out_dir):
@@ -335,7 +377,7 @@ def main(reel_path, out_dir):
     clips, vstatus = reel_voice.prepare(reel, pathlib.Path(out_dir).resolve())
     scenes = schedule(reel)
     total = scenes[-1]["end"]
-    html = page_html(json.loads(json.dumps(scenes)), reel.get("lang", "fa"))
+    html = page_html(json.loads(json.dumps(scenes)), reel.get("lang", "fa"), reel.get("motion") == "v2")
     (out / "reel.html").write_text(html, encoding="utf8")
     metrics = {"fps": FPS, "size": [W, H], "safe": SAFE, "duration": total, "scenes": []}
     n = int(round(total * FPS))
@@ -360,7 +402,7 @@ def main(reel_path, out_dir):
     reel_voice.mix(out / "audio.wav", scenes, clips)
     mp4 = out / f"{reel['reel_id']}.mp4"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-framerate", str(FPS), "-i", str(out / "frames" / "%05d.jpg"), "-i", str(out / "audio.wav"),
-                    "-c:v", "libx264", "-preset", "medium", "-crf", "17", "-pix_fmt", "yuv420p", "-r", str(FPS), "-c:a", "aac", "-b:a", "192k",
+                    "-c:v", "libx264", "-preset", "medium", "-crf", "21" if reel.get("motion") == "v2" else "17", "-maxrate", "14M", "-bufsize", "28M", "-pix_fmt", "yuv420p", "-r", str(FPS), "-c:a", "aac", "-b:a", "192k",
                     "-movflags", "+faststart", "-shortest", str(mp4)], check=True)
     shutil.rmtree(out / "frames")
     print("rendered", mp4, f"{total:.1f}s", mp4.stat().st_size // 1024, "KB")
